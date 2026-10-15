@@ -1,0 +1,17 @@
+{
+  "command": "init-reference",
+  "status": "PASS",
+  "referenceId": "ration-home-decor-ecommerce-png",
+  "referenceBrandName": "Ration",
+  "productFamily": "home decor ecommerce website template",
+  "niche": "home decor ecommerce",
+  "sourcePath": "",
+  "sourceType": "png",
+  "registryUpdated": true,
+  "dryRun": false,
+  "warnings": [],
+  "blockingReasons": [],
+  "nextAction": "Reference registered.",
+  "recordedAt": "2026-06-01T13:29:44.639894+00:00",
+  "receiptPath": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\receipts\\reference-usage\\ration-home-decor-ecommerce-png-init-20260601T132700Z.json"
+}

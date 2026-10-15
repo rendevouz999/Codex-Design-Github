@@ -1,0 +1,205 @@
+Unreleased: consolidate presentation design, native PPTX and web decks into one internally owned capability; adopt selected PPT Master code/resources with attribution, remove external-engine requirement, and fix native-data style preservation. Validation scope is recorded in the capability provenance.
+
+# Brain Design Changelog
+
+## Unreleased — Claude account plugin package (2026-10-15)
+
+- Added `scripts/design_brain_build_claude_plugin.py`: builds `exports/codex-design.plugin` for Claude's Customize > Plugins upload from the public-core export rules plus `agents/`, `capabilities/` and `PRESENTATION_TEMPLATE_GUIDE.md`, and refuses packages over 5,000 files or 200 MB unpacked.
+- The icon library ships in that package as `skills/presentation-deck/resources/icons.tar.gz`; `hooks/brain-design-activate.mjs` restores it in place at SessionStart (no-op in the source tree). SessionStart hook timeout raised from 5 s to 30 s for that first unpack.
+- The activation block now tells every session to read `PRESENTATION_TEMPLATE_GUIDE.md` before presentation design template work.
+- Live memory secrets under `.design-brain/local-memory/` stay out of the package.
+- `create_zip` in `scripts/design_brain_export_package.py` now clamps pre-1980 file times (`strict_timestamps=False`); the bundled Design Craft CSVs are dated 1979-12-31 UTC and failed zipping on UTC hosts.
+
+## Unreleased — Native PPTX integration (2026-10-12)
+
+- Added a presentation-deck skill and Brain Design workflow adapted from PPT Master 6.7.0.
+- Added a pinned external-engine adapter with diagnostics, native export, source-preserving editing, quality checks, and operation receipts.
+- Distinguished explicit PowerPoint animation from browser-deck intent across routing surfaces.
+- Preserved upstream attribution and external dependency boundaries; private engine configuration is excluded from packages.
+- Added integration smoke coverage for native editability, stale validation, round-trip preservation, and packaging boundaries.
+
+## Current Version
+
+- version: 2.8.0
+- package name: codex-design-brain
+- date: 2026-10-10
+- status: active, audited in `reports/brain-design-full-system-audit/`
+
+## Relationship To Existing History
+
+This root changelog is a user-facing tracking ledger created by the full-system audit. It does not replace `.design-brain/MIGRATION_LOG.md`; the migration log remains the chronological source for detailed upgrade operations.
+
+## Feature Timeline
+
+### v2.8.0 - Web Deck Medium + Activation Layer
+
+- added: Web Deck medium for browser-rendered decks, with `web_deck`, `html_deck`, `browser_presentation`, `animated_slides`, and `web_slides` medium strings.
+- added: Web Deck Intelligence, Stage Gate, Motion Grammar, Delivery Contract, and Deck Source Bridge knowledge files.
+- added: `.design-brain/web-deck/` runtime kit with the `design-brain.web-deck.deck-plan.v1` plan schema, stage stylesheet, and dependency-free deck runtime.
+- added: `deck-motion` and `web-deck-stage-fidelity` craft axes, `web-deck` seed pack, `motion-stage` direction pack, and Web Deck receipt template.
+- added: Node ESM web deck tool chain for plan, audit, render review, deck source extraction, and smoke coverage.
+- added: Claude Code activation layer with plugin and marketplace manifests, router and web deck skills, and session-start plus prompt-submit hooks.
+- added: `/design-web-deck` command and `web_deck_tool` runtime tool at the `plan_only` permission tier.
+- changed: runtime and motion vocabulary is legal for the web-deck mode while the static presentation mode keeps the Non-Web Mode Rule.
+- fixed: package integrity never cross-checked the section-layout mandatory list against `managed_files` and `mandatory_files`, so a missing section-layout path could pass release checks.
+- fixed: package integrity carried the previous release ZIP filename instead of `brain-design-v2.8.0-web-deck-medium.zip`.
+- policy: only explicit web-deck intent routes to `web-deck`; plain presentation, deck, slides, PowerPoint, or Keynote requests still route to `presentation-deck`.
+- policy: web deck decks are authored on a fixed 1920x1080 stage, scaled uniformly, and must ship reduced-motion plus print behavior.
+
+### v2.7.0 - Section Layout Extraction, Hyper-Accuracy, and Matching Gate
+
+- added: Section Layout Extraction Library as section-level layout vocabulary, not reusable page scaffold.
+- added: Section Layout Hyper-Accuracy Gate for stable pattern promotion.
+- added: Section Layout Matching Gate with exploratory dedupe statuses: `DUPLICATE`, `NEAR_DUPLICATE`, `VARIANT`, and `NEW_PATTERN`.
+- added: structural signatures, match scores, match groups, duplicate/variant lineage, matching evidence, and dedupe decisions to the pattern schema.
+- added: `match` CLI plus smoke coverage for exact duplicates, near duplicates, variants, new patterns, and duplicate stable validation.
+- changed: layout fingerprint/audit tracks `sectionPatternMix`, density limits, divergence notes, and `sectionPatternMixSimilarity`.
+- policy: exact duplicates are blocked into match receipts, near duplicates require review, variants require `variantOf`, and stable promotion still requires Hyper-Accuracy PASS.
+
+### v2.6.3 - Worker Exit Finalization + Supervisor Watchdog
+
+- fixed: process smoke worker done-but-not-exited hang.
+- added: worker hard-exit mode for supervisor-managed worker subprocesses.
+- added: supervisor detection for done status without process exit.
+- added: parent-side watchdog for per-worker timeout and cleanup deadline.
+- changed: export preflight process smoke uses repeat 5 by default.
+- preserved: Design Agent Runtime, Design Cognition, Simulation, Sequential Layout, Post-Build, and Design Craft bridge.
+
+### v2.6.2 - Supervisor Hard Timeout Isolation
+
+- fixed: process smoke supervisor hard-timeout behavior.
+- fixed: supervisor no longer uses `run_command()` or `kill_process_tree()` to terminate hung workers.
+- added: supervisor-native hard kill implementation with bounded taskkill/procfs/parent kill fallbacks.
+- added: isolated worker process group/session for supervisor worker subprocesses only.
+- added: worker heartbeat/status evidence for timeout diagnostics.
+- preserved: Design Agent Runtime, Design Cognition, Simulation, Sequential Layout, Post-Build, and Design Craft bridge.
+
+### v2.6.1 - Independent Process Smoke Supervisor Fix
+
+- fixed: process-utils smoke supervisor no longer uses `run_command()` to launch worker iterations.
+- added: independent worker subprocess runner with temp stdout/stderr files, polling timeout, bounded process-tree kill, and no `PIPE`/`communicate()`.
+- added: supervisor-to-worker Python invocation handoff with resolved executable, flags, mode, source, and probe-skip environment variables.
+- added: stability-pass Python invocation probing for the supervisor-selected runtime.
+- preserved: Design Cognition Contract, Design Simulation Layer, Post-Build Completion Gate, Sequential Layout Originality Gate, Design Agent Runtime, and Design Craft support adapter.
+
+### v2.6.0 - Design Agent Runtime
+
+- added: Claude-Code-style pattern adaptation as Brain Design-native runtime architecture.
+- added: runtime command registry, tool registry, permission modes, hooks, session state, repair tickets, doctor/status, and context compaction.
+- added: existing gates wrapped as runtime tools without replacing old workflow.
+- added: runtime smoke test and craft adapter bridge smoke test.
+- added: Design Craft v0.3.0 Craft Tool Adapter with Brain Design compatibility input, craft result schema, override blocking, and adapter smoke test.
+- note: Claude Code ZIP was used only for architecture study; no source was copied or bundled.
+- note: runtime is CLI/JSON/receipt-based, no React UI.
+
+### 2026-05-30 - Total Integration Stabilization + Workspace Cleanup
+
+- patched: Build Session Lifecycle now has `verify-final` for final readiness proof after `finalize`.
+- patched: post-build audit requires completion receipt by default for template-like final audits, with explicit diagnostic escape hatches that cannot claim full READY.
+- patched: design system receipts now distinguish structural completeness from artifact evidence, so receipt-only proof cannot silently become final READY.
+- patched: layout similarity audit now reports hard fail axes, soft risk axes, structure-defining similarity, visual-language similarity, and scaffold risk separately.
+- added: Design Craft Non-Override Contract and wired it into source-of-truth, autoload, craft README, design-critic skill, installer, manifest, and package integrity.
+- patched: manifest and installer no longer require generated-only `context-packets`, `reviews`, or `visual-reviews` README files after source cleanup.
+- cleaned: `downloads/MiroFish` moved outside active workspace to `<CODEX_DESIGN_WORKSPACE>-Archive\external-sources\MiroFish-20260530-203009`.
+- cleaned: 308 backup/temp snapshot files moved outside active source to `<CODEX_DESIGN_WORKSPACE>-Archive\brain-design-backups\bak-files-20260530-203106`.
+- cleaned: 31 generated evidence/history items moved outside active source to `<CODEX_DESIGN_WORKSPACE>-Archive\brain-design-generated-evidence\evidence-20260530-203106`.
+- note: no ZIP export and no version bump were performed for this stabilization.
+
+### v2.5.0 - Sequential Layout Originality Gate + Build Session Lifecycle
+
+- added: build-session lifecycle ledger, Sequential Layout Originality Gate, reference-vs-AI audit, AI-vs-AI pairwise audit, fingerprint locking, axis-based layout scoring, idea recovery corpus config, layout smoke tests.
+- changed: design simulation, post-build audit, batch similarity audit, package integrity, export, manifest, README/public notes/docs now know layout lifecycle files.
+- fixed: batch similarity now uses axis-based layout audit rather than weaker aggregate-only judgement.
+- removed: none.
+- deprecated: none, but old backups/generated files are cleanup candidates.
+- known issues: lifecycle proof depends on actual build sessions registering stages; visual similarity still benefits from screenshot/Figma inspection.
+
+### v2.4.6 - Python Child Invocation Policy Fix
+
+- added: Python invocation policy resolving executable and flags together.
+- fixed: resolver no longer probes with `-I -S` and then runs plain Python; supports fallback to `-S`.
+- known issues: runtime checks are robust, but still need bounded tests in release flows.
+
+### v2.4.1-v2.4.5 - Cognition Enforcement + Runtime Stabilization
+
+- added/fixed: cognition hard gate, JSON receipt template, fake PASS rejection, post-build `--require-cognition`, temp-file subprocess runner, worker/supervisor process smoke, deterministic process tree kill tests.
+- known issues: no current critical runtime issue found in static audit.
+
+### v2.4.0 - Design Cognition Contract
+
+- added: 10-step cognition contract.
+- known issues: receipt proves reasoning, not rendered output.
+
+### v2.3.0 - Post-Build Design System & Triple Audit Gate
+
+- added: mandatory design system build, post-build triple audit, batch pairwise similarity, source hygiene receipt, visual/layout QA receipt, repair loop, completion receipt.
+- known issues: visual verification is limited without screenshot/render/Figma inspection.
+
+### v2.2.x - Design Simulation Layer + Runtime Reliability
+
+- added: MiroFish-style Brain-native simulation, router alignment, marketplace route guard, runtime process smoke, process tree kill, quick/full simulation smoke.
+- fixed: marketplace wording no longer routes template marketplace to ecommerce.
+
+### v2.1.x and earlier
+
+- added: public-core package export/integrity, website routing fixes, source-of-truth map, reference corpus config, package installability, Design Brain v2 framework and PowerPoint/deck tooling.
+
+## Active Features
+
+- Natural intent router / product-medium detection (active)
+- Autoload policy (active)
+- Source of truth map (active)
+- Reference insight system (active)
+- Design Cognition Contract (active)
+- Template orchestration (active)
+- Design Simulation Layer (active)
+- Sequential Layout Originality Gate (active)
+- Section Layout Extraction Library / Matching Gate / Hyper-Accuracy Gate (active)
+- Web Deck medium / stage gate / motion grammar / delivery contract (active)
+- Claude Code activation layer: plugin, skills, hooks (active)
+- Build Session Lifecycle (active)
+- Post-Build Completion Gate (active)
+- Design System Build Requirement (active)
+- Batch pairwise similarity audit (active)
+- Figma auto-layout enforcement (partial)
+- Marketplace quality gate (active)
+- Visual review workflow (partial)
+- Design Craft support layer (non-override support)
+- TypeUI style ingestion/selection (partial)
+- PPTX/deck intelligence (active)
+- Reflection and learning loop (active)
+- Installer/export/package integrity (active)
+- Module selector / seed packs (active)
+- Naming ledger/originality score (active)
+- External corpus indexing (partial)
+
+## Fixed Bugs
+
+- Fake status-only cognition receipts are rejected.
+- Missing cognition blocks reference-led/template simulation.
+- Marketplace-ready wording no longer routes to ecommerce by itself.
+- Runtime process smoke uses bounded tempfile/polling runner and worker supervisor.
+- Public-core ZIP excludes backups, pycache, env, TypeUI-managed files, local corpus, and nested exports.
+- Sequential layout smoke blocks reference clones and AI-vs-AI scaffold reuse.
+
+## Open Bugs / Known Issues
+
+- Lifecycle ledger is strong and now has `verify-final`; real build workflows must still call it consistently.
+- Design system checker validates receipts and artifact evidence fields; full visual proof still requires screenshot/render/Figma inspection.
+- Visual QA may be source heuristic only if no render/screenshot/Figma inspection is available.
+- Source cleanup moved `.bak-*` snapshots, old generated evidence, and `downloads/MiroFish` outside active workspace; future local downloads should stay outside package source scope.
+
+## Deprecated / Candidate For Removal
+
+See `reports/brain-design-full-system-audit/ORPHAN_FILE_AUDIT.md` and `orphan-file-audit.json`.
+
+## Orphan / Unlinked Candidates
+
+Primary remaining candidates: TypeUI-derived local support files and old helper scripts. Do not delete without explicit confirmation.
+
+## Next Patch Candidates
+
+1. Automatic build-session lifecycle wrapper for real template builders.
+2. Artifact-level Figma/design-system proof collector.
+3. Optional screenshot/render proof collector for visual READY.
+4. Human-approved cleanup of any remaining local-only TypeUI support files.

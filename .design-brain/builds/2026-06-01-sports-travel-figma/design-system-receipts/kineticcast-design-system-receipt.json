@@ -1,0 +1,131 @@
+{
+  "status": "PASS",
+  "templateId": "kineticcast-sports-streaming",
+  "templateName": "KineticCast",
+  "productFamily": "sports streaming website template",
+  "designSystemScope": "Separate physical Figma design-system board for KineticCast only, documenting dark broadcast tokens, homepage modules, media placeholders, component states, and editable source hygiene.",
+  "figma": {
+    "fileKey": "NKUSNIlbSnELDZmKkEIMrG",
+    "fileUrl": "https://www.figma.com/design/NKUSNIlbSnELDZmKkEIMrG",
+    "homepageFrameId": "2:2",
+    "designSystemFrameId": "8:2",
+    "homepagePage": "01 KineticCast - Homepage",
+    "designSystemPage": "01 KineticCast - Design System"
+  },
+  "colorTokens": {
+    "background": "#0F0D0E",
+    "surface": "#171113",
+    "surfaceElevated": "#211619",
+    "textPrimary": "#FFFFFF",
+    "textSecondary": "#D8CECB",
+    "textMuted": "#8C7C79",
+    "accent": "#F6B14A",
+    "action": "#FF3E46",
+    "border": "#3A2428"
+  },
+  "typographyTokens": {
+    "display": "Inter 72/0, Extra Bold, tight broadcast hero",
+    "h1": "Inter 56/0, Extra Bold, dark editorial headline",
+    "h2": "Inter 42/0, Bold, section command title",
+    "h3": "Inter 24/0, Semi Bold, module title",
+    "body": "Inter 18/0, Regular, readable dark-mode paragraph",
+    "bodySmall": "Inter 14/0, Regular, support copy and metadata",
+    "label": "Inter 12/0, Semi Bold uppercase, signal and status chips",
+    "button": "Inter 15/0, Semi Bold, urgent broadcast action",
+    "nav": "Inter 14/0, Medium, compact streaming navigation"
+  },
+  "spacingTokens": {
+    "scale": "4, 8, 12, 16, 20, 24, 32, 48, 64, 80, 112",
+    "sectionY": "96 desktop section rhythm with dense console sections using 72",
+    "componentPadding": "16 small controls, 24 cards, 32 broadcast panels",
+    "cardGap": "18 event rows, 24 cards, 32 large proof modules",
+    "gridGap": "24 standard grids, 32 editorial replay grid",
+    "container": "1200 content width inside 1440 homepage frame"
+  },
+  "components": [
+    "header navigation with trial button and streaming quality chip",
+    "button primary, secondary, ghost, icon CTA, disabled state",
+    "card event stream, sport category, replay article, analytics proof, fan room, pricing pass",
+    "cta final broadcast command strip",
+    "footer column system",
+    "image placeholder: live stream hero screen",
+    "image placeholder: replay thumbnail",
+    "image placeholder: analytics chart panel",
+    "profile photo placeholder: fan watch party avatar"
+  ],
+  "states": [
+    "default",
+    "hover",
+    "focus",
+    "active",
+    "disabled"
+  ],
+  "componentAnatomy": {
+    "navigation header": "logo mark, navigation links, status chip, trial button, mobile-safe spacing",
+    "button": "label, optional icon zone, action fill, border focus ring, disabled contrast state",
+    "card": "surface, border, title, metadata row, placeholder/media zone, CTA or metric footer",
+    "cta": "headline, supporting copy, primary action, secondary proof cue, red command surface",
+    "footer": "brand block, link columns, support copy, legal row",
+    "placeholder": "visible text clue naming the media purpose; no generated final imagery embedded"
+  },
+  "patternModules": [
+    "broadcast command hero with editable console placeholder",
+    "signal rail proof strip",
+    "live arena room with event rows",
+    "sports discovery card grid",
+    "schedule hub rows",
+    "replay and highlights studio",
+    "analytics proof band",
+    "fan watch party modules",
+    "pricing pass cards",
+    "FAQ and final CTA closure"
+  ],
+  "usageRules": [
+    "Use action red only for conversion, live-status emphasis, and critical selected states.",
+    "Keep dark surfaces layered with borders and inset panels rather than flat black blocks.",
+    "All image zones stay editable text placeholders in the source template.",
+    "Do not reuse this broadcast-console hero grammar for the travel template.",
+    "Major sections, cards, rows, CTA groups, and design-system modules use real auto-layout."
+  ],
+  "surfaceEffectTokens": {
+    "panelShadow": "soft dark shadow under raised broadcast surfaces",
+    "focusRing": "red hairline outline for selected or interactive zones",
+    "proofGlow": "subtle warm amber emphasis only for proof metrics",
+    "borderDepth": "low-contrast oxblood borders to separate nested console surfaces"
+  },
+  "placeholderRules": {
+    "media": "Use `image placeholder: [purpose]` inside stream, replay, chart, and app-preview areas.",
+    "people": "Use `profile photo placeholder: [role]` for fan or host avatars.",
+    "charts": "Use chart placeholder labels and simple editable line hints.",
+    "restriction": "No final generated photos are embedded unless explicitly requested."
+  },
+  "sourceHygiene": {
+    "autoLayout": true,
+    "editableText": true,
+    "editablePlaceholders": true,
+    "clearLayerNames": true,
+    "reusableComponents": true,
+    "responsiveConstraints": true,
+    "flattenedImportantContent": false,
+    "notes": "Homepage and design-system frames use named section layers and modular auto-layout; decorative depth is isolated from editable content."
+  },
+  "artifactEvidence": {
+    "designSystemPageId": "8:2",
+    "screenshotPath": ".design-brain/screenshots/kineticcast-design-system-final.png",
+    "renderPath": ".design-brain/screenshots/kineticcast-homepage-repaired.png",
+    "componentInventory": [
+      "header navigation",
+      "stream console card",
+      "event row card",
+      "replay article card",
+      "analytics proof panel",
+      "fan room card",
+      "pricing pass card",
+      "FAQ row",
+      "CTA strip",
+      "footer columns",
+      "placeholder modules"
+    ],
+    "tokenSourcePath": ".design-brain/builds/2026-06-01-sports-travel-figma/kineticcast-design-system-receipt.json"
+  }
+}

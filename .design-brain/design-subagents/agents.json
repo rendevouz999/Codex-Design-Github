@@ -1,0 +1,263 @@
+{
+  "schema": "design-brain.design-subagents.agents.v1",
+  "version": "1.0.0",
+  "purpose": "Accountable Brain Design subagents for premium website template design, visual evidence, design-system depth, originality, Figma source quality, and marketplace readiness.",
+  "statusValues": ["PASS", "REVISE_REQUIRED", "BLOCK"],
+  "blockingAuthorityValues": ["none", "revise", "required-block"],
+  "modes": {
+    "full": {
+      "description": "Complete production workflow for reference-led, Figma, marketplace, batch, or full website template builds.",
+      "requiredAgentIds": [
+        "reference_visual_analyst",
+        "style_dna_extractor",
+        "brand_reference_memory_guardian",
+        "template_product_architect",
+        "section_flow_strategist",
+        "layout_composition_director",
+        "design_system_director",
+        "visual_signature_builder",
+        "figma_source_qa",
+        "originality_similarity_auditor",
+        "visual_qa_inspector",
+        "marketplace_readiness_judge"
+      ]
+    },
+    "standard": {
+      "description": "Focused quality workflow for single landing pages, homepage concepts, design-system board work, and smaller marketplace-related template tasks.",
+      "requiredAgentIds": [
+        "brand_reference_memory_guardian",
+        "reference_visual_analyst",
+        "style_dna_extractor",
+        "template_product_architect",
+        "design_system_director",
+        "visual_qa_inspector",
+        "marketplace_readiness_judge"
+      ]
+    },
+    "lightweight": {
+      "description": "Small task mode. Reference-led, naming, Figma-source, or marketplace claims still activate their critical subagents.",
+      "requiredAgentIds": [
+        "template_product_architect",
+        "visual_qa_inspector"
+      ],
+      "conditionalAgentIds": [
+        "brand_reference_memory_guardian",
+        "reference_visual_analyst",
+        "style_dna_extractor",
+        "figma_source_qa",
+        "marketplace_readiness_judge"
+      ]
+    }
+  },
+  "mediumExtensions": {
+    "purpose": "Medium-scoped roster extension. A medium with no entry here runs the core roster unchanged. An entry never removes a core agent from a mode: it declares the extra roles that medium requires, and the core roles whose required inputs and outputs that medium cannot produce.",
+    "web_deck": {
+      "mediums": ["web_deck", "html_deck", "browser_presentation", "animated_slides", "web_slides"],
+      "notApplicableAgents": {
+        "section_flow_strategist": "A web deck is a fixed 1920x1080 stage, not a long scrolling page, so section purpose, scroll rhythm, and the marketplace section minimum cannot be evidenced. Slide order, slide role, and density live in the deck plan `slides` array and are judged by Deck Motion Director.",
+        "layout_composition_director": "Required responsive-behavior evidence cannot apply: slide content never reflows and the stage is fitted with one uniform scale. Stage composition is measured by Web Deck Stage & Runtime QA.",
+        "figma_source_qa": "A browser-rendered deck has no Figma frame, component set, or auto-layout to audit. This role stays required only when a Figma source board is part of the same delivery."
+      },
+      "agents": [
+        {
+          "id": "deck_motion_director",
+          "name": "Deck Motion Director",
+          "role": "Defines the motion signature, reveal order, and transition discipline of a browser-rendered deck before build.",
+          "phase": "planning",
+          "focus": "motion signature identity, entrance grammar per archetype, reveal order per slide, duration and stagger budget, transition vocabulary, forbidden motion, reduced-motion equivalent, pacing against density mode",
+          "requiredInputs": ["deck plan JSON", "WEB_DECK_MOTION_GRAMMAR.md", "motion-stage direction pack", "density mode", "slide archetype list", "plan tokens.motion budget"],
+          "requiredOutputs": ["deck-motion-plan.md", "deck-motion-signature.json"],
+          "evaluation_axes": ["motion signature identity", "entrance grammar", "reveal order", "duration and stagger budget", "transition vocabulary", "forbidden motion", "reduced-motion equivalent", "pacing"],
+          "blockingAuthority": "revise",
+          "critical": true,
+          "blockingRules": ["BLOCK if the deck declares no motion signature, or applies one entrance to every slide regardless of archetype.", "REVISE_REQUIRED if the duration/stagger budget, the forbidden-motion list, or the reduced-motion equivalent is missing."],
+          "vote_rules": "PASS only when motion carries an identifiable signature, stays inside the declared budget, and still reads with motion reduced."
+        },
+        {
+          "id": "web_deck_stage_runtime_qa",
+          "name": "Web Deck Stage & Runtime QA",
+          "role": "Judges measured stage fidelity and runtime behavior of the built deck from rendered evidence, not from reading the deck source.",
+          "phase": "postbuild",
+          "focus": "stage fit at 16:9 and off-ratio, no-reflow proof, key and pointer navigation, deep link, lifecycle event, reveal final state, reduced-motion render, print one page per slide, per-slide overflow, overlap, and contrast",
+          "requiredInputs": ["deck HTML artifact", "deck plan JSON", "design_brain_web_deck_audit.mjs JSON result", "design_brain_web_deck_render_review.mjs JSON result", "per-slide stage captures", "narrow-viewport capture", "deck-print.pdf"],
+          "requiredOutputs": ["web-deck-stage-runtime-qa.json", "web-deck-stage-runtime-qa.md"],
+          "evaluation_axes": ["stage fit", "letterbox/pillarbox behavior", "no-reflow proof", "navigation", "deep link", "lifecycle event", "reveal final state", "reduced motion", "print page count", "slide overflow", "slide overlap", "text contrast"],
+          "blockingAuthority": "required-block",
+          "critical": true,
+          "blockingRules": ["BLOCK if the render review was NOT_RUN or reports any P0 finding.", "BLOCK if stage fidelity or runtime behavior is claimed without a rendered capture for every slide.", "REVISE_REQUIRED if only P1 findings remain open."],
+          "vote_rules": "PASS only when a rendered review of every slide shows the stage and runtime contract holding with no P0 finding."
+        }
+      ]
+    }
+  },
+  "agents": [
+    {
+      "id": "reference_visual_analyst",
+      "name": "Reference Visual Analyst",
+      "role": "Reads reference screenshots and source files as visual systems rather than surface inspiration.",
+      "phase": "prebuild",
+      "focus": "typography character, layout rhythm, hero grammar, section logic, hierarchy, media treatment, color roles, spacing density, shape language, effect language, premium signals, copying risk",
+      "requiredInputs": ["user brief", "reference screenshot/source", "selected reference group", "reference usage mode", "approved corpus when available"],
+      "requiredOutputs": ["reference-analysis.md", "reference-visual-analysis.json"],
+      "evaluation_axes": ["typography character", "layout rhythm", "hero grammar", "section logic", "visual hierarchy", "media treatment", "color role behavior", "spacing density", "shape language", "effect language", "premium signals", "copying risk"],
+      "blockingAuthority": "revise",
+      "critical": true,
+      "blockingRules": ["BLOCK if reference analysis is vague mood labeling only.", "REVISE_REQUIRED if typography, layout, color, media, spacing, shape, effect, or premium-signal evidence is missing."],
+      "vote_rules": "PASS only when reference reading is specific enough to produce transferable Style DNA without copying."
+    },
+    {
+      "id": "style_dna_extractor",
+      "name": "Style DNA Extractor",
+      "role": "Converts reference analysis into transferable design logic, do-not-copy boundaries, and reinterpretation plans.",
+      "phase": "prebuild",
+      "focus": "transferable DNA, non-transferable motifs, color-role remapping, structural reconfiguration, visual reinterpretation, originality boundary",
+      "requiredInputs": ["reference analysis", "reference screenshot/source", "selected reference group", "do-not-copy risk", "reference usage registry"],
+      "requiredOutputs": ["style-dna.json", "style-dna.md", "do-not-copy-boundary.md"],
+      "evaluation_axes": ["transferable DNA", "non-transferable elements", "reinterpretation plan", "color role remapping", "structural reconfiguration", "risk list"],
+      "blockingAuthority": "required-block",
+      "critical": true,
+      "blockingRules": ["BLOCK if Style DNA is vague or missing do-not-copy boundary.", "BLOCK if plan copies reference palette, section order, hero grammar, composition, or visual signature."],
+      "vote_rules": "PASS only when DNA can guide a new original template and copying boundaries are explicit."
+    },
+    {
+      "id": "brand_reference_memory_guardian",
+      "name": "Brand & Reference Memory Guardian",
+      "role": "Protects output brand uniqueness and reference usage policy.",
+      "phase": "prebuild",
+      "focus": "brand name uniqueness, naming ledger, reference registry, website selector group rotation or legacy single/pair/triple reference policy, reference usage receipt",
+      "requiredInputs": ["TEMPLATE_REFERENCE_USAGE_REGISTRY.json", "TEMPLATE_REFERENCE_USAGE_POLICY.md", "TEMPLATE_NAMING_LEDGER.md", "candidate output brand", "reference brand names", "template id", "product family", "niche"],
+      "requiredOutputs": ["reference-usage-check.json", "reference-usage-record.json", "brand-name-check.json"],
+      "evaluation_axes": ["brand uniqueness", "reference group availability", "selector group rotation or legacy single/pair/triple escalation", "receipt existence", "registry update status"],
+      "blockingAuthority": "required-block",
+      "critical": true,
+      "blockingRules": ["BLOCK if brand name is already used or too similar.", "BLOCK if candidate brand copies reference brand.", "BLOCK if reference group is already spent or mode escalation violates policy.", "BLOCK final if reference usage receipt is missing."],
+      "vote_rules": "PASS only when brand and reference usage are policy-safe and recorded."
+    },
+    {
+      "id": "template_product_architect",
+      "name": "Template Product Architect",
+      "role": "Defines buyer logic, product promise, page scope, section requirements, and non-generic marketplace value before visual build.",
+      "phase": "planning",
+      "focus": "target buyer, marketplace category, product promise, page list, section requirements, conversion journey, reusable product value",
+      "requiredInputs": ["user brief", "marketplace category", "target buyer", "reference DNA summary", "Design Craft adapter output when available", "marketplace standards", "previous fingerprints"],
+      "requiredOutputs": ["template-product-architecture.md", "template-product-architecture.json"],
+      "evaluation_axes": ["buyer specificity", "product promise", "page list", "section list", "conversion journey", "marketplace value", "non-generic rationale"],
+      "blockingAuthority": "revise",
+      "critical": true,
+      "blockingRules": ["REVISE_REQUIRED if buyer logic, product promise, or marketplace value is vague.", "BLOCK if full marketplace template is reduced to a generic hero/features/pricing/CTA/footer scaffold."],
+      "vote_rules": "PASS only when the structure is product-specific and commercially useful."
+    },
+    {
+      "id": "section_flow_strategist",
+      "name": "Section Flow Strategist",
+      "role": "Builds a non-generic section sequence with reading rhythm, emotional pacing, and conversion logic.",
+      "phase": "planning",
+      "focus": "section order, purpose per section, rhythm, density variation, CTA placement, anti-generic flow",
+      "requiredInputs": ["product architecture", "Style DNA receipt", "sequential reference workflow", "previous section flow fingerprints", "anti-scaffold rules"],
+      "requiredOutputs": ["section-flow-plan.md", "section-flow-fingerprint.json"],
+      "evaluation_axes": ["section order", "section purpose", "rhythm type", "density variation", "CTA placement", "anti-generic explanation"],
+      "blockingAuthority": "revise",
+      "critical": false,
+      "blockingRules": ["BLOCK if section count is too short for marketplace standard.", "REVISE_REQUIRED if sections repeat the same card grid rhythm or generic flow."],
+      "vote_rules": "PASS only when section rhythm has purpose, contrast, and buyer journey logic."
+    },
+    {
+      "id": "layout_composition_director",
+      "name": "Layout Composition Director",
+      "role": "Defines grid behavior, hero composition, card rhythm, media placement, CTA placement, and layout fingerprint.",
+      "phase": "planning",
+      "focus": "grid system, hero composition, composition variation, card/media relationship, responsive behavior, layout similarity risk",
+      "requiredInputs": ["reference analysis", "Style DNA", "section flow plan", "layout similarity axis rules", "previous layout fingerprints", "Figma constraints"],
+      "requiredOutputs": ["layout-composition-plan.md", "layout-fingerprint.json"],
+      "evaluation_axes": ["grid system", "hero structure", "card behavior", "media placement", "responsive behavior", "composition variation", "similarity risk"],
+      "blockingAuthority": "revise",
+      "critical": false,
+      "blockingRules": ["BLOCK if hero grammar copies the reference.", "REVISE_REQUIRED if grid, cards, or section compositions are default and repetitive."],
+      "vote_rules": "PASS only when composition has a distinct layout grammar and sufficient variation."
+    },
+    {
+      "id": "design_system_director",
+      "name": "Design System Director",
+      "role": "Builds and audits design-system depth beyond colors, fonts, and basic cards.",
+      "phase": "planning",
+      "focus": "color token roles, type scale, spacing rhythm, radius, shadows/effects, states, variants, image placeholders, section modules, usage examples",
+      "requiredInputs": ["Style DNA", "product architecture", "visual signature plan", "marketplace standard", "Figma source rules", "Design Craft adapter output when available"],
+      "requiredOutputs": ["design-system-plan.md", "design-system-depth-check.json"],
+      "evaluation_axes": ["token roles", "typography system", "spacing rhythm", "component states", "card variants", "form states", "image placeholder system", "section modules", "usage examples"],
+      "blockingAuthority": "required-block",
+      "critical": true,
+      "blockingRules": ["BLOCK if design system only contains colors, fonts, a basic button, and a basic card.", "REVISE_REQUIRED if states, variants, section modules, effect rules, or usage examples are missing."],
+      "vote_rules": "PASS only when the design system is deep enough for editable marketplace template use."
+    },
+    {
+      "id": "visual_signature_builder",
+      "name": "Visual Signature Builder",
+      "role": "Creates memorable visual identity so the template does not feel like generic AI output.",
+      "phase": "planning",
+      "focus": "core motif, graphic system, section divider language, background treatment, branded CTA treatment, icon/container system, uniqueness score",
+      "requiredInputs": ["Style DNA", "design-system plan", "target buyer", "market positioning", "existing template library", "originality constraints"],
+      "requiredOutputs": ["visual-signature-plan.md", "visual-signature-check.json"],
+      "evaluation_axes": ["visual motif", "graphic system", "section divider", "background treatment", "CTA language", "icon/container system", "uniqueness"],
+      "blockingAuthority": "revise",
+      "critical": false,
+      "blockingRules": ["BLOCK if no identifiable visual signature exists for a full template.", "REVISE_REQUIRED if visual language is stock, flat, or too generic."],
+      "vote_rules": "PASS only when the template has a memorable but original visual signature."
+    },
+    {
+      "id": "figma_source_qa",
+      "name": "Figma Source QA",
+      "role": "Audits Figma source quality, editability, layer hierarchy, auto-layout, components, variants, tokens, and source cleanliness.",
+      "phase": "postbuild",
+      "focus": "auto-layout, components, variants, states, layer naming, token/style status, frame hierarchy, editability, source cleanliness",
+      "requiredInputs": ["Figma frame/source", "component list", "styles/tokens list", "layer hierarchy", "screenshot when available"],
+      "requiredOutputs": ["figma-source-qa.json", "figma-source-qa.md"],
+      "evaluation_axes": ["auto-layout", "components", "variants", "layer naming", "tokens/styles", "frame hierarchy", "editability", "source cleanliness"],
+      "blockingAuthority": "required-block",
+      "critical": true,
+      "blockingRules": ["BLOCK if a Figma source template lacks auto-layout on important editable areas.", "BLOCK if layer naming, reusable components, variants, styles/tokens, or editability are poor."],
+      "vote_rules": "PASS only when source structure is editable, reusable, and marketplace-clean."
+    },
+    {
+      "id": "originality_similarity_auditor",
+      "name": "Originality & Similarity Auditor",
+      "role": "Compares output against references, previous templates, generic scaffold patterns, section flow, hero grammar, and component rhythm.",
+      "phase": "postbuild",
+      "focus": "reference similarity, previous template similarity, hero grammar, section flow, layout axes, component rhythm, color behavior, visual execution",
+      "requiredInputs": ["reference screenshots", "final screenshot", "previous screenshots/fingerprints", "structure fingerprint", "section flow fingerprint", "Style DNA receipt", "reference usage receipt"],
+      "requiredOutputs": ["originality-audit.json", "structure-fingerprint.md", "similarity-risk-report.md"],
+      "evaluation_axes": ["reference similarity score", "previous template similarity score", "hero grammar comparison", "section flow comparison", "layout axis comparison", "component rhythm comparison", "blocked similarity reasons"],
+      "blockingAuthority": "required-block",
+      "critical": true,
+      "blockingRules": ["BLOCK if output only changes color, font, or image from the reference.", "BLOCK if hero grammar, section order, composition, or visual motif is too similar to the reference or prior template."],
+      "vote_rules": "PASS only when reference learning is transformed into a new original fingerprint."
+    },
+    {
+      "id": "visual_qa_inspector",
+      "name": "Visual QA Inspector",
+      "role": "Inspects screenshots to judge real visual quality, hierarchy, spacing, density, polish, and marketplace feel.",
+      "phase": "postbuild",
+      "focus": "screenshot evidence, hero strength, hierarchy, spacing, density, contrast, depth, polish, clipping, overlap, marketplace feel",
+      "requiredInputs": ["final screenshot", "desktop/tablet/mobile screenshots when available", "design-system board screenshot", "main page screenshot", "component board screenshot"],
+      "requiredOutputs": ["visual-qa-report.md", "visual-qa-report.json"],
+      "evaluation_axes": ["screenshot inspected", "hero strength", "hierarchy", "spacing", "density", "contrast", "depth", "polish", "bugs", "marketplace feel"],
+      "blockingAuthority": "required-block",
+      "critical": true,
+      "blockingRules": ["BLOCK if screenshot is flat, weak, clipped, overlapped, boring, cramped, too empty, or visually generic.", "REVISE_REQUIRED if visual QA cannot inspect output but the task claims marketplace-ready visual quality."],
+      "vote_rules": "PASS only when screenshot evidence supports premium visual quality."
+    },
+    {
+      "id": "marketplace_readiness_judge",
+      "name": "Marketplace Readiness Judge",
+      "role": "Combines all receipts and decides whether final output can be called marketplace-ready.",
+      "phase": "final",
+      "focus": "receipt completeness, screenshot evidence, design-system depth, originality, Figma QA, buyer value, final PASS/REVISE/BLOCK verdict",
+      "requiredInputs": ["all subagent receipts", "final screenshot", "Figma QA", "originality audit", "visual QA report", "design-system audit", "reference usage receipt", "completion receipt"],
+      "requiredOutputs": ["marketplace-readiness-verdict.json", "marketplace-readiness-verdict.md"],
+      "evaluation_axes": ["receipt completeness", "critical subagent status", "screenshot evidence", "design-system depth", "originality status", "Figma source status", "buyer value", "completion proof"],
+      "blockingAuthority": "required-block",
+      "critical": true,
+      "blockingRules": ["BLOCK final if any critical subagent is BLOCK.", "BLOCK final if a critical receipt or screenshot evidence is missing.", "BLOCK final if design is not sellable as a premium template."],
+      "vote_rules": "PASS only when all critical evidence exists and all critical agents PASS."
+    }
+  ]
+}

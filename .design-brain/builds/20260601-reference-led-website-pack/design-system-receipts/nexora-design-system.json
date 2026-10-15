@@ -1,0 +1,83 @@
+{
+  "templateId": "nexora-advisory",
+  "templateName": "Nexora Advisory",
+  "productFamily": "business_consultant",
+  "mode": "website",
+  "designSystemScope": "per-template",
+  "colorTokens": {
+    "background": "mist blue page background",
+    "surface": "white cards and panels",
+    "surfaceElevated": "shadowed advisory cards",
+    "textPrimary": "ink navy",
+    "textSecondary": "steel text",
+    "textMuted": "soft gray-blue captions",
+    "accent": "cyan signal",
+    "action": "cyan and dark CTA buttons",
+    "border": "pale blue dividers"
+  },
+  "typographyTokens": {
+    "display": "large consulting hero display",
+    "h1": "page and cover title",
+    "h2": "section headline",
+    "h3": "card title",
+    "body": "primary consulting copy",
+    "bodySmall": "card and proof copy",
+    "label": "eyebrows and metadata",
+    "button": "CTA labels",
+    "nav": "header navigation"
+  },
+  "spacingTokens": {
+    "scale": "8 point rhythm",
+    "sectionY": "70-96px section padding",
+    "componentPadding": "14-34px component padding",
+    "cardGap": "14-20px card gap",
+    "gridGap": "18-44px grid gap",
+    "container": "1200px desktop container"
+  },
+  "components": [
+    "button primary secondary ghost default hover focus active disabled",
+    "card advisory service case insight placeholder",
+    "navigation header",
+    "footer editorial",
+    "cta consultation intake",
+    "form field",
+    "FAQ row",
+    "media placeholder",
+    "profile photo placeholder"
+  ],
+  "states": ["default", "hover", "focus", "active", "disabled"],
+  "componentAnatomy": {
+    "button": "label, pill surface, action color, dark and ghost states",
+    "card": "icon/media slot, title, body, action chip",
+    "form": "label, placeholder, field surface, submit CTA",
+    "placeholder": "role-specific image/profile label inside replaceable frame"
+  },
+  "patternModules": [
+    "advisory command hero",
+    "proof ribbon",
+    "service matrix",
+    "process spine",
+    "quote ledger",
+    "consultation intake",
+    "FAQ and footer"
+  ],
+  "usageRules": "Use cyan only for decision/action signal; keep proof modules compact; replace image placeholders with client-owned consultant, workshop, case, or profile imagery.",
+  "surfaceEffectTokens": "Soft blue card shadow, cyan signal glow, dark footer contrast, hairline borders.",
+  "placeholderRules": "Use image placeholder: consultant strategy workshop, advisory dashboard, case visual, insight article visual; use profile photo placeholder: client executive.",
+  "sourceHygiene": {
+    "autoLayout": true,
+    "editableText": true,
+    "editablePlaceholders": true,
+    "clearLayerNames": true,
+    "reusableComponents": true,
+    "responsiveConstraints": true,
+    "flattenedImportantContent": false
+  },
+  "artifactEvidence": {
+    "designSystemPageId": "2:312",
+    "screenshotPath": ".design-brain/screenshots/figma-builds/nexora-design-system.png",
+    "componentInventory": ["buttons", "cards", "form", "placeholder", "navigation", "footer"],
+    "tokenSourcePath": "Figma local styles Nexora/*"
+  },
+  "status": "PASS"
+}

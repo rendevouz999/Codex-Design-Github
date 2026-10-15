@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "design-brain.lifecycle.reference-layout-audit.v1",
+  "title": "Reference Layout Audit Receipt",
+  "type": "object",
+  "required": [
+    "templateId",
+    "referenceId",
+    "comparisonType",
+    "comparedAxes",
+    "failedAxes",
+    "hardFailAxes",
+    "softRiskAxes",
+    "structureDefiningAxisSimilarity",
+    "visualLanguageAxisSimilarity",
+    "safeAxes",
+    "overallScaffoldRisk",
+    "originalLayoutEvidence",
+    "requiredRepairs",
+    "status"
+  ],
+  "properties": {
+    "templateId": { "type": "string" },
+    "referenceId": { "type": "string" },
+    "comparisonType": { "const": "ai_vs_reference" },
+    "comparedAxes": { "type": "object" },
+    "failedAxes": { "type": "array" },
+    "hardFailAxes": { "type": "array" },
+    "softRiskAxes": { "type": "array" },
+    "structureDefiningAxisSimilarity": { "type": "number" },
+    "visualLanguageAxisSimilarity": { "type": "number" },
+    "safeAxes": { "type": "array" },
+    "overallScaffoldRisk": { "type": "number" },
+    "originalLayoutEvidence": { "type": "array" },
+    "requiredRepairs": { "type": "array" },
+    "status": { "enum": ["PASS", "REVISE_REQUIRED", "BLOCKED"] }
+  }
+}

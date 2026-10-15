@@ -1,0 +1,113 @@
+{
+  "patternId": "checkpoint-002-testimonials-two-profile-quote-row",
+  "sectionType": "testimonials",
+  "commercialPurpose": "Add concise social proof after CTA pressure with two named human quotes instead of a dense testimonial wall.",
+  "purposeLayer": "Testimonials soften the conversion ask with credible human reassurance.",
+  "anatomyLayer": "Two circular profile images, names, roles/company labels, short quote text, and centered spacing.",
+  "hierarchyLayer": "Faces first, names second, quote snippets third.",
+  "gridRhythmLayer": "Two-column quote pair on a calm white section with generous horizontal separation.",
+  "densityLimitLayer": "Use 2 visible testimonials, each with one image, one name/role line, and one short quote.",
+  "originalityLayer": "Learn minimal two-proof rhythm; transform photo style, quote length, card treatment, and alignment.",
+  "usageRuleLayer": "Use after CTA or benefit sections when proof should reassure without derailing the conversion path.",
+  "layoutGesture": "two-profile minimal quote row",
+  "sectionSilhouette": "two circular portraits over centered quotes",
+  "compositionTension": "human proof floats in sparse space after a saturated CTA band",
+  "focalPath": "portrait to name to quote",
+  "negativeSpaceShape": "wide white gap between two proof islands",
+  "depthLayering": "flat testimonial surface with portrait crops as anchors",
+  "moduleScaleVariation": "small portraits with medium text blocks",
+  "breakoutBehavior": "contained proof pair, no carousel required",
+  "contentLimits": {
+    "visibleItems": "2",
+    "quoteLength": "1-3 lines",
+    "profilePhoto": 1,
+    "roleLine": 1
+  },
+  "antiCopyBoundary": "Do not copy exact names, portraits, Google role labels, quote text, or spacing.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "cta",
+      "pricing-packages"
+    ],
+    "after": [
+      "footer",
+      "faq-objection"
+    ],
+    "notAScaffold": true
+  },
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\118_Lead-Generation-02-Landing-Page.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\11_Video_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\12_Gallery_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\13_Audio_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\14_Quote_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\15_Link_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\16_Full_Width_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\17_Features.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\18_Category_1.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\19_Category_2.jpg"
+  ],
+  "productFamilies": [
+    "startup",
+    "editorial-blog",
+    "lead-generation",
+    "website"
+  ],
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 002",
+    "reviewNotes": "Checkpoint 002 is visually inspected learning evidence; keep incoming until exact hyper-accuracy review and dedupe rationale pass.",
+    "nonCopyBoundary": "Do not copy the exact Pallas editorial visuals, startup hero background, coral/teal color identity, photo assets, sidebar widget order, or footer treatment."
+  },
+  "structuralSignature": {
+    "signatureId": "testimonials:5648abc84c02745c",
+    "hash": "5648abc84c02745ca5a02b784e4f780a25815f70",
+    "axes": {
+      "layoutGesture": "two-profile minimal quote row",
+      "sectionSilhouette": "two circular portraits over centered quotes",
+      "anatomyLayer": "two circular profile images, names, roles/company labels, short quote text, and centered spacing.",
+      "hierarchyLayer": "faces first, names second, quote snippets third.",
+      "gridRhythmLayer": "two-column quote pair on a calm white section with generous horizontal separation.",
+      "focalPath": "portrait to name to quote",
+      "compositionTension": "human proof floats in sparse space after a saturated cta band",
+      "negativeSpaceShape": "wide white gap between two proof islands",
+      "moduleScaleVariation": "small portraits with medium text blocks",
+      "breakoutBehavior": "contained proof pair, no carousel required",
+      "contentLimits": "{\"profilephoto\":1,\"quotelength\":\"1-3 lines\",\"roleline\":1,\"visibleitems\":\"2\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.0,
+  "matchGroupId": "testimonials:5648abc84c02745c",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:47:11Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 0,
+    "bestMatch": null,
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

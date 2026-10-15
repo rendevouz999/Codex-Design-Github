@@ -1,0 +1,220 @@
+{
+  "hero_header": {
+    "min_blocks": 1,
+    "max_blocks": 3,
+    "note": "Only for explicit hero/header request."
+  },
+  "landing_page": {
+    "min_sections": 6,
+    "recommended_sections": "7-10"
+  },
+  "full_website_template": {
+    "min_sections": 8,
+    "recommended_sections": "9-14"
+  },
+  "saas_product_website": {
+    "min_sections": 9,
+    "recommended_sections": "10-14"
+  },
+  "corporate_finance_website": {
+    "min_sections": 8,
+    "recommended_sections": "9-12"
+  },
+  "finance_consulting": {
+    "min_sections": 8,
+    "recommended_sections": "9-12"
+  },
+  "equipment_rental_service": {
+    "min_sections": 8,
+    "recommended_sections": "9-12"
+  },
+  "jewelry_ecommerce": {
+    "min_sections": 10,
+    "recommended_sections": "10-16 or multi-page/module map"
+  },
+  "luxury_furniture": {
+    "min_sections": 10,
+    "recommended_sections": "10-16 or multi-page/module map"
+  },
+  "ecommerce_storefront": {
+    "min_sections": 10,
+    "recommended_sections": "10-16 or multi-page/module map"
+  },
+  "fashion_apparel_ecommerce": {
+    "min_sections": 10,
+    "recommended_sections": "10-16 with editorial commerce and lookbook logic"
+  },
+  "restaurant_hospitality": {
+    "min_sections": 8,
+    "recommended_sections": "8-12"
+  },
+  "agency_portfolio": {
+    "min_sections": 7,
+    "recommended_sections": "8-12"
+  },
+  "editorial_blog_cms": {
+    "min_sections": 8,
+    "recommended_sections": "8-12 with archive/content logic"
+  },
+  "real_estate_property": {
+    "min_sections": 8,
+    "recommended_sections": "9-12 with listing/detail inquiry logic"
+  },
+  "education_course": {
+    "min_sections": 8,
+    "recommended_sections": "9-12 with course/enrollment logic"
+  },
+  "medical_clinic": {
+    "min_sections": 8,
+    "recommended_sections": "9-12 with appointment/trust logic"
+  },
+  "beauty_wellness": {
+    "min_sections": 8,
+    "recommended_sections": "9-12 with service/result/booking logic"
+  },
+  "car_rental_transport": {
+    "min_sections": 8,
+    "recommended_sections": "9-12 with booking/fleet logic"
+  },
+  "furniture_rental_service": {
+    "min_sections": 8,
+    "recommended_sections": "9-12 with rental package/delivery logic"
+  },
+  "email_newsletter": {
+    "section_count_rule": "Use email blocks and responsive email constraints.",
+    "min_blocks": 8
+  },
+  "dashboard_admin": {
+    "section_count_rule": "Use modules, states, navigation, data views.",
+    "min_modules": 8
+  },
+  "mobile_app": {
+    "section_count_rule": "Use screens, flows, and states.",
+    "min_screens": 6
+  },
+  "presentation_deck": {
+    "section_count_rule": "Use slide system coverage.",
+    "min_slides": 10
+  },
+  "brand_kit": {
+    "section_count_rule": "Use identity-system coverage.",
+    "min_blocks": 8
+  },
+  "static_canvas": {
+    "section_count_rule": "Use canvas hierarchy and export notes.",
+    "min_blocks": 7
+  },
+  "menu_design": {
+    "section_count_rule": "Use menu hierarchy and print/digital readability.",
+    "min_blocks": 8
+  },
+  "social_post": {
+    "section_count_rule": "Use social format, hook, rhythm, and CTA cues.",
+    "min_blocks": 7
+  },
+  "ui_kit": {
+    "section_count_rule": "Use component categories, variants, states, and tokens.",
+    "min_blocks": 8
+  },
+  "component_library": {
+    "section_count_rule": "Use component inventory, variants, states, and usage rules.",
+    "min_blocks": 8
+  },
+  "design_system": {
+    "section_count_rule": "Use token, component, state, accessibility, and source hygiene coverage.",
+    "min_blocks": 9
+  },
+  "brochure_design": {
+    "section_count_rule": "Use brochure panels, page/fold flow, contact block, and print/PDF notes.",
+    "min_blocks": 7
+  },
+  "print_collateral": {
+    "section_count_rule": "Use static print hierarchy, safe margins, focal visual, and export specs.",
+    "min_blocks": 6
+  },
+  "poster_design": {
+    "section_count_rule": "Use poster headline/focal/supporting info hierarchy and print/export notes.",
+    "min_blocks": 6
+  },
+  "banner_design": {
+    "section_count_rule": "Use banner format, crop safety, visual focus, and export sizes.",
+    "min_blocks": 5
+  },
+  "thumbnail_design": {
+    "section_count_rule": "Use thumbnail hook, focal subject, crop safety, and export size.",
+    "min_blocks": 5
+  },
+  "invoice_template": {
+    "section_count_rule": "Use invoice metadata, item table, totals, payment, and PDF/print clarity.",
+    "min_blocks": 6
+  },
+  "resume_template": {
+    "section_count_rule": "Use resume profile, experience, skills, ATS readability, and PDF export.",
+    "min_blocks": 7
+  },
+  "ticket_receipt_design": {
+    "section_count_rule": "Use order metadata, item list, quantity, total, and receipt-width print readability.",
+    "min_blocks": 7
+  },
+  "letterhead_design": {
+    "section_count_rule": "Use document identity header/footer, contact hierarchy, safe margins, and print/PDF notes.",
+    "min_blocks": 6
+  },
+  "price_list_design": {
+    "section_count_rule": "Use category grouping, item/service list, price alignment, readability, and print/digital export.",
+    "min_blocks": 6
+  },
+  "table_tent_design": {
+    "section_count_rule": "Use panel/fold logic, menu offer, QR/price info, safe margins, and table-distance readability.",
+    "min_blocks": 7
+  },
+  "catalog_design": {
+    "section_count_rule": "Use cover, category structure, product grid/list, detail snippets, spread rhythm, and print/PDF export.",
+    "min_blocks": 8
+  },
+  "lookbook_design": {
+    "section_count_rule": "Use editorial opener, collection story, image spreads, style notes, visual rhythm, and print/PDF export.",
+    "min_blocks": 8
+  },
+  "cover_design": {
+    "section_count_rule": "Use format/aspect ratio, title hierarchy, focal visual, crop safety, and export notes.",
+    "min_blocks": 6
+  },
+  "voucher_coupon_design": {
+    "section_count_rule": "Use offer hierarchy, code/QR, terms/expiry, redemption, safe margins, and print/digital export.",
+    "min_blocks": 7
+  },
+  "sticker_design": {
+    "section_count_rule": "Use sticker shape, focal mark, die-cut safe margin, material/finish, and print/export notes.",
+    "min_blocks": 5
+  },
+  "postcard_design": {
+    "section_count_rule": "Use front/back layout, message, image/address area, safe margin, and print/export notes.",
+    "min_blocks": 6
+  },
+  "certificate_design": {
+    "section_count_rule": "Use recipient, title, issuer/signature/seal, date/serial, border, and PDF/print export.",
+    "min_blocks": 6
+  },
+  "booklet_design": {
+    "section_count_rule": "Use cover, contents/intro, page/spread rhythm, section pages, back page, and print/PDF export.",
+    "min_blocks": 7
+  },
+  "packaging_label_design": {
+    "section_count_rule": "Use product identity, variant/info, barcode/regulatory zone, material/finish, and print/dieline notes.",
+    "min_blocks": 6
+  },
+  "label_design": {
+    "section_count_rule": "Use label shape, brand/product hierarchy, supporting info, material/finish, and print/export notes.",
+    "min_blocks": 5
+  },
+  "price_tag_design": {
+    "section_count_rule": "Use price hierarchy, product/variant info, SKU/barcode, die-cut/hole notes, and print/export notes.",
+    "min_blocks": 5
+  },
+  "hang_tag_design": {
+    "section_count_rule": "Use brand area, product/size/material info, SKU/barcode, hole placement, front/back, and print/export notes.",
+    "min_blocks": 6
+  }
+}
+

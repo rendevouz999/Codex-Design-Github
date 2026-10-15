@@ -1,0 +1,123 @@
+{
+  "patternId": "checkpoint-005-hero-dark-portfolio-creator-media-dashboard-hero",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\caos-portofolio-designer-website-2025-10-03-22-22-17-utc - Caos - Portofolio Designer Website - 4982b039.jpg"
+  ],
+  "productFamilies": [
+    "portfolio",
+    "designer",
+    "creative",
+    "agency"
+  ],
+  "commercialPurpose": "Open a designer portfolio with dark professional confidence, media proof, and dashboard-like capability cards.",
+  "purposeLayer": "Hero positions the designer as both creative and operational by combining portrait/media cards with service metrics.",
+  "anatomyLayer": "Black nav, short portfolio label, large designer headline, yellow CTA, floating project panels, portrait/media tile, and small capability widgets.",
+  "hierarchyLayer": "Headline first, media/project panels second, CTA third, service widgets fourth.",
+  "gridRhythmLayer": "Dark portfolio hero with split text and overlapping project/media dashboard panels.",
+  "densityLimitLayer": "Use section density limit: {\"primaryMessage\": 1, \"cta\": \"1-2\", \"proofCue\": \"0-1 controlled cue\", \"mediaSystem\": 1}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, product photos, or page order.",
+  "usageRuleLayer": "Use for personal portfolios, designer/dev templates, creative resumes, and studio one-page sites.",
+  "layoutGesture": "dark creator portfolio hero with media dashboard panels",
+  "sectionSilhouette": "black canvas mixing headline copy, portrait/project image cards, and compact service widgets",
+  "compositionTension": "personal brand confidence is backed by visual project evidence",
+  "focalPath": "headline to project media tiles to CTA to widget proof",
+  "negativeSpaceShape": "black negative space creates focus around yellow accents and media panels",
+  "depthLayering": "black base, image cards, yellow CTA, dashboard widgets, small badges",
+  "moduleScaleVariation": "large text block and media card versus small widgets and stats",
+  "breakoutBehavior": "project panels overlap the strict grid and connect hero to profile sections",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1-2",
+    "proofCue": "0-1 controlled cue",
+    "mediaSystem": 1
+  },
+  "antiCopyBoundary": "Do not copy Caos branding, portrait imagery, yellow/black palette, UI widget text, or exact media cards.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "portfolio-gallery",
+      "services",
+      "contact-booking"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 005 contact sheet",
+    "reviewNotes": "Checkpoint 005 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "hero:b1d78a22a4dc7654",
+    "hash": "b1d78a22a4dc7654b452a74dce1834c59fd6bead",
+    "axes": {
+      "layoutGesture": "dark creator portfolio hero with media dashboard panels",
+      "sectionSilhouette": "black canvas mixing headline copy, portrait/project image cards, and compact service widgets",
+      "anatomyLayer": "black nav, short portfolio label, large designer headline, yellow cta, floating project panels, portrait/media tile, and small capability widgets.",
+      "hierarchyLayer": "headline first, media/project panels second, cta third, service widgets fourth.",
+      "gridRhythmLayer": "dark portfolio hero with split text and overlapping project/media dashboard panels.",
+      "focalPath": "headline to project media tiles to cta to widget proof",
+      "compositionTension": "personal brand confidence is backed by visual project evidence",
+      "negativeSpaceShape": "black negative space creates focus around yellow accents and media panels",
+      "moduleScaleVariation": "large text block and media card versus small widgets and stats",
+      "breakoutBehavior": "project panels overlap the strict grid and connect hero to profile sections",
+      "contentLimits": "{\"cta\":\"1-2\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"0-1 controlled cue\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.2536,
+  "matchGroupId": "hero:b1d78a22a4dc7654",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:25:28Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 19,
+    "bestMatch": {
+      "score": 0.2536,
+      "axisScores": {
+        "layoutGesture": 0.1429,
+        "sectionSilhouette": 0.125,
+        "anatomyLayer": 0.1765,
+        "hierarchyLayer": 0.3333,
+        "gridRhythmLayer": 0.1667,
+        "focalPath": 0.3333,
+        "compositionTension": 0.0,
+        "negativeSpaceShape": 0.2353,
+        "moduleScaleVariation": 0.1765,
+        "breakoutBehavior": 0.1,
+        "contentLimits": 1.0
+      },
+      "patternId": "checkpoint-005-hero-drink-product-playful-card-stage-hero",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-005-hero-drink-product-playful-card-stage-hero.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

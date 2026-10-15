@@ -1,0 +1,123 @@
+{
+  "patternId": "checkpoint-004-hero-business-consultancy-floating-service-board",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\benjoe-business-information-landing-page-2024-03-13-23-16-35-utc - BENJOE - Business Information Tech - 83f5292d.png"
+  ],
+  "productFamilies": [
+    "consulting",
+    "business",
+    "agency",
+    "saas"
+  ],
+  "commercialPurpose": "Open a business consultancy template by previewing service choices as a tangible product board.",
+  "purposeLayer": "Hero uses a dark trust area and floating service board to make abstract consulting feel concrete.",
+  "anatomyLayer": "Dark top nav and headline, centered CTA, large rounded white service board overlapping below, four service tiles, and purple accent labels.",
+  "hierarchyLayer": "Headline/CTA first, floating service board second, tile choices third.",
+  "gridRhythmLayer": "Dark masthead with oversized floating rounded service board bridging into the next white section.",
+  "densityLimitLayer": "Use section density limit: {\"primaryMessage\": 1, \"cta\": \"1-2\", \"proofCue\": \"0-1 controlled cue\", \"mediaSystem\": 1}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, or section order.",
+  "usageRuleLayer": "Use for consulting, B2B services, agency, and SaaS templates that need productized service clarity.",
+  "layoutGesture": "consultancy dark hero with floating service selection board",
+  "sectionSilhouette": "navy/purple hero cap connected to a large white rounded panel of service tiles",
+  "compositionTension": "serious dark positioning is softened by productized service cards",
+  "focalPath": "headline to CTA to floating service board to individual service tiles",
+  "negativeSpaceShape": "dark top negative field above a large light panel creates strong vertical contrast",
+  "depthLayering": "dark background, floating white board, purple chips, illustrated tile icons",
+  "moduleScaleVariation": "large board surface versus small equal service tiles",
+  "breakoutBehavior": "service board overlaps section boundary and becomes the transition device",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1-2",
+    "proofCue": "0-1 controlled cue",
+    "mediaSystem": 1
+  },
+  "antiCopyBoundary": "Do not copy Benjoe branding, purple scheme, illustrations, or service tile copy.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "features",
+      "services",
+      "stats-proof"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 004 contact sheet",
+    "reviewNotes": "Checkpoint 004 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "hero:35e077182ea37c53",
+    "hash": "35e077182ea37c5309e7133785fb90d5e3666196",
+    "axes": {
+      "layoutGesture": "consultancy dark hero with floating service selection board",
+      "sectionSilhouette": "navy/purple hero cap connected to a large white rounded panel of service tiles",
+      "anatomyLayer": "dark top nav and headline, centered cta, large rounded white service board overlapping below, four service tiles, and purple accent labels.",
+      "hierarchyLayer": "headline/cta first, floating service board second, tile choices third.",
+      "gridRhythmLayer": "dark masthead with oversized floating rounded service board bridging into the next white section.",
+      "focalPath": "headline to cta to floating service board to individual service tiles",
+      "compositionTension": "serious dark positioning is softened by productized service cards",
+      "negativeSpaceShape": "dark top negative field above a large light panel creates strong vertical contrast",
+      "moduleScaleVariation": "large board surface versus small equal service tiles",
+      "breakoutBehavior": "service board overlaps section boundary and becomes the transition device",
+      "contentLimits": "{\"cta\":\"1-2\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"0-1 controlled cue\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.2048,
+  "matchGroupId": "hero:35e077182ea37c53",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:16:27Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 12,
+    "bestMatch": {
+      "score": 0.2048,
+      "axisScores": {
+        "layoutGesture": 0.2143,
+        "sectionSilhouette": 0.04,
+        "anatomyLayer": 0.1471,
+        "hierarchyLayer": 0.2778,
+        "gridRhythmLayer": 0.1111,
+        "focalPath": 0.2143,
+        "compositionTension": 0.0,
+        "negativeSpaceShape": 0.1304,
+        "moduleScaleVariation": 0.0,
+        "breakoutBehavior": 0.1176,
+        "contentLimits": 1.0
+      },
+      "patternId": "checkpoint-004-hero-cybersecurity-dark-threat-protection-hero",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-004-hero-cybersecurity-dark-threat-protection-hero.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

@@ -1,0 +1,123 @@
+{
+  "patternId": "checkpoint-005-hero-marketing-portrait-annotation-kpi-hero",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\bouin-digital-marketing-website-2025-10-21-17-05-39-utc - Bouin - Digital Marketing Website - a315b3cd.jpg"
+  ],
+  "productFamilies": [
+    "digital-marketing",
+    "agency",
+    "consulting",
+    "business"
+  ],
+  "commercialPurpose": "Open a digital marketing template with human-led trust and visible growth annotations.",
+  "purposeLayer": "Hero turns abstract growth into a guided strategy scene through portrait, KPI cards, and annotation chips.",
+  "anatomyLayer": "Minimal white nav, left headline, orange CTA, central portrait/image cutout, floating message chips, right KPI percentages, and small client/social proof cues.",
+  "hierarchyLayer": "Portrait and headline share first focus, KPI column second, CTA and annotation chips third.",
+  "gridRhythmLayer": "Light asymmetric hero with human portrait in an orange media frame, text column, and right-side KPI rail.",
+  "densityLimitLayer": "Use section density limit: {\"primaryMessage\": 1, \"cta\": \"1-2\", \"proofCue\": \"0-1 controlled cue\", \"mediaSystem\": 1}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, product photos, or page order.",
+  "usageRuleLayer": "Use for marketing, creator, consulting, coaching, and service agency pages where human strategy plus measurable proof matters.",
+  "layoutGesture": "marketing portrait hero with annotation chips and KPI rail",
+  "sectionSilhouette": "white canvas with human media centerpiece, copy on one side, metrics stacked on the other",
+  "compositionTension": "human warmth balances quantified growth proof",
+  "focalPath": "portrait to headline to KPI rail to CTA to micro annotations",
+  "negativeSpaceShape": "white margin fields around portrait and KPI rail keep the hero bright",
+  "depthLayering": "white base, orange media shape, floating chips, metric text blocks",
+  "moduleScaleVariation": "large portrait versus small annotation chips and percentage blocks",
+  "breakoutBehavior": "chips attach to and float outside the portrait frame",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1-2",
+    "proofCue": "0-1 controlled cue",
+    "mediaSystem": 1
+  },
+  "antiCopyBoundary": "Do not copy Bouin brand, orange portrait composition, exact KPI values, or message chip copy.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "stats-proof",
+      "features",
+      "services"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 005 contact sheet",
+    "reviewNotes": "Checkpoint 005 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "hero:582388124082636d",
+    "hash": "582388124082636d870b6ed0f24c386abd6210bf",
+    "axes": {
+      "layoutGesture": "marketing portrait hero with annotation chips and kpi rail",
+      "sectionSilhouette": "white canvas with human media centerpiece, copy on one side, metrics stacked on the other",
+      "anatomyLayer": "minimal white nav, left headline, orange cta, central portrait/image cutout, floating message chips, right kpi percentages, and small client/social proof cues.",
+      "hierarchyLayer": "portrait and headline share first focus, kpi column second, cta and annotation chips third.",
+      "gridRhythmLayer": "light asymmetric hero with human portrait in an orange media frame, text column, and right-side kpi rail.",
+      "focalPath": "portrait to headline to kpi rail to cta to micro annotations",
+      "compositionTension": "human warmth balances quantified growth proof",
+      "negativeSpaceShape": "white margin fields around portrait and kpi rail keep the hero bright",
+      "moduleScaleVariation": "large portrait versus small annotation chips and percentage blocks",
+      "breakoutBehavior": "chips attach to and float outside the portrait frame",
+      "contentLimits": "{\"cta\":\"1-2\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"0-1 controlled cue\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.3117,
+  "matchGroupId": "hero:582388124082636d",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:25:28Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 16,
+    "bestMatch": {
+      "score": 0.3117,
+      "axisScores": {
+        "layoutGesture": 0.2143,
+        "sectionSilhouette": 0.08,
+        "anatomyLayer": 0.3226,
+        "hierarchyLayer": 0.5294,
+        "gridRhythmLayer": 0.1071,
+        "focalPath": 0.3333,
+        "compositionTension": 0.1818,
+        "negativeSpaceShape": 0.2222,
+        "moduleScaleVariation": 0.1875,
+        "breakoutBehavior": 0.25,
+        "contentLimits": 1.0
+      },
+      "patternId": "checkpoint-004-hero-career-agency-portrait-job-card-hero",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-004-hero-career-agency-portrait-job-card-hero.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

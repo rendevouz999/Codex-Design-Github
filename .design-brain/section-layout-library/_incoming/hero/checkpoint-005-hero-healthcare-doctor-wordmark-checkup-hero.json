@@ -1,0 +1,123 @@
+{
+  "patternId": "checkpoint-005-hero-healthcare-doctor-wordmark-checkup-hero",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\callaw-smart-healthcare-website-2025-05-13-18-02-37-utc - Callaw - Smart Healthcare Website - 4a7c6daa.png"
+  ],
+  "productFamilies": [
+    "healthcare",
+    "medical",
+    "clinic",
+    "saas"
+  ],
+  "commercialPurpose": "Open a healthcare template with clinical trust, doctor presence, and appointment/proof cues.",
+  "purposeLayer": "Hero makes care feel credible through doctor imagery embedded into a large medical wordmark and measured support cards.",
+  "anatomyLayer": "Pale blue nav, giant medical/check headline, doctor portrait overlapping text, appointment CTA, icons, stats, patient/video cards, and dark support panel below.",
+  "hierarchyLayer": "Wordmark and doctor first, appointment CTA second, patient/proof cards third.",
+  "gridRhythmLayer": "Pale healthcare hero with oversized wordmark interrupted by doctor media and compact appointment cards.",
+  "densityLimitLayer": "Use section density limit: {\"primaryMessage\": 1, \"cta\": \"1-2\", \"proofCue\": \"0-1 controlled cue\", \"mediaSystem\": 1}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, product photos, or page order.",
+  "usageRuleLayer": "Use for clinics, health SaaS, wellness, medical booking, and care provider templates that need trust fast.",
+  "layoutGesture": "doctor-over-wordmark healthcare hero with appointment proof cards",
+  "sectionSilhouette": "soft blue hero where doctor image overlaps a huge medical headline and small care cards",
+  "compositionTension": "clinical authority meets approachable patient-service proof",
+  "focalPath": "doctor portrait to giant wordmark to CTA to patient proof cards",
+  "negativeSpaceShape": "pale blue open area around the large type and doctor figure",
+  "depthLayering": "soft background, doctor media, card overlays, dark care panel transition",
+  "moduleScaleVariation": "oversized headline and doctor versus small patient/appointment cards",
+  "breakoutBehavior": "doctor figure breaks through headline and card boundaries",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1-2",
+    "proofCue": "0-1 controlled cue",
+    "mediaSystem": 1
+  },
+  "antiCopyBoundary": "Do not copy Callaw brand, doctor image, exact medical wordmark, patient photos, or blue palette.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "services",
+      "faq-objection",
+      "testimonials"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 005 contact sheet",
+    "reviewNotes": "Checkpoint 005 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "hero:0db55359d8d9f44d",
+    "hash": "0db55359d8d9f44d79ef122b67e453d663ee6018",
+    "axes": {
+      "layoutGesture": "doctor-over-wordmark healthcare hero with appointment proof cards",
+      "sectionSilhouette": "soft blue hero where doctor image overlaps a huge medical headline and small care cards",
+      "anatomyLayer": "pale blue nav, giant medical/check headline, doctor portrait overlapping text, appointment cta, icons, stats, patient/video cards, and dark support panel below.",
+      "hierarchyLayer": "wordmark and doctor first, appointment cta second, patient/proof cards third.",
+      "gridRhythmLayer": "pale healthcare hero with oversized wordmark interrupted by doctor media and compact appointment cards.",
+      "focalPath": "doctor portrait to giant wordmark to cta to patient proof cards",
+      "compositionTension": "clinical authority meets approachable patient-service proof",
+      "negativeSpaceShape": "pale blue open area around the large type and doctor figure",
+      "moduleScaleVariation": "oversized headline and doctor versus small patient/appointment cards",
+      "breakoutBehavior": "doctor figure breaks through headline and card boundaries",
+      "contentLimits": "{\"cta\":\"1-2\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"0-1 controlled cue\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.2442,
+  "matchGroupId": "hero:0db55359d8d9f44d",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:25:28Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 18,
+    "bestMatch": {
+      "score": 0.2442,
+      "axisScores": {
+        "layoutGesture": 0.2143,
+        "sectionSilhouette": 0.0769,
+        "anatomyLayer": 0.2059,
+        "hierarchyLayer": 0.3333,
+        "gridRhythmLayer": 0.125,
+        "focalPath": 0.3077,
+        "compositionTension": 0.0,
+        "negativeSpaceShape": 0.2353,
+        "moduleScaleVariation": 0.1875,
+        "breakoutBehavior": 0.0,
+        "contentLimits": 1.0
+      },
+      "patternId": "checkpoint-004-hero-career-agency-portrait-job-card-hero",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-004-hero-career-agency-portrait-job-card-hero.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

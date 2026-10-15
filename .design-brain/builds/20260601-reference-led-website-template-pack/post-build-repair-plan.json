@@ -1,0 +1,22 @@
+[
+  {
+    "auditPass": "serial-provenance",
+    "issue": "build-session ledger missing for multi-template serial provenance",
+    "repair": "Rebuild through one completed template cycle at a time; lock and scaffold-dispose each template before starting the next."
+  },
+  {
+    "auditPass": "serial-provenance",
+    "issue": "design cognition receipts have identical nonblank line counts (114); this is all-at-once scaffold evidence unless rebuilt as separate cycle artifacts",
+    "repair": "Rebuild through one completed template cycle at a time; lock and scaffold-dispose each template before starting the next."
+  },
+  {
+    "auditPass": "serial-provenance",
+    "issue": "template fingerprints have identical nonblank line counts (32); this is all-at-once scaffold evidence unless rebuilt as separate cycle artifacts",
+    "repair": "Rebuild through one completed template cycle at a time; lock and scaffold-dispose each template before starting the next."
+  },
+  {
+    "auditPass": "serial-provenance",
+    "issue": "multiple receipt categories share identical morphology across the batch; provenance must BLOCK rather than PASS",
+    "repair": "Rebuild through one completed template cycle at a time; lock and scaffold-dispose each template before starting the next."
+  }
+]

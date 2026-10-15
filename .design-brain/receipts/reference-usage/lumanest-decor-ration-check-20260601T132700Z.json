@@ -1,0 +1,23 @@
+{
+  "command": "check",
+  "status": "PASS",
+  "templateId": "lumanest-decor",
+  "candidateBrandName": "LumaNest Decor",
+  "templateType": "Figma Website Template",
+  "productFamily": "home decor ecommerce website template",
+  "niche": "home decor ecommerce",
+  "referenceMode": "single",
+  "referenceGroupKey": "ration-home-decor-ecommerce-png",
+  "referenceIds": [
+    "ration-home-decor-ecommerce-png"
+  ],
+  "referenceBrandNames": [
+    "Ration"
+  ],
+  "blockingReasons": [],
+  "warnings": [],
+  "nextAction": "Proceed with reference cognition and record usage after completion.",
+  "dryRun": false,
+  "checkedAt": "2026-06-01T13:30:04.925157+00:00",
+  "receiptPath": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\receipts\\reference-usage\\lumanest-decor-ration-check-20260601T132700Z.json"
+}

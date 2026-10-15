@@ -1,0 +1,32 @@
+{
+  "batchId": "20260531-website-template-pack-r3",
+  "status": "PASS",
+  "userFeedbackAddressed": [
+    "Avoided minimalist underbuild by increasing product-family section depth.",
+    "Added richer layout shape exploration per template instead of one shared scaffold.",
+    "Expanded color relationships beyond flat palettes.",
+    "Applied gradients, shadows, glow, dark proof bands, paper depth, and material/blueprint effects visibly in source sections.",
+    "Expanded design systems beyond minimal token boards into coverage, color/effect grammar, component states, and source hygiene."
+  ],
+  "figmaEvidence": {
+    "fileKey": "CgdE9bpMfAILXpcFcrJMPC",
+    "prismshelfSourceNode": "21:3",
+    "atlashausSourceNode": "23:3",
+    "prismshelfDesignSystemNode": "40:469",
+    "atlashausDesignSystemNode": "40:536"
+  },
+  "screenshots": [
+    ".design-brain/screenshots/20260531-prismshelf-r3-source.png",
+    ".design-brain/screenshots/20260531-atlashaus-r3-source.png",
+    ".design-brain/screenshots/20260531-prismshelf-r3-design-system.png",
+    ".design-brain/screenshots/20260531-atlashaus-r3-design-system.png"
+  ],
+  "autoLayoutReceipt": {
+    "status": "PASS",
+    "summary": "New R3 source sections and design-system panels were built with auto-layout containers for structural groups, cards, rows, CTAs, forms, and repeated modules. Manual positioning is limited to decorative/product-stage placeholder surfaces inside those editable sections."
+  },
+  "similarityIntent": {
+    "PrismShelf": "commerce browser, product bundle matrix, proof shipping lane, checkout receipt closure",
+    "AtlasHaus": "architecture dossier, material atlas, publication proof wall, folded project brief closure"
+  }
+}

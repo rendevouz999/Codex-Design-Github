@@ -1,0 +1,42 @@
+{
+  "schema": "design-brain.design-subagents.semantic-validation-rules.v1",
+  "version": "1.0.0",
+  "purpose": "Semantic validation rules for subagent receipts so final gates judge evidence quality, not only file existence.",
+  "finalGateRule": "For final gates, any critical subagent with semantic status other than PASS blocks final delivery.",
+  "globalRules": [
+    "Required receipt files must be non-empty.",
+    "JSON receipt files must be valid structured JSON.",
+    "Placeholder, smoke, lorem, todo, or dummy evidence cannot satisfy final gates.",
+    "A receipt that reports BLOCK or FAIL blocks final delivery.",
+    "A receipt that reports REVISE_REQUIRED prevents final PASS until repaired."
+  ],
+  "agentSemanticContracts": {
+    "reference_visual_analyst": ["typography", "layout", "hierarchy", "color", "spacing", "media or imagery", "effect or polish", "copying risk"],
+    "style_dna_extractor": ["transferable style DNA", "reinterpretation plan", "do-not-copy boundary", "color/layout/hero/signature remapping"],
+    "brand_reference_memory_guardian": ["brand uniqueness", "reference usage policy", "reference usage receipt", "brand-name check"],
+    "template_product_architect": ["target buyer", "product promise", "marketplace value", "section or page scope", "conversion logic"],
+    "section_flow_strategist": ["section purpose", "rhythm", "density variation", "CTA placement", "anti-generic flow"],
+    "layout_composition_director": ["grid", "hero grammar", "card/media behavior", "responsive behavior", "similarity risk"],
+    "design_system_director": ["color token roles", "typography styles", "spacing rhythm", "components", "states or variants", "section modules", "usage examples", "effect or surface-depth language"],
+    "visual_signature_builder": ["visual motif", "surface/background treatment", "CTA language", "icon/container language", "uniqueness"],
+    "figma_source_qa": ["auto-layout", "components", "variants", "layer naming", "tokens/styles", "editability"],
+    "originality_similarity_auditor": ["numeric similarity score", "hero grammar comparison", "section flow comparison", "layout comparison", "component rhythm comparison", "reference or previous-template risk"],
+    "visual_qa_inspector": ["screenshot evidence", "hero strength", "hierarchy", "spacing", "density", "contrast", "depth", "polish", "marketplace feel", "visual defects"],
+    "marketplace_readiness_judge": ["critical subagent status", "screenshot evidence", "design-system depth", "originality", "Figma source status when relevant", "buyer value"],
+    "deck_motion_director": ["motion signature identity", "entrance grammar per archetype", "reveal order", "duration or stagger budget", "transition vocabulary", "forbidden motion", "reduced-motion equivalent"],
+    "web_deck_stage_runtime_qa": ["rendered capture per slide", "stage fit and letterbox behavior", "no-reflow proof", "navigation and deep link", "lifecycle event payload", "reduced-motion render", "print page count", "P0 finding count"]
+  },
+  "thresholds": {
+    "marketplaceWebsiteMinimumSections": 8,
+    "designSystemMinimumColorRoles": 5,
+    "designSystemMinimumTypographyStyles": 5,
+    "designSystemMinimumSpacingRhythms": 3,
+    "designSystemMinimumComponents": 6,
+    "designSystemMinimumStatesOrVariants": 2,
+    "designSystemMinimumSectionModules": 4,
+    "designSystemMinimumUsageExamples": 2,
+    "maximumAllowedStructureSimilarity": 0.1,
+    "minimumVisualScoreNormalized": 0.6,
+    "webDeckMaximumRenderReviewP0Findings": 0
+  }
+}

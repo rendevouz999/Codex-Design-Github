@@ -1,0 +1,46 @@
+{
+  "finalStatus": "READY",
+  "figmaFileKey": "MaIqGHCZICiDGhu9kH6o9C",
+  "figmaUrl": "https://www.figma.com/design/MaIqGHCZICiDGhu9kH6o9C",
+  "templates": [
+    {
+      "templateId": "nexora-advisory",
+      "mainFrameId": "2:14",
+      "designSystemFrameId": "2:312",
+      "coverFrameId": "2:367",
+      "sectionCount": 11,
+      "visualInspection": "PASS",
+      "designSystemCheck": "PASS"
+    },
+    {
+      "templateId": "lumanest-decor",
+      "mainFrameId": "11:10",
+      "designSystemFrameId": "11:476",
+      "coverFrameId": "11:527",
+      "sectionCount": 13,
+      "visualInspection": "PASS",
+      "designSystemCheck": "PASS"
+    },
+    {
+      "templateId": "voltstride",
+      "mainFrameId": "13:10",
+      "designSystemFrameId": "13:362",
+      "coverFrameId": "13:415",
+      "sectionCount": 12,
+      "visualInspection": "PASS_AFTER_REPAIR",
+      "designSystemCheck": "PASS"
+    }
+  ],
+  "qualityGates": {
+    "designCognition": "PASS",
+    "designSimulation": "PASS",
+    "serialProvenance": "PASS",
+    "batchSimilarity": "PASS_LOW_RISK",
+    "designSystemSourceHygiene": "PASS",
+    "visualLayoutQA": "PASS",
+    "imagePlaceholderPolicy": "PASS",
+    "autoLayoutReceipt": "PASS"
+  },
+  "notes": "Three reference-led Figma website templates were built one cycle at a time. Each template has a separate page, main source frame, per-template design-system board, cover/overview frame, source-safe placeholders, visual screenshot evidence, and a distinct structure/visual-language fingerprint.",
+  "completedAt": "2026-06-01T10:57:30Z"
+}

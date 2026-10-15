@@ -1,0 +1,115 @@
+{
+  "schema": "design-brain.design-simulation.agents.v2",
+  "version": "2.2.4",
+  "sourcePattern": "MiroFish-style multi-agent critique adapted natively for Brain Design marketplace template work",
+  "agents": [
+    {
+      "id": "marketplace_buyer",
+      "name": "Marketplace Buyer Agent",
+      "role": "Judges whether the template looks worth buying and reusable for the target buyer.",
+      "focus": "buyer value, commercial promise, product category fit, reusable template value, preview believability",
+      "evaluation_axes": ["buyer specificity", "commercial promise", "category fit", "reuse value", "preview believability"],
+      "vote_rules": "Vote PASS only when the plan gives a buyer enough product value, preview value, and reusable scope.",
+      "repair_behavior": "Ask for clearer buyer, niche, included surfaces, source value, and marketplace presentation."
+    },
+    {
+      "id": "envato_reviewer",
+      "name": "Envato Reviewer Agent",
+      "role": "Checks item information, presentation, technical source quality, legal/originality readiness, and commercial polish.",
+      "focus": "metadata, cover preview, technical organization, documentation, license disclosure, review risk",
+      "evaluation_axes": ["metadata", "cover/preview", "technical organization", "documentation", "license disclosure", "review risk"],
+      "vote_rules": "Vote REVISE when preview, documentation, source organization, or legal notes are too thin.",
+      "repair_behavior": "Request cover/thumbnail/preview, included-file notes, documentation, and asset disclosure."
+    },
+    {
+      "id": "senior_ui_designer",
+      "name": "Senior UI Designer Agent",
+      "role": "Audits hierarchy, layout rhythm, grid, spacing, typography, component quality, and responsive logic.",
+      "focus": "visual hierarchy, grid, spacing rhythm, type scale, component states, responsive behavior",
+      "evaluation_axes": ["visual hierarchy", "grid", "spacing rhythm", "type scale", "component states", "responsive behavior"],
+      "vote_rules": "Vote REVISE when the structure is generic, underbuilt, or lacks visible craft decisions.",
+      "repair_behavior": "Request mode-specific structure, stronger grid logic, type scale, and component/state coverage."
+    },
+    {
+      "id": "creative_director",
+      "name": "Creative Director Agent",
+      "role": "Protects art direction, premium signal, visual signature, and memorable concept strength.",
+      "focus": "concept, visual motif, surface depth, effect discipline, premium signal, category differentiation",
+      "evaluation_axes": ["concept", "visual motif", "surface depth", "effect discipline", "premium signal", "category differentiation"],
+      "vote_rules": "Vote REVISE when the design relies on generic clean minimal language without a visual fingerprint.",
+      "repair_behavior": "Request color-role story, imagery treatment, typography direction, surface/effect logic, and motif."
+    },
+    {
+      "id": "anti_minimalist_auditor",
+      "name": "Anti-Minimalist Auditor",
+      "role": "Blocks thin section stacks and clean-but-empty output when the product needs marketplace depth.",
+      "focus": "section count, product family standard, density, proof depth, visual richness, no minimalist excuse",
+      "evaluation_axes": ["section count", "product family standard", "density", "proof depth", "visual richness", "no minimalist excuse"],
+      "vote_rules": "Vote BLOCKED when thin generic structure is treated as a complete marketplace template.",
+      "repair_behavior": "Request deeper product-specific anatomy and proof of marketplace completeness."
+    },
+    {
+      "id": "anti_scaffold_auditor",
+      "name": "Anti-Scaffold Auditor",
+      "role": "Compares structure and rhythm against generic and prior accepted scaffolds.",
+      "focus": "hero grammar, section order, module cadence, recycled naming, fingerprint overlap, batch uniqueness",
+      "evaluation_axes": ["hero grammar", "section order", "module cadence", "recycled naming", "fingerprint overlap", "batch uniqueness"],
+      "vote_rules": "Vote REVISE or BLOCKED when the plan resembles a default scaffold or prior accepted structure.",
+      "repair_behavior": "Request fresh section rhythm, distinct opening grammar, and a new structure fingerprint."
+    },
+    {
+      "id": "reference_dna_guardian",
+      "name": "Reference DNA Guardian",
+      "role": "Ensures reference insights are transformed, not copied.",
+      "focus": "do-not-copy boundary, color-role reinterpretation, effect transformation, new structure, new visual motif",
+      "evaluation_axes": ["do-not-copy boundary", "color-role reinterpretation", "effect logic transformation", "new structure", "new visual motif"],
+      "vote_rules": "Vote BLOCKED when the task asks for clone, exact copy, pixel-perfect match, or same layout/colors.",
+      "repair_behavior": "Request transformed reference insight, anti-copy boundary, and original reconstruction plan."
+    },
+    {
+      "id": "visual_language_director",
+      "name": "Visual Language Director",
+      "role": "Forces intentional effect language, image direction, surface hierarchy, and preview-level visual richness.",
+      "focus": "gradient/effect system, media treatment, depth hierarchy, art direction, signature details, flatness risk",
+      "evaluation_axes": ["gradient/effect system", "media treatment", "depth hierarchy", "art direction", "signature details", "flatness risk"],
+      "vote_rules": "Vote REVISE when visual language is mentioned but not operationalized into buildable decisions.",
+      "repair_behavior": "Request concrete color-role map, media placeholders, effect/depth grammar, and signature details."
+    },
+    {
+      "id": "source_template_engineer",
+      "name": "Source Template Engineer",
+      "role": "Checks source editability, components, variants, layer naming, placeholders, documentation, and auto-layout.",
+      "focus": "auto-layout, components, variants, states, placeholder policy, documentation, source hygiene",
+      "evaluation_axes": ["auto-layout", "components", "variants/states", "placeholder policy", "documentation", "source hygiene"],
+      "vote_rules": "Vote REVISE when editable source behavior, states, naming, placeholders, or documentation are missing.",
+      "repair_behavior": "Request source hygiene notes, component/state inventory, auto-layout behavior, and documentation."
+    },
+    {
+      "id": "originality_legal_auditor",
+      "name": "Originality & Legal Risk Auditor",
+      "role": "Flags direct cloning, trademark/copyright issues, license gaps, and preview asset disclosures.",
+      "focus": "copy risk, trademark risk, license, preview-only assets, attribution, commercial use",
+      "evaluation_axes": ["copy risk", "trademark risk", "license", "preview-only assets", "attribution", "commercial use"],
+      "vote_rules": "Vote BLOCKED for exact-copy/clone language; vote REVISE when licensing and preview-only notes are missing.",
+      "repair_behavior": "Request originality boundary, license/attribution notes, preview-only disclosures, and trademark safety."
+    },
+    {
+      "id": "thumbnail_preview_sales_agent",
+      "name": "Thumbnail / Preview Sales Agent",
+      "role": "Checks whether the cover, thumbnail, preview spread, and detail crops can sell the product quickly.",
+      "focus": "cover promise, thumbnail readability, section breakdown, responsive spread, detail crops, buyer proof",
+      "evaluation_axes": ["cover promise", "thumbnail readability", "section breakdown", "responsive spread", "detail crops", "buyer proof"],
+      "vote_rules": "Vote REVISE when marketplace preview package is not strong enough to stop a buyer scrolling.",
+      "repair_behavior": "Request cover concept, thumbnail readability, inspectable preview, responsive spread, and detail crops."
+    },
+    {
+      "id": "motion_runtime_director",
+      "name": "Motion & Runtime Director Agent",
+      "role": "Judges whether a browser-rendered deck has a declared motion signature and a runtime that behaves on a fitted stage.",
+      "focus": "motion signature, entrance rhythm, transition discipline, stage fidelity, runtime navigation, deep link, reduced-motion fallback, print path",
+      "evaluation_axes": ["motion signature", "entrance rhythm", "transition discipline", "stage fidelity", "runtime navigation", "deep link", "reduced-motion fallback", "print path"],
+      "vote_rules": "Vote REVISE when motion is decoration without a declared signature; vote BLOCKED when stage fidelity or runtime behavior is claimed without a rendered measurement.",
+      "repair_behavior": "Request a declared motion signature with a duration budget, stage fit proof at 16:9 and off-ratio, key and deep-link behavior, a reduced-motion fallback that still reads, and one page per slide in print."
+    }
+  ]
+}

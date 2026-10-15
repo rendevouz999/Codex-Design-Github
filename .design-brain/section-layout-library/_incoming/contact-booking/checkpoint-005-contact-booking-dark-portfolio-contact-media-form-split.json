@@ -1,0 +1,121 @@
+{
+  "patternId": "checkpoint-005-contact-booking-dark-portfolio-contact-media-form-split",
+  "sectionType": "contact-booking",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\caos-portofolio-designer-website-2025-10-03-22-22-17-utc - Caos - Portofolio Designer Website - 4982b039.jpg"
+  ],
+  "productFamilies": [
+    "portfolio",
+    "designer",
+    "creative",
+    "agency"
+  ],
+  "commercialPurpose": "Convert portfolio interest through a contact form that still preserves the designer visual identity.",
+  "purposeLayer": "Contact section pairs form fields with branded media proof so the close does not become a generic form slab.",
+  "anatomyLayer": "Dark heading, stacked input fields, message field, yellow CTA, adjacent portrait/project media card, small availability/status card, and minimal footer links.",
+  "hierarchyLayer": "Contact headline first, form fields second, media proof third.",
+  "gridRhythmLayer": "Dark contact split with form stack on one side and branded image/status card on the other.",
+  "densityLimitLayer": "Use section density limit: {\"formFields\": \"3-6\", \"supportBlocks\": \"1-3\", \"conversionCue\": \"1\"}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, product photos, or page order.",
+  "usageRuleLayer": "Use when portfolio and agency templates need a contact section with brand memory, not a detached form.",
+  "layoutGesture": "dark portfolio contact split with media proof card",
+  "sectionSilhouette": "black section where a form panel is balanced by a yellow-toned project/portrait card",
+  "compositionTension": "conversion utility remains visually tied to the portfolio art direction",
+  "focalPath": "headline to form fields to media card to submit CTA",
+  "negativeSpaceShape": "dark blank areas frame form and media as separate conversion blocks",
+  "depthLayering": "black base, input surfaces, image card, status chip, accent button",
+  "moduleScaleVariation": "medium form block against one medium media proof card and small status chip",
+  "breakoutBehavior": "media proof card overlaps the simple form rhythm",
+  "contentLimits": {
+    "formFields": "3-6",
+    "supportBlocks": "1-3",
+    "conversionCue": "1"
+  },
+  "antiCopyBoundary": "Do not copy Caos form styling, portrait/photo, yellow accent, or footer layout.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "portfolio-gallery",
+      "services"
+    ],
+    "after": [
+      "footer"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 005 contact sheet",
+    "reviewNotes": "Checkpoint 005 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "contact-booking:aa34b8caf4a296fd",
+    "hash": "aa34b8caf4a296fd7aba83a55c1b825d257f27cd",
+    "axes": {
+      "layoutGesture": "dark portfolio contact split with media proof card",
+      "sectionSilhouette": "black section where a form panel is balanced by a yellow-toned project/portrait card",
+      "anatomyLayer": "dark heading, stacked input fields, message field, yellow cta, adjacent portrait/project media card, small availability/status card, and minimal footer links.",
+      "hierarchyLayer": "contact headline first, form fields second, media proof third.",
+      "gridRhythmLayer": "dark contact split with form stack on one side and branded image/status card on the other.",
+      "focalPath": "headline to form fields to media card to submit cta",
+      "compositionTension": "conversion utility remains visually tied to the portfolio art direction",
+      "negativeSpaceShape": "dark blank areas frame form and media as separate conversion blocks",
+      "moduleScaleVariation": "medium form block against one medium media proof card and small status chip",
+      "breakoutBehavior": "media proof card overlaps the simple form rhythm",
+      "contentLimits": "{\"conversioncue\":\"1\",\"formfields\":\"3-6\",\"supportblocks\":\"1-3\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.238,
+  "matchGroupId": "contact-booking:aa34b8caf4a296fd",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:25:28Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 2,
+    "bestMatch": {
+      "score": 0.238,
+      "axisScores": {
+        "layoutGesture": 0.1538,
+        "sectionSilhouette": 0.0769,
+        "anatomyLayer": 0.0857,
+        "hierarchyLayer": 0.5,
+        "gridRhythmLayer": 0.1481,
+        "focalPath": 0.125,
+        "compositionTension": 0.0556,
+        "negativeSpaceShape": 0.1667,
+        "moduleScaleVariation": 0.2105,
+        "breakoutBehavior": 0.0952,
+        "contentLimits": 1.0
+      },
+      "patternId": "checkpoint-004-contact-booking-business-consultancy-team-contact-closure",
+      "sectionType": "contact-booking",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\contact-booking\\checkpoint-004-contact-booking-business-consultancy-team-contact-closure.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

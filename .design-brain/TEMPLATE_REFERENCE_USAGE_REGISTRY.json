@@ -1,0 +1,559 @@
+{
+  "version": "1.0.0",
+  "description": "Append-only memory registry for reference brand usage, reference groups, and generated template brand names.",
+  "references": [
+    {
+      "referenceId": "qicons-business-consultant-png",
+      "referenceBrandName": "Qicons",
+      "referencePath": "C:\\Users\\Admin\\Downloads\\Template\\New folder\\qicons-bussiness-consultant-website-2025-08-20-17-51-41-utc - Qicons - Bussiness Consultant Website - fde25fb6.png",
+      "sourcePath": "",
+      "sourceType": "png",
+      "templateType": "Figma Website Template",
+      "productFamily": "business consultant website template",
+      "niche": "business consultant",
+      "doNotCopyBoundary": "Use Qicons only for abstract business-consultant Style DNA; do not copy exact layout, palette, brand, motif, section order, imagery, or component grouping.",
+      "usageStatus": {
+        "singleUsed": true,
+        "singleUsedAt": "2026-06-01T13:30:24.600762+00:00",
+        "templateId": "nexora-advisory"
+      },
+      "createdAt": "2026-06-01T13:29:33.061320+00:00"
+    },
+    {
+      "referenceId": "ration-home-decor-ecommerce-png",
+      "referenceBrandName": "Ration",
+      "referencePath": "C:\\Users\\Admin\\Downloads\\Template\\New folder (2)\\ration-home-decor-ecommerce-website-2024-10-04-20-28-50-utc - Ration - Home Decor eCommerce Website Image - efac0fef.png",
+      "sourcePath": "",
+      "sourceType": "png",
+      "templateType": "Figma Website Template",
+      "productFamily": "home decor ecommerce website template",
+      "niche": "home decor ecommerce",
+      "doNotCopyBoundary": "Use Ration only for abstract home-decor ecommerce Style DNA; do not copy exact layout, palette, brand, motif, section order, imagery, or product-card grouping.",
+      "usageStatus": {
+        "singleUsed": true,
+        "singleUsedAt": "2026-06-01T13:30:34.941540+00:00",
+        "templateId": "lumanest-decor"
+      },
+      "createdAt": "2026-06-01T13:29:44.638893+00:00"
+    },
+    {
+      "referenceId": "sneaky-shoes-sneakers-ecommerce-png",
+      "referenceBrandName": "Sneaky",
+      "referencePath": "C:\\Users\\Admin\\Downloads\\Template\\New folder (3)\\shoes-sneakers-product-ecommerce-website-2025-05-08-00-27-42-utc - Sneaky - Shoes & Sneakers Product eCommerce Website - fd8923ee.png",
+      "sourcePath": "",
+      "sourceType": "png",
+      "templateType": "Figma Website Template",
+      "productFamily": "sneaker ecommerce website template",
+      "niche": "shoes sneakers ecommerce",
+      "doNotCopyBoundary": "Use Sneaky only for abstract sneaker ecommerce Style DNA; do not copy exact layout, palette, brand, motif, section order, imagery, or product-drop treatment.",
+      "usageStatus": {
+        "singleUsed": true,
+        "singleUsedAt": "2026-06-01T13:30:49.764329+00:00",
+        "templateId": "voltstride"
+      },
+      "createdAt": "2026-06-01T13:29:52.527206+00:00"
+    },
+    {
+      "referenceId": "user-twelve-editorial-20261013",
+      "referenceBrandName": "User supplied twelve-image editorial bundle 20261013",
+      "referencePath": "output/Between-Forms_20261013/analysis/main-reference-study.md",
+      "sourcePath": "",
+      "sourceType": "user-selected-image-bundle",
+      "templateType": "PowerPoint presentation template",
+      "productFamily": "presentation-deck",
+      "niche": "",
+      "doNotCopyBoundary": "Learn from all twelve supplied images as requested. Never copy their names, photos, exact compositions, palettes or slide sequences. Bundle membership is fixed in the reference study.",
+      "usageStatus": {
+        "singleUsed": true,
+        "singleUsedAt": "2026-10-12T23:25:41.303925+00:00",
+        "templateId": "between-forms"
+      },
+      "createdAt": "2026-10-12T22:32:05.723005+00:00"
+    },
+    {
+      "referenceId": "user-pinterest-ten-20261013",
+      "referenceBrandName": "User Pinterest presentation board (10 images, 2026-10-13)",
+      "referencePath": "<CODEX_DESIGN_WORKSPACE>/downloads/Pinterest-Presentasi-2026-10-13",
+      "sourcePath": "<CODEX_DESIGN_WORKSPACE>/downloads/Pinterest-Presentasi-2026-10-13",
+      "sourceType": "user-supplied image board",
+      "templateType": "PowerPoint presentation template",
+      "productFamily": "presentation_deck",
+      "niche": "creative studio portfolio",
+      "doNotCopyBoundary": "No reference slide composition, section order, lime/acid-black palette, burgundy florals, plum/apricot, blob shapes, tape/sticker/barcode ornaments, script-letter swaps, brand names, photos or copy may be reproduced",
+      "usageStatus": {
+        "singleUsed": true,
+        "singleUsedAt": "2026-10-13T17:22:08.743735+00:00",
+        "templateId": "ruled-margin"
+      },
+      "createdAt": "2026-10-13T06:02:13.241408+00:00"
+    },
+    {
+      "referenceId": "user-six-images-20261015",
+      "referenceBrandName": "Owner six-image board (2026-10-15)",
+      "referencePath": "<CODEX_DESIGN_WORKSPACE>/output/Fathom_20261015/references/user-images",
+      "sourcePath": "",
+      "sourceType": "owner-images",
+      "templateType": "PowerPoint presentation template",
+      "productFamily": "presentation_deck",
+      "niche": "marketing agency proposal",
+      "doNotCopyBoundary": "Drawn grid lines, pixel mark, yellow highlight, gradient blobs, lowercase titles with period, orange stat pills, avatar rings, blobs, folder tabs, inline headline icons, accordion arrows, reference photos, palettes, brand names and copy",
+      "usageStatus": {
+        "singleUsed": true,
+        "singleUsedAt": "2026-10-14T23:16:17.267154+00:00",
+        "templateId": "fathom"
+      },
+      "createdAt": "2026-10-14T20:41:21.088052+00:00"
+    }
+  ],
+  "referenceGroups": [
+    {
+      "groupKey": "local-tria-quantum-computing-9ab318bb",
+      "groupSize": 1,
+      "mode": "single",
+      "referenceIds": [
+        "local-tria-quantum-computing-9ab318bb"
+      ],
+      "referenceBrandNames": [
+        "Tria"
+      ],
+      "usageStatus": {
+        "used": true,
+        "usedAt": "2026-05-31T19:29:37.082949+00:00",
+        "templateId": "qryon-labs-quantum-saas-website"
+      },
+      "createdAt": "2026-05-31T19:29:37.082949+00:00"
+    },
+    {
+      "groupKey": "qicons-business-consultant-png",
+      "groupSize": 1,
+      "mode": "single",
+      "referenceIds": [
+        "qicons-business-consultant-png"
+      ],
+      "referenceBrandNames": [
+        "Qicons"
+      ],
+      "usageStatus": {
+        "used": true,
+        "usedAt": "2026-06-01T13:30:24.600762+00:00",
+        "templateId": "nexora-advisory"
+      },
+      "createdAt": "2026-06-01T13:30:24.600762+00:00"
+    },
+    {
+      "groupKey": "ration-home-decor-ecommerce-png",
+      "groupSize": 1,
+      "mode": "single",
+      "referenceIds": [
+        "ration-home-decor-ecommerce-png"
+      ],
+      "referenceBrandNames": [
+        "Ration"
+      ],
+      "usageStatus": {
+        "used": true,
+        "usedAt": "2026-06-01T13:30:34.941540+00:00",
+        "templateId": "lumanest-decor"
+      },
+      "createdAt": "2026-06-01T13:30:34.941540+00:00"
+    },
+    {
+      "groupKey": "sneaky-shoes-sneakers-ecommerce-png",
+      "groupSize": 1,
+      "mode": "single",
+      "referenceIds": [
+        "sneaky-shoes-sneakers-ecommerce-png"
+      ],
+      "referenceBrandNames": [
+        "Sneaky"
+      ],
+      "usageStatus": {
+        "used": true,
+        "usedAt": "2026-06-01T13:30:49.764329+00:00",
+        "templateId": "voltstride"
+      },
+      "createdAt": "2026-06-01T13:30:49.764329+00:00"
+    },
+    {
+      "groupKey": "signals-user-12-20261013",
+      "groupSize": 1,
+      "mode": "single",
+      "referenceIds": [
+        "signals-user-12-20261013"
+      ],
+      "referenceBrandNames": [],
+      "usageStatus": {
+        "used": true,
+        "usedAt": "2026-10-12T22:08:21.948711+00:00",
+        "templateId": "signals-beyond-sight"
+      },
+      "createdAt": "2026-10-12T22:08:21.948707+00:00"
+    },
+    {
+      "groupKey": "user-twelve-editorial-20261013",
+      "groupSize": 1,
+      "mode": "single",
+      "referenceIds": [
+        "user-twelve-editorial-20261013"
+      ],
+      "referenceBrandNames": [
+        "User supplied twelve-image editorial bundle 20261013"
+      ],
+      "usageStatus": {
+        "used": true,
+        "usedAt": "2026-10-12T23:25:41.303911+00:00",
+        "templateId": "between-forms"
+      },
+      "createdAt": "2026-10-12T23:25:41.303907+00:00"
+    },
+    {
+      "groupKey": "user-pinterest-ten-20261013",
+      "groupSize": 1,
+      "mode": "single",
+      "referenceIds": [
+        "user-pinterest-ten-20261013"
+      ],
+      "referenceBrandNames": [
+        "User Pinterest presentation board (10 images, 2026-10-13)"
+      ],
+      "usageStatus": {
+        "used": true,
+        "usedAt": "2026-10-13T17:22:08.743717+00:00",
+        "templateId": "ruled-margin"
+      },
+      "createdAt": "2026-10-13T17:22:08.743713+00:00"
+    },
+    {
+      "groupKey": "user-six-images-20261015",
+      "groupSize": 1,
+      "mode": "single",
+      "referenceIds": [
+        "user-six-images-20261015"
+      ],
+      "referenceBrandNames": [
+        "Owner six-image board (2026-10-15)"
+      ],
+      "usageStatus": {
+        "used": true,
+        "usedAt": "2026-10-14T23:16:17.267136+00:00",
+        "templateId": "fathom"
+      },
+      "createdAt": "2026-10-14T23:16:17.267131+00:00"
+    }
+  ],
+  "generatedBrands": [
+    {
+      "templateId": "qryon-labs-quantum-saas-website",
+      "brandName": "QRYON Labs",
+      "templateType": "Figma Website Template",
+      "productFamily": "SaaS product marketing website",
+      "niche": "quantum computing platform",
+      "targetBuyer": "B2B deep-tech SaaS teams and research platform marketers",
+      "referenceMode": "single",
+      "referenceUsageMode": "single",
+      "referenceGroupKey": "local-tria-quantum-computing-9ab318bb",
+      "referenceIds": [
+        "local-tria-quantum-computing-9ab318bb"
+      ],
+      "referenceBrandNames": [
+        "Tria"
+      ],
+      "styleDnaSummary": "Editorial futuristic quantum SaaS, warm ivory research canvas, dark product-preview band, proof-led service architecture, role-specific source placeholders.",
+      "reinterpretationPlan": "Rebuild as QRYON Labs with oxide/cyan color roles, new proof flow, new service architecture, new package map, and editable source design system.",
+      "structuralReconfigurationPlan": "Use 12 sections with hero, signal proof, architecture, dark preview, pathways, workflow, security proof, testimonial proof, pricing, resources, FAQ, and footer CTA.",
+      "completionReceiptPath": ".design-brain\\builds\\qryon-quantum-website-template\\completion-receipt.json",
+      "fingerprintLockPath": ".design-brain\\builds\\qryon-quantum-website-template\\fingerprints\\qryon-labs-quantum-saas-website-fingerprint.json",
+      "doNotCopyBoundary": "Do not copy Tria's exact brand, copy, section proportions, image treatment, asset motifs, color mapping, or hero composition. Use it only to learn premium quantum/SaaS density, proof rhythm, and editorial futuristic product storytelling.",
+      "createdAt": "2026-05-31T19:29:37.082949+00:00"
+    },
+    {
+      "templateId": "nexora-advisory",
+      "brandName": "Nexora Advisory",
+      "templateType": "Figma Website Template",
+      "productFamily": "business consultant website template",
+      "niche": "business consultant",
+      "targetBuyer": "marketplace website template buyers",
+      "referenceMode": "single",
+      "referenceUsageMode": "single",
+      "referenceGroupKey": "qicons-business-consultant-png",
+      "referenceIds": [
+        "qicons-business-consultant-png"
+      ],
+      "referenceBrandNames": [
+        "Qicons"
+      ],
+      "styleDnaSummary": "Business-consultant premium proof rhythm, advisory hierarchy, trust blocks, process density, and lead-conversion logic.",
+      "reinterpretationPlan": "Rebuilt as Nexora Advisory with a new brand, governance-led consulting story, different section rhythm, distinct color-role mapping, and editable placeholder system.",
+      "structuralReconfigurationPlan": "Use Nexora-specific hero, insight metrics, advisory pathways, case proof, process, diagnostic CTA, and design-system board rather than Qicons' exact composition.",
+      "completionReceiptPath": ".design-brain\\builds\\20260601-reference-led-website-pack\\completion-receipt.json",
+      "fingerprintLockPath": ".design-brain\\builds\\20260601-reference-led-website-pack\\template-fingerprints\\nexora-fingerprint.json",
+      "doNotCopyBoundary": "Do not copy Qicons exact layout, palette, brand, motif, section order, imagery, hero composition, or component grouping.",
+      "createdAt": "2026-06-01T13:30:24.600762+00:00"
+    },
+    {
+      "templateId": "lumanest-decor",
+      "brandName": "LumaNest Decor",
+      "templateType": "Figma Website Template",
+      "productFamily": "home decor ecommerce website template",
+      "niche": "home decor ecommerce",
+      "targetBuyer": "marketplace ecommerce template buyers",
+      "referenceMode": "single",
+      "referenceUsageMode": "single",
+      "referenceGroupKey": "ration-home-decor-ecommerce-png",
+      "referenceIds": [
+        "ration-home-decor-ecommerce-png"
+      ],
+      "referenceBrandNames": [
+        "Ration"
+      ],
+      "styleDnaSummary": "Home-decor ecommerce product depth, room-led merchandising, material cues, collection browsing, and buyer trust rhythm.",
+      "reinterpretationPlan": "Rebuilt as LumaNest Decor with a new brand, room-story commerce flow, different merchandising hierarchy, distinct color-role mapping, and editable product placeholders.",
+      "structuralReconfigurationPlan": "Use LumaNest-specific room commerce hero, collection discovery, material modules, product decision blocks, trust proof, cart CTA, and its own design-system board.",
+      "completionReceiptPath": ".design-brain\\builds\\20260601-reference-led-website-pack\\completion-receipt.json",
+      "fingerprintLockPath": ".design-brain\\builds\\20260601-reference-led-website-pack\\template-fingerprints\\lumanest-fingerprint.json",
+      "doNotCopyBoundary": "Do not copy Ration exact layout, palette, brand, motif, section order, imagery, product-card grid, or ecommerce composition.",
+      "createdAt": "2026-06-01T13:30:34.941540+00:00"
+    },
+    {
+      "templateId": "voltstride",
+      "brandName": "VoltStride",
+      "templateType": "Figma Website Template",
+      "productFamily": "sneaker ecommerce website template",
+      "niche": "shoes sneakers ecommerce",
+      "targetBuyer": "marketplace ecommerce template buyers",
+      "referenceMode": "single",
+      "referenceUsageMode": "single",
+      "referenceGroupKey": "sneaky-shoes-sneakers-ecommerce-png",
+      "referenceIds": [
+        "sneaky-shoes-sneakers-ecommerce-png"
+      ],
+      "referenceBrandNames": [
+        "Sneaky"
+      ],
+      "styleDnaSummary": "Sneaker ecommerce energy, product-drop urgency, fit/size decision flow, review proof, and bold conversion rhythm.",
+      "reinterpretationPlan": "Rebuilt as VoltStride with a new brand, performance-drop commerce story, different product decision hierarchy, distinct effect language, and editable sneaker placeholders.",
+      "structuralReconfigurationPlan": "Use VoltStride-specific launch hero, drop calendar, performance product modules, size guide, social proof, cart CTA, and its own design-system board.",
+      "completionReceiptPath": ".design-brain\\builds\\20260601-reference-led-website-pack\\completion-receipt.json",
+      "fingerprintLockPath": ".design-brain\\builds\\20260601-reference-led-website-pack\\template-fingerprints\\voltstride-fingerprint.json",
+      "doNotCopyBoundary": "Do not copy Sneaky exact layout, palette, brand, motif, section order, imagery, sneaker-drop treatment, or product-card composition.",
+      "createdAt": "2026-06-01T13:30:49.764329+00:00"
+    },
+    {
+      "templateId": "signals-beyond-sight",
+      "brandName": "Signals Beyond Sight",
+      "templateType": "presentation deck",
+      "productFamily": "presentation-deck",
+      "niche": "",
+      "targetBuyer": "",
+      "referenceMode": "single",
+      "referenceUsageMode": "single",
+      "referenceGroupKey": "signals-user-12-20261013",
+      "referenceIds": [
+        "signals-user-12-20261013"
+      ],
+      "referenceBrandNames": [],
+      "styleDnaSummary": "Editorial scale, asymmetric reading paths, documentary imagery, Vivid Nightfall purple system.",
+      "reinterpretationPlan": "Original radio astronomy narrative with editable analytical diagrams and sourced instrumentation photography.",
+      "structuralReconfigurationPlan": "20 individually composed slides; no business dashboard or fashion moodboard scaffold.",
+      "completionReceiptPath": "output/Signals-Beyond-Sight_20261013/analysis/main-lifecycle/completion-receipt.json",
+      "fingerprintLockPath": "output/Signals-Beyond-Sight_20261013/analysis/main-candidate-fingerprint.json",
+      "doNotCopyBoundary": "No supplied names, photographs, source artwork or exact compositions copied. Astronomy-specific diagrams and eighteen conservative slide silhouettes.",
+      "createdAt": "2026-10-12T22:08:21.948728+00:00"
+    },
+    {
+      "templateId": "between-forms",
+      "brandName": "Between Forms",
+      "templateType": "presentation",
+      "productFamily": "presentation_deck",
+      "niche": "",
+      "targetBuyer": "",
+      "referenceMode": "single",
+      "referenceUsageMode": "single",
+      "referenceGroupKey": "user-twelve-editorial-20261013",
+      "referenceIds": [
+        "user-twelve-editorial-20261013"
+      ],
+      "referenceBrandNames": [
+        "User supplied twelve-image editorial bundle 20261013"
+      ],
+      "styleDnaSummary": "Editorial hierarchy, asymmetric relationships, warm material evidence, bold quiet alternation.",
+      "reinterpretationPlan": "Original plum/chalk studio strategy and portfolio narrative with native editable evidence modules.",
+      "structuralReconfigurationPlan": "Twenty distinct slide roles: strategy, identity, case study, applications, outcomes and collaboration.",
+      "completionReceiptPath": "<CODEX_DESIGN_WORKSPACE>\\output\\Between-Forms_20261013\\completion-receipt.json",
+      "fingerprintLockPath": "<CODEX_DESIGN_WORKSPACE>\\output\\Between-Forms_20261013\\analysis\\main-final-fingerprint.json",
+      "doNotCopyBoundary": "No reference brand, exact composition, photo, barcode, filmstrip or starburst reused.",
+      "createdAt": "2026-10-12T23:25:41.303932+00:00"
+    },
+    {
+      "templateId": "ruled-margin",
+      "brandName": "Ruled Margin",
+      "templateType": "PowerPoint presentation template",
+      "productFamily": "presentation_deck",
+      "niche": "creative studio portfolio",
+      "targetBuyer": "",
+      "referenceMode": "single",
+      "referenceUsageMode": "single",
+      "referenceGroupKey": "user-pinterest-ten-20261013",
+      "referenceIds": [
+        "user-pinterest-ten-20261013"
+      ],
+      "referenceBrandNames": [
+        "User Pinterest presentation board (10 images, 2026-10-13)"
+      ],
+      "styleDnaSummary": "",
+      "reinterpretationPlan": "",
+      "structuralReconfigurationPlan": "",
+      "completionReceiptPath": "",
+      "fingerprintLockPath": "",
+      "doNotCopyBoundary": "",
+      "createdAt": "2026-10-13T17:22:08.743743+00:00"
+    },
+    {
+      "templateId": "fathom",
+      "brandName": "Fathom",
+      "templateType": "PowerPoint presentation template",
+      "productFamily": "presentation_deck",
+      "niche": "marketing agency proposal",
+      "targetBuyer": "",
+      "referenceMode": "single",
+      "referenceUsageMode": "single",
+      "referenceGroupKey": "user-six-images-20261015",
+      "referenceIds": [
+        "user-six-images-20261015"
+      ],
+      "referenceBrandNames": [
+        "Owner six-image board (2026-10-15)"
+      ],
+      "styleDnaSummary": "",
+      "reinterpretationPlan": "",
+      "structuralReconfigurationPlan": "",
+      "completionReceiptPath": "",
+      "fingerprintLockPath": "",
+      "doNotCopyBoundary": "",
+      "createdAt": "2026-10-14T23:16:17.267162+00:00"
+    }
+  ],
+  "blockedNames": [
+    {
+      "name": "QRYON Labs",
+      "normalized": "qryonlabs",
+      "source": "output-brand",
+      "reason": "blocked by Brand & Reference Usage Memory",
+      "createdAt": "2026-05-31T19:29:37.082949+00:00",
+      "templateId": "qryon-labs-quantum-saas-website"
+    },
+    {
+      "name": "Tria",
+      "normalized": "tria",
+      "source": "reference-brand",
+      "reason": "blocked by Brand & Reference Usage Memory",
+      "createdAt": "2026-05-31T19:29:37.082949+00:00",
+      "referenceId": "local-tria-quantum-computing-9ab318bb"
+    },
+    {
+      "name": "Qicons",
+      "normalized": "qicons",
+      "source": "reference-brand",
+      "reason": "blocked by Brand & Reference Usage Memory",
+      "createdAt": "2026-06-01T13:29:33.061320+00:00",
+      "referenceId": "qicons-business-consultant-png"
+    },
+    {
+      "name": "Ration",
+      "normalized": "ration",
+      "source": "reference-brand",
+      "reason": "blocked by Brand & Reference Usage Memory",
+      "createdAt": "2026-06-01T13:29:44.639894+00:00",
+      "referenceId": "ration-home-decor-ecommerce-png"
+    },
+    {
+      "name": "Sneaky",
+      "normalized": "sneaky",
+      "source": "reference-brand",
+      "reason": "blocked by Brand & Reference Usage Memory",
+      "createdAt": "2026-06-01T13:29:52.527206+00:00",
+      "referenceId": "sneaky-shoes-sneakers-ecommerce-png"
+    },
+    {
+      "name": "Nexora Advisory",
+      "normalized": "nexoraadvisory",
+      "source": "output-brand",
+      "reason": "blocked by Brand & Reference Usage Memory",
+      "createdAt": "2026-06-01T13:30:24.600762+00:00",
+      "templateId": "nexora-advisory"
+    },
+    {
+      "name": "LumaNest Decor",
+      "normalized": "lumanestdecor",
+      "source": "output-brand",
+      "reason": "blocked by Brand & Reference Usage Memory",
+      "createdAt": "2026-06-01T13:30:34.941540+00:00",
+      "templateId": "lumanest-decor"
+    },
+    {
+      "name": "VoltStride",
+      "normalized": "voltstride",
+      "source": "output-brand",
+      "reason": "blocked by Brand & Reference Usage Memory",
+      "createdAt": "2026-06-01T13:30:49.764329+00:00",
+      "templateId": "voltstride"
+    },
+    {
+      "name": "Signals Beyond Sight",
+      "normalized": "signalsbeyondsight",
+      "source": "output-brand",
+      "reason": "blocked by Brand & Reference Usage Memory",
+      "createdAt": "2026-10-12T22:08:21.948738+00:00",
+      "templateId": "signals-beyond-sight"
+    },
+    {
+      "name": "User supplied twelve-image editorial bundle 20261013",
+      "normalized": "usersuppliedtwelveimageeditorialbundle20261013",
+      "source": "reference-brand",
+      "reason": "blocked by Brand & Reference Usage Memory",
+      "createdAt": "2026-10-12T22:32:05.723095+00:00",
+      "referenceId": "user-twelve-editorial-20261013"
+    },
+    {
+      "name": "Between Forms",
+      "normalized": "betweenforms",
+      "source": "output-brand",
+      "reason": "blocked by Brand & Reference Usage Memory",
+      "createdAt": "2026-10-12T23:25:41.303959+00:00",
+      "templateId": "between-forms"
+    },
+    {
+      "name": "User Pinterest presentation board (10 images, 2026-10-13)",
+      "normalized": "userpinterestpresentationboard10images20261013",
+      "source": "reference-brand",
+      "reason": "blocked by Brand & Reference Usage Memory",
+      "createdAt": "2026-10-13T06:02:13.241517+00:00",
+      "referenceId": "user-pinterest-ten-20261013"
+    },
+    {
+      "name": "Ruled Margin",
+      "normalized": "ruledmargin",
+      "source": "output-brand",
+      "reason": "blocked by Brand & Reference Usage Memory",
+      "createdAt": "2026-10-13T17:22:08.743753+00:00",
+      "templateId": "ruled-margin"
+    },
+    {
+      "name": "Owner six-image board (2026-10-15)",
+      "normalized": "ownersiximageboard20261015",
+      "source": "reference-brand",
+      "reason": "blocked by Brand & Reference Usage Memory",
+      "createdAt": "2026-10-14T20:41:21.088146+00:00",
+      "referenceId": "user-six-images-20261015"
+    },
+    {
+      "name": "Fathom",
+      "normalized": "fathom",
+      "source": "output-brand",
+      "reason": "blocked by Brand & Reference Usage Memory",
+      "createdAt": "2026-10-14T23:16:17.267172+00:00",
+      "templateId": "fathom"
+    }
+  ],
+  "updatedAt": "2026-10-14T23:16:17.267187+00:00"
+}

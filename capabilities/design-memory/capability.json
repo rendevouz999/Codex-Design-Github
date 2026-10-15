@@ -1,0 +1,36 @@
+{
+  "id": "codex-design.shared-memory",
+  "version": "1.0.0",
+  "owner": "Codex-Design",
+  "scope": "Use or maintenance of this plugin only",
+  "entrypoint": "scripts/design_brain_memory_adapter.py",
+  "policy": ".design-brain/LOCAL_MEMORY_POLICY.md",
+  "migration": "scripts/design_brain_memory_supabase.sql",
+  "configuration": "capabilities/design-memory/supabase.project.json",
+  "runtime": "Python standard library; HTTPS Supabase Data API",
+  "priority": [
+    "Supabase shared records",
+    "local outbox and verified cache",
+    "existing plugin-local records"
+  ],
+  "readers": [
+    "main",
+    "engineer"
+  ],
+  "writer": "main",
+  "commands": [
+    "status",
+    "read",
+    "search",
+    "list",
+    "history",
+    "put",
+    "sync",
+    "pull"
+  ],
+  "agentCoreRequired": false,
+  "automaticBackgroundSync": false,
+  "agentCoreUsed": false,
+  "readerConfiguration": ".design-brain/local-memory/supabase-reader.secret.json",
+  "writerConfiguration": ".design-brain/local-memory/supabase-writer.secret.json"
+}

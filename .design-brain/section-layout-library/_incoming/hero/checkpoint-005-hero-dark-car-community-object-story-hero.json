@@ -1,0 +1,123 @@
+{
+  "patternId": "checkpoint-005-hero-dark-car-community-object-story-hero",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\casep-car-community-website-2025-11-11-21-00-45-utc - Casep - Car Community Website - bc2b6102.jpg"
+  ],
+  "productFamilies": [
+    "automotive",
+    "community",
+    "membership",
+    "marketplace"
+  ],
+  "commercialPurpose": "Open a car community template with cinematic vehicle object, membership emotion, and collector proof.",
+  "purposeLayer": "Hero makes the community feel aspirational by treating the car as a cultural artifact and gathering signal.",
+  "anatomyLayer": "Black nav, large culture headline, dramatic vehicle render, CTA, small community/rating chips, vertical story/proof rail, and dark category tabs below.",
+  "hierarchyLayer": "Car object first, headline second, community chips third, CTA fourth.",
+  "gridRhythmLayer": "Dark automotive hero dominated by a glossy vehicle object and compact community proof modules.",
+  "densityLimitLayer": "Use section density limit: {\"primaryMessage\": 1, \"cta\": \"1-2\", \"proofCue\": \"0-1 controlled cue\", \"mediaSystem\": 1}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, product photos, or page order.",
+  "usageRuleLayer": "Use for car clubs, collector communities, premium memberships, product fandom, and marketplace communities.",
+  "layoutGesture": "dark car community hero with cinematic vehicle and proof rail",
+  "sectionSilhouette": "black page top with vehicle render, large cultural headline, tiny chips, and connected category tabs",
+  "compositionTension": "collector aspiration is balanced with membership/community affordances",
+  "focalPath": "vehicle render to headline to proof chips to category tabs",
+  "negativeSpaceShape": "black cinematic void around the vehicle amplifies object drama",
+  "depthLayering": "black base, glossy car layer, gray card tabs, small circular badges",
+  "moduleScaleVariation": "oversized vehicle against tiny chips and tab cards",
+  "breakoutBehavior": "car render floats beyond a standard column and anchors page atmosphere",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1-2",
+    "proofCue": "0-1 controlled cue",
+    "mediaSystem": 1
+  },
+  "antiCopyBoundary": "Do not copy Casep brand, Porsche-like car render, category labels, monochrome image treatment, or quote copy.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "features",
+      "portfolio-gallery",
+      "testimonials"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 005 contact sheet",
+    "reviewNotes": "Checkpoint 005 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "hero:a15b81fad15101fa",
+    "hash": "a15b81fad15101fadda26ab2914454697f46b074",
+    "axes": {
+      "layoutGesture": "dark car community hero with cinematic vehicle and proof rail",
+      "sectionSilhouette": "black page top with vehicle render, large cultural headline, tiny chips, and connected category tabs",
+      "anatomyLayer": "black nav, large culture headline, dramatic vehicle render, cta, small community/rating chips, vertical story/proof rail, and dark category tabs below.",
+      "hierarchyLayer": "car object first, headline second, community chips third, cta fourth.",
+      "gridRhythmLayer": "dark automotive hero dominated by a glossy vehicle object and compact community proof modules.",
+      "focalPath": "vehicle render to headline to proof chips to category tabs",
+      "compositionTension": "collector aspiration is balanced with membership/community affordances",
+      "negativeSpaceShape": "black cinematic void around the vehicle amplifies object drama",
+      "moduleScaleVariation": "oversized vehicle against tiny chips and tab cards",
+      "breakoutBehavior": "car render floats beyond a standard column and anchors page atmosphere",
+      "contentLimits": "{\"cta\":\"1-2\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"0-1 controlled cue\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.2722,
+  "matchGroupId": "hero:a15b81fad15101fa",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:25:28Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 20,
+    "bestMatch": {
+      "score": 0.2722,
+      "axisScores": {
+        "layoutGesture": 0.1176,
+        "sectionSilhouette": 0.16,
+        "anatomyLayer": 0.2424,
+        "hierarchyLayer": 0.5385,
+        "gridRhythmLayer": 0.1818,
+        "focalPath": 0.2,
+        "compositionTension": 0.0,
+        "negativeSpaceShape": 0.1875,
+        "moduleScaleVariation": 0.2,
+        "breakoutBehavior": 0.1667,
+        "contentLimits": 1.0
+      },
+      "patternId": "checkpoint-004-hero-creative-agency-neon-art-object-story-hero",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-004-hero-creative-agency-neon-art-object-story-hero.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

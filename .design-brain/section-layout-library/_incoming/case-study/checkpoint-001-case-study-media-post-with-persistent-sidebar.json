@@ -1,0 +1,112 @@
+{
+  "patternId": "checkpoint-001-case-study-media-post-with-persistent-sidebar",
+  "sectionType": "case-study",
+  "commercialPurpose": "Support long-form detail pages where the main story changes media type while trust and discovery utilities remain stable.",
+  "purposeLayer": "The layout lets buyers package image, slider, video, quote, audio, or link posts as reusable editorial story states.",
+  "anatomyLayer": "Single media-led article, post title, body copy, share/comment row, and persistent sidebar with author, newsletter, social, tags, related posts, and ad modules.",
+  "hierarchyLayer": "Media object first, story title/body second, sidebar trust/discovery third.",
+  "gridRhythmLayer": "Detail-page two-column grid with stable sidebar and variable first media module.",
+  "densityLimitLayer": "Use one primary media object, one body column, 3-7 sidebar widgets, and 0-1 related content cluster.",
+  "originalityLayer": "Learn the media-state system and persistent context rail; do not copy exact post assets or widget order.",
+  "usageRuleLayer": "Use for article details, portfolio stories, case-study pages, resource details, and CMS state libraries.",
+  "layoutGesture": "media-led story page with stable sidebar context",
+  "sectionSilhouette": "single long article body beside narrow utility rail",
+  "compositionTension": "large changing media object anchored by consistent side proof modules",
+  "focalPath": "media module to title to body copy to sidebar related content",
+  "negativeSpaceShape": "long white reading corridor with compact right rail",
+  "depthLayering": "flat article surface with embedded media player or gallery controls",
+  "moduleScaleVariation": "one dominant media module and many small utility widgets",
+  "breakoutBehavior": "media changes format while grid frame remains stable",
+  "contentLimits": {
+    "cases": "1",
+    "proofPoints": "2-5",
+    "sidebarWidgets": "3-7",
+    "primaryMedia": 1
+  },
+  "antiCopyBoundary": "Do not copy exact media screenshots, audio/player styling, sidebar ad, or lifestyle imagery.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation",
+      "hero"
+    ],
+    "after": [
+      "blog-resources",
+      "footer"
+    ],
+    "notAScaffold": true
+  },
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\01_Home_1.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\02_Home_2.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\03_Home_3.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\04_Home_4.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\05_Home_5.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\06_Home_6.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\07_Home_7.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\08_Home_8.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\09_Image_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\10_Slider_Post.jpg"
+  ],
+  "productFamilies": [
+    "editorial-blog",
+    "lifestyle",
+    "website"
+  ],
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 001",
+    "reviewNotes": "Checkpoint learning is visually inspected but not yet promoted to stable PASS; keep as incoming review vocabulary.",
+    "nonCopyBoundary": "Do not copy the Pallas-style script logo, muted gold CTA treatment, right-sidebar widget order, image set, or exact editorial spacing."
+  },
+  "structuralSignature": {
+    "signatureId": "case-study:7a922c057146d585",
+    "hash": "7a922c057146d5855620a0308e0ac18ae83b1551",
+    "axes": {
+      "layoutGesture": "media-led story page with stable sidebar context",
+      "sectionSilhouette": "single long article body beside narrow utility rail",
+      "anatomyLayer": "single media-led article, post title, body copy, share/comment row, and persistent sidebar with author, newsletter, social, tags, related posts, and ad modules.",
+      "hierarchyLayer": "media object first, story title/body second, sidebar trust/discovery third.",
+      "gridRhythmLayer": "detail-page two-column grid with stable sidebar and variable first media module.",
+      "focalPath": "media module to title to body copy to sidebar related content",
+      "compositionTension": "large changing media object anchored by consistent side proof modules",
+      "negativeSpaceShape": "long white reading corridor with compact right rail",
+      "moduleScaleVariation": "one dominant media module and many small utility widgets",
+      "breakoutBehavior": "media changes format while grid frame remains stable",
+      "contentLimits": "{\"cases\":\"1\",\"primarymedia\":1,\"proofpoints\":\"2-5\",\"sidebarwidgets\":\"3-7\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.0,
+  "matchGroupId": "case-study:7a922c057146d585",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:44:59Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 0,
+    "bestMatch": null,
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

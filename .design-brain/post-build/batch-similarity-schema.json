@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Brain Design Batch Similarity Audit",
+  "type": "object",
+  "required": ["batchId", "pairs", "overallRisk", "status"],
+  "properties": {
+    "batchId": { "type": "string", "minLength": 1 },
+    "pairs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["pair", "overallSimilarity", "status"],
+        "properties": {
+          "pair": { "type": "array", "items": { "type": "string" }, "minItems": 2, "maxItems": 2 },
+          "structuralSimilarity": { "type": "number" },
+          "heroGrammarSimilarity": { "type": "number" },
+          "sectionOrderSimilarity": { "type": "number" },
+          "visualLanguageSimilarity": { "type": "number" },
+          "componentPatternSimilarity": { "type": "number" },
+          "ctaPatternSimilarity": { "type": "number" },
+          "imageTreatmentSimilarity": { "type": "number" },
+          "overallSimilarity": { "type": "number" },
+          "requiredRepairs": { "type": "array" },
+          "status": { "type": "string", "enum": ["PASS", "FAIL"] }
+        }
+      }
+    },
+    "overallRisk": { "type": "string", "enum": ["low", "medium", "high"] },
+    "requiredRepairs": { "type": "array" },
+    "status": { "type": "string", "enum": ["PASS", "FAIL"] }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "task": "Reference-led Figma website template from Qicons business consultant PNG",
+  "productFamily": "business consultant service website",
+  "mode": "website",
+  "referenceSource": "qicons-business-consultant-png",
+  "batchItem": "1",
+  "routeSource": "brain_design_router",
+  "brandReferenceUsage": {
+    "candidateBrandName": "Northline Advisory",
+    "referenceUsageMode": "single",
+    "referenceGroupKey": "qicons-business-consultant-png",
+    "referenceIds": ["qicons-business-consultant-png"],
+    "gateStatus": "PASS",
+    "whyAllowedByMemory": "reference usage gate passed; Qicons brand is not reused"
+  },
+  "styleDNA": {
+    "typographyBehavior": "large confident business headline with compact proof labels and readable advisory copy",
+    "layoutRhythm": "calm corporate opening followed by denser proof, diagnostic, case-study, and inquiry sections",
+    "spacingDensity": "generous executive whitespace with clustered evidence modules where credibility matters",
+    "colorBehavior": "cool corporate clarity, action accent, muted surfaces, and dark closure contrast",
+    "imageDirection": "consultant, workshop, boardroom, case-study, and profile placeholders as source slots",
+    "shapeLanguage": "soft rectangular cards, rounded evidence panels, and a decision-spine motif",
+    "effectLanguage": "subtle elevated cards, pale glow behind decision panels, and restrained hairline dividers",
+    "premiumSignal": "business-specific modules for diagnosis, operating model, case evidence, partner proof, and inquiry"
+  },
+  "referenceStandard": {
+    "observedSectionCountRange": "the reference reads as a long homepage with 9-11 meaningful business sections",
+    "sectionRoleEvidence": "navigation, hero, image proof, metrics, service/result statements, card carousel, visual proof, logos, and footer",
+    "layoutShapeInventory": "large headline stage, image card cluster, metric tiles, wide proof panel, service cards, staggered media grid, logo/footer",
+    "colorRoleInventory": "light cool background, black text, bright blue action/proof, white cards, muted gray body, black footer",
+    "effectGradientInventory": "soft shadows, cool accent fills, minimal glow, image-card depth, and strong footer contrast",
+    "marketplaceCompletenessClues": "full consulting homepage needs proof, services, process, case studies, team/credentials, FAQ, inquiry, and design system",
+    "remixPlan": "learn calm-to-proof rhythm and business credibility density while changing hero grammar, palette role map, section order, and media staging",
+    "minimalistFallbackRejected": true
+  },
+  "designIntentLock": {
+    "productType": "editable business consultant website template",
+    "outputMedium": "Figma source template",
+    "targetBuyer": "marketplace buyers building advisory, consulting, and agency websites",
+    "useCase": "premium consulting homepage source with reusable business modules",
+    "marketplaceValue": "complete advisory template with proof, cases, process, partner profiles, inquiry, and buyer-editable placeholders",
+    "primaryGoal": "sell a credible business consulting template without copying the Qicons composition"
+  },
+  "visualGrammar": {
+    "gridBehavior": "12-column editorial grid with a left decision narrative and right evidence console",
+    "spacingCadence": "spacious hero, compact proof rail, alternating dense/quiet advisory sections",
+    "typeHierarchy": "heavy display, crisp section headings, small uppercase labels, and compact metric typography",
+    "surfaceDepth": "layered decision cards, raised proof panels, inset quote block, and dark inquiry tray",
+    "colorRoles": "mist background, white surface, ink text, slate secondary, teal action, amber proof, dark footer",
+    "imageTreatment": "role-specific placeholders in staggered consulting evidence frames rather than reference photo sequence",
+    "effectLogic": "soft teal light and low elevation guide attention to diagnostic and inquiry modules",
+    "componentRhythm": "diagnostic cards, case rows, partner badges, process spine, FAQ rows, and inquiry form"
+  },
+  "referenceBoundary": {
+    "allowedToLearn": "business credibility rhythm, proof density, image-as-trust logic, and long consulting homepage depth",
+    "forbiddenToCopy": "exact layout, exact color palette, exact section order, hero grammar, image triptych, component grouping, card carousel, and footer composition",
+    "exactLayoutCopied": "no",
+    "exactPaletteCopied": "no",
+    "exactSectionOrderCopied": "no",
+    "heroGrammarCopied": "no",
+    "componentScaffoldCopied": "no"
+  },
+  "colorRoleRemapping": {
+    "referenceDominantColorIdentity": "pale blue background with bright cyan action",
+    "referenceColorRoles": "cool background, black text, cyan action, white proof cards, black footer",
+    "remappedPaletteDirection": "mist blue-gray, deep navy ink, advisory teal, warm amber proof, and graphite footer",
+    "newAccentIdentity": "teal action and amber evidence markers",
+    "preservedEmotionalRole": "clarity, trust, and business momentum remain while hue identity changes",
+    "avoidedExactHues": "cyan-blue CTA dominance avoided",
+    "contrastHierarchyBehavior": "dark ink anchors text, teal handles action, amber highlights quantified proof"
+  },
+  "visualMoodReinterpretation": {
+    "referenceMood": "clean corporate, optimistic, proof-led, and modern",
+    "reinterpretedMood": "executive strategy lab with calm authority and operational proof",
+    "changedComposition": "evidence console and process spine replace the reference triptych and carousel rhythm",
+    "changedHierarchy": "diagnosis, cases, and operating model lead the mid-page instead of repeated image cards",
+    "changedAssetTreatment": "all imagery becomes clear editable consultant/workshop placeholders",
+    "changedDepthEffect": "decision-panel glow and dark inquiry tray replace the reference cyan card emphasis"
+  },
+  "structuralReconfiguration": {
+    "referenceStructurePattern": "centered large headline, three-image hero, small metrics, service statements, cards, media collage, logo strip, footer",
+    "newStructurePattern": "strategy-console hero, credential rail, advisory lanes, diagnostic matrix, case runway, operating model, partner bench, insight FAQ, inquiry ledger, footer",
+    "heroGrammarChange": "left narrative plus right evidence console instead of centered title with image triptych",
+    "sectionOrderChange": "credentials and advisory lanes precede cases and operating model, with inquiry before footer",
+    "gridSystemChange": "editorial 12-column plus side rail instead of centered stacked blocks",
+    "ctaFlowChange": "CTA appears as diagnostic action, case consult, and final inquiry ledger",
+    "componentLayoutChange": "consulting-specific matrices and ledgers replace generic card carousel"
+  },
+  "patternDivergence": {
+    "divergenceFromReference": "new opening, section order, evidence console, color roles, and closing grammar",
+    "divergenceFromPreviousTemplate": "batch item one; pattern lock will prevent reuse by decor and sneaker templates",
+    "heroDivergence": "strategy console with proof tiles instead of reference media triptych",
+    "sectionRhythmDivergence": "advisory lanes, diagnostic matrix, case runway, process spine, and inquiry ledger",
+    "visualLanguageDivergence": "teal/amber executive system with dark graphite closure",
+    "componentCadenceDivergence": "fewer repeated cards, more ledgers, spines, proof rows, and compact expert modules"
+  },
+  "sectionLogic": {
+    "sectionList": ["header", "strategy console hero", "credential rail", "advisory lanes", "diagnostic matrix", "case-study runway", "operating model spine", "partner bench", "insight and FAQ", "inquiry ledger", "footer"],
+    "roleOfEachSection": "orientation, first proof, trust, service fit, buyer diagnosis, outcome evidence, process clarity, human expertise, objections, conversion, and navigation closure",
+    "buyerJourneyFlow": "understand credibility, identify fit, inspect proof, understand process, trust people, handle objections, and request advisory call",
+    "fillerSectionsRemoved": "no filler; every section answers a consulting buyer decision question",
+    "productFamilyDepthStandard": "11-section business service website with proof, service, process, expert, FAQ, and inquiry modules"
+  },
+  "marketplaceReadiness": {
+    "sectionDepth": "11 meaningful sections",
+    "premiumSignal": "executive editorial hierarchy, proof-led modules, cases, partner bench, and advisory-specific forms",
+    "editability": "auto-layout sections, named layers, text placeholders, reusable card modules, and design-system board planned",
+    "sourceReadiness": "Figma source uses auto-layout, role-based placeholders, states, responsive notes, and separate design system",
+    "previewValue": "hero, diagnostic, case, process, and inquiry modules can sell the template breadth",
+    "commercialUsefulness": "buyers can adapt services, metrics, case studies, partners, insights, FAQ, and contact flow",
+    "nonGenericProof": "not a generic hero/features/CTA; it contains advisory lanes, diagnostics, case runway, process spine, and inquiry ledger"
+  },
+  "status": "PASS"
+}

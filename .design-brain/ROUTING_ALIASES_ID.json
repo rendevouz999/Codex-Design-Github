@@ -1,0 +1,708 @@
+{
+  "version": "2.2.0",
+  "purpose": "Indonesian and mixed-language routing aliases for Design Brain module and website product-family selection.",
+  "routingRule": "Expand natural-language text with canonical English aliases before scoring. Do not remove the original text; aliases add signal only.",
+  "aliases": {
+    "general_website_template": {
+      "canonical": [
+        "website template",
+        "full website",
+        "multipurpose website",
+        "homepage template"
+      ],
+      "terms": [
+        "template website",
+        "website template",
+        "situs",
+        "situs web",
+        "web",
+        "halaman website",
+        "full website",
+        "website lengkap"
+      ]
+    },
+    "landing_page_campaign": {
+      "canonical": [
+        "landing page",
+        "campaign page",
+        "sales page",
+        "lead generation",
+        "waitlist page"
+      ],
+      "terms": [
+        "landing page",
+        "halaman landing",
+        "campaign",
+        "halaman campaign",
+        "sales page",
+        "halaman penjualan",
+        "waitlist",
+        "lead generation"
+      ]
+    },
+    "dashboard_admin": {
+      "canonical": [
+        "dashboard",
+        "admin panel",
+        "analytics dashboard",
+        "pos dashboard",
+        "crm",
+        "back office",
+        "operational dashboard"
+      ],
+      "terms": [
+        "dashboard",
+        "admin",
+        "panel admin",
+        "analitik",
+        "analytics",
+        "crm",
+        "pos",
+        "kasir",
+        "inventory",
+        "inventori",
+        "laporan",
+        "data table",
+        "back office",
+        "operational",
+        "operasional"
+      ]
+    },
+    "ecommerce_storefront": {
+      "canonical": [
+        "ecommerce",
+        "storefront",
+        "product catalog",
+        "cart",
+        "checkout",
+        "online store"
+      ],
+      "terms": [
+        "ecommerce",
+        "e-commerce",
+        "toko online",
+        "katalog produk",
+        "checkout",
+        "cart",
+        "keranjang",
+        "fashion",
+        "perhiasan",
+        "jewelry",
+        "furniture",
+        "furnitur",
+        "luxury furniture",
+        "marketplace toko",
+        "storefront",
+        "online store",
+        "product catalog",
+        "product catalogue",
+        "product listing",
+        "sell products",
+        "jual produk",
+        "store ecommerce",
+        "ecommerce store",
+        "product ecommerce",
+        "ecommerce product",
+        "shop product catalog",
+        "catalog template",
+        "fashion store",
+        "jewelry store",
+        "perhiasan ecommerce",
+        "coffee bean online store",
+        "coffee product ecommerce",
+        "toko online kopi"
+      ]
+    },
+    "corporate_business_finance": {
+      "canonical": [
+        "business consultant website",
+        "business website",
+        "company website",
+        "corporate website",
+        "finance website",
+        "financial consultant website",
+        "financial consulting",
+        "financial consulting website",
+        "investment",
+        "professional company",
+        "tax consultant website",
+        "wealth management website"
+      ],
+      "terms": [
+        "accounting",
+        "akuntansi",
+        "bisnis",
+        "business consultant",
+        "company",
+        "consultant",
+        "consulting",
+        "corporate",
+        "finance",
+        "financial",
+        "financial consultant",
+        "financial consulting",
+        "finansial",
+        "investasi",
+        "investment",
+        "keuangan",
+        "konsultan",
+        "konsultan keuangan",
+        "konsultasi",
+        "konsultasi keuangan",
+        "manajemen keuangan",
+        "pajak",
+        "penasihat keuangan",
+        "perusahaan",
+        "professional company",
+        "tax consultant",
+        "wealth management"
+      ]
+    },
+    "professional_service_booking": {
+      "canonical": [
+        "service website",
+        "booking website",
+        "professional service",
+        "local service",
+        "appointment",
+        "clinic website",
+        "rental equipment website"
+      ],
+      "terms": [
+        "jasa",
+        "layanan",
+        "service",
+        "booking",
+        "reservasi",
+        "appointment",
+        "klinik",
+        "dokter",
+        "bengkel",
+        "repair",
+        "sewa",
+        "rental",
+        "sewa alat",
+        "rental alat",
+        "local service"
+      ]
+    },
+    "restaurant_hospitality_event": {
+      "canonical": [
+        "destination website",
+        "event website",
+        "hospitality website",
+        "hotel booking website",
+        "hotel website",
+        "reservation",
+        "restaurant website",
+        "tour website",
+        "travel agency website",
+        "travel booking",
+        "travel booking website",
+        "trip booking website",
+        "venue website"
+      ],
+      "terms": [
+        "acara",
+        "agen travel",
+        "cafe",
+        "coffee shop",
+        "conference",
+        "destination",
+        "event",
+        "event venue",
+        "hospitality",
+        "hotel",
+        "kafe",
+        "konferensi",
+        "penginapan",
+        "perjalanan",
+        "pernikahan",
+        "reservasi",
+        "reservasi restoran",
+        "reservation",
+        "resort",
+        "restaurant",
+        "restoran",
+        "rumah makan",
+        "tempat acara",
+        "tour",
+        "travel",
+        "travel agency",
+        "travel booking",
+        "trip booking",
+        "venue",
+        "wedding",
+        "wedding venue",
+        "wisata"
+      ]
+    },
+    "editorial_blog_cms": {
+      "canonical": [
+        "blog",
+        "editorial",
+        "magazine",
+        "news",
+        "publication",
+        "media site",
+        "newsletter website",
+        "cms",
+        "content website"
+      ],
+      "terms": [
+        "blog",
+        "editorial",
+        "majalah",
+        "magazine",
+        "berita",
+        "news",
+        "publikasi",
+        "publication",
+        "media",
+        "newsletter",
+        "cms",
+        "berita majalah",
+        "blog magazine"
+      ]
+    },
+    "newsletter_email": {
+      "canonical": [
+        "email newsletter",
+        "newsletter email",
+        "email template",
+        "email campaign",
+        "marketing email",
+        "mailchimp",
+        "edm",
+        "e-mail"
+      ],
+      "terms": [
+        "email newsletter",
+        "newsletter email",
+        "email template",
+        "template email",
+        "email campaign",
+        "marketing email",
+        "mailchimp",
+        "edm",
+        "e-mail",
+        "newsletter untuk email"
+      ]
+    },
+    "education_course": {
+      "canonical": [
+        "education website",
+        "online course",
+        "course website",
+        "lms",
+        "school website",
+        "academy",
+        "learning platform"
+      ],
+      "terms": [
+        "education",
+        "edukasi",
+        "pendidikan",
+        "course",
+        "kursus",
+        "kelas online",
+        "lms",
+        "sekolah",
+        "academy",
+        "akademi",
+        "learning platform"
+      ]
+    },
+    "documentation_help": {
+      "canonical": [
+        "docs",
+        "documentation",
+        "help center",
+        "knowledge base",
+        "developer docs",
+        "api docs"
+      ],
+      "terms": [
+        "docs",
+        "dokumentasi",
+        "documentation",
+        "help center",
+        "pusat bantuan",
+        "knowledge base",
+        "api docs"
+      ]
+    },
+    "listing_directory": {
+      "canonical": [
+        "real estate",
+        "property listing",
+        "marketplace listing",
+        "directory",
+        "job board",
+        "booking marketplace"
+      ],
+      "terms": [
+        "properti",
+        "property",
+        "real estate",
+        "listing",
+        "directory",
+        "direktori",
+        "job board",
+        "lowongan",
+        "booking marketplace"
+      ]
+    },
+    "ui_kit_design_system": {
+      "canonical": [
+        "ui kit",
+        "design system",
+        "component library",
+        "component",
+        "variants",
+        "states"
+      ],
+      "terms": [
+        "ui kit",
+        "design system",
+        "komponen",
+        "component",
+        "variant",
+        "states",
+        "component library"
+      ]
+    },
+    "presentation_deck": {
+      "canonical": [
+        "powerpoint",
+        "presentation",
+        "pitch deck",
+        "deck",
+        "slides",
+        "google slides",
+        "keynote"
+      ],
+      "terms": [
+        "powerpoint",
+        "ppt",
+        "pptx",
+        "presentation",
+        "presentasi",
+        "pitch deck",
+        "deck",
+        "slides",
+        "google slides",
+        "keynote"
+      ]
+    },
+    "web_deck": {
+      "canonical": [
+        "web deck",
+        "html deck",
+        "html presentation",
+        "web presentation",
+        "browser deck",
+        "animated deck",
+        "animated slides",
+        "animated presentation",
+        "interactive deck",
+        "single file deck",
+        "ppt to web",
+        "pptx to html",
+        "convert deck to html"
+      ],
+      "terms": [
+        "deck html",
+        "presentasi web",
+        "presentasi html",
+        "slide web",
+        "slide animasi",
+        "presentasi animasi",
+        "deck browser",
+        "deck interaktif",
+        "ppt ke web",
+        "ppt ke html",
+        "pptx ke html",
+        "ubah ppt jadi web",
+        "presentasi satu file",
+        "slide buat live",
+        "deck buat webinar"
+      ]
+    },
+    "static_preview": {
+      "canonical": [
+        "cover",
+        "preview",
+        "mockup",
+        "showcase",
+        "poster",
+        "social carousel",
+        "static canvas",
+        "thumbnail"
+      ],
+      "terms": [
+        "cover",
+        "preview",
+        "pratinjau",
+        "mockup",
+        "showcase",
+        "poster",
+        "social carousel",
+        "canvas",
+        "thumbnail"
+      ]
+    },
+    "portfolio_personal_case_study": {
+      "canonical": [
+        "portfolio",
+        "personal portfolio",
+        "case study site",
+        "selected works",
+        "projects showcase",
+        "designer portfolio",
+        "developer portfolio",
+        "photographer portfolio",
+        "creator portfolio"
+      ],
+      "terms": [
+        "portfolio",
+        "portofolio",
+        "personal portfolio",
+        "personal website",
+        "case study",
+        "studi kasus",
+        "works",
+        "selected works",
+        "projects showcase",
+        "designer portfolio",
+        "developer portfolio",
+        "photographer portfolio",
+        "creator portfolio",
+        "personal brand"
+      ]
+    },
+    "agency_studio_website": {
+      "canonical": [
+        "agency website",
+        "creative agency website",
+        "studio website",
+        "design studio website",
+        "branding agency",
+        "digital agency",
+        "production studio",
+        "creative studio",
+        "studio service",
+        "agency service"
+      ],
+      "terms": [
+        "creative agency website",
+        "agensi kreatif website",
+        "studio website",
+        "design studio website",
+        "branding agency",
+        "digital agency",
+        "production studio",
+        "creative studio",
+        "studio service",
+        "agency service",
+        "agency landing",
+        "studio landing"
+      ]
+    }
+  },
+  "phraseAliases": {
+    "template website restoran": [
+      "restaurant website template",
+      "hospitality website",
+      "reservation"
+    ],
+    "template website keuangan": [
+      "finance website",
+      "financial consulting website",
+      "business website"
+    ],
+    "template website sewa alat": [
+      "rental equipment website",
+      "booking website",
+      "professional service"
+    ],
+    "template website perhiasan ecommerce": [
+      "jewelry ecommerce website",
+      "shop",
+      "storefront",
+      "product catalog"
+    ],
+    "template website properti": [
+      "real estate listing website",
+      "property listing",
+      "directory"
+    ],
+    "template website kursus online": [
+      "online course website",
+      "education website",
+      "lms"
+    ],
+    "template website blog editorial": [
+      "editorial blog website",
+      "cms",
+      "publication"
+    ],
+    "template website berita majalah": [
+      "news website template",
+      "magazine website template",
+      "editorial blog website",
+      "cms"
+    ],
+    "template website blog magazine": [
+      "blog website template",
+      "magazine website template",
+      "editorial blog website",
+      "cms"
+    ],
+    "editorial website template": [
+      "editorial blog website",
+      "publication website",
+      "cms"
+    ],
+    "magazine website template": [
+      "magazine website",
+      "editorial blog website",
+      "cms"
+    ],
+    "blog website template": [
+      "blog website",
+      "editorial blog website",
+      "cms"
+    ],
+    "news website template": [
+      "news website",
+      "editorial blog website",
+      "cms"
+    ],
+    "newsletter website template": [
+      "newsletter website",
+      "editorial blog website",
+      "cms"
+    ],
+    "developer docs website": [
+      "developer docs",
+      "documentation",
+      "api docs"
+    ],
+    "admin dashboard web app": [
+      "dashboard",
+      "admin",
+      "web app",
+      "data table"
+    ],
+    "template website personal portfolio": [
+      "personal portfolio",
+      "case study site",
+      "designer portfolio"
+    ],
+    "template website case study": [
+      "case study site",
+      "portfolio",
+      "selected works"
+    ],
+    "template website financial consultant": [
+      "financial consultant website",
+      "financial consulting website",
+      "corporate website"
+    ],
+    "template website konsultan keuangan": [
+      "financial consulting website",
+      "finance website",
+      "corporate website"
+    ],
+    "template website travel agency booking": [
+      "travel agency website",
+      "travel booking website",
+      "hospitality booking"
+    ],
+    "website agen travel": [
+      "travel agency website",
+      "travel booking website",
+      "tour website"
+    ],
+    "agency website template": [
+      "agency website",
+      "studio website",
+      "creative agency website"
+    ],
+    "template website agensi kreatif": [
+      "creative agency website",
+      "agency website",
+      "studio website"
+    ],
+    "template website agency": [
+      "agency website",
+      "studio website",
+      "creative agency website"
+    ],
+    "coffee shop website template": [
+      "coffee shop",
+      "restaurant website",
+      "hospitality website"
+    ],
+    "template website coffee shop": [
+      "coffee shop",
+      "restaurant website",
+      "hospitality website"
+    ],
+    "cafe website template": [
+      "cafe",
+      "restaurant website",
+      "hospitality website"
+    ],
+    "template website kafe": [
+      "kafe",
+      "restaurant website",
+      "hospitality website"
+    ],
+    "pricing page website template": [
+      "pricing page",
+      "website template"
+    ],
+    "saas pricing page website template": [
+      "saas pricing",
+      "saas website",
+      "pricing page"
+    ],
+    "service pricing website template": [
+      "service pricing",
+      "service website",
+      "pricing page"
+    ],
+    "hotel booking pricing website": [
+      "hotel booking pricing",
+      "hotel booking website",
+      "hospitality website"
+    ],
+    "presentasi html animasi": [
+      "html presentation",
+      "animated presentation",
+      "web deck"
+    ],
+    "presentasi web interaktif": [
+      "web presentation",
+      "interactive deck",
+      "web deck"
+    ],
+    "slide animasi untuk webinar": [
+      "animated slides",
+      "webinar deck",
+      "web deck"
+    ],
+    "ubah ppt jadi presentasi web": [
+      "ppt to web",
+      "convert deck to html",
+      "web deck"
+    ],
+    "deck html satu file": [
+      "single file deck",
+      "html deck",
+      "web deck"
+    ]
+  }
+}

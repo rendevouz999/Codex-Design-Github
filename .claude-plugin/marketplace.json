@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "codex-design",
+  "description": "Local design cognition layer for Claude Code: Brain Design routing, quality gates, and the Web Deck Medium.",
+  "owner": {
+    "name": "Yusuf Muhamad Iqbal"
+  },
+  "plugins": [
+    {
+      "name": "codex-design",
+      "description": "Brain Design routing for design, template, Figma, preview, and critique work, plus browser-rendered animated decks.",
+      "source": "./",
+      "category": "productivity",
+      "tags": [
+        "design",
+        "design-system",
+        "templates",
+        "figma",
+        "presentation",
+        "web-deck"
+      ]
+    }
+  ]
+}

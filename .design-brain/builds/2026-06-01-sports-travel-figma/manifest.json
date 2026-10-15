@@ -1,0 +1,45 @@
+{
+  "runId": "20260601-112417-roampass-travel-ticket-figma-website-template-from-tase-style-re-a25922d3",
+  "createdAt": "2026-06-01T04:24:17.656710+00:00",
+  "verdict": "BLOCKED",
+  "agentSource": ".design-brain/design-simulation/agents.json",
+  "artifactDir": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\builds\\2026-06-01-sports-travel-figma",
+  "routing": {
+    "inputTask": "RoamPass travel ticket Figma website template from TASE-style reference DNA\nFigma website template\nticket travel booking\ntemplate marketplace buyers and travel booking startups\nbright editorial travel, route-led booking, soft green and sky, practical ticket modules\nEnvato/Figma template marketplace\nHero route planner, trust strip, popular routes, booking timeline, destination story band, fare comparison, travel insurance/support, traveler proof, package pricing, FAQ checklist, ticket-pass CTA, footer\nTASE reference shows airy travel ticket marketplace: strong destination headline, green CTA, rounded photo crops, booking/search modules, proof metrics, pricing packages and journey CTA. Rebuild as route-board/ticket-pass system without copying exact layout or section order.",
+    "routeSource": "explicit_cli",
+    "module": "website-template",
+    "mode": "website",
+    "productFamily": "travel-ticket-booking-website",
+    "websiteType": "event/travel/hospitality",
+    "intent": [
+      "reference",
+      "figma_output",
+      "template_product",
+      "medium_product",
+      "review"
+    ],
+    "confidence": 1.0,
+    "warnings": [],
+    "rawRouterResult": {}
+  },
+  "cognition": {
+    "status": "not_provided",
+    "validationStatus": "not_provided",
+    "receiptPath": "",
+    "missingFields": [],
+    "riskCategories": [],
+    "requiredRepairs": [],
+    "warnings": [
+      "No Design Cognition Receipt was provided to this simulation run."
+    ],
+    "styleDNA": "",
+    "colorRoleRemapping": "",
+    "referenceBoundary": "",
+    "structuralReconfiguration": "",
+    "patternDivergence": "",
+    "sectionLogic": "",
+    "marketplaceReadiness": "",
+    "required": true,
+    "allowMissing": false
+  }
+}

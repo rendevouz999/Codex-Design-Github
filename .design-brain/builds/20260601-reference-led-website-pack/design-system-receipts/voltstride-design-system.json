@@ -1,0 +1,86 @@
+{
+  "templateId": "voltstride",
+  "templateName": "VoltStride",
+  "productFamily": "sneaker_ecommerce",
+  "mode": "website ecommerce",
+  "designSystemScope": "per-template",
+  "colorTokens": {
+    "background": "chalk sport background",
+    "surface": "white product card",
+    "surfaceElevated": "raised product and promo surfaces",
+    "textPrimary": "carbon black",
+    "textSecondary": "asphalt gray",
+    "textMuted": "cool smoke captions",
+    "accent": "acid green signal",
+    "action": "volt lime CTA",
+    "border": "smoke border"
+  },
+  "typographyTokens": {
+    "display": "oversized sport retail display",
+    "h1": "hero and cover title",
+    "h2": "section command title",
+    "h3": "product/card title",
+    "body": "retail body copy",
+    "bodySmall": "spec and product card copy",
+    "label": "drop/status labels",
+    "button": "cart and CTA labels",
+    "nav": "store navigation"
+  },
+  "spacingTokens": {
+    "scale": "8 point rhythm",
+    "sectionY": "70-96px section padding",
+    "componentPadding": "14-30px component padding",
+    "cardGap": "14-22px card gap",
+    "gridGap": "18-44px grid gap",
+    "container": "1216px desktop container"
+  },
+  "components": [
+    "button primary dark ghost default hover focus active disabled",
+    "product card category tunnel cart action trust row",
+    "navigation header",
+    "footer retail",
+    "cta final drop",
+    "fit option",
+    "promo locker",
+    "review scoreboard",
+    "image placeholder",
+    "profile photo placeholder"
+  ],
+  "states": ["default", "hover", "focus", "active", "disabled"],
+  "componentAnatomy": {
+    "product card": "sneaker image placeholder, product name, price, cart action, info action",
+    "fit option": "label and selected dot",
+    "promo locker": "kicker, title, promo copy, unlock action",
+    "placeholder": "product, athlete, material, campaign, and customer labels"
+  },
+  "patternModules": [
+    "launch lane hero",
+    "drop timer proof",
+    "fit finder service quiz",
+    "performance tech process",
+    "launch product wall",
+    "category tunnels",
+    "promo locker",
+    "weekly drop schedule",
+    "review scoreboard"
+  ],
+  "usageRules": "Use volt lime for buy/drop action, black surfaces for campaign emphasis, and product cards for scanable ecommerce. Keep placeholders role-specific.",
+  "surfaceEffectTokens": "Volt glow, dark tunnel surfaces, product-card elevation, promo locker contrast.",
+  "placeholderRules": "Use image placeholder: flagship sneaker product pair, sneaker product image, campaign visual, material close-up; use profile photo placeholder: sneaker customer or athlete.",
+  "sourceHygiene": {
+    "autoLayout": true,
+    "editableText": true,
+    "editablePlaceholders": true,
+    "clearLayerNames": true,
+    "reusableComponents": true,
+    "responsiveConstraints": true,
+    "flattenedImportantContent": false
+  },
+  "artifactEvidence": {
+    "designSystemPageId": "13:362",
+    "screenshotPath": ".design-brain/screenshots/figma-builds/voltstride-design-system.png",
+    "componentInventory": ["buttons", "product cards", "fit options", "category tunnels", "cart actions", "trust rows", "promo locker", "placeholder"],
+    "tokenSourcePath": "Figma local styles Volt/*"
+  },
+  "status": "PASS"
+}

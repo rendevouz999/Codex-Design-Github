@@ -1,0 +1,103 @@
+{
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 003",
+    "reviewNotes": "Checkpoint 003 is visually inspected learning evidence; keep incoming until hyper-accuracy review and matching rationale pass.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, color identity, imagery, icon systems, decorative geometry, or section order."
+  },
+  "patternId": "checkpoint-003-faq-light-split-list-and-answer-cards",
+  "sectionType": "faq-objection",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\alower-multipurpose-landing-page-2024-06-07-16-37-20-utc - Alower - Multipurpose Landing Page Image - 635a5e5d.png"
+  ],
+  "productFamilies": [
+    "multipurpose",
+    "business",
+    "saas",
+    "website"
+  ],
+  "commercialPurpose": "Resolve buyer uncertainty with a split FAQ area that separates question navigation from answer cards.",
+  "purposeLayer": "FAQ section makes many objections usable by placing clickable question pills on one side and answer summaries on the other.",
+  "anatomyLayer": "Left colored panel with stacked question buttons, right answer cards, section title, optional scroll cue, and light grid background.",
+  "hierarchyLayer": "Section title first, question list second, answer cards third, scroll cue last.",
+  "gridRhythmLayer": "Two-column FAQ split with dense interactive question stack and calmer answer cards.",
+  "densityLimitLayer": "Use 5-8 useful objections, split into a question rail and 3-4 visible answer cards or expandable responses.",
+  "originalityLayer": "Learn split FAQ navigation; transform colors, interaction state, answer card shape, and objection grouping.",
+  "usageRuleLayer": "Use for SaaS, business platforms, membership, service, ecommerce, and template FAQ sections where questions need organization.",
+  "layoutGesture": "split FAQ with colored question rail and white answer cards",
+  "sectionSilhouette": "left stacked question panel paired with right answer card column",
+  "compositionTension": "dense question controls balance calmer explanatory cards",
+  "focalPath": "section title to question rail to selected answer cards to scroll cue",
+  "negativeSpaceShape": "light grid whitespace around a dense colored FAQ block",
+  "depthLayering": "colored panel layer, white answer cards, small icon controls",
+  "moduleScaleVariation": "many small question buttons beside larger answer cards",
+  "breakoutBehavior": "contained two-column FAQ, no full-bleed slab",
+  "contentLimits": {
+    "questions": "5-8",
+    "answerCards": "3-4",
+    "activeStates": "1",
+    "scrollCue": "0-1"
+  },
+  "antiCopyBoundary": "Do not copy exact blue panel color, question wording, icon buttons, grid decoration, or card copy.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "cta",
+      "pricing-packages"
+    ],
+    "after": [
+      "footer"
+    ],
+    "notAScaffold": true
+  },
+  "structuralSignature": {
+    "signatureId": "faq-objection:c60d1dba2d059f71",
+    "hash": "c60d1dba2d059f71a71e0efe435b3b077dd17fe1",
+    "axes": {
+      "layoutGesture": "split faq with colored question rail and white answer cards",
+      "sectionSilhouette": "left stacked question panel paired with right answer card column",
+      "anatomyLayer": "left colored panel with stacked question buttons, right answer cards, section title, optional scroll cue, and light grid background.",
+      "hierarchyLayer": "section title first, question list second, answer cards third, scroll cue last.",
+      "gridRhythmLayer": "two-column faq split with dense interactive question stack and calmer answer cards.",
+      "focalPath": "section title to question rail to selected answer cards to scroll cue",
+      "compositionTension": "dense question controls balance calmer explanatory cards",
+      "negativeSpaceShape": "light grid whitespace around a dense colored faq block",
+      "moduleScaleVariation": "many small question buttons beside larger answer cards",
+      "breakoutBehavior": "contained two-column faq, no full-bleed slab",
+      "contentLimits": "{\"activestates\":\"1\",\"answercards\":\"3-4\",\"questions\":\"5-8\",\"scrollcue\":\"0-1\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.0,
+  "matchGroupId": "faq-objection:c60d1dba2d059f71",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:55:20Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 0,
+    "bestMatch": null,
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

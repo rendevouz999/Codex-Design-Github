@@ -1,0 +1,25 @@
+{
+  "fileKey": "55M5Ys0Yyclx4EtK609sKC",
+  "fileUrl": "https://www.figma.com/design/55M5Ys0Yyclx4EtK609sKC",
+  "templateId": "signalops-ai-website-template",
+  "templateName": "SignalOps AI Operations Website Template",
+  "frames": {
+    "root": "3:2",
+    "desktopWebsite": "3:3",
+    "designSystemSourceGuide": "3:392",
+    "responsivePreview": "3:441",
+    "marketplaceCover": "3:495"
+  },
+  "homepageSections": 12,
+  "supportBoards": [
+    "Design System + Source Guide",
+    "Responsive Preview Board",
+    "Marketplace Cover"
+  ],
+  "sourceNotes": [
+    "Major editable groups use Figma auto-layout.",
+    "Image zones use role-specific text placeholders.",
+    "Responsive behavior is shown through desktop, tablet, and mobile preview frames.",
+    "Decorative depth is limited to shadow and signal glow."
+  ]
+}

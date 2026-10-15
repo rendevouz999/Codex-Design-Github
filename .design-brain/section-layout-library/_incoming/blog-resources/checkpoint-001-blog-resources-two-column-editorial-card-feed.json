@@ -1,0 +1,131 @@
+{
+  "patternId": "checkpoint-001-blog-resources-two-column-editorial-card-feed",
+  "sectionType": "blog-resources",
+  "commercialPurpose": "Increase article discovery density after a lead story by showing browsable editorial cards without flattening the page into a generic grid.",
+  "purposeLayer": "The card feed moves users from one hero story into category browsing and content exploration.",
+  "anatomyLayer": "Paired image cards, titles, dates/categories, short excerpts, comment/media badges, and optional sidebar continuation.",
+  "hierarchyLayer": "Card image first, title second, metadata third, excerpt fourth.",
+  "gridRhythmLayer": "Two-column repeated cards inside the main content lane with sidebar or margin support.",
+  "densityLimitLayer": "Use 4-10 visible cards when grouped below a lead story; keep metadata compact and excerpts short.",
+  "originalityLayer": "Learn the lead-to-card density shift only; transform card ratio, media badge, and category treatment.",
+  "usageRuleLayer": "Use in editorial homepages, resources pages, education article hubs, and portfolio story indexes.",
+  "layoutGesture": "lead story resolves into paired editorial browsing cards",
+  "sectionSilhouette": "two-column card grid nested inside a larger editorial frame",
+  "compositionTension": "small equal cards create density after a larger lead moment",
+  "focalPath": "image pair to title pair to metadata to excerpt scan",
+  "negativeSpaceShape": "narrow gutters between paired cards and larger outer margins",
+  "depthLayering": "flat cards with occasional media-type badge overlays",
+  "moduleScaleVariation": "medium repeated cards after oversized lead post",
+  "breakoutBehavior": "cards stay contained in content column, not full bleed",
+  "contentLimits": {
+    "visibleItems": "4-10",
+    "featuredItem": "0-1",
+    "metadataLines": "1-2",
+    "excerptLines": "2-4"
+  },
+  "antiCopyBoundary": "Do not copy the same article images, title rhythm, badge placement, or exact two-column spacing.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "blog-resources",
+      "hero"
+    ],
+    "after": [
+      "blog-resources",
+      "footer"
+    ],
+    "notAScaffold": true
+  },
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\01_Home_1.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\02_Home_2.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\03_Home_3.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\04_Home_4.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\05_Home_5.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\06_Home_6.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\07_Home_7.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\08_Home_8.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\09_Image_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\10_Slider_Post.jpg"
+  ],
+  "productFamilies": [
+    "editorial-blog",
+    "lifestyle",
+    "website"
+  ],
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 001",
+    "reviewNotes": "Checkpoint learning is visually inspected but not yet promoted to stable PASS; keep as incoming review vocabulary.",
+    "nonCopyBoundary": "Do not copy the Pallas-style script logo, muted gold CTA treatment, right-sidebar widget order, image set, or exact editorial spacing."
+  },
+  "structuralSignature": {
+    "signatureId": "blog-resources:180c5613af7efdb2",
+    "hash": "180c5613af7efdb2c8e89a22028c9442f6c22c9c",
+    "axes": {
+      "layoutGesture": "lead story resolves into paired editorial browsing cards",
+      "sectionSilhouette": "two-column card grid nested inside a larger editorial frame",
+      "anatomyLayer": "paired image cards, titles, dates/categories, short excerpts, comment/media badges, and optional sidebar continuation.",
+      "hierarchyLayer": "card image first, title second, metadata third, excerpt fourth.",
+      "gridRhythmLayer": "two-column repeated cards inside the main content lane with sidebar or margin support.",
+      "focalPath": "image pair to title pair to metadata to excerpt scan",
+      "compositionTension": "small equal cards create density after a larger lead moment",
+      "negativeSpaceShape": "narrow gutters between paired cards and larger outer margins",
+      "moduleScaleVariation": "medium repeated cards after oversized lead post",
+      "breakoutBehavior": "cards stay contained in content column, not full bleed",
+      "contentLimits": "{\"excerptlines\":\"2-4\",\"featureditem\":\"0-1\",\"metadatalines\":\"1-2\",\"visibleitems\":\"4-10\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.126,
+  "matchGroupId": "blog-resources:180c5613af7efdb2",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:44:59Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 1,
+    "bestMatch": {
+      "score": 0.126,
+      "axisScores": {
+        "layoutGesture": 0.1538,
+        "sectionSilhouette": 0.0556,
+        "anatomyLayer": 0.0556,
+        "hierarchyLayer": 0.1765,
+        "gridRhythmLayer": 0.2174,
+        "focalPath": 0.3077,
+        "compositionTension": 0.0,
+        "negativeSpaceShape": 0.0,
+        "moduleScaleVariation": 0.0714,
+        "breakoutBehavior": 0.0625,
+        "contentLimits": 0.2857
+      },
+      "patternId": "checkpoint-001-blog-resources-lead-post-plus-sidebar-rail",
+      "sectionType": "blog-resources",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\blog-resources\\checkpoint-001-blog-resources-lead-post-plus-sidebar-rail.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

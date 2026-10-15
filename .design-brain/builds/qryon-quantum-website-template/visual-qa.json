@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "templateId": "qryon-labs-quantum-saas-website",
+  "screenshotsInspected": [
+    ".design-brain/screenshots/qryon/qryon-homepage.png",
+    ".design-brain/screenshots/qryon/qryon-design-system-after.png"
+  ],
+  "issues": [],
+  "observations": [
+    "Homepage hierarchy is clear, with a strong editorial quantum hero, early proof strip, dark product preview band, service architecture, workflow, pricing, FAQ, and footer closure.",
+    "Visual language diverges from the Tria reference through a warmer ivory editorial canvas, oxide action color, cyan signal accents, product architecture pacing, and QRYON-specific source map.",
+    "Design-system board now includes source map and marketplace package guidance, not only tokens and components."
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "receiptId": "user-rejection-02-closure-repair-20260531T190855+0700",
+  "createdAt": "2026-05-31T19:08:55+07:00",
+  "figmaFileKey": "CgdE9bpMfAILXpcFcrJMPC",
+  "userFeedback": {
+    "status": "rejected",
+    "reportedSimilarity": "80 percent similar",
+    "attachmentDiagnosis": "Both template endings used the same zoomed-out closure silhouette: light left panel plus dark right CTA/footer panel."
+  },
+  "rootCause": {
+    "category": "structure/composition similarity",
+    "axis": "CTA/proof/footer closure",
+    "failedPattern": "side-by-side form or FAQ panel paired with a dark CTA/footer block",
+    "repairType": "recompose affected closure sections, not recolor"
+  },
+  "figmaRepairs": [
+    {
+      "templateId": "prismshelf-r2-ecommerce-browser",
+      "oldSection": "08 Shop Confidence + Footer Checkout Drawer",
+      "newSection": "08 Receipt Rail / checkout lane + support queue",
+      "newNodeId": "35:2",
+      "newSilhouette": "asymmetric dark ecommerce command stack plus stacked receipt strips and support queue chips",
+      "whyDifferent": "This closure now behaves like a shop checkout lane, not a contact or FAQ drawer."
+    },
+    {
+      "templateId": "atlashaus-r2-architecture-dossier",
+      "oldSection": "08 Inquiry Brief Drawer + Footer",
+      "newSection": "08 Folded Brief Sheet / studio baseline",
+      "newNodeId": "33:50",
+      "newSilhouette": "single architectural paper sheet with fields, studio note cards, stamp, and one-line baseline",
+      "whyDifferent": "This closure now behaves like an architectural project brief, not a split CTA/footer panel."
+    }
+  ],
+  "visualEvidence": {
+    "prismshelfClosureScreenshot": ".design-brain/screenshots/20260531-prismshelf-r2-closure-repair-final.png",
+    "atlashausClosureScreenshot": ".design-brain/screenshots/20260531-atlashaus-r2-closure-repair.png",
+    "reviewBoardScreenshot": ".design-brain/screenshots/20260531-r2-review-board-closure-repair-final.png"
+  },
+  "pairwiseAuditAfterRepair": {
+    "status": "PASS",
+    "overallRisk": "low",
+    "structureDefiningAxisSimilarity": 0.304,
+    "visualLanguageAxisSimilarity": 0.148,
+    "scaffoldRisk": 0.233,
+    "failedAxes": [],
+    "hardFailAxes": [],
+    "softRiskAxes": [],
+    "notableImprovedAxes": {
+      "ctaPlacementSimilarity": 0.182,
+      "closureSilhouetteSimilarity": 0.163,
+      "navigationFooterPatternSimilarity": 0.14,
+      "componentPatternSimilarity": 0.1
+    }
+  },
+  "protectedBrainDesignChange": {
+    "attempted": false,
+    "reason": "User has not said accepted yet; protected Brain Design behavior must not be modified before acceptance/password gate."
+  }
+}

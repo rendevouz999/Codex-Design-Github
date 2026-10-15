@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "scale": "0-10",
+  "weights": {
+    "creative_range": 10,
+    "premium_feel": 10,
+    "whitespace": 9,
+    "typography_hierarchy": 9,
+    "visual_consistency": 10,
+    "composition_balance": 9,
+    "brand_consistency": 8,
+    "cta_clarity": 9,
+    "accessibility": 8,
+    "responsive_behavior": 8,
+    "bold_experimentation": 9,
+    "glassmorphism": 3,
+    "playful_roundness": 3,
+    "gradient_intensity": 4
+  },
+  "defaults": {
+    "target_quality": "marketplace-ready",
+    "preferred_style": "premium modern, product-specific, and expressive when the niche calls for it",
+    "density": "spacious but purposeful",
+    "radius": "moderate unless the brand requires otherwise",
+    "decoration": "only use decorative elements when they clarify mood, brand, or structure",
+    "gradients": "use only when conceptually useful",
+    "experimentation": "expected when it improves clarity, memorability, originality, buyer confidence, or brand fit"
+  },
+  "review_thresholds": {
+    "minimum_score_per_category": 7,
+    "target_score_per_category": 8,
+    "marketplace_quality_target": 9
+  }
+}

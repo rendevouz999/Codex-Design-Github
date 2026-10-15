@@ -1,0 +1,74 @@
+{
+  "templateId": "prismshelf-r3-ecommerce-browser",
+  "templateName": "PrismShelf R3 Ecommerce Design System",
+  "productFamily": "Ecommerce / eyewear storefront website template",
+  "mode": "marketplace editable Figma website source",
+  "designSystemScope": "per-template",
+  "colorTokens": {
+    "A Heat": "#FF7C32",
+    "B Ink": "#0A1024",
+    "C Lemon": "#FFE978",
+    "D Cobalt": "#4568F0",
+    "E Cream": "#FFF7EC",
+    "F Coral": "#F94F2B",
+    "G Mint": "#B7F0D5"
+  },
+  "typographyTokens": {
+    "display": "Bold commerce display for product and conversion moments",
+    "body": "Readable utility copy for filters, specs, checkout rows, and support modules"
+  },
+  "spacingTokens": {
+    "sectionPadding": "72px vertical / 80px horizontal source rhythm",
+    "moduleGap": "24-30px primary bands",
+    "cardGap": "10-18px component internals"
+  },
+  "layoutGrid": {
+    "sourceWidth": 1440,
+    "contentWidth": 1280,
+    "behavior": "auto-layout sections with fixed source width and editable nested modules"
+  },
+  "radiusElevation": {
+    "radius": "8px utility, 16-28px ecommerce modules",
+    "effects": "hero gradient, card shadow, proof glow, dark checkout contrast"
+  },
+  "components": [
+    "product card",
+    "filter pill",
+    "bundle card",
+    "checkout row",
+    "review card",
+    "FAQ row",
+    "comparison table",
+    "shipping route map",
+    "receipt rail"
+  ],
+  "states": [
+    "default",
+    "hover",
+    "selected",
+    "sale",
+    "out-of-stock",
+    "support-open",
+    "checkout-active"
+  ],
+  "sourceHygiene": {
+    "autoLayout": "major sections, cards, rows, CTAs, and design-system panels use auto-layout",
+    "images": "source imagery uses text clue placeholders, not generated final imagery",
+    "scaffoldPolicy": "commerce-specific R3 modules do not become shared batch scaffolds"
+  },
+  "artifactEvidence": {
+    "designSystemPageId": "40:469",
+    "screenshotPath": ".design-brain/screenshots/20260531-prismshelf-r3-design-system.png",
+    "componentInventory": [
+      "Reference Standard Coverage / R3",
+      "Color Relationship + Effect Grammar / R3",
+      "Component States + Commerce Modules / R3"
+    ]
+  },
+  "missingItems": [],
+  "status": "PASS",
+  "evidence": [
+    "Expanded design system contains standard coverage, color-role reasoning, visible effect grammar, and component state inventory.",
+    "Source screenshot inspected after R3 revision."
+  ]
+}

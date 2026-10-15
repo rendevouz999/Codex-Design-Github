@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Brain Design Design System Receipt",
+  "type": "object",
+  "required": [
+    "templateId",
+    "productFamily",
+    "designSystemScope",
+    "productDna",
+    "colorTokens",
+    "typographyTokens",
+    "spacingTokens",
+    "productSpecificModules",
+    "components",
+    "states",
+    "reusableSectionPatterns",
+    "visualLanguageRules",
+    "referenceStandardCoverage",
+    "usageExamples",
+    "packageSourceMap",
+    "accessibilityEditingNotes",
+    "sourceHygiene",
+    "artifactEvidence",
+    "status"
+  ],
+  "properties": {
+    "templateId": { "type": "string", "minLength": 1 },
+    "templateName": { "type": "string" },
+    "productFamily": { "type": "string", "minLength": 1 },
+    "mode": { "type": "string" },
+    "designSystemScope": { "type": "string", "enum": ["per-template", "shared", "variant"] },
+    "productDna": {
+      "type": "object",
+      "required": ["category", "targetBuyer", "commercialPurpose", "visualMood", "referenceInsight", "doNotCopyBoundary"],
+      "properties": {
+        "category": { "type": "string", "minLength": 1 },
+        "targetBuyer": { "type": "string", "minLength": 1 },
+        "commercialPurpose": { "type": "string", "minLength": 1 },
+        "visualMood": { "type": "string", "minLength": 1 },
+        "referenceInsight": { "type": "string", "minLength": 1 },
+        "doNotCopyBoundary": { "type": "string", "minLength": 1 }
+      }
+    },
+    "colorTokens": { "type": "object" },
+    "typographyTokens": { "type": "object" },
+    "spacingTokens": { "type": "object" },
+    "layoutGrid": { "type": "object" },
+    "radiusElevation": { "type": "object" },
+    "components": { "type": "array", "items": { "type": "string" } },
+    "productSpecificModules": { "type": "array", "items": { "type": "string" } },
+    "states": { "type": "array", "items": { "type": "string" } },
+    "reusableSectionPatterns": { "type": "array", "items": { "type": "string" } },
+    "visualLanguageRules": { "type": ["object", "array", "string"] },
+    "referenceStandardCoverage": { "type": ["object", "array", "string"] },
+    "usageExamples": { "type": "array", "items": { "type": "string" } },
+    "packageSourceMap": { "type": ["object", "array", "string"] },
+    "accessibilityEditingNotes": { "type": ["object", "array", "string"] },
+    "sourceHygiene": { "type": "object" },
+    "artifactEvidence": {
+      "type": "object",
+      "properties": {
+        "figmaNodeSummaryPath": { "type": "string" },
+        "designSystemPageId": { "type": "string" },
+        "sourceComponentInventoryPath": { "type": "string" },
+        "screenshotPath": { "type": "string" },
+        "renderPath": { "type": "string" },
+        "componentInventory": { "type": "array", "items": { "type": "string" } },
+        "tokenSourcePath": { "type": "string" },
+        "boardMetrics": {
+          "type": "object",
+          "properties": {
+            "panelCount": { "type": "integer", "minimum": 0 },
+            "componentSpecimenCount": { "type": "integer", "minimum": 0 },
+            "productSpecificModuleCount": { "type": "integer", "minimum": 0 },
+            "stateExampleCount": { "type": "integer", "minimum": 0 },
+            "boardWidth": { "type": "number", "minimum": 0 },
+            "boardHeight": { "type": "number", "minimum": 0 }
+          }
+        }
+      }
+    },
+    "missingItems": { "type": "array", "items": { "type": "string" } },
+    "status": { "type": "string", "enum": ["PASS", "FAIL"] },
+    "evidence": { "type": ["array", "string"] }
+  }
+}

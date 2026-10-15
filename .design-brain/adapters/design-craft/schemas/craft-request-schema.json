@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Design Craft Adapter Request",
+  "type": "object",
+  "required": [
+    "route",
+    "productFamily",
+    "mode",
+    "designCognition",
+    "layoutFingerprint",
+    "simulationVerdict",
+    "layoutAuditStatus",
+    "designSystemRequirement",
+    "craftScope"
+  ],
+  "properties": {
+    "route": {"type": "string"},
+    "productFamily": {"type": "string"},
+    "mode": {"type": "string"},
+    "designCognition": {"type": "object"},
+    "layoutFingerprint": {"type": "object"},
+    "simulationVerdict": {"type": "object"},
+    "layoutAuditStatus": {"type": "string"},
+    "designSystemRequirement": {"type": "object"},
+    "craftScope": {"type": ["array", "string"]},
+    "proposedOverrides": {"type": "object"}
+  }
+}

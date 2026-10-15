@@ -1,0 +1,106 @@
+{
+  "task": "PrismShelf R2 ecommerce Figma website template after v1 scaffold rejection",
+  "productFamily": "ecommerce_storefront_template",
+  "mode": "website",
+  "referenceSource": "Template Website: Qonder Eyewear plus Ragnaku Product Ecommerce",
+  "batchItem": "template_1_of_2_r2",
+  "routeSource": "brain_design_router",
+  "styleDNA": {
+    "typographyBehavior": "bold commerce display headline with compact product, filter, table, and checkout utility text",
+    "layoutRhythm": "browser hero, irregular product wall, comparison table, diagonal guide, product-detail preview, lookbook shelf, checkout closure",
+    "spacingDensity": "store interface density with open retail fields and compact transaction modules",
+    "colorBehavior": "paper retail base, orange action/product stage, navy cart shell, blue compare accent, lemon focus state",
+    "imageDirection": "editable product, campaign, detail, and lookbook placeholders",
+    "shapeLanguage": "side rail, product cards, table cells, cart drawer, slanted guide tiles, and shelf strips",
+    "effectLanguage": "retail surface depth from high-contrast cart drawer, outlined product surfaces, and bright product stage",
+    "premiumSignal": "commerce mechanics, product detail preview, comparison table, return trust, and checkout drawer"
+  },
+  "referenceStandard": {
+    "observedSectionCountRange": "ecommerce references imply 10-16 commerce roles or a module/page map, not a short minimalist landing page",
+    "sectionRoleEvidence": "product browse, catalog wall, comparison, fit/support, product detail, visual lookbook, trust/returns, checkout confidence, and footer roles",
+    "layoutShapeInventory": "commerce browser shell, side rail, product stage, irregular product wall, comparison table, diagonal guide, lookbook shelf, receipt/checkout rail",
+    "colorRoleInventory": "paper retail base, ink text, orange action/product energy, navy transaction shell, blue compare state, lemon focus state, muted utility fields",
+    "effectGradientInventory": "surface depth through cart/receipt contrast, product stages, outlined cards, bright action planes, and restrained retail shadows",
+    "marketplaceCompletenessClues": "editable ecommerce modules, product placeholders, comparison logic, checkout/support confidence, and separate design-system source",
+    "remixPlan": "borrow product-led retail confidence and ecommerce support logic while changing hero grammar, catalog rhythm, closure silhouette, and color-role mapping",
+    "minimalistFallbackRejected": true
+  },
+  "designIntentLock": {
+    "productType": "editable ecommerce storefront source template",
+    "outputMedium": "Figma website source template",
+    "targetBuyer": "marketplace buyers building eyewear, accessory, gadget, or object-led ecommerce websites",
+    "useCase": "launching a premium product catalog with product browsing, product detail, comparison, returns, and checkout confidence",
+    "marketplaceValue": "source template includes commerce browsing mechanics rather than only marketing sections",
+    "primaryGoal": "make the template feel like a store system with reusable commerce flows"
+  },
+  "visualGrammar": {
+    "gridBehavior": "left category rail, central product theater, right cart drawer, irregular product wall, table rows, and checkout drawer",
+    "spacingCadence": "dense browser opening, open catalog browse, precise table, education stepper, dark product detail, bright lookbook, compact support close",
+    "typeHierarchy": "large commerce headline, medium product/module titles, small filter and table labels",
+    "surfaceDepth": "cart drawer, product cards, comparison table, product stage, and lookbook shelf",
+    "colorRoles": "paper, ink, orange action, blue compare, lemon focus, navy cart, blush fields, muted utility",
+    "imageTreatment": "role-specific ecommerce placeholders for product render, product image, editorial model crop, detail callouts, and lookbook crops",
+    "effectLogic": "strong color planes and drawer contrast carry depth without copying reference imagery",
+    "componentRhythm": "category rail, search tray, product card, comparison table, fitting guide, product detail, FAQ, cart drawer"
+  },
+  "referenceBoundary": {
+    "allowedToLearn": "Qonder's product-led editorial confidence and Ragnaku's ecommerce support/product range logic",
+    "forbiddenToCopy": "exact layout, exact color palette, orange fashion photography staging, centered Ragnaku hero/card composition, section order, hero grammar, component scaffold, image placement, and CTA staging",
+    "exactLayoutCopied": "no",
+    "exactPaletteCopied": "no",
+    "exactSectionOrderCopied": "no",
+    "heroGrammarCopied": "no",
+    "componentScaffoldCopied": "no"
+  },
+  "colorRoleRemapping": {
+    "referenceDominantColorIdentity": "Qonder orange fashion retail and Ragnaku navy/orange ecommerce",
+    "referenceColorRoles": "bright retail action, light backgrounds, product cards, and dark footer/cart trust",
+    "remappedPaletteDirection": "paper retail base, orange action, navy cart shell, blue compare, lemon focus",
+    "newAccentIdentity": "orange product stage plus blue comparison state",
+    "preservedEmotionalRole": "optimistic product browsing and buying confidence",
+    "avoidedExactHues": "reference fashion-photo orange dominance and Ragnaku purple accents avoided",
+    "contrastHierarchyBehavior": "orange sells product action, navy holds transaction confidence, blue separates compare logic"
+  },
+  "visualMoodReinterpretation": {
+    "referenceMood": "bright product confidence and friendly ecommerce convenience",
+    "reinterpretedMood": "premium commerce browser with editorial shelf energy",
+    "changedComposition": "side rail plus product theater plus cart drawer replaces generic hero/card blocks",
+    "changedHierarchy": "shopping actions and product comparison drive hierarchy",
+    "changedAssetTreatment": "editable product placeholders replace reference photos and rendered product images",
+    "changedDepthEffect": "cart drawer and product stage replace generic promo cards"
+  },
+  "structuralReconfiguration": {
+    "referenceStructurePattern": "product hero, collection/product cards, promo blocks, support/footer",
+    "newStructurePattern": "commerce browser, product wall, comparison lab, fitting guide, product-detail preview, lookbook strip, returns FAQ, checkout drawer",
+    "heroGrammarChange": "browser shell instead of centered headline or photo-led retail hero",
+    "sectionOrderChange": "browse and compare before education/detail; checkout confidence appears before final footer",
+    "gridSystemChange": "side rail, table, and drawer replace repeated stacked cards",
+    "ctaFlowChange": "search/add/compare/checkout actions replace generic get-started rhythm",
+    "componentLayoutChange": "commerce UI modules replace agency/hospitality landing modules"
+  },
+  "patternDivergence": {
+    "divergenceFromReference": "new browser-shell hero and table/detail mechanics",
+    "divergenceFromPreviousTemplate": "rejects Vanta/Aster v1 landing-band silhouette",
+    "heroDivergence": "side rail plus cart drawer instead of text-left/media-right",
+    "sectionRhythmDivergence": "catalog, table, guide, drawer rhythm instead of generic story sections",
+    "visualLanguageDivergence": "commerce action colors and product shelf surfaces",
+    "componentCadenceDivergence": "product cards, spec rows, cart chips, and checkout fields"
+  },
+  "sectionLogic": {
+    "sectionList": ["commerce nav", "browser hero", "product wall", "comparison table", "fitting guide", "product detail preview", "lookbook shelf", "returns and checkout drawer", "commerce footer"],
+    "roleOfEachSection": "support browsing, comparison, education, product confidence, returns trust, and checkout flow",
+    "buyerJourneyFlow": "browse category, inspect product, compare lens, choose fit, view detail, see lifestyle, trust returns, start checkout",
+    "fillerSectionsRemoved": "No filler sections remain; each module supports browsing, product comparison, fit education, product detail, returns trust, checkout confidence, or source-template usability.",
+    "productFamilyDepthStandard": "ecommerce source includes category/product, product detail, comparison, cart, returns, and footer logic"
+  },
+  "marketplaceReadiness": {
+    "sectionDepth": "nine ecommerce modules plus design-system board",
+    "premiumSignal": "source-ready commerce mechanics and differentiated layout silhouette",
+    "editability": "auto-layout, editable text, named placeholders, reusable component specimens",
+    "sourceReadiness": "design system and anti-scaffold receipt included",
+    "previewValue": "side rail/product theater/cart drawer and product wall are strong first-viewport signals",
+    "commercialUsefulness": "adaptable for eyewear, accessories, gadgets, and product-led shops",
+    "nonGenericProof": "not a hero/features/pricing/footer scaffold"
+  },
+  "status": "PASS"
+}

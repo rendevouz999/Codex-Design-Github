@@ -1,0 +1,55 @@
+{
+  "packs": {
+    "Core Quality Pack": {
+      "purpose": "Baseline quality direction for premium marketplace-ready template products.",
+      "styles": [
+        "Impeccable",
+        "Premium",
+        "Refined",
+        "Clean",
+        "Spacious",
+        "Professional"
+      ]
+    },
+    "Template Layout Pack": {
+      "purpose": "Reusable layout archetypes for template structure and page composition.",
+      "styles": [
+        "Bento",
+        "Editorial",
+        "Storytelling",
+        "Perspective",
+        "Dashboard",
+        "Application"
+      ]
+    },
+    "Marketplace Preview Pack": {
+      "purpose": "Presentation styles for covers, preview images, section breakdowns, and overview layouts.",
+      "styles": [
+        "Perspective",
+        "Bento",
+        "Bold",
+        "Dramatic",
+        "Modern",
+        "Sleek"
+      ]
+    },
+    "Brand/Niche Pack": {
+      "purpose": "Niche-facing visual directions that can be selected when they match the buyer and category.",
+      "styles": [
+        "Luxury",
+        "Elegant",
+        "Cafe",
+        "Vintage",
+        "Creative",
+        "Enterprise"
+      ]
+    }
+  },
+  "selection_rules": [
+    "Always start from the Core Quality Pack.",
+    "Choose Template Layout Pack styles based on template type and required structure.",
+    "Choose Marketplace Preview Pack styles for the cover and preview image system.",
+    "Choose Brand/Niche Pack styles only when the niche or buyer clearly supports them.",
+    "Avoid combining too many strong style directions in one product."
+  ]
+}

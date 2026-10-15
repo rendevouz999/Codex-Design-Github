@@ -1,0 +1,1496 @@
+{
+  "DesignHookDecision": {
+    "additionalProperties": false,
+    "properties": {
+      "eligible": {
+        "title": "Eligible",
+        "type": "boolean"
+      },
+      "reason": {
+        "title": "Reason",
+        "type": "string"
+      },
+      "task_id": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "title": "Task Id"
+      },
+      "profile": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "title": "Profile"
+      },
+      "duplicate": {
+        "default": false,
+        "title": "Duplicate",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "eligible",
+      "reason"
+    ],
+    "title": "DesignHookDecision",
+    "type": "object"
+  },
+  "DesignTask": {
+    "$defs": {
+      "ApprovalPolicy": {
+        "additionalProperties": false,
+        "properties": {
+          "approver": {
+            "const": "main",
+            "default": "main",
+            "title": "Approver",
+            "type": "string"
+          },
+          "require_render": {
+            "const": true,
+            "default": true,
+            "title": "Require Render",
+            "type": "boolean"
+          },
+          "require_native_editability": {
+            "default": true,
+            "title": "Require Native Editability",
+            "type": "boolean"
+          },
+          "max_revisions": {
+            "default": 2,
+            "maximum": 5,
+            "minimum": 0,
+            "title": "Max Revisions",
+            "type": "integer"
+          },
+          "allow_paid_model": {
+            "default": false,
+            "title": "Allow Paid Model",
+            "type": "boolean"
+          }
+        },
+        "title": "ApprovalPolicy",
+        "type": "object"
+      },
+      "DesignUnit": {
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,79}$",
+            "title": "Id",
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "slide",
+              "artboard",
+              "graphic",
+              "page",
+              "spread",
+              "composition",
+              "glyph"
+            ],
+            "title": "Kind",
+            "type": "string"
+          },
+          "width": {
+            "maximum": 4096,
+            "minimum": 64,
+            "title": "Width",
+            "type": "integer"
+          },
+          "height": {
+            "maximum": 4096,
+            "minimum": 64,
+            "title": "Height",
+            "type": "integer"
+          },
+          "instruction": {
+            "maxLength": 12000,
+            "minLength": 1,
+            "title": "Instruction",
+            "type": "string"
+          },
+          "source_slide": {
+            "anyOf": [
+              {
+                "maximum": 200,
+                "minimum": 1,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Source Slide"
+          },
+          "layout": {
+            "anyOf": [
+              {
+                "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,79}$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Layout"
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "width",
+          "height",
+          "instruction"
+        ],
+        "title": "DesignUnit",
+        "type": "object"
+      },
+      "EditorialContract": {
+        "additionalProperties": false,
+        "properties": {
+          "margin": {
+            "maximum": 500,
+            "minimum": 0,
+            "title": "Margin",
+            "type": "number"
+          },
+          "columns": {
+            "maximum": 12,
+            "minimum": 1,
+            "title": "Columns",
+            "type": "integer"
+          },
+          "gutter": {
+            "maximum": 200,
+            "minimum": 0,
+            "title": "Gutter",
+            "type": "number"
+          },
+          "bleed": {
+            "default": 0,
+            "maximum": 100,
+            "minimum": 0,
+            "title": "Bleed",
+            "type": "number"
+          },
+          "styles": {
+            "items": {
+              "$ref": "#/$defs/EditorialStyle"
+            },
+            "maxItems": 20,
+            "minItems": 1,
+            "title": "Styles",
+            "type": "array"
+          }
+        },
+        "required": [
+          "margin",
+          "columns",
+          "gutter",
+          "styles"
+        ],
+        "title": "EditorialContract",
+        "type": "object"
+      },
+      "EditorialStyle": {
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,79}$",
+            "title": "Id",
+            "type": "string"
+          },
+          "font": {
+            "enum": [
+              "Arial",
+              "Calibri",
+              "Aptos",
+              "Georgia",
+              "Times New Roman",
+              "Verdana"
+            ],
+            "title": "Font",
+            "type": "string"
+          },
+          "size": {
+            "maximum": 100,
+            "minimum": 8,
+            "title": "Size",
+            "type": "number"
+          },
+          "leading": {
+            "maximum": 180,
+            "minimum": 8,
+            "title": "Leading",
+            "type": "number"
+          },
+          "color": {
+            "pattern": "^#[0-9a-fA-F]{6}$",
+            "title": "Color",
+            "type": "string"
+          },
+          "bold": {
+            "default": false,
+            "title": "Bold",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "font",
+          "size",
+          "leading",
+          "color"
+        ],
+        "title": "EditorialStyle",
+        "type": "object"
+      },
+      "InputReference": {
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,79}$",
+            "title": "Id",
+            "type": "string"
+          },
+          "path": {
+            "maxLength": 1024,
+            "minLength": 1,
+            "title": "Path",
+            "type": "string"
+          },
+          "sha256": {
+            "pattern": "^[a-f0-9]{64}$",
+            "title": "Sha256",
+            "type": "string"
+          },
+          "role": {
+            "enum": [
+              "brief",
+              "reference",
+              "editable_source"
+            ],
+            "title": "Role",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "path",
+          "sha256",
+          "role"
+        ],
+        "title": "InputReference",
+        "type": "object"
+      },
+      "PresentationContract": {
+        "additionalProperties": false,
+        "properties": {
+          "structure": {
+            "enum": [
+              "flat",
+              "structured",
+              "preserve"
+            ],
+            "title": "Structure",
+            "type": "string"
+          },
+          "reusable_template": {
+            "default": false,
+            "title": "Reusable Template",
+            "type": "boolean"
+          },
+          "title_size": {
+            "maximum": 200,
+            "minimum": 8,
+            "title": "Title Size",
+            "type": "number"
+          },
+          "body_size": {
+            "maximum": 200,
+            "minimum": 8,
+            "title": "Body Size",
+            "type": "number"
+          },
+          "title_font": {
+            "enum": [
+              "Arial",
+              "Calibri",
+              "Aptos",
+              "Georgia",
+              "Times New Roman",
+              "Verdana"
+            ],
+            "title": "Title Font",
+            "type": "string"
+          },
+          "body_font": {
+            "enum": [
+              "Arial",
+              "Calibri",
+              "Aptos",
+              "Georgia",
+              "Times New Roman",
+              "Verdana"
+            ],
+            "title": "Body Font",
+            "type": "string"
+          },
+          "background": {
+            "pattern": "^#[0-9a-fA-F]{6}$",
+            "title": "Background",
+            "type": "string"
+          },
+          "foreground": {
+            "pattern": "^#[0-9a-fA-F]{6}$",
+            "title": "Foreground",
+            "type": "string"
+          },
+          "accent": {
+            "pattern": "^#[0-9a-fA-F]{6}$",
+            "title": "Accent",
+            "type": "string"
+          }
+        },
+        "required": [
+          "structure",
+          "title_size",
+          "body_size",
+          "title_font",
+          "body_font",
+          "background",
+          "foreground",
+          "accent"
+        ],
+        "title": "PresentationContract",
+        "type": "object"
+      }
+    },
+    "additionalProperties": false,
+    "properties": {
+      "parent_request_id": {
+        "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,79}$",
+        "title": "Parent Request Id",
+        "type": "string"
+      },
+      "stage": {
+        "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,79}$",
+        "title": "Stage",
+        "type": "string"
+      },
+      "operation": {
+        "enum": [
+          "create",
+          "edit",
+          "refine",
+          "assets",
+          "render",
+          "qa",
+          "repair",
+          "brainstorm",
+          "prompt",
+          "other"
+        ],
+        "title": "Operation",
+        "type": "string"
+      },
+      "artifact_type": {
+        "maxLength": 80,
+        "minLength": 1,
+        "title": "Artifact Type",
+        "type": "string"
+      },
+      "units": {
+        "items": {
+          "$ref": "#/$defs/DesignUnit"
+        },
+        "maxItems": 20,
+        "minItems": 1,
+        "title": "Units",
+        "type": "array"
+      },
+      "inputs": {
+        "items": {
+          "$ref": "#/$defs/InputReference"
+        },
+        "maxItems": 20,
+        "minItems": 1,
+        "title": "Inputs",
+        "type": "array"
+      },
+      "output_format": {
+        "maxLength": 20,
+        "minLength": 1,
+        "title": "Output Format",
+        "type": "string"
+      },
+      "editability_requirements": {
+        "items": {
+          "maxLength": 1000,
+          "minLength": 1,
+          "type": "string"
+        },
+        "maxItems": 20,
+        "minItems": 1,
+        "title": "Editability Requirements",
+        "type": "array"
+      },
+      "required_features": {
+        "items": {
+          "maxLength": 80,
+          "minLength": 1,
+          "type": "string"
+        },
+        "maxItems": 20,
+        "title": "Required Features",
+        "type": "array"
+      },
+      "allowed_tools": {
+        "items": {
+          "enum": [
+            "read_input",
+            "discover_capabilities",
+            "write_unit",
+            "build_artifact",
+            "render_preview",
+            "technical_qa"
+          ],
+          "type": "string"
+        },
+        "maxItems": 6,
+        "minItems": 1,
+        "title": "Allowed Tools",
+        "type": "array"
+      },
+      "output_dir": {
+        "maxLength": 1024,
+        "minLength": 1,
+        "title": "Output Dir",
+        "type": "string"
+      },
+      "creative_constraints": {
+        "maxLength": 20000,
+        "minLength": 1,
+        "title": "Creative Constraints",
+        "type": "string"
+      },
+      "authorized": {
+        "default": false,
+        "title": "Authorized",
+        "type": "boolean"
+      },
+      "no_execution": {
+        "default": false,
+        "title": "No Execution",
+        "type": "boolean"
+      },
+      "revision": {
+        "default": 0,
+        "maximum": 5,
+        "minimum": 0,
+        "title": "Revision",
+        "type": "integer"
+      },
+      "approval_policy": {
+        "$ref": "#/$defs/ApprovalPolicy"
+      },
+      "timeout_seconds": {
+        "default": 180,
+        "maximum": 300,
+        "minimum": 10,
+        "title": "Timeout Seconds",
+        "type": "integer"
+      },
+      "max_tool_calls": {
+        "default": 48,
+        "maximum": 80,
+        "minimum": 3,
+        "title": "Max Tool Calls",
+        "type": "integer"
+      },
+      "presentation": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/PresentationContract"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null
+      },
+      "editorial": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/EditorialContract"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null
+      }
+    },
+    "required": [
+      "parent_request_id",
+      "stage",
+      "operation",
+      "artifact_type",
+      "units",
+      "inputs",
+      "output_format",
+      "editability_requirements",
+      "allowed_tools",
+      "output_dir",
+      "creative_constraints"
+    ],
+    "title": "DesignTask",
+    "type": "object"
+  },
+  "DesignResult": {
+    "$defs": {
+      "ArtifactManifest": {
+        "additionalProperties": false,
+        "properties": {
+          "path": {
+            "title": "Path",
+            "type": "string"
+          },
+          "sha256": {
+            "pattern": "^[a-f0-9]{64}$",
+            "title": "Sha256",
+            "type": "string"
+          },
+          "format": {
+            "title": "Format",
+            "type": "string"
+          },
+          "unit_ids": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Unit Ids",
+            "type": "array"
+          },
+          "editable": {
+            "title": "Editable",
+            "type": "boolean"
+          },
+          "role": {
+            "enum": [
+              "source",
+              "deliverable",
+              "preview",
+              "evidence"
+            ],
+            "title": "Role",
+            "type": "string"
+          }
+        },
+        "required": [
+          "path",
+          "sha256",
+          "format",
+          "unit_ids",
+          "editable",
+          "role"
+        ],
+        "title": "ArtifactManifest",
+        "type": "object"
+      },
+      "DesignQAReport": {
+        "additionalProperties": false,
+        "properties": {
+          "status": {
+            "enum": [
+              "PASS",
+              "FAIL",
+              "UNVERIFIED"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "checks": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Checks",
+            "type": "array"
+          },
+          "issues": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Issues",
+            "type": "array"
+          },
+          "evidence": {
+            "items": {
+              "$ref": "#/$defs/ArtifactManifest"
+            },
+            "title": "Evidence",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "checks",
+          "issues",
+          "evidence"
+        ],
+        "title": "DesignQAReport",
+        "type": "object"
+      }
+    },
+    "additionalProperties": false,
+    "properties": {
+      "task_id": {
+        "title": "Task Id",
+        "type": "string"
+      },
+      "status": {
+        "enum": [
+          "NEEDS_MAIN_REVIEW",
+          "FAILED",
+          "BLOCKED",
+          "UNVERIFIED"
+        ],
+        "title": "Status",
+        "type": "string"
+      },
+      "artifacts": {
+        "items": {
+          "$ref": "#/$defs/ArtifactManifest"
+        },
+        "title": "Artifacts",
+        "type": "array"
+      },
+      "qa": {
+        "$ref": "#/$defs/DesignQAReport"
+      },
+      "issues": {
+        "items": {
+          "type": "string"
+        },
+        "title": "Issues",
+        "type": "array"
+      }
+    },
+    "required": [
+      "task_id",
+      "status",
+      "artifacts",
+      "qa",
+      "issues"
+    ],
+    "title": "DesignResult",
+    "type": "object"
+  },
+  "MainReviewDecision": {
+    "additionalProperties": false,
+    "properties": {
+      "task_id": {
+        "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,79}$",
+        "title": "Task Id",
+        "type": "string"
+      },
+      "decision": {
+        "enum": [
+          "APPROVE",
+          "REVISE",
+          "BLOCK"
+        ],
+        "title": "Decision",
+        "type": "string"
+      },
+      "reviewer": {
+        "const": "main",
+        "title": "Reviewer",
+        "type": "string"
+      },
+      "artifact_hashes": {
+        "items": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "title": "Artifact Hashes",
+        "type": "array"
+      },
+      "feedback": {
+        "maxLength": 12000,
+        "minLength": 1,
+        "title": "Feedback",
+        "type": "string"
+      }
+    },
+    "required": [
+      "task_id",
+      "decision",
+      "reviewer",
+      "artifact_hashes",
+      "feedback"
+    ],
+    "title": "MainReviewDecision",
+    "type": "object"
+  },
+  "ArtifactManifest": {
+    "additionalProperties": false,
+    "properties": {
+      "path": {
+        "title": "Path",
+        "type": "string"
+      },
+      "sha256": {
+        "pattern": "^[a-f0-9]{64}$",
+        "title": "Sha256",
+        "type": "string"
+      },
+      "format": {
+        "title": "Format",
+        "type": "string"
+      },
+      "unit_ids": {
+        "items": {
+          "type": "string"
+        },
+        "title": "Unit Ids",
+        "type": "array"
+      },
+      "editable": {
+        "title": "Editable",
+        "type": "boolean"
+      },
+      "role": {
+        "enum": [
+          "source",
+          "deliverable",
+          "preview",
+          "evidence"
+        ],
+        "title": "Role",
+        "type": "string"
+      }
+    },
+    "required": [
+      "path",
+      "sha256",
+      "format",
+      "unit_ids",
+      "editable",
+      "role"
+    ],
+    "title": "ArtifactManifest",
+    "type": "object"
+  },
+  "DesignQAReport": {
+    "$defs": {
+      "ArtifactManifest": {
+        "additionalProperties": false,
+        "properties": {
+          "path": {
+            "title": "Path",
+            "type": "string"
+          },
+          "sha256": {
+            "pattern": "^[a-f0-9]{64}$",
+            "title": "Sha256",
+            "type": "string"
+          },
+          "format": {
+            "title": "Format",
+            "type": "string"
+          },
+          "unit_ids": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Unit Ids",
+            "type": "array"
+          },
+          "editable": {
+            "title": "Editable",
+            "type": "boolean"
+          },
+          "role": {
+            "enum": [
+              "source",
+              "deliverable",
+              "preview",
+              "evidence"
+            ],
+            "title": "Role",
+            "type": "string"
+          }
+        },
+        "required": [
+          "path",
+          "sha256",
+          "format",
+          "unit_ids",
+          "editable",
+          "role"
+        ],
+        "title": "ArtifactManifest",
+        "type": "object"
+      }
+    },
+    "additionalProperties": false,
+    "properties": {
+      "status": {
+        "enum": [
+          "PASS",
+          "FAIL",
+          "UNVERIFIED"
+        ],
+        "title": "Status",
+        "type": "string"
+      },
+      "checks": {
+        "items": {
+          "type": "string"
+        },
+        "title": "Checks",
+        "type": "array"
+      },
+      "issues": {
+        "items": {
+          "type": "string"
+        },
+        "title": "Issues",
+        "type": "array"
+      },
+      "evidence": {
+        "items": {
+          "$ref": "#/$defs/ArtifactManifest"
+        },
+        "title": "Evidence",
+        "type": "array"
+      }
+    },
+    "required": [
+      "status",
+      "checks",
+      "issues",
+      "evidence"
+    ],
+    "title": "DesignQAReport",
+    "type": "object"
+  },
+  "UnitContent": {
+    "$defs": {
+      "ChartData": {
+        "additionalProperties": false,
+        "properties": {
+          "type": {
+            "enum": [
+              "column",
+              "bar",
+              "line",
+              "pie"
+            ],
+            "title": "Type",
+            "type": "string"
+          },
+          "categories": {
+            "items": {
+              "maxLength": 100,
+              "minLength": 1,
+              "type": "string"
+            },
+            "maxItems": 40,
+            "minItems": 1,
+            "title": "Categories",
+            "type": "array"
+          },
+          "series": {
+            "items": {
+              "$ref": "#/$defs/ChartSeries"
+            },
+            "maxItems": 8,
+            "minItems": 1,
+            "title": "Series",
+            "type": "array"
+          }
+        },
+        "required": [
+          "type",
+          "categories",
+          "series"
+        ],
+        "title": "ChartData",
+        "type": "object"
+      },
+      "ChartSeries": {
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "maxLength": 100,
+            "minLength": 1,
+            "title": "Name",
+            "type": "string"
+          },
+          "values": {
+            "items": {
+              "type": "number"
+            },
+            "maxItems": 40,
+            "minItems": 1,
+            "title": "Values",
+            "type": "array"
+          }
+        },
+        "required": [
+          "name",
+          "values"
+        ],
+        "title": "ChartSeries",
+        "type": "object"
+      },
+      "Node": {
+        "additionalProperties": false,
+        "description": "Safe editable primitives; deliberately excludes executable markup and resource URLs.",
+        "properties": {
+          "id": {
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,79}$",
+            "title": "Id",
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "rect",
+              "ellipse",
+              "text",
+              "line",
+              "chart",
+              "table",
+              "text_frame"
+            ],
+            "title": "Kind",
+            "type": "string"
+          },
+          "x": {
+            "maximum": 4096,
+            "minimum": 0,
+            "title": "X",
+            "type": "number"
+          },
+          "y": {
+            "maximum": 4096,
+            "minimum": 0,
+            "title": "Y",
+            "type": "number"
+          },
+          "width": {
+            "exclusiveMinimum": 0,
+            "maximum": 4096,
+            "title": "Width",
+            "type": "number"
+          },
+          "height": {
+            "exclusiveMinimum": 0,
+            "maximum": 4096,
+            "title": "Height",
+            "type": "number"
+          },
+          "fill": {
+            "default": "#000000",
+            "pattern": "^(#[0-9a-fA-F]{6}|none)$",
+            "title": "Fill",
+            "type": "string"
+          },
+          "stroke": {
+            "default": "none",
+            "pattern": "^(#[0-9a-fA-F]{6}|none)$",
+            "title": "Stroke",
+            "type": "string"
+          },
+          "stroke_width": {
+            "default": 1,
+            "maximum": 20,
+            "minimum": 0,
+            "title": "Stroke Width",
+            "type": "number"
+          },
+          "radius": {
+            "default": 0,
+            "maximum": 200,
+            "minimum": 0,
+            "title": "Radius",
+            "type": "number"
+          },
+          "text": {
+            "default": "",
+            "maxLength": 2000,
+            "title": "Text",
+            "type": "string"
+          },
+          "font": {
+            "default": "Arial",
+            "enum": [
+              "Arial",
+              "Calibri",
+              "Aptos",
+              "Georgia",
+              "Times New Roman",
+              "Verdana"
+            ],
+            "title": "Font",
+            "type": "string"
+          },
+          "font_size": {
+            "default": 24,
+            "maximum": 200,
+            "minimum": 8,
+            "title": "Font Size",
+            "type": "number"
+          },
+          "bold": {
+            "default": false,
+            "title": "Bold",
+            "type": "boolean"
+          },
+          "placeholder": {
+            "default": false,
+            "title": "Placeholder",
+            "type": "boolean"
+          },
+          "layer": {
+            "default": "slide",
+            "enum": [
+              "slide",
+              "layout",
+              "master"
+            ],
+            "title": "Layer",
+            "type": "string"
+          },
+          "native_placeholder": {
+            "anyOf": [
+              {
+                "enum": [
+                  "title",
+                  "subtitle",
+                  "body",
+                  "picture",
+                  "chart",
+                  "table",
+                  "footer",
+                  "slide-number"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Native Placeholder"
+          },
+          "placeholder_index": {
+            "default": 0,
+            "maximum": 1000,
+            "minimum": 0,
+            "title": "Placeholder Index",
+            "type": "integer"
+          },
+          "chart": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/ChartData"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "table": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/TableData"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "story_id": {
+            "anyOf": [
+              {
+                "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,79}$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Story Id"
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "x",
+          "y",
+          "width",
+          "height"
+        ],
+        "title": "Node",
+        "type": "object"
+      },
+      "Story": {
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,79}$",
+            "title": "Id",
+            "type": "string"
+          },
+          "style": {
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,79}$",
+            "title": "Style",
+            "type": "string"
+          },
+          "text": {
+            "maxLength": 60000,
+            "minLength": 1,
+            "title": "Text",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "style",
+          "text"
+        ],
+        "title": "Story",
+        "type": "object"
+      },
+      "TableData": {
+        "additionalProperties": false,
+        "properties": {
+          "columns": {
+            "items": {
+              "maxLength": 100,
+              "type": "string"
+            },
+            "maxItems": 12,
+            "minItems": 1,
+            "title": "Columns",
+            "type": "array"
+          },
+          "rows": {
+            "items": {
+              "items": {
+                "maxLength": 200,
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "maxItems": 40,
+            "minItems": 1,
+            "title": "Rows",
+            "type": "array"
+          }
+        },
+        "required": [
+          "columns",
+          "rows"
+        ],
+        "title": "TableData",
+        "type": "object"
+      },
+      "TextEdit": {
+        "additionalProperties": false,
+        "properties": {
+          "shape_id": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "title": "Shape Id",
+            "type": "integer"
+          },
+          "expected": {
+            "maxLength": 2000,
+            "minLength": 1,
+            "title": "Expected",
+            "type": "string"
+          },
+          "replacement": {
+            "maxLength": 2000,
+            "minLength": 1,
+            "title": "Replacement",
+            "type": "string"
+          }
+        },
+        "required": [
+          "shape_id",
+          "expected",
+          "replacement"
+        ],
+        "title": "TextEdit",
+        "type": "object"
+      }
+    },
+    "additionalProperties": false,
+    "properties": {
+      "unit_id": {
+        "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,79}$",
+        "title": "Unit Id",
+        "type": "string"
+      },
+      "nodes": {
+        "items": {
+          "$ref": "#/$defs/Node"
+        },
+        "maxItems": 300,
+        "title": "Nodes",
+        "type": "array"
+      },
+      "edits": {
+        "items": {
+          "$ref": "#/$defs/TextEdit"
+        },
+        "maxItems": 50,
+        "title": "Edits",
+        "type": "array"
+      },
+      "stories": {
+        "items": {
+          "$ref": "#/$defs/Story"
+        },
+        "maxItems": 30,
+        "title": "Stories",
+        "type": "array"
+      }
+    },
+    "required": [
+      "unit_id"
+    ],
+    "title": "UnitContent",
+    "type": "object"
+  },
+  "PresentationContract": {
+    "additionalProperties": false,
+    "properties": {
+      "structure": {
+        "enum": [
+          "flat",
+          "structured",
+          "preserve"
+        ],
+        "title": "Structure",
+        "type": "string"
+      },
+      "reusable_template": {
+        "default": false,
+        "title": "Reusable Template",
+        "type": "boolean"
+      },
+      "title_size": {
+        "maximum": 200,
+        "minimum": 8,
+        "title": "Title Size",
+        "type": "number"
+      },
+      "body_size": {
+        "maximum": 200,
+        "minimum": 8,
+        "title": "Body Size",
+        "type": "number"
+      },
+      "title_font": {
+        "enum": [
+          "Arial",
+          "Calibri",
+          "Aptos",
+          "Georgia",
+          "Times New Roman",
+          "Verdana"
+        ],
+        "title": "Title Font",
+        "type": "string"
+      },
+      "body_font": {
+        "enum": [
+          "Arial",
+          "Calibri",
+          "Aptos",
+          "Georgia",
+          "Times New Roman",
+          "Verdana"
+        ],
+        "title": "Body Font",
+        "type": "string"
+      },
+      "background": {
+        "pattern": "^#[0-9a-fA-F]{6}$",
+        "title": "Background",
+        "type": "string"
+      },
+      "foreground": {
+        "pattern": "^#[0-9a-fA-F]{6}$",
+        "title": "Foreground",
+        "type": "string"
+      },
+      "accent": {
+        "pattern": "^#[0-9a-fA-F]{6}$",
+        "title": "Accent",
+        "type": "string"
+      }
+    },
+    "required": [
+      "structure",
+      "title_size",
+      "body_size",
+      "title_font",
+      "body_font",
+      "background",
+      "foreground",
+      "accent"
+    ],
+    "title": "PresentationContract",
+    "type": "object"
+  },
+  "EditorialContract": {
+    "$defs": {
+      "EditorialStyle": {
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,79}$",
+            "title": "Id",
+            "type": "string"
+          },
+          "font": {
+            "enum": [
+              "Arial",
+              "Calibri",
+              "Aptos",
+              "Georgia",
+              "Times New Roman",
+              "Verdana"
+            ],
+            "title": "Font",
+            "type": "string"
+          },
+          "size": {
+            "maximum": 100,
+            "minimum": 8,
+            "title": "Size",
+            "type": "number"
+          },
+          "leading": {
+            "maximum": 180,
+            "minimum": 8,
+            "title": "Leading",
+            "type": "number"
+          },
+          "color": {
+            "pattern": "^#[0-9a-fA-F]{6}$",
+            "title": "Color",
+            "type": "string"
+          },
+          "bold": {
+            "default": false,
+            "title": "Bold",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "font",
+          "size",
+          "leading",
+          "color"
+        ],
+        "title": "EditorialStyle",
+        "type": "object"
+      }
+    },
+    "additionalProperties": false,
+    "properties": {
+      "margin": {
+        "maximum": 500,
+        "minimum": 0,
+        "title": "Margin",
+        "type": "number"
+      },
+      "columns": {
+        "maximum": 12,
+        "minimum": 1,
+        "title": "Columns",
+        "type": "integer"
+      },
+      "gutter": {
+        "maximum": 200,
+        "minimum": 0,
+        "title": "Gutter",
+        "type": "number"
+      },
+      "bleed": {
+        "default": 0,
+        "maximum": 100,
+        "minimum": 0,
+        "title": "Bleed",
+        "type": "number"
+      },
+      "styles": {
+        "items": {
+          "$ref": "#/$defs/EditorialStyle"
+        },
+        "maxItems": 20,
+        "minItems": 1,
+        "title": "Styles",
+        "type": "array"
+      }
+    },
+    "required": [
+      "margin",
+      "columns",
+      "gutter",
+      "styles"
+    ],
+    "title": "EditorialContract",
+    "type": "object"
+  },
+  "ReadInput": {
+    "additionalProperties": false,
+    "properties": {
+      "input_id": {
+        "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,79}$",
+        "title": "Input Id",
+        "type": "string"
+      }
+    },
+    "required": [
+      "input_id"
+    ],
+    "title": "ReadInput",
+    "type": "object"
+  },
+  "Empty": {
+    "additionalProperties": false,
+    "properties": {},
+    "title": "Empty",
+    "type": "object"
+  }
+}

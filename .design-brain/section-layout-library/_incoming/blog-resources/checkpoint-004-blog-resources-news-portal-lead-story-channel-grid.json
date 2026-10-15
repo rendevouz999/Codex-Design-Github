@@ -1,0 +1,122 @@
+{
+  "patternId": "checkpoint-004-blog-resources-news-portal-lead-story-channel-grid",
+  "sectionType": "blog-resources",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\beritain-blog-post-landing-page-2024-03-25-18-24-24-utc - Beritain - Blog Post Landing Page - 1e9bf1b3.png"
+  ],
+  "productFamilies": [
+    "blog",
+    "news",
+    "media",
+    "publishing"
+  ],
+  "commercialPurpose": "Create a media/news homepage with a clear lead story, category scanning, and mixed article formats.",
+  "purposeLayer": "Resource section turns content volume into an editorial hierarchy instead of a plain list.",
+  "anatomyLayer": "Top nav, lead story image/text pair, category chip row, article cards, dark featured media band, video/card grid, author block, and footer links.",
+  "hierarchyLayer": "Lead story first, category row second, article grids third, featured media band fourth.",
+  "gridRhythmLayer": "Editorial homepage stack with one lead story, compact category carousel, article grids, and a dark media feature band.",
+  "densityLimitLayer": "Use section density limit: {\"visibleItems\": \"3-6\", \"featuredItem\": \"0-1\", \"channelGroups\": \"2-4\"}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, or section order.",
+  "usageRuleLayer": "Use for blog, magazine, news, resource hub, creator, and content marketplace templates.",
+  "layoutGesture": "news portal lead story with channel grid and featured media band",
+  "sectionSilhouette": "light editorial page where lead article gives way to category cards and a dark gallery strip",
+  "compositionTension": "news hierarchy balances scanning density with one dominant story anchor",
+  "focalPath": "lead image to headline to categories to article grids to media band",
+  "negativeSpaceShape": "white gutters around article cards with a strong dark interruption band",
+  "depthLayering": "light page base, card thumbnails, dark feature band, author/footer blocks",
+  "moduleScaleVariation": "one large lead story, many small article cards, medium video tiles",
+  "breakoutBehavior": "dark featured band breaks out from otherwise light editorial flow",
+  "contentLimits": {
+    "visibleItems": "3-6",
+    "featuredItem": "0-1",
+    "channelGroups": "2-4"
+  },
+  "antiCopyBoundary": "Do not copy Beritain article images, category names, exact card order, or dark gallery styling.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation",
+      "hero"
+    ],
+    "after": [
+      "blog-resources",
+      "footer"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 004 contact sheet",
+    "reviewNotes": "Checkpoint 004 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "blog-resources:a2fc940aee66bcfd",
+    "hash": "a2fc940aee66bcfd808fdb83d3adf5e729016b03",
+    "axes": {
+      "layoutGesture": "news portal lead story with channel grid and featured media band",
+      "sectionSilhouette": "light editorial page where lead article gives way to category cards and a dark gallery strip",
+      "anatomyLayer": "top nav, lead story image/text pair, category chip row, article cards, dark featured media band, video/card grid, author block, and footer links.",
+      "hierarchyLayer": "lead story first, category row second, article grids third, featured media band fourth.",
+      "gridRhythmLayer": "editorial homepage stack with one lead story, compact category carousel, article grids, and a dark media feature band.",
+      "focalPath": "lead image to headline to categories to article grids to media band",
+      "compositionTension": "news hierarchy balances scanning density with one dominant story anchor",
+      "negativeSpaceShape": "white gutters around article cards with a strong dark interruption band",
+      "moduleScaleVariation": "one large lead story, many small article cards, medium video tiles",
+      "breakoutBehavior": "dark featured band breaks out from otherwise light editorial flow",
+      "contentLimits": "{\"channelgroups\":\"2-4\",\"featureditem\":\"0-1\",\"visibleitems\":\"3-6\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.1433,
+  "matchGroupId": "blog-resources:a2fc940aee66bcfd",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:16:27Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 3,
+    "bestMatch": {
+      "score": 0.1433,
+      "axisScores": {
+        "layoutGesture": 0.1176,
+        "sectionSilhouette": 0.0833,
+        "anatomyLayer": 0.1143,
+        "hierarchyLayer": 0.2222,
+        "gridRhythmLayer": 0.0323,
+        "focalPath": 0.1429,
+        "compositionTension": 0.0526,
+        "negativeSpaceShape": 0.1111,
+        "moduleScaleVariation": 0.2,
+        "breakoutBehavior": 0.0,
+        "contentLimits": 0.5
+      },
+      "patternId": "checkpoint-001-blog-resources-two-column-editorial-card-feed",
+      "sectionType": "blog-resources",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\blog-resources\\checkpoint-001-blog-resources-two-column-editorial-card-feed.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

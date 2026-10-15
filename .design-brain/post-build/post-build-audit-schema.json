@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Brain Design Post-Build Audit Receipt",
+  "type": "object",
+  "required": [
+    "buildId",
+    "templateCount",
+    "templates",
+    "designCognitionRequired",
+    "completionReceiptRequired",
+    "completionReceiptPresent",
+    "designCognitionResults",
+    "designSystemResults",
+    "auditPasses",
+    "repairCycles",
+    "finalStatus",
+    "limitations"
+  ],
+  "properties": {
+    "buildId": { "type": "string", "minLength": 1 },
+    "templateCount": { "type": "integer", "minimum": 1 },
+    "templates": { "type": "array", "items": { "type": "string" } },
+    "designCognitionRequired": { "type": "boolean" },
+    "completionReceiptRequired": { "type": "boolean" },
+    "completionReceiptPresent": { "type": "boolean" },
+    "designCognitionResults": { "type": "object" },
+    "designSystemResults": { "type": "object" },
+    "auditPasses": { "type": "object" },
+    "batchSimilarity": { "type": "object" },
+    "repairCycles": { "type": "integer", "minimum": 0 },
+    "repairPlan": { "type": "array" },
+    "remainingIssues": { "type": "array" },
+    "visualVerificationStatus": { "type": "string" },
+    "finalStatus": {
+      "type": "string",
+      "enum": ["READY", "READY_WITH_LIMITATIONS", "REVISE_REQUIRED", "BLOCKED"]
+    },
+    "limitations": { "type": "array" },
+    "completionStatement": { "type": "string" }
+  }
+}

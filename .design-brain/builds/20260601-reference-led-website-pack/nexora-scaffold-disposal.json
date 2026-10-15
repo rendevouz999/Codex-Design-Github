@@ -1,0 +1,15 @@
+{
+  "templateId": "nexora-advisory",
+  "disposedAt": "2026-06-01T10:35:00Z",
+  "discarded": [
+    "consulting command hero grammar",
+    "cyan proof ribbon",
+    "service matrix cadence",
+    "process spine",
+    "dark intake closure",
+    "Nexora design-system panel order"
+  ],
+  "retainedOnly": ["primitive Figma helpers", "font loading", "color conversion", "text/frame utilities"],
+  "nextTemplateStartedFrom": "blank home decor ecommerce structure fingerprint",
+  "status": "scaffold_disposed"
+}

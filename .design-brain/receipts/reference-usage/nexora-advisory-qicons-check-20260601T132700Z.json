@@ -1,0 +1,23 @@
+{
+  "command": "check",
+  "status": "PASS",
+  "templateId": "nexora-advisory",
+  "candidateBrandName": "Nexora Advisory",
+  "templateType": "Figma Website Template",
+  "productFamily": "business consultant website template",
+  "niche": "business consultant",
+  "referenceMode": "single",
+  "referenceGroupKey": "qicons-business-consultant-png",
+  "referenceIds": [
+    "qicons-business-consultant-png"
+  ],
+  "referenceBrandNames": [
+    "Qicons"
+  ],
+  "blockingReasons": [],
+  "warnings": [],
+  "nextAction": "Proceed with reference cognition and record usage after completion.",
+  "dryRun": false,
+  "checkedAt": "2026-06-01T13:29:58.681622+00:00",
+  "receiptPath": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\receipts\\reference-usage\\nexora-advisory-qicons-check-20260601T132700Z.json"
+}

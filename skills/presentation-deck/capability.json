@@ -1,0 +1,32 @@
+{
+  "id": "codex-design.presentation-deck",
+  "version": "1.0.0",
+  "skill": "presentation-deck",
+  "operations": [
+    "create-template",
+    "generate",
+    "edit-existing"
+  ],
+  "templateKinds": [
+    "brand",
+    "style",
+    "layout",
+    "deck"
+  ],
+  "outputs": {
+    "native": {
+      "entry": "runtime/presentation.py",
+      "workflow": "workflows/native.md"
+    },
+    "web": {
+      "entry": "runtime/web/design_brain_web_deck_plan.mjs",
+      "workflow": "workflows/web.md"
+    }
+  },
+  "sharedDesign": "design/WORKFLOW.md",
+  "pythonRequirements": "runtime/requirements.txt",
+  "integrity": "provenance/integrity.json",
+  "donorRequired": false,
+  "status": "verified",
+  "nodeRequirements": "runtime/web/package.json"
+}

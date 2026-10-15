@@ -1,0 +1,25 @@
+{
+  "command": "check",
+  "status": "PASS",
+  "templateId": "",
+  "candidateBrandName": "Solenne Living",
+  "templateType": "Figma website template",
+  "productFamily": "home decor ecommerce",
+  "niche": "home decor ecommerce",
+  "referenceMode": "single",
+  "referenceGroupKey": "ration-home-decor-ecommerce-png",
+  "referenceIds": [
+    "ration-home-decor-ecommerce-png"
+  ],
+  "referenceBrandNames": [
+    "Ration"
+  ],
+  "blockingReasons": [],
+  "warnings": [
+    "UNKNOWN_REFERENCE_ID ration-home-decor-ecommerce-png"
+  ],
+  "nextAction": "Proceed with reference cognition and record usage after completion.",
+  "dryRun": false,
+  "checkedAt": "2026-06-01T08:48:41.223256+00:00",
+  "receiptPath": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\receipts\\reference-usage\\ration-home-decor-ecommerce-png-check-20260601T084841Z.json"
+}

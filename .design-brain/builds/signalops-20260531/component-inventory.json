@@ -1,0 +1,29 @@
+{
+  "templateId": "signalops-ai-website-template",
+  "components": [
+    "navigation header",
+    "button primary",
+    "button secondary",
+    "cta band",
+    "metric card",
+    "feature card",
+    "playbook card",
+    "pricing card",
+    "faq row",
+    "footer column",
+    "image placeholder",
+    "profile photo placeholder",
+    "integration pill",
+    "workflow step",
+    "demo form input",
+    "responsive preview frame"
+  ],
+  "states": [
+    "default",
+    "hover",
+    "focus",
+    "active",
+    "disabled"
+  ],
+  "notes": "State coverage is documented in the source guide as component specimen behavior; the Figma artifact contains editable component specimens rather than a published component library."
+}

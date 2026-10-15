@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+dist/
+exports/
+design-system/
+design-craft-backups/
+data/user_extensions.local.json

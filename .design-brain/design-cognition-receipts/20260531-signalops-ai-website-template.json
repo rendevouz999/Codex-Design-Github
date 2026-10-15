@@ -1,0 +1,122 @@
+{
+  "task": "editable Figma SaaS product marketing website template",
+  "productFamily": "saas_product_website",
+  "mode": "website-template",
+  "referenceSource": "local Template Website corpus: Yoru AI/SaaS, Geri AI Platform, Jack Futuristic AI Startup",
+  "batchItem": "",
+  "routeSource": "brain_design_router",
+  "styleDNA": {
+    "typographyBehavior": "large confident product headline, compact technical labels, readable body copy, and crisp proof numerals",
+    "layoutRhythm": "fast first-viewport promise, proof rail, alternating calm explanation and denser operational modules, then pricing/demo and FAQ closure",
+    "spacingDensity": "spacious hero and trust moments with denser workflow, integration, and proof sections",
+    "colorBehavior": "dark ink base for operational trust, electric mint for system signal, amber for intervention highlights, and soft neutral surfaces for editable modules",
+    "imageDirection": "role-specific product console, workflow map, integration, case study, and testimonial placeholder zones instead of final generated imagery",
+    "shapeLanguage": "rectilinear command-center surfaces, diagonal operations ribbon motif, tight pill labels, hairline dividers, and precise card stacks",
+    "effectLanguage": "subtle signal glow, hairline depth, controlled console elevation, and restrained gradient bands used only for hierarchy",
+    "premiumSignal": "complete SaaS/product website source with homepage depth, inner page map, responsive previews, design-system board, and source hygiene notes"
+  },
+  "referenceStandard": {
+    "observedSectionCountRange": "local AI/SaaS references and taxonomy support 10-14 homepage blocks plus product, pricing, resource, trust, and demo/contact pages",
+    "sectionRoleEvidence": "hero/product promise, proof cues, feature depth, workflow/process, visual product proof, FAQ, conversion, and footer roles appear across selected references or SaaS product standard",
+    "layoutShapeInventory": "cinematic hero stage, proof chips, two-column editorial bands, bento feature grid, integration strip, FAQ panels, testimonial/proof quote, and footer closure",
+    "colorRoleInventory": "dark technical base, high-contrast text, electric action signal, secondary proof accent, muted border, elevated surface, and soft placeholder fills",
+    "effectGradientInventory": "ambient glow, product-stage shadow, hairline card depth, dark gradient transitions, and accent highlights for CTA/proof hierarchy",
+    "marketplaceCompletenessClues": "homepage block depth, product-specific proof, source placeholders, responsive preview, design system, and buyer-facing editability notes",
+    "remixPlan": "reuse the need for technical trust, product proof, and calm-to-dense rhythm while changing hero grammar, palette identity, motif, section silhouettes, and component grouping",
+    "minimalistFallbackRejected": true
+  },
+  "designIntentLock": {
+    "productType": "editable SaaS product marketing website template",
+    "outputMedium": "Figma website source template",
+    "targetBuyer": "SaaS founders, AI consultants, automation agencies, and template marketplace buyers",
+    "useCase": "launch or pitch an AI operations automation studio, AI workflow product, or consulting offer",
+    "marketplaceValue": "complete premium source template with clear replacement zones, responsive previews, and reusable SaaS sections",
+    "primaryGoal": "sell a credible AI operations website template that feels source-ready and commercially adaptable"
+  },
+  "visualGrammar": {
+    "gridBehavior": "12-column desktop composition with a central command surface, asymmetrical proof clusters, and modular sections that can stack for tablet and mobile",
+    "spacingCadence": "wide hero breathing room, medium editorial bands, compact workflow rows, and strong section breaks before pricing and FAQ",
+    "typeHierarchy": "oversized hero title, strong section titles, precise eyebrow labels, compact card headings, and clear proof numerals",
+    "surfaceDepth": "dark page base, raised console panels, bordered cards, inset status rows, and subtle glow only around active signal areas",
+    "colorRoles": "page background, section surface, raised panel, primary text, muted text, border, primary CTA, system signal, risk/attention highlight, and placeholder fill",
+    "imageTreatment": "editable Figma frames labelled with product-specific placeholder text and surrounding captions or status details",
+    "effectLogic": "glow marks active AI operations signals; depth separates product proof; gradients create section transition and not decorative filler",
+    "componentRhythm": "nav, buttons, badges, metric rows, workflow steps, bento modules, integration pills, pricing cards, FAQ rows, contact form, footer links"
+  },
+  "referenceBoundary": {
+    "allowedToLearn": "AI SaaS section depth, proof timing, product-demo importance, future-facing mood, and technical trust rhythm",
+    "forbiddenToCopy": "exact layout, exact color palette, exact hero layouts, robot/portrait/sphere imagery, red/blue/light palette identities, section order, card grouping, image placement, CTA staging, component scaffold, glow values, and footer silhouettes",
+    "exactLayoutCopied": "no",
+    "exactPaletteCopied": "no",
+    "exactSectionOrderCopied": "no",
+    "heroGrammarCopied": "no",
+    "componentScaffoldCopied": "no"
+  },
+  "colorRoleRemapping": {
+    "referenceDominantColorIdentity": "blue-black AI glow, red cinematic AI platform, and pale futuristic robot editorial",
+    "referenceColorRoles": "technical base, high-energy accent, hero proof highlight, dark elevated surfaces, and muted section rhythm",
+    "remappedPaletteDirection": "ink black and graphite base with electric mint system signal, warm amber intervention accent, clay neutral surface, and off-white text",
+    "newAccentIdentity": "electric mint as automation-active signal with amber reserved for human approval and risk moments",
+    "preservedEmotionalRole": "future-facing confidence and technical energy are preserved without copying blue, red, or robot-led identity",
+    "avoidedExactHues": "reference blue glow, red glow, pale robot editorial palette, and exact cool-grey section fields avoided",
+    "contrastHierarchyBehavior": "dark base supports bright readable text, mint primary actions, amber proof/risk moments, and quiet neutral surface separation"
+  },
+  "visualMoodReinterpretation": {
+    "referenceMood": "premium futuristic AI, cinematic technical proof, and product confidence",
+    "reinterpretedMood": "AI operations command center: precise, editorial, high-trust, quietly energetic, and buyer-ready",
+    "changedComposition": "a command-console hero with diagonal operations ribbon replaces sphere, portrait, and robot hero staging",
+    "changedHierarchy": "workflow, governance, integration, and demo conversion guide hierarchy rather than generic future imagery",
+    "changedAssetTreatment": "role-specific placeholders replace final AI character or object imagery",
+    "changedDepthEffect": "subtle signal glow and hairline command surfaces replace cinematic red/blue glow and robot-photo drama"
+  },
+  "structuralReconfiguration": {
+    "referenceStructurePattern": "AI hero, trust/proof, feature/service depth, FAQ, visual CTA, and footer",
+    "newStructurePattern": "navigation, operational command hero, proof rail, problem map, workflow cockpit, automation playbook bento, integrations, governance/security, case-study metrics, pricing/demo, FAQ, final CTA/footer, plus inner page map and source boards",
+    "heroGrammarChange": "product-console command room with metrics and approval queue instead of reference sphere, portrait, or robot focal image",
+    "sectionOrderChange": "buyer friction and operational workflow appear before generic feature cards, with governance and case proof before pricing",
+    "gridSystemChange": "asymmetrical command-center bands and bento rows replace simple centered hero and repeated equal-card rhythm",
+    "ctaFlowChange": "primary demo CTA appears in hero, pricing/demo block, and final CTA with distinct context: audit workflow, compare plans, book demo",
+    "componentLayoutChange": "workflow cockpit rows, operation tickets, integration rail, governance checklist, pricing comparison, and source notes replace generic AI feature cards"
+  },
+  "patternDivergence": {
+    "divergenceFromReference": "new palette, motif, hero grammar, source placeholder system, operational buyer journey, and section silhouettes",
+    "divergenceFromPreviousTemplate": "single template cycle; fingerprint is distinct from known generic Hero > Features > CTA scaffold",
+    "heroDivergence": "diagonal operations ribbon plus console proof creates a new opening strategy",
+    "sectionRhythmDivergence": "alternates proof rail, problem map, command workflow, bento playbooks, governance proof, case metrics, and pricing/demo",
+    "visualLanguageDivergence": "mint/amber command signal grammar diverges from red cinematic, blue sphere, and pale robot editorial references",
+    "componentCadenceDivergence": "operational tickets, status rows, integration pills, governance cards, and demo form replace repeated feature-card cadence"
+  },
+  "sectionLogic": {
+    "sectionList": [
+      "header navigation",
+      "operational command hero",
+      "customer proof rail",
+      "AI operations problem map",
+      "workflow cockpit",
+      "automation playbook bento",
+      "integration signal strip",
+      "security and governance proof",
+      "case-study metrics",
+      "pricing and demo comparison",
+      "FAQ and objection handling",
+      "final CTA and footer",
+      "inner page map",
+      "responsive preview spread",
+      "design-system board"
+    ],
+    "roleOfEachSection": "first impression, credibility, friction naming, mechanism proof, feature depth, ecosystem fit, trust, quantified outcomes, conversion, objection handling, package closure, buyer extensibility, responsive value, and source usability",
+    "buyerJourneyFlow": "understand AI operations offer, trust the product, inspect workflow, verify integrations and governance, compare commitment, resolve objections, and reuse the source template",
+    "fillerSectionsRemoved": "no filler; each section answers a buyer or end-user decision question",
+    "productFamilyDepthStandard": "SaaS product website with 12 homepage blocks plus inner page map, responsive previews, and design-system/source notes"
+  },
+  "marketplaceReadiness": {
+    "sectionDepth": "12 meaningful homepage blocks plus inner page map and support boards",
+    "premiumSignal": "technical editorial hierarchy, source-ready structure, role-specific placeholders, and controlled signal-depth language",
+    "editability": "auto-layout sections, editable text, named layers, reusable cards, component examples, and placeholder frames are planned",
+    "sourceReadiness": "Figma auto-layout, section naming, local tokens, responsive guidance, and source hygiene notes are part of the build",
+    "previewValue": "cover/preview direction can show the desktop page, responsive spread, section breakdown, and design-system board",
+    "commercialUsefulness": "buyer can adapt copy, screenshots, integrations, pricing, proof, FAQ, contact/demo, and page map for AI SaaS or agency use",
+    "nonGenericProof": "not a generic hero/features/pricing/footer stack; uses operations-specific workflow, governance, integrations, case metrics, and demo conversion"
+  },
+  "status": "PASS"
+}

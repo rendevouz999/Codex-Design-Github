@@ -1,0 +1,83 @@
+{
+  "templateId": "lumanest-decor",
+  "templateName": "LumaNest Decor",
+  "productFamily": "home_decor_ecommerce",
+  "mode": "website ecommerce",
+  "designSystemScope": "per-template",
+  "colorTokens": {
+    "background": "ivory paper background",
+    "surface": "warm paper cards",
+    "surfaceElevated": "raised shelf and product cards",
+    "textPrimary": "espresso",
+    "textSecondary": "taupe",
+    "textMuted": "soft material captions",
+    "accent": "sage category signal",
+    "action": "honey CTA",
+    "border": "linen border"
+  },
+  "typographyTokens": {
+    "display": "warm ecommerce display",
+    "h1": "hero and cover title",
+    "h2": "section headline",
+    "h3": "product/category title",
+    "body": "commerce body copy",
+    "bodySmall": "card body and captions",
+    "label": "catalog labels",
+    "button": "shop/detail labels",
+    "nav": "store navigation"
+  },
+  "spacingTokens": {
+    "scale": "8 point rhythm",
+    "sectionY": "70-96px section padding",
+    "componentPadding": "14-34px component padding",
+    "cardGap": "14-22px card gap",
+    "gridGap": "18-44px grid gap",
+    "container": "1208px desktop container"
+  },
+  "components": [
+    "button primary ghost default hover focus active disabled",
+    "product card category card room card cart action trust row",
+    "navigation header",
+    "footer commerce",
+    "cta final shop",
+    "filter chip",
+    "FAQ row",
+    "image placeholder",
+    "profile photo placeholder"
+  ],
+  "states": ["default", "hover", "focus", "active", "disabled"],
+  "componentAnatomy": {
+    "product card": "image placeholder, product title, price, shop action, details action",
+    "category card": "room image slot, title, product count",
+    "filter chip": "active/default state",
+    "placeholder": "room, product, material, journal, and customer room labels"
+  },
+  "patternModules": [
+    "atelier shelf hero",
+    "material proof strip",
+    "styling service panel",
+    "room mood finder",
+    "product catalog grid",
+    "customer room testimonial gallery",
+    "checkout FAQ"
+  ],
+  "usageRules": "Use honey for purchase action, sage for browsing/material cues, and paper surfaces for tactile retail calm. Product and room slots stay editable placeholders.",
+  "surfaceEffectTokens": "Warm paper elevation, shelf shadows, product-stage depth, soft linen borders.",
+  "placeholderRules": "Use image placeholder: curated living room scene, ecommerce product image, customer room photo, decor article visual.",
+  "sourceHygiene": {
+    "autoLayout": true,
+    "editableText": true,
+    "editablePlaceholders": true,
+    "clearLayerNames": true,
+    "reusableComponents": true,
+    "responsiveConstraints": true,
+    "flattenedImportantContent": false
+  },
+  "artifactEvidence": {
+    "designSystemPageId": "11:476",
+    "screenshotPath": ".design-brain/screenshots/figma-builds/lumanest-design-system.png",
+    "componentInventory": ["buttons", "product cards", "category cards", "filters", "cart actions", "trust rows", "placeholder"],
+    "tokenSourcePath": "Figma local styles LumaNest/*"
+  },
+  "status": "PASS"
+}

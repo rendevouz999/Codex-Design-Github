@@ -1,0 +1,106 @@
+{
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 003",
+    "reviewNotes": "Checkpoint 003 is visually inspected learning evidence; keep incoming until hyper-accuracy review and matching rationale pass.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, color identity, imagery, icon systems, decorative geometry, or section order."
+  },
+  "patternId": "checkpoint-003-commerce-grid-restaurant-menu-dark-product-cards",
+  "sectionType": "commerce-grid",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\a-gourment-pizza-revolution-landing-page-2024-03-21-18-50-34-utc - Pizzeria - A Gourment Pizza Revolution Landing Page - 9f0d8f30.png"
+  ],
+  "productFamilies": [
+    "restaurant",
+    "food",
+    "hospitality",
+    "ecommerce",
+    "website"
+  ],
+  "commercialPurpose": "Show restaurant menu/products as sellable cards without turning the page into a generic ecommerce grid.",
+  "purposeLayer": "Menu grid lets users compare food items, price, and favorite/save action after brand appetite has been established.",
+  "anatomyLayer": "Centered section intro, 4 product cards, food image, item title, category/ingredient line, price, and heart/favorite icon.",
+  "hierarchyLayer": "Section title first, product images second, item names and prices third, favorite controls last.",
+  "gridRhythmLayer": "Four-column dark card row with image-heavy cards and compact pricing footer.",
+  "densityLimitLayer": "Use 4-8 products per visible menu group, 1 price, 1 save/action cue, and one section intro.",
+  "originalityLayer": "Learn food-card commerce rhythm; transform card styling, product photo role, price display, and category grouping.",
+  "usageRuleLayer": "Use for restaurant menus, cafes, food delivery, product food, fashion/product lookbooks, and light storefront sections.",
+  "layoutGesture": "dark menu product card row with price and favorite cues",
+  "sectionSilhouette": "centered menu heading over evenly spaced product cards",
+  "compositionTension": "appetite photos drive attention while price/action controls stay compact",
+  "focalPath": "heading to product image row to price and favorite cue",
+  "negativeSpaceShape": "dark gutters around warm image cards",
+  "depthLayering": "image cards on dark product surface with small icon overlay",
+  "moduleScaleVariation": "equal cards with dominant images and tiny controls",
+  "breakoutBehavior": "contained product row",
+  "contentLimits": {
+    "products": "4-8",
+    "featuredProducts": "0-1",
+    "pricePerItem": 1,
+    "favoriteAction": "0-1"
+  },
+  "antiCopyBoundary": "Do not copy exact pizza photos, prices, orange accents, heart icon placement, or card proportions.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "hero",
+      "services"
+    ],
+    "after": [
+      "blog-resources",
+      "testimonials",
+      "cta"
+    ],
+    "notAScaffold": true
+  },
+  "structuralSignature": {
+    "signatureId": "commerce-grid:e0b9c80b609f6b0e",
+    "hash": "e0b9c80b609f6b0eb7ae2c4bd790ec07449d1d84",
+    "axes": {
+      "layoutGesture": "dark menu product card row with price and favorite cues",
+      "sectionSilhouette": "centered menu heading over evenly spaced product cards",
+      "anatomyLayer": "centered section intro, 4 product cards, food image, item title, category/ingredient line, price, and heart/favorite icon.",
+      "hierarchyLayer": "section title first, product images second, item names and prices third, favorite controls last.",
+      "gridRhythmLayer": "four-column dark card row with image-heavy cards and compact pricing footer.",
+      "focalPath": "heading to product image row to price and favorite cue",
+      "compositionTension": "appetite photos drive attention while price/action controls stay compact",
+      "negativeSpaceShape": "dark gutters around warm image cards",
+      "moduleScaleVariation": "equal cards with dominant images and tiny controls",
+      "breakoutBehavior": "contained product row",
+      "contentLimits": "{\"favoriteaction\":\"0-1\",\"featuredproducts\":\"0-1\",\"priceperitem\":1,\"products\":\"4-8\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.0,
+  "matchGroupId": "commerce-grid:e0b9c80b609f6b0e",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:55:20Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 0,
+    "bestMatch": null,
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

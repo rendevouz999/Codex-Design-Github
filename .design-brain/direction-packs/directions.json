@@ -1,0 +1,161 @@
+{
+  "version": "1.1.0",
+  "directions": [
+    {
+      "id": "premium-clean",
+      "label": "Premium Clean",
+      "palette": {"bg": "#F8FAFC", "surface": "#FFFFFF", "text": "#111827", "muted": "#64748B", "border": "#E2E8F0", "accent": "#2563EB"},
+      "fontPairing": "modern sans display plus highly readable system body",
+      "spacingPosture": "generous but not empty",
+      "surfaceRules": "flat or lightly elevated surfaces, subtle borders, no excessive shadow",
+      "motifBudget": "one accent line, crop, or product-detail flourish",
+      "imageryRules": "real product, credible screenshots, or sharp editorial crops",
+      "compatibleMediums": ["landing_page", "website", "figma_template", "marketplace_preview"],
+      "doNotUseWhen": ["highly expressive art direction is the core value"]
+    },
+    {
+      "id": "editorial-refined",
+      "label": "Editorial Refined",
+      "palette": {"bg": "#F6F3EE", "surface": "#FFFFFF", "text": "#181411", "muted": "#6E6258", "border": "#DED7CF", "accent": "#9A3412"},
+      "fontPairing": "serif or high-contrast display with quiet sans body",
+      "spacingPosture": "large pauses, asymmetry, authored rhythm",
+      "surfaceRules": "paper-like surfaces, rule lines, low elevation",
+      "motifBudget": "caption, number, divider, or image crop",
+      "imageryRules": "curated editorial photos or work-first galleries",
+      "compatibleMediums": ["portfolio", "document", "presentation", "static_canvas"],
+      "doNotUseWhen": ["dense operational dashboard", "pure component library"]
+    },
+    {
+      "id": "operational-precision",
+      "label": "Operational Precision",
+      "palette": {"bg": "#F8FAFC", "surface": "#FFFFFF", "text": "#0F172A", "muted": "#64748B", "border": "#CBD5E1", "accent": "#059669"},
+      "fontPairing": "single clean sans with mono for data",
+      "spacingPosture": "compact, scan-friendly, dense but organized",
+      "surfaceRules": "hairline borders, clear table/chart panels, restrained states",
+      "motifBudget": "status chips, trend lines, filter rails",
+      "imageryRules": "use data surfaces, not hero photos",
+      "compatibleMediums": ["dashboard", "admin", "analytics", "ui_kit"],
+      "doNotUseWhen": ["marketing-first landing pages", "luxury editorial work"]
+    },
+    {
+      "id": "presentation-storytelling",
+      "label": "Presentation Storytelling",
+      "palette": {"bg": "#101828", "surface": "#FFFFFF", "text": "#F8FAFC", "muted": "#CBD5E1", "border": "#344054", "accent": "#F59E0B"},
+      "fontPairing": "large confident display plus clear slide body",
+      "spacingPosture": "safe margins, strong whitespace, one idea per frame",
+      "surfaceRules": "slide backgrounds, image masks, callouts, chart/table panels",
+      "motifBudget": "section marker, page number, highlight shape",
+      "imageryRules": "hero images, screenshots, profile photos, or chart visuals by slide role",
+      "compatibleMediums": ["presentation", "powerpoint", "deck", "slides"],
+      "doNotUseWhen": ["long-scroll website output"]
+    },
+    {
+      "id": "marketplace-perspective",
+      "label": "Marketplace Perspective",
+      "palette": {"bg": "#EEF2FF", "surface": "#FFFFFF", "text": "#111827", "muted": "#64748B", "border": "#D8DDF8", "accent": "#4F46E5"},
+      "fontPairing": "compact commercial sans with clear product naming",
+      "spacingPosture": "room for previews to remain inspectable",
+      "surfaceRules": "flat previews first, perspective as support only",
+      "motifBudget": "device frame, callout label, badge, detail crop",
+      "imageryRules": "show real screens, responsive spreads, and detail crops",
+      "compatibleMediums": ["marketplace_preview", "cover", "template_showcase"],
+      "doNotUseWhen": ["the preview cannot remain readable"]
+    },
+    {
+      "id": "visual-philosophy",
+      "label": "Visual Philosophy",
+      "palette": {"bg": "#F8F5EF", "surface": "#FFFFFF", "text": "#161616", "muted": "#6B7280", "border": "#D6D3CC", "accent": "#C2410C"},
+      "fontPairing": "art-directed display with reduced supporting text",
+      "spacingPosture": "composition-led, spacious, intentional tension",
+      "surfaceRules": "canvas-first, quiet UI chrome",
+      "motifBudget": "one visual system: grid, pattern, mark, or typographic gesture",
+      "imageryRules": "visual expression carries meaning; text is sparse",
+      "compatibleMediums": ["poster", "static_canvas", "social_carousel", "visual_art"],
+      "doNotUseWhen": ["operational tools or dense forms"]
+    },
+    {
+      "id": "commerce-editorial",
+      "label": "Commerce Editorial",
+      "palette": {"bg": "#F7F7F2", "surface": "#FFFFFF", "text": "#151515", "muted": "#5F665C", "border": "#D9DDD3", "accent": "#0F766E"},
+      "fontPairing": "confident product display plus practical buying-copy body",
+      "spacingPosture": "product-first, scannable, with room for proof and comparison",
+      "surfaceRules": "clean product tiles, visible pricing/availability states, restrained badges",
+      "motifBudget": "one product label system, image crop, or comparison rail",
+      "imageryRules": "show real product surfaces, category shots, and inspectable detail crops",
+      "compatibleMediums": ["ecommerce", "product_page", "shop", "catalog"],
+      "doNotUseWhen": ["abstract SaaS storytelling without product inventory"]
+    },
+    {
+      "id": "systematic-foundation",
+      "label": "Systematic Foundation",
+      "palette": {"bg": "#F8FAFC", "surface": "#FFFFFF", "text": "#0B1220", "muted": "#64748B", "border": "#D7DEE8", "accent": "#2563EB"},
+      "fontPairing": "neutral sans with strict type roles and documentation-friendly body copy",
+      "spacingPosture": "repeatable, modular, and annotation-friendly",
+      "surfaceRules": "token boards, component rows, state tables, and usage examples",
+      "motifBudget": "none beyond semantic state and documentation markers",
+      "imageryRules": "use component examples and realistic product snippets, not decorative imagery",
+      "compatibleMediums": ["ui_kit", "design_system", "component_library"],
+      "doNotUseWhen": ["single expressive poster or brand campaign"]
+    },
+    {
+      "id": "brand-system",
+      "label": "Brand System",
+      "palette": {"bg": "#FAFAF8", "surface": "#FFFFFF", "text": "#151515", "muted": "#69655F", "border": "#DDD8CE", "accent": "#B45309"},
+      "fontPairing": "identity display face plus durable brand-body companion",
+      "spacingPosture": "rule-led, presentation-ready, with application examples",
+      "surfaceRules": "brand boards, usage callouts, clear-space diagrams, and touchpoint mockups",
+      "motifBudget": "one recurring brand device or pattern family",
+      "imageryRules": "use art-direction examples that demonstrate brand behavior across touchpoints",
+      "compatibleMediums": ["brand", "identity", "brand_kit", "brand_guideline"],
+      "doNotUseWhen": ["data-heavy operational dashboard"]
+    },
+    {
+      "id": "human-product",
+      "label": "Human Product",
+      "palette": {"bg": "#F6F8FB", "surface": "#FFFFFF", "text": "#111827", "muted": "#667085", "border": "#D0D5DD", "accent": "#0E7490"},
+      "fontPairing": "friendly product sans with compact mobile body text",
+      "spacingPosture": "thumb-friendly, state-aware, compact without crowding",
+      "surfaceRules": "mobile surfaces, controls, state panels, and gesture-friendly hierarchy",
+      "motifBudget": "one product-state motif or soft onboarding visual language",
+      "imageryRules": "show actual app states and meaningful onboarding imagery",
+      "compatibleMediums": ["mobile_app", "native_app", "app_ui"],
+      "doNotUseWhen": ["print-first report templates"]
+    },
+    {
+      "id": "email-clarity",
+      "label": "Email Clarity",
+      "palette": {"bg": "#F4F7FA", "surface": "#FFFFFF", "text": "#111827", "muted": "#667085", "border": "#E4E7EC", "accent": "#DC2626"},
+      "fontPairing": "email-safe sans with compact heading scale",
+      "spacingPosture": "narrow-column, modular, and inbox-readable",
+      "surfaceRules": "single-column modules, safe image areas, clear CTA bands, and fallback-friendly sections",
+      "motifBudget": "one header treatment, divider system, or offer badge",
+      "imageryRules": "use simple crops that still work when images are blocked",
+      "compatibleMediums": ["email", "newsletter", "campaign_email"],
+      "doNotUseWhen": ["complex interactive web app"]
+    },
+    {
+      "id": "document-editorial",
+      "label": "Document Editorial",
+      "palette": {"bg": "#FBFAF7", "surface": "#FFFFFF", "text": "#1F2937", "muted": "#6B7280", "border": "#D9D6CE", "accent": "#1D4ED8"},
+      "fontPairing": "report-ready serif or humanist display with highly legible sans body",
+      "spacingPosture": "page-aware, margin-safe, with strong section hierarchy",
+      "surfaceRules": "page grids, callout boxes, table styles, chart panels, and repeated footers",
+      "motifBudget": "folio marks, section tabs, or one analytical callout style",
+      "imageryRules": "use charts, diagrams, and evidence imagery that remain printable",
+      "compatibleMediums": ["document", "report", "pdf", "docx", "whitepaper"],
+      "doNotUseWhen": ["short social graphic or app screen"]
+    },
+    {
+      "id": "motion-stage",
+      "label": "Motion Stage",
+      "palette": {"bg": "#0D0B1F", "surface": "#17142E", "text": "#F4F3FF", "muted": "#A5A0C4", "border": "#2E2A4F", "accent": "#22D3EE"},
+      "fontPairing": "projection-weight display sans with a quiet body face sized for the fixed stage",
+      "spacingPosture": "fixed 1920x1080 stage padding, one idea per frame, no reflow for small viewports",
+      "surfaceRules": "one uniformly scaled stage, letterboxed edges, raised slide panels, chrome kept outside the stage",
+      "motifBudget": "one entrance motion signature plus a progress or page marker",
+      "imageryRules": "stage-filling imagery, product screenshots, or chart panels placed on the stage grid",
+      "compatibleMediums": ["web_deck", "html_deck", "browser_presentation", "animated_slides", "web_slides"],
+      "doNotUseWhen": ["static PPTX or Keynote export is the final artifact", "long-scroll website output"]
+    }
+  ]
+}

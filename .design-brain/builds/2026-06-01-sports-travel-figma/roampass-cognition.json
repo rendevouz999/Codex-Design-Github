@@ -1,0 +1,127 @@
+{
+  "task": "RoamPass travel ticket Figma website template from TASE reference image",
+  "productFamily": "travel ticket booking website",
+  "mode": "website",
+  "referenceSource": "tase-ticket-travel-website-template preview image",
+  "batchItem": "02 of 02",
+  "routeSource": "brain_design_router",
+  "brandReferenceUsage": {
+    "candidateBrandName": "RoamPass",
+    "referenceUsageMode": "single",
+    "referenceGroupKey": "tase-ticket-travel-website-template-png",
+    "referenceIds": ["tase-ticket-travel-website-template-png"],
+    "gateStatus": "PASS",
+    "whyAllowedByMemory": "candidate output brand is not the reference brand and does not reuse TASE naming"
+  },
+  "styleDNA": {
+    "typographyBehavior": "large friendly sans display with short route labels and compact booking metadata",
+    "layoutRhythm": "airy travel narrative with route planner, ticket cards, process proof, destination pause, fare decision, support, and FAQ",
+    "spacingDensity": "bright spacious hero with denser fare and support modules where purchase confidence is needed",
+    "colorBehavior": "light travel base, confident green action, soft sky route cues, and warm destination accents",
+    "imageDirection": "destination, route map, station, boarding pass, support app, and traveler profile placeholders",
+    "shapeLanguage": "rounded ticket panels, pill chips, soft cards, route rows, and large panorama placeholders",
+    "effectLanguage": "soft booking shadows, subtle border depth, selected fare emphasis, and restrained media proof depth",
+    "premiumSignal": "route-specific modules and source-system depth make the template feel buyer-ready rather than generic travel"
+  },
+  "referenceStandard": {
+    "observedSectionCountRange": "reference suggests a complete long-form travel ticket page with hero, metrics, booking, destination, pricing, proof, CTA, and footer; new output expands to 12 meaningful sections",
+    "sectionRoleEvidence": "visible travel headline, CTAs, metrics, booking/search card, destination media, pricing packages, partner trust, final journey CTA, and footer roles",
+    "layoutShapeInventory": "large headline block, rounded image cards, floating booking card, search capsule, destination panorama, pricing cards, trust strip, and footer columns",
+    "colorRoleInventory": "white/light base, green action, soft mint surface, black display text, muted body copy, rounded image surfaces, and CTA emphasis",
+    "effectGradientInventory": "soft card shadows, rounded media crops, subtle green status accents, gentle surface depth, and mostly flat premium restraint",
+    "marketplaceCompletenessClues": "travel buyer needs route search, ticket confirmation, package/fare decision, support, destination proof, placeholder guidance, and design-system source board",
+    "remixPlan": "learn airy travel confidence and rounded booking logic while rebuilding as a route-board/ticket-pass system with different section sequence, fare grammar, and visual accents",
+    "minimalistFallbackRejected": true
+  },
+  "designIntentLock": {
+    "productType": "editable travel ticket booking website template",
+    "outputMedium": "Figma website source template",
+    "targetBuyer": "template marketplace buyers, ticket platforms, shuttle operators, and travel booking startups",
+    "useCase": "marketplace-ready travel booking homepage with route, fare, support, proof, and package modules",
+    "marketplaceValue": "complete editable source with travel-specific sections, placeholder-safe media zones, and a separate design-system board",
+    "primaryGoal": "sell a reusable ticket-travel website template that makes booking confidence clear"
+  },
+  "visualGrammar": {
+    "gridBehavior": "1248px desktop container with two-column hero, three-card route/fare grids, process stack, panorama band, and split support/FAQ modules",
+    "spacingCadence": "airy intro, compact route cards, calm process flow, large destination pause, dense fare decision band, proof/support rhythm, and CTA closure",
+    "typeHierarchy": "large approachable display, bold section headlines, route card titles, fare prices, compact metadata labels, and readable body copy",
+    "surfaceDepth": "soft white ticket cards, raised planner module, dark green fare band, mint support surfaces, and shallow shadows",
+    "colorRoles": "background, surface, soft surface, primary text, secondary text, action green, sky route accent, warm destination accent, and border",
+    "imageTreatment": "all media zones remain editable placeholders with clear route, destination, map, station, app, and profile replacement clues",
+    "effectLogic": "soft shadows and selected-card contrast create confidence and purchase hierarchy without copying reference imagery",
+    "componentRhythm": "planner rows, route cards, booking steps, fare cards, support cards, traveler proof cards, package cards, FAQ rows, and final CTA"
+  },
+  "referenceBoundary": {
+    "allowedToLearn": "travel booking clarity, spacious trust pacing, rounded source panels, green action semantics, destination desire, and pricing/package proof",
+    "forbiddenToCopy": "exact layout, exact color palette, exact section order, same hero grammar, same image collage, same pricing section shape, same logo strip, and component scaffold",
+    "exactLayoutCopied": "no",
+    "exactPaletteCopied": "no",
+    "exactSectionOrderCopied": "no",
+    "heroGrammarCopied": "no",
+    "componentScaffoldCopied": "no"
+  },
+  "colorRoleRemapping": {
+    "referenceDominantColorIdentity": "white travel page with strong green CTA and soft mint cards",
+    "referenceColorRoles": "white background, black display text, green CTA, pale mint proof cards, and destination imagery",
+    "remappedPaletteDirection": "warm off-white base, forest action green, pale sage bands, sky route accent, warm ochre destination accent, and deep green fare decision band",
+    "newAccentIdentity": "forest route-confirmation green plus sky route cue and warm destination proof",
+    "preservedEmotionalRole": "calm travel trust and booking confidence are preserved while hue roles and section emphasis are expanded",
+    "avoidedExactHues": "reference green and exact white/mint mapping are not reused as a one-to-one palette",
+    "contrastHierarchyBehavior": "dark text on light surfaces, white text on fare band, green CTA, and sky/warm accents separate route, support, and destination content"
+  },
+  "visualMoodReinterpretation": {
+    "referenceMood": "bright, calm, travel-friendly, rounded, simple to book, and destination-oriented",
+    "reinterpretedMood": "route-led travel operations with editorial calm, clear fare comparison, and support confidence",
+    "changedComposition": "route planner plus ticket board replaces the reference's exact headline and collage sequence",
+    "changedHierarchy": "route cards, booking timeline, fare comparison, support, and traveler proof drive the flow",
+    "changedAssetTreatment": "image placeholders replace reference photos and specify destination, map, station, app, and profile roles",
+    "changedDepthEffect": "soft ticket-card shadows and dark fare decision band replace the reference's lighter image-card-only rhythm"
+  },
+  "structuralReconfiguration": {
+    "referenceStructurePattern": "airy hero, metrics, logos, booking section, destination image, pricing, final CTA, footer",
+    "newStructurePattern": "route planner hero, trust strip, popular route tickets, booking timeline, panorama proof, fare comparison, insurance/support, traveler proof, package pricing, FAQ checklist, ticket-pass CTA, footer",
+    "heroGrammarChange": "route planner board and ticket search module replace the reference's pure destination headline plus photo collage",
+    "sectionOrderChange": "route cards and booking timeline appear before destination/panorama proof, with support and proof before package pricing",
+    "gridSystemChange": "three-card ticket/fare grids and split support modules replace the reference's large alternating image blocks",
+    "ctaFlowChange": "booking CTA appears in planner, route cards, fare cards, packages, FAQ context, and final ticket-pass tray",
+    "componentLayoutChange": "route tickets, fare cards, booking rows, support cards, and FAQ checklist replace generic travel image/card sequencing"
+  },
+  "patternDivergence": {
+    "divergenceFromReference": "new route-board structure, new fare comparison band, new support module, and new placeholder grammar avoid a reference clone",
+    "divergenceFromPreviousTemplate": "avoids KineticCast dark broadcast console, red signal rail, event-table cadence, sports pricing passes, and red CTA footer closure",
+    "heroDivergence": "bright route planner and ticket module instead of sports stream console or TASE-style image collage",
+    "sectionRhythmDivergence": "route -> process -> destination -> fare -> support -> proof -> packages differs from sports live-room schedule rhythm",
+    "visualLanguageDivergence": "off-white, forest green, sky, and ochre travel palette diverges from KineticCast dark red broadcast system",
+    "componentCadenceDivergence": "route tickets, booking steps, fare cards, and support app placeholders replace stream cards and schedule rows"
+  },
+  "sectionLogic": {
+    "sectionList": [
+      "hero route planner board",
+      "trust and partner strip",
+      "popular route tickets",
+      "booking timeline",
+      "destination story panorama",
+      "smart fare comparison",
+      "insurance and support cards",
+      "traveler proof wall",
+      "travel package pricing",
+      "FAQ travel checklist",
+      "final ticket pass CTA",
+      "footer"
+    ],
+    "roleOfEachSection": "first impression, trust, route discovery, process confidence, desire, fare decision, support reassurance, social proof, package purchase, objection handling, conversion, and navigation closure",
+    "buyerJourneyFlow": "understand offer, trust ticketing, compare routes, understand booking, desire destination, choose fare, see support, trust travelers, buy package, resolve objections, and act",
+    "fillerSectionsRemoved": "no filler; each section maps to ticket booking friction or marketplace source value",
+    "productFamilyDepthStandard": "12-section travel ticket website template with route, fare, support, proof, package, FAQ, CTA, footer, and design-system source coverage"
+  },
+  "marketplaceReadiness": {
+    "sectionDepth": "12 meaningful travel-ticket homepage sections plus a separate design-system board",
+    "premiumSignal": "route-led planner, destination panorama, fare comparison band, support card system, traveler proof, and package decision modules",
+    "editability": "text, route cards, fare cards, planner rows, placeholders, CTA labels, FAQ rows, and source notes remain editable",
+    "sourceReadiness": "auto-layout, named layers, source components/specimens, placeholder rules, responsive plan, and API enum receipt are included",
+    "previewValue": "homepage screenshot and design-system board prove page depth, component coverage, source hygiene, and template specificity",
+    "commercialUsefulness": "buyers can adapt for ticket platforms, shuttle routes, travel packages, route passes, support flows, and destination campaigns",
+    "nonGenericProof": "not Hero > Features > CTA; it includes route tickets, booking timeline, fare comparison, support, traveler proof, package cards, FAQ checklist, and ticket-pass CTA"
+  },
+  "status": "PASS"
+}

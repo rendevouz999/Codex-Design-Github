@@ -1,0 +1,74 @@
+{
+  "templateId": "vantaledger-ai-finance-saas",
+  "productFamily": "AI finance SaaS website template",
+  "designSystemScope": "Separate Figma source board with semantic tokens, typography, component inventory, component states, pattern modules, and source hygiene notes.",
+  "colorTokens": {
+    "background": "#07100F",
+    "surface": "#0E1B19",
+    "surfaceElevated": "#142722",
+    "textPrimary": "#F2F8EE",
+    "textSecondary": "#C8D6CF",
+    "textMuted": "#93A69B",
+    "accent": "#50D6D2",
+    "action": "#A7FF4F",
+    "border": "#28443D"
+  },
+  "typographyTokens": {
+    "display": "Space Grotesk 76/104",
+    "h1": "Space Grotesk 60/112",
+    "h2": "Space Grotesk 44/116",
+    "h3": "Space Grotesk 28/132",
+    "body": "Inter 18/150",
+    "bodySmall": "Inter 14/145",
+    "label": "Inter 12/132 uppercase",
+    "button": "Inter 14/132 semibold",
+    "nav": "Inter 13/132"
+  },
+  "spacingTokens": {
+    "scale": "8, 12, 16, 24, 32, 48, 72, 96",
+    "sectionY": "96",
+    "componentPadding": "24",
+    "cardGap": "20",
+    "gridGap": "24",
+    "container": "1280"
+  },
+  "components": [
+    "navigation header",
+    "primary button",
+    "secondary button",
+    "CTA panel",
+    "metric card",
+    "console card",
+    "pricing card",
+    "testimonial card",
+    "FAQ row",
+    "footer link card",
+    "image placeholder",
+    "dashboard placeholder"
+  ],
+  "states": [
+    "default",
+    "hover",
+    "focus",
+    "active",
+    "disabled",
+    "error",
+    "loading"
+  ],
+  "sourceHygiene": {
+    "autoLayout": true,
+    "editableText": true,
+    "editablePlaceholders": true,
+    "clearLayerNames": true,
+    "reusableComponents": true,
+    "responsiveConstraints": true,
+    "flattenedImportantContent": false
+  },
+  "artifactEvidence": {
+    "designSystemPageId": "9:2",
+    "screenshotPath": ".design-brain/screenshots/20260531-vantaledger-design-system-final.png",
+    "componentInventory": "Primary button, secondary button, metric card, console card, pricing card, testimonial card, FAQ row, form input, dashboard placeholder, pattern modules.",
+    "tokenSourcePath": "Figma local variables VantaLedger/Colors plus TemplatePack/Spacing and TemplatePack/Radius"
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,41 @@
+{
+  "templateId": "qryon-labs-quantum-saas-website",
+  "brandName": "QRYON Labs",
+  "productFamily": "SaaS product marketing website",
+  "referenceFamily": "quantum computing website reference",
+  "structureFingerprint": {
+    "heroGrammar": "editorial quantum lab hero with central media placeholder, right-side proof chips, and two CTAs",
+    "sectionOrder": [
+      "hero",
+      "signal proof",
+      "service architecture",
+      "dark product preview",
+      "use-case pathways",
+      "deployment workflow",
+      "security proof",
+      "testimonial research proof",
+      "pricing demo options",
+      "resources",
+      "FAQ",
+      "footer CTA"
+    ],
+    "dominantModuleTypes": [
+      "editorial hero",
+      "proof strip",
+      "architecture cards",
+      "dark preview band",
+      "workflow process",
+      "pricing cards",
+      "FAQ accordion",
+      "source-map design system"
+    ],
+    "visualMotif": "research grid, orbit cues, quantum signal chips, oxide/cyan contrast"
+  },
+  "visualLanguageFingerprint": {
+    "colorRoles": "warm ivory base, graphite text, oxide CTA, cyan signal, gold research highlight, deep burgundy product bands",
+    "effectLanguage": "thin orbit/grid accents, raised warm cards, restrained signal glows, deep product-preview contrast",
+    "placeholderTreatment": "role-specific editable text placeholders",
+    "designSystemId": "Figma:l9mO0YeU3ilWPCzR2RJPuu:3:513"
+  },
+  "doNotCopyBoundary": "Do not copy Tria's exact brand, copy, section proportions, image treatment, asset motifs, color mapping, or hero composition. Use it only to learn premium quantum/SaaS density, proof rhythm, and editorial futuristic product storytelling."
+}

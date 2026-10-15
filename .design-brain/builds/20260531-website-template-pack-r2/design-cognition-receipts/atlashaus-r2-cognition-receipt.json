@@ -1,0 +1,106 @@
+{
+  "task": "AtlasHaus R2 architecture Figma website template after v1 scaffold rejection",
+  "productFamily": "architecture_interior_studio_website",
+  "mode": "website",
+  "referenceSource": "Template Website: Arsate Architecture Interior plus Mosti Architecture Modern",
+  "batchItem": "template_2_of_2_r2",
+  "routeSource": "brain_design_router",
+  "styleDNA": {
+    "typographyBehavior": "editorial serif masthead with precise metadata, ledger, annotation, and brief-field text",
+    "layoutRhythm": "blueprint masthead, material plan grid, case-study runway, services courtyard, portfolio ledger, process spine, inquiry drawer",
+    "spacingDensity": "architectural pauses, plan-grid discipline, ledger compression, and drawing-room negative space",
+    "colorBehavior": "stone and paper base, ink type, blueprint blue, soft blueprint fills, clay accent, charcoal index/footer",
+    "imageDirection": "editable architecture panorama, floor plan, material, interior perspective, and courtyard placeholders",
+    "shapeLanguage": "hairline blueprint cells, project index rail, plan grid, oval courtyard void, ledger rows, process spine",
+    "effectLanguage": "deliberate restraint through flat drawing surfaces, hairline borders, and contrast blocks",
+    "premiumSignal": "architecture-specific project archive, service plan, case study notes, and client brief conversion"
+  },
+  "referenceStandard": {
+    "observedSectionCountRange": "architecture/studio references imply 8-12 portfolio/service/process/project-proof sections, not a sparse minimalist page",
+    "sectionRoleEvidence": "project masthead, service/material plan, case-study proof, portfolio archive, process, inquiry brief, and studio footer roles",
+    "layoutShapeInventory": "vertical masthead, blueprint map, material grid, panorama runway, courtyard void, ledger table, process spine, folded brief sheet",
+    "colorRoleInventory": "stone base, paper drawing surface, ink type, blueprint blue, clay annotations, charcoal index/stamp, muted architectural lines",
+    "effectGradientInventory": "intentional restraint with hairline borders, paper depth, soft blueprint fills, contrast stamp, and light sheet shadow",
+    "marketplaceCompletenessClues": "editable architecture placeholders, project archive logic, process proof, inquiry sheet, and separate design-system source",
+    "remixPlan": "borrow architecture editorial confidence and blueprint proof rhythm while changing masthead grammar, closure silhouette, color-role balance, and section shapes",
+    "minimalistFallbackRejected": true
+  },
+  "designIntentLock": {
+    "productType": "editable architecture/interior studio website source template",
+    "outputMedium": "Figma website source template",
+    "targetBuyer": "architecture studios, interior designers, boutique project agencies, and marketplace template buyers",
+    "useCase": "presenting services, project case studies, process, portfolio archive, and inquiry brief",
+    "marketplaceValue": "source template feels like a studio dossier rather than a generic agency site",
+    "primaryGoal": "create a distinctive architecture portfolio with project evidence and client-brief flow"
+  },
+  "visualGrammar": {
+    "gridBehavior": "vertical masthead column, central blueprint map, right project index, service plan grid, panorama runway, courtyard void, ledger rows",
+    "spacingCadence": "wide architectural pauses, strict plan cells, compressed ledger rows, process spine, and dark inquiry closure",
+    "typeHierarchy": "large editorial masthead, section serif titles, small project metadata labels",
+    "surfaceDepth": "mostly flat drawing surfaces with hairlines, soft blueprint fills, charcoal index rail, and central courtyard outline",
+    "colorRoles": "stone background, paper surface, ink text, blueprint action, soft blueprint fill, clay accent, charcoal closure",
+    "imageTreatment": "role-specific architecture placeholders for interiors, material, floor plan, panorama, and courtyard",
+    "effectLogic": "restraint is intentional; hierarchy comes from plan structure, hairlines, void, and contrast",
+    "componentRhythm": "project index, plan cells, annotations, courtyard, ledger rows, process spine, brief fields"
+  },
+  "referenceBoundary": {
+    "allowedToLearn": "Arsate's architecture editorial confidence and Mosti's modern architecture blue/white proof rhythm",
+    "forbiddenToCopy": "exact layout, exact color palette, exact beige photo collage, exact blue hero composition, section order, hero grammar, component scaffold, image placement, and CTA staging",
+    "exactLayoutCopied": "no",
+    "exactPaletteCopied": "no",
+    "exactSectionOrderCopied": "no",
+    "heroGrammarCopied": "no",
+    "componentScaffoldCopied": "no"
+  },
+  "colorRoleRemapping": {
+    "referenceDominantColorIdentity": "beige editorial interiors and blue architecture modernism",
+    "referenceColorRoles": "warm background, dark text, photo blocks, blue modern sections, and dark footer",
+    "remappedPaletteDirection": "stone, paper, ink, blueprint blue, clay accent, charcoal index/footer",
+    "newAccentIdentity": "blueprint blue with clay annotation accent",
+    "preservedEmotionalRole": "studio authority and architectural calm",
+    "avoidedExactHues": "exact Arsate cream/photo rhythm and Mosti blue gradient hero avoided",
+    "contrastHierarchyBehavior": "blue identifies project metadata/action; charcoal closes index and inquiry moments"
+  },
+  "visualMoodReinterpretation": {
+    "referenceMood": "premium architecture and modern studio confidence",
+    "reinterpretedMood": "editorial blueprint dossier with project archive logic",
+    "changedComposition": "masthead plus project map plus index rail replaces both reference hero compositions",
+    "changedHierarchy": "project evidence, service plan, and portfolio ledger drive hierarchy",
+    "changedAssetTreatment": "blueprint and project placeholders replace final architecture photography",
+    "changedDepthEffect": "flat plan-grid restraint replaces decorative photo-card depth"
+  },
+  "structuralReconfiguration": {
+    "referenceStructurePattern": "architecture hero, about/services, portfolio, process, stats, footer",
+    "newStructurePattern": "blueprint masthead, material plan grid, case-study runway, services courtyard, portfolio ledger, process spine, inquiry brief drawer",
+    "heroGrammarChange": "vertical masthead/project map/index rail instead of text-left/image-right or centered modern hero",
+    "sectionOrderChange": "service plan and project evidence appear before portfolio ledger and inquiry",
+    "gridSystemChange": "plan cells, ledger rows, and process spine replace product wall, side rail, and checkout modules",
+    "ctaFlowChange": "project brief actions replace ecommerce search/cart actions",
+    "componentLayoutChange": "architecture metadata and drawing surfaces replace commerce UI modules"
+  },
+  "patternDivergence": {
+    "divergenceFromReference": "new blueprint dossier system and project ledger",
+    "divergenceFromPreviousTemplate": "disposes PrismShelf commerce browser, side rail, product wall, table, and checkout drawer",
+    "heroDivergence": "vertical masthead plus project map/index rail",
+    "sectionRhythmDivergence": "plan grid, panorama, courtyard void, ledger, spine",
+    "visualLanguageDivergence": "stone/blueprint/clay editorial system with restrained effects",
+    "componentCadenceDivergence": "plan cells, annotations, ledger rows, and form fields"
+  },
+  "sectionLogic": {
+    "sectionList": ["quiet nav", "blueprint masthead", "material plan grid", "case-study runway", "services courtyard", "portfolio ledger", "process spine", "inquiry brief and footer"],
+    "roleOfEachSection": "establish studio identity, show service plan, prove case-study thinking, list portfolio, explain process, and collect project brief",
+    "buyerJourneyFlow": "understand studio, inspect planning method, see case proof, browse portfolio, trust process, send brief",
+    "fillerSectionsRemoved": "No filler sections remain; each module supports studio identity, service planning, project proof, portfolio browsing, process confidence, inquiry conversion, or source-template usability.",
+    "productFamilyDepthStandard": "architecture website source includes services, project evidence, portfolio index, process, inquiry, and design-system board"
+  },
+  "marketplaceReadiness": {
+    "sectionDepth": "eight architecture modules plus design-system board",
+    "premiumSignal": "blueprint masthead, project ledger, courtyard void, and case-study runway",
+    "editability": "auto-layout, editable text, replaceable architecture placeholders, named layers",
+    "sourceReadiness": "design system and scaffold disposal receipt included",
+    "previewValue": "zoomed-out silhouette is visibly different from ecommerce and v1 landing scaffolds",
+    "commercialUsefulness": "usable for architecture, interiors, studio portfolio, and project-case sites",
+    "nonGenericProof": "not a commerce browser, not a hero/card/CTA landing scaffold"
+  },
+  "status": "PASS"
+}

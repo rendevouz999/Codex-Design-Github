@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "design-brain.design-subagents.orchestration-receipt.v1",
+  "title": "Brain Design Subagent Orchestration Receipt",
+  "type": "object",
+  "required": [
+    "schema",
+    "version",
+    "runId",
+    "mode",
+    "finalGate",
+    "status",
+    "activeAgents",
+    "agentStatuses",
+    "missingCriticalEvidence",
+    "blockingReasons",
+    "requiredRepairs",
+    "generatedAt"
+  ],
+  "properties": {
+    "schema": {
+      "const": "design-brain.design-subagents.orchestration-receipt.v1"
+    },
+    "version": {
+      "const": "1.0.0"
+    },
+    "runId": {
+      "type": "string"
+    },
+    "mode": {
+      "enum": ["full", "standard", "lightweight"]
+    },
+    "finalGate": {
+      "type": "boolean"
+    },
+    "status": {
+      "enum": ["PASS", "REVISE_REQUIRED", "BLOCK"]
+    },
+    "activeAgents": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "agentStatuses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["agentId", "name", "phase", "critical", "blockingAuthority", "status", "missingOutputs", "evidence"],
+        "properties": {
+          "agentId": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "phase": {
+            "type": "string"
+          },
+          "critical": {
+            "type": "boolean"
+          },
+          "blockingAuthority": {
+            "type": "string"
+          },
+          "status": {
+            "enum": ["PASS", "REVISE_REQUIRED", "BLOCK"]
+          },
+          "missingOutputs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "blockingReasons": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "missingCriticalEvidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "blockingReasons": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "requiredRepairs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "semanticValidationEnabled": {
+      "type": "boolean"
+    },
+    "semanticValidation": {
+      "type": ["object", "null"]
+    },
+    "generatedAt": {
+      "type": "string"
+    }
+  }
+}

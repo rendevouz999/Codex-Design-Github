@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Craft"
+  short_description: "Design craft with TypeUI profiles."
+  default_prompt: "Use design-craft to create a polished template."

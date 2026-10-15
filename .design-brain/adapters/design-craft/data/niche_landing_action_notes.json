@@ -1,0 +1,50 @@
+{
+  "version": "0.2.7",
+  "notes": {
+    "finance_consulting": {
+      "conversion_goal": "Book a consultation or request advisory assessment",
+      "cta_strategy": "Trust-led CTA after credibility, process, and risk clarity",
+      "avoid": ["final climax CTA", "parallax storytelling default", "Narrative increases time-on-page"]
+    },
+    "restaurant_hospitality": {
+      "conversion_goal": "Reserve a table, order, or claim a dining offer",
+      "cta_strategy": "CTA after atmosphere, signature menu, location/hours, and social proof",
+      "avoid": ["chapter climax CTA", "generic SaaS CTA", "End of each chapter", "Final climax CTA"]
+    },
+    "equipment_rental_service": {
+      "conversion_goal": "Request quote, check availability, or book rental",
+      "cta_strategy": "CTA after inventory, process, pricing/duration, delivery/support",
+      "avoid": ["Contact Sales + Login", "logo carousel", "tab switching"]
+    },
+    "furniture_rental_service": {
+      "conversion_goal": "Request quote, check availability, or book furniture rental",
+      "cta_strategy": "CTA after furniture categories, rental packages, delivery/setup, and duration clarity",
+      "avoid": ["Contact Sales + Login", "logo carousel", "tab switching"]
+    },
+    "beauty_wellness": {
+      "conversion_goal": "Book treatment or consultation",
+      "cta_strategy": "CTA after treatment benefit, specialist trust, result proof, and pricing clarity",
+      "avoid": ["final climax CTA", "parallax storytelling default"]
+    },
+    "car_rental_transport": {
+      "conversion_goal": "Check availability or book vehicle",
+      "cta_strategy": "CTA after vehicle categories, pricing, coverage, and support",
+      "avoid": ["final climax CTA", "Contact Sales + Login"]
+    },
+    "fashion_apparel_ecommerce": {
+      "conversion_goal": "Shop collection or view product category",
+      "cta_strategy": "CTA after campaign hero, collection preview, lookbook, trust/shipping",
+      "avoid": ["final climax CTA", "generic SaaS CTA"]
+    },
+    "real_estate_property": {
+      "conversion_goal": "Schedule visit, view listing, or contact agent",
+      "cta_strategy": "CTA after listings, location proof, and agent credibility",
+      "avoid": ["final climax CTA", "generic SaaS CTA"]
+    },
+    "education_course": {
+      "conversion_goal": "Enroll or view curriculum",
+      "cta_strategy": "CTA after learning outcome, curriculum, instructor trust, and student proof",
+      "avoid": ["final climax CTA", "generic SaaS CTA"]
+    }
+  }
+}

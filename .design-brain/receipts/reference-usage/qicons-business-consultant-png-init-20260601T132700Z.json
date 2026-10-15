@@ -1,0 +1,17 @@
+{
+  "command": "init-reference",
+  "status": "PASS",
+  "referenceId": "qicons-business-consultant-png",
+  "referenceBrandName": "Qicons",
+  "productFamily": "business consultant website template",
+  "niche": "business consultant",
+  "sourcePath": "",
+  "sourceType": "png",
+  "registryUpdated": true,
+  "dryRun": false,
+  "warnings": [],
+  "blockingReasons": [],
+  "nextAction": "Reference registered.",
+  "recordedAt": "2026-06-01T13:29:33.062320+00:00",
+  "receiptPath": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\receipts\\reference-usage\\qicons-business-consultant-png-init-20260601T132700Z.json"
+}

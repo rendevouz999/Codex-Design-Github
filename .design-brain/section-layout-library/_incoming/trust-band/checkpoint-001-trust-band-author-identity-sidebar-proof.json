@@ -1,0 +1,112 @@
+{
+  "patternId": "checkpoint-001-trust-band-author-identity-sidebar-proof",
+  "sectionType": "trust-band",
+  "commercialPurpose": "Build personal/editorial trust through a human author identity module instead of corporate logo proof.",
+  "purposeLayer": "The proof cue tells readers who curates the content and why the publication feels credible.",
+  "anatomyLayer": "Portrait or profile placeholder, short bio, signature mark, small badges or featured logos, and social follow row.",
+  "hierarchyLayer": "Portrait first, bio statement second, signature/badge proof third, social follow fourth.",
+  "gridRhythmLayer": "Compact vertical card or sidebar block with centered identity elements.",
+  "densityLimitLayer": "Use one profile image, 1 short bio, 1-3 badges or credibility marks, and 3-6 social links.",
+  "originalityLayer": "Learn author-as-proof logic; transform it for consultants, creators, chefs, educators, stylists, or founders.",
+  "usageRuleLayer": "Use when personal credibility or curator voice matters more than logo-strip social proof.",
+  "layoutGesture": "author identity proof card embedded in sidebar rail",
+  "sectionSilhouette": "compact vertical portrait-bio-signature stack",
+  "compositionTension": "human portrait softens dense content browsing",
+  "focalPath": "portrait to bio to signature or badges to social icons",
+  "negativeSpaceShape": "small centered halo inside a boxed widget",
+  "depthLayering": "flat card with portrait crop and micro proof marks",
+  "moduleScaleVariation": "medium portrait with tiny badges and icons",
+  "breakoutBehavior": "can live as sidebar widget or trust band insert",
+  "contentLimits": {
+    "proofItems": "1-4",
+    "primaryProofClaim": "1",
+    "profileImage": 1,
+    "socialLinks": "3-6"
+  },
+  "antiCopyBoundary": "Do not copy the exact portrait, signature graphic, badge pair, or social row styling.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "blog-resources",
+      "hero"
+    ],
+    "after": [
+      "blog-resources",
+      "cta"
+    ],
+    "notAScaffold": true
+  },
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\01_Home_1.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\02_Home_2.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\03_Home_3.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\04_Home_4.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\05_Home_5.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\06_Home_6.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\07_Home_7.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\08_Home_8.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\09_Image_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\10_Slider_Post.jpg"
+  ],
+  "productFamilies": [
+    "editorial-blog",
+    "lifestyle",
+    "website"
+  ],
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 001",
+    "reviewNotes": "Checkpoint learning is visually inspected but not yet promoted to stable PASS; keep as incoming review vocabulary.",
+    "nonCopyBoundary": "Do not copy the Pallas-style script logo, muted gold CTA treatment, right-sidebar widget order, image set, or exact editorial spacing."
+  },
+  "structuralSignature": {
+    "signatureId": "trust-band:86e518a71a2996cd",
+    "hash": "86e518a71a2996cda36afabf9e3025a473199c01",
+    "axes": {
+      "layoutGesture": "author identity proof card embedded in sidebar rail",
+      "sectionSilhouette": "compact vertical portrait-bio-signature stack",
+      "anatomyLayer": "portrait or profile placeholder, short bio, signature mark, small badges or featured logos, and social follow row.",
+      "hierarchyLayer": "portrait first, bio statement second, signature/badge proof third, social follow fourth.",
+      "gridRhythmLayer": "compact vertical card or sidebar block with centered identity elements.",
+      "focalPath": "portrait to bio to signature or badges to social icons",
+      "compositionTension": "human portrait softens dense content browsing",
+      "negativeSpaceShape": "small centered halo inside a boxed widget",
+      "moduleScaleVariation": "medium portrait with tiny badges and icons",
+      "breakoutBehavior": "can live as sidebar widget or trust band insert",
+      "contentLimits": "{\"primaryproofclaim\":\"1\",\"profileimage\":1,\"proofitems\":\"1-4\",\"sociallinks\":\"3-6\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.0,
+  "matchGroupId": "trust-band:86e518a71a2996cd",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:44:59Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 0,
+    "bestMatch": null,
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

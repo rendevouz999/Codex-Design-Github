@@ -1,0 +1,123 @@
+{
+  "patternId": "checkpoint-004-hero-luxury-car-side-profile-spec-strip",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\apex-exclusive-supercar-website-2025-03-27-02-23-20-utc - Apex - Exclusive Supercar Website - f13dc7d7.png"
+  ],
+  "productFamilies": [
+    "automotive",
+    "luxury",
+    "commerce",
+    "product"
+  ],
+  "commercialPurpose": "Open a premium automotive template with product spectacle, specs, and restrained luxury confidence.",
+  "purposeLayer": "Hero makes the vehicle itself the primary value signal while specs and CTAs support purchase intent.",
+  "anatomyLayer": "Minimal nav, oversized car side-profile media, large short headline, subtle copy, CTA, and horizontal spec strip beneath the vehicle.",
+  "hierarchyLayer": "Car image dominates first, headline second, specs third, CTA fourth.",
+  "gridRhythmLayer": "Light editorial hero with full-width product side profile over a horizontal metric/spec rail.",
+  "densityLimitLayer": "Use section density limit: {\"primaryMessage\": 1, \"cta\": \"1-2\", \"proofCue\": \"0-1 controlled cue\", \"mediaSystem\": 1}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, or section order.",
+  "usageRuleLayer": "Use for luxury products, vehicles, hardware, watches, or hero SKUs where object silhouette is the persuasion device.",
+  "layoutGesture": "luxury product side-profile hero with spec strip",
+  "sectionSilhouette": "wide light canvas topped by giant vehicle profile and anchored by compact stats rail",
+  "compositionTension": "product object mass creates drama while typography stays restrained",
+  "focalPath": "vehicle silhouette to headline to spec strip to CTA",
+  "negativeSpaceShape": "large pale whitespace above and around the vehicle emphasizes speed and exclusivity",
+  "depthLayering": "flat light base, high-resolution product layer, subtle metric capsules",
+  "moduleScaleVariation": "oversized product media with tiny nav, specs, and CTA controls",
+  "breakoutBehavior": "vehicle spans beyond ordinary text column and becomes the section grid anchor",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1-2",
+    "proofCue": "0-1 controlled cue",
+    "mediaSystem": 1
+  },
+  "antiCopyBoundary": "Do not copy the exact orange car, Apex/Sports branding, specs, or image angle.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "features",
+      "services",
+      "faq-objection"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 004 contact sheet",
+    "reviewNotes": "Checkpoint 004 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "hero:36ae9ef5150b4b9b",
+    "hash": "36ae9ef5150b4b9b600ebd18be83d3c0bc57a530",
+    "axes": {
+      "layoutGesture": "luxury product side-profile hero with spec strip",
+      "sectionSilhouette": "wide light canvas topped by giant vehicle profile and anchored by compact stats rail",
+      "anatomyLayer": "minimal nav, oversized car side-profile media, large short headline, subtle copy, cta, and horizontal spec strip beneath the vehicle.",
+      "hierarchyLayer": "car image dominates first, headline second, specs third, cta fourth.",
+      "gridRhythmLayer": "light editorial hero with full-width product side profile over a horizontal metric/spec rail.",
+      "focalPath": "vehicle silhouette to headline to spec strip to cta",
+      "compositionTension": "product object mass creates drama while typography stays restrained",
+      "negativeSpaceShape": "large pale whitespace above and around the vehicle emphasizes speed and exclusivity",
+      "moduleScaleVariation": "oversized product media with tiny nav, specs, and cta controls",
+      "breakoutBehavior": "vehicle spans beyond ordinary text column and becomes the section grid anchor",
+      "contentLimits": "{\"cta\":\"1-2\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"0-1 controlled cue\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.2153,
+  "matchGroupId": "hero:36ae9ef5150b4b9b",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:16:27Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 8,
+    "bestMatch": {
+      "score": 0.2153,
+      "axisScores": {
+        "layoutGesture": 0.1333,
+        "sectionSilhouette": 0.0417,
+        "anatomyLayer": 0.1429,
+        "hierarchyLayer": 0.3529,
+        "gridRhythmLayer": 0.069,
+        "focalPath": 0.2308,
+        "compositionTension": 0.0,
+        "negativeSpaceShape": 0.0435,
+        "moduleScaleVariation": 0.1875,
+        "breakoutBehavior": 0.1667,
+        "contentLimits": 1.0
+      },
+      "patternId": "checkpoint-004-hero-cybersecurity-dark-threat-protection-hero",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-004-hero-cybersecurity-dark-threat-protection-hero.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

@@ -1,0 +1,52 @@
+{
+  "batchId": "20260531-website-template-pack-r3",
+  "pairs": [
+    {
+      "pair": [
+        "atlashaus-r3-architecture-dossier",
+        "prismshelf-r3-ecommerce-browser"
+      ],
+      "structureDefiningAxisSimilarity": 0.167,
+      "visualLanguageAxisSimilarity": 0.207,
+      "scaffoldRisk": 0.146,
+      "failedAxes": [],
+      "hardFailAxes": [],
+      "softRiskAxes": [],
+      "requiredStructuralRepairs": [],
+      "axisScores": {
+        "heroGrammarSimilarity": 0.143,
+        "sectionOrderSimilarity": 0.0,
+        "gridSystemSimilarity": 0.116,
+        "layoutGestureSimilarity": 0.167,
+        "sectionSilhouetteSimilarity": 0.0,
+        "compositionTensionSimilarity": 0.034,
+        "focalPathSimilarity": 0.061,
+        "negativeSpaceShapeSimilarity": 0.13,
+        "depthLayeringSimilarity": 0.069,
+        "moduleScaleVariationSimilarity": 0.026,
+        "breakoutBehaviorSimilarity": 0.037,
+        "layoutRhythmSimilarity": 0.067,
+        "cardCadenceSimilarity": 0.114,
+        "componentPatternSimilarity": 0.111,
+        "ctaPlacementSimilarity": 0.129,
+        "closureSilhouetteSimilarity": 0.145,
+        "imageTreatmentSimilarity": 0.152,
+        "spacingCadenceSimilarity": 0.081,
+        "typographyBehaviorSimilarity": 0.129,
+        "colorRoleSimilarity": 0.047,
+        "effectLanguageSimilarity": 0.207,
+        "navigationFooterPatternSimilarity": 0.14,
+        "overallScaffoldRisk": 0.146
+      },
+      "status": "PASS"
+    }
+  ],
+  "overallRisk": "low",
+  "requiredRepairs": [],
+  "failedAxes": [],
+  "hardFailAxes": [],
+  "softRiskAxes": [],
+  "structureDefiningAxisSimilarity": 0.167,
+  "visualLanguageAxisSimilarity": 0.207,
+  "status": "PASS"
+}

@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Brain Design Cognition Receipt",
+  "type": "object",
+  "required": [
+    "task",
+    "productFamily",
+    "mode",
+    "styleDNA",
+    "referenceStandard",
+    "designIntentLock",
+    "visualGrammar",
+    "referenceBoundary",
+    "colorRoleRemapping",
+    "visualMoodReinterpretation",
+    "structuralReconfiguration",
+    "patternDivergence",
+    "sectionLogic",
+    "marketplaceReadiness",
+    "status"
+  ],
+  "properties": {
+    "task": { "type": "string", "minLength": 1 },
+    "productFamily": { "type": "string", "minLength": 1 },
+    "mode": { "type": "string", "minLength": 1 },
+    "referenceSource": { "type": "string" },
+    "batchItem": {},
+    "routeSource": { "type": "string" },
+    "brandReferenceUsage": {
+      "type": "object",
+      "properties": {
+        "candidateBrandName": { "type": "string" },
+        "referenceUsageMode": { "type": "string", "enum": ["single", "pair", "triple", ""] },
+        "referenceGroupKey": { "type": "string" },
+        "referenceIds": { "type": "array", "items": { "type": "string" } },
+        "gateStatus": { "type": "string" },
+        "whyAllowedByMemory": { "type": "string" }
+      }
+    },
+    "styleDNA": {
+      "type": "object",
+      "required": ["typographyBehavior", "layoutRhythm", "spacingDensity", "colorBehavior", "imageDirection", "shapeLanguage", "effectLanguage", "premiumSignal"]
+    },
+    "referenceStandard": {
+      "type": "object",
+      "required": ["observedSectionCountRange", "sectionRoleEvidence", "layoutShapeInventory", "colorRoleInventory", "effectGradientInventory", "marketplaceCompletenessClues", "remixPlan", "minimalistFallbackRejected"]
+    },
+    "designIntentLock": {
+      "type": "object",
+      "required": ["productType", "outputMedium", "targetBuyer", "useCase", "marketplaceValue", "primaryGoal"]
+    },
+    "visualGrammar": {
+      "type": "object",
+      "required": ["gridBehavior", "spacingCadence", "typeHierarchy", "surfaceDepth", "colorRoles", "imageTreatment", "effectLogic", "componentRhythm"]
+    },
+    "referenceBoundary": {
+      "type": "object",
+      "required": ["allowedToLearn", "forbiddenToCopy"]
+    },
+    "colorRoleRemapping": {
+      "type": "object",
+      "required": ["referenceDominantColorIdentity", "referenceColorRoles", "remappedPaletteDirection", "newAccentIdentity", "preservedEmotionalRole", "avoidedExactHues", "contrastHierarchyBehavior"]
+    },
+    "visualMoodReinterpretation": {
+      "type": "object",
+      "required": ["referenceMood", "reinterpretedMood", "changedComposition", "changedHierarchy", "changedAssetTreatment", "changedDepthEffect"]
+    },
+    "structuralReconfiguration": {
+      "type": "object",
+      "required": ["referenceStructurePattern", "newStructurePattern", "heroGrammarChange", "sectionOrderChange", "gridSystemChange", "ctaFlowChange", "componentLayoutChange"]
+    },
+    "patternDivergence": {
+      "type": "object",
+      "required": ["divergenceFromReference", "heroDivergence", "sectionRhythmDivergence", "visualLanguageDivergence", "componentCadenceDivergence"]
+    },
+    "sectionLogic": {
+      "type": "object",
+      "required": ["sectionList", "roleOfEachSection", "buyerJourneyFlow", "fillerSectionsRemoved", "productFamilyDepthStandard"]
+    },
+    "marketplaceReadiness": {
+      "type": "object",
+      "required": ["sectionDepth", "premiumSignal", "editability", "sourceReadiness", "previewValue", "commercialUsefulness", "nonGenericProof"]
+    },
+    "status": { "type": "string", "enum": ["PASS", "FAIL"] }
+  }
+}

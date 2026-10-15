@@ -1,0 +1,322 @@
+{
+  "version": "0.2.7",
+  "checklists": {
+    "website": [
+      "CTA clarity",
+      "Responsive layout",
+      "Section rhythm",
+      "Accessibility focus/keyboard",
+      "Reduced motion when animation exists",
+      "Conversion proof",
+      "Performance"
+    ],
+    "landing": [
+      "CTA clarity",
+      "Offer/proof rhythm",
+      "Niche-specific objection handling",
+      "Accessible form and CTA contrast",
+      "Reduced motion when animation exists",
+      "Conversion proof",
+      "Performance"
+    ],
+    "presentation": [
+      "Slide master consistency",
+      "Safe margins",
+      "Title/body hierarchy",
+      "Data readability",
+      "Contrast on projector",
+      "Image crop consistency",
+      "Slide-to-slide rhythm",
+      "Export to PPTX/Keynote/Google Slides"
+    ],
+    "web_deck": [
+      "Fixed 1920x1080 stage with no reflow",
+      "Uniform stage scale recomputed on resize",
+      "Visibility/opacity slide switching, not display",
+      "Keyboard, pointer, and wheel navigation",
+      "Deep link hash and deckslidechange event",
+      "Reduced-motion fallback",
+      "Print one slide per page",
+      "Static audit and browser render review pass"
+    ],
+    "email": [
+      "600px/email container logic",
+      "Mobile stack",
+      "Alt text",
+      "CTA button contrast",
+      "Unsubscribe/legal footer",
+      "Email-safe font fallback",
+      "Image weight",
+      "Client compatibility"
+    ],
+    "menu_design": [
+      "Category readability",
+      "Price alignment",
+      "Item description hierarchy",
+      "Print contrast",
+      "Menu size/safe margin",
+      "Dietary/badge clarity",
+      "QR/digital use if relevant"
+    ],
+    "social_post": [
+      "Aspect ratio/crop safety",
+      "Hook readability at small size",
+      "Carousel continuity",
+      "Brand consistency",
+      "CTA/save/share cue",
+      "Export resolution"
+    ],
+    "static_canvas": [
+      "Canvas size/aspect ratio",
+      "Safe margins",
+      "Visual focal point",
+      "Print/export clarity",
+      "CTA/readability",
+      "Export resolution"
+    ],
+    "brand_kit": [
+      "Logo clearspace",
+      "Minimum size",
+      "Color usage",
+      "Typography pairing",
+      "Icon/motif usage",
+      "Collateral examples",
+      "Do/don't rules"
+    ],
+    "ui_kit": [
+      "Component variants",
+      "States: default/hover/focus/disabled/error/loading",
+      "Token mapping",
+      "Responsive component behavior",
+      "Accessibility states",
+      "Naming convention"
+    ],
+    "component_library": [
+      "Component variants",
+      "States: default/hover/focus/disabled/error/loading",
+      "Token mapping",
+      "Responsive component behavior",
+      "Accessibility states",
+      "Naming convention"
+    ],
+    "design_system": [
+      "Token mapping",
+      "Component variants",
+      "States: default/hover/focus/disabled/error/loading",
+      "Accessibility states",
+      "Usage rules",
+      "Naming convention"
+    ],
+    "dashboard": [
+      "KPI hierarchy",
+      "Chart readability",
+      "Table density",
+      "Filters/search",
+      "Empty/loading/error states",
+      "Role/permission notes",
+      "Responsive density"
+    ],
+    "mobile_app": [
+      "Screen flow",
+      "Touch target size",
+      "Navigation pattern",
+      "State coverage",
+      "Readable mobile type",
+      "Accessible labels"
+    ],
+    "brochure_design": [
+      "Cover hierarchy",
+      "Fold/page flow",
+      "Image/text balance",
+      "Contact block",
+      "Safe margins",
+      "Print/PDF export"
+    ],
+    "print_collateral": [
+      "Headline hierarchy",
+      "Supporting copy clarity",
+      "Focal image/illustration",
+      "Safe margin",
+      "Print/export specs",
+      "Readability check"
+    ],
+    "poster_design": [
+      "Headline hierarchy",
+      "Focal visual",
+      "Supporting information",
+      "Promo/date/location clarity",
+      "Print contrast",
+      "Export notes"
+    ],
+    "banner_design": [
+      "Format/aspect ratio",
+      "Headline/offer hierarchy",
+      "Visual focus",
+      "Crop-safe layout",
+      "Export sizes",
+      "Small-height readability"
+    ],
+    "thumbnail_design": [
+      "Hook text",
+      "Focal subject",
+      "Small-size readability",
+      "Crop-safe composition",
+      "Contrast",
+      "Export size"
+    ],
+    "invoice_template": [
+      "Invoice metadata",
+      "Item table readability",
+      "Totals clarity",
+      "Tax/discount clarity",
+      "Payment instruction",
+      "PDF/print clarity"
+    ],
+    "resume_template": [
+      "Profile/header hierarchy",
+      "Experience readability",
+      "Skills hierarchy",
+      "ATS readability",
+      "Spacing density",
+      "PDF export"
+    ],
+    "ticket_receipt_design": [
+      "Order metadata",
+      "Item list scanning",
+      "Quantity/price alignment",
+      "Modifier notes",
+      "Total/payment status",
+      "Receipt width",
+      "Thermal/print readability"
+    ],
+    "letterhead_design": [
+      "Logo placement",
+      "Contact information hierarchy",
+      "Footer/legal/company info",
+      "Safe margins",
+      "Print/PDF notes",
+      "Brand consistency"
+    ],
+    "price_list_design": [
+      "Category grouping",
+      "Item/service list",
+      "Price alignment",
+      "Currency/discount notes",
+      "Readability",
+      "Print/digital export"
+    ],
+    "table_tent_design": [
+      "Front/back or panel layout",
+      "Headline/menu offer",
+      "Featured items",
+      "QR/menu code if relevant",
+      "Fold/print/dieline note",
+      "Safe margin",
+      "Table visibility/readability"
+    ],
+    "catalog_design": [
+      "Cover/intro",
+      "Category structure",
+      "Product grid/list",
+      "Product detail snippet",
+      "Price/SKU clarity",
+      "Image treatment",
+      "Page/spread rhythm",
+      "Print/PDF/export notes"
+    ],
+    "lookbook_design": [
+      "Cover/editorial opener",
+      "Collection story",
+      "Outfit/product image spreads",
+      "Style notes",
+      "Product references",
+      "Mood/visual rhythm",
+      "Page/spread system",
+      "Print/PDF/export notes"
+    ],
+    "cover_design": [
+      "Format/aspect ratio",
+      "Cover title hierarchy",
+      "Focal visual",
+      "Author/brand/subtitle metadata",
+      "Safe area/crop safety",
+      "Contrast/readability",
+      "Export notes"
+    ],
+    "voucher_coupon_design": [
+      "Offer/value hierarchy",
+      "Code/serial/QR area",
+      "Terms/expiry",
+      "Brand/logo area",
+      "Redemption instruction",
+      "Safe margins",
+      "Print/digital export",
+      "Card/voucher size notes"
+    ],
+    "sticker_design": [
+      "Sticker shape",
+      "Focal mark/graphic",
+      "Text hierarchy",
+      "Die-cut/safe margin",
+      "Print/export notes",
+      "Material/finish note"
+    ],
+    "postcard_design": [
+      "Front/back layout",
+      "Headline/message",
+      "Image/illustration",
+      "Address/contact area",
+      "Safe margin",
+      "Print/export notes"
+    ],
+    "certificate_design": [
+      "Recipient/name field",
+      "Title/certificate heading",
+      "Issuer/signature/seal",
+      "Date/serial field",
+      "Border/ornament",
+      "Print/PDF export"
+    ],
+    "booklet_design": [
+      "Cover",
+      "Table of contents or intro",
+      "Page/spread rhythm",
+      "Section pages",
+      "Image/text balance",
+      "Contact/back page",
+      "Print/PDF export"
+    ],
+    "packaging_label_design": [
+      "Front label hierarchy",
+      "Product name",
+      "Variant/flavor/size",
+      "Ingredients/info area",
+      "Barcode/QR/regulatory area",
+      "Material/finish note",
+      "Print/dieline/export notes"
+    ],
+    "label_design": [
+      "Label shape/size",
+      "Brand/product hierarchy",
+      "Supporting info",
+      "Material/finish",
+      "Print/export notes"
+    ],
+    "price_tag_design": [
+      "Price hierarchy",
+      "Product/variant info",
+      "Barcode/SKU",
+      "Material/finish",
+      "String/hole/die-cut note",
+      "Print/export notes"
+    ],
+    "hang_tag_design": [
+      "Brand/logo area",
+      "Product/size/material info",
+      "Price/SKU/barcode",
+      "Hole/string placement",
+      "Front/back layout",
+      "Print/export notes"
+    ]
+  }
+}

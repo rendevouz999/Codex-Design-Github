@@ -1,0 +1,128 @@
+{
+  "task": "VoltStride Figma website template from sneakers ecommerce PNG reference",
+  "productFamily": "sneaker_ecommerce",
+  "mode": "website",
+  "referenceSource": "sneaky-shoes-sneakers-ecommerce-png",
+  "batchItem": "3 of 3",
+  "routeSource": "brain_design_router",
+  "brandReferenceUsage": {
+    "candidateBrandName": "VoltStride",
+    "referenceUsageMode": "single",
+    "referenceGroupKey": "sneaky-shoes-sneakers-ecommerce-png",
+    "referenceIds": ["sneaky-shoes-sneakers-ecommerce-png"],
+    "gateStatus": "PASS",
+    "whyAllowedByMemory": "candidate brand is distinct from Sneaky and passed reference usage check with only unknown local reference warning"
+  },
+  "styleDNA": {
+    "typographyBehavior": "bold condensed-feeling sport display with small ecommerce labels, prices, and performance specs",
+    "layoutRhythm": "high-energy launch opening, product drops, dark category tunnels, offer lockers, performance proof, and final action band",
+    "spacingDensity": "dense retail modules balanced by large hero and promo surfaces",
+    "colorBehavior": "off-white athletic base, graphite/black utility surfaces, volt lime action, and cool gray product cards",
+    "imageDirection": "sneaker, athlete, material, category, and campaign slots become role-specific placeholders",
+    "shapeLanguage": "sharp retail cards, pill controls, scoreboard rows, locker panels, and angled speed-lane motifs",
+    "effectLanguage": "lime signal glow, dark overlay panels, crisp product-card elevation, and sporty contrast bands",
+    "premiumSignal": "complete sneaker storefront with product cards, fit guidance, drop schedule, promo states, source hygiene, and design-system board"
+  },
+  "referenceStandard": {
+    "observedSectionCountRange": "reference supports 9-12 ecommerce sections including hero, product cards, category, catalog, promos, feature proof, deals, CTA, footer",
+    "sectionRoleEvidence": "sport hero, metrics, product cards, dark selection/category panels, catalog grid, sale bands, performance section, weekly deals, final CTA, and footer are visible",
+    "layoutShapeInventory": "split hero, lime product stage, product cards, dark media panels, catalog grid, promo overlays, feature split, deal card, CTA banner, dark footer",
+    "colorRoleInventory": "off-white base, neon lime CTA, black surfaces, white cards, gray copy, product shadows, active states",
+    "effectGradientInventory": "dark overlays, product-card depth, lime action highlight, campaign panels, and final CTA contrast",
+    "marketplaceCompletenessClues": "needs editable product system, filters, cart states, promo modules, category placeholders, design system, preview cover, and source notes",
+    "remixPlan": "preserve energetic sport-retail confidence while changing hero grammar, product staging, section order, CTA closure, and effect language",
+    "minimalistFallbackRejected": true
+  },
+  "designIntentLock": {
+    "productType": "editable sneakers ecommerce website template",
+    "outputMedium": "Figma website source template",
+    "targetBuyer": "sneaker stores, sportswear brands, launch boutiques, and marketplace buyers",
+    "useCase": "premium sneaker storefront for product drops, fit guidance, promotions, and performance storytelling",
+    "marketplaceValue": "complete editable ecommerce template with launch wall, fit quiz, product grid, promo locker, reviews, final CTA, cover preview, and design system",
+    "primaryGoal": "sell a high-energy sneaker store template that feels retail-ready and easy to customize"
+  },
+  "visualGrammar": {
+    "gridBehavior": "retail scoreboard grid with a diagonal-feeling hero lane, product launch wall, dark tunnel bands, and locker cards",
+    "spacingCadence": "large action hero, compact product rows, dense category/promo modules, and bold final CTA",
+    "typeHierarchy": "oversized sport headline, section command titles, product names/prices, spec labels, and micro badges",
+    "surfaceDepth": "raised product cards, dark campaign panels, lime signal CTA surfaces, and locker-style offer cards",
+    "colorRoles": "athletic base, graphite surface, black footer, volt action, acid proof signal, muted gray text, white card, border",
+    "imageTreatment": "large product and athlete placeholders with campaign labels, not copied sneaker render placement",
+    "effectLogic": "lime glow marks active drops and buying action; dark overlays create category and promo drama",
+    "componentRhythm": "drop cards, fit quiz rows, product cards, category tunnels, promo lockers, review scoreboard, FAQ/CTA, footer"
+  },
+  "referenceBoundary": {
+    "allowedToLearn": "sport ecommerce energy, lime action clarity, product-card density, promo rhythm, and dark retail contrast",
+    "forbiddenToCopy": "exact layout, exact color palette or color-role mapping, exact section order, hero grammar, component scaffold, lime right-side shoe stage, product-card cadence, dark category panel composition, and footer shape",
+    "exactLayoutCopied": "no",
+    "exactPaletteCopied": "no",
+    "exactSectionOrderCopied": "no",
+    "heroGrammarCopied": "no",
+    "componentScaffoldCopied": "no"
+  },
+  "colorRoleRemapping": {
+    "referenceDominantColorIdentity": "off-white and neon lime sneaker identity",
+    "referenceColorRoles": "lime CTA and product signal, black dark bands, off-white base, white cards, gray copy",
+    "remappedPaletteDirection": "chalk base, carbon black, volt lime, acid green, asphalt gray, cool smoke, and white product cards",
+    "newAccentIdentity": "volt action used as drop signal, cart state, and speed accent with black counterweight",
+    "preservedEmotionalRole": "energy, sport confidence, product focus, and fast retail action",
+    "avoidedExactHues": "exact reference lime role mapping and right-panel color block avoided",
+    "contrastHierarchyBehavior": "black and lime create strong CTA contrast while white cards preserve product scanability"
+  },
+  "visualMoodReinterpretation": {
+    "referenceMood": "sporty, energetic, ecommerce-driven, and street-to-training oriented",
+    "reinterpretedMood": "drop-culture performance store with launch scoreboard, fit logic, and locker-like promos",
+    "changedComposition": "diagonal launch lane and product wall replace the reference split hero/right lime shoe stage",
+    "changedHierarchy": "drop schedule, fit quiz, launch wall, promo locker, and review scoreboard drive conversion",
+    "changedAssetTreatment": "all product/athlete images become editable source placeholders with sneaker-specific labels",
+    "changedDepthEffect": "scoreboard and locker depth replace direct dark category and CTA composition"
+  },
+  "structuralReconfiguration": {
+    "referenceStructurePattern": "hero, product row, dark category, catalog, promo, feature, deals, CTA, footer",
+    "newStructurePattern": "launch lane hero, drop timer proof, fit finder service quiz, performance tech process, launch product wall, street/sport category tunnels, promo locker, material proof split, weekly drop schedule, review scoreboard, final drop CTA, footer",
+    "heroGrammarChange": "diagonal launch scoreboard hero replaces the reference left-copy/right-product stage",
+    "sectionOrderChange": "fit/service guidance and performance proof appear before the main product wall and promo locker",
+    "gridSystemChange": "scoreboard, launch wall, locker, and tunnel grids replace simple product rows",
+    "ctaFlowChange": "CTAs rotate through shop drop, find fit, add to cart, unlock promo, and final drop action",
+    "componentLayoutChange": "fit quiz, drop schedule, promo locker, review scoreboard, and product wall replace generic product sections"
+  },
+  "patternDivergence": {
+    "divergenceFromReference": "new launch scoreboard hero, fit quiz, promo locker, review scoreboard, and final CTA shape",
+    "divergenceFromPreviousTemplate": "moves away from consulting proof ledgers and warm decor shelf/catalog composition",
+    "heroDivergence": "fast scoreboard lane rather than corporate command panel or home decor shelf hero",
+    "sectionRhythmDivergence": "alternates drop urgency, fit logic, product wall, dark tunnel, promo locker, and community proof",
+    "visualLanguageDivergence": "volt-black athletic retail grammar differs from cyan consulting and honey/sage decor",
+    "componentCadenceDivergence": "drop/product/locker components avoid service matrix and room shelf cadence"
+  },
+  "sectionLogic": {
+    "sectionList": [
+      "navigation",
+      "launch lane hero",
+      "drop timer proof",
+      "fit finder service quiz",
+      "performance tech process",
+      "launch product wall",
+      "street sport category tunnels",
+      "promo locker",
+      "material proof split",
+      "weekly drop schedule",
+      "review scoreboard testimonial",
+      "final drop CTA",
+      "footer"
+    ],
+    "roleOfEachSection": "orientation, desire, urgency proof, service guidance, product education, shopping, category routing, promotion, material trust, return habit, social proof, conversion, and closure",
+    "buyerJourneyFlow": "feel the drop, find fit, inspect performance, browse products, choose category, unlock promo, trust reviews, and purchase",
+    "fillerSectionsRemoved": "no filler; every section supports product discovery, fit confidence, promotion, social proof, or ecommerce conversion",
+    "productFamilyDepthStandard": "12-section sneaker ecommerce website template plus separate design system and cover overview"
+  },
+  "marketplaceReadiness": {
+    "sectionDepth": "12 meaningful sneaker ecommerce sections plus per-template design system and cover/overview preview",
+    "premiumSignal": "sport retail typography, product wall, fit quiz, promo locker, scoreboard proof, states, and source-safe placeholders",
+    "editability": "auto-layout, named sections, local styles, product cards, cart states, fit rows, placeholders, and component specimens are planned",
+    "sourceReadiness": "design system board documents color roles, type, spacing, buttons, product cards, promo states, media placeholders, and responsive behavior",
+    "previewValue": "cover and overview will show launch hero, product wall, promo locker, source editability, and included sections",
+    "commercialUsefulness": "sneaker sellers can replace product drops, prices, categories, fit content, promos, reviews, and final CTA immediately",
+    "nonGenericProof": "not Hero > Product Cards > CTA; includes fit quiz, performance process, product wall, category tunnels, promo locker, schedule, and review scoreboard"
+  },
+  "status": "PASS"
+}

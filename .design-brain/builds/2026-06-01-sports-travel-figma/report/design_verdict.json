@@ -1,0 +1,706 @@
+{
+  "schema": "design-brain.design-simulation.verdict.v2",
+  "version": "2.5.0",
+  "runId": "20260601-112417-roampass-travel-ticket-figma-website-template-from-tase-style-re-a25922d3",
+  "artifactDir": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\builds\\2026-06-01-sports-travel-figma",
+  "verdict": "BLOCKED",
+  "status": "BLOCKED",
+  "confidence": 0.55,
+  "productFamily": "travel-ticket-booking-website",
+  "mode": "website",
+  "routing": {
+    "inputTask": "RoamPass travel ticket Figma website template from TASE-style reference DNA\nFigma website template\nticket travel booking\ntemplate marketplace buyers and travel booking startups\nbright editorial travel, route-led booking, soft green and sky, practical ticket modules\nEnvato/Figma template marketplace\nHero route planner, trust strip, popular routes, booking timeline, destination story band, fare comparison, travel insurance/support, traveler proof, package pricing, FAQ checklist, ticket-pass CTA, footer\nTASE reference shows airy travel ticket marketplace: strong destination headline, green CTA, rounded photo crops, booking/search modules, proof metrics, pricing packages and journey CTA. Rebuild as route-board/ticket-pass system without copying exact layout or section order.",
+    "routeSource": "explicit_cli",
+    "module": "website-template",
+    "mode": "website",
+    "productFamily": "travel-ticket-booking-website",
+    "websiteType": "event/travel/hospitality",
+    "intent": [
+      "reference",
+      "figma_output",
+      "template_product",
+      "medium_product",
+      "review"
+    ],
+    "confidence": 1.0,
+    "warnings": [],
+    "rawRouterResult": {}
+  },
+  "cognition": {
+    "status": "not_provided",
+    "validationStatus": "not_provided",
+    "receiptPath": "",
+    "missingFields": [],
+    "riskCategories": [],
+    "requiredRepairs": [],
+    "warnings": [
+      "No Design Cognition Receipt was provided to this simulation run."
+    ],
+    "styleDNA": "",
+    "colorRoleRemapping": "",
+    "referenceBoundary": "",
+    "structuralReconfiguration": "",
+    "patternDivergence": "",
+    "sectionLogic": "",
+    "marketplaceReadiness": "",
+    "required": true,
+    "allowMissing": false
+  },
+  "layoutOriginality": {
+    "layoutOriginalityStatus": "PASS",
+    "referenceLayoutRisk": "precomputed",
+    "aiPairwiseLayoutRisk": "precomputed",
+    "referenceAudit": {},
+    "aiPairwiseAudit": {},
+    "requiredLayoutRepairs": [],
+    "warnings": []
+  },
+  "layoutOriginalityStatus": "PASS",
+  "referenceLayoutRisk": "precomputed",
+  "aiPairwiseLayoutRisk": "precomputed",
+  "requiredLayoutRepairs": [],
+  "scores": {
+    "overall": 32,
+    "structureDepth": 4,
+    "modeCompleteness": 57,
+    "visualLanguage": 48,
+    "sourceHygiene": 45,
+    "marketplaceValue": 45,
+    "copySafety": 100
+  },
+  "blockers": [
+    "thin structure: 1 units, expected at least 9 for website.",
+    "section depth issue: missing enough website anatomy signals (4/7 required axes found).",
+    "marketplace value issue: preview/package value is under-specified.",
+    "Design Cognition Receipt is required before simulation/build for reference-led/template task."
+  ],
+  "requiredRepairs": [
+    "Expand the structure with mode-specific sections, states, proof, preview, and source-template notes.",
+    "Add website anatomy: hero, proof, service, process, testimonial, cta, footer.",
+    "Add cover, preview, responsive spread, section breakdown, and included-file notes.",
+    "Show buyer value through preview, source hygiene, and category-specific completeness.",
+    "Add license/originality/preview-only disclosure notes.",
+    "Add source hygiene, components, states, naming, and editable placeholders.",
+    "Add a stronger visual-language fingerprint.",
+    "Increase product-specific depth and break default section rhythm.",
+    "Design Cognition Receipt is required before simulation/build for reference-led/template task."
+  ],
+  "recommendedImprovements": [
+    "Define visual mood, typography, color-role, imagery, and effect/depth direction before build.",
+    "Add editable source-template hygiene: components, states, naming, placeholders, and documentation."
+  ],
+  "agentVotes": [
+    {
+      "agentId": "marketplace_buyer",
+      "agentName": "Marketplace Buyer Agent",
+      "role": "Judges whether the template looks worth buying and reusable for the target buyer.",
+      "focus": "buyer value, commercial promise, product category fit, reusable template value, preview believability",
+      "score": 32,
+      "verdict": "BLOCKED",
+      "signals": [
+        "Mode: website",
+        "Mode axes: section depth, conversion flow, proof/trust, visual richness, marketplace preview value",
+        "Structure units: 1",
+        "Required anatomy hits: 4/7"
+      ],
+      "blockers": [
+        "Marketplace preview value is too thin."
+      ],
+      "requiredRepairs": [
+        "Show buyer value through preview, source hygiene, and category-specific completeness."
+      ],
+      "recommendedImprovements": []
+    },
+    {
+      "agentId": "envato_reviewer",
+      "agentName": "Envato Reviewer Agent",
+      "role": "Checks item information, presentation, technical source quality, legal/originality readiness, and commercial polish.",
+      "focus": "metadata, cover preview, technical organization, documentation, license disclosure, review risk",
+      "score": 32,
+      "verdict": "BLOCKED",
+      "signals": [
+        "Mode: website",
+        "Mode axes: section depth, conversion flow, proof/trust, visual richness, marketplace preview value",
+        "Structure units: 1",
+        "Required anatomy hits: 4/7"
+      ],
+      "blockers": [
+        "Marketplace preview value is too thin."
+      ],
+      "requiredRepairs": [
+        "Add license/originality/preview-only disclosure notes.",
+        "Show buyer value through preview, source hygiene, and category-specific completeness.",
+        "Add source hygiene, components, states, naming, and editable placeholders."
+      ],
+      "recommendedImprovements": []
+    },
+    {
+      "agentId": "senior_ui_designer",
+      "agentName": "Senior UI Designer Agent",
+      "role": "Audits hierarchy, layout rhythm, grid, spacing, typography, component quality, and responsive logic.",
+      "focus": "visual hierarchy, grid, spacing rhythm, type scale, component states, responsive behavior",
+      "score": 32,
+      "verdict": "REVISE",
+      "signals": [
+        "Mode: website",
+        "Mode axes: section depth, conversion flow, proof/trust, visual richness, marketplace preview value",
+        "Structure units: 1",
+        "Required anatomy hits: 4/7"
+      ],
+      "blockers": [],
+      "requiredRepairs": [
+        "Add source hygiene, components, states, naming, and editable placeholders.",
+        "Add a stronger visual-language fingerprint."
+      ],
+      "recommendedImprovements": []
+    },
+    {
+      "agentId": "creative_director",
+      "agentName": "Creative Director Agent",
+      "role": "Protects art direction, premium signal, visual signature, and memorable concept strength.",
+      "focus": "concept, visual motif, surface depth, effect discipline, premium signal, category differentiation",
+      "score": 32,
+      "verdict": "REVISE",
+      "signals": [
+        "Mode: website",
+        "Mode axes: section depth, conversion flow, proof/trust, visual richness, marketplace preview value",
+        "Structure units: 1",
+        "Required anatomy hits: 4/7"
+      ],
+      "blockers": [],
+      "requiredRepairs": [
+        "Add a stronger visual-language fingerprint."
+      ],
+      "recommendedImprovements": []
+    },
+    {
+      "agentId": "anti_minimalist_auditor",
+      "agentName": "Anti-Minimalist Auditor",
+      "role": "Blocks thin section stacks and clean-but-empty output when the product needs marketplace depth.",
+      "focus": "section count, product family standard, density, proof depth, visual richness, no minimalist excuse",
+      "score": 32,
+      "verdict": "BLOCKED",
+      "signals": [
+        "Mode: website",
+        "Mode axes: section depth, conversion flow, proof/trust, visual richness, marketplace preview value",
+        "Structure units: 1",
+        "Required anatomy hits: 4/7"
+      ],
+      "blockers": [
+        "Marketplace preview value is too thin.",
+        "Structure risks thin/generic scaffold output."
+      ],
+      "requiredRepairs": [
+        "Increase product-specific depth and break default section rhythm."
+      ],
+      "recommendedImprovements": [
+        "Add a stronger visual-language fingerprint."
+      ]
+    },
+    {
+      "agentId": "anti_scaffold_auditor",
+      "agentName": "Anti-Scaffold Auditor",
+      "role": "Compares structure and rhythm against generic and prior accepted scaffolds.",
+      "focus": "hero grammar, section order, module cadence, recycled naming, fingerprint overlap, batch uniqueness",
+      "score": 32,
+      "verdict": "BLOCKED",
+      "signals": [
+        "Mode: website",
+        "Mode axes: section depth, conversion flow, proof/trust, visual richness, marketplace preview value",
+        "Structure units: 1",
+        "Required anatomy hits: 4/7"
+      ],
+      "blockers": [
+        "Structure risks thin/generic scaffold output."
+      ],
+      "requiredRepairs": [
+        "Increase product-specific depth and break default section rhythm."
+      ],
+      "recommendedImprovements": []
+    },
+    {
+      "agentId": "reference_dna_guardian",
+      "agentName": "Reference DNA Guardian",
+      "role": "Ensures reference insights are transformed, not copied.",
+      "focus": "do-not-copy boundary, color-role reinterpretation, effect transformation, new structure, new visual motif",
+      "score": 32,
+      "verdict": "REVISE",
+      "signals": [
+        "Mode: website",
+        "Mode axes: section depth, conversion flow, proof/trust, visual richness, marketplace preview value",
+        "Structure units: 1",
+        "Required anatomy hits: 4/7"
+      ],
+      "blockers": [],
+      "requiredRepairs": [
+        "Add license/originality/preview-only disclosure notes.",
+        "Add a stronger visual-language fingerprint."
+      ],
+      "recommendedImprovements": []
+    },
+    {
+      "agentId": "visual_language_director",
+      "agentName": "Visual Language Director",
+      "role": "Forces intentional effect language, image direction, surface hierarchy, and preview-level visual richness.",
+      "focus": "gradient/effect system, media treatment, depth hierarchy, art direction, signature details, flatness risk",
+      "score": 32,
+      "verdict": "BLOCKED",
+      "signals": [
+        "Mode: website",
+        "Mode axes: section depth, conversion flow, proof/trust, visual richness, marketplace preview value",
+        "Structure units: 1",
+        "Required anatomy hits: 4/7"
+      ],
+      "blockers": [
+        "Marketplace preview value is too thin."
+      ],
+      "requiredRepairs": [
+        "Show buyer value through preview, source hygiene, and category-specific completeness.",
+        "Add a stronger visual-language fingerprint."
+      ],
+      "recommendedImprovements": []
+    },
+    {
+      "agentId": "source_template_engineer",
+      "agentName": "Source Template Engineer",
+      "role": "Checks source editability, components, variants, layer naming, placeholders, documentation, and auto-layout.",
+      "focus": "auto-layout, components, variants, states, placeholder policy, documentation, source hygiene",
+      "score": 32,
+      "verdict": "REVISE",
+      "signals": [
+        "Mode: website",
+        "Mode axes: section depth, conversion flow, proof/trust, visual richness, marketplace preview value",
+        "Structure units: 1",
+        "Required anatomy hits: 4/7"
+      ],
+      "blockers": [],
+      "requiredRepairs": [
+        "Add source hygiene, components, states, naming, and editable placeholders."
+      ],
+      "recommendedImprovements": []
+    },
+    {
+      "agentId": "originality_legal_auditor",
+      "agentName": "Originality & Legal Risk Auditor",
+      "role": "Flags direct cloning, trademark/copyright issues, license gaps, and preview asset disclosures.",
+      "focus": "copy risk, trademark risk, license, preview-only assets, attribution, commercial use",
+      "score": 32,
+      "verdict": "BLOCKED",
+      "signals": [
+        "Mode: website",
+        "Mode axes: section depth, conversion flow, proof/trust, visual richness, marketplace preview value",
+        "Structure units: 1",
+        "Required anatomy hits: 4/7"
+      ],
+      "blockers": [
+        "Marketplace preview value is too thin."
+      ],
+      "requiredRepairs": [
+        "Add license/originality/preview-only disclosure notes.",
+        "Show buyer value through preview, source hygiene, and category-specific completeness."
+      ],
+      "recommendedImprovements": []
+    },
+    {
+      "agentId": "thumbnail_preview_sales_agent",
+      "agentName": "Thumbnail / Preview Sales Agent",
+      "role": "Checks whether the cover, thumbnail, preview spread, and detail crops can sell the product quickly.",
+      "focus": "cover promise, thumbnail readability, section breakdown, responsive spread, detail crops, buyer proof",
+      "score": 32,
+      "verdict": "BLOCKED",
+      "signals": [
+        "Mode: website",
+        "Mode axes: section depth, conversion flow, proof/trust, visual richness, marketplace preview value",
+        "Structure units: 1",
+        "Required anatomy hits: 4/7"
+      ],
+      "blockers": [
+        "Marketplace preview value is too thin.",
+        "Structure risks thin/generic scaffold output."
+      ],
+      "requiredRepairs": [
+        "Increase product-specific depth and break default section rhythm."
+      ],
+      "recommendedImprovements": []
+    }
+  ],
+  "agentSource": ".design-brain/design-simulation/agents.json",
+  "agentCount": 11,
+  "manifestPath": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\builds\\2026-06-01-sports-travel-figma\\manifest.json",
+  "reportPath": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\builds\\2026-06-01-sports-travel-figma\\report\\report.md",
+  "verdictPath": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\builds\\2026-06-01-sports-travel-figma\\report\\design_verdict.json",
+  "designContextGraph": {
+    "nodes": [
+      {
+        "id": "UserRequest",
+        "type": "seed",
+        "label": "RoamPass travel ticket Figma website template from TASE-style reference DNA"
+      },
+      {
+        "id": "BrainDesignRoute",
+        "type": "route",
+        "label": "website-template"
+      },
+      {
+        "id": "RouteSource",
+        "type": "route_source",
+        "label": "explicit_cli"
+      },
+      {
+        "id": "ProductFamily",
+        "type": "product_family",
+        "label": "travel-ticket-booking-website"
+      },
+      {
+        "id": "Medium",
+        "type": "medium",
+        "label": "website"
+      },
+      {
+        "id": "TemplatePlan",
+        "type": "plan",
+        "label": "1 units"
+      },
+      {
+        "id": "BuyerPersona",
+        "type": "buyer",
+        "label": "template marketplace buyers and travel booking startups"
+      },
+      {
+        "id": "ReferenceDNA",
+        "type": "reference",
+        "label": "supplied"
+      },
+      {
+        "id": "StyleDNA",
+        "type": "style",
+        "label": "bright editorial travel, route-led booking, soft green and sky, practical ticket modules"
+      },
+      {
+        "id": "DesignCognitionReceipt",
+        "type": "cognition",
+        "label": "not_provided"
+      },
+      {
+        "id": "ColorRoleRemapping",
+        "type": "cognition",
+        "label": "not supplied"
+      },
+      {
+        "id": "ReferenceBoundary",
+        "type": "cognition",
+        "label": "not supplied"
+      },
+      {
+        "id": "VisualMood",
+        "type": "visual_mood",
+        "label": "bright editorial travel, route-led booking, soft green and sky, practical ticket modules"
+      },
+      {
+        "id": "StructuralReconfiguration",
+        "type": "structure",
+        "label": "1 units"
+      },
+      {
+        "id": "SectionDepthRisk",
+        "type": "risk",
+        "label": "active"
+      },
+      {
+        "id": "CopyRisk",
+        "type": "risk",
+        "label": "low"
+      },
+      {
+        "id": "LayoutOriginalityGate",
+        "type": "layout_originality",
+        "label": "PASS"
+      },
+      {
+        "id": "ReferenceLayoutRisk",
+        "type": "layout_originality",
+        "label": "precomputed"
+      },
+      {
+        "id": "AiPairwiseLayoutRisk",
+        "type": "layout_originality",
+        "label": "precomputed"
+      },
+      {
+        "id": "MinimalistCollapseRisk",
+        "type": "risk",
+        "label": "checked"
+      },
+      {
+        "id": "ScaffoldSimilarityRisk",
+        "type": "risk",
+        "label": "checked"
+      },
+      {
+        "id": "MarketplaceValueRisk",
+        "type": "risk",
+        "label": "active"
+      },
+      {
+        "id": "FigmaSourceHygieneRisk",
+        "type": "risk",
+        "label": "checked"
+      },
+      {
+        "id": "AgentVerdict",
+        "type": "verdict",
+        "label": "BLOCKED"
+      },
+      {
+        "id": "RequiredRepair1",
+        "type": "repair",
+        "label": "Expand the structure with mode-specific sections, states, proof, preview, and source-template notes."
+      },
+      {
+        "id": "RequiredRepair2",
+        "type": "repair",
+        "label": "Add website anatomy: hero, proof, service, process, testimonial, cta, footer."
+      },
+      {
+        "id": "RequiredRepair3",
+        "type": "repair",
+        "label": "Add cover, preview, responsive spread, section breakdown, and included-file notes."
+      },
+      {
+        "id": "RequiredRepair4",
+        "type": "repair",
+        "label": "Show buyer value through preview, source hygiene, and category-specific completeness."
+      },
+      {
+        "id": "RequiredRepair5",
+        "type": "repair",
+        "label": "Add license/originality/preview-only disclosure notes."
+      },
+      {
+        "id": "RequiredRepair6",
+        "type": "repair",
+        "label": "Add source hygiene, components, states, naming, and editable placeholders."
+      },
+      {
+        "id": "RequiredRepair7",
+        "type": "repair",
+        "label": "Add a stronger visual-language fingerprint."
+      },
+      {
+        "id": "RequiredRepair8",
+        "type": "repair",
+        "label": "Increase product-specific depth and break default section rhythm."
+      },
+      {
+        "id": "RecommendedImprovement1",
+        "type": "improvement",
+        "label": "Define visual mood, typography, color-role, imagery, and effect/depth direction before build."
+      },
+      {
+        "id": "RecommendedImprovement2",
+        "type": "improvement",
+        "label": "Add editable source-template hygiene: components, states, naming, placeholders, and documentation."
+      }
+    ],
+    "edges": [
+      {
+        "from": "UserRequest",
+        "to": "BrainDesignRoute",
+        "relationship": "requires"
+      },
+      {
+        "from": "BrainDesignRoute",
+        "to": "RouteSource",
+        "relationship": "supports"
+      },
+      {
+        "from": "BrainDesignRoute",
+        "to": "ProductFamily",
+        "relationship": "requires"
+      },
+      {
+        "from": "BrainDesignRoute",
+        "to": "Medium",
+        "relationship": "requires"
+      },
+      {
+        "from": "UserRequest",
+        "to": "ProductFamily",
+        "relationship": "requires"
+      },
+      {
+        "from": "UserRequest",
+        "to": "Medium",
+        "relationship": "requires"
+      },
+      {
+        "from": "UserRequest",
+        "to": "TemplatePlan",
+        "relationship": "transforms"
+      },
+      {
+        "from": "ReferenceDNA",
+        "to": "StyleDNA",
+        "relationship": "supports"
+      },
+      {
+        "from": "StyleDNA",
+        "to": "DesignCognitionReceipt",
+        "relationship": "requires"
+      },
+      {
+        "from": "DesignCognitionReceipt",
+        "to": "ColorRoleRemapping",
+        "relationship": "requires"
+      },
+      {
+        "from": "DesignCognitionReceipt",
+        "to": "ReferenceBoundary",
+        "relationship": "requires"
+      },
+      {
+        "from": "StyleDNA",
+        "to": "VisualMood",
+        "relationship": "transforms"
+      },
+      {
+        "from": "ProductFamily",
+        "to": "StructuralReconfiguration",
+        "relationship": "requires"
+      },
+      {
+        "from": "StructuralReconfiguration",
+        "to": "SectionDepthRisk",
+        "relationship": "risks"
+      },
+      {
+        "from": "ReferenceDNA",
+        "to": "CopyRisk",
+        "relationship": "risks"
+      },
+      {
+        "from": "ReferenceDNA",
+        "to": "LayoutOriginalityGate",
+        "relationship": "audits"
+      },
+      {
+        "from": "LayoutOriginalityGate",
+        "to": "ReferenceLayoutRisk",
+        "relationship": "checks"
+      },
+      {
+        "from": "LayoutOriginalityGate",
+        "to": "AiPairwiseLayoutRisk",
+        "relationship": "checks"
+      },
+      {
+        "from": "LayoutOriginalityGate",
+        "to": "AgentVerdict",
+        "relationship": "blocks_or_repairs"
+      },
+      {
+        "from": "StructuralReconfiguration",
+        "to": "ScaffoldSimilarityRisk",
+        "relationship": "resembles"
+      },
+      {
+        "from": "SectionDepthRisk",
+        "to": "AgentVerdict",
+        "relationship": "blocks"
+      },
+      {
+        "from": "CopyRisk",
+        "to": "AgentVerdict",
+        "relationship": "blocks"
+      },
+      {
+        "from": "MarketplaceValueRisk",
+        "to": "AgentVerdict",
+        "relationship": "risks"
+      },
+      {
+        "from": "RequiredRepair1",
+        "to": "AgentVerdict",
+        "relationship": "repairs"
+      },
+      {
+        "from": "RequiredRepair2",
+        "to": "AgentVerdict",
+        "relationship": "repairs"
+      },
+      {
+        "from": "RequiredRepair3",
+        "to": "AgentVerdict",
+        "relationship": "repairs"
+      },
+      {
+        "from": "RequiredRepair4",
+        "to": "AgentVerdict",
+        "relationship": "repairs"
+      },
+      {
+        "from": "RequiredRepair5",
+        "to": "AgentVerdict",
+        "relationship": "repairs"
+      },
+      {
+        "from": "RequiredRepair6",
+        "to": "AgentVerdict",
+        "relationship": "repairs"
+      },
+      {
+        "from": "RequiredRepair7",
+        "to": "AgentVerdict",
+        "relationship": "repairs"
+      },
+      {
+        "from": "RequiredRepair8",
+        "to": "AgentVerdict",
+        "relationship": "repairs"
+      },
+      {
+        "from": "RecommendedImprovement1",
+        "to": "AgentVerdict",
+        "relationship": "supports"
+      },
+      {
+        "from": "RecommendedImprovement2",
+        "to": "AgentVerdict",
+        "relationship": "supports"
+      }
+    ],
+    "priorFingerprintComparisons": [
+      {
+        "priorIndex": 1,
+        "tokenOverlap": 0.0417,
+        "risk": "low"
+      }
+    ]
+  },
+  "copyRisk": {
+    "hasCopyRisk": false,
+    "evidence": [],
+    "safeAntiCopyEvidence": []
+  },
+  "modeProfile": {
+    "minimumUnits": 9,
+    "required": [
+      "hero",
+      "proof",
+      "service",
+      "process",
+      "testimonial",
+      "cta",
+      "footer"
+    ],
+    "axes": [
+      "section depth",
+      "conversion flow",
+      "proof/trust",
+      "visual richness",
+      "marketplace preview value"
+    ]
+  },
+  "sourcePattern": "Brain Design-native MiroFish-style workflow adaptation; no MiroFish/OASIS runtime.",
+  "generatedAt": "2026-06-01T04:24:17.656710+00:00"
+}

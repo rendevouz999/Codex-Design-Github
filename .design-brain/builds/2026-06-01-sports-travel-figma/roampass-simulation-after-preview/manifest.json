@@ -1,0 +1,45 @@
+{
+  "runId": "20260601-113225-roampass-travel-ticket-figma-website-template-from-tase-style-re-97c86201",
+  "createdAt": "2026-06-01T04:32:25.623540+00:00",
+  "verdict": "REVISE",
+  "agentSource": ".design-brain/design-simulation/agents.json",
+  "artifactDir": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\builds\\2026-06-01-sports-travel-figma\\roampass-simulation-after-preview",
+  "routing": {
+    "inputTask": "RoamPass travel ticket Figma website template from TASE-style reference DNA\nFigma website template\nticket travel booking\ntemplate marketplace buyers and travel booking startups\nbright editorial travel, route-led booking, soft green and sky, practical ticket modules\nFigma template marketplace source file with pack overview\n1. Hero route planner board; 2. Proof trust and partner strip; 3. Service route ticket catalog; 4. Process booking timeline; 5. Destination story panorama; 6. Smart fare comparison service plans; 7. Insurance and support service cards; 8. Testimonial traveler proof wall; 9. Travel package pricing; 10. FAQ travel checklist; 11. CTA final ticket pass tray; 12. Footer navigation and source notes; plus pack overview preview page and separate design system board\nTASE reference shows airy travel ticket marketplace: strong destination headline, green CTA, rounded photo crops, booking/search modules, proof metrics, pricing packages and journey CTA. RoamPass rebuilds this as a route-board/ticket-pass system with a distinct hero, service route catalog, process timeline, testimonial proof, fare decision band, support modules, source hygiene notes, separate design system board, and pack overview preview.",
+    "routeSource": "explicit_cli",
+    "module": "website-template",
+    "mode": "website",
+    "productFamily": "travel-ticket-booking-website",
+    "websiteType": "event/travel/hospitality",
+    "intent": [
+      "reference",
+      "figma_output",
+      "template_product",
+      "medium_product",
+      "review",
+      "preview",
+      "batch"
+    ],
+    "confidence": 1.0,
+    "warnings": [],
+    "rawRouterResult": {}
+  },
+  "cognition": {
+    "status": "PASS",
+    "validationStatus": "PASS",
+    "receiptPath": ".design-brain/builds/2026-06-01-sports-travel-figma/roampass-cognition.json",
+    "missingFields": [],
+    "riskCategories": [],
+    "requiredRepairs": [],
+    "warnings": [],
+    "styleDNA": "typographyBehavior: large friendly sans display with short route labels and compact booking metadata; layoutRhythm: airy travel narrative with route planner, ticket cards, process proof, destinati; spacingDensity: bright",
+    "colorRoleRemapping": "referenceDominantColorIdentity: white travel page with strong green CTA and soft mint cards; referenceColorRoles: white background, black display text, green CTA, pale mint proof cards, and dest; remappedPaletteDirection",
+    "referenceBoundary": "allowedToLearn: travel booking clarity, spacious trust pacing, rounded source panels, green acti; forbiddenToCopy: exact layout, exact color palette, exact section order, same hero grammar, same ; exactLayoutCopied: no; ",
+    "structuralReconfiguration": "referenceStructurePattern: airy hero, metrics, logos, booking section, destination image, pricing, final CT; newStructurePattern: route planner hero, trust strip, popular route tickets, booking timeline, panora; heroGram",
+    "patternDivergence": "divergenceFromReference: new route-board structure, new fare comparison band, new support module, and new; divergenceFromPreviousTemplate: avoids KineticCast dark broadcast console, red signal rail, event-table cadence,;",
+    "sectionLogic": "sectionList: hero route planner board; trust and partner strip; popular route tickets; bookin; roleOfEachSection: first impression, trust, route discovery, process confidence, desire, fare decis; buyerJourneyFlow: unders",
+    "marketplaceReadiness": "sectionDepth: 12 meaningful travel-ticket homepage sections plus a separate design-system boar; premiumSignal: route-led planner, destination panorama, fare comparison band, support card syst; editability: text, route ca",
+    "required": true,
+    "allowMissing": false
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "_example_notice": "Authoring specimen only. No images were searched, downloaded or reviewed for this example. Replace paths, hashes and attestations with actual evidence. This file deliberately cannot PASS as supplied.",
+  "_hash_help": "Use placement_digest(manifest, slot, handoff) and json_digest(image_sources filename record) from scripts/design_brain_pptx_image_review.py. File SHA-256 hashes cover exact local bytes. Evidence paths are relative to images/image_review.json unless absolute.",
+  "schema_version": 2,
+  "deck_id": "project-stable-deck-id",
+  "canvas_inches": {
+    "width": 10,
+    "height": 5.625
+  },
+  "source_manifest": "image_sources.json",
+  "deck": {
+    "path": "<CODEX_DESIGN_WORKSPACE>/output/example-deck/final.pptx",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "slots": [
+    {
+      "slot_id": "sensing-detail",
+      "slide_number": 6,
+      "slide_title": "Measure where decisions happen",
+      "message": "Show the sensor's operating context without competing with the slide copy.",
+      "image_brief": "Close-up of the exact sensor category; technical audience; right-side 4:3 frame; subject on left third; preserve connector and sensing head; no unrelated laboratory stock or logos.",
+      "rounds": [
+        {
+          "round_id": "sensing-detail-engineer-01",
+          "slide_number": 6,
+          "search_owner": "engineer",
+          "provider": "pexels",
+          "query": "industrial sensor detail operating environment",
+          "candidate_ids": [
+            "engineer-01-a",
+            "engineer-01-b"
+          ],
+          "reviewer": "main",
+          "verdict": "reject",
+          "reason": "The proposed subjects are unrelated instruments and cannot support this technical claim; next query must specify the sensor category.",
+          "slide_context_seen": true,
+          "visual_evidence": [
+            {
+              "path": "review/sensing-detail-engineer-01.png",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+          ]
+        },
+        {
+          "round_id": "sensing-detail-engineer-02",
+          "slide_number": 6,
+          "search_owner": "engineer",
+          "provider": "unsplash",
+          "query": "specific sensor category connector close-up",
+          "candidate_ids": [
+            "engineer-02-a"
+          ],
+          "reviewer": "main",
+          "verdict": "reject",
+          "reason": "The subject is closer, but the protected sensing head would be cut by the required frame. Main must now search a different composition.",
+          "slide_context_seen": true,
+          "visual_evidence": [
+            {
+              "path": "review/sensing-detail-engineer-02.png",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+          ]
+        },
+        {
+          "round_id": "sensing-detail-main-01",
+          "slide_number": 6,
+          "search_owner": "main",
+          "provider": "public-web",
+          "query": "exact sensor category source close-up left-third composition",
+          "candidate_ids": [
+            "main-01-a"
+          ],
+          "reviewer": "main",
+          "verdict": "accept",
+          "reason": "Replace this specimen attestation with Main's actual subject, composition, resolution and slide-context findings.",
+          "slide_context_seen": true,
+          "selected_candidate_id": "main-01-a",
+          "asset_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "placement_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "visual_evidence": [
+            {
+              "path": "review/sensing-detail-main-01-context.png",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+          ],
+          "fit_review": {
+            "tone": {
+              "verdict": "pass",
+              "reason": "Replace with actual Main evidence for current tone fit; this example is not reviewed."
+            },
+            "content": {
+              "verdict": "pass",
+              "reason": "Replace with actual Main evidence for current content fit; this example is not reviewed."
+            },
+            "purpose": {
+              "verdict": "pass",
+              "reason": "Replace with actual Main evidence for current purpose fit; this example is not reviewed."
+            }
+          }
+        }
+      ],
+      "rendering_defects": [],
+      "handoff": {
+        "reviewer": "main",
+        "reason": "The selected subject supports the slide's technical explanation at this frame and crop.",
+        "round_id": "sensing-detail-main-01",
+        "candidate_id": "main-01-a",
+        "slide_number": 6,
+        "asset": {
+          "path": "<CODEX_DESIGN_WORKSPACE>/output/example-deck/images/sensing-detail.jpg",
+          "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "source_filename": "sensing-detail.jpg",
+        "placement_inches": {
+          "x": 5.5,
+          "y": 1.3,
+          "width": 4.0,
+          "height": 3.0
+        },
+        "crop_fit": "fill",
+        "focal_crop_direction": "Preserve the sensor at the left-third focal point.",
+        "protected_subject_areas": "Keep the complete sensing head and connector visible.",
+        "text_safe_area": "Keep all explanatory text outside the picture frame.",
+        "semantic_role": "Show the sensor's physical operating context.",
+        "alt_text": "Close-up of the specified sensor in its operating environment.",
+        "replacement_instructions": "Use PowerPoint Change Picture on the native picture; retain frame and crop intent. Source/credit details remain in image_sources.json.",
+        "provenance_review": {
+          "reviewer": "main",
+          "decision": "approved",
+          "intended_use": "editable-commercial-template",
+          "reason": "Replace this with Main's evidenced decision on the current source page and terms, intended template use, attribution and raw-original redistribution limits.",
+          "source_record_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "license_evidence": [
+            {
+              "path": "review/sensing-detail-source-and-license.txt",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+          ]
+        }
+      },
+      "final_review": {
+        "reviewer": "main",
+        "verdict": "pass",
+        "reason": "Replace this with Main's rendered-slide findings for subject, crop, readability, consistency, required credits and replaceability.",
+        "round_id": "sensing-detail-main-01",
+        "candidate_id": "main-01-a",
+        "slide_number": 6,
+        "asset_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "placement_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "deck_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "screenshot": {
+          "path": "review/slide-006-final.png",
+          "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "native_picture_editable": true,
+        "native_picture_evidence": [
+          {
+            "path": "review/slide-006-native-picture-qa.txt",
+            "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+          }
+        ]
+      }
+    }
+  ],
+  "deck_purpose": "Explain how the specified sensor supports field decisions",
+  "visual_tone": "Precise, credible technical documentary photography"
+}

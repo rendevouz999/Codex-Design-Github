@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Brain Design Runtime Command Registry",
+  "type": "object",
+  "required": ["commands"],
+  "properties": {
+    "commands": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["command", "purpose", "permissionMode", "runtimeAction"],
+        "properties": {
+          "command": {"type": "string"},
+          "purpose": {"type": "string"},
+          "permissionMode": {"type": "string"},
+          "runtimeAction": {"type": "string"},
+          "requiredStages": {"type": "array", "items": {"type": "string"}},
+          "tool": {"type": "string"},
+          "blocking": {"type": "boolean"}
+        }
+      }
+    }
+  }
+}

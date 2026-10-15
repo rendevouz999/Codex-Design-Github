@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "design-brain.design-subagents.agents.v1",
+  "title": "Brain Design Subagent Definitions",
+  "type": "object",
+  "required": ["schema", "version", "modes", "agents"],
+  "properties": {
+    "schema": {
+      "const": "design-brain.design-subagents.agents.v1"
+    },
+    "version": {
+      "type": "string"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "statusValues": {
+      "type": "array",
+      "items": {
+        "enum": ["PASS", "REVISE_REQUIRED", "BLOCK"]
+      }
+    },
+    "blockingAuthorityValues": {
+      "type": "array",
+      "items": {
+        "enum": ["none", "revise", "required-block"]
+      }
+    },
+    "modes": {
+      "type": "object",
+      "required": ["full", "standard", "lightweight"],
+      "properties": {
+        "full": {
+          "$ref": "#/$defs/mode"
+        },
+        "standard": {
+          "$ref": "#/$defs/mode"
+        },
+        "lightweight": {
+          "$ref": "#/$defs/mode"
+        }
+      }
+    },
+    "agents": {
+      "type": "array",
+      "minItems": 12,
+      "items": {
+        "$ref": "#/$defs/agent"
+      }
+    }
+  },
+  "$defs": {
+    "mode": {
+      "type": "object",
+      "required": ["description", "requiredAgentIds"],
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "requiredAgentIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "conditionalAgentIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "agent": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "role",
+        "phase",
+        "focus",
+        "requiredInputs",
+        "requiredOutputs",
+        "evaluation_axes",
+        "blockingAuthority",
+        "critical",
+        "blockingRules",
+        "vote_rules"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9_]+$"
+        },
+        "name": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "phase": {
+          "enum": ["prebuild", "planning", "build", "postbuild", "final"]
+        },
+        "focus": {
+          "type": "string"
+        },
+        "requiredInputs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "requiredOutputs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "evaluation_axes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "blockingAuthority": {
+          "enum": ["none", "revise", "required-block"]
+        },
+        "critical": {
+          "type": "boolean"
+        },
+        "blockingRules": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "vote_rules": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

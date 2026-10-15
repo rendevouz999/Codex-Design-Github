@@ -1,0 +1,123 @@
+{
+  "patternId": "checkpoint-005-hero-monochrome-sculptural-futuristic-tech-hero",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\chize-futuristic-technology-website-2024-10-18-17-49-18-utc - Chize - Futuristic Technology Website - 81aecb19.png"
+  ],
+  "productFamilies": [
+    "technology",
+    "futuristic",
+    "ai",
+    "industrial"
+  ],
+  "commercialPurpose": "Open a futuristic technology template with monochrome sculptural matter and enterprise seriousness.",
+  "purposeLayer": "Hero creates advanced-tech authority through grayscale 3D forms, dense metrics, and restrained dark hierarchy.",
+  "anatomyLayer": "Black nav, large industry headline, grayscale sculptural object, metric rail, short copy blocks, and CTA/proof modules.",
+  "hierarchyLayer": "Sculptural object and headline first, metric rail second, CTA/detail blocks third.",
+  "gridRhythmLayer": "Black hero with grayscale abstract object mass and controlled metric/copy rails.",
+  "densityLimitLayer": "Use section density limit: {\"primaryMessage\": 1, \"cta\": \"1-2\", \"proofCue\": \"0-1 controlled cue\", \"mediaSystem\": 1}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, product photos, or page order.",
+  "usageRuleLayer": "Use for industrial tech, AI, research, biotech, future systems, and enterprise innovation templates.",
+  "layoutGesture": "monochrome sculptural tech hero with metric rail",
+  "sectionSilhouette": "black page top where gray 3D matter fills one side and text/metrics occupy the other",
+  "compositionTension": "organic grayscale form adds sophistication without neon spectacle",
+  "focalPath": "sculptural object to headline to metric rail to CTA",
+  "negativeSpaceShape": "black void around gray form and sparse text creates enterprise restraint",
+  "depthLayering": "black base, grayscale 3D object, thin metric rails, minimal button/card layers",
+  "moduleScaleVariation": "large abstract form contrasted with small metric/copy rows",
+  "breakoutBehavior": "3D form crops and overlaps the page edge as a visual signature",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1-2",
+    "proofCue": "0-1 controlled cue",
+    "mediaSystem": 1
+  },
+  "antiCopyBoundary": "Do not copy Chize brand, exact grayscale forms, metric values, or page sequence.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "features",
+      "stats-proof",
+      "testimonials"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 005 contact sheet",
+    "reviewNotes": "Checkpoint 005 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "hero:195cfd2feb4162d3",
+    "hash": "195cfd2feb4162d3f2196594a8794e2f951abc8b",
+    "axes": {
+      "layoutGesture": "monochrome sculptural tech hero with metric rail",
+      "sectionSilhouette": "black page top where gray 3d matter fills one side and text/metrics occupy the other",
+      "anatomyLayer": "black nav, large industry headline, grayscale sculptural object, metric rail, short copy blocks, and cta/proof modules.",
+      "hierarchyLayer": "sculptural object and headline first, metric rail second, cta/detail blocks third.",
+      "gridRhythmLayer": "black hero with grayscale abstract object mass and controlled metric/copy rails.",
+      "focalPath": "sculptural object to headline to metric rail to cta",
+      "compositionTension": "organic grayscale form adds sophistication without neon spectacle",
+      "negativeSpaceShape": "black void around gray form and sparse text creates enterprise restraint",
+      "moduleScaleVariation": "large abstract form contrasted with small metric/copy rows",
+      "breakoutBehavior": "3d form crops and overlaps the page edge as a visual signature",
+      "contentLimits": "{\"cta\":\"1-2\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"0-1 controlled cue\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.3295,
+  "matchGroupId": "hero:195cfd2feb4162d3",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:25:28Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 25,
+    "bestMatch": {
+      "score": 0.3295,
+      "axisScores": {
+        "layoutGesture": 0.1429,
+        "sectionSilhouette": 0.1071,
+        "anatomyLayer": 0.2069,
+        "hierarchyLayer": 0.4375,
+        "gridRhythmLayer": 0.3889,
+        "focalPath": 0.5556,
+        "compositionTension": 0.0625,
+        "negativeSpaceShape": 0.1667,
+        "moduleScaleVariation": 0.4615,
+        "breakoutBehavior": 0.0952,
+        "contentLimits": 1.0
+      },
+      "patternId": "checkpoint-004-hero-ai-black-grid-abstract-object-hero",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-004-hero-ai-black-grid-abstract-object-hero.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Brain Design Runtime Hook Config",
+  "type": "object",
+  "properties": {
+    "hooks": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {"type": "string"}
+      }
+    }
+  },
+  "additionalProperties": {
+    "type": "array",
+    "items": {"type": "string"}
+  }
+}

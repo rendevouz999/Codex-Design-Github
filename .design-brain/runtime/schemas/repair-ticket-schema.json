@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Brain Design Runtime Repair Ticket",
+  "type": "object",
+  "required": [
+    "ticketId",
+    "sourceGate",
+    "templateId",
+    "issue",
+    "severity",
+    "requiredRepair",
+    "status",
+    "createdAt",
+    "closedAt",
+    "rerunGateRequired"
+  ],
+  "properties": {
+    "ticketId": {"type": "string"},
+    "sessionId": {"type": "string"},
+    "sourceGate": {"type": "string"},
+    "templateId": {"type": "string"},
+    "issue": {"type": "string"},
+    "severity": {"enum": ["info", "warning", "critical"]},
+    "requiredRepair": {"type": "string"},
+    "suggestedAction": {"type": "string"},
+    "status": {"enum": ["open", "assigned", "repaired", "rerun_gate", "closed", "blocked", "needs_user_input"]},
+    "createdAt": {"type": "string"},
+    "updatedAt": {"type": "string"},
+    "closedAt": {"type": ["string", "null"]},
+    "rerunGateRequired": {"type": "boolean"}
+  }
+}

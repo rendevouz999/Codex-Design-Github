@@ -1,0 +1,6 @@
+{
+  "nativeTerms": ["ppt", "pptx", "powerpoint"],
+  "browserTerms": ["html", "browser", "web deck", "deck web", "web presentation", "presentasi web", "slide web", "ke web", "to web", "jadi web", "menjadi web", "into web"],
+  "toNativePattern": "(?:to|ke|into|menjadi|jadi|as|sebagai)\\s+(?:an?\\s+)?(?:editable\\s+)?(?:pptx|ppt|powerpoint)\\b",
+  "dualPattern": "(?:pptx|ppt|powerpoint)\\s*(?:dan|and|serta|plus|&)\\s*(?:html|web)|(?:html|web)\\s*(?:dan|and|serta|plus|&)\\s*(?:pptx|ppt|powerpoint)"
+}

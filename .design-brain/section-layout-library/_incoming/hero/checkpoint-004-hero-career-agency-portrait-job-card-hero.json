@@ -1,0 +1,123 @@
+{
+  "patternId": "checkpoint-004-hero-career-agency-portrait-job-card-hero",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\board-job-career-agency-website-2025-04-08-01-06-29-utc - Board - Job Career & Agency Website - a8e43662.png"
+  ],
+  "productFamilies": [
+    "career",
+    "recruiting",
+    "agency",
+    "jobs"
+  ],
+  "commercialPurpose": "Open a recruiting/career agency template with immediate human placement proof and job-card affordances.",
+  "purposeLayer": "Hero frames career growth as a human outcome while floating job cards show platform utility.",
+  "anatomyLayer": "Teal nav, left headline and CTA pair, right professional portrait, floating job/rating cards, stats, and small category cues.",
+  "hierarchyLayer": "Portrait and headline share first focus, floating job cards second, CTA/stats third.",
+  "gridRhythmLayer": "Recruiting hero split between career copy, professional portrait, and floating job proof cards.",
+  "densityLimitLayer": "Use section density limit: {\"primaryMessage\": 1, \"cta\": \"1-2\", \"proofCue\": \"0-1 controlled cue\", \"mediaSystem\": 1}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, or section order.",
+  "usageRuleLayer": "Use for recruiting, staffing, career coaching, HR SaaS, education placement, and talent marketplaces.",
+  "layoutGesture": "career agency portrait hero with floating job cards",
+  "sectionSilhouette": "light teal masthead with text column and portrait media surrounded by employment cards",
+  "compositionTension": "human confidence balances platform/job marketplace utility",
+  "focalPath": "portrait to headline to job cards to CTA pair to stats",
+  "negativeSpaceShape": "soft teal open fields around the person and floating cards",
+  "depthLayering": "colored background, portrait cutout, white job cards, accent CTA chips",
+  "moduleScaleVariation": "large person image against small job cards and compact stats",
+  "breakoutBehavior": "job cards float around the portrait outside a strict split layout",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1-2",
+    "proofCue": "0-1 controlled cue",
+    "mediaSystem": 1
+  },
+  "antiCopyBoundary": "Do not copy Board branding, portrait, job card content, teal palette, or exact CTA labels.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "features",
+      "services",
+      "stats-proof"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 004 contact sheet",
+    "reviewNotes": "Checkpoint 004 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "hero:0651a988e6f69a79",
+    "hash": "0651a988e6f69a7983d157c382dfeb82b0089187",
+    "axes": {
+      "layoutGesture": "career agency portrait hero with floating job cards",
+      "sectionSilhouette": "light teal masthead with text column and portrait media surrounded by employment cards",
+      "anatomyLayer": "teal nav, left headline and cta pair, right professional portrait, floating job/rating cards, stats, and small category cues.",
+      "hierarchyLayer": "portrait and headline share first focus, floating job cards second, cta/stats third.",
+      "gridRhythmLayer": "recruiting hero split between career copy, professional portrait, and floating job proof cards.",
+      "focalPath": "portrait to headline to job cards to cta pair to stats",
+      "compositionTension": "human confidence balances platform/job marketplace utility",
+      "negativeSpaceShape": "soft teal open fields around the person and floating cards",
+      "moduleScaleVariation": "large person image against small job cards and compact stats",
+      "breakoutBehavior": "job cards float around the portrait outside a strict split layout",
+      "contentLimits": "{\"cta\":\"1-2\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"0-1 controlled cue\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.2859,
+  "matchGroupId": "hero:0651a988e6f69a79",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:16:27Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 14,
+    "bestMatch": {
+      "score": 0.2859,
+      "axisScores": {
+        "layoutGesture": 0.4545,
+        "sectionSilhouette": 0.2222,
+        "anatomyLayer": 0.2333,
+        "hierarchyLayer": 0.5882,
+        "gridRhythmLayer": 0.2083,
+        "focalPath": 0.4167,
+        "compositionTension": 0.0714,
+        "negativeSpaceShape": 0.125,
+        "moduleScaleVariation": 0.2,
+        "breakoutBehavior": 0.125,
+        "contentLimits": 0.5
+      },
+      "patternId": "checkpoint-003-hero-ai-portrait-kpi-floating-cards",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-003-hero-ai-portrait-kpi-floating-cards.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

@@ -1,0 +1,343 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "design-brain.design-simulation.verdict.v2",
+  "title": "Design Brain Design Simulation Verdict",
+  "type": "object",
+  "required": [
+    "schema",
+    "version",
+    "runId",
+    "artifactDir",
+    "verdict",
+    "status",
+    "confidence",
+    "productFamily",
+    "mode",
+    "scores",
+    "blockers",
+    "requiredRepairs",
+    "recommendedImprovements",
+    "routing",
+    "cognition",
+    "layoutOriginality",
+    "layoutOriginalityStatus",
+    "referenceLayoutRisk",
+    "aiPairwiseLayoutRisk",
+    "requiredLayoutRepairs",
+    "agentVotes",
+    "agentSource",
+    "agentCount",
+    "manifestPath",
+    "reportPath",
+    "verdictPath",
+    "designContextGraph",
+    "copyRisk",
+    "sourcePattern",
+    "generatedAt"
+  ],
+  "properties": {
+    "schema": {
+      "const": "design-brain.design-simulation.verdict.v2"
+    },
+    "version": {
+      "const": "2.5.0"
+    },
+    "runId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "artifactDir": {
+      "type": "string",
+      "minLength": 1
+    },
+    "verdict": {
+      "enum": [
+        "PASS",
+        "REVISE",
+        "BLOCKED"
+      ]
+    },
+    "status": {
+      "enum": [
+        "PASS",
+        "REVISE",
+        "BLOCKED"
+      ]
+    },
+    "confidence": {
+      "type": "number"
+    },
+    "productFamily": {
+      "type": "string"
+    },
+    "mode": {
+      "type": "string"
+    },
+    "scores": {
+      "type": "object"
+    },
+    "blockers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "requiredRepairs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recommendedImprovements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "routing": {
+      "type": "object",
+      "required": [
+        "inputTask",
+        "routeSource",
+        "module",
+        "mode",
+        "productFamily",
+        "websiteType",
+        "intent",
+        "confidence",
+        "warnings",
+        "rawRouterResult"
+      ],
+      "properties": {
+        "inputTask": {
+          "type": "string"
+        },
+        "routeSource": {
+          "enum": [
+            "explicit_cli",
+            "brain_design_router",
+            "fallback"
+          ]
+        },
+        "module": {
+          "type": "string"
+        },
+        "mode": {
+          "type": "string"
+        },
+        "productFamily": {
+          "type": "string"
+        },
+        "websiteType": {
+          "type": "string"
+        },
+        "intent": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "confidence": {
+          "type": "number"
+        },
+        "warnings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "rawRouterResult": {
+          "type": "object"
+        }
+      }
+    },
+    "cognition": {
+      "type": "object",
+      "required": [
+        "status",
+        "receiptPath",
+        "validationStatus",
+        "missingFields",
+        "riskCategories",
+        "requiredRepairs",
+        "warnings",
+        "colorRoleRemapping",
+        "referenceBoundary",
+        "structuralReconfiguration",
+        "patternDivergence",
+        "sectionLogic",
+        "marketplaceReadiness"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "PASS",
+            "FAIL",
+            "not_provided"
+          ]
+        },
+        "receiptPath": {
+          "type": "string"
+        },
+        "validationStatus": {
+          "type": "string"
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "allowMissing": {
+          "type": "boolean"
+        },
+        "missingFields": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "riskCategories": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "requiredRepairs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "warnings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "styleDNA": {
+          "type": "string"
+        },
+        "colorRoleRemapping": {
+          "type": "string"
+        },
+        "referenceBoundary": {
+          "type": "string"
+        },
+        "structuralReconfiguration": {
+          "type": "string"
+        },
+        "patternDivergence": {
+          "type": "string"
+        },
+        "sectionLogic": {
+          "type": "string"
+        },
+        "marketplaceReadiness": {
+          "type": "string"
+        }
+      }
+    },
+    "layoutOriginality": {
+      "type": "object",
+      "required": [
+        "layoutOriginalityStatus",
+        "referenceLayoutRisk",
+        "aiPairwiseLayoutRisk",
+        "requiredLayoutRepairs"
+      ],
+      "properties": {
+        "layoutOriginalityStatus": {
+          "enum": [
+            "PASS",
+            "REVISE_REQUIRED",
+            "BLOCKED",
+            "not_provided"
+          ]
+        },
+        "referenceLayoutRisk": {
+          "type": "string"
+        },
+        "aiPairwiseLayoutRisk": {
+          "type": "string"
+        },
+        "referenceAudit": {
+          "type": "object"
+        },
+        "aiPairwiseAudit": {
+          "type": "object"
+        },
+        "requiredLayoutRepairs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "warnings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "layoutOriginalityStatus": {
+      "type": "string"
+    },
+    "referenceLayoutRisk": {
+      "type": "string"
+    },
+    "aiPairwiseLayoutRisk": {
+      "type": "string"
+    },
+    "requiredLayoutRepairs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "agentVotes": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "agentSource": {
+      "type": "string"
+    },
+    "agentCount": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "manifestPath": {
+      "type": "string"
+    },
+    "reportPath": {
+      "type": "string"
+    },
+    "verdictPath": {
+      "type": "string"
+    },
+    "designContextGraph": {
+      "type": "object",
+      "required": [
+        "nodes",
+        "edges"
+      ],
+      "properties": {
+        "nodes": {
+          "type": "array"
+        },
+        "edges": {
+          "type": "array"
+        }
+      }
+    },
+    "copyRisk": {
+      "type": "object"
+    },
+    "sourcePattern": {
+      "type": "string"
+    },
+    "generatedAt": {
+      "type": "string"
+    }
+  }
+}

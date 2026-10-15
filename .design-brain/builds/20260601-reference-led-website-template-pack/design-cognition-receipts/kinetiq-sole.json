@@ -1,0 +1,114 @@
+{
+  "task": "Reference-led Figma website template from Sneaky shoes ecommerce PNG",
+  "productFamily": "sneaker ecommerce website",
+  "mode": "website",
+  "referenceSource": "sneaky-shoes-sneakers-ecommerce-png",
+  "batchItem": "3",
+  "routeSource": "brain_design_router",
+  "brandReferenceUsage": {
+    "candidateBrandName": "Kinetiq Sole",
+    "referenceUsageMode": "single",
+    "referenceGroupKey": "sneaky-shoes-sneakers-ecommerce-png",
+    "referenceIds": ["sneaky-shoes-sneakers-ecommerce-png"],
+    "gateStatus": "PASS",
+    "whyAllowedByMemory": "reference usage gate passed; Sneaky brand is not reused"
+  },
+  "styleDNA": {
+    "typographyBehavior": "bold athletic display with compact product, price, and performance labels",
+    "layoutRhythm": "kinetic commerce opening, product launch wall, category panels, shop grid, promo bands, performance proof, and dark footer",
+    "spacingDensity": "fast high-contrast hero balanced by dense catalog and proof modules",
+    "colorBehavior": "dark sport base, high-energy action accent, bright product signals, and white shop surfaces",
+    "imageDirection": "sneaker hero, product angle, athlete action, category, and promo placeholders",
+    "shapeLanguage": "slanted panels, race-stripe dividers, sharp cards, and energetic badges",
+    "effectLanguage": "dark overlays, bright action glow, product-stage depth, and motion stripe layers",
+    "premiumSignal": "sports-commerce modules for fit finder, launch wall, product grid, performance comparison, deals, community, and loyalty"
+  },
+  "referenceStandard": {
+    "observedSectionCountRange": "the reference is a long ecommerce homepage with 9-11 product and promo sections",
+    "sectionRoleEvidence": "navigation, hero with stats, popular products, category panels, all-products grid, promo, lifestyle story, weekly deals, CTA, and footer",
+    "layoutShapeInventory": "split hero, product cards, dark category panels, shop grid, promo overlays, lifestyle split, deal cards, bright final CTA, dark footer",
+    "colorRoleInventory": "light background, dark text/panels, neon green action/accent, white product cards, image overlays, dark footer",
+    "effectGradientInventory": "image scrims, dark promo overlays, product shadows, neon action contrast, and large CTA block",
+    "marketplaceCompletenessClues": "sneaker ecommerce needs product grid, category discovery, promo, fit/performance proof, deals, social/community, and cart/trust modules",
+    "remixPlan": "learn energetic commerce and product-proof rhythm while changing hero grammar, diagonal motion system, palette role map, and closure silhouette",
+    "minimalistFallbackRejected": true
+  },
+  "designIntentLock": {
+    "productType": "editable sneaker ecommerce website template",
+    "outputMedium": "Figma source template",
+    "targetBuyer": "marketplace buyers for sneaker, sportswear, and streetwear stores",
+    "useCase": "high-energy product ecommerce homepage with reusable shop modules",
+    "marketplaceValue": "complete sneaker shop source with launch, fit finder, product grid, performance comparison, promos, loyalty, and footer",
+    "primaryGoal": "sell a kinetic sneaker commerce template without copying Sneaky's hero split or neon role mapping"
+  },
+  "visualGrammar": {
+    "gridBehavior": "diagonal sport grid with product-stage breakout and dense shop modules",
+    "spacingCadence": "high impact hero, tight launch wall, larger category panels, dense grid, then dark loyalty closure",
+    "typeHierarchy": "compressed athletic display, bold uppercase section heads, compact product metadata, price/action labels",
+    "surfaceDepth": "dark console panels, elevated product tiles, inset comparison rows, and glowing action badges",
+    "colorRoles": "graphite base, off-white shop surface, volt action, cobalt performance signal, smoke border, white text",
+    "imageTreatment": "placeholder slots staged as sneaker product angles, athlete motion crops, and product detail tiles",
+    "effectLogic": "motion stripes, dark overlays, and bright action glow make buying energy and product speed visible",
+    "componentRhythm": "fit chips, product cards, category panels, comparison rows, promo cards, loyalty bar, footer newsletter"
+  },
+  "referenceBoundary": {
+    "allowedToLearn": "sport ecommerce energy, stats-before-products logic, category and promo depth, and neon action function",
+    "forbiddenToCopy": "exact layout, exact color palette, exact section order, hero grammar, shoe placement, component grouping, product card sequence, promo section, CTA block, and footer composition",
+    "exactLayoutCopied": "no",
+    "exactPaletteCopied": "no",
+    "exactSectionOrderCopied": "no",
+    "heroGrammarCopied": "no",
+    "componentScaffoldCopied": "no"
+  },
+  "colorRoleRemapping": {
+    "referenceDominantColorIdentity": "neon green on pale sport background",
+    "referenceColorRoles": "lime action, black text/panels, white cards, image overlay",
+    "remappedPaletteDirection": "graphite, off-white, volt yellow-green action, cobalt sport signal, and smoke gray",
+    "newAccentIdentity": "volt action paired with cobalt performance annotations",
+    "preservedEmotionalRole": "speed, urgency, and sporty contrast remain without copying exact lime-only identity",
+    "avoidedExactHues": "single lime-green dominance avoided through cobalt/graphite role split",
+    "contrastHierarchyBehavior": "dark panels carry performance, off-white surfaces carry shop browsing, volt drives purchase action"
+  },
+  "visualMoodReinterpretation": {
+    "referenceMood": "bold sporty ecommerce with energetic neon and product focus",
+    "reinterpretedMood": "velocity-lab sneaker shop with race-stripe motion and performance proof",
+    "changedComposition": "diagonal velocity hero and launch wall replace the reference split shoe hero",
+    "changedHierarchy": "fit finder and launch products lead before category and comparison modules",
+    "changedAssetTreatment": "all product/athlete visuals become replaceable sneaker placeholder stages",
+    "changedDepthEffect": "motion stripe glow and dark console panels replace the reference simple neon blocks"
+  },
+  "structuralReconfiguration": {
+    "referenceStructurePattern": "split hero, popular products, category panels, grid, promos, lifestyle split, deals, CTA, footer",
+    "newStructurePattern": "velocity hero, fit finder, launch wall, category lanes, shop grid, performance comparison, drop calendar, community proof, weekly deals, loyalty command bar, footer",
+    "heroGrammarChange": "diagonal product-stage hero with performance command rail instead of split text/product hero",
+    "sectionOrderChange": "fit finder and launch wall precede category lanes and comparison proof",
+    "gridSystemChange": "diagonal sport grid and console rows replace centered ecommerce stacks",
+    "ctaFlowChange": "shop and fit actions appear in hero, product cards, drop calendar, and loyalty command bar",
+    "componentLayoutChange": "fit chips, comparison table, drop calendar, and loyalty bar replace generic product-only cadence"
+  },
+  "patternDivergence": {
+    "divergenceFromReference": "new diagonal hero, section order, comparison module, cobalt/volt role split, and command-bar closure",
+    "divergenceFromPreviousTemplate": "avoids consulting ledger/spine and decor shelf/room recipe language; uses sport console, diagonal panels, and product launch rhythm",
+    "heroDivergence": "velocity stage with diagonal band and performance rail",
+    "sectionRhythmDivergence": "fit finder, launch wall, category lanes, shop grid, comparison, drop calendar, deals, command bar",
+    "visualLanguageDivergence": "graphite/volt/cobalt kinetic system instead of sage/clay decor or teal/amber advisory",
+    "componentCadenceDivergence": "product commerce and sport performance modules replace decor shelves and consulting proof modules"
+  },
+  "sectionLogic": {
+    "sectionList": ["header", "velocity hero", "fit finder", "launch wall", "category lanes", "shop grid", "performance comparison", "drop calendar", "community proof", "weekly deals", "loyalty command bar", "footer"],
+    "roleOfEachSection": "orientation, desire, fit personalization, product launch, category discovery, shopping, proof, urgency, social proof, offer, retention, and navigation closure",
+    "buyerJourneyFlow": "feel the energy, choose fit, inspect launches, shop products, compare performance, catch drops, trust community, and convert",
+    "fillerSectionsRemoved": "no filler; every section supports sneaker shopping or marketplace source reuse",
+    "productFamilyDepthStandard": "12-section sneaker ecommerce homepage with products, categories, proof, promos, community, and loyalty"
+  },
+  "marketplaceReadiness": {
+    "sectionDepth": "12 meaningful sections",
+    "premiumSignal": "kinetic sport composition, ecommerce product coverage, performance comparison, promo calendar, and source-ready states",
+    "editability": "auto-layout product modules, product placeholders, states, design system board, and named layers planned",
+    "sourceReadiness": "Figma source uses auto-layout, product card components, cart/action states, placeholder guide, and responsive notes",
+    "previewValue": "hero, product wall, shop grid, performance table, deals, and design-system specimens can sell breadth",
+    "commercialUsefulness": "buyers can adapt launches, products, categories, pricing, deals, community, and loyalty flows",
+    "nonGenericProof": "not a generic shop grid; it includes fit finder, launch wall, performance comparison, drop calendar, and loyalty command bar"
+  },
+  "status": "PASS"
+}

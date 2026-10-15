@@ -1,0 +1,155 @@
+{
+  "schema": "design-brain.design-subagents.orchestration-receipt.v1",
+  "version": "1.0.0",
+  "runId": "kineticcast-sports-streaming-figma-website-template-from-referen-20260601040803",
+  "mode": "standard",
+  "finalGate": false,
+  "task": "KineticCast sports streaming Figma website template from reference",
+  "templateType": "Figma website template",
+  "niche": "live sports streaming",
+  "targetBuyer": "template marketplace buyers and sports streaming startups",
+  "status": "REVISE_REQUIRED",
+  "activeAgents": [
+    "brand_reference_memory_guardian",
+    "reference_visual_analyst",
+    "style_dna_extractor",
+    "template_product_architect",
+    "design_system_director",
+    "visual_qa_inspector",
+    "marketplace_readiness_judge"
+  ],
+  "agentStatuses": [
+    {
+      "agentId": "brand_reference_memory_guardian",
+      "name": "Brand & Reference Memory Guardian",
+      "phase": "prebuild",
+      "critical": true,
+      "blockingAuthority": "required-block",
+      "status": "REVISE_REQUIRED",
+      "missingOutputs": [
+        "reference-usage-check.json",
+        "reference-usage-record.json",
+        "brand-name-check.json"
+      ],
+      "evidence": [],
+      "blockingReasons": []
+    },
+    {
+      "agentId": "reference_visual_analyst",
+      "name": "Reference Visual Analyst",
+      "phase": "prebuild",
+      "critical": true,
+      "blockingAuthority": "revise",
+      "status": "REVISE_REQUIRED",
+      "missingOutputs": [
+        "reference-analysis.md",
+        "reference-visual-analysis.json"
+      ],
+      "evidence": [],
+      "blockingReasons": []
+    },
+    {
+      "agentId": "style_dna_extractor",
+      "name": "Style DNA Extractor",
+      "phase": "prebuild",
+      "critical": true,
+      "blockingAuthority": "required-block",
+      "status": "REVISE_REQUIRED",
+      "missingOutputs": [
+        "style-dna.json",
+        "style-dna.md",
+        "do-not-copy-boundary.md"
+      ],
+      "evidence": [],
+      "blockingReasons": []
+    },
+    {
+      "agentId": "template_product_architect",
+      "name": "Template Product Architect",
+      "phase": "planning",
+      "critical": true,
+      "blockingAuthority": "revise",
+      "status": "REVISE_REQUIRED",
+      "missingOutputs": [
+        "template-product-architecture.md",
+        "template-product-architecture.json"
+      ],
+      "evidence": [],
+      "blockingReasons": []
+    },
+    {
+      "agentId": "design_system_director",
+      "name": "Design System Director",
+      "phase": "planning",
+      "critical": true,
+      "blockingAuthority": "required-block",
+      "status": "REVISE_REQUIRED",
+      "missingOutputs": [
+        "design-system-plan.md",
+        "design-system-depth-check.json"
+      ],
+      "evidence": [],
+      "blockingReasons": []
+    },
+    {
+      "agentId": "visual_qa_inspector",
+      "name": "Visual QA Inspector",
+      "phase": "postbuild",
+      "critical": true,
+      "blockingAuthority": "required-block",
+      "status": "REVISE_REQUIRED",
+      "missingOutputs": [
+        "visual-qa-report.md",
+        "visual-qa-report.json"
+      ],
+      "evidence": [],
+      "blockingReasons": []
+    },
+    {
+      "agentId": "marketplace_readiness_judge",
+      "name": "Marketplace Readiness Judge",
+      "phase": "final",
+      "critical": true,
+      "blockingAuthority": "required-block",
+      "status": "REVISE_REQUIRED",
+      "missingOutputs": [
+        "marketplace-readiness-verdict.json",
+        "marketplace-readiness-verdict.md"
+      ],
+      "evidence": [],
+      "blockingReasons": []
+    }
+  ],
+  "missingCriticalEvidence": [
+    "brand_reference_memory_guardian/brand-name-check.json",
+    "brand_reference_memory_guardian/reference-usage-check.json",
+    "brand_reference_memory_guardian/reference-usage-record.json",
+    "design_system_director/design-system-depth-check.json",
+    "design_system_director/design-system-plan.md",
+    "marketplace_readiness_judge/marketplace-readiness-verdict.json",
+    "marketplace_readiness_judge/marketplace-readiness-verdict.md",
+    "reference_visual_analyst/reference-analysis.md",
+    "reference_visual_analyst/reference-visual-analysis.json",
+    "style_dna_extractor/do-not-copy-boundary.md",
+    "style_dna_extractor/style-dna.json",
+    "style_dna_extractor/style-dna.md",
+    "template_product_architect/template-product-architecture.json",
+    "template_product_architect/template-product-architecture.md",
+    "visual_qa_inspector/visual-qa-report.json",
+    "visual_qa_inspector/visual-qa-report.md"
+  ],
+  "blockingReasons": [],
+  "requiredRepairs": [
+    "Complete Brand & Reference Memory Guardian outputs: reference-usage-check.json, reference-usage-record.json, brand-name-check.json",
+    "Complete Design System Director outputs: design-system-plan.md, design-system-depth-check.json",
+    "Complete Marketplace Readiness Judge outputs: marketplace-readiness-verdict.json, marketplace-readiness-verdict.md",
+    "Complete Reference Visual Analyst outputs: reference-analysis.md, reference-visual-analysis.json",
+    "Complete Style DNA Extractor outputs: style-dna.json, style-dna.md, do-not-copy-boundary.md",
+    "Complete Template Product Architect outputs: template-product-architecture.md, template-product-architecture.json",
+    "Complete Visual QA Inspector outputs: visual-qa-report.md, visual-qa-report.json"
+  ],
+  "semanticValidationEnabled": false,
+  "semanticValidation": null,
+  "agentSource": ".design-brain/design-subagents/agents.json",
+  "generatedAt": "2026-06-01T04:08:03.152856+00:00"
+}

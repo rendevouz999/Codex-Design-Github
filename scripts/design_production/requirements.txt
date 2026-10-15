@@ -1,0 +1,2 @@
+# Official Agents SDK; local-only environment, no API call during installation.
+openai-agents==0.23.1

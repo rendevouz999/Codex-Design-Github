@@ -1,0 +1,43 @@
+{
+  "templateId": "qryon-labs-quantum-saas-website",
+  "figmaFileKey": "l9mO0YeU3ilWPCzR2RJPuu",
+  "figmaUrl": "https://www.figma.com/design/l9mO0YeU3ilWPCzR2RJPuu",
+  "homepageNodeId": "3:2",
+  "designSystemNodeId": "3:513",
+  "homepageFrame": {
+    "name": "QRYON Labs - Homepage Source Template",
+    "width": 1440,
+    "height": 8020,
+    "sectionCount": 12
+  },
+  "designSystemBoard": {
+    "name": "QRYON Labs - Design System Board",
+    "width": 1440,
+    "height": 2536,
+    "panels": [
+      "color-role logic",
+      "typography roles",
+      "spacing and surface rules",
+      "components and states",
+      "placeholder rules and reusable modules",
+      "package value and included source map",
+      "auto-layout and source-hygiene receipt"
+    ]
+  },
+  "screenshots": {
+    "homepage": ".design-brain/screenshots/qryon/qryon-homepage.png",
+    "designSystemBeforeRevision": ".design-brain/screenshots/qryon/qryon-design-system.png",
+    "designSystemAfterRevision": ".design-brain/screenshots/qryon/qryon-design-system-after.png"
+  },
+  "sourceReceipts": {
+    "autoLayout": "Homepage sections, nav, cards, CTAs, repeated rows, pricing, FAQ, footer, and design-system panels use auto-layout. Decorative orbit/line/background accents are documented exceptions.",
+    "placeholders": "All media zones are editable text placeholders, using image placeholder: [purpose] and profile photo placeholder: [role].",
+    "postCritiqueImprovement": "Added Package value / Included source map panel to improve marketplace buyer clarity and extensibility."
+  },
+  "visualInspection": {
+    "homepageScreenshotInspected": true,
+    "designSystemScreenshotInspected": true,
+    "criticalIssuesFound": false,
+    "notes": "No visible overlap, clipping, or incoherent spacing was found in inspected screenshots. Long full-page homepage screenshot is narrow, so fine text is visually compressed in the exported thumbnail, but source typography and sections are editable in Figma."
+  }
+}

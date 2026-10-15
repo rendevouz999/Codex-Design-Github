@@ -1,0 +1,64 @@
+{
+  "buildId": "post-build-20260531151507",
+  "templateCount": 1,
+  "templates": [
+    "template-1"
+  ],
+  "designCognitionRequired": true,
+  "completionReceiptRequired": true,
+  "completionReceiptPresent": true,
+  "designSystemResults": {
+    "signalops-ai-website-template": {
+      "status": "PASS",
+      "templateId": "signalops-ai-website-template",
+      "errors": [],
+      "warnings": [],
+      "artifactEvidenceStatus": "PASS"
+    }
+  },
+  "designCognitionResults": {
+    "editable Figma SaaS product marketing website template": {
+      "status": "PASS",
+      "missingFields": [],
+      "riskCategories": [],
+      "requiredRepairs": []
+    }
+  },
+  "auditPasses": {
+    "pass1OriginalityBatchSimilarity": "PASS",
+    "pass2DesignSystemSourceHygiene": "PASS",
+    "pass3VisualLayoutQA": "PASS"
+  },
+  "batchSimilarity": {
+    "status": "PASS",
+    "pairs": [],
+    "requiredRepairs": [],
+    "overallRisk": "low"
+  },
+  "buildSessionLifecycle": {
+    "status": "not_provided",
+    "sessionId": "",
+    "fingerprintLockStatus": "N/A",
+    "layoutAuditVsReference": "N/A",
+    "pairwiseAiLayoutAudit": "N/A",
+    "issues": []
+  },
+  "layoutOriginality": {
+    "buildSessionId": "",
+    "layoutAuditVsReference": "N/A",
+    "pairwiseAiLayoutAudit": "N/A",
+    "fingerprintLockStatus": "N/A",
+    "ideaRecoveryCorpusUsed": false,
+    "corpusInspirationIds": [],
+    "layoutRepairCycles": 0,
+    "axisFailuresRepaired": [],
+    "safeToProceedToNextTemplate": null
+  },
+  "repairCycles": 0,
+  "repairPlan": [],
+  "remainingIssues": [],
+  "visualVerificationStatus": "screenshot_render_verified",
+  "finalStatus": "READY",
+  "limitations": [],
+  "completionStatement": "Post-build gate satisfied."
+}

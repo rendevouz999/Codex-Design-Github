@@ -1,0 +1,12 @@
+[
+  {
+    "auditPass": "pass2",
+    "issue": "expected 2 design system receipt(s), found 0",
+    "repair": "Complete design system/source hygiene and rerun audit."
+  },
+  {
+    "auditPass": "completion",
+    "issue": "final completion receipt missing",
+    "repair": "Generate completion receipt before final response."
+  }
+]

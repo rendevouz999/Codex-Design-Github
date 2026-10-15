@@ -1,0 +1,123 @@
+{
+  "patternId": "checkpoint-004-hero-robotics-light-mascot-trust-hero",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\athlan-ai-agency-technology-website-2025-09-30-18-07-26-utc - Athlan - AI Agency & Technology Website - b3d7bf66.png"
+  ],
+  "productFamilies": [
+    "ai",
+    "robotics",
+    "technology",
+    "saas"
+  ],
+  "commercialPurpose": "Open a robotics/AI template with approachable white-space futurism and product trust cues.",
+  "purposeLayer": "Hero makes a robot/AI figure the friendly proof object while text and logo trust keep conversion clear.",
+  "anatomyLayer": "White nav, huge technology headline, large robot figure, small yellow CTA, trust logo row, and compact side proof/image chips.",
+  "hierarchyLayer": "Robot figure first, headline second, CTA third, trust/logo cues fourth.",
+  "gridRhythmLayer": "Bright split hero with oversized robot/mascot media floating around sparse copy and trust cues.",
+  "densityLimitLayer": "Use section density limit: {\"primaryMessage\": 1, \"cta\": \"1-2\", \"proofCue\": \"0-1 controlled cue\", \"mediaSystem\": 1}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, or section order.",
+  "usageRuleLayer": "Use for AI/robotics templates that should feel advanced but lighter and more accessible than dark neon systems.",
+  "layoutGesture": "light robotics hero with oversized mascot and sparse trust chips",
+  "sectionSilhouette": "white canvas with large robot object offset against concise headline and small yellow conversion controls",
+  "compositionTension": "friendly 3D character softens technical promise without losing premium whitespace",
+  "focalPath": "robot object to headline to CTA to trust logos",
+  "negativeSpaceShape": "wide white fields around robot and type create airy futuristic confidence",
+  "depthLayering": "white base, 3D robot media, small cards/logos, accent button layer",
+  "moduleScaleVariation": "oversized robot against small CTA, logo, and proof chips",
+  "breakoutBehavior": "robot figure floats beyond normal text boundaries",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1-2",
+    "proofCue": "0-1 controlled cue",
+    "mediaSystem": 1
+  },
+  "antiCopyBoundary": "Do not copy the Athlan robot, yellow accent treatment, exact logo row, or typography arrangement.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "trust-band",
+      "features",
+      "services"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 004 contact sheet",
+    "reviewNotes": "Checkpoint 004 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "hero:dfd72725df8fc246",
+    "hash": "dfd72725df8fc24652f14e62eb510cadfb422444",
+    "axes": {
+      "layoutGesture": "light robotics hero with oversized mascot and sparse trust chips",
+      "sectionSilhouette": "white canvas with large robot object offset against concise headline and small yellow conversion controls",
+      "anatomyLayer": "white nav, huge technology headline, large robot figure, small yellow cta, trust logo row, and compact side proof/image chips.",
+      "hierarchyLayer": "robot figure first, headline second, cta third, trust/logo cues fourth.",
+      "gridRhythmLayer": "bright split hero with oversized robot/mascot media floating around sparse copy and trust cues.",
+      "focalPath": "robot object to headline to cta to trust logos",
+      "compositionTension": "friendly 3d character softens technical promise without losing premium whitespace",
+      "negativeSpaceShape": "wide white fields around robot and type create airy futuristic confidence",
+      "moduleScaleVariation": "oversized robot against small cta, logo, and proof chips",
+      "breakoutBehavior": "robot figure floats beyond normal text boundaries",
+      "contentLimits": "{\"cta\":\"1-2\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"0-1 controlled cue\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.2352,
+  "matchGroupId": "hero:dfd72725df8fc246",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:16:27Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 11,
+    "bestMatch": {
+      "score": 0.2352,
+      "axisScores": {
+        "layoutGesture": 0.1176,
+        "sectionSilhouette": 0.08,
+        "anatomyLayer": 0.2903,
+        "hierarchyLayer": 0.2632,
+        "gridRhythmLayer": 0.1071,
+        "focalPath": 0.3333,
+        "compositionTension": 0.0,
+        "negativeSpaceShape": 0.0435,
+        "moduleScaleVariation": 0.2857,
+        "breakoutBehavior": 0.0667,
+        "contentLimits": 1.0
+      },
+      "patternId": "checkpoint-004-hero-cybersecurity-dark-threat-protection-hero",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-004-hero-cybersecurity-dark-threat-protection-hero.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

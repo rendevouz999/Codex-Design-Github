@@ -1,0 +1,124 @@
+{
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 003",
+    "reviewNotes": "Checkpoint 003 is visually inspected learning evidence; keep incoming until hyper-accuracy review and matching rationale pass.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, color identity, imagery, icon systems, decorative geometry, or section order."
+  },
+  "patternId": "checkpoint-003-hero-light-multipurpose-abstract-media-mega-menu",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\alower-multipurpose-landing-page-2024-06-07-16-37-20-utc - Alower - Multipurpose Landing Page Image - 635a5e5d.png"
+  ],
+  "productFamilies": [
+    "multipurpose",
+    "business",
+    "saas",
+    "website"
+  ],
+  "commercialPurpose": "Open a multipurpose business site with clear solution copy while showing category breadth in a right-side menu stack.",
+  "purposeLayer": "Hero frames the product as flexible across categories through abstract visual identity and visible category navigation.",
+  "anatomyLayer": "Logo, left value proposition, CTA, small proof card, large abstract media panel, right vertical menu/category stack, and supporting teaser links.",
+  "hierarchyLayer": "Headline first, abstract media second, category/menu stack third, CTA/proof card fourth.",
+  "gridRhythmLayer": "Three-zone hero: left copy, center oversized abstract image, right category navigation stack on light grid background.",
+  "densityLimitLayer": "Use one primary message, 1-2 CTA, 1 abstract media system, 4-7 category links, and 1 proof/help card.",
+  "originalityLayer": "Learn three-zone multipurpose hero architecture; do not copy exact abstract image, category labels, blue/purple gradient, or grid texture.",
+  "usageRuleLayer": "Use for multipurpose SaaS, agencies, business platforms, category-rich services, and template/product sites.",
+  "layoutGesture": "light multipurpose hero with abstract media and side category stack",
+  "sectionSilhouette": "left text column, giant central abstract image, right vertical menu rail",
+  "compositionTension": "calm business copy balanced by loud abstract visual and navigational breadth",
+  "focalPath": "headline to abstract image to category stack to CTA",
+  "negativeSpaceShape": "light blue grid field around three distinct hero zones",
+  "depthLayering": "flat light surface, abstract media depth, floating proof card/menu layers",
+  "moduleScaleVariation": "large abstract media with compact category/link modules",
+  "breakoutBehavior": "center media dominates and rises above surrounding text rails",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1-2",
+    "proofCue": "1",
+    "mediaSystem": 1,
+    "categoryLinks": "4-7"
+  },
+  "antiCopyBoundary": "Do not copy exact Alower abstract image, menu labels, gradient buttons, proof card, or grid decoration.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "services",
+      "features",
+      "pricing-packages"
+    ],
+    "notAScaffold": true
+  },
+  "structuralSignature": {
+    "signatureId": "hero:492d7e079caa2aee",
+    "hash": "492d7e079caa2aee91654359b6a1699e3c744064",
+    "axes": {
+      "layoutGesture": "light multipurpose hero with abstract media and side category stack",
+      "sectionSilhouette": "left text column, giant central abstract image, right vertical menu rail",
+      "anatomyLayer": "logo, left value proposition, cta, small proof card, large abstract media panel, right vertical menu/category stack, and supporting teaser links.",
+      "hierarchyLayer": "headline first, abstract media second, category/menu stack third, cta/proof card fourth.",
+      "gridRhythmLayer": "three-zone hero: left copy, center oversized abstract image, right category navigation stack on light grid background.",
+      "focalPath": "headline to abstract image to category stack to cta",
+      "compositionTension": "calm business copy balanced by loud abstract visual and navigational breadth",
+      "negativeSpaceShape": "light blue grid field around three distinct hero zones",
+      "moduleScaleVariation": "large abstract media with compact category/link modules",
+      "breakoutBehavior": "center media dominates and rises above surrounding text rails",
+      "contentLimits": "{\"categorylinks\":\"4-7\",\"cta\":\"1-2\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"1\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.191,
+  "matchGroupId": "hero:492d7e079caa2aee",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:55:20Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 6,
+    "bestMatch": {
+      "score": 0.191,
+      "axisScores": {
+        "layoutGesture": 0.1333,
+        "sectionSilhouette": 0.1111,
+        "anatomyLayer": 0.1351,
+        "hierarchyLayer": 0.25,
+        "gridRhythmLayer": 0.1923,
+        "focalPath": 0.5,
+        "compositionTension": 0.0,
+        "negativeSpaceShape": 0.125,
+        "moduleScaleVariation": 0.1538,
+        "breakoutBehavior": 0.0,
+        "contentLimits": 0.5
+      },
+      "patternId": "checkpoint-003-hero-restaurant-product-cutout-dark-stage",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-003-hero-restaurant-product-cutout-dark-stage.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

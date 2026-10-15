@@ -1,0 +1,120 @@
+{
+  "patternId": "checkpoint-004-contact-booking-business-consultancy-team-contact-closure",
+  "sectionType": "contact-booking",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\benjoe-business-information-landing-page-2024-03-13-23-16-35-utc - BENJOE - Business Information Tech - 83f5292d.png"
+  ],
+  "productFamilies": [
+    "consulting",
+    "business",
+    "agency"
+  ],
+  "commercialPurpose": "Close a consultancy template with team credibility and a conversion form in one high-trust band.",
+  "purposeLayer": "Contact closure combines human expertise, office/contact details, and form entry without a generic footer slab.",
+  "anatomyLayer": "Dark section, team profile cards, contact information row, illustration block, form panel, newsletter strip, and footer columns.",
+  "hierarchyLayer": "Team proof first, contact/form second, newsletter/footer third.",
+  "gridRhythmLayer": "Dark lower-page closure mixing profile grid, contact details, and form panel in stacked bands.",
+  "densityLimitLayer": "Use section density limit: {\"formFields\": \"3-6\", \"supportBlocks\": \"1-3\", \"conversionCue\": \"1\"}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, or section order.",
+  "usageRuleLayer": "Use when service businesses need contact conversion supported by team credibility.",
+  "layoutGesture": "consultancy team proof plus contact form closure",
+  "sectionSilhouette": "deep colored footer area with team cards above contact info and a form module",
+  "compositionTension": "human proof reduces risk before the final contact form",
+  "focalPath": "team grid to contact detail row to form panel to newsletter/footer",
+  "negativeSpaceShape": "dark background fields separate people cards from the form region",
+  "depthLayering": "dark base, profile card surfaces, illustration, form inputs, footer strip",
+  "moduleScaleVariation": "medium team cards and form panel contrasted with small contact details",
+  "breakoutBehavior": "form panel sits as a conversion module inside the footer closure rather than after it",
+  "contentLimits": {
+    "formFields": "3-6",
+    "supportBlocks": "1-3",
+    "conversionCue": "1"
+  },
+  "antiCopyBoundary": "Do not copy Benjoe team names, illustrations, purple controls, form layout, or footer copy.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "testimonials",
+      "stats-proof"
+    ],
+    "after": [
+      "footer"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 004 contact sheet",
+    "reviewNotes": "Checkpoint 004 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "contact-booking:c727188654a7cbcb",
+    "hash": "c727188654a7cbcb94cbebffe72fb21fabdc9e90",
+    "axes": {
+      "layoutGesture": "consultancy team proof plus contact form closure",
+      "sectionSilhouette": "deep colored footer area with team cards above contact info and a form module",
+      "anatomyLayer": "dark section, team profile cards, contact information row, illustration block, form panel, newsletter strip, and footer columns.",
+      "hierarchyLayer": "team proof first, contact/form second, newsletter/footer third.",
+      "gridRhythmLayer": "dark lower-page closure mixing profile grid, contact details, and form panel in stacked bands.",
+      "focalPath": "team grid to contact detail row to form panel to newsletter/footer",
+      "compositionTension": "human proof reduces risk before the final contact form",
+      "negativeSpaceShape": "dark background fields separate people cards from the form region",
+      "moduleScaleVariation": "medium team cards and form panel contrasted with small contact details",
+      "breakoutBehavior": "form panel sits as a conversion module inside the footer closure rather than after it",
+      "contentLimits": "{\"conversioncue\":\"1\",\"formfields\":\"3-6\",\"supportblocks\":\"1-3\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.1276,
+  "matchGroupId": "contact-booking:c727188654a7cbcb",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:16:27Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 1,
+    "bestMatch": {
+      "score": 0.1276,
+      "axisScores": {
+        "layoutGesture": 0.1538,
+        "sectionSilhouette": 0.0909,
+        "anatomyLayer": 0.0857,
+        "hierarchyLayer": 0.2941,
+        "gridRhythmLayer": 0.0357,
+        "focalPath": 0.1176,
+        "compositionTension": 0.1176,
+        "negativeSpaceShape": 0.0625,
+        "moduleScaleVariation": 0.1176,
+        "breakoutBehavior": 0.0556,
+        "contentLimits": 0.2727
+      },
+      "patternId": "checkpoint-003-contact-booking-editorial-contact-story-form",
+      "sectionType": "contact-booking",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\contact-booking\\checkpoint-003-contact-booking-editorial-contact-story-form.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

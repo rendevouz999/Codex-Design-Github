@@ -1,0 +1,255 @@
+{
+  "buildId": "post-build-20260601100838",
+  "templateCount": 3,
+  "templates": [
+    "kinetiq-sole",
+    "northline-advisory",
+    "solenne-living"
+  ],
+  "designCognitionRequired": true,
+  "completionReceiptRequired": true,
+  "completionReceiptPresent": true,
+  "designSystemResults": {
+    "kinetiq-sole": {
+      "status": "PASS",
+      "templateId": "kinetiq-sole",
+      "errors": [],
+      "warnings": [],
+      "artifactEvidenceStatus": "PASS"
+    },
+    "northline-advisory": {
+      "status": "PASS",
+      "templateId": "northline-advisory",
+      "errors": [],
+      "warnings": [],
+      "artifactEvidenceStatus": "PASS"
+    },
+    "solenne-living": {
+      "status": "PASS",
+      "templateId": "solenne-living",
+      "errors": [],
+      "warnings": [],
+      "artifactEvidenceStatus": "PASS"
+    }
+  },
+  "designCognitionResults": {
+    "Reference-led Figma website template from Sneaky shoes ecommerce PNG": {
+      "status": "PASS",
+      "missingFields": [],
+      "riskCategories": [],
+      "requiredRepairs": []
+    },
+    "Reference-led Figma website template from Qicons business consultant PNG": {
+      "status": "PASS",
+      "missingFields": [],
+      "riskCategories": [],
+      "requiredRepairs": []
+    },
+    "Reference-led Figma website template from Ration home decor ecommerce PNG": {
+      "status": "PASS",
+      "missingFields": [],
+      "riskCategories": [],
+      "requiredRepairs": []
+    }
+  },
+  "auditPasses": {
+    "pass0SerialProvenance": "FAIL",
+    "pass1OriginalityBatchSimilarity": "PASS",
+    "pass2DesignSystemSourceHygiene": "PASS",
+    "pass3VisualLayoutQA": "PASS"
+  },
+  "serialProvenance": {
+    "status": "BLOCKED",
+    "required": true,
+    "issues": [
+      "build-session ledger missing for multi-template serial provenance",
+      "design cognition receipts have identical nonblank line counts (114); this is all-at-once scaffold evidence unless rebuilt as separate cycle artifacts",
+      "template fingerprints have identical nonblank line counts (32); this is all-at-once scaffold evidence unless rebuilt as separate cycle artifacts",
+      "multiple receipt categories share identical morphology across the batch; provenance must BLOCK rather than PASS"
+    ],
+    "warnings": [],
+    "sessionId": ""
+  },
+  "batchSimilarity": {
+    "batchId": "20260601-reference-led-website-template-pack",
+    "pairs": [
+      {
+        "pair": [
+          "kinetiq-sole",
+          "northline-advisory"
+        ],
+        "structureDefiningAxisSimilarity": 0.259,
+        "visualLanguageAxisSimilarity": 0.267,
+        "scaffoldRisk": 0.214,
+        "failedAxes": [],
+        "hardFailAxes": [],
+        "softRiskAxes": [],
+        "requiredStructuralRepairs": [],
+        "axisScores": {
+          "heroGrammarSimilarity": 0.08,
+          "sectionOrderSimilarity": 0.167,
+          "gridSystemSimilarity": 0.136,
+          "layoutGestureSimilarity": 0.176,
+          "sectionSilhouetteSimilarity": 0.0,
+          "compositionTensionSimilarity": 0.059,
+          "focalPathSimilarity": 0.105,
+          "negativeSpaceShapeSimilarity": 0.143,
+          "depthLayeringSimilarity": 0.158,
+          "moduleScaleVariationSimilarity": 0.25,
+          "breakoutBehaviorSimilarity": 0.25,
+          "layoutRhythmSimilarity": 0.0,
+          "cardCadenceSimilarity": 0.211,
+          "componentPatternSimilarity": 0.259,
+          "ctaPlacementSimilarity": 0.043,
+          "closureSilhouetteSimilarity": 0.109,
+          "imageTreatmentSimilarity": 0.105,
+          "spacingCadenceSimilarity": 0.1,
+          "typographyBehaviorSimilarity": 0.267,
+          "colorRoleSimilarity": 0.174,
+          "effectLanguageSimilarity": 0.105,
+          "navigationFooterPatternSimilarity": 0.133,
+          "overallScaffoldRisk": 0.214
+        },
+        "status": "PASS"
+      },
+      {
+        "pair": [
+          "kinetiq-sole",
+          "solenne-living"
+        ],
+        "structureDefiningAxisSimilarity": 0.5,
+        "visualLanguageAxisSimilarity": 0.312,
+        "scaffoldRisk": 0.393,
+        "failedAxes": [],
+        "hardFailAxes": [],
+        "softRiskAxes": [],
+        "requiredStructuralRepairs": [],
+        "axisScores": {
+          "heroGrammarSimilarity": 0.238,
+          "sectionOrderSimilarity": 0.167,
+          "gridSystemSimilarity": 0.263,
+          "layoutGestureSimilarity": 0.1,
+          "sectionSilhouetteSimilarity": 0.0,
+          "compositionTensionSimilarity": 0.111,
+          "focalPathSimilarity": 0.176,
+          "negativeSpaceShapeSimilarity": 0.077,
+          "depthLayeringSimilarity": 0.048,
+          "moduleScaleVariationSimilarity": 0.077,
+          "breakoutBehaviorSimilarity": 0.053,
+          "layoutRhythmSimilarity": 0.0,
+          "cardCadenceSimilarity": 0.15,
+          "componentPatternSimilarity": 0.5,
+          "ctaPlacementSimilarity": 0.238,
+          "closureSilhouetteSimilarity": 0.282,
+          "imageTreatmentSimilarity": 0.105,
+          "spacingCadenceSimilarity": 0.188,
+          "typographyBehaviorSimilarity": 0.312,
+          "colorRoleSimilarity": 0.125,
+          "effectLanguageSimilarity": 0.05,
+          "navigationFooterPatternSimilarity": 0.417,
+          "overallScaffoldRisk": 0.393
+        },
+        "status": "PASS"
+      },
+      {
+        "pair": [
+          "northline-advisory",
+          "solenne-living"
+        ],
+        "structureDefiningAxisSimilarity": 0.28,
+        "visualLanguageAxisSimilarity": 0.273,
+        "scaffoldRisk": 0.223,
+        "failedAxes": [],
+        "hardFailAxes": [],
+        "softRiskAxes": [],
+        "requiredStructuralRepairs": [],
+        "axisScores": {
+          "heroGrammarSimilarity": 0.136,
+          "sectionOrderSimilarity": 0.167,
+          "gridSystemSimilarity": 0.211,
+          "layoutGestureSimilarity": 0.111,
+          "sectionSilhouetteSimilarity": 0.0,
+          "compositionTensionSimilarity": 0.048,
+          "focalPathSimilarity": 0.056,
+          "negativeSpaceShapeSimilarity": 0.077,
+          "depthLayeringSimilarity": 0.1,
+          "moduleScaleVariationSimilarity": 0.08,
+          "breakoutBehaviorSimilarity": 0.059,
+          "layoutRhythmSimilarity": 0.059,
+          "cardCadenceSimilarity": 0.2,
+          "componentPatternSimilarity": 0.28,
+          "ctaPlacementSimilarity": 0.091,
+          "closureSilhouetteSimilarity": 0.109,
+          "imageTreatmentSimilarity": 0.053,
+          "spacingCadenceSimilarity": 0.056,
+          "typographyBehaviorSimilarity": 0.111,
+          "colorRoleSimilarity": 0.273,
+          "effectLanguageSimilarity": 0.158,
+          "navigationFooterPatternSimilarity": 0.133,
+          "overallScaffoldRisk": 0.223
+        },
+        "status": "PASS"
+      }
+    ],
+    "overallRisk": "low",
+    "requiredRepairs": [],
+    "failedAxes": [],
+    "hardFailAxes": [],
+    "softRiskAxes": [],
+    "structureDefiningAxisSimilarity": 0.5,
+    "visualLanguageAxisSimilarity": 0.312,
+    "status": "PASS"
+  },
+  "buildSessionLifecycle": {
+    "status": "not_provided",
+    "sessionId": "",
+    "fingerprintLockStatus": "N/A",
+    "layoutAuditVsReference": "N/A",
+    "pairwiseAiLayoutAudit": "N/A",
+    "issues": []
+  },
+  "layoutOriginality": {
+    "buildSessionId": "",
+    "layoutAuditVsReference": "N/A",
+    "pairwiseAiLayoutAudit": "N/A",
+    "fingerprintLockStatus": "N/A",
+    "ideaRecoveryCorpusUsed": false,
+    "corpusInspirationIds": [],
+    "layoutRepairCycles": 0,
+    "axisFailuresRepaired": [],
+    "safeToProceedToNextTemplate": null
+  },
+  "repairCycles": 0,
+  "repairPlan": [
+    {
+      "auditPass": "serial-provenance",
+      "issue": "build-session ledger missing for multi-template serial provenance",
+      "repair": "Rebuild through one completed template cycle at a time; lock and scaffold-dispose each template before starting the next."
+    },
+    {
+      "auditPass": "serial-provenance",
+      "issue": "design cognition receipts have identical nonblank line counts (114); this is all-at-once scaffold evidence unless rebuilt as separate cycle artifacts",
+      "repair": "Rebuild through one completed template cycle at a time; lock and scaffold-dispose each template before starting the next."
+    },
+    {
+      "auditPass": "serial-provenance",
+      "issue": "template fingerprints have identical nonblank line counts (32); this is all-at-once scaffold evidence unless rebuilt as separate cycle artifacts",
+      "repair": "Rebuild through one completed template cycle at a time; lock and scaffold-dispose each template before starting the next."
+    },
+    {
+      "auditPass": "serial-provenance",
+      "issue": "multiple receipt categories share identical morphology across the batch; provenance must BLOCK rather than PASS",
+      "repair": "Rebuild through one completed template cycle at a time; lock and scaffold-dispose each template before starting the next."
+    }
+  ],
+  "remainingIssues": [
+    "build-session ledger missing for multi-template serial provenance",
+    "design cognition receipts have identical nonblank line counts (114); this is all-at-once scaffold evidence unless rebuilt as separate cycle artifacts",
+    "template fingerprints have identical nonblank line counts (32); this is all-at-once scaffold evidence unless rebuilt as separate cycle artifacts",
+    "multiple receipt categories share identical morphology across the batch; provenance must BLOCK rather than PASS"
+  ],
+  "visualVerificationStatus": "source_heuristic_only",
+  "finalStatus": "BLOCKED",
+  "limitations": [],
+  "completionStatement": "Post-build gate failed; repair required before final delivery."
+}

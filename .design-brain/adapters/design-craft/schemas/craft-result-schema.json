@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Design Craft Adapter Result",
+  "type": "object",
+  "required": [
+    "status",
+    "craftResult",
+    "tokens",
+    "typography",
+    "spacing",
+    "components",
+    "states",
+    "accessibility",
+    "sourceHandoff",
+    "polishNotes",
+    "blockedOverrides"
+  ],
+  "properties": {
+    "status": {"enum": ["PASS", "REVISE_REQUIRED", "BLOCKED_BY_BRAIN_DESIGN_CONTRACT", "ERROR"]},
+    "craftResult": {"type": "object"},
+    "tokens": {"type": "object"},
+    "typography": {"type": "object"},
+    "spacing": {"type": "object"},
+    "components": {"type": "array"},
+    "states": {"type": "array"},
+    "accessibility": {"type": "array"},
+    "sourceHandoff": {"type": "array"},
+    "polishNotes": {"type": "array"},
+    "blockedOverrides": {"type": "array"}
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 003",
+    "reviewNotes": "Checkpoint 003 is visually inspected learning evidence; keep incoming until hyper-accuracy review and matching rationale pass.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, color identity, imagery, icon systems, decorative geometry, or section order."
+  },
+  "patternId": "checkpoint-003-pricing-ai-neon-featured-tier-glow-cards",
+  "sectionType": "pricing-packages",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\acme-artificial-intelligance-system-website-2025-10-30-22-18-47-utc - Acme - Artificial Intelligance System Website - 94062a92.png"
+  ],
+  "productFamilies": [
+    "ai",
+    "saas",
+    "technology",
+    "website"
+  ],
+  "commercialPurpose": "Help AI/SaaS buyers compare tiers while making the recommended plan visually unavoidable.",
+  "purposeLayer": "Pricing section turns abstract AI value into purchasable packages with a glowing central recommendation.",
+  "anatomyLayer": "Section heading, three pricing cards, tier names, price/custom label, feature checklist, CTA buttons, and central highlighted plan.",
+  "hierarchyLayer": "Section heading first, highlighted middle tier second, side tiers third, feature lists fourth.",
+  "gridRhythmLayer": "Three-card row on dark background with central card larger/brighter and side cards dimmer.",
+  "densityLimitLayer": "Use 2-4 tiers, one featured tier, 4-8 features per tier, and one CTA per tier.",
+  "originalityLayer": "Learn featured-tier neon emphasis; transform glow language, tier count, feature density, and CTA hierarchy.",
+  "usageRuleLayer": "Use for AI, SaaS, software, membership, subscription, and service package pricing sections.",
+  "layoutGesture": "neon pricing row with amplified center tier",
+  "sectionSilhouette": "three dark cards with glowing middle recommendation",
+  "compositionTension": "pricing comparison tension created by bright center plan versus dim side plans",
+  "focalPath": "heading to featured middle tier to side-tier comparison to CTA",
+  "negativeSpaceShape": "dark spacing pockets between glowing pricing cards",
+  "depthLayering": "dark cards, neon borders, central glow depth, button highlights",
+  "moduleScaleVariation": "one larger highlighted tier flanked by smaller cards",
+  "breakoutBehavior": "featured card glows beyond its boundaries",
+  "contentLimits": {
+    "tiers": "2-4",
+    "featuredTier": "1",
+    "featuresPerTier": "4-8",
+    "ctaPerTier": 1
+  },
+  "antiCopyBoundary": "Do not copy exact prices, plan names, purple glow treatment, feature copy, or card dimensions.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "features",
+      "services"
+    ],
+    "after": [
+      "faq-objection",
+      "cta"
+    ],
+    "notAScaffold": true
+  },
+  "structuralSignature": {
+    "signatureId": "pricing-packages:2462a45d488a9ebd",
+    "hash": "2462a45d488a9ebd434706c5c0d273963586af44",
+    "axes": {
+      "layoutGesture": "neon pricing row with amplified center tier",
+      "sectionSilhouette": "three dark cards with glowing middle recommendation",
+      "anatomyLayer": "section heading, three pricing cards, tier names, price/custom label, feature checklist, cta buttons, and central highlighted plan.",
+      "hierarchyLayer": "section heading first, highlighted middle tier second, side tiers third, feature lists fourth.",
+      "gridRhythmLayer": "three-card row on dark background with central card larger/brighter and side cards dimmer.",
+      "focalPath": "heading to featured middle tier to side-tier comparison to cta",
+      "compositionTension": "pricing comparison tension created by bright center plan versus dim side plans",
+      "negativeSpaceShape": "dark spacing pockets between glowing pricing cards",
+      "moduleScaleVariation": "one larger highlighted tier flanked by smaller cards",
+      "breakoutBehavior": "featured card glows beyond its boundaries",
+      "contentLimits": "{\"ctapertier\":1,\"featuredtier\":\"1\",\"featurespertier\":\"4-8\",\"tiers\":\"2-4\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.0,
+  "matchGroupId": "pricing-packages:2462a45d488a9ebd",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:55:20Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 0,
+    "bestMatch": null,
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

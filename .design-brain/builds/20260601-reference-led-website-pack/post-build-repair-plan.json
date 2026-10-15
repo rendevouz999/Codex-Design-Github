@@ -1,0 +1,112 @@
+[
+  {
+    "auditPass": "pass2",
+    "issue": "expected 3 design system receipt(s), found 1",
+    "repair": "Complete design system/source hygiene and rerun audit."
+  },
+  {
+    "auditPass": "lifecycle",
+    "issue": "build-session route missing",
+    "repair": "Complete build-session lifecycle, rerun layout audit, and lock template fingerprint before final delivery."
+  },
+  {
+    "auditPass": "lifecycle",
+    "issue": "nexora-advisory missing cognition receipt path",
+    "repair": "Complete build-session lifecycle, rerun layout audit, and lock template fingerprint before final delivery."
+  },
+  {
+    "auditPass": "lifecycle",
+    "issue": "nexora-advisory missing simulation verdict path",
+    "repair": "Complete build-session lifecycle, rerun layout audit, and lock template fingerprint before final delivery."
+  },
+  {
+    "auditPass": "lifecycle",
+    "issue": "nexora-advisory missing reference layout audit receipt",
+    "repair": "Complete build-session lifecycle, rerun layout audit, and lock template fingerprint before final delivery."
+  },
+  {
+    "auditPass": "lifecycle",
+    "issue": "nexora-advisory missing fingerprint path",
+    "repair": "Complete build-session lifecycle, rerun layout audit, and lock template fingerprint before final delivery."
+  },
+  {
+    "auditPass": "lifecycle",
+    "issue": "nexora-advisory missing design system receipt",
+    "repair": "Complete build-session lifecycle, rerun layout audit, and lock template fingerprint before final delivery."
+  },
+  {
+    "auditPass": "lifecycle",
+    "issue": "nexora-advisory missing post-build audit receipt",
+    "repair": "Complete build-session lifecycle, rerun layout audit, and lock template fingerprint before final delivery."
+  },
+  {
+    "auditPass": "lifecycle",
+    "issue": "lumanest-decor missing cognition receipt path",
+    "repair": "Complete build-session lifecycle, rerun layout audit, and lock template fingerprint before final delivery."
+  },
+  {
+    "auditPass": "lifecycle",
+    "issue": "lumanest-decor missing simulation verdict path",
+    "repair": "Complete build-session lifecycle, rerun layout audit, and lock template fingerprint before final delivery."
+  },
+  {
+    "auditPass": "lifecycle",
+    "issue": "lumanest-decor missing reference layout audit receipt",
+    "repair": "Complete build-session lifecycle, rerun layout audit, and lock template fingerprint before final delivery."
+  },
+  {
+    "auditPass": "lifecycle",
+    "issue": "lumanest-decor missing AI pairwise layout audit receipt",
+    "repair": "Complete build-session lifecycle, rerun layout audit, and lock template fingerprint before final delivery."
+  },
+  {
+    "auditPass": "lifecycle",
+    "issue": "lumanest-decor missing fingerprint path",
+    "repair": "Complete build-session lifecycle, rerun layout audit, and lock template fingerprint before final delivery."
+  },
+  {
+    "auditPass": "lifecycle",
+    "issue": "lumanest-decor missing design system receipt",
+    "repair": "Complete build-session lifecycle, rerun layout audit, and lock template fingerprint before final delivery."
+  },
+  {
+    "auditPass": "lifecycle",
+    "issue": "lumanest-decor missing post-build audit receipt",
+    "repair": "Complete build-session lifecycle, rerun layout audit, and lock template fingerprint before final delivery."
+  },
+  {
+    "auditPass": "lifecycle",
+    "issue": "voltstride missing cognition receipt path",
+    "repair": "Complete build-session lifecycle, rerun layout audit, and lock template fingerprint before final delivery."
+  },
+  {
+    "auditPass": "lifecycle",
+    "issue": "voltstride missing simulation verdict path",
+    "repair": "Complete build-session lifecycle, rerun layout audit, and lock template fingerprint before final delivery."
+  },
+  {
+    "auditPass": "lifecycle",
+    "issue": "voltstride missing reference layout audit receipt",
+    "repair": "Complete build-session lifecycle, rerun layout audit, and lock template fingerprint before final delivery."
+  },
+  {
+    "auditPass": "lifecycle",
+    "issue": "voltstride missing AI pairwise layout audit receipt",
+    "repair": "Complete build-session lifecycle, rerun layout audit, and lock template fingerprint before final delivery."
+  },
+  {
+    "auditPass": "lifecycle",
+    "issue": "voltstride missing fingerprint path",
+    "repair": "Complete build-session lifecycle, rerun layout audit, and lock template fingerprint before final delivery."
+  },
+  {
+    "auditPass": "lifecycle",
+    "issue": "voltstride missing design system receipt",
+    "repair": "Complete build-session lifecycle, rerun layout audit, and lock template fingerprint before final delivery."
+  },
+  {
+    "auditPass": "lifecycle",
+    "issue": "voltstride missing post-build audit receipt",
+    "repair": "Complete build-session lifecycle, rerun layout audit, and lock template fingerprint before final delivery."
+  }
+]

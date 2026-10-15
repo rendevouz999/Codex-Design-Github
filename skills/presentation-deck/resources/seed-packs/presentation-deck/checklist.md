@@ -1,0 +1,55 @@
+# Presentation Deck Checklist
+
+## P0
+- Uses slide-role matrix, not website sections.
+- Figma-to-PPTX export page uses one top-level 16:9 frame per slide.
+- Figma-to-PPTX export page validates actual canvas size; use exact 1920x1080 Full HD frames when smaller 16:9 frames export inset/undersized in PowerPoint.
+- No row, board, contact-sheet, or overview wrapper contains multiple slides on the export page.
+- Design system, notes, archives, and overview/contact-sheet frames live on separate non-export pages.
+- Every slide is inspected individually at normal size for overlap, near-collision, cramped title/content spacing, and safe-margin drift.
+- One dominant idea per slide.
+- Thumbnail readability is planned.
+- Safe margins, footer/page numbers, and title positions are defined.
+- Chart/table/image placeholder rules exist.
+- Pace map defines fast-read, slow-read, rest, emphasis, and climax slides.
+- Content flexibility is tested for longer titles, translated copy, varied image crops, chart changes, and uneven bullet counts.
+
+## P1
+- No three identical slide rhythms in a row.
+- Section markers and recurring motif are consistent.
+- Energy distribution identifies loud, quiet, functional, emotional, and closing slides.
+- Slide economy removes decorative elements that do not help comprehension.
+- Modules are reusable and can be rearranged without breaking the system.
+- Information priority is clear at both full size and thumbnail size.
+- Emotional positioning is named and supported by spacing, type, crop, contrast, pace, tone, and color temperature.
+- Market fit names the buyer and adjusts the meaning of premium for that buyer.
+- Scalability is checked for short, medium, and long deck lengths.
+- Visual fatigue is reduced through deliberate quiet slides, rest slides, and restrained accent usage.
+- Editorial thinking influences rhythm, grid, crop, and pacing.
+- Visual trust is visible through precise alignment, mature typography, clean data, and disciplined spacing.
+- Reduction pass removes unnecessary lines, icons, shapes, shadows, and effects.
+- Deck experience has a hook, middle rhythm, proof, variation, and clear closing.
+- At least one intentional system-break moment is considered only if it improves impact.
+- Final review separates "looks good" from "functions well as a communication tool."
+- Attention path is planned: first look, focus hold, focus shift, pause, and overwhelm risk.
+- Visual silence is used intentionally for focus, authority, breath, and luxury.
+- Design confidence is visible through restraint, not excessive effects.
+- Taste references come from high-quality visual communication, not only similar slide templates.
+- Subtle craft details are reviewed: spacing, line-height, crop, opacity, alignment, and color temperature.
+- Constraint test passes with limited color, type, effects, iconography, and grid options.
+- Live-presentation use and PDF/proposal use are distinguished.
+- What-not-to-design pass removes anything that does not improve communication.
+- Template is evaluated as a reusable product, not only a visual deck.
+- Master/theme/layout system has clear roles, useful placeholders, consistent footers/page numbers, and easy non-designer editing.
+- Visual hierarchy check identifies first look, second look, quiet detail, and reading path.
+- Grid discipline check covers margins, baselines, gaps, safe areas, image positions, and alignment.
+- Frame precision check covers element collisions, tangent spacing, title-to-content clearance, footer clearance, and optical weight per slide.
+- References are clustered by market/mood before insights are mixed.
+- Slide-role matrix includes role completeness plus multiple layout variations for important roles.
+- Density map includes light, medium, dense, visual-break, data-heavy, and image-heavy slides.
+- Edit stress test passes for longer titles, image swaps, bullet count changes, logo color swaps, and changed chart data.
+- Thumbnail test confirms varied silhouettes, readable hierarchy, strong cover/dividers, and low monotony.
+- Export reality check covers font reliability, image quality, chart editability, shape complexity, file weight, PDF export, and cross-platform conversion risk.
+- Convert-to-PPTX reality check confirms the export plugin will read 15 slide frames as 15 slides, not wrapper frames as combined slide rows.
+- Convert-to-PPTX fit check confirms the converted PowerPoint slide fills the expected 16:9 slide area rather than appearing as a smaller canvas inside the slide.
+- Final reference-learning order is used: market fit, story flow, slide role, visual system, hierarchy, master/layout system, flexibility, thumbnail rhythm, product readiness.

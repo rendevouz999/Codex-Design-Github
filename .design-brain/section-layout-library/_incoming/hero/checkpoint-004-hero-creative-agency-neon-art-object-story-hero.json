@@ -1,0 +1,123 @@
+{
+  "patternId": "checkpoint-004-hero-creative-agency-neon-art-object-story-hero",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\blink-creative-agency-website-2025-05-29-02-34-05-utc - Blink - Creative Agency Website - 41fa53a8.png"
+  ],
+  "productFamilies": [
+    "creative-agency",
+    "portfolio",
+    "studio",
+    "branding"
+  ],
+  "commercialPurpose": "Open a creative agency template with a branded art object and vertical narrative energy.",
+  "purposeLayer": "Hero positions the agency as high-concept and experimental before explaining services.",
+  "anatomyLayer": "Dark nav, neon headline, large abstract 3D art object, stat chips, CTA, and short manifesto copy blocks continuing below.",
+  "hierarchyLayer": "Abstract object first, creative headline second, stats third, CTA fourth.",
+  "gridRhythmLayer": "Dark creative hero with luminous art object and stacked narrative sections below.",
+  "densityLimitLayer": "Use section density limit: {\"primaryMessage\": 1, \"cta\": \"1-2\", \"proofCue\": \"0-1 controlled cue\", \"mediaSystem\": 1}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, or section order.",
+  "usageRuleLayer": "Use for agencies, portfolios, brand studios, creative SaaS, and campaign sites needing memorable art direction.",
+  "layoutGesture": "creative agency neon object hero with vertical story flow",
+  "sectionSilhouette": "black canvas with prism-like object, purple headline, small stats, and continued art-object sections",
+  "compositionTension": "visual art object carries brand memorability while copy stays sparse and editorial",
+  "focalPath": "neon object to headline to stat chips to CTA to next manifesto block",
+  "negativeSpaceShape": "black voids around isolated art object and short text clusters",
+  "depthLayering": "dark base, neon 3D object, glow accents, small card/stat layers",
+  "moduleScaleVariation": "large 3D object and big words against tiny proof metrics",
+  "breakoutBehavior": "object floats beyond section boundaries and repeats as story motif",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1-2",
+    "proofCue": "0-1 controlled cue",
+    "mediaSystem": 1
+  },
+  "antiCopyBoundary": "Do not copy Blink name, prism object, purple gradients, exact section sequence, or client cards.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "services",
+      "portfolio-gallery",
+      "testimonials"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 004 contact sheet",
+    "reviewNotes": "Checkpoint 004 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "hero:4597bdc6ac9838ae",
+    "hash": "4597bdc6ac9838ae1d0fb822465d02044f40a5ff",
+    "axes": {
+      "layoutGesture": "creative agency neon object hero with vertical story flow",
+      "sectionSilhouette": "black canvas with prism-like object, purple headline, small stats, and continued art-object sections",
+      "anatomyLayer": "dark nav, neon headline, large abstract 3d art object, stat chips, cta, and short manifesto copy blocks continuing below.",
+      "hierarchyLayer": "abstract object first, creative headline second, stats third, cta fourth.",
+      "gridRhythmLayer": "dark creative hero with luminous art object and stacked narrative sections below.",
+      "focalPath": "neon object to headline to stat chips to cta to next manifesto block",
+      "compositionTension": "visual art object carries brand memorability while copy stays sparse and editorial",
+      "negativeSpaceShape": "black voids around isolated art object and short text clusters",
+      "moduleScaleVariation": "large 3d object and big words against tiny proof metrics",
+      "breakoutBehavior": "object floats beyond section boundaries and repeats as story motif",
+      "contentLimits": "{\"cta\":\"1-2\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"0-1 controlled cue\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.2636,
+  "matchGroupId": "hero:4597bdc6ac9838ae",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:16:27Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 13,
+    "bestMatch": {
+      "score": 0.2636,
+      "axisScores": {
+        "layoutGesture": 0.1176,
+        "sectionSilhouette": 0.2609,
+        "anatomyLayer": 0.1818,
+        "hierarchyLayer": 0.4,
+        "gridRhythmLayer": 0.125,
+        "focalPath": 0.3077,
+        "compositionTension": 0.0,
+        "negativeSpaceShape": 0.1053,
+        "moduleScaleVariation": 0.1875,
+        "breakoutBehavior": 0.2143,
+        "contentLimits": 1.0
+      },
+      "patternId": "checkpoint-004-hero-robotics-light-mascot-trust-hero",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-004-hero-robotics-light-mascot-trust-hero.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

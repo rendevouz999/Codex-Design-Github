@@ -1,0 +1,123 @@
+{
+  "patternId": "checkpoint-005-faq-objection-healthcare-question-tabs-and-care-proof",
+  "sectionType": "faq-objection",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\callaw-smart-healthcare-website-2025-05-13-18-02-37-utc - Callaw - Smart Healthcare Website - 4a7c6daa.png"
+  ],
+  "productFamilies": [
+    "healthcare",
+    "medical",
+    "clinic",
+    "saas"
+  ],
+  "commercialPurpose": "Handle healthcare objections through tabs, active answers, personalized care proof, and patient reassurance.",
+  "purposeLayer": "FAQ section turns medical uncertainty into guided trust and care options.",
+  "anatomyLayer": "Question heading, tab-like filter buttons, two-column answer rows, progress bars, patient avatars, review snippets, and dark care CTA panel.",
+  "hierarchyLayer": "Question heading first, active tab/answer second, patient proof third.",
+  "gridRhythmLayer": "Light healthcare FAQ with segmented question tabs, answer rows, and proof modules around the active answers.",
+  "densityLimitLayer": "Use section density limit: {\"questions\": \"5-8\", \"grouping\": \"optional tabs or columns\", \"answerPreview\": \"1-2 active answers\"}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, product photos, or page order.",
+  "usageRuleLayer": "Use for healthcare, wellness, insurance, service marketplaces, and high-trust products with objection-heavy decisions.",
+  "layoutGesture": "healthcare objection tabs with patient proof modules",
+  "sectionSilhouette": "pale blue-white section combining FAQ rows, tab controls, patient avatars, and care cards",
+  "compositionTension": "objection handling feels clinical but human through patient imagery and measured answer density",
+  "focalPath": "question title to active tab to answer rows to patient proof CTA",
+  "negativeSpaceShape": "soft blue whitespace separates form-like answers from human proof modules",
+  "depthLayering": "flat light base, tab pills, answer rows, avatar strips, dark care panel",
+  "moduleScaleVariation": "medium FAQ panels with small avatars and one larger care CTA card",
+  "breakoutBehavior": "care proof panel interrupts the FAQ list as reassurance",
+  "contentLimits": {
+    "questions": "5-8",
+    "grouping": "optional tabs or columns",
+    "answerPreview": "1-2 active answers"
+  },
+  "antiCopyBoundary": "Do not copy exact medical questions, patient photos, progress bars, or Callaw interface styling.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "hero",
+      "services"
+    ],
+    "after": [
+      "testimonials",
+      "contact-booking",
+      "footer"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 005 contact sheet",
+    "reviewNotes": "Checkpoint 005 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "faq-objection:c47f4286150e982c",
+    "hash": "c47f4286150e982c4a1b19a2a8dfbb5b7d4a76db",
+    "axes": {
+      "layoutGesture": "healthcare objection tabs with patient proof modules",
+      "sectionSilhouette": "pale blue-white section combining faq rows, tab controls, patient avatars, and care cards",
+      "anatomyLayer": "question heading, tab-like filter buttons, two-column answer rows, progress bars, patient avatars, review snippets, and dark care cta panel.",
+      "hierarchyLayer": "question heading first, active tab/answer second, patient proof third.",
+      "gridRhythmLayer": "light healthcare faq with segmented question tabs, answer rows, and proof modules around the active answers.",
+      "focalPath": "question title to active tab to answer rows to patient proof cta",
+      "compositionTension": "objection handling feels clinical but human through patient imagery and measured answer density",
+      "negativeSpaceShape": "soft blue whitespace separates form-like answers from human proof modules",
+      "moduleScaleVariation": "medium faq panels with small avatars and one larger care cta card",
+      "breakoutBehavior": "care proof panel interrupts the faq list as reassurance",
+      "contentLimits": "{\"answerpreview\":\"1-2 active answers\",\"grouping\":\"optional tabs or columns\",\"questions\":\"5-8\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.1268,
+  "matchGroupId": "faq-objection:c47f4286150e982c",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:25:28Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 1,
+    "bestMatch": {
+      "score": 0.1268,
+      "axisScores": {
+        "layoutGesture": 0.0625,
+        "sectionSilhouette": 0.0,
+        "anatomyLayer": 0.1429,
+        "hierarchyLayer": 0.2941,
+        "gridRhythmLayer": 0.2083,
+        "focalPath": 0.25,
+        "compositionTension": 0.0,
+        "negativeSpaceShape": 0.0526,
+        "moduleScaleVariation": 0.1111,
+        "breakoutBehavior": 0.0625,
+        "contentLimits": 0.2105
+      },
+      "patternId": "checkpoint-003-faq-light-split-list-and-answer-cards",
+      "sectionType": "faq-objection",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\faq-objection\\checkpoint-003-faq-light-split-list-and-answer-cards.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

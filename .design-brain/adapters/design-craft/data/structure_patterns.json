@@ -1,0 +1,748 @@
+{
+  "restaurant_hospitality": {
+    "name": "Atmospheric Hospitality Website System",
+    "unit_label": "sections",
+    "sections": [
+      "Immersive hero / atmosphere image",
+      "Signature menu or service highlights",
+      "Dining/venue story",
+      "Gallery or ambience section",
+      "Reservation/booking logic",
+      "Reviews/social proof",
+      "Location/opening hours",
+      "CTA reservation",
+      "Footer"
+    ]
+  },
+  "finance_consulting": {
+    "name": "Trust-Led Finance Consulting Website System",
+    "unit_label": "sections",
+    "sections": [
+      "Trust-led hero",
+      "Pain/solution framing",
+      "Services overview",
+      "Process/consultation method",
+      "Metrics/credibility",
+      "Case study or client outcomes",
+      "Team/advisor credibility",
+      "FAQ/risk clarity",
+      "CTA consultation",
+      "Footer"
+    ]
+  },
+  "equipment_rental_service": {
+    "name": "Rental Booking Service Website System",
+    "unit_label": "sections",
+    "sections": [
+      "Search/booking hero",
+      "Category/rental inventory",
+      "How rental works",
+      "Featured equipment",
+      "Pricing or rental plans",
+      "Availability/service area",
+      "Trust/safety/support",
+      "FAQ",
+      "CTA booking",
+      "Footer"
+    ]
+  },
+  "jewelry_ecommerce": {
+    "name": "Luxury Jewelry Commerce Website System",
+    "unit_label": "sections",
+    "sections": [
+      "Luxury product hero",
+      "Featured collections",
+      "Product grid/category",
+      "Craft/material story",
+      "Best sellers",
+      "Gift/occasion section",
+      "Trust/shipping/returns",
+      "Testimonials/editorial lifestyle",
+      "CTA/shop collection",
+      "Footer"
+    ]
+  },
+  "ecommerce_storefront": {
+    "name": "Commerce Storefront Website System",
+    "unit_label": "sections",
+    "sections": [
+      "Product-led commerce hero",
+      "Featured categories",
+      "Product grid/catalog",
+      "Best sellers",
+      "Brand or material story",
+      "Offer/trust strip",
+      "Reviews/social proof",
+      "Shipping/returns/support",
+      "CTA/shop collection",
+      "Footer"
+    ]
+  },
+  "fashion_apparel_ecommerce": {
+    "name": "Fashion Apparel Commerce Website System",
+    "unit_label": "sections",
+    "sections": [
+      "Campaign/editorial hero",
+      "Featured collection",
+      "Category navigation",
+      "Product grid",
+      "Lookbook/style inspiration",
+      "Best sellers/new arrivals",
+      "Size/fit or material guidance",
+      "Trust/shipping/returns",
+      "Promo/newsletter/CTA",
+      "Footer"
+    ]
+  },
+  "luxury_furniture": {
+    "name": "Editorial Furniture Commerce Website System",
+    "unit_label": "sections",
+    "sections": [
+      "Editorial hero",
+      "Collection/category showcase",
+      "Room inspiration",
+      "Material/detail story",
+      "Featured products",
+      "Designer/brand philosophy",
+      "Gallery/lookbook",
+      "Service/trust/shipping",
+      "CTA showroom/shop",
+      "Footer"
+    ]
+  },
+  "agency_portfolio": {
+    "name": "Agency Portfolio Case-Study Website System",
+    "unit_label": "sections",
+    "sections": [
+      "Expressive hero",
+      "Selected works",
+      "Services/capabilities",
+      "Process",
+      "Case study deep-dive",
+      "Client logos/testimonials",
+      "Team/studio culture",
+      "CTA project inquiry",
+      "Footer"
+    ]
+  },
+  "dashboard_admin": {
+    "name": "Operational Dashboard Module System",
+    "unit_label": "modules",
+    "sections": [
+      "Sidebar/topbar navigation",
+      "KPI summary",
+      "Primary chart area",
+      "Secondary analytics",
+      "Data table",
+      "Filters/search",
+      "Activity feed",
+      "Empty/loading/error states",
+      "User/settings/permissions",
+      "Responsive behavior notes"
+    ]
+  },
+  "editorial_blog_cms": {
+    "name": "Editorial CMS Website System",
+    "unit_label": "sections",
+    "sections": [
+      "Editorial hero",
+      "Featured story",
+      "Category navigation",
+      "Article grid",
+      "Trending/latest",
+      "Author/editor note",
+      "Newsletter or subscription module",
+      "Archive/search logic",
+      "CTA/read more",
+      "Footer"
+    ]
+  },
+  "real_estate_property": {
+    "name": "Real Estate Property Website System",
+    "unit_label": "sections",
+    "sections": [
+      "Search/listing hero",
+      "Featured properties",
+      "Property categories",
+      "Location/neighborhood highlights",
+      "Agent/service credibility",
+      "Property detail preview",
+      "Financing/contact guidance",
+      "Testimonials/trust",
+      "CTA inquiry/schedule visit",
+      "Footer"
+    ]
+  },
+  "education_course": {
+    "name": "Education Course Website System",
+    "unit_label": "sections",
+    "sections": [
+      "Learning outcome hero",
+      "Course/category overview",
+      "Featured courses",
+      "Curriculum/modules",
+      "Instructor credibility",
+      "Student outcomes",
+      "Pricing/enrollment",
+      "FAQ",
+      "CTA enroll",
+      "Footer"
+    ]
+  },
+  "medical_clinic": {
+    "name": "Medical Clinic Appointment Website System",
+    "unit_label": "sections",
+    "sections": [
+      "Trust/appointment hero",
+      "Services/treatments",
+      "Doctor/team credibility",
+      "Process/appointment flow",
+      "Facilities/clinic atmosphere",
+      "Patient testimonials",
+      "Insurance/payment info",
+      "FAQ",
+      "CTA appointment",
+      "Footer"
+    ]
+  },
+  "beauty_wellness": {
+    "name": "Beauty Wellness Booking Website System",
+    "unit_label": "sections",
+    "sections": [
+      "Atmosphere/benefit hero",
+      "Treatments/services",
+      "Featured packages",
+      "Before/after or result logic",
+      "Specialist credibility",
+      "Experience/ambience",
+      "Pricing/booking",
+      "Testimonials",
+      "CTA booking",
+      "Footer"
+    ]
+  },
+  "car_rental_transport": {
+    "name": "Car Rental Transport Booking Website System",
+    "unit_label": "sections",
+    "sections": [
+      "Booking/search hero",
+      "Vehicle categories",
+      "Featured fleet",
+      "Rental process",
+      "Pricing/packages",
+      "Coverage/service area",
+      "Safety/support/trust",
+      "FAQ",
+      "CTA booking",
+      "Footer"
+    ]
+  },
+  "furniture_rental_service": {
+    "name": "Furniture Rental Booking Website System",
+    "unit_label": "sections",
+    "sections": [
+      "Booking/search hero",
+      "Furniture categories",
+      "Packages/sets",
+      "How rental works",
+      "Featured items",
+      "Pricing/duration",
+      "Delivery/setup service",
+      "Trust/support",
+      "FAQ",
+      "CTA booking",
+      "Footer"
+    ]
+  },
+  "email_newsletter": {
+    "name": "Email Newsletter Template System",
+    "unit_label": "blocks",
+    "sections": [
+      "Email header/preheader",
+      "Hero message block",
+      "Main content story/offer",
+      "Feature/product/content blocks",
+      "CTA block",
+      "Secondary links",
+      "Footer/legal/unsubscribe",
+      "Responsive/mobile notes",
+      "Accessibility notes"
+    ]
+  },
+  "saas_product_website": {
+    "name": "SaaS Product Website System",
+    "unit_label": "sections",
+    "sections": [
+      "Outcome-led product hero",
+      "Problem/market context",
+      "Product workflow preview",
+      "Feature modules",
+      "Dashboard/data proof",
+      "Integrations or ecosystem",
+      "Security/trust",
+      "Customer outcomes",
+      "Pricing or plan logic",
+      "FAQ",
+      "CTA conversion",
+      "Footer"
+    ]
+  },
+  "full_website_template": {
+    "name": "Product-Specific Marketplace Website System",
+    "unit_label": "sections",
+    "sections": [
+      "Product-specific hero",
+      "Audience/problem framing",
+      "Core offer overview",
+      "Proof or brand credibility",
+      "Feature/service detail",
+      "Process or workflow",
+      "Showcase/gallery/module preview",
+      "Pricing/package or conversion logic",
+      "FAQ/objection handling",
+      "CTA closing",
+      "Footer"
+    ]
+  },
+  "landing_page": {
+    "name": "Campaign Landing Page System",
+    "unit_label": "sections",
+    "sections": [
+      "Campaign hero",
+      "Offer/value proof",
+      "Benefits",
+      "How it works",
+      "Social proof",
+      "FAQ/objections",
+      "CTA closing"
+    ]
+  },
+  "mobile_app": {
+    "name": "Mobile App Screen Flow System",
+    "unit_label": "screens",
+    "sections": [
+      "Onboarding/auth entry",
+      "Primary task home",
+      "Core workflow screen",
+      "Detail screen",
+      "State coverage: empty/loading/error",
+      "Notifications or activity",
+      "Settings/profile",
+      "Navigation pattern notes"
+    ]
+  },
+  "presentation_deck": {
+    "name": "Presentation Slide System",
+    "unit_label": "slides",
+    "sections": [
+      "Cover slide",
+      "Agenda/section divider",
+      "Problem context",
+      "Solution narrative",
+      "Data/metrics slide",
+      "Comparison slide",
+      "Case study or proof slide",
+      "Quote/testimonial slide",
+      "Team/credibility slide",
+      "Roadmap/next steps",
+      "CTA/closing slide"
+    ]
+  },
+  "brand_kit": {
+    "name": "Brand Identity Kit System",
+    "unit_label": "blocks",
+    "sections": [
+      "Logo direction note",
+      "Typography direction",
+      "Color roles",
+      "Graphic motif",
+      "Layout rules",
+      "Imagery direction",
+      "Brand application examples",
+      "Do/don't notes"
+    ]
+  },
+  "static_canvas": {
+    "name": "Static Canvas Design System",
+    "unit_label": "blocks",
+    "sections": [
+      "Canvas size/aspect ratio note",
+      "Visual hierarchy",
+      "Headline/body/CTA placement",
+      "Image direction",
+      "Background/effect direction",
+      "Export notes",
+      "Accessibility/legibility notes"
+    ]
+  },
+  "menu_design": {
+    "name": "Restaurant Menu Design System",
+    "unit_label": "blocks",
+    "sections": [
+      "Menu category structure",
+      "Item hierarchy",
+      "Price styling",
+      "Food image/illustration direction",
+      "Readability rules",
+      "Print/digital notes",
+      "Brand mood notes",
+      "CTA/order/reservation cue"
+    ]
+  },
+  "social_post": {
+    "name": "Social Post Design System",
+    "unit_label": "blocks",
+    "sections": [
+      "Format/aspect ratio",
+      "Slide/post sequence",
+      "Headline hook",
+      "Visual rhythm",
+      "Brand consistency",
+      "CTA/save/share cue",
+      "Export notes"
+    ]
+  },
+  "ui_kit": {
+    "name": "UI Kit Component Coverage System",
+    "unit_label": "blocks",
+    "sections": [
+      "Color tokens",
+      "Typography tokens",
+      "Spacing/radius/elevation tokens",
+      "Core component inventory",
+      "Component states",
+      "Variant matrix",
+      "Accessibility notes",
+      "Usage rules",
+      "Figma/source hygiene notes"
+    ]
+  },
+  "component_library": {
+    "name": "Component Library System",
+    "unit_label": "blocks",
+    "sections": [
+      "Token foundations",
+      "Component inventory",
+      "Variant definitions",
+      "State coverage",
+      "Responsive behavior",
+      "Accessibility notes",
+      "Usage rules",
+      "Figma/source hygiene notes"
+    ]
+  },
+  "design_system": {
+    "name": "Token-Driven Design System",
+    "unit_label": "blocks",
+    "sections": [
+      "Color tokens",
+      "Typography tokens",
+      "Spacing tokens",
+      "Radius/elevation tokens",
+      "Component inventory",
+      "Component states",
+      "Variants",
+      "Accessibility notes",
+      "Usage rules",
+      "Figma/source hygiene notes"
+    ]
+  },
+  "brochure_design": {
+    "name": "Brochure Design Print/PDF System",
+    "unit_label": "panels",
+    "sections": [
+      "Cover/hero panel",
+      "Service/product overview",
+      "Key benefits",
+      "Image/content blocks",
+      "Trust/contact block",
+      "Back cover/contact",
+      "Fold/print notes",
+      "Safe margins",
+      "Export notes"
+    ]
+  },
+  "print_collateral": {
+    "name": "Print Collateral Layout System",
+    "unit_label": "blocks",
+    "sections": [
+      "Canvas/aspect ratio",
+      "Headline hierarchy",
+      "Supporting copy",
+      "Focal image/illustration",
+      "CTA/contact if appropriate",
+      "Safe margins",
+      "Print/export specs",
+      "Readability check"
+    ]
+  },
+  "poster_design": {
+    "name": "Poster Design Focal System",
+    "unit_label": "blocks",
+    "sections": [
+      "Headline hierarchy",
+      "Focal visual",
+      "Supporting information",
+      "Promo/date/location if relevant",
+      "Visual emphasis",
+      "Safe margins",
+      "Print/export notes"
+    ]
+  },
+  "banner_design": {
+    "name": "Banner Design Message System",
+    "unit_label": "blocks",
+    "sections": [
+      "Format/aspect ratio",
+      "Headline/offer hierarchy",
+      "Product/visual focus",
+      "CTA/contact if relevant",
+      "Crop-safe layout",
+      "Export sizes"
+    ]
+  },
+  "thumbnail_design": {
+    "name": "Thumbnail Design Hook System",
+    "unit_label": "blocks",
+    "sections": [
+      "Hook text",
+      "Focal subject",
+      "Contrast/readability at small size",
+      "Crop-safe composition",
+      "Export size"
+    ]
+  },
+  "invoice_template": {
+    "name": "Invoice Template Document System",
+    "unit_label": "blocks",
+    "sections": [
+      "Sender/client info",
+      "Invoice metadata",
+      "Item table",
+      "Totals/tax/discount",
+      "Payment instruction",
+      "Legal/footer notes",
+      "Print/PDF clarity"
+    ]
+  },
+  "resume_template": {
+    "name": "Resume Template Document System",
+    "unit_label": "blocks",
+    "sections": [
+      "Profile/header",
+      "Summary",
+      "Experience",
+      "Education",
+      "Skills",
+      "Portfolio/contact",
+      "ATS/readability note",
+      "Print/PDF export"
+    ]
+  },
+  "ticket_receipt_design": {
+    "name": "Ticket Receipt Design System",
+    "unit_label": "blocks",
+    "sections": [
+      "Order metadata",
+      "Item list",
+      "Quantity/price",
+      "Notes/modifiers",
+      "Total/payment status",
+      "Barcode/QR optional",
+      "Print readability",
+      "Receipt width notes"
+    ]
+  },
+  "letterhead_design": {
+    "name": "Letterhead Design Document System",
+    "unit_label": "blocks",
+    "sections": [
+      "Header/logo placement",
+      "Contact information hierarchy",
+      "Footer/legal/company info",
+      "Margin/safe area",
+      "Print/PDF notes",
+      "Brand consistency",
+      "Typography/spacing rules"
+    ]
+  },
+  "price_list_design": {
+    "name": "Price List Design Scan System",
+    "unit_label": "blocks",
+    "sections": [
+      "Category grouping",
+      "Item/service list",
+      "Price alignment",
+      "Currency/discount notes",
+      "Readability",
+      "Print/digital export",
+      "Optional promo/badge"
+    ]
+  },
+  "table_tent_design": {
+    "name": "Table Tent Menu Design System",
+    "unit_label": "panels",
+    "sections": [
+      "Front/back or panel layout",
+      "Headline/menu offer",
+      "Featured items",
+      "QR/menu code if relevant",
+      "Price or promo info",
+      "Fold/print/dieline note",
+      "Safe margin",
+      "Table visibility/readability"
+    ]
+  },
+  "catalog_design": {
+    "name": "Catalog Design Print/PDF System",
+    "unit_label": "spreads",
+    "sections": [
+      "Cover/intro",
+      "Category structure",
+      "Product grid/list",
+      "Product detail snippet",
+      "Price/SKU if relevant",
+      "Image treatment",
+      "Page/spread rhythm",
+      "Print/PDF/export notes"
+    ]
+  },
+  "lookbook_design": {
+    "name": "Lookbook Design Editorial System",
+    "unit_label": "spreads",
+    "sections": [
+      "Cover/editorial opener",
+      "Collection story",
+      "Outfit/product image spreads",
+      "Style notes",
+      "Product references",
+      "Mood/visual rhythm",
+      "Page/spread system",
+      "Print/PDF/export notes"
+    ]
+  },
+  "cover_design": {
+    "name": "Cover Design Visual System",
+    "unit_label": "blocks",
+    "sections": [
+      "Format/aspect ratio",
+      "Cover title hierarchy",
+      "Focal visual",
+      "Author/brand/subtitle metadata",
+      "Safe area/crop-safe area",
+      "Contrast/readability",
+      "Export notes"
+    ]
+  },
+  "voucher_coupon_design": {
+    "name": "Voucher Coupon Card System",
+    "unit_label": "blocks",
+    "sections": [
+      "Offer/value hierarchy",
+      "Code/serial/QR area",
+      "Terms/expiry",
+      "Brand/logo area",
+      "Redemption instruction",
+      "Safe margins",
+      "Print/digital export",
+      "Card/voucher size notes"
+    ]
+  },
+  "sticker_design": {
+    "name": "Sticker Design Print System",
+    "unit_label": "blocks",
+    "sections": [
+      "Sticker shape",
+      "Focal mark/graphic",
+      "Text hierarchy",
+      "Die-cut/safe margin",
+      "Print/export notes",
+      "Material/finish note"
+    ]
+  },
+  "postcard_design": {
+    "name": "Postcard Design Message System",
+    "unit_label": "blocks",
+    "sections": [
+      "Front/back layout",
+      "Headline/message",
+      "Image/illustration",
+      "Address/contact area if relevant",
+      "Safe margin",
+      "Print/export notes"
+    ]
+  },
+  "certificate_design": {
+    "name": "Certificate Design Hierarchy System",
+    "unit_label": "blocks",
+    "sections": [
+      "Recipient/name field",
+      "Title/certificate heading",
+      "Issuer/signature/seal",
+      "Date/serial field",
+      "Border/ornament",
+      "Print/PDF export"
+    ]
+  },
+  "booklet_design": {
+    "name": "Booklet Design Reading System",
+    "unit_label": "spreads",
+    "sections": [
+      "Cover",
+      "Table of contents or intro",
+      "Page/spread rhythm",
+      "Section pages",
+      "Image/text balance",
+      "Contact/back page",
+      "Print/PDF export"
+    ]
+  },
+  "packaging_label_design": {
+    "name": "Packaging Label Design System",
+    "unit_label": "blocks",
+    "sections": [
+      "Front label hierarchy",
+      "Product name",
+      "Variant/flavor/size",
+      "Ingredients/info area if relevant",
+      "Barcode/QR/regulatory area if relevant",
+      "Material/finish note",
+      "Print/dieline/export notes"
+    ]
+  },
+  "label_design": {
+    "name": "Label Design System",
+    "unit_label": "blocks",
+    "sections": [
+      "Label shape/size",
+      "Brand/product hierarchy",
+      "Supporting info",
+      "Material/finish",
+      "Print/export notes"
+    ]
+  },
+  "price_tag_design": {
+    "name": "Price Tag Design System",
+    "unit_label": "blocks",
+    "sections": [
+      "Price hierarchy",
+      "Product/variant info",
+      "Barcode/SKU if relevant",
+      "Material/finish",
+      "String/hole/die-cut note if relevant",
+      "Print/export notes"
+    ]
+  },
+  "hang_tag_design": {
+    "name": "Hang Tag Design System",
+    "unit_label": "blocks",
+    "sections": [
+      "Brand/logo area",
+      "Product/size/material info",
+      "Price/SKU/barcode if relevant",
+      "Hole/string placement",
+      "Front/back layout",
+      "Print/export notes"
+    ]
+  }
+}

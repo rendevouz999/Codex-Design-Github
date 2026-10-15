@@ -1,0 +1,122 @@
+{
+  "patternId": "checkpoint-004-features-career-agency-job-category-proof-grid",
+  "sectionType": "features",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\board-job-career-agency-website-2025-04-08-01-06-29-utc - Board - Job Career & Agency Website - a8e43662.png"
+  ],
+  "productFamilies": [
+    "career",
+    "recruiting",
+    "agency",
+    "jobs"
+  ],
+  "commercialPurpose": "Explain recruiting value through job categories, agency benefits, and outcome proof.",
+  "purposeLayer": "Features section helps visitors scan job paths and understand agency support before asking them to convert.",
+  "anatomyLayer": "White section, service/category icon cards, office/photo split, benefit rows, small profile chips, stat cards, and FAQ adjacency.",
+  "hierarchyLayer": "Category cards first, agency proof split second, outcome stats third.",
+  "gridRhythmLayer": "Light recruiting feature flow alternating category card grids with human workplace proof blocks.",
+  "densityLimitLayer": "Use section density limit: {\"primaryModules\": \"3-6\", \"extendedModules\": \"7-8 only when grouped\", \"proofCue\": \"optional\"}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, or section order.",
+  "usageRuleLayer": "Use when job/career templates need category scanning plus service credibility.",
+  "layoutGesture": "career category grid with workplace proof modules",
+  "sectionSilhouette": "white page flow with icon cards, office image split, profile chips, and outcome stats",
+  "compositionTension": "job-market scanning is balanced with human agency reassurance",
+  "focalPath": "category cards to workplace proof image to stats to FAQ cue",
+  "negativeSpaceShape": "white spacing separates dense job cards from larger photo proof areas",
+  "depthLayering": "flat white base, cards, photo module, stat panel, FAQ rows",
+  "moduleScaleVariation": "small icon cards contrasted with larger office/human proof module",
+  "breakoutBehavior": "photo proof block interrupts card-grid repetition",
+  "contentLimits": {
+    "primaryModules": "3-6",
+    "extendedModules": "7-8 only when grouped",
+    "proofCue": "optional"
+  },
+  "antiCopyBoundary": "Do not copy Board category names, office image, yellow/teal accents, or card order.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "hero"
+    ],
+    "after": [
+      "faq-objection",
+      "contact-booking",
+      "footer"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 004 contact sheet",
+    "reviewNotes": "Checkpoint 004 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "features:5d6b3efb7d27cf65",
+    "hash": "5d6b3efb7d27cf653c15103e0570798f9db76377",
+    "axes": {
+      "layoutGesture": "career category grid with workplace proof modules",
+      "sectionSilhouette": "white page flow with icon cards, office image split, profile chips, and outcome stats",
+      "anatomyLayer": "white section, service/category icon cards, office/photo split, benefit rows, small profile chips, stat cards, and faq adjacency.",
+      "hierarchyLayer": "category cards first, agency proof split second, outcome stats third.",
+      "gridRhythmLayer": "light recruiting feature flow alternating category card grids with human workplace proof blocks.",
+      "focalPath": "category cards to workplace proof image to stats to faq cue",
+      "compositionTension": "job-market scanning is balanced with human agency reassurance",
+      "negativeSpaceShape": "white spacing separates dense job cards from larger photo proof areas",
+      "moduleScaleVariation": "small icon cards contrasted with larger office/human proof module",
+      "breakoutBehavior": "photo proof block interrupts card-grid repetition",
+      "contentLimits": "{\"extendedmodules\":\"7-8 only when grouped\",\"primarymodules\":\"3-6\",\"proofcue\":\"optional\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.1822,
+  "matchGroupId": "features:5d6b3efb7d27cf65",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:16:28Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 3,
+    "bestMatch": {
+      "score": 0.1822,
+      "axisScores": {
+        "layoutGesture": 0.1429,
+        "sectionSilhouette": 0.1154,
+        "anatomyLayer": 0.129,
+        "hierarchyLayer": 0.2353,
+        "gridRhythmLayer": 0.08,
+        "focalPath": 0.125,
+        "compositionTension": 0.0,
+        "negativeSpaceShape": 0.0,
+        "moduleScaleVariation": 0.1765,
+        "breakoutBehavior": 0.0,
+        "contentLimits": 1.0
+      },
+      "patternId": "checkpoint-004-features-cybersecurity-stacked-dashboard-proof-panels",
+      "sectionType": "features",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\features\\checkpoint-004-features-cybersecurity-stacked-dashboard-proof-panels.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

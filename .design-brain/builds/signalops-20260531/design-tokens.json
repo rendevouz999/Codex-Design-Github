@@ -1,0 +1,43 @@
+{
+  "templateId": "signalops-ai-website-template",
+  "colorTokens": {
+    "background": "#070A0E",
+    "surface": "#101820",
+    "surfaceElevated": "#14202A",
+    "textPrimary": "#F5F8F7",
+    "textSecondary": "#DCE7E3",
+    "textMuted": "#9CA9A9",
+    "accent": "#65F2C2",
+    "action": "#65F2C2",
+    "border": "#263541",
+    "attention": "#F2B35E"
+  },
+  "typographyTokens": {
+    "display": "Inter Bold 76",
+    "h1": "Inter Bold 76",
+    "h2": "Inter Bold 48",
+    "h3": "Inter Semi Bold 24",
+    "body": "Inter Regular 16",
+    "bodySmall": "Inter Regular 13",
+    "label": "Inter Semi Bold 12",
+    "button": "Inter Semi Bold 14",
+    "nav": "Inter Medium 13"
+  },
+  "spacingTokens": {
+    "scale": "8, 12, 14, 18, 20, 24, 28, 32, 44, 56, 80, 96, 104",
+    "sectionY": "82-104",
+    "componentPadding": "14-38",
+    "cardGap": "16-22",
+    "gridGap": "20-32",
+    "container": "1280"
+  },
+  "radius": {
+    "card": 8,
+    "button": 8,
+    "pill": 999
+  },
+  "effects": {
+    "signalGlow": "mint shadow used for active product proof",
+    "panelDepth": "soft black drop shadow for raised command surfaces"
+  }
+}

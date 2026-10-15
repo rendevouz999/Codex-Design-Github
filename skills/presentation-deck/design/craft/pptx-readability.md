@@ -1,0 +1,55 @@
+# PPTX Readability Craft
+
+- Treat decks as slide systems, not website slices.
+- One idea per slide; use a slide-role matrix before visuals.
+- In Figma-to-PPTX workflows, one top-level 16:9 frame must equal one slide on the export-ready page.
+- Validate the actual export canvas size, not only the aspect ratio; prefer 1920x1080 Full HD top-level frames when the conversion plugin maps 1440x810 frames too small inside PowerPoint.
+- Never nest several slide frames inside a row, board, overview, or contact-sheet frame that will be used by a PPTX conversion plugin.
+- Put design systems, overview grids, notes, archives, and preview/contact sheets on separate non-export pages.
+- After the deck is visually complete, run a per-frame precision pass; do not accept a slide only because the contact sheet looks organized.
+- Check every slide for overlap, near-collision, tangent spacing, title-to-content clearance, safe margins, footer clearance, baseline drift, and optical weight.
+- Define master/layout rules: title positions, safe margins, footer, page number, section marker.
+- Body text should remain readable in thumbnail view.
+- Chart and table slides need direct labels, units, and one takeaway.
+- Image placeholders should be role-based: cover, screenshot, profile, gallery, case crop.
+- Use thumbnail grids or screenshot review before final deck delivery.
+- Study pace: fast-read, slow-read, rest, emphasis, and climax slides should create a deliberate tempo.
+- Control energy distribution: not every slide can be loud, decorative, or hero-like.
+- Practice slide economy: every line, icon, shape, shadow, and motif must have a communication job.
+- Test content flexibility with longer copy, alternate languages, different image crops, varied chart/table data, and uneven bullet counts.
+- Think modularly: build reusable slide modules that can be moved, repeated, or adapted.
+- Prioritize information: decide what must be remembered, scanned, or studied slowly.
+- Name the emotional positioning and connect it to spacing, typography, imagery, contrast, and color temperature.
+- Ask why each major decision exists before borrowing any reference insight.
+- Match market fit before calling something premium; premium for finance, luxury, agency, education, and startup decks should look different.
+- Test template usability for non-designers: longer titles, changed logos, edited charts, replaced photos, and altered bullet counts should not break the slide.
+- Check scalability across short and long decks; a system that works for five slides can still fail at 40.
+- Watch visual fatigue: too many accents, cards, icons, big headings, effects, or dense slides will exhaust the audience.
+- Use editorial thinking from magazines, annual reports, brochures, signage, architecture layouts, and motion rhythm to improve presentation sophistication.
+- Build visual trust through precision, restraint, mature type, clean data, and disciplined spacing.
+- Practice reduction before adding style; if deletion strengthens the slide, keep it deleted.
+- Treat the deck as an experience with hook, explanation, proof, variation, emotional landing, and closure.
+- Break the system only when a deliberate contrast moment creates impact and the surrounding system is strong enough to absorb it.
+- Judge function as strongly as beauty: readability, editability, scalability, flexibility, flow, and presentation comfort.
+- Control attention: plan first look, hold time, focus shift, pause, and overwhelm risk.
+- Use visual silence as an active design tool, not leftover empty space.
+- Prefer confident restraint over visible effort; a calm slide can feel more premium than an overloaded one.
+- Protect design taste by learning from high-quality visual communication references, not only marketplace templates.
+- Inspect subtlety: spacing increments, line-height, crop precision, opacity, alignment, and color temperature.
+- Aim for invisible design where the audience feels ease and clarity rather than noticing decoration.
+- Use constraints as a foundation test: two colors, one font family, no gradient, no shadow, no icon, simple grid.
+- Design for performance mode when the deck is spoken live; design differently for PDF/proposal reading.
+- Practice what not to design; stop when a headline, number, and space already communicate enough.
+- Diagnose premium feel through clarity, restraint, confidence, rhythm, spacing, consistency, editing discipline, emotional control, trust, hierarchy, and intentionality.
+- Treat template decks as reusable products: editability, placeholders, master/layout setup, role variety, and non-designer usability matter as much as visual polish.
+- Audit master/theme/layout systems across PowerPoint, Google Slides, Keynote, and Figma Slides; layouts need clear roles and stable placeholders.
+- Use scientific hierarchy checks: first look, second look, quiet detail, reading path, contrast, scale, and grouping.
+- Check grid discipline through margins, baselines, gaps, safe areas, alignment, and repeated spacing.
+- Cluster references by market and mood before borrowing patterns; do not blend incompatible categories blindly.
+- Maintain a slide-role matrix with multiple layout variations for key roles.
+- Control density across light, medium, dense, visual-break, data-heavy, and image-heavy slides.
+- Run edit stress tests before final: longer titles, translated copy, more bullets, image aspect swaps, logo color swaps, and changed chart data.
+- Run thumbnail tests for silhouette variety, readability, cover strength, divider clarity, and monotony.
+- Run export reality checks for fonts, images, charts, shape complexity, file size, PDF output, and cross-platform survivability.
+- For Figma exports, validate the layer tree before delivery: the target export page should list only slide frames at the top level.
+- For Figma-to-PPTX exports, open or inspect the converted PowerPoint result when possible; if the slide content appears inset or undersized, rebuild the export page as exact 1920x1080 frames before final delivery.

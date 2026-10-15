@@ -1,0 +1,71 @@
+{
+  "templateId": "prismshelf-r2-ecommerce-browser",
+  "productFamily": "Ecommerce / storefront website template",
+  "designSystemScope": "Separate Figma design-system board for ecommerce tokens, typography, component specimens, commerce states, placeholders, and anti-scaffold receipt.",
+  "colorTokens": {
+    "background": "#FBF6ED",
+    "surface": "#FFFDF9",
+    "surfaceElevated": "#FFE8D6",
+    "textPrimary": "#090B14",
+    "textSecondary": "#6B737A",
+    "textMuted": "#6B737A",
+    "accent": "#2635F2",
+    "action": "#FF6121",
+    "border": "#D6CCB8"
+  },
+  "typographyTokens": {
+    "display": "Space Grotesk 72/96",
+    "h1": "Space Grotesk 58/104",
+    "h2": "Space Grotesk 46/112",
+    "h3": "Space Grotesk 28/120",
+    "body": "Inter 18/148",
+    "bodySmall": "Inter 14/148",
+    "label": "Inter 12/148 semibold",
+    "button": "Inter 13/148 semibold",
+    "nav": "Inter 13/148 semibold"
+  },
+  "spacingTokens": {
+    "scale": "8, 10, 12, 16, 18, 22, 28, 40, 56, 64",
+    "sectionY": "64",
+    "componentPadding": "22",
+    "cardGap": "18",
+    "gridGap": "20",
+    "container": "1280"
+  },
+  "components": [
+    "navigation header",
+    "button",
+    "card",
+    "CTA drawer",
+    "footer",
+    "placeholder",
+    "category rail",
+    "product card",
+    "product category browser",
+    "cart drawer",
+    "trust and returns module",
+    "comparison table",
+    "product detail slot",
+    "lookbook image tile",
+    "FAQ row",
+    "checkout drawer",
+    "search tray"
+  ],
+  "states": ["default", "hover", "focus", "active", "disabled"],
+  "sourceHygiene": {
+    "autoLayout": true,
+    "editableText": true,
+    "editablePlaceholders": true,
+    "clearLayerNames": true,
+    "reusableComponents": true,
+    "responsiveConstraints": true,
+    "flattenedImportantContent": false
+  },
+  "artifactEvidence": {
+    "designSystemPageId": "24:3",
+    "screenshotPath": ".design-brain/screenshots/20260531-prismshelf-r2-design-system-final.png",
+    "componentInventory": "Category rail, product card, comparison table, product detail slot, lookbook image tile, FAQ row, checkout drawer, search tray.",
+    "tokenSourcePath": "R2 PrismShelf Figma design-system board"
+  },
+  "status": "PASS"
+}

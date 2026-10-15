@@ -1,0 +1,132 @@
+{
+  "buildId": "post-build-20260531114732",
+  "templateCount": 2,
+  "templates": [
+    "atlashaus-r2-architecture-dossier",
+    "prismshelf-r2-ecommerce-browser"
+  ],
+  "designCognitionRequired": true,
+  "completionReceiptRequired": false,
+  "completionReceiptPresent": false,
+  "designSystemResults": {
+    "atlashaus-r2-architecture-dossier": {
+      "status": "PASS",
+      "templateId": "atlashaus-r2-architecture-dossier",
+      "errors": [],
+      "warnings": [],
+      "artifactEvidenceStatus": "PASS"
+    },
+    "prismshelf-r2-ecommerce-browser": {
+      "status": "PASS",
+      "templateId": "prismshelf-r2-ecommerce-browser",
+      "errors": [],
+      "warnings": [],
+      "artifactEvidenceStatus": "PASS"
+    }
+  },
+  "designCognitionResults": {
+    "AtlasHaus R2 architecture Figma website template after v1 scaffold rejection": {
+      "status": "PASS",
+      "missingFields": [],
+      "riskCategories": [],
+      "requiredRepairs": []
+    },
+    "PrismShelf R2 ecommerce Figma website template after v1 scaffold rejection": {
+      "status": "PASS",
+      "missingFields": [],
+      "riskCategories": [],
+      "requiredRepairs": []
+    }
+  },
+  "auditPasses": {
+    "pass1OriginalityBatchSimilarity": "PASS",
+    "pass2DesignSystemSourceHygiene": "PASS",
+    "pass3VisualLayoutQA": "PASS"
+  },
+  "batchSimilarity": {
+    "batchId": "20260531-website-template-pack-r2",
+    "pairs": [
+      {
+        "pair": [
+          "atlashaus-r2-architecture-dossier",
+          "prismshelf-r2-ecommerce-browser"
+        ],
+        "structureDefiningAxisSimilarity": 0.304,
+        "visualLanguageAxisSimilarity": 0.148,
+        "scaffoldRisk": 0.233,
+        "failedAxes": [],
+        "hardFailAxes": [],
+        "softRiskAxes": [],
+        "requiredStructuralRepairs": [],
+        "axisScores": {
+          "heroGrammarSimilarity": 0.133,
+          "sectionOrderSimilarity": 0.0,
+          "gridSystemSimilarity": 0.121,
+          "layoutGestureSimilarity": 0.304,
+          "sectionSilhouetteSimilarity": 0.0,
+          "compositionTensionSimilarity": 0.037,
+          "focalPathSimilarity": 0.032,
+          "negativeSpaceShapeSimilarity": 0.148,
+          "depthLayeringSimilarity": 0.037,
+          "moduleScaleVariationSimilarity": 0.03,
+          "breakoutBehaviorSimilarity": 0.029,
+          "layoutRhythmSimilarity": 0.033,
+          "cardCadenceSimilarity": 0.083,
+          "componentPatternSimilarity": 0.1,
+          "ctaPlacementSimilarity": 0.182,
+          "closureSilhouetteSimilarity": 0.163,
+          "imageTreatmentSimilarity": 0.111,
+          "spacingCadenceSimilarity": 0.031,
+          "typographyBehaviorSimilarity": 0.111,
+          "colorRoleSimilarity": 0.129,
+          "effectLanguageSimilarity": 0.062,
+          "navigationFooterPatternSimilarity": 0.14,
+          "overallScaffoldRisk": 0.233
+        },
+        "status": "PASS"
+      }
+    ],
+    "overallRisk": "low",
+    "requiredRepairs": [],
+    "failedAxes": [],
+    "hardFailAxes": [],
+    "softRiskAxes": [],
+    "structureDefiningAxisSimilarity": 0.304,
+    "visualLanguageAxisSimilarity": 0.148,
+    "status": "PASS"
+  },
+  "buildSessionLifecycle": {
+    "status": "not_provided",
+    "sessionId": "",
+    "fingerprintLockStatus": "N/A",
+    "layoutAuditVsReference": "N/A",
+    "pairwiseAiLayoutAudit": "N/A",
+    "issues": []
+  },
+  "layoutOriginality": {
+    "buildSessionId": "",
+    "layoutAuditVsReference": "N/A",
+    "pairwiseAiLayoutAudit": "N/A",
+    "fingerprintLockStatus": "N/A",
+    "ideaRecoveryCorpusUsed": false,
+    "corpusInspirationIds": [],
+    "layoutRepairCycles": 0,
+    "axisFailuresRepaired": [],
+    "safeToProceedToNextTemplate": null
+  },
+  "repairCycles": 1,
+  "repairPlan": [
+    {
+      "trigger": "User rejection 02 attached similar closure screenshot",
+      "rootCause": "Both endings shared a light-left plus dark-right CTA/footer split silhouette.",
+      "repair": "PrismShelf closure rebuilt as asymmetric ecommerce receipt rail; AtlasHaus closure rebuilt as folded architectural brief sheet."
+    }
+  ],
+  "remainingIssues": [],
+  "visualVerificationStatus": "screenshot_render_verified",
+  "finalStatus": "READY_WITH_LIMITATIONS",
+  "limitations": [
+    "Completion receipt was not required for this diagnostic run; final status cannot be READY."
+  ],
+  "completionStatement": "Post-build gate satisfied."
+}

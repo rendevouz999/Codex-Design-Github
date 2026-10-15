@@ -1,0 +1,26 @@
+{
+  "owner": "codex-design.presentation-deck",
+  "adoptionVersion": "1.0.0",
+  "donor": {
+    "repository": "https://github.com/hugohe3/ppt-master",
+    "commit": "ca04346de145ed6462ddf34682848e71df5e20a2",
+    "skillVersion": "6.7.0",
+    "license": "MIT",
+    "runtimeDependency": false
+  },
+  "changes": [
+    "Selective execution dependency closure and visual resources adopted",
+    "Native/web host tools and design knowledge consolidated",
+    "Path/configuration and integrity ownership changed to Codex Design",
+    "Template operations exposed by internal CLI",
+    "Library output defaults replaced by project-scoped authoring"
+  ],
+  "sourceManifest": "adopted-files.json",
+  "omitted": [
+    "donor Git and updater",
+    "standalone donor skill",
+    "finished branded decks and sound library",
+    "proprietary document-skills/pptx"
+  ],
+  "verification": "verification.json"
+}

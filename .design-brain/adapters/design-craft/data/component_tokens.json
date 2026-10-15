@@ -1,0 +1,21 @@
+{
+  "version": "0.2.7",
+  "required_tokens": [
+    "--radius-button",
+    "--radius-card",
+    "--radius-input",
+    "--modal-width-md",
+    "--modal-width-lg",
+    "--focus-ring-color",
+    "--surface-depth-low",
+    "--surface-depth-medium",
+    "--surface-depth-high",
+    "--button-padding-x",
+    "--button-padding-y",
+    "--container-max-width",
+    "--brand-accent",
+    "--font-heading",
+    "--font-body"
+  ],
+  "rule": "Component specs should reference semantic tokens and treat fallback values as customizable, not universal fixed decisions."
+}

@@ -1,0 +1,786 @@
+{
+  "version": "1.1.0",
+  "strategy": "selective-index",
+  "updated": "2026-10-10",
+  "modules": [
+    {
+      "id": "website-template",
+      "kind": "medium",
+      "mediums": [
+        "website",
+        "website_template",
+        "multipage_site",
+        "html_template",
+        "php_template"
+      ],
+      "productTypes": [
+        "website template",
+        "Figma website template",
+        "multipurpose website",
+        "SaaS website",
+        "product marketing website",
+        "business website",
+        "agency website",
+        "service website",
+        "corporate website",
+        "full-site template",
+        "HTML template",
+        "PHP template"
+      ],
+      "triggers": [
+        "website",
+        "figma website",
+        "website template",
+        "template website",
+        "full website",
+        "multipage",
+        "multi page",
+        "html template",
+        "php template",
+        "business website",
+        "agency website",
+        "service website",
+        "corporate website",
+        "homepage template",
+        "web template",
+        "saas website",
+        "software website",
+        "product website",
+        "startup website"
+      ],
+      "requiredCraft": [
+        "typography",
+        "color",
+        "spacing-rhythm",
+        "layout-composition",
+        "responsive-behavior",
+        "accessibility",
+        "form-validation",
+        "marketplace-originality",
+        "figma-auto-layout",
+        "anti-ai-slop"
+      ],
+      "seedPack": "website-template",
+      "directionPack": "premium-clean",
+      "validators": [
+        "design_brain_lint_plan.py",
+        "design_brain_lint_artifact.py",
+        "design_brain_originality_score.py"
+      ],
+      "sourceInspiration": [
+        "Local Template Website preview corpus selected by product type",
+        "Design Brain website structure standards"
+      ],
+      "loadPriority": 8
+    },
+    {
+      "id": "hero-header-kit",
+      "kind": "medium",
+      "mediums": [
+        "website",
+        "hero_header",
+        "section_kit"
+      ],
+      "productTypes": [
+        "hero header kit",
+        "hero banner template",
+        "website header template",
+        "section kit"
+      ],
+      "triggers": [
+        "hero header",
+        "hero banner",
+        "header kit",
+        "website header",
+        "hero section",
+        "banner template"
+      ],
+      "requiredCraft": [
+        "typography",
+        "color",
+        "spacing-rhythm",
+        "layout-composition",
+        "responsive-behavior",
+        "accessibility",
+        "marketplace-originality",
+        "figma-auto-layout",
+        "anti-ai-slop"
+      ],
+      "seedPack": "hero-header-kit",
+      "directionPack": "premium-clean",
+      "validators": [
+        "design_brain_lint_plan.py",
+        "design_brain_lint_artifact.py",
+        "design_brain_originality_score.py"
+      ],
+      "sourceInspiration": [
+        "Local Template Website preview corpus hero/header packages"
+      ],
+      "loadPriority": 7
+    },
+    {
+      "id": "landing-page",
+      "kind": "medium",
+      "mediums": [
+        "website",
+        "landing_page",
+        "figma_template"
+      ],
+      "productTypes": [
+        "landing page",
+        "campaign page",
+        "lead generation page",
+        "sales page",
+        "squeeze page",
+        "waitlist page"
+      ],
+      "triggers": [
+        "landing page",
+        "lead generation",
+        "lead-gen",
+        "campaign page",
+        "sales page",
+        "squeeze page",
+        "waitlist page",
+        "one page landing"
+      ],
+      "requiredCraft": [
+        "typography",
+        "color",
+        "spacing-rhythm",
+        "layout-composition",
+        "responsive-behavior",
+        "accessibility",
+        "marketplace-originality",
+        "figma-auto-layout",
+        "anti-ai-slop"
+      ],
+      "seedPack": "landing-page",
+      "directionPack": "premium-clean",
+      "validators": [
+        "design_brain_lint_plan.py",
+        "design_brain_lint_artifact.py",
+        "design_brain_originality_score.py"
+      ],
+      "sourceInspiration": [
+        "Local Template Website preview corpus landing/campaign references",
+        "open-design craft/checklist discipline"
+      ],
+      "loadPriority": 10
+    },
+    {
+      "id": "dashboard",
+      "kind": "medium",
+      "mediums": [
+        "dashboard",
+        "admin",
+        "analytics",
+        "tool_ui"
+      ],
+      "productTypes": [
+        "dashboard template",
+        "admin panel",
+        "analytics UI",
+        "SaaS product UI"
+      ],
+      "triggers": [
+        "dashboard",
+        "admin",
+        "analytics",
+        "crm",
+        "data table",
+        "kpi",
+        "internal tool",
+        "back office",
+        "operations"
+      ],
+      "requiredCraft": [
+        "typography",
+        "color",
+        "spacing-rhythm",
+        "layout-composition",
+        "state-coverage",
+        "data-visualization",
+        "form-validation",
+        "accessibility",
+        "responsive-behavior",
+        "figma-auto-layout",
+        "anti-ai-slop"
+      ],
+      "seedPack": "dashboard",
+      "directionPack": "operational-precision",
+      "validators": [
+        "design_brain_lint_plan.py",
+        "design_brain_lint_artifact.py"
+      ],
+      "sourceInspiration": [
+        "open-design dashboard skill",
+        "Design Brain dashboard playbook"
+      ],
+      "loadPriority": 10
+    },
+    {
+      "id": "ecommerce",
+      "kind": "medium",
+      "mediums": [
+        "website",
+        "ecommerce",
+        "product_page"
+      ],
+      "productTypes": [
+        "ecommerce page",
+        "product page",
+        "shop template"
+      ],
+      "triggers": [
+        "ecommerce",
+        "e-commerce",
+        "online store",
+        "toko online",
+        "product catalog",
+        "product catalogue",
+        "katalog produk",
+        "product page",
+        "product listing",
+        "ecommerce marketplace",
+        "e-commerce marketplace",
+        "product marketplace",
+        "vendor marketplace",
+        "multi-vendor marketplace",
+        "online marketplace",
+        "marketplace app",
+        "marketplace platform",
+        "marketplace storefront",
+        "marketplace with cart",
+        "marketplace checkout",
+        "booking marketplace",
+        "property marketplace",
+        "job marketplace",
+        "service marketplace",
+        "checkout",
+        "cart",
+        "keranjang",
+        "storefront",
+        "shop product catalog",
+        "sell products",
+        "jual produk"
+      ],
+      "requiredCraft": [
+        "typography",
+        "color",
+        "spacing-rhythm",
+        "layout-composition",
+        "responsive-behavior",
+        "form-validation",
+        "accessibility",
+        "marketplace-originality",
+        "figma-auto-layout",
+        "anti-ai-slop"
+      ],
+      "seedPack": "ecommerce",
+      "directionPack": "commerce-editorial",
+      "validators": [
+        "design_brain_lint_plan.py",
+        "design_brain_lint_artifact.py"
+      ],
+      "sourceInspiration": [
+        "Local Template Website preview corpus ecommerce references"
+      ],
+      "loadPriority": 11
+    },
+    {
+      "id": "portfolio",
+      "kind": "medium",
+      "mediums": [
+        "website",
+        "portfolio",
+        "creative_profile"
+      ],
+      "productTypes": [
+        "portfolio template",
+        "case study site",
+        "creative profile"
+      ],
+      "triggers": [
+        "portfolio",
+        "case study",
+        "gallery",
+        "creative profile",
+        "personal brand"
+      ],
+      "requiredCraft": [
+        "typography",
+        "color",
+        "spacing-rhythm",
+        "layout-composition",
+        "responsive-behavior",
+        "marketplace-originality",
+        "figma-auto-layout",
+        "anti-ai-slop"
+      ],
+      "seedPack": "portfolio",
+      "directionPack": "editorial-refined",
+      "validators": [
+        "design_brain_lint_plan.py",
+        "design_brain_lint_artifact.py",
+        "design_brain_originality_score.py"
+      ],
+      "sourceInspiration": [
+        "Design Brain portfolio lessons",
+        "open-design editorial direction"
+      ],
+      "loadPriority": 12
+    },
+    {
+      "id": "presentation-deck",
+      "kind": "medium",
+      "mediums": [
+        "presentation",
+        "powerpoint",
+        "deck",
+        "slides",
+        "figma_slides"
+      ],
+      "productTypes": [
+        "PowerPoint template",
+        "pitch deck",
+        "presentation deck",
+        "Google Slides template",
+        "Keynote template"
+      ],
+      "triggers": [
+        "powerpoint",
+        "presentation",
+        "pitch deck",
+        "deck",
+        "slides",
+        "google slide",
+        "keynote",
+        "ppt",
+        "pptx"
+      ],
+      "requiredCraft": [
+        "typography",
+        "color",
+        "spacing-rhythm",
+        "layout-composition",
+        "pptx-readability",
+        "pptx-frame-precision",
+        "data-visualization",
+        "marketplace-originality",
+        "anti-ai-slop"
+      ],
+      "seedPack": "presentation-deck",
+      "directionPack": "presentation-storytelling",
+      "validators": [
+        "design_brain_lint_plan.py",
+        "design_brain_pptx_inventory.py",
+        "design_brain_pptx_thumbnail_review.py",
+        "design_brain_pptx_frame_precision_review.py"
+      ],
+      "sourceInspiration": [
+        "Design Brain presentation intelligence",
+        "awesome-claude-skills pptx workflow",
+        "PPT Master 6.7.0: pinned external native-PPTX engine and workflow adaptation"
+      ],
+      "loadPriority": 9,
+      "executionTools": [
+        "skills/presentation-deck/runtime/presentation.py"
+      ],
+      "executionWorkflow": "skills/presentation-deck/workflows/native.md",
+      "capability": "presentation-deck",
+      "skill": "skills/presentation-deck/SKILL.md",
+      "outputMode": "native"
+    },
+    {
+      "id": "web-deck",
+      "kind": "medium",
+      "mediums": [
+        "web_deck",
+        "html_deck",
+        "browser_presentation",
+        "animated_slides",
+        "web_slides"
+      ],
+      "productTypes": [
+        "web deck",
+        "HTML presentation",
+        "animated presentation",
+        "browser presentation template",
+        "single-file deck"
+      ],
+      "triggers": [
+        "web deck",
+        "html deck",
+        "html presentation",
+        "web presentation",
+        "browser deck",
+        "animated deck",
+        "animated slides",
+        "animated presentation",
+        "interactive deck",
+        "slide deck html",
+        "single file deck",
+        "presenter deck",
+        "webinar deck",
+        "demo day deck",
+        "deck to web",
+        "ppt to web",
+        "pptx to html",
+        "convert deck to html",
+        "self running deck",
+        "deck html",
+        "presentasi web",
+        "presentasi html",
+        "slide web",
+        "slide animasi",
+        "presentasi animasi",
+        "deck browser",
+        "deck interaktif",
+        "ppt ke web",
+        "ppt ke html",
+        "pptx ke html",
+        "ubah ppt jadi web",
+        "presentasi satu file",
+        "slide buat live",
+        "deck buat webinar"
+      ],
+      "requiredCraft": [
+        "typography",
+        "color",
+        "spacing-rhythm",
+        "layout-composition",
+        "deck-motion",
+        "web-deck-stage-fidelity",
+        "data-visualization",
+        "accessibility",
+        "anti-ai-slop",
+        "marketplace-originality"
+      ],
+      "seedPack": "web-deck",
+      "directionPack": "motion-stage",
+      "validators": [
+        "design_brain_lint_plan.py",
+        "design_brain_web_deck_audit.mjs",
+        "design_brain_web_deck_render_review.mjs"
+      ],
+      "sourceInspiration": [
+        "Design Brain presentation intelligence",
+        "Design Brain web runtime stage contract"
+      ],
+      "loadPriority": 9,
+      "capability": "presentation-deck",
+      "skill": "skills/presentation-deck/SKILL.md",
+      "outputMode": "web"
+    },
+    {
+      "id": "ui-kit",
+      "kind": "medium",
+      "mediums": [
+        "ui_kit",
+        "design_system",
+        "component_library"
+      ],
+      "productTypes": [
+        "UI kit",
+        "design system",
+        "component library"
+      ],
+      "triggers": [
+        "ui kit",
+        "design system",
+        "component",
+        "variant",
+        "states",
+        "component library"
+      ],
+      "requiredCraft": [
+        "typography",
+        "color",
+        "spacing-rhythm",
+        "layout-composition",
+        "state-coverage",
+        "form-validation",
+        "accessibility",
+        "figma-auto-layout",
+        "anti-ai-slop"
+      ],
+      "seedPack": "ui-kit",
+      "directionPack": "systematic-foundation",
+      "validators": [
+        "design_brain_lint_plan.py",
+        "design_brain_lint_artifact.py"
+      ],
+      "sourceInspiration": [
+        "open-design design-system library",
+        "Design Brain UI kit playbook"
+      ],
+      "loadPriority": 10
+    },
+    {
+      "id": "brand-kit",
+      "kind": "medium",
+      "mediums": [
+        "brand",
+        "identity",
+        "brand_kit"
+      ],
+      "productTypes": [
+        "brand kit",
+        "brand guideline",
+        "identity system"
+      ],
+      "triggers": [
+        "brand kit",
+        "branding",
+        "identity",
+        "brand guideline",
+        "logo",
+        "stationery"
+      ],
+      "requiredCraft": [
+        "typography",
+        "color",
+        "spacing-rhythm",
+        "layout-composition",
+        "marketplace-originality"
+      ],
+      "seedPack": "brand-kit",
+      "directionPack": "brand-system",
+      "validators": [
+        "design_brain_lint_plan.py"
+      ],
+      "sourceInspiration": [
+        "Design Brain brand kit playbook",
+        "awesome-claude-skills brand-guidelines pattern"
+      ],
+      "loadPriority": 12
+    },
+    {
+      "id": "marketplace-preview",
+      "kind": "medium",
+      "mediums": [
+        "marketplace_preview",
+        "cover",
+        "preview"
+      ],
+      "productTypes": [
+        "template cover",
+        "marketplace preview",
+        "product showcase"
+      ],
+      "triggers": [
+        "marketplace preview",
+        "cover",
+        "mockup",
+        "preview",
+        "overview",
+        "showcase"
+      ],
+      "requiredCraft": [
+        "typography",
+        "color",
+        "spacing-rhythm",
+        "layout-composition",
+        "responsive-behavior",
+        "marketplace-originality",
+        "figma-auto-layout",
+        "anti-ai-slop"
+      ],
+      "seedPack": "marketplace-preview",
+      "directionPack": "marketplace-perspective",
+      "validators": [
+        "design_brain_lint_plan.py",
+        "design_brain_lint_artifact.py",
+        "design_brain_originality_score.py"
+      ],
+      "sourceInspiration": [
+        "Design Brain preview presentation system"
+      ],
+      "loadPriority": 9
+    },
+    {
+      "id": "mobile-app",
+      "kind": "medium",
+      "mediums": [
+        "mobile_app",
+        "native_app",
+        "app_ui"
+      ],
+      "productTypes": [
+        "mobile app screen",
+        "onboarding flow",
+        "app UI kit"
+      ],
+      "triggers": [
+        "mobile app",
+        "ios",
+        "android",
+        "onboarding",
+        "login screen",
+        "app screen"
+      ],
+      "requiredCraft": [
+        "typography",
+        "color",
+        "spacing-rhythm",
+        "layout-composition",
+        "state-coverage",
+        "motion-discipline",
+        "accessibility",
+        "responsive-behavior",
+        "figma-auto-layout",
+        "anti-ai-slop"
+      ],
+      "seedPack": "mobile-app",
+      "directionPack": "human-product",
+      "validators": [
+        "design_brain_lint_plan.py",
+        "design_brain_lint_artifact.py"
+      ],
+      "sourceInspiration": [
+        "Local Template Website preview corpus mobile split",
+        "open-design mobile prototype discipline"
+      ],
+      "loadPriority": 11
+    },
+    {
+      "id": "email-newsletter",
+      "kind": "medium",
+      "mediums": [
+        "email",
+        "newsletter"
+      ],
+      "productTypes": [
+        "email newsletter",
+        "email template"
+      ],
+      "triggers": [
+        "email newsletter",
+        "newsletter email",
+        "email template",
+        "template email",
+        "email campaign",
+        "campaign email",
+        "marketing email",
+        "mailchimp",
+        "edm",
+        "e-mail",
+        "newsletter untuk email"
+      ],
+      "requiredCraft": [
+        "typography",
+        "color",
+        "spacing-rhythm",
+        "layout-composition",
+        "responsive-behavior",
+        "accessibility",
+        "anti-ai-slop"
+      ],
+      "seedPack": "email-newsletter",
+      "directionPack": "email-clarity",
+      "validators": [
+        "design_brain_lint_plan.py",
+        "design_brain_lint_artifact.py"
+      ],
+      "sourceInspiration": [
+        "Local Template Website preview corpus email split",
+        "open-design email-marketing skill pattern"
+      ],
+      "loadPriority": 12
+    },
+    {
+      "id": "static-canvas",
+      "kind": "medium",
+      "mediums": [
+        "poster",
+        "static_canvas",
+        "visual_art",
+        "social_carousel"
+      ],
+      "productTypes": [
+        "poster",
+        "static visual",
+        "social graphic",
+        "canvas design"
+      ],
+      "triggers": [
+        "poster",
+        "canvas",
+        "static design",
+        "social carousel",
+        "social media carousel",
+        "social media post",
+        "instagram story",
+        "facebook cover",
+        "menu design",
+        "restaurant menu design",
+        "visual art",
+        "png",
+        "pdf"
+      ],
+      "requiredCraft": [
+        "typography",
+        "color",
+        "spacing-rhythm",
+        "layout-composition",
+        "marketplace-originality",
+        "anti-ai-slop"
+      ],
+      "seedPack": "static-canvas",
+      "directionPack": "visual-philosophy",
+      "validators": [
+        "design_brain_lint_plan.py"
+      ],
+      "sourceInspiration": [
+        "awesome-claude-skills canvas-design philosophy-first workflow"
+      ],
+      "loadPriority": 13
+    },
+    {
+      "id": "document-report",
+      "kind": "medium",
+      "mediums": [
+        "document",
+        "report",
+        "pdf",
+        "docx"
+      ],
+      "productTypes": [
+        "report template",
+        "document template",
+        "PDF layout"
+      ],
+      "triggers": [
+        "document",
+        "report",
+        "pdf",
+        "docx",
+        "whitepaper",
+        "proposal document",
+        "invoice template",
+        "invoice template design",
+        "resume template",
+        "resume template design",
+        "cv template"
+      ],
+      "requiredCraft": [
+        "typography",
+        "color",
+        "spacing-rhythm",
+        "layout-composition",
+        "data-visualization",
+        "accessibility"
+      ],
+      "seedPack": "document-report",
+      "directionPack": "document-editorial",
+      "validators": [
+        "design_brain_lint_plan.py"
+      ],
+      "sourceInspiration": [
+        "awesome-claude-skills document processing patterns"
+      ],
+      "loadPriority": 13
+    }
+  ]
+}

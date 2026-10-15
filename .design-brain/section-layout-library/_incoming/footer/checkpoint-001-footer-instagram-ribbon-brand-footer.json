@@ -1,0 +1,111 @@
+{
+  "patternId": "checkpoint-001-footer-instagram-ribbon-brand-footer",
+  "sectionType": "footer",
+  "commercialPurpose": "Close an editorial/lifestyle page with visual proof, brand recall, and light navigation rather than a heavy generic footer slab.",
+  "purposeLayer": "The footer reinforces the publication mood through a browsable image ribbon before quiet legal/social closure.",
+  "anatomyLayer": "Full-width image strip, centered brand/logo mark, short description or copyright, social icons, and small utility links.",
+  "hierarchyLayer": "Image ribbon first, brand mark second, social/legal microcopy third.",
+  "gridRhythmLayer": "Horizontal thumbnail rail spanning the page above a centered low-density footer body.",
+  "densityLimitLayer": "Use 5-10 thumbnails, 1 brand mark, 1 short copy line, 3-6 social links, and 2-5 utility links.",
+  "originalityLayer": "Learn visual-proof closure; adapt it as gallery strip, customer proof strip, product strip, venue strip, or portfolio strip.",
+  "usageRuleLayer": "Use for visual/editorial/lifestyle products where closing with imagery improves memory and browsing.",
+  "layoutGesture": "visual ribbon leading into quiet brand footer",
+  "sectionSilhouette": "full-width thumbnail band over centered compact footer",
+  "compositionTension": "dense image strip resolves into sparse brand closure",
+  "focalPath": "thumbnail strip to brand mark to social/legal row",
+  "negativeSpaceShape": "wide footer floor under a tight visual rail",
+  "depthLayering": "flat image rail with calm footer surface beneath",
+  "moduleScaleVariation": "many small images against one large brand mark",
+  "breakoutBehavior": "image rail can go full bleed while footer content stays contained",
+  "contentLimits": {
+    "linkGroups": "1-3",
+    "trustCues": "1-2",
+    "imageStripItems": "5-10",
+    "socialLinks": "3-6"
+  },
+  "antiCopyBoundary": "Do not copy exact Instagram imagery, signature logo, low-contrast footer text, or muted gold accent system.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "blog-resources",
+      "cta"
+    ],
+    "after": [
+      "page end"
+    ],
+    "notAScaffold": true
+  },
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\01_Home_1.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\02_Home_2.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\03_Home_3.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\04_Home_4.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\05_Home_5.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\06_Home_6.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\07_Home_7.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\08_Home_8.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\09_Image_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\10_Slider_Post.jpg"
+  ],
+  "productFamilies": [
+    "editorial-blog",
+    "lifestyle",
+    "website"
+  ],
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 001",
+    "reviewNotes": "Checkpoint learning is visually inspected but not yet promoted to stable PASS; keep as incoming review vocabulary.",
+    "nonCopyBoundary": "Do not copy the Pallas-style script logo, muted gold CTA treatment, right-sidebar widget order, image set, or exact editorial spacing."
+  },
+  "structuralSignature": {
+    "signatureId": "footer:ed4f36bb51e9fc9d",
+    "hash": "ed4f36bb51e9fc9d3472e8cd8d1201df3478e3e6",
+    "axes": {
+      "layoutGesture": "visual ribbon leading into quiet brand footer",
+      "sectionSilhouette": "full-width thumbnail band over centered compact footer",
+      "anatomyLayer": "full-width image strip, centered brand/logo mark, short description or copyright, social icons, and small utility links.",
+      "hierarchyLayer": "image ribbon first, brand mark second, social/legal microcopy third.",
+      "gridRhythmLayer": "horizontal thumbnail rail spanning the page above a centered low-density footer body.",
+      "focalPath": "thumbnail strip to brand mark to social/legal row",
+      "compositionTension": "dense image strip resolves into sparse brand closure",
+      "negativeSpaceShape": "wide footer floor under a tight visual rail",
+      "moduleScaleVariation": "many small images against one large brand mark",
+      "breakoutBehavior": "image rail can go full bleed while footer content stays contained",
+      "contentLimits": "{\"imagestripitems\":\"5-10\",\"linkgroups\":\"1-3\",\"sociallinks\":\"3-6\",\"trustcues\":\"1-2\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.0,
+  "matchGroupId": "footer:ed4f36bb51e9fc9d",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:44:59Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 0,
+    "bestMatch": null,
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

@@ -1,0 +1,123 @@
+{
+  "patternId": "checkpoint-005-hero-futuristic-orbital-arc-system-hero",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\celestia-futuristic-tech-website-2025-04-15-16-25-28-utc - Celestia – Futuristic Tech Website - 00c30502.png"
+  ],
+  "productFamilies": [
+    "technology",
+    "futuristic",
+    "saas",
+    "ai"
+  ],
+  "commercialPurpose": "Open a futuristic technology template with cosmic/orbital motion and system-scale ambition.",
+  "purposeLayer": "Hero uses large abstract orbital forms to imply scale, evolution, and advanced systems before feature detail.",
+  "anatomyLayer": "Black nav, concise headline, CTA pair, huge glowing arc/planet form, small product card, metric chips, and dark feature continuation below.",
+  "hierarchyLayer": "Orbital object and headline share first focus, metrics second, CTA third.",
+  "gridRhythmLayer": "Black futuristic hero with oversized orbital arc sweeping behind compact copy and cards.",
+  "densityLimitLayer": "Use section density limit: {\"primaryMessage\": 1, \"cta\": \"1-2\", \"proofCue\": \"0-1 controlled cue\", \"mediaSystem\": 1}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, product photos, or page order.",
+  "usageRuleLayer": "Use for futuristic technology, space/AI, infrastructure, and innovation templates needing scale and momentum.",
+  "layoutGesture": "futuristic orbital arc hero with compact system cards",
+  "sectionSilhouette": "near-black hero dominated by giant luminous orbital/planet curve with small copy and proof modules",
+  "compositionTension": "vast abstract motion creates ambition while small cards make it product-like",
+  "focalPath": "orbital arc to headline to system card to CTA to metrics",
+  "negativeSpaceShape": "black cosmic negative space wraps around the glowing arc",
+  "depthLayering": "black base, luminous gradient arc, small cards, metric chips, footer-like dark bands",
+  "moduleScaleVariation": "huge abstract arc against tiny interface cards and short copy",
+  "breakoutBehavior": "orbital form bleeds across hero boundaries and continues the page motif",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1-2",
+    "proofCue": "0-1 controlled cue",
+    "mediaSystem": 1
+  },
+  "antiCopyBoundary": "Do not copy Celestia name, exact orbital artwork, gradient colors, system card styling, or copy.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "features",
+      "services",
+      "testimonials"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 005 contact sheet",
+    "reviewNotes": "Checkpoint 005 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "hero:f3ece2fb578012cc",
+    "hash": "f3ece2fb578012ccc339a53e87b5705a3ea665e8",
+    "axes": {
+      "layoutGesture": "futuristic orbital arc hero with compact system cards",
+      "sectionSilhouette": "near-black hero dominated by giant luminous orbital/planet curve with small copy and proof modules",
+      "anatomyLayer": "black nav, concise headline, cta pair, huge glowing arc/planet form, small product card, metric chips, and dark feature continuation below.",
+      "hierarchyLayer": "orbital object and headline share first focus, metrics second, cta third.",
+      "gridRhythmLayer": "black futuristic hero with oversized orbital arc sweeping behind compact copy and cards.",
+      "focalPath": "orbital arc to headline to system card to cta to metrics",
+      "compositionTension": "vast abstract motion creates ambition while small cards make it product-like",
+      "negativeSpaceShape": "black cosmic negative space wraps around the glowing arc",
+      "moduleScaleVariation": "huge abstract arc against tiny interface cards and short copy",
+      "breakoutBehavior": "orbital form bleeds across hero boundaries and continues the page motif",
+      "contentLimits": "{\"cta\":\"1-2\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"0-1 controlled cue\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.315,
+  "matchGroupId": "hero:f3ece2fb578012cc",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:25:28Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 22,
+    "bestMatch": {
+      "score": 0.315,
+      "axisScores": {
+        "layoutGesture": 0.1333,
+        "sectionSilhouette": 0.1481,
+        "anatomyLayer": 0.3,
+        "hierarchyLayer": 0.8333,
+        "gridRhythmLayer": 0.2381,
+        "focalPath": 0.25,
+        "compositionTension": 0.1053,
+        "negativeSpaceShape": 0.1875,
+        "moduleScaleVariation": 0.1111,
+        "breakoutBehavior": 0.1579,
+        "contentLimits": 1.0
+      },
+      "patternId": "checkpoint-004-hero-ai-black-grid-abstract-object-hero",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-004-hero-ai-black-grid-abstract-object-hero.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

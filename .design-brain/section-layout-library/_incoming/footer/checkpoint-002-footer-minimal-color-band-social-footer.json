@@ -1,0 +1,131 @@
+{
+  "patternId": "checkpoint-002-footer-minimal-color-band-social-footer",
+  "sectionType": "footer",
+  "commercialPurpose": "Close a lead-generation page with simple ownership and social links after testimonials without adding another heavy content block.",
+  "purposeLayer": "Footer confirms closure, ownership, and social presence while preserving the conversion page pace.",
+  "anatomyLayer": "Full-width color bar, left copyright text, right social icons, and no large link directory.",
+  "hierarchyLayer": "Color closure first, copyright second, social icons third.",
+  "gridRhythmLayer": "Single horizontal footer strip with two-end alignment inside a saturated band.",
+  "densityLimitLayer": "Use one copyright line, 3-6 social links, and 0-2 utility links; avoid multi-column slabs.",
+  "originalityLayer": "Learn minimal conversion footer; transform color, alignment, icon style, and legal/link depth.",
+  "usageRuleLayer": "Use for focused landing pages where full footer navigation would dilute the CTA path.",
+  "layoutGesture": "minimal saturated footer strip with social closure",
+  "sectionSilhouette": "thin full-width color band with two-end micro content",
+  "compositionTension": "simple utility closure after spacious testimonial proof",
+  "focalPath": "copyright line to social icons",
+  "negativeSpaceShape": "long horizontal color field with sparse endpoints",
+  "depthLayering": "flat color plane",
+  "moduleScaleVariation": "tiny text/icons inside a wide band",
+  "breakoutBehavior": "full-bleed footer strip",
+  "contentLimits": {
+    "linkGroups": "0-1",
+    "trustCues": "0-1",
+    "socialLinks": "3-6",
+    "legalLines": "1"
+  },
+  "antiCopyBoundary": "Do not copy exact teal hue, icon row, copyright wording, or footer height.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "testimonials",
+      "cta"
+    ],
+    "after": [
+      "page end"
+    ],
+    "notAScaffold": true
+  },
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\118_Lead-Generation-02-Landing-Page.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\11_Video_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\12_Gallery_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\13_Audio_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\14_Quote_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\15_Link_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\16_Full_Width_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\17_Features.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\18_Category_1.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\19_Category_2.jpg"
+  ],
+  "productFamilies": [
+    "startup",
+    "editorial-blog",
+    "lead-generation",
+    "website"
+  ],
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 002",
+    "reviewNotes": "Checkpoint 002 is visually inspected learning evidence; keep incoming until exact hyper-accuracy review and dedupe rationale pass.",
+    "nonCopyBoundary": "Do not copy the exact Pallas editorial visuals, startup hero background, coral/teal color identity, photo assets, sidebar widget order, or footer treatment."
+  },
+  "structuralSignature": {
+    "signatureId": "footer:364c6a6c8ffc9842",
+    "hash": "364c6a6c8ffc98422f8dccbde46f8685700e9049",
+    "axes": {
+      "layoutGesture": "minimal saturated footer strip with social closure",
+      "sectionSilhouette": "thin full-width color band with two-end micro content",
+      "anatomyLayer": "full-width color bar, left copyright text, right social icons, and no large link directory.",
+      "hierarchyLayer": "color closure first, copyright second, social icons third.",
+      "gridRhythmLayer": "single horizontal footer strip with two-end alignment inside a saturated band.",
+      "focalPath": "copyright line to social icons",
+      "compositionTension": "simple utility closure after spacious testimonial proof",
+      "negativeSpaceShape": "long horizontal color field with sparse endpoints",
+      "moduleScaleVariation": "tiny text/icons inside a wide band",
+      "breakoutBehavior": "full-bleed footer strip",
+      "contentLimits": "{\"legallines\":\"1\",\"linkgroups\":\"0-1\",\"sociallinks\":\"3-6\",\"trustcues\":\"0-1\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.1749,
+  "matchGroupId": "footer:364c6a6c8ffc9842",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:47:11Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 1,
+    "bestMatch": {
+      "score": 0.1749,
+      "axisScores": {
+        "layoutGesture": 0.0769,
+        "sectionSilhouette": 0.2,
+        "anatomyLayer": 0.2222,
+        "hierarchyLayer": 0.2857,
+        "gridRhythmLayer": 0.1364,
+        "focalPath": 0.1818,
+        "compositionTension": 0.0714,
+        "negativeSpaceShape": 0.0,
+        "moduleScaleVariation": 0.0,
+        "breakoutBehavior": 0.25,
+        "contentLimits": 0.5
+      },
+      "patternId": "checkpoint-001-footer-instagram-ribbon-brand-footer",
+      "sectionType": "footer",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\footer\\checkpoint-001-footer-instagram-ribbon-brand-footer.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

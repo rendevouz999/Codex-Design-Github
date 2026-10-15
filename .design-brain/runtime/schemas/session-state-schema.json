@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Brain Design Runtime Session State",
+  "type": "object",
+  "required": [
+    "sessionId",
+    "task",
+    "permissionMode",
+    "route",
+    "productFamily",
+    "expectedTemplateCount",
+    "currentTemplateId",
+    "requiredStages",
+    "completedStages",
+    "missingStages",
+    "activeTool",
+    "toolResults",
+    "openRepairTickets",
+    "finalReadiness",
+    "compactContextPath"
+  ],
+  "properties": {
+    "sessionId": {"type": "string"},
+    "task": {"type": "string"},
+    "permissionMode": {"type": "string"},
+    "route": {"type": ["string", "object"]},
+    "productFamily": {"type": "string"},
+    "expectedTemplateCount": {"type": "integer", "minimum": 1},
+    "currentTemplateId": {"type": "string"},
+    "requiredStages": {"type": "array", "items": {"type": "string"}},
+    "completedStages": {"type": "array", "items": {"type": "string"}},
+    "missingStages": {"type": "array", "items": {"type": "string"}},
+    "activeTool": {"type": "string"},
+    "toolResults": {"type": "object"},
+    "openRepairTickets": {"type": "array"},
+    "finalReadiness": {"type": "object"},
+    "compactContextPath": {"type": "string"}
+  }
+}

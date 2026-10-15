@@ -1,0 +1,131 @@
+{
+  "patternId": "checkpoint-002-blog-resources-category-archive-list-sidebar",
+  "sectionType": "blog-resources",
+  "commercialPurpose": "Give editorial sites a category archive page that prioritizes scanning many posts while keeping sidebar discovery visible.",
+  "purposeLayer": "The archive helps users browse a topic through repeated horizontal article summaries.",
+  "anatomyLayer": "Tinted category banner, repeated list rows with left thumbnail and right text, post meta/category chip, excerpt, older-post pagination, and persistent sidebar widgets.",
+  "hierarchyLayer": "Category banner first, list thumbnails/titles second, sidebar widgets third, pagination last.",
+  "gridRhythmLayer": "Two-column archive frame: wide vertical list lane plus narrow widget sidebar.",
+  "densityLimitLayer": "Use 6-12 visible rows, one thumbnail per row, 1-2 metadata lines, 3-8 sidebar widgets, and pagination.",
+  "originalityLayer": "Learn category archive scanning; transform banner treatment, row density, thumbnail ratios, and sidebar purpose.",
+  "usageRuleLayer": "Use for CMS categories, resource indexes, news archives, portfolio filters, and content-heavy template packs.",
+  "layoutGesture": "category banner above thumbnail-list archive with sidebar rail",
+  "sectionSilhouette": "thin tinted topic banner over long left list and right widget column",
+  "compositionTension": "many compact article rows balanced by a persistent trust/discovery sidebar",
+  "focalPath": "category label to first list row to repeated rows to sidebar discovery",
+  "negativeSpaceShape": "horizontal row gaps inside a vertical archive corridor",
+  "depthLayering": "flat rows with small media badges and boxed sidebar widgets",
+  "moduleScaleVariation": "small repeated thumbnails with compact text summaries",
+  "breakoutBehavior": "category banner spans wider than list content",
+  "contentLimits": {
+    "visibleItems": "6-12",
+    "featuredItem": "0",
+    "sidebarWidgets": "3-8",
+    "pagination": "1"
+  },
+  "antiCopyBoundary": "Do not copy exact category photos, gold tint overlay, row spacing, media icons, or sidebar order.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation",
+      "hero"
+    ],
+    "after": [
+      "footer"
+    ],
+    "notAScaffold": true
+  },
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\118_Lead-Generation-02-Landing-Page.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\11_Video_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\12_Gallery_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\13_Audio_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\14_Quote_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\15_Link_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\16_Full_Width_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\17_Features.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\18_Category_1.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\19_Category_2.jpg"
+  ],
+  "productFamilies": [
+    "startup",
+    "editorial-blog",
+    "lead-generation",
+    "website"
+  ],
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 002",
+    "reviewNotes": "Checkpoint 002 is visually inspected learning evidence; keep incoming until exact hyper-accuracy review and dedupe rationale pass.",
+    "nonCopyBoundary": "Do not copy the exact Pallas editorial visuals, startup hero background, coral/teal color identity, photo assets, sidebar widget order, or footer treatment."
+  },
+  "structuralSignature": {
+    "signatureId": "blog-resources:b130c8bd3251452d",
+    "hash": "b130c8bd3251452d0810927b7f36b0dec60f6c8f",
+    "axes": {
+      "layoutGesture": "category banner above thumbnail-list archive with sidebar rail",
+      "sectionSilhouette": "thin tinted topic banner over long left list and right widget column",
+      "anatomyLayer": "tinted category banner, repeated list rows with left thumbnail and right text, post meta/category chip, excerpt, older-post pagination, and persistent sidebar widgets.",
+      "hierarchyLayer": "category banner first, list thumbnails/titles second, sidebar widgets third, pagination last.",
+      "gridRhythmLayer": "two-column archive frame: wide vertical list lane plus narrow widget sidebar.",
+      "focalPath": "category label to first list row to repeated rows to sidebar discovery",
+      "compositionTension": "many compact article rows balanced by a persistent trust/discovery sidebar",
+      "negativeSpaceShape": "horizontal row gaps inside a vertical archive corridor",
+      "moduleScaleVariation": "small repeated thumbnails with compact text summaries",
+      "breakoutBehavior": "category banner spans wider than list content",
+      "contentLimits": "{\"featureditem\":\"0\",\"pagination\":\"1\",\"sidebarwidgets\":\"3-8\",\"visibleitems\":\"6-12\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.1724,
+  "matchGroupId": "blog-resources:b130c8bd3251452d",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:47:11Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 2,
+    "bestMatch": {
+      "score": 0.1724,
+      "axisScores": {
+        "layoutGesture": 0.1429,
+        "sectionSilhouette": 0.1053,
+        "anatomyLayer": 0.1,
+        "hierarchyLayer": 0.2105,
+        "gridRhythmLayer": 0.2381,
+        "focalPath": 0.1111,
+        "compositionTension": 0.2353,
+        "negativeSpaceShape": 0.0667,
+        "moduleScaleVariation": 0.1538,
+        "breakoutBehavior": 0.0714,
+        "contentLimits": 0.4615
+      },
+      "patternId": "checkpoint-001-blog-resources-lead-post-plus-sidebar-rail",
+      "sectionType": "blog-resources",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\blog-resources\\checkpoint-001-blog-resources-lead-post-plus-sidebar-rail.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

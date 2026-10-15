@@ -1,0 +1,58 @@
+# Design System Receipt
+
+- Template ID:
+- Template name:
+- Product family:
+- Mode:
+- Design system scope: per-template / shared / variant
+- Anti-empty verdict: PASS / FAIL
+- Product DNA:
+  - Category:
+  - Target buyer:
+  - Commercial purpose:
+  - Visual mood:
+  - Reference insight:
+  - Do-not-copy boundary:
+- Foundation coverage count:
+- Color tokens:
+- Typography tokens:
+- Spacing tokens:
+- Layout/grid rules:
+- Radius/elevation rules:
+- Component list and count:
+- Product-specific component list:
+- Product-specific modules and count:
+- Component anatomy covered:
+- Component states covered:
+- Pattern modules:
+- Reusable section patterns:
+- Usage rules:
+- Surface/effect tokens:
+- Visual-language rules:
+- Placeholder replacement matrix:
+- Reference-standard coverage:
+- Placeholder rules:
+- Responsive/editability rules:
+- Usage examples:
+- Package/source map:
+- Auto-layout/source rules:
+- Source hygiene/editability notes:
+- Artifact evidence:
+  - Figma node summary path:
+  - Design system page/frame ID:
+  - Source component inventory path:
+  - Screenshot/render path:
+  - Component inventory:
+  - Token source path:
+  - Board metrics:
+    - Panel count:
+    - Component specimen count:
+    - Product-specific module count:
+    - State example count:
+    - Board dimensions:
+- Accessibility/editing notes:
+- Figma/source notes:
+- Product-grade board verdict: PASS / FAIL
+- Missing items:
+- Status: PASS / FAIL
+- Evidence:

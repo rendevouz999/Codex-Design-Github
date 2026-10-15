@@ -1,0 +1,774 @@
+/* ===========================================================================
+   Brain Design - Web Deck Medium - stage-base.css
+   ---------------------------------------------------------------------------
+   Inlined verbatim into every generated web deck. Zero dependencies, no build
+   step, no external request except fonts. The authored stage is a fixed
+   1920 x 1080 px surface; one uniform transform on `.deck-stage` fits it to the
+   viewport. Slide content never reflows for small screens.
+
+   PUBLIC CONTRACT (the plan tool, the audit tool and `deck-runtime.js` all
+   depend on these exact names; do not rename one without updating all four):
+
+   Naming scheme
+     block      `deck-<block>`
+     part       `deck-<block>-<part>`
+     modifier   `deck-<block>--<modifier>`
+     state      `is-<state>` (runtime-owned, written by `deck-runtime.js`)
+
+   Structure
+     `.deck-viewport`                 fixed full-window frame, holds the stage
+     `.deck-stage`                    the scaled 1920 x 1080 surface
+     `.deck-stage--fade|--rise|--slide|--scale|--mask`
+                                      deck-wide transition family, mirrors the
+                                      deck-plan `tokens.motion.transition` enum
+     `.deck-slide`                    one slide, absolute at stage size
+     `.deck-slide--fade|--rise|--slide|--scale|--mask`
+                                      per-slide transition family override
+     `.deck-slide.is-active`          the one visible slide
+     `.deck-slide.is-rearm`           one-frame reveal reset, then removed
+
+   Reveal primitives
+     `.deck-reveal`                   base entrance primitive
+     `.deck-reveal--rise|--scale|--slide|--blur|--mask`
+     `[data-deck-step="0".."11"]`     explicit stagger index, beats nth-child
+
+   Chrome, which lives OUTSIDE the scaled stage
+     `.deck-chrome`                   fixed overlay layer, `is-idle` when hidden
+     `.deck-progress` / `.deck-progress-bar`
+     `.deck-counter` / `.deck-counter-current` / `.deck-counter-total`
+     `.deck-controls` / `.deck-control` / `.deck-control--prev|--next`
+     `.deck-tap` / `.deck-tap--prev|--next`
+     `.deck-notes` (+ `is-open`)      speaker notes pane, hidden in print
+     `.deck-live`                     aria-live slide announcement
+     `.deck-sr-only`                  screen-reader-only utility
+
+   Attributes read or written by the runtime
+     `[data-deck-nav="prev"|"next"]`  any chrome element that steps the deck
+     `[data-deck-interactive]`        opt in to swallowing a coarse-pointer tap
+     `[data-deck-ignore-keys]`        opt out of deck keyboard handling
+     `[data-deck-transition]`         stage mirror of the transition token
+     `[data-deck-index]`              0-based slide index, set by the runtime
+     `[data-deck-headline]`           optional announcement source on a slide
+     `[data-deck-reduced-motion]`     set on `<html>` by the runtime
+
+   Custom properties written by the runtime
+     `--deck-scale`                   current fit scale, on `<html>`
+     `--deck-progress`                deck position 0..1, on `<html>`
+
+   TOKEN LAYER
+   Token custom properties are derived mechanically from the deck-plan `tokens`
+   object as `--deck-<group>-<key>`, with the key spelled exactly as the plan
+   spells it. camelCase is preserved on purpose, so the plan tool cannot drift
+   from this file. Numeric plan values are serialized with their CSS unit: `px`
+   for `type` and `space`, `ms` for `motion`.
+   =========================================================================== */
+
+
+/* ===========================================================================
+   01 - Reset, deck scope only
+   =========================================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  background: var(--deck-color-bg);
+  color: var(--deck-color-text);
+  font-family: var(--deck-type-bodyFamily);
+  font-size: var(--deck-type-bodySize);
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img,
+svg,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+a {
+  color: var(--deck-color-accent);
+}
+
+[hidden] {
+  display: none !important;
+}
+
+
+/* ===========================================================================
+   02 - Token layer
+   Neutral defaults. A generated deck overrides every value from its deck plan.
+   =========================================================================== */
+
+:root {
+  /* color */
+  --deck-color-bg: #ffffff;
+  --deck-color-surface: #f3f4f7;
+  --deck-color-text: #14171c;
+  --deck-color-muted: #5b6472;
+  --deck-color-border: #dcdfe5;
+  --deck-color-accent: #1f5fd0;
+  --deck-color-accentContrast: #ffffff;
+
+  /* type */
+  --deck-type-displayFamily: "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+  --deck-type-bodyFamily: "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+  --deck-type-displaySize: 96px;
+  --deck-type-leadSize: 44px;
+  --deck-type-bodySize: 28px;
+  --deck-type-captionSize: 20px;
+
+  /* space */
+  --deck-space-stagePadX: 128px;
+  --deck-space-stagePadY: 96px;
+  --deck-space-blockGap: 48px;
+  --deck-space-itemGap: 20px;
+
+  /* motion */
+  --deck-motion-entranceMs: 560ms;
+  --deck-motion-transitionMs: 480ms;
+  --deck-motion-staggerMs: 90ms;
+  --deck-motion-easing: cubic-bezier(0.2, 0.65, 0.3, 1);
+  --deck-motion-transition: fade;
+
+  /* runtime-written */
+  --deck-scale: 1;
+  --deck-progress: 0;
+}
+
+
+/* ===========================================================================
+   03 - Viewport and scaled stage
+   The stage is authored at exactly 1920 x 1080 and is never resized. The
+   runtime writes one transform, `translate(x, y) scale(s)`, against
+   `transform-origin: 0 0`, so the translate stays in unscaled pixels.
+   =========================================================================== */
+
+.deck-viewport {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  background: var(--deck-color-bg);
+}
+
+.deck-stage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  transform-origin: 0 0;
+  will-change: transform;
+  background: var(--deck-color-bg);
+}
+
+
+/* ===========================================================================
+   04 - Slide stacking
+   Every slide occupies the full stage and is stacked. Visibility is carried by
+   `visibility` + `opacity` + `pointer-events` + `z-index` only.
+
+   `display` toggling is forbidden for slides. A generated deck sets layout
+   display values on `.deck-slide` in its own style block, and any such rule
+   would override a `display: none` hide and reveal every slide at once. The
+   audit tool fails a deck that toggles `display` for slides.
+   =========================================================================== */
+
+.deck-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+
+  /* Layout default. A generated deck is free to replace this block; the hide
+     above does not depend on it. */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--deck-space-stagePadY) var(--deck-space-stagePadX);
+  gap: var(--deck-space-blockGap);
+
+  /* Per-family entrance offsets, set by the modifiers in section 06. */
+  --deck-slide-x: 0px;
+  --deck-slide-y: 0px;
+  --deck-slide-scale: 1;
+
+  transform: translate3d(var(--deck-slide-x), var(--deck-slide-y), 0) scale(var(--deck-slide-scale));
+
+  /* `visibility` is delayed so the leaving slide stays painted while it fades. */
+  transition:
+    opacity var(--deck-motion-transitionMs) var(--deck-motion-easing),
+    transform var(--deck-motion-transitionMs) var(--deck-motion-easing),
+    visibility 0s linear var(--deck-motion-transitionMs);
+}
+
+.deck-slide.is-active {
+  z-index: 2;
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate3d(0, 0, 0) scale(1);
+  transition:
+    opacity var(--deck-motion-transitionMs) var(--deck-motion-easing),
+    transform var(--deck-motion-transitionMs) var(--deck-motion-easing),
+    visibility 0s linear 0s;
+}
+
+/* The slide container is focused programmatically on every change. A ring
+   around the whole stage would be noise, so it is suppressed there only. */
+.deck-slide:focus {
+  outline: none;
+}
+
+
+/* ===========================================================================
+   05 - Reveal primitives
+   Driven by `.is-active` on the parent slide, never by scroll position. The
+   base primitive animates opacity and transform; the blur and mask variants
+   add their own property, so no deck pays for a filter it does not use.
+   =========================================================================== */
+
+.deck-reveal {
+  --deck-reveal-x: 0px;
+  --deck-reveal-y: 0px;
+  --deck-reveal-scale: 1;
+  --deck-reveal-blur: 0px;
+  --deck-reveal-clip: inset(0 0 0 0);
+
+  opacity: 0;
+  transform: translate3d(var(--deck-reveal-x), var(--deck-reveal-y), 0) scale(var(--deck-reveal-scale));
+  transition:
+    opacity var(--deck-motion-entranceMs) var(--deck-motion-easing),
+    transform var(--deck-motion-entranceMs) var(--deck-motion-easing);
+}
+
+.deck-reveal--rise {
+  --deck-reveal-y: 44px;
+}
+
+.deck-reveal--scale {
+  --deck-reveal-scale: 0.94;
+}
+
+.deck-reveal--slide {
+  --deck-reveal-x: -64px;
+}
+
+.deck-reveal--blur {
+  --deck-reveal-blur: 14px;
+  --deck-reveal-y: 18px;
+  filter: blur(var(--deck-reveal-blur));
+  transition:
+    opacity var(--deck-motion-entranceMs) var(--deck-motion-easing),
+    transform var(--deck-motion-entranceMs) var(--deck-motion-easing),
+    filter var(--deck-motion-entranceMs) var(--deck-motion-easing);
+}
+
+.deck-reveal--mask {
+  --deck-reveal-clip: inset(0 100% 0 0);
+  clip-path: var(--deck-reveal-clip);
+  transition:
+    opacity var(--deck-motion-entranceMs) var(--deck-motion-easing),
+    transform var(--deck-motion-entranceMs) var(--deck-motion-easing),
+    clip-path var(--deck-motion-entranceMs) var(--deck-motion-easing);
+}
+
+/* Final state. */
+.deck-slide.is-active .deck-reveal {
+  opacity: 1;
+  transform: translate3d(0, 0, 0) scale(1);
+}
+
+.deck-slide.is-active .deck-reveal--blur {
+  filter: blur(0px);
+}
+
+.deck-slide.is-active .deck-reveal--mask {
+  clip-path: inset(0 0 0 0);
+}
+
+/* An inactive slide resets its reveals instantly, behind its own fade, so
+   re-entering the slide replays the entrance. */
+.deck-slide:not(.is-active) .deck-reveal {
+  transition: none;
+}
+
+/* Stagger. `nth-child` counts all siblings, so this is the convenience path
+   for slides whose reveal elements are the only children. Use `data-deck-step`
+   whenever reveal order is not literal sibling order. */
+.deck-slide.is-active .deck-reveal:nth-child(1) { transition-delay: calc(var(--deck-motion-staggerMs) * 0); }
+.deck-slide.is-active .deck-reveal:nth-child(2) { transition-delay: calc(var(--deck-motion-staggerMs) * 1); }
+.deck-slide.is-active .deck-reveal:nth-child(3) { transition-delay: calc(var(--deck-motion-staggerMs) * 2); }
+.deck-slide.is-active .deck-reveal:nth-child(4) { transition-delay: calc(var(--deck-motion-staggerMs) * 3); }
+.deck-slide.is-active .deck-reveal:nth-child(5) { transition-delay: calc(var(--deck-motion-staggerMs) * 4); }
+.deck-slide.is-active .deck-reveal:nth-child(6) { transition-delay: calc(var(--deck-motion-staggerMs) * 5); }
+.deck-slide.is-active .deck-reveal:nth-child(7) { transition-delay: calc(var(--deck-motion-staggerMs) * 6); }
+.deck-slide.is-active .deck-reveal:nth-child(8) { transition-delay: calc(var(--deck-motion-staggerMs) * 7); }
+.deck-slide.is-active .deck-reveal:nth-child(9) { transition-delay: calc(var(--deck-motion-staggerMs) * 8); }
+.deck-slide.is-active .deck-reveal:nth-child(10) { transition-delay: calc(var(--deck-motion-staggerMs) * 9); }
+
+/* Explicit step escape hatch. Same specificity as the nth-child block above
+   and declared after it, so an authored step index always wins. */
+.deck-slide.is-active .deck-reveal[data-deck-step="0"] { transition-delay: calc(var(--deck-motion-staggerMs) * 0); }
+.deck-slide.is-active .deck-reveal[data-deck-step="1"] { transition-delay: calc(var(--deck-motion-staggerMs) * 1); }
+.deck-slide.is-active .deck-reveal[data-deck-step="2"] { transition-delay: calc(var(--deck-motion-staggerMs) * 2); }
+.deck-slide.is-active .deck-reveal[data-deck-step="3"] { transition-delay: calc(var(--deck-motion-staggerMs) * 3); }
+.deck-slide.is-active .deck-reveal[data-deck-step="4"] { transition-delay: calc(var(--deck-motion-staggerMs) * 4); }
+.deck-slide.is-active .deck-reveal[data-deck-step="5"] { transition-delay: calc(var(--deck-motion-staggerMs) * 5); }
+.deck-slide.is-active .deck-reveal[data-deck-step="6"] { transition-delay: calc(var(--deck-motion-staggerMs) * 6); }
+.deck-slide.is-active .deck-reveal[data-deck-step="7"] { transition-delay: calc(var(--deck-motion-staggerMs) * 7); }
+.deck-slide.is-active .deck-reveal[data-deck-step="8"] { transition-delay: calc(var(--deck-motion-staggerMs) * 8); }
+.deck-slide.is-active .deck-reveal[data-deck-step="9"] { transition-delay: calc(var(--deck-motion-staggerMs) * 9); }
+.deck-slide.is-active .deck-reveal[data-deck-step="10"] { transition-delay: calc(var(--deck-motion-staggerMs) * 10); }
+.deck-slide.is-active .deck-reveal[data-deck-step="11"] { transition-delay: calc(var(--deck-motion-staggerMs) * 11); }
+
+/* One-frame reset that replays the entrance on a slide that is already active.
+   The runtime adds `is-rearm`, forces a reflow, then removes it. Declared
+   after the active-state rules so it wins on equal specificity. */
+.deck-slide.is-rearm .deck-reveal {
+  transition: none;
+  transition-delay: 0s;
+  opacity: 0;
+  transform: translate3d(var(--deck-reveal-x), var(--deck-reveal-y), 0) scale(var(--deck-reveal-scale));
+}
+
+.deck-slide.is-rearm .deck-reveal--blur {
+  filter: blur(var(--deck-reveal-blur));
+}
+
+.deck-slide.is-rearm .deck-reveal--mask {
+  clip-path: var(--deck-reveal-clip);
+}
+
+
+/* ===========================================================================
+   06 - Transition families
+   The five families from the deck-plan `tokens.motion.transition` enum, as a
+   modifier on the stage for the whole deck or on one slide as a local
+   override. The slide modifiers are declared last, so a slide wins.
+   =========================================================================== */
+
+.deck-stage--fade .deck-slide {
+  --deck-slide-x: 0px;
+  --deck-slide-y: 0px;
+  --deck-slide-scale: 1;
+}
+
+.deck-stage--rise .deck-slide {
+  --deck-slide-y: 56px;
+}
+
+.deck-stage--slide .deck-slide {
+  --deck-slide-x: 96px;
+}
+
+.deck-stage--scale .deck-slide {
+  --deck-slide-scale: 1.045;
+}
+
+.deck-stage--mask .deck-slide {
+  clip-path: inset(0 0 0 100%);
+  transition:
+    opacity var(--deck-motion-transitionMs) var(--deck-motion-easing),
+    transform var(--deck-motion-transitionMs) var(--deck-motion-easing),
+    clip-path var(--deck-motion-transitionMs) var(--deck-motion-easing),
+    visibility 0s linear var(--deck-motion-transitionMs);
+}
+
+.deck-stage--mask .deck-slide.is-active {
+  clip-path: inset(0 0 0 0);
+}
+
+.deck-slide--fade {
+  --deck-slide-x: 0px;
+  --deck-slide-y: 0px;
+  --deck-slide-scale: 1;
+}
+
+.deck-slide--rise {
+  --deck-slide-y: 56px;
+}
+
+.deck-slide--slide {
+  --deck-slide-x: 96px;
+}
+
+.deck-slide--scale {
+  --deck-slide-scale: 1.045;
+}
+
+.deck-slide--mask {
+  clip-path: inset(0 0 0 100%);
+  transition:
+    opacity var(--deck-motion-transitionMs) var(--deck-motion-easing),
+    transform var(--deck-motion-transitionMs) var(--deck-motion-easing),
+    clip-path var(--deck-motion-transitionMs) var(--deck-motion-easing),
+    visibility 0s linear var(--deck-motion-transitionMs);
+}
+
+.deck-slide--mask.is-active {
+  clip-path: inset(0 0 0 0);
+}
+
+
+/* ===========================================================================
+   07 - Deck chrome
+   Chrome sits outside `.deck-stage`, so it is never multiplied by the fit
+   scale and stays legible at any viewport size. The chrome layer itself is
+   click-through; only real controls take pointer events.
+   =========================================================================== */
+
+.deck-chrome {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  pointer-events: none;
+  font-family: var(--deck-type-bodyFamily);
+}
+
+.deck-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  overflow: hidden;
+  background: var(--deck-color-border);
+}
+
+.deck-progress-bar {
+  width: 100%;
+  height: 100%;
+  background: var(--deck-color-accent);
+  transform: scaleX(var(--deck-progress, 0));
+  transform-origin: 0 50%;
+  transition: transform var(--deck-motion-transitionMs) var(--deck-motion-easing);
+}
+
+.deck-counter {
+  position: absolute;
+  right: 20px;
+  bottom: 18px;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+  color: var(--deck-color-muted);
+  transition: opacity 220ms linear;
+}
+
+.deck-counter-current {
+  color: var(--deck-color-text);
+  font-weight: 600;
+}
+
+.deck-controls {
+  position: absolute;
+  left: 20px;
+  bottom: 14px;
+  display: flex;
+  gap: 8px;
+  pointer-events: auto;
+  transition: opacity 220ms linear;
+}
+
+.deck-control {
+  width: 40px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--deck-color-border);
+  border-radius: 6px;
+  background: var(--deck-color-surface);
+  color: var(--deck-color-text);
+  font-size: 14px;
+  line-height: 1;
+}
+
+.deck-control:hover {
+  border-color: var(--deck-color-accent);
+}
+
+.deck-control[disabled] {
+  opacity: 0.35;
+  cursor: default;
+}
+
+/* Auto-hide. The runtime adds `is-idle` after a quiet period and removes it on
+   the next input. The progress bar is never hidden; it is the one persistent
+   position cue. */
+.deck-chrome.is-idle .deck-counter,
+.deck-chrome.is-idle .deck-controls {
+  opacity: 0;
+}
+
+.deck-chrome.is-idle .deck-controls {
+  pointer-events: none;
+}
+
+/* Coarse-pointer tap zones. These are a visual affordance only, hence
+   `pointer-events: none`: the runtime hit-tests the tap geometry on the
+   viewport instead, so a tap on a link or button inside a slide is never
+   swallowed by a zone overlay. */
+.deck-tap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 33.333%;
+  display: none;
+  pointer-events: none;
+  opacity: 0;
+  background: linear-gradient(to right, var(--deck-color-border), transparent);
+  transition: opacity 160ms linear;
+}
+
+.deck-tap--prev {
+  left: 0;
+}
+
+.deck-tap--next {
+  right: 0;
+  transform: scaleX(-1);
+}
+
+@media (pointer: coarse) {
+  .deck-tap {
+    display: block;
+  }
+
+  .deck-chrome:not(.is-idle) .deck-tap {
+    opacity: 0.5;
+  }
+}
+
+/* Speaker notes pane, for a deck whose plan sets `chrome.notesPane: true`. */
+.deck-notes {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 30vh;
+  overflow: auto;
+  padding: 16px 20px 56px;
+  border-top: 1px solid var(--deck-color-border);
+  background: var(--deck-color-surface);
+  color: var(--deck-color-text);
+  font-size: 15px;
+  line-height: 1.5;
+  pointer-events: auto;
+  transform: translateY(100%);
+  transition: transform var(--deck-motion-transitionMs) var(--deck-motion-easing);
+}
+
+.deck-notes.is-open {
+  transform: translateY(0);
+}
+
+.deck-live,
+.deck-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(50%);
+}
+
+
+/* ===========================================================================
+   08 - Focus
+   Everything inside the stage is multiplied by the fit scale, so a 2px ring
+   authored at stage size renders under 1px in a laptop viewport. Stage focus
+   rings are therefore authored thick; chrome rings are not scaled and stay at
+   normal weight.
+   =========================================================================== */
+
+.deck-stage :focus-visible {
+  outline: 4px solid var(--deck-color-accent);
+  outline-offset: 6px;
+}
+
+.deck-chrome :focus-visible {
+  outline: 2px solid var(--deck-color-accent);
+  outline-offset: 2px;
+}
+
+
+/* ===========================================================================
+   09 - Reduced motion, mandatory
+   Motion is removed, final states stay visible, slide stacking is unchanged.
+   The runtime checks the same query before it replays any entrance.
+   =========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .deck-slide,
+  .deck-slide.is-active,
+  .deck-stage--mask .deck-slide,
+  .deck-slide--mask,
+  .deck-reveal,
+  .deck-reveal--blur,
+  .deck-reveal--mask,
+  .deck-progress-bar,
+  .deck-counter,
+  .deck-controls,
+  .deck-tap,
+  .deck-notes {
+    transition: none;
+    animation: none;
+  }
+
+  .deck-slide,
+  .deck-slide.is-active {
+    transform: none;
+  }
+
+  .deck-slide.is-active .deck-reveal,
+  .deck-slide.is-rearm .deck-reveal {
+    opacity: 1;
+    transform: none;
+    transition-delay: 0s;
+  }
+
+  .deck-slide.is-active .deck-reveal--blur,
+  .deck-slide.is-rearm .deck-reveal--blur {
+    filter: blur(0px);
+  }
+
+  .deck-slide.is-active .deck-reveal--mask,
+  .deck-slide.is-rearm .deck-reveal--mask,
+  .deck-stage--mask .deck-slide.is-active,
+  .deck-slide--mask.is-active {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+
+/* ===========================================================================
+   10 - Print
+   Browser print produces one slide per page at authored size: the fit
+   transform is dropped, slides return to flow, chrome is removed.
+   =========================================================================== */
+
+@page {
+  size: 1920px 1080px;
+  margin: 0;
+}
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  html,
+  body {
+    width: auto;
+    height: auto;
+    overflow: visible;
+    background: var(--deck-color-bg);
+  }
+
+  .deck-viewport {
+    position: static;
+    inset: auto;
+    overflow: visible;
+  }
+
+  /* The fit transform is written to the inline style attribute by the runtime,
+     so dropping it for print needs `!important`. Nothing else here does. */
+  .deck-stage {
+    position: static;
+    width: 1920px;
+    height: auto;
+    overflow: visible;
+    transform: none !important;
+    will-change: auto;
+  }
+
+  .deck-slide,
+  .deck-slide.is-active {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+    transform: none;
+    clip-path: none;
+    transition: none;
+    break-inside: avoid;
+    break-after: page;
+  }
+
+  .deck-slide:last-child {
+    break-after: auto;
+  }
+
+  .deck-slide .deck-reveal {
+    opacity: 1;
+    transform: none;
+    filter: none;
+    clip-path: none;
+    transition: none;
+    transition-delay: 0s;
+  }
+
+  .deck-chrome {
+    display: none;
+  }
+}

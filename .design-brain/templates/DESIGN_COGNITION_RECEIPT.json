@@ -1,0 +1,124 @@
+{
+  "task": "restaurant website template from premium hospitality reference",
+  "productFamily": "event_venue_travel_booking",
+  "mode": "website",
+  "referenceSource": "hospitality reference board",
+  "batchItem": "",
+  "routeSource": "brain_design_router",
+  "brandReferenceUsage": {
+    "candidateBrandName": "Example Template Brand",
+    "referenceUsageMode": "single",
+    "referenceGroupKey": "allowed-reference-id",
+    "referenceIds": ["allowed-reference-id"],
+    "gateStatus": "PASS",
+    "whyAllowedByMemory": "candidate output brand, reference brand, and selected group are not spent or too similar"
+  },
+  "styleDNA": {
+    "typographyBehavior": "editorial display typography with compact supporting labels",
+    "layoutRhythm": "alternating immersive media bands, menu proof, reservation flow, and location trust",
+    "spacingDensity": "generous first impression with denser menu and source-hygiene modules",
+    "colorBehavior": "warm dark base, restrained surface layers, and controlled action accent",
+    "imageDirection": "role-specific dining, menu, atmosphere, chef, and location placeholders",
+    "shapeLanguage": "soft editorial surfaces, thin dividers, and crop-safe media frames",
+    "effectLanguage": "subtle depth, warm media overlay, and restrained shadow hierarchy",
+    "premiumSignal": "category-specific hospitality modules with editable marketplace source structure"
+  },
+  "referenceStandard": {
+    "observedSectionCountRange": "reference suggests 9-12 meaningful homepage sections plus source/support material",
+    "sectionRoleEvidence": "hero, offer/menu, atmosphere, proof, booking, location, FAQ/objection, final CTA, and footer roles are visible or product-standard",
+    "layoutShapeInventory": "media masthead, editorial bands, menu rows, reservation panel, gallery wall, proof strip, map/location block, and footer closure",
+    "colorRoleInventory": "dark base, warm surface, ivory text, brass CTA/accent, muted divider, proof highlight, and image overlay roles",
+    "effectGradientInventory": "warm image overlays, soft card elevation, hairline dividers, subtle CTA depth, and deliberate non-neon restraint",
+    "marketplaceCompletenessClues": "editable sections, design system, placeholder guidance, responsive preview, and buyer-ready source notes",
+    "remixPlan": "borrow section depth, booking proof, and image-led rhythm while changing layout proportions, color identity, and component grouping",
+    "minimalistFallbackRejected": true
+  },
+  "designIntentLock": {
+    "productType": "editable restaurant website template",
+    "outputMedium": "Figma website source template",
+    "targetBuyer": "restaurant owners and marketplace template buyers",
+    "useCase": "marketplace-ready hospitality website starter",
+    "marketplaceValue": "complete editable template with menu, reservation, gallery, location, trust, and preview value",
+    "primaryGoal": "sell a premium restaurant web template with source-ready structure"
+  },
+  "visualGrammar": {
+    "gridBehavior": "12-column desktop grid with asymmetrical media and reservation modules",
+    "spacingCadence": "large hero spacing, medium section rhythm, and compact proof rows",
+    "typeHierarchy": "large editorial display, strong section titles, menu hierarchy, and small metadata labels",
+    "surfaceDepth": "layered image cards, elevated reservation panel, and quiet divider surfaces",
+    "colorRoles": "background, surface, elevated surface, primary text, secondary text, accent, action, and divider",
+    "imageTreatment": "crop-safe atmospheric placeholders with menu, chef, and dining context labels",
+    "effectLogic": "warm overlay on media and soft source-safe depth for cards",
+    "componentRhythm": "menu rows, gallery cards, proof modules, reservation components, and source notes"
+  },
+  "referenceBoundary": {
+    "allowedToLearn": "hospitality density, buyer proof logic, premium image-led pacing, and editorial atmosphere",
+    "forbiddenToCopy": "exact layout, exact color palette, section order, hero grammar, component scaffold, image placement, and signature color identity",
+    "exactLayoutCopied": "no",
+    "exactPaletteCopied": "no",
+    "exactSectionOrderCopied": "no",
+    "heroGrammarCopied": "no",
+    "componentScaffoldCopied": "no"
+  },
+  "colorRoleRemapping": {
+    "referenceDominantColorIdentity": "blue neon futuristic energy",
+    "referenceColorRoles": "dark base, electric accent, high contrast action, and cool glow",
+    "remappedPaletteDirection": "dark graphite, smoked olive, warm brass, and soft ivory hierarchy",
+    "newAccentIdentity": "warm brass reservation and action identity",
+    "preservedEmotionalRole": "premium contrast and energy are preserved without copying hue identity",
+    "avoidedExactHues": "blue neon and exact electric palette avoided",
+    "contrastHierarchyBehavior": "dark base supports bright type, brass action, and quiet dividers"
+  },
+  "visualMoodReinterpretation": {
+    "referenceMood": "premium, immersive, atmospheric, and high contrast",
+    "reinterpretedMood": "warm hospitality, editorial dining, tactile surfaces, and reservation confidence",
+    "changedComposition": "alternating editorial bands and booking-led modules replace the reference composition",
+    "changedHierarchy": "menu, reservation, location, and proof drive hierarchy instead of copied emphasis",
+    "changedAssetTreatment": "role-specific text clue placeholders replace exact reference imagery",
+    "changedDepthEffect": "subtle hospitality shadows and warm overlays replace cool neon glow"
+  },
+  "structuralReconfiguration": {
+    "referenceStructurePattern": "hero, feature grid, proof, and CTA",
+    "newStructurePattern": "immersive hero, signature menu, chef story, dining atmosphere, reservation flow, location hours, reviews, services, footer source notes",
+    "heroGrammarChange": "image-led editorial hero with reservation proof panel instead of copied split hero",
+    "sectionOrderChange": "menu and dining proof appear before generic feature logic",
+    "gridSystemChange": "asymmetrical hospitality grid replaces symmetric card grid",
+    "ctaFlowChange": "reservation CTA appears in hero, menu, and closing with different context",
+    "componentLayoutChange": "menu rows, booking cards, atmosphere gallery, location cards, and source notes replace generic cards"
+  },
+  "patternDivergence": {
+    "divergenceFromReference": "new section rhythm, palette identity, hospitality components, and CTA logic",
+    "divergenceFromPreviousTemplate": "new hero grammar, section rhythm, and warm editorial visual language",
+    "heroDivergence": "reservation proof panel and atmosphere crop create a new opening strategy",
+    "sectionRhythmDivergence": "alternates menu, atmosphere, reservation, location, proof, and detail modules",
+    "visualLanguageDivergence": "warm brass and graphite editorial mood diverges from blue neon reference identity",
+    "componentCadenceDivergence": "menu rows, gallery cards, and booking blocks replace repeated feature cards"
+  },
+  "sectionLogic": {
+    "sectionList": [
+      "immersive hero",
+      "signature menu",
+      "chef story",
+      "dining atmosphere",
+      "reservation flow",
+      "location hours",
+      "reviews",
+      "service details",
+      "footer source notes"
+    ],
+    "roleOfEachSection": "first impression, food offer, craft, atmosphere, booking, logistics, trust, service confidence, and source usability",
+    "buyerJourneyFlow": "discover atmosphere, inspect menu, trust the place, reserve, locate, and reuse source template",
+    "fillerSectionsRemoved": "no filler; every section supports buyer or diner decision",
+    "productFamilyDepthStandard": "9-section hospitality website template with menu, reservation, gallery, location, proof, and source notes"
+  },
+  "marketplaceReadiness": {
+    "sectionDepth": "9 meaningful hospitality sections with category-specific modules",
+    "premiumSignal": "editorial typography, atmospheric media, reservation source components, and proof depth",
+    "editability": "tokens, components, placeholders, text labels, and source sections are editable",
+    "sourceReadiness": "auto-layout, named layers, reusable components, and placeholder rules are planned",
+    "previewValue": "cover can show hero, menu, reservation, gallery, and source depth",
+    "commercialUsefulness": "restaurant buyer can adapt menu, hours, booking, testimonials, and location immediately",
+    "nonGenericProof": "not Hero > Features > CTA; includes menu, dining, reservation, location, reviews, and source notes"
+  },
+  "status": "PASS"
+}

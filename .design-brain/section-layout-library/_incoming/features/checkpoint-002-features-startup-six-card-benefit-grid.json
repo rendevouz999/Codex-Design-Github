@@ -1,0 +1,113 @@
+{
+  "patternId": "checkpoint-002-features-startup-six-card-benefit-grid",
+  "sectionType": "features",
+  "commercialPurpose": "Convert a startup offer into scannable buyer benefits using a compact six-card proof grid.",
+  "purposeLayer": "Features reduce uncertainty by listing concrete benefit claims after the opening offer.",
+  "anatomyLayer": "Section heading, six light cards, circular line icons, short card title, and two to three lines of support copy.",
+  "hierarchyLayer": "Section claim first, card icons second, card titles third, descriptions fourth.",
+  "gridRhythmLayer": "Three-column by two-row card grid centered on a white section with equal gutters and restrained boxes.",
+  "densityLimitLayer": "Use 3-6 primary modules; only use more when grouped by hierarchy.",
+  "originalityLayer": "Learn six-benefit grid as a clarity device; transform icon style, card depth, copy grouping, and rhythm.",
+  "usageRuleLayer": "Use for SaaS, startup, software, agency, service, and app landing pages after the hero or proof intro.",
+  "layoutGesture": "balanced six-card benefit grid",
+  "sectionSilhouette": "center heading over two rows of equal feature cards",
+  "compositionTension": "quiet symmetric grid follows a high-contrast hero",
+  "focalPath": "heading to first row cards to second row cards",
+  "negativeSpaceShape": "open white gutters around boxed modules",
+  "depthLayering": "flat light card boxes with small icon badges",
+  "moduleScaleVariation": "six equal modules with tiny icon emphasis",
+  "breakoutBehavior": "contained grid inside page margins",
+  "contentLimits": {
+    "primaryModules": "3-6",
+    "iconPerModule": 1,
+    "descriptionLines": "2-3"
+  },
+  "antiCopyBoundary": "Do not copy exact icon set, card labels, coral/mint accent pairing, or grid measurements.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "hero",
+      "services"
+    ],
+    "after": [
+      "services",
+      "cta",
+      "stats-proof"
+    ],
+    "notAScaffold": true
+  },
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\118_Lead-Generation-02-Landing-Page.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\11_Video_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\12_Gallery_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\13_Audio_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\14_Quote_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\15_Link_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\16_Full_Width_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\17_Features.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\18_Category_1.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\19_Category_2.jpg"
+  ],
+  "productFamilies": [
+    "startup",
+    "editorial-blog",
+    "lead-generation",
+    "website"
+  ],
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 002",
+    "reviewNotes": "Checkpoint 002 is visually inspected learning evidence; keep incoming until exact hyper-accuracy review and dedupe rationale pass.",
+    "nonCopyBoundary": "Do not copy the exact Pallas editorial visuals, startup hero background, coral/teal color identity, photo assets, sidebar widget order, or footer treatment."
+  },
+  "structuralSignature": {
+    "signatureId": "features:1de8aef368b1d9b3",
+    "hash": "1de8aef368b1d9b3c5cf37b6fe15a045acc21a37",
+    "axes": {
+      "layoutGesture": "balanced six-card benefit grid",
+      "sectionSilhouette": "center heading over two rows of equal feature cards",
+      "anatomyLayer": "section heading, six light cards, circular line icons, short card title, and two to three lines of support copy.",
+      "hierarchyLayer": "section claim first, card icons second, card titles third, descriptions fourth.",
+      "gridRhythmLayer": "three-column by two-row card grid centered on a white section with equal gutters and restrained boxes.",
+      "focalPath": "heading to first row cards to second row cards",
+      "compositionTension": "quiet symmetric grid follows a high-contrast hero",
+      "negativeSpaceShape": "open white gutters around boxed modules",
+      "moduleScaleVariation": "six equal modules with tiny icon emphasis",
+      "breakoutBehavior": "contained grid inside page margins",
+      "contentLimits": "{\"descriptionlines\":\"2-3\",\"iconpermodule\":1,\"primarymodules\":\"3-6\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.0,
+  "matchGroupId": "features:1de8aef368b1d9b3",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:47:11Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 0,
+    "bestMatch": null,
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

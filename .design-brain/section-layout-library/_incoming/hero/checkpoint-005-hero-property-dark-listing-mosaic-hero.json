@@ -1,0 +1,123 @@
+{
+  "patternId": "checkpoint-005-hero-property-dark-listing-mosaic-hero",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\ceroke-business-property-website-2024-06-19-23-10-58-utc - Ceroke - Business Property Website - 3a2b5056.png"
+  ],
+  "productFamilies": [
+    "property",
+    "real-estate",
+    "business",
+    "listing"
+  ],
+  "commercialPurpose": "Open a property/business real estate template with dark premium trust and immediate listing proof.",
+  "purposeLayer": "Hero combines corporate property copy with a mosaic of interiors and listing metrics.",
+  "anatomyLayer": "Dark nav, headline, CTA, interior photo cards, metrics, property labels, and small listing modules arranged in staggered rows.",
+  "hierarchyLayer": "Headline first, interior property images second, metrics/listing proof third.",
+  "gridRhythmLayer": "Dark real-estate hero with staggered interior image mosaic and metric/listing cards.",
+  "densityLimitLayer": "Use section density limit: {\"primaryMessage\": 1, \"cta\": \"1-2\", \"proofCue\": \"0-1 controlled cue\", \"mediaSystem\": 1}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, product photos, or page order.",
+  "usageRuleLayer": "Use for real estate, property management, workspace, architecture, and business-location templates.",
+  "layoutGesture": "dark property hero with listing mosaic and metrics",
+  "sectionSilhouette": "charcoal layout mixing headline column, interior photo tiles, and compact property metric cards",
+  "compositionTension": "business credibility is balanced by tangible property imagery",
+  "focalPath": "headline to interior image mosaic to metrics to CTA",
+  "negativeSpaceShape": "dark gutters make warm interior photos feel premium and selective",
+  "depthLayering": "dark base, property image cards, metric chips, listing panels",
+  "moduleScaleVariation": "medium interior images contrasted with small metric blocks and CTA",
+  "breakoutBehavior": "property photos break the grid through staggered mosaic placement",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1-2",
+    "proofCue": "0-1 controlled cue",
+    "mediaSystem": 1
+  },
+  "antiCopyBoundary": "Do not copy Ceroke brand, exact property photos, listing labels, dark gray palette, or metric values.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "portfolio-gallery",
+      "services",
+      "blog-resources"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 005 contact sheet",
+    "reviewNotes": "Checkpoint 005 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "hero:6ae5717ff805b469",
+    "hash": "6ae5717ff805b469198b5ae079f0ae1da96ed66c",
+    "axes": {
+      "layoutGesture": "dark property hero with listing mosaic and metrics",
+      "sectionSilhouette": "charcoal layout mixing headline column, interior photo tiles, and compact property metric cards",
+      "anatomyLayer": "dark nav, headline, cta, interior photo cards, metrics, property labels, and small listing modules arranged in staggered rows.",
+      "hierarchyLayer": "headline first, interior property images second, metrics/listing proof third.",
+      "gridRhythmLayer": "dark real-estate hero with staggered interior image mosaic and metric/listing cards.",
+      "focalPath": "headline to interior image mosaic to metrics to cta",
+      "compositionTension": "business credibility is balanced by tangible property imagery",
+      "negativeSpaceShape": "dark gutters make warm interior photos feel premium and selective",
+      "moduleScaleVariation": "medium interior images contrasted with small metric blocks and cta",
+      "breakoutBehavior": "property photos break the grid through staggered mosaic placement",
+      "contentLimits": "{\"cta\":\"1-2\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"0-1 controlled cue\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.2582,
+  "matchGroupId": "hero:6ae5717ff805b469",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:25:28Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 23,
+    "bestMatch": {
+      "score": 0.2582,
+      "axisScores": {
+        "layoutGesture": 0.3077,
+        "sectionSilhouette": 0.12,
+        "anatomyLayer": 0.2,
+        "hierarchyLayer": 0.3125,
+        "gridRhythmLayer": 0.1304,
+        "focalPath": 0.2727,
+        "compositionTension": 0.0,
+        "negativeSpaceShape": 0.0526,
+        "moduleScaleVariation": 0.3333,
+        "breakoutBehavior": 0.1111,
+        "contentLimits": 1.0
+      },
+      "patternId": "checkpoint-004-hero-ai-black-grid-abstract-object-hero",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-004-hero-ai-black-grid-abstract-object-hero.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

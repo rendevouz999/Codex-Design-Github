@@ -1,0 +1,128 @@
+{
+  "task": "LumaNest Decor Figma website template from home decor ecommerce PNG reference",
+  "productFamily": "home_decor_ecommerce",
+  "mode": "website",
+  "referenceSource": "ration-home-decor-ecommerce-png",
+  "batchItem": "2 of 3",
+  "routeSource": "brain_design_router",
+  "brandReferenceUsage": {
+    "candidateBrandName": "LumaNest Decor",
+    "referenceUsageMode": "single",
+    "referenceGroupKey": "ration-home-decor-ecommerce-png",
+    "referenceIds": ["ration-home-decor-ecommerce-png"],
+    "gateStatus": "PASS",
+    "whyAllowedByMemory": "candidate brand is distinct from Ration and passed reference usage check with only unknown local reference warning"
+  },
+  "styleDNA": {
+    "typographyBehavior": "warm editorial display with elegant commerce labels and readable product copy",
+    "layoutRhythm": "room-story opening, material/value bands, catalog shelves, editorial gallery, trust and checkout confidence",
+    "spacingDensity": "wide lifestyle pauses with denser catalog, room category, styling, and journal modules",
+    "colorBehavior": "ivory base, paper surfaces, espresso text, honey action, sage support, and clay warmth",
+    "imageDirection": "room, furniture, material, product, and styled-home slots become role-specific placeholders",
+    "shapeLanguage": "soft catalog cards, shelf strips, product tags, large room-stage frames, and editorial dividers",
+    "effectLanguage": "paper shadows, warm stage glow, soft inset shelf surfaces, and understated commerce depth",
+    "premiumSignal": "home-decor-specific browsing flow, style guidance, product trust, source-safe placeholders, and design-system board"
+  },
+  "referenceStandard": {
+    "observedSectionCountRange": "reference supports 9-12 meaningful ecommerce sections including hero, category, room story, product feature, gallery, journal, footer",
+    "sectionRoleEvidence": "hero product staging, logo strip, category cards, large product feature, numbered benefits, sofa/product showcase, blog cards, and footer are visible",
+    "layoutShapeInventory": "large lifestyle stage, floating product card, room category cards, split feature band, numbered editorial grid, product hero, article cards, footer",
+    "colorRoleInventory": "warm cream background, black/brown text, yellow action and highlight, white cards, soft product shadows, muted logo/text",
+    "effectGradientInventory": "warm image fade, soft card elevation, product shadow, paper surfaces, and lifestyle backdrop transitions",
+    "marketplaceCompletenessClues": "needs catalog modules, product cards, room category placeholders, style guidance, design system, cover/overview, and source hygiene",
+    "remixPlan": "keep home warmth and editorial commerce value while changing hero grammar, palette roles, product staging, section order, and closure shape",
+    "minimalistFallbackRejected": true
+  },
+  "designIntentLock": {
+    "productType": "editable home decor ecommerce website template",
+    "outputMedium": "Figma website source template",
+    "targetBuyer": "home decor shops, furniture brands, interior boutiques, and marketplace buyers",
+    "useCase": "premium ecommerce storefront for curated home objects and styling services",
+    "marketplaceValue": "complete editable store template with room categories, product catalog, styling modules, journal, trust, cover preview, and design system",
+    "primaryGoal": "sell a warm editorial storefront that helps decor brands show product taste and buyer confidence"
+  },
+  "visualGrammar": {
+    "gridBehavior": "editorial shelf grid with room-stage hero, staggered product shelves, and catalog cards",
+    "spacingCadence": "large room-story sections, medium product blocks, compact filter/product rows, and warm footer closure",
+    "typeHierarchy": "serif-like editorial display behavior through bold italic sans accents, strong section titles, and small catalog labels",
+    "surfaceDepth": "paper cards, raised product shelves, warm image placeholders, soft checkout/trust panels, and material chips",
+    "colorRoles": "ivory background, paper surface, espresso text, muted taupe text, honey action, sage category signal, clay sale accent, border",
+    "imageTreatment": "large stage and catalog placeholders with room-specific labels, not copied furniture photo crops",
+    "effectLogic": "warm shelf shadows and soft product-stage glow clarify browse and purchase hierarchy",
+    "componentRhythm": "room category cards, product cards, material chips, styling service panel, catalog filters, journal cards, trust rows, footer"
+  },
+  "referenceBoundary": {
+    "allowedToLearn": "warm decor mood, editorial ecommerce rhythm, room category logic, product confidence, and lifestyle proof",
+    "forbiddenToCopy": "exact layout, exact color palette or color-role mapping, exact section order, hero grammar, component scaffold, yellow-chair staging, sofa/product placement, card cadence, and footer composition",
+    "exactLayoutCopied": "no",
+    "exactPaletteCopied": "no",
+    "exactSectionOrderCopied": "no",
+    "heroGrammarCopied": "no",
+    "componentScaffoldCopied": "no"
+  },
+  "colorRoleRemapping": {
+    "referenceDominantColorIdentity": "cream and saturated yellow decor identity",
+    "referenceColorRoles": "warm background, yellow CTA/highlight, black text, white product cards, muted gray logos",
+    "remappedPaletteDirection": "ivory paper, espresso, honey ochre, sage green, soft clay, linen border, and muted taupe",
+    "newAccentIdentity": "honey action supported by sage browsing cues rather than all-yellow emphasis",
+    "preservedEmotionalRole": "warmth, comfort, curation, and stylish home optimism",
+    "avoidedExactHues": "exact yellow hero/product accent and reference cream mapping avoided",
+    "contrastHierarchyBehavior": "espresso on ivory for readability; honey and sage separate actions, categories, and material cues"
+  },
+  "visualMoodReinterpretation": {
+    "referenceMood": "sunny, cozy, modern home decor ecommerce",
+    "reinterpretedMood": "curated atelier storefront with tactile paper warmth and room-by-room browsing",
+    "changedComposition": "catalog shelf hero and material palette rail replace the reference's large chair-room hero",
+    "changedHierarchy": "room selection, product shelves, style consultation, and checkout trust lead the flow",
+    "changedAssetTreatment": "all room/product photos become editable role-specific placeholder frames with replacement clues",
+    "changedDepthEffect": "paper shelf shadows and material-panel depth replace direct warm image fade"
+  },
+  "structuralReconfiguration": {
+    "referenceStructurePattern": "hero, logos, category cards, feature split, numbered benefits, product hero, blog, footer",
+    "newStructurePattern": "atelier hero, material trust strip, room mood finder, curated room shelves, spotlight collection, styling service, product catalog, material story, customer rooms gallery, journal, checkout confidence FAQ, footer",
+    "heroGrammarChange": "catalog shelf and material palette hero replaces single lifestyle room hero",
+    "sectionOrderChange": "mood/category guidance appears before product catalog; trust and checkout confidence close the page",
+    "gridSystemChange": "staggered shelves and editorial room panels replace equal card rows",
+    "ctaFlowChange": "shop collection, book styling, add to cart, and checkout confidence CTAs appear in product-specific contexts",
+    "componentLayoutChange": "room shelves, material chips, catalog filters, product cards, and styling panel replace generic feature cards"
+  },
+  "patternDivergence": {
+    "divergenceFromReference": "new catalog-shelf hero, different palette, different section order, styling service module, checkout closure",
+    "divergenceFromPreviousTemplate": "moves away from consulting command panels, proof ledgers, cyan signals, and dark intake form",
+    "heroDivergence": "warm shelf-and-palette opening instead of advisory command console or reference chair scene",
+    "sectionRhythmDivergence": "alternates room story, shelf catalog, styling support, product browsing, material story, and checkout trust",
+    "visualLanguageDivergence": "tactile paper and home materials instead of corporate signal blue",
+    "componentCadenceDivergence": "room cards and product shelves avoid service matrix/process spine cadence"
+  },
+  "sectionLogic": {
+    "sectionList": [
+      "navigation",
+      "atelier shelf hero",
+      "material trust strip",
+      "room mood finder",
+      "curated room shelves",
+      "spotlight collection",
+      "styling service panel",
+      "product catalog grid",
+      "material story",
+      "customer rooms gallery",
+      "journal",
+      "checkout confidence FAQ",
+      "footer"
+    ],
+    "roleOfEachSection": "orientation, desire, material trust, browsing guidance, category selection, product focus, service upsell, shopping, craft proof, social proof, editorial SEO, objection handling, and closure",
+    "buyerJourneyFlow": "feel the aesthetic, choose room, inspect products, trust materials, get styling support, shop, resolve purchase doubts, and adapt source",
+    "fillerSectionsRemoved": "no filler; every section supports decor browsing, product confidence, style guidance, or purchase trust",
+    "productFamilyDepthStandard": "12-section home decor ecommerce website template plus separate design system and cover overview"
+  },
+  "marketplaceReadiness": {
+    "sectionDepth": "12 meaningful home decor ecommerce sections plus per-template design system and cover/overview preview",
+    "premiumSignal": "editorial commerce rhythm, shelf modules, material tokens, catalog states, styling upsell, and warm source-safe placeholders",
+    "editability": "auto-layout, named sections, local tokens, product cards, filters, placeholders, and component specimens are planned",
+    "sourceReadiness": "design system board documents color roles, type, spacing, buttons, product cards, form/filter states, media placeholders, and responsive behavior",
+    "previewValue": "cover and overview will show storefront depth, catalog shelf concept, source editability, and included sections",
+    "commercialUsefulness": "decor sellers can replace room images, products, prices, categories, styling service, journal content, and trust copy immediately",
+    "nonGenericProof": "not Hero > Features > CTA; includes room finder, shelves, collection spotlight, styling panel, catalog, material story, gallery, journal, and checkout trust"
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-05-30",
+  "mode": "patch-cleanup-validation",
+  "zipExported": false,
+  "plannedActions": [
+    {
+      "source": "downloads/MiroFish",
+      "action": "move",
+      "destinationRoot": "<USER_HOME>/Desktop/Codex-Design-Archive/external-sources",
+      "reason": "Forbidden external source directory blocks source package integrity."
+    },
+    {
+      "source": "*.bak-* / *.backup-* / *.orig / *.old / *.tmp",
+      "action": "move",
+      "destinationRoot": "<USER_HOME>/Desktop/Codex-Design-Archive/brain-design-backups",
+      "reason": "Backup snapshots should not remain active source files."
+    },
+    {
+      "source": ".design-brain/context-packets, .design-brain/pptx-precision-reviews, generated reference-insights",
+      "action": "move",
+      "destinationRoot": "<USER_HOME>/Desktop/Codex-Design-Archive/brain-design-generated-evidence",
+      "reason": "Generated evidence should be preserved but not treated as active workflow owner."
+    }
+  ],
+  "completedActions": [
+    {
+      "source": "downloads/MiroFish",
+      "action": "move",
+      "destination": "<USER_HOME>/Desktop/Codex-Design-Archive/external-sources/MiroFish-20260530-203009",
+      "count": 1,
+      "reason": "Source package integrity blocker."
+    },
+    {
+      "source": "active backup suffix files",
+      "action": "move",
+      "destination": "<USER_HOME>/Desktop/Codex-Design-Archive/brain-design-backups/bak-files-20260530-203106",
+      "count": 308,
+      "reason": "Backup snapshots removed from active source, preserved externally."
+    },
+    {
+      "source": "generated evidence/history",
+      "action": "move",
+      "destination": "<USER_HOME>/Desktop/Codex-Design-Archive/brain-design-generated-evidence/evidence-20260530-203106",
+      "count": 31,
+      "reason": "Generated evidence preserved outside active package ownership."
+    },
+    {
+      "source": "old helper scripts",
+      "action": "none",
+      "destination": "<USER_HOME>/Desktop/Codex-Design-Archive/brain-design-deprecated-scripts/helpers-20260530-203106",
+      "count": 0,
+      "reason": "No safe unreferenced helper was moved automatically."
+    }
+  ],
+  "permanentDeletes": [],
+  "archiveRoots": {
+    "externalSources": "<USER_HOME>/Desktop/Codex-Design-Archive/external-sources",
+    "backupArchive": "<USER_HOME>/Desktop/Codex-Design-Archive/brain-design-backups/bak-files-20260530-203106",
+    "evidenceArchive": "<USER_HOME>/Desktop/Codex-Design-Archive/brain-design-generated-evidence/evidence-20260530-203106",
+    "deprecatedArchive": "<USER_HOME>/Desktop/Codex-Design-Archive/brain-design-deprecated-scripts/helpers-20260530-203106"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "Hero + Features + CTA": {
+    "scope": "small_scope_only",
+    "risk_level": "high",
+    "allowed_when": ["explicit small-scope landing", "reference uses this exact simple funnel"],
+    "forbidden_when": ["full website template", "marketplace template", "batch template", "reference-led premium template"],
+    "replacement_style": "Product-specific marketplace structure required",
+    "recommended_replacement": "product-specific structure pattern"
+  },
+  "Minimal Single Column": {
+    "scope": "small_scope_only",
+    "risk_level": "high",
+    "allowed_when": ["explicit minimalist request", "small-scope landing", "reference minimalist DNA"],
+    "forbidden_when": ["full website template", "marketplace template", "batch template", "reference-led premium template"],
+    "replacement_style": "Structured Utility / Product-Specific Marketplace Art Direction",
+    "recommended_replacement": "structured product-family pattern with marketplace depth"
+  },
+  "Minimal & Direct": {
+    "scope": "small_scope_only",
+    "risk_level": "high",
+    "allowed_when": ["explicit minimalist request", "small-scope landing", "reference minimalist DNA"],
+    "forbidden_when": ["full website template", "marketplace template", "batch template", "reference-led premium template"],
+    "replacement_style": "Direct Functional Marketplace / Structured Utility / Service Booking Clarity",
+    "recommended_replacement": "direct functional marketplace structure with service depth"
+  },
+  "Minimalism": {
+    "scope": "reference_only",
+    "risk_level": "high",
+    "allowed_when": ["explicit minimalist request", "reference minimalist DNA", "Brain Design marks minimalist as intended direction"],
+    "forbidden_when": ["default fallback", "full website template without minimalist request", "dashboard/app/deck as generic landing"],
+    "replacement_style": "Reference-led visual identity",
+    "recommended_replacement": "reference-led visual identity with product-specific composition"
+  },
+  "Flat Design": {
+    "scope": "reference_only",
+    "risk_level": "high",
+    "allowed_when": ["explicit flat design request", "reference flat design DNA", "Brain Design marks flat design as intended direction"],
+    "forbidden_when": ["default fallback", "full website template without flat design request", "premium reference-led template needing depth"],
+    "replacement_style": "Domain-appropriate surface depth",
+    "recommended_replacement": "domain-appropriate surface depth and hierarchy"
+  }
+}

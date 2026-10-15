@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "design-brain.lifecycle.layout-fingerprint.v1",
+  "title": "Brain Design Layout Fingerprint",
+  "type": "object",
+  "required": [
+    "templateId",
+    "sourceType",
+    "productFamily",
+    "mode",
+    "heroGrammar",
+    "sectionOrder",
+    "gridSystem",
+    "layoutGesture",
+    "sectionSilhouettes",
+    "sectionPatternMix",
+    "sectionPatternIds",
+    "sectionDensityLimits",
+    "catalogDivergenceNotes",
+    "layoutRhythm",
+    "cardCadence",
+    "componentPatterns",
+    "ctaPlacement",
+    "imageTreatment",
+    "spacingCadence",
+    "typographyBehavior",
+    "colorRoles",
+    "effectLanguage",
+    "navigationPattern",
+    "footerPattern",
+    "designSystemId",
+    "visualGrammarSummary",
+    "marketplaceReadinessSummary"
+  ],
+  "properties": {
+    "templateId": { "type": "string" },
+    "sourceType": {
+      "enum": ["reference", "ai_output", "corpus_inspiration"]
+    },
+    "productFamily": { "type": "string" },
+    "mode": { "type": "string" },
+    "heroGrammar": {},
+    "sectionOrder": {},
+    "gridSystem": {},
+    "layoutGesture": {},
+    "sectionSilhouettes": {},
+    "sectionPatternMix": {},
+    "sectionPatternIds": {},
+    "sectionDensityLimits": {},
+    "catalogDivergenceNotes": {},
+    "layoutRhythm": {},
+    "cardCadence": {},
+    "componentPatterns": {},
+    "ctaPlacement": {},
+    "imageTreatment": {},
+    "spacingCadence": {},
+    "typographyBehavior": {},
+    "colorRoles": {},
+    "effectLanguage": {},
+    "navigationPattern": {},
+    "footerPattern": {},
+    "designSystemId": { "type": "string" },
+    "visualGrammarSummary": {},
+    "marketplaceReadinessSummary": {},
+    "entranceFamily": {},
+    "transitionFamily": {},
+    "easingCurve": {},
+    "staggerRhythm": {},
+    "accentMove": {},
+    "revealGrammar": {},
+    "motionAmplitude": {},
+    "durationBand": {},
+    "roleMotionMapping": {},
+    "chromeMotion": {},
+    "reducedMotionState": {}
+  },
+  "allOf": [
+    {
+      "if": {
+        "anyOf": [
+          { "required": ["mode"], "properties": { "mode": { "$ref": "#/$defs/webDeckMedium" } } },
+          { "required": ["productFamily"], "properties": { "productFamily": { "$ref": "#/$defs/webDeckMedium" } } }
+        ]
+      },
+      "then": {
+        "required": [
+          "entranceFamily",
+          "transitionFamily",
+          "easingCurve",
+          "staggerRhythm",
+          "accentMove",
+          "revealGrammar",
+          "motionAmplitude",
+          "durationBand",
+          "roleMotionMapping",
+          "chromeMotion",
+          "reducedMotionState"
+        ]
+      }
+    }
+  ],
+  "$defs": {
+    "webDeckMedium": {
+      "type": "string",
+      "pattern": "[Ww]eb[ _-]?([Dd]eck|[Ss]lides)|([Hh]tml|HTML)[ _-]?([Dd]eck|[Pp]resentation)|[Bb]rowser[ _-]?([Dd]eck|[Pp]resentation)|[Aa]nimated[ _-]?([Dd]eck|[Ss]lides|[Pp]resentation)|[Ii]nteractive[ _-]?[Dd]eck|[Ss]ingle[ _-]?file[ _-]?[Dd]eck"
+    }
+  }
+}

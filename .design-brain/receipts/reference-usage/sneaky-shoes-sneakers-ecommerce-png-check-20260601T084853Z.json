@@ -1,0 +1,25 @@
+{
+  "command": "check",
+  "status": "PASS",
+  "templateId": "",
+  "candidateBrandName": "Kinetiq Sole",
+  "templateType": "Figma website template",
+  "productFamily": "sneaker ecommerce",
+  "niche": "sneakers sportswear ecommerce",
+  "referenceMode": "single",
+  "referenceGroupKey": "sneaky-shoes-sneakers-ecommerce-png",
+  "referenceIds": [
+    "sneaky-shoes-sneakers-ecommerce-png"
+  ],
+  "referenceBrandNames": [
+    "Sneaky"
+  ],
+  "blockingReasons": [],
+  "warnings": [
+    "UNKNOWN_REFERENCE_ID sneaky-shoes-sneakers-ecommerce-png"
+  ],
+  "nextAction": "Proceed with reference cognition and record usage after completion.",
+  "dryRun": false,
+  "checkedAt": "2026-06-01T08:48:53.246452+00:00",
+  "receiptPath": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\receipts\\reference-usage\\sneaky-shoes-sneakers-ecommerce-png-check-20260601T084853Z.json"
+}

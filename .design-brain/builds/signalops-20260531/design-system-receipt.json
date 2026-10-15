@@ -1,0 +1,133 @@
+{
+  "templateId": "signalops-ai-website-template",
+  "templateName": "SignalOps AI Operations Website Template",
+  "productFamily": "saas_product_website",
+  "mode": "website-template",
+  "designSystemScope": "per-template",
+  "antiEmptyVerdict": "PASS",
+  "colorTokens": {
+    "background": "#070A0E",
+    "surface": "#101820",
+    "surfaceElevated": "#14202A",
+    "textPrimary": "#F5F8F7",
+    "textSecondary": "#DCE7E3",
+    "textMuted": "#9CA9A9",
+    "accent": "#65F2C2",
+    "action": "#65F2C2",
+    "border": "#263541"
+  },
+  "typographyTokens": {
+    "display": "Inter Bold 76",
+    "h1": "Inter Bold 76",
+    "h2": "Inter Bold 48",
+    "h3": "Inter Semi Bold 24",
+    "body": "Inter Regular 16",
+    "bodySmall": "Inter Regular 13",
+    "label": "Inter Semi Bold 12",
+    "button": "Inter Semi Bold 14",
+    "nav": "Inter Medium 13"
+  },
+  "spacingTokens": {
+    "scale": "8/12/16/20/24/32/44/56/80/96/104",
+    "sectionY": "82-104",
+    "componentPadding": "14-38",
+    "cardGap": "16-22",
+    "gridGap": "20-32",
+    "container": "1280"
+  },
+  "components": [
+    "navigation header",
+    "button primary",
+    "button secondary",
+    "card",
+    "feature card",
+    "proof card",
+    "pricing card",
+    "faq row",
+    "cta band",
+    "footer column",
+    "image placeholder",
+    "profile photo placeholder",
+    "integration pill",
+    "workflow step",
+    "demo form input"
+  ],
+  "componentAnatomy": {
+    "navigation header": "brand, nav links, secondary action, primary CTA, responsive-collapse note",
+    "button": "label, icon cue, fill role, border role, focus and disabled behavior",
+    "card": "status pill, title, body, optional media placeholder, action row",
+    "pricing card": "plan label, price, supporting copy, feature list, action",
+    "faq row": "question text, disclosure icon, expanded and collapsed state",
+    "demo form input": "label, field surface, helper or error state, submit action"
+  },
+  "states": [
+    "default",
+    "hover",
+    "focus",
+    "active",
+    "disabled"
+  ],
+  "patternModules": [
+    "hero command console",
+    "proof rail",
+    "problem map",
+    "workflow cockpit",
+    "automation playbook bento",
+    "integration strip",
+    "security governance proof",
+    "case-study metrics",
+    "pricing and demo",
+    "FAQ",
+    "CTA footer"
+  ],
+  "usageRules": [
+    "Use mint only for active automation and primary action signal.",
+    "Use amber only for human approval, risk, or intervention moments.",
+    "Use dark raised panels for proof-heavy modules and hairline surfaces for supporting modules.",
+    "Replace placeholder frames with product screenshots, workflow diagrams, or charts that match the labelled purpose."
+  ],
+  "surfaceEffectTokens": {
+    "signalGlow": "active automation or product proof emphasis",
+    "panelDepth": "raised command-center cards",
+    "hairlineBorder": "editable dark-surface separation",
+    "attentionSurface": "amber human-review state"
+  },
+  "sourceHygiene": {
+    "autoLayout": true,
+    "editableText": true,
+    "editablePlaceholders": true,
+    "clearLayerNames": true,
+    "reusableComponents": true,
+    "responsiveConstraints": true,
+    "flattenedImportantContent": false
+  },
+  "placeholderRules": [
+    "image placeholder: [purpose]",
+    "profile photo placeholder: [role]"
+  ],
+  "artifactEvidence": {
+    "figmaNodeSummaryPath": "figma-node-summary.json",
+    "designSystemPageId": "3:392",
+    "sourceComponentInventoryPath": "component-inventory.json",
+    "screenshotPath": "screenshots/signalops-source-guide-final.png",
+    "componentInventory": [
+      "button",
+      "card",
+      "navigation",
+      "header",
+      "footer",
+      "cta",
+      "placeholder",
+      "pricing",
+      "faq",
+      "integration",
+      "workflow"
+    ],
+    "tokenSourcePath": "design-tokens.json"
+  },
+  "status": "PASS",
+  "evidence": [
+    "Figma frame 3:392 contains source guide, color tokens, typography tokens, component specimens, and receipts.",
+    "Screenshot evidence saved in screenshots/signalops-source-guide-final.png."
+  ]
+}

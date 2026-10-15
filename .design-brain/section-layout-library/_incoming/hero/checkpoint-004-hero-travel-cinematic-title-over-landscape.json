@@ -1,0 +1,123 @@
+{
+  "patternId": "checkpoint-004-hero-travel-cinematic-title-over-landscape",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\arden-adventure-travel-website-2025-07-28-22-20-22-utc - Arden - Adventure & Travel Website - b48628ef.png"
+  ],
+  "productFamilies": [
+    "travel",
+    "tourism",
+    "adventure",
+    "booking"
+  ],
+  "commercialPurpose": "Open a travel template with destination emotion before packages and itinerary detail.",
+  "purposeLayer": "Hero creates wanderlust through oversized destination typography and landscape immersion.",
+  "anatomyLayer": "Dark nav, huge destination wordmark, mountain/landscape photo, short intro block, CTA, and small destination stat/cue cards.",
+  "hierarchyLayer": "Landscape and giant word first, destination promise second, booking CTA third, mini cards fourth.",
+  "gridRhythmLayer": "Cinematic full-bleed landscape hero with giant overlaid title and compact booking copy block.",
+  "densityLimitLayer": "Use section density limit: {\"primaryMessage\": 1, \"cta\": \"1-2\", \"proofCue\": \"0-1 controlled cue\", \"mediaSystem\": 1}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, or section order.",
+  "usageRuleLayer": "Use for travel, outdoor, hospitality, retreat, event, and destination templates needing emotional first impression.",
+  "layoutGesture": "cinematic destination hero with oversized typography over landscape",
+  "sectionSilhouette": "dark travel masthead dominated by mountain image and giant title, with copy tucked into lower zones",
+  "compositionTension": "epic scenery pulls attention while compact itinerary cues create conversion readiness",
+  "focalPath": "giant destination word to landscape focal point to CTA to trip cue cards",
+  "negativeSpaceShape": "open sky/mountain space forms the negative area around oversized type",
+  "depthLayering": "photo background, dark overlay, large type plane, foreground CTA/card chips",
+  "moduleScaleVariation": "massive title and scenery contrast with compact trip controls",
+  "breakoutBehavior": "title and landscape intentionally bleed through the hero frame",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1-2",
+    "proofCue": "0-1 controlled cue",
+    "mediaSystem": 1
+  },
+  "antiCopyBoundary": "Do not copy the exact mountain image, Arden name, giant adventure lettering style, or dark card treatment.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "trust-band",
+      "services",
+      "process"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 004 contact sheet",
+    "reviewNotes": "Checkpoint 004 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "hero:2bd56ad1996b51b9",
+    "hash": "2bd56ad1996b51b9c2e66ae1a29ed4f8dee13d84",
+    "axes": {
+      "layoutGesture": "cinematic destination hero with oversized typography over landscape",
+      "sectionSilhouette": "dark travel masthead dominated by mountain image and giant title, with copy tucked into lower zones",
+      "anatomyLayer": "dark nav, huge destination wordmark, mountain/landscape photo, short intro block, cta, and small destination stat/cue cards.",
+      "hierarchyLayer": "landscape and giant word first, destination promise second, booking cta third, mini cards fourth.",
+      "gridRhythmLayer": "cinematic full-bleed landscape hero with giant overlaid title and compact booking copy block.",
+      "focalPath": "giant destination word to landscape focal point to cta to trip cue cards",
+      "compositionTension": "epic scenery pulls attention while compact itinerary cues create conversion readiness",
+      "negativeSpaceShape": "open sky/mountain space forms the negative area around oversized type",
+      "moduleScaleVariation": "massive title and scenery contrast with compact trip controls",
+      "breakoutBehavior": "title and landscape intentionally bleed through the hero frame",
+      "contentLimits": "{\"cta\":\"1-2\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"0-1 controlled cue\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.2117,
+  "matchGroupId": "hero:2bd56ad1996b51b9",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:16:27Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 9,
+    "bestMatch": {
+      "score": 0.2117,
+      "axisScores": {
+        "layoutGesture": 0.1429,
+        "sectionSilhouette": 0.1154,
+        "anatomyLayer": 0.1212,
+        "hierarchyLayer": 0.2632,
+        "gridRhythmLayer": 0.1154,
+        "focalPath": 0.125,
+        "compositionTension": 0.0526,
+        "negativeSpaceShape": 0.1,
+        "moduleScaleVariation": 0.1875,
+        "breakoutBehavior": 0.1053,
+        "contentLimits": 1.0
+      },
+      "patternId": "checkpoint-004-hero-luxury-car-side-profile-spec-strip",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-004-hero-luxury-car-side-profile-spec-strip.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

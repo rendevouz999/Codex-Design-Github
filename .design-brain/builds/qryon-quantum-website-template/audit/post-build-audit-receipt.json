@@ -1,0 +1,64 @@
+{
+  "buildId": "post-build-20260531192915",
+  "templateCount": 1,
+  "templates": [
+    "qryon-labs-quantum-saas-website"
+  ],
+  "designCognitionRequired": true,
+  "completionReceiptRequired": true,
+  "completionReceiptPresent": true,
+  "designSystemResults": {
+    "qryon-labs-quantum-saas-website": {
+      "status": "PASS",
+      "templateId": "qryon-labs-quantum-saas-website",
+      "errors": [],
+      "warnings": [],
+      "artifactEvidenceStatus": "PASS"
+    }
+  },
+  "designCognitionResults": {
+    "Create a premium reference-led Figma website template inspired by Tria quantum computing website preview": {
+      "status": "PASS",
+      "missingFields": [],
+      "riskCategories": [],
+      "requiredRepairs": []
+    }
+  },
+  "auditPasses": {
+    "pass1OriginalityBatchSimilarity": "PASS",
+    "pass2DesignSystemSourceHygiene": "PASS",
+    "pass3VisualLayoutQA": "PASS"
+  },
+  "batchSimilarity": {
+    "status": "PASS",
+    "pairs": [],
+    "requiredRepairs": [],
+    "overallRisk": "low"
+  },
+  "buildSessionLifecycle": {
+    "status": "not_provided",
+    "sessionId": "",
+    "fingerprintLockStatus": "N/A",
+    "layoutAuditVsReference": "N/A",
+    "pairwiseAiLayoutAudit": "N/A",
+    "issues": []
+  },
+  "layoutOriginality": {
+    "buildSessionId": "",
+    "layoutAuditVsReference": "N/A",
+    "pairwiseAiLayoutAudit": "N/A",
+    "fingerprintLockStatus": "N/A",
+    "ideaRecoveryCorpusUsed": false,
+    "corpusInspirationIds": [],
+    "layoutRepairCycles": 0,
+    "axisFailuresRepaired": [],
+    "safeToProceedToNextTemplate": null
+  },
+  "repairCycles": 0,
+  "repairPlan": [],
+  "remainingIssues": [],
+  "visualVerificationStatus": "screenshot_render_verified",
+  "finalStatus": "READY",
+  "limitations": [],
+  "completionStatement": "Post-build gate satisfied."
+}

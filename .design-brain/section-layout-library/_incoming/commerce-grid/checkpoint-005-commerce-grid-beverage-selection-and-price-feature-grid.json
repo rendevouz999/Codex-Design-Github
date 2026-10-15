@@ -1,0 +1,122 @@
+{
+  "patternId": "checkpoint-005-commerce-grid-beverage-selection-and-price-feature-grid",
+  "sectionType": "commerce-grid",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\bouty-drink-product-website-2024-09-05-16-38-36-utc - Bouty - Drink Product Website Image - 720edafd.png"
+  ],
+  "productFamilies": [
+    "beverage",
+    "commerce",
+    "food",
+    "product"
+  ],
+  "commercialPurpose": "Show beverage selections, expert picks, pricing, and product benefits without a sterile ecommerce grid.",
+  "purposeLayer": "Commerce grid lets visitors browse product flavors while seeing proof, picks, and benefit modules.",
+  "anatomyLayer": "Featured drink/product image, smaller product thumbnails, expert pick copy, price module, carousel controls, benefit card rows, and CTA band.",
+  "hierarchyLayer": "Featured product first, price/action second, benefit cards third.",
+  "gridRhythmLayer": "Product showcase flow with one featured beverage block, adjacent thumbnails, price CTA, and supporting benefit grid.",
+  "densityLimitLayer": "Use section density limit: {\"visibleItems\": \"3-8\", \"featuredItem\": \"0-1\", \"purchaseCue\": \"required\"}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, product photos, or page order.",
+  "usageRuleLayer": "Use for product-focused templates that need a premium browse-and-buy section rather than equal product tiles.",
+  "layoutGesture": "beverage commerce grid with featured product and benefit cards",
+  "sectionSilhouette": "light page section mixing large drink image, small flavor thumbnails, price/action card, and lower feature cards",
+  "compositionTension": "product desirability is balanced with purchase clarity and benefit reassurance",
+  "focalPath": "featured drink to price card to thumbnails to benefit grid",
+  "negativeSpaceShape": "white spacing separates sensory product blocks from structured commerce cards",
+  "depthLayering": "product photo layer, thumbnail cards, price chip, benefit card row, CTA stripe",
+  "moduleScaleVariation": "one large product visual with small thumbnails and compact feature cards",
+  "breakoutBehavior": "featured product block spans more space than standard commerce cards",
+  "contentLimits": {
+    "visibleItems": "3-8",
+    "featuredItem": "0-1",
+    "purchaseCue": "required"
+  },
+  "antiCopyBoundary": "Do not copy exact drink photos, prices, orange CTA strip, or flavor thumbnails.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "hero"
+    ],
+    "after": [
+      "testimonials",
+      "cta",
+      "footer"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 005 contact sheet",
+    "reviewNotes": "Checkpoint 005 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "commerce-grid:fa98682e39b18b6a",
+    "hash": "fa98682e39b18b6abf5f1793151af71aafc1b914",
+    "axes": {
+      "layoutGesture": "beverage commerce grid with featured product and benefit cards",
+      "sectionSilhouette": "light page section mixing large drink image, small flavor thumbnails, price/action card, and lower feature cards",
+      "anatomyLayer": "featured drink/product image, smaller product thumbnails, expert pick copy, price module, carousel controls, benefit card rows, and cta band.",
+      "hierarchyLayer": "featured product first, price/action second, benefit cards third.",
+      "gridRhythmLayer": "product showcase flow with one featured beverage block, adjacent thumbnails, price cta, and supporting benefit grid.",
+      "focalPath": "featured drink to price card to thumbnails to benefit grid",
+      "compositionTension": "product desirability is balanced with purchase clarity and benefit reassurance",
+      "negativeSpaceShape": "white spacing separates sensory product blocks from structured commerce cards",
+      "moduleScaleVariation": "one large product visual with small thumbnails and compact feature cards",
+      "breakoutBehavior": "featured product block spans more space than standard commerce cards",
+      "contentLimits": "{\"featureditem\":\"0-1\",\"purchasecue\":\"required\",\"visibleitems\":\"3-8\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.1215,
+  "matchGroupId": "commerce-grid:fa98682e39b18b6a",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:25:28Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 1,
+    "bestMatch": {
+      "score": 0.1215,
+      "axisScores": {
+        "layoutGesture": 0.1875,
+        "sectionSilhouette": 0.0417,
+        "anatomyLayer": 0.1212,
+        "hierarchyLayer": 0.2105,
+        "gridRhythmLayer": 0.0741,
+        "focalPath": 0.1333,
+        "compositionTension": 0.0,
+        "negativeSpaceShape": 0.0667,
+        "moduleScaleVariation": 0.1875,
+        "breakoutBehavior": 0.0833,
+        "contentLimits": 0.2308
+      },
+      "patternId": "checkpoint-003-commerce-grid-restaurant-menu-dark-product-cards",
+      "sectionType": "commerce-grid",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\commerce-grid\\checkpoint-003-commerce-grid-restaurant-menu-dark-product-cards.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

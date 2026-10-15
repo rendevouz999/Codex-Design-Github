@@ -1,0 +1,122 @@
+{
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 003",
+    "reviewNotes": "Checkpoint 003 is visually inspected learning evidence; keep incoming until hyper-accuracy review and matching rationale pass.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, color identity, imagery, icon systems, decorative geometry, or section order."
+  },
+  "patternId": "checkpoint-003-features-ai-horizontal-active-card-carousel",
+  "sectionType": "features",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\aiso-business-analysis-website-2025-09-02-23-02-21-utc - Aiso - Business Analysis Website - 8d296535.jpg"
+  ],
+  "productFamilies": [
+    "ai",
+    "business",
+    "saas",
+    "website"
+  ],
+  "commercialPurpose": "Explain AI product capabilities with a horizontal card rail where the active feature is emphasized.",
+  "purposeLayer": "Feature carousel encourages scanning several capabilities while making one selected feature feel premium and current.",
+  "anatomyLayer": "Section heading, view-more control, horizontal feature cards, icon badges, active center card with brighter border, card descriptions, and progress line.",
+  "hierarchyLayer": "Heading first, active card second, neighboring cards third, progress line/control last.",
+  "gridRhythmLayer": "Wide horizontal rail with partial cards and one emphasized center card on dark background.",
+  "densityLimitLayer": "Use 3-6 visible modules; active card may be larger or brighter, with one progress indicator.",
+  "originalityLayer": "Learn active-feature carousel rhythm; transform card count, active state, icon system, and scroll indicator.",
+  "usageRuleLayer": "Use for AI tools, SaaS modules, feature overviews, service capabilities, and platform categories.",
+  "layoutGesture": "horizontal feature rail with active highlighted center card",
+  "sectionSilhouette": "wide carousel strip with one enlarged glowing/outlined module",
+  "compositionTension": "active state breaks equal-card monotony and creates browsing motion",
+  "focalPath": "heading to active center feature to adjacent cards to progress cue",
+  "negativeSpaceShape": "long dark track with card islands and low progress line",
+  "depthLayering": "dark feature cards with active border and icon glow",
+  "moduleScaleVariation": "one active card larger/brighter than surrounding cards",
+  "breakoutBehavior": "rail implies horizontal overflow",
+  "contentLimits": {
+    "primaryModules": "3-6",
+    "activeModule": "1",
+    "progressCue": "0-1",
+    "descriptionLines": "2-4"
+  },
+  "antiCopyBoundary": "Do not copy exact Aiso feature names, icon style, progress line, active-card dimensions, or dark-blue glow.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "hero"
+    ],
+    "after": [
+      "stats-proof",
+      "pricing-packages"
+    ],
+    "notAScaffold": true
+  },
+  "structuralSignature": {
+    "signatureId": "features:7c3464c07bfdf5cd",
+    "hash": "7c3464c07bfdf5cd302096a3cda8608099aa4706",
+    "axes": {
+      "layoutGesture": "horizontal feature rail with active highlighted center card",
+      "sectionSilhouette": "wide carousel strip with one enlarged glowing/outlined module",
+      "anatomyLayer": "section heading, view-more control, horizontal feature cards, icon badges, active center card with brighter border, card descriptions, and progress line.",
+      "hierarchyLayer": "heading first, active card second, neighboring cards third, progress line/control last.",
+      "gridRhythmLayer": "wide horizontal rail with partial cards and one emphasized center card on dark background.",
+      "focalPath": "heading to active center feature to adjacent cards to progress cue",
+      "compositionTension": "active state breaks equal-card monotony and creates browsing motion",
+      "negativeSpaceShape": "long dark track with card islands and low progress line",
+      "moduleScaleVariation": "one active card larger/brighter than surrounding cards",
+      "breakoutBehavior": "rail implies horizontal overflow",
+      "contentLimits": "{\"activemodule\":\"1\",\"descriptionlines\":\"2-4\",\"primarymodules\":\"3-6\",\"progresscue\":\"0-1\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.1296,
+  "matchGroupId": "features:7c3464c07bfdf5cd",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:55:20Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 1,
+    "bestMatch": {
+      "score": 0.1296,
+      "axisScores": {
+        "layoutGesture": 0.0833,
+        "sectionSilhouette": 0.0,
+        "anatomyLayer": 0.1818,
+        "hierarchyLayer": 0.2222,
+        "gridRhythmLayer": 0.1429,
+        "focalPath": 0.25,
+        "compositionTension": 0.0,
+        "negativeSpaceShape": 0.0,
+        "moduleScaleVariation": 0.0,
+        "breakoutBehavior": 0.0,
+        "contentLimits": 0.5455
+      },
+      "patternId": "checkpoint-002-features-startup-six-card-benefit-grid",
+      "sectionType": "features",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\features\\checkpoint-002-features-startup-six-card-benefit-grid.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

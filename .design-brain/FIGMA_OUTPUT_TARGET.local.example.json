@@ -1,0 +1,5 @@
+{
+  "defaultProjectId": "PASTE_YOUR_FIGMA_PROJECT_ID_HERE",
+  "defaultTeamId": "",
+  "notes": "Copy this file to FIGMA_OUTPUT_TARGET.local.json. Do not commit real IDs."
+}

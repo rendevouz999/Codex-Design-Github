@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "design-brain.lifecycle.build-session.v1",
+  "title": "Brain Design Build Session Ledger",
+  "type": "object",
+  "required": [
+    "sessionId",
+    "task",
+    "expectedTemplateCount",
+    "productFamily",
+    "mode",
+    "route",
+    "templates",
+    "references",
+    "lifecycleStatus",
+    "globalBatchAudit",
+    "completionReceipt",
+    "finalStatus"
+  ],
+  "properties": {
+    "sessionId": { "type": "string" },
+    "task": { "type": "string" },
+    "expectedTemplateCount": { "type": "integer", "minimum": 1 },
+    "productFamily": { "type": "string" },
+    "mode": { "type": "string" },
+    "route": { "type": "object" },
+    "references": { "type": "array" },
+    "lifecycleStatus": { "type": "string" },
+    "globalBatchAudit": { "type": "object" },
+    "completionReceipt": { "type": "object" },
+    "finalVerification": { "type": "object" },
+    "finalStatus": { "type": "string" },
+    "templates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "templateId",
+          "referenceId",
+          "candidateBrandName",
+          "referenceUsageMode",
+          "referenceGroupKey",
+          "brandReferenceUsageCheckPath",
+          "brandReferenceUsageRecordPath",
+          "route",
+          "cognitionReceiptPath",
+          "simulationVerdictPath",
+          "templatePlanPath",
+          "referenceLayoutAuditPath",
+          "buildArtifactPath",
+          "designSystemReceiptPath",
+          "postBuildAuditPath",
+          "pairwiseAudits",
+          "fingerprintPath",
+          "status"
+        ],
+        "properties": {
+          "templateId": { "type": "string" },
+          "referenceId": { "type": "string" },
+          "candidateBrandName": { "type": "string" },
+          "referenceUsageMode": { "type": "string" },
+          "referenceGroupKey": { "type": "string" },
+          "brandReferenceUsageCheckPath": { "type": "string" },
+          "brandReferenceUsageRecordPath": { "type": "string" },
+          "route": { "type": "object" },
+          "cognitionReceiptPath": { "type": "string" },
+          "simulationVerdictPath": { "type": "string" },
+          "templatePlanPath": { "type": "string" },
+          "referenceLayoutAuditPath": { "type": "string" },
+          "buildArtifactPath": { "type": "string" },
+          "webDeckEvidenceRequired": { "type": "boolean" },
+          "webDeckStaticAuditStatus": { "type": "string", "enum": ["PASS", "BLOCKED", "NOT_RUN", ""] },
+          "webDeckRenderReviewStatus": { "type": "string", "enum": ["PASS", "FAIL", "NOT_RUN", ""] },
+          "designSystemReceiptPath": { "type": "string" },
+          "postBuildAuditPath": { "type": "string" },
+          "pairwiseAudits": { "type": "array" },
+          "fingerprintPath": { "type": "string" },
+          "status": { "type": "string" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "codex-design-presentation-web-runtime",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local optional tooling for PPTX intake and browser render verification.",
+  "dependencies": {
+    "jszip": "3.10.1",
+    "playwright": "1.60.0"
+  }
+}

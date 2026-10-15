@@ -1,0 +1,123 @@
+{
+  "patternId": "checkpoint-004-hero-ai-black-grid-abstract-object-hero",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\bonzai-ai-machine-learning-website-2025-04-08-01-04-29-utc - Bonzai - AI & Machine Learning Website - 9087f5b3.png"
+  ],
+  "productFamilies": [
+    "ai",
+    "machine-learning",
+    "data",
+    "technology"
+  ],
+  "commercialPurpose": "Open an AI/machine-learning template with computational depth, abstract motion, and dark enterprise authority.",
+  "purposeLayer": "Hero communicates invisible intelligence through grid overlays, abstract 3D object, metrics, and terse product copy.",
+  "anatomyLayer": "Black nav, headline, CTA pair, subtle grid background, abstract ribbon/object media, small metrics, and compact feature chips.",
+  "hierarchyLayer": "Headline and abstract object share first focus, metrics second, CTA third.",
+  "gridRhythmLayer": "Black grid hero with abstract object floating beside restrained AI copy and metrics.",
+  "densityLimitLayer": "Use section density limit: {\"primaryMessage\": 1, \"cta\": \"1-2\", \"proofCue\": \"0-1 controlled cue\", \"mediaSystem\": 1}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, or section order.",
+  "usageRuleLayer": "Use for AI, machine learning, analytics, infrastructure, and research-oriented templates where dark technical authority matters.",
+  "layoutGesture": "black AI grid hero with abstract object and metrics",
+  "sectionSilhouette": "near-black canvas with visible grid, concise headline, floating abstract 3D object, and metric chips",
+  "compositionTension": "mathematical grid restraint contrasts with organic abstract motion object",
+  "focalPath": "headline to abstract object to metric chips to CTA",
+  "negativeSpaceShape": "dark grid negative space creates technical depth around sparse modules",
+  "depthLayering": "black base, grid overlay, abstract object, metric chips, subtle card layers",
+  "moduleScaleVariation": "large abstract object and headline contrasted with small metric controls",
+  "breakoutBehavior": "abstract object floats across grid and can cross the column boundary",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1-2",
+    "proofCue": "0-1 controlled cue",
+    "mediaSystem": 1
+  },
+  "antiCopyBoundary": "Do not copy Bonzai name, exact abstract object, grid treatment, copy, or testimonial cards.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "features",
+      "services",
+      "testimonials"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 004 contact sheet",
+    "reviewNotes": "Checkpoint 004 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "hero:4d10de7f231f99f9",
+    "hash": "4d10de7f231f99f9081b941aecc1064db018851e",
+    "axes": {
+      "layoutGesture": "black ai grid hero with abstract object and metrics",
+      "sectionSilhouette": "near-black canvas with visible grid, concise headline, floating abstract 3d object, and metric chips",
+      "anatomyLayer": "black nav, headline, cta pair, subtle grid background, abstract ribbon/object media, small metrics, and compact feature chips.",
+      "hierarchyLayer": "headline and abstract object share first focus, metrics second, cta third.",
+      "gridRhythmLayer": "black grid hero with abstract object floating beside restrained ai copy and metrics.",
+      "focalPath": "headline to abstract object to metric chips to cta",
+      "compositionTension": "mathematical grid restraint contrasts with organic abstract motion object",
+      "negativeSpaceShape": "dark grid negative space creates technical depth around sparse modules",
+      "moduleScaleVariation": "large abstract object and headline contrasted with small metric controls",
+      "breakoutBehavior": "abstract object floats across grid and can cross the column boundary",
+      "contentLimits": "{\"cta\":\"1-2\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"0-1 controlled cue\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.2952,
+  "matchGroupId": "hero:4d10de7f231f99f9",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:16:28Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 15,
+    "bestMatch": {
+      "score": 0.2952,
+      "axisScores": {
+        "layoutGesture": 0.2,
+        "sectionSilhouette": 0.2609,
+        "anatomyLayer": 0.2333,
+        "hierarchyLayer": 0.5,
+        "gridRhythmLayer": 0.1905,
+        "focalPath": 0.4167,
+        "compositionTension": 0.05,
+        "negativeSpaceShape": 0.0526,
+        "moduleScaleVariation": 0.1765,
+        "breakoutBehavior": 0.1667,
+        "contentLimits": 1.0
+      },
+      "patternId": "checkpoint-004-hero-creative-agency-neon-art-object-story-hero",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-004-hero-creative-agency-neon-art-object-story-hero.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Brain Design Runtime Compact Context",
+  "type": "object",
+  "required": [
+    "sessionId",
+    "task",
+    "route",
+    "productFamily",
+    "activeTemplate",
+    "currentStage",
+    "finishedGates",
+    "failedGates",
+    "compactSummary",
+    "openTickets",
+    "openRepairTickets",
+    "nextAction",
+    "finalBlockingReason"
+  ],
+  "properties": {
+    "sessionId": {"type": "string"},
+    "task": {"type": "string"},
+    "route": {"type": ["string", "object"]},
+    "productFamily": {"type": "string"},
+    "activeTemplate": {"type": "string"},
+    "currentStage": {"type": "string"},
+    "finishedGates": {"type": "array", "items": {"type": "string"}},
+    "failedGates": {"type": "array", "items": {"type": "string"}},
+    "compactSummary": {"type": "string"},
+    "openTickets": {"type": "array"},
+    "openRepairTickets": {"type": "array"},
+    "nextAction": {"type": "string"},
+    "finalBlockingReason": {"type": "string"}
+  }
+}

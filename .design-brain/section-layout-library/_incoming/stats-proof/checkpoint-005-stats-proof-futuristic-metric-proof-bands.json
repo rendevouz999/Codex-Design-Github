@@ -1,0 +1,123 @@
+{
+  "patternId": "checkpoint-005-stats-proof-futuristic-metric-proof-bands",
+  "sectionType": "stats-proof",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\chize-futuristic-technology-website-2024-10-18-17-49-18-utc - Chize - Futuristic Technology Website - 81aecb19.png"
+  ],
+  "productFamilies": [
+    "technology",
+    "futuristic",
+    "ai",
+    "industrial"
+  ],
+  "commercialPurpose": "Prove futuristic technology value through separated metric bands, dense copy, and sculptural media repeats.",
+  "purposeLayer": "Stats proof section avoids generic number rows by pairing metrics with repeated abstract objects and explanatory copy.",
+  "anatomyLayer": "Large grayscale media block, horizontal metric rows, explanatory copy columns, testimonial/proof cards, newsletter strip, and footer continuation.",
+  "hierarchyLayer": "Abstract media first, metric rows second, client proof third.",
+  "gridRhythmLayer": "Dark proof flow made from grayscale object bands, metric rails, and compact testimonial cards.",
+  "densityLimitLayer": "Use section density limit: {\"metrics\": \"3-5\", \"supportingProof\": \"1-2\", \"avoid\": \"unexplained number soup\"}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, product photos, or page order.",
+  "usageRuleLayer": "Use for advanced tech pages that need metrics and proof without basic stat tiles.",
+  "layoutGesture": "futuristic proof bands with sculptural media and metric rails",
+  "sectionSilhouette": "black long-scroll section where abstract object crops repeat between metric/copy bands",
+  "compositionTension": "high-density information stays premium through object-led breaks",
+  "focalPath": "object crop to metrics to copy bands to testimonial proof",
+  "negativeSpaceShape": "black negative corridors separate dense proof groups",
+  "depthLayering": "black base, grayscale object bands, thin metric rails, card surfaces, newsletter strip",
+  "moduleScaleVariation": "large object crops contrast with tiny metrics and medium proof cards",
+  "breakoutBehavior": "object bands cut across the content flow and become section dividers",
+  "contentLimits": {
+    "metrics": "3-5",
+    "supportingProof": "1-2",
+    "avoid": "unexplained number soup"
+  },
+  "antiCopyBoundary": "Do not copy exact object crops, metrics, testimonial cards, or newsletter layout.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "hero",
+      "features"
+    ],
+    "after": [
+      "testimonials",
+      "cta",
+      "footer"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 005 contact sheet",
+    "reviewNotes": "Checkpoint 005 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "stats-proof:d8f6adb67f537dbd",
+    "hash": "d8f6adb67f537dbdfc4697bcb436683c05484c51",
+    "axes": {
+      "layoutGesture": "futuristic proof bands with sculptural media and metric rails",
+      "sectionSilhouette": "black long-scroll section where abstract object crops repeat between metric/copy bands",
+      "anatomyLayer": "large grayscale media block, horizontal metric rows, explanatory copy columns, testimonial/proof cards, newsletter strip, and footer continuation.",
+      "hierarchyLayer": "abstract media first, metric rows second, client proof third.",
+      "gridRhythmLayer": "dark proof flow made from grayscale object bands, metric rails, and compact testimonial cards.",
+      "focalPath": "object crop to metrics to copy bands to testimonial proof",
+      "compositionTension": "high-density information stays premium through object-led breaks",
+      "negativeSpaceShape": "black negative corridors separate dense proof groups",
+      "moduleScaleVariation": "large object crops contrast with tiny metrics and medium proof cards",
+      "breakoutBehavior": "object bands cut across the content flow and become section dividers",
+      "contentLimits": "{\"avoid\":\"unexplained number soup\",\"metrics\":\"3-5\",\"supportingproof\":\"1-2\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.2513,
+  "matchGroupId": "stats-proof:d8f6adb67f537dbd",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:25:28Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 1,
+    "bestMatch": {
+      "score": 0.2513,
+      "axisScores": {
+        "layoutGesture": 0.3077,
+        "sectionSilhouette": 0.1364,
+        "anatomyLayer": 0.1667,
+        "hierarchyLayer": 0.2667,
+        "gridRhythmLayer": 0.1667,
+        "focalPath": 0.1429,
+        "compositionTension": 0.0526,
+        "negativeSpaceShape": 0.2308,
+        "moduleScaleVariation": 0.2941,
+        "breakoutBehavior": 0.0,
+        "contentLimits": 1.0
+      },
+      "patternId": "checkpoint-005-stats-proof-marketing-data-collage-proof-stack",
+      "sectionType": "stats-proof",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\stats-proof\\checkpoint-005-stats-proof-marketing-data-collage-proof-stack.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

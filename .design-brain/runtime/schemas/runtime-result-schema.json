@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Brain Design Runtime Result",
+  "type": "object",
+  "required": [
+    "status",
+    "command",
+    "tool",
+    "blocking",
+    "requiredRepairs",
+    "recommendedImprovements",
+    "evidence",
+    "nextAction",
+    "finalAllowed"
+  ],
+  "properties": {
+    "status": {"enum": ["PASS", "REVISE_REQUIRED", "BLOCKED", "ERROR"]},
+    "command": {"type": "string"},
+    "tool": {"type": "string"},
+    "blocking": {"type": "boolean"},
+    "requiredRepairs": {"type": "array", "items": {"type": "string"}},
+    "recommendedImprovements": {"type": "array", "items": {"type": "string"}},
+    "evidence": {"type": ["object", "array", "string"]},
+    "nextAction": {"type": "string"},
+    "finalAllowed": {"type": "boolean"}
+  }
+}

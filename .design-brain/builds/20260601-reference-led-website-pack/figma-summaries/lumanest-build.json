@@ -1,0 +1,15 @@
+{
+  "templateIds": ["lumanest-decor"],
+  "builtTemplateIds": ["lumanest-decor"],
+  "sourceFrameIds": ["11:10"],
+  "designSystemFrameIds": ["11:476"],
+  "coverFrameIds": ["11:527"],
+  "pageId": "11:2",
+  "figmaFileKey": "MaIqGHCZICiDGhu9kH6o9C",
+  "screenshots": [
+    ".design-brain/screenshots/figma-builds/lumanest-main.png",
+    ".design-brain/screenshots/figma-builds/lumanest-design-system.png",
+    ".design-brain/screenshots/figma-builds/lumanest-cover.png"
+  ],
+  "status": "built_and_inspected"
+}

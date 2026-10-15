@@ -1,0 +1,31 @@
+{
+  "command": "record",
+  "status": "PASS",
+  "templateId": "nexora-advisory",
+  "brandName": "Nexora Advisory",
+  "templateType": "Figma Website Template",
+  "productFamily": "business consultant website template",
+  "niche": "business consultant",
+  "targetBuyer": "marketplace website template buyers",
+  "referenceMode": "single",
+  "referenceGroupKey": "qicons-business-consultant-png",
+  "referenceIds": [
+    "qicons-business-consultant-png"
+  ],
+  "referenceBrandNames": [
+    "Qicons"
+  ],
+  "registryUpdated": true,
+  "generatedBrandRecorded": true,
+  "referenceGroupRecorded": true,
+  "singleReferenceMarkedUsed": true,
+  "blockedNamesUpdated": true,
+  "completionReceiptPath": ".design-brain\\builds\\20260601-reference-led-website-pack\\completion-receipt.json",
+  "fingerprintLockPath": ".design-brain\\builds\\20260601-reference-led-website-pack\\template-fingerprints\\nexora-fingerprint.json",
+  "blockingReasons": [],
+  "warnings": [],
+  "nextAction": "Reference usage recorded. This output brand and reference group are now blocked from direct reuse.",
+  "dryRun": false,
+  "recordedAt": "2026-06-01T13:30:24.600762+00:00",
+  "receiptPath": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\receipts\\reference-usage\\nexora-advisory-qicons-record-20260601T132700Z.json"
+}

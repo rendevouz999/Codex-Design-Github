@@ -1,0 +1,104 @@
+{
+  "patternId": "checkpoint-004-process-travel-itinerary-map-card-sequence",
+  "sectionType": "process",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\arden-adventure-travel-website-2025-07-28-22-20-22-utc - Arden - Adventure & Travel Website - b48628ef.png"
+  ],
+  "productFamilies": [
+    "travel",
+    "tourism",
+    "adventure",
+    "booking"
+  ],
+  "commercialPurpose": "Structure trip planning through destination cards, route/map logic, and staged itinerary modules.",
+  "purposeLayer": "Process converts travel emotion into clear packages, route choices, and booking confidence.",
+  "anatomyLayer": "Large scenic card, small destination cards, map-like route panels, step cards, checklist modules, and testimonial proof near the end.",
+  "hierarchyLayer": "Featured destination first, grouped steps second, proof/reviews third.",
+  "gridRhythmLayer": "Dark vertical itinerary layout alternating scenic media blocks with compact route cards.",
+  "densityLimitLayer": "Use section density limit: {\"steps\": \"3-6\", \"supportingMedia\": \"0-1\", \"branching\": \"avoid unless product requires\"}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, or section order.",
+  "usageRuleLayer": "Use when travel/offline service templates need process clarity without becoming a generic numbered step row.",
+  "layoutGesture": "travel itinerary sequence with scenic cards and route modules",
+  "sectionSilhouette": "stacked dark process section with big landscape cards beside smaller trip detail cards",
+  "compositionTension": "adventure imagery keeps emotion high while process cards reduce booking uncertainty",
+  "focalPath": "featured trip image to route cards to steps to review proof",
+  "negativeSpaceShape": "dark gutters create journey pauses between photo-heavy blocks",
+  "depthLayering": "background dark field, photo cards, elevated route cards, small metadata chips",
+  "moduleScaleVariation": "one large scenic block paired with several small itinerary cards",
+  "breakoutBehavior": "scenic cards can break row rhythm to feel like an expedition board",
+  "contentLimits": {
+    "steps": "3-6",
+    "supportingMedia": "0-1",
+    "branching": "avoid unless product requires"
+  },
+  "antiCopyBoundary": "Do not copy exact mountain photography, route labels, card styling, or package names.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "hero",
+      "trust-band"
+    ],
+    "after": [
+      "testimonials",
+      "faq-objection",
+      "footer"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 004 contact sheet",
+    "reviewNotes": "Checkpoint 004 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "process:319199df793bc285",
+    "hash": "319199df793bc285cf184fa0c5fb94f3cec46ef1",
+    "axes": {
+      "layoutGesture": "travel itinerary sequence with scenic cards and route modules",
+      "sectionSilhouette": "stacked dark process section with big landscape cards beside smaller trip detail cards",
+      "anatomyLayer": "large scenic card, small destination cards, map-like route panels, step cards, checklist modules, and testimonial proof near the end.",
+      "hierarchyLayer": "featured destination first, grouped steps second, proof/reviews third.",
+      "gridRhythmLayer": "dark vertical itinerary layout alternating scenic media blocks with compact route cards.",
+      "focalPath": "featured trip image to route cards to steps to review proof",
+      "compositionTension": "adventure imagery keeps emotion high while process cards reduce booking uncertainty",
+      "negativeSpaceShape": "dark gutters create journey pauses between photo-heavy blocks",
+      "moduleScaleVariation": "one large scenic block paired with several small itinerary cards",
+      "breakoutBehavior": "scenic cards can break row rhythm to feel like an expedition board",
+      "contentLimits": "{\"branching\":\"avoid unless product requires\",\"steps\":\"3-6\",\"supportingmedia\":\"0-1\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.0,
+  "matchGroupId": "process:319199df793bc285",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:16:27Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 0,
+    "bestMatch": null,
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

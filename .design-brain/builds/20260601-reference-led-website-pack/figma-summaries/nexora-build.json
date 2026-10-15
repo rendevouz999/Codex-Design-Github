@@ -1,0 +1,15 @@
+{
+  "templateIds": ["nexora-advisory"],
+  "builtTemplateIds": ["nexora-advisory"],
+  "sourceFrameIds": ["2:14"],
+  "designSystemFrameIds": ["2:312"],
+  "coverFrameIds": ["2:367"],
+  "pageId": "0:1",
+  "figmaFileKey": "MaIqGHCZICiDGhu9kH6o9C",
+  "screenshots": [
+    ".design-brain/screenshots/figma-builds/nexora-main.png",
+    ".design-brain/screenshots/figma-builds/nexora-design-system.png",
+    ".design-brain/screenshots/figma-builds/nexora-cover.png"
+  ],
+  "status": "built_repaired_and_inspected"
+}

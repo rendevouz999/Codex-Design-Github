@@ -1,0 +1,224 @@
+{
+  "buildId": "post-build-20260601105759",
+  "templateCount": 3,
+  "templates": [
+    "lumanest-decor",
+    "nexora-advisory",
+    "voltstride"
+  ],
+  "designCognitionRequired": true,
+  "completionReceiptRequired": true,
+  "completionReceiptPresent": true,
+  "designSystemResults": {
+    "lumanest-decor": {
+      "status": "PASS",
+      "templateId": "lumanest-decor",
+      "errors": [],
+      "warnings": [],
+      "artifactEvidenceStatus": "PASS"
+    },
+    "nexora-advisory": {
+      "status": "PASS",
+      "templateId": "nexora-advisory",
+      "errors": [],
+      "warnings": [],
+      "artifactEvidenceStatus": "PASS"
+    },
+    "voltstride": {
+      "status": "PASS",
+      "templateId": "voltstride",
+      "errors": [],
+      "warnings": [],
+      "artifactEvidenceStatus": "PASS"
+    }
+  },
+  "designCognitionResults": {
+    "LumaNest Decor Figma website template from home decor ecommerce PNG reference": {
+      "status": "PASS",
+      "missingFields": [],
+      "riskCategories": [],
+      "requiredRepairs": []
+    },
+    "Nexora Advisory Figma website template from business consultant PNG reference": {
+      "status": "PASS",
+      "missingFields": [],
+      "riskCategories": [],
+      "requiredRepairs": []
+    },
+    "VoltStride Figma website template from sneakers ecommerce PNG reference": {
+      "status": "PASS",
+      "missingFields": [],
+      "riskCategories": [],
+      "requiredRepairs": []
+    }
+  },
+  "auditPasses": {
+    "pass0SerialProvenance": "PASS",
+    "pass1OriginalityBatchSimilarity": "PASS",
+    "pass2DesignSystemSourceHygiene": "PASS",
+    "pass3VisualLayoutQA": "PASS"
+  },
+  "serialProvenance": {
+    "status": "PASS",
+    "required": true,
+    "issues": [],
+    "warnings": [],
+    "sessionId": "20260601-reference-led-website-pack"
+  },
+  "batchSimilarity": {
+    "batchId": "20260601-reference-led-website-pack",
+    "pairs": [
+      {
+        "pair": [
+          "lumanest-decor",
+          "nexora-advisory"
+        ],
+        "structureDefiningAxisSimilarity": 0.273,
+        "visualLanguageAxisSimilarity": 0.227,
+        "scaffoldRisk": 0.225,
+        "failedAxes": [],
+        "hardFailAxes": [],
+        "softRiskAxes": [],
+        "requiredStructuralRepairs": [],
+        "axisScores": {
+          "heroGrammarSimilarity": 0.154,
+          "sectionOrderSimilarity": 0.071,
+          "gridSystemSimilarity": 0.2,
+          "layoutGestureSimilarity": 0.091,
+          "sectionSilhouetteSimilarity": 0.0,
+          "compositionTensionSimilarity": 0.222,
+          "focalPathSimilarity": 0.105,
+          "negativeSpaceShapeSimilarity": 0.059,
+          "depthLayeringSimilarity": 0.176,
+          "moduleScaleVariationSimilarity": 0.095,
+          "breakoutBehaviorSimilarity": 0.2,
+          "layoutRhythmSimilarity": 0.105,
+          "cardCadenceSimilarity": 0.25,
+          "componentPatternSimilarity": 0.273,
+          "ctaPlacementSimilarity": 0.13,
+          "closureSilhouetteSimilarity": 0.163,
+          "imageTreatmentSimilarity": 0.1,
+          "spacingCadenceSimilarity": 0.062,
+          "typographyBehaviorSimilarity": 0.214,
+          "colorRoleSimilarity": 0.227,
+          "effectLanguageSimilarity": 0.125,
+          "navigationFooterPatternSimilarity": 0.217,
+          "overallScaffoldRisk": 0.225
+        },
+        "status": "PASS"
+      },
+      {
+        "pair": [
+          "lumanest-decor",
+          "voltstride"
+        ],
+        "structureDefiningAxisSimilarity": 0.391,
+        "visualLanguageAxisSimilarity": 0.267,
+        "scaffoldRisk": 0.334,
+        "failedAxes": [],
+        "hardFailAxes": [],
+        "softRiskAxes": [],
+        "requiredStructuralRepairs": [],
+        "axisScores": {
+          "heroGrammarSimilarity": 0.231,
+          "sectionOrderSimilarity": 0.071,
+          "gridSystemSimilarity": 0.222,
+          "layoutGestureSimilarity": 0.091,
+          "sectionSilhouetteSimilarity": 0.0,
+          "compositionTensionSimilarity": 0.048,
+          "focalPathSimilarity": 0.136,
+          "negativeSpaceShapeSimilarity": 0.05,
+          "depthLayeringSimilarity": 0.176,
+          "moduleScaleVariationSimilarity": 0.037,
+          "breakoutBehaviorSimilarity": 0.15,
+          "layoutRhythmSimilarity": 0.083,
+          "cardCadenceSimilarity": 0.214,
+          "componentPatternSimilarity": 0.391,
+          "ctaPlacementSimilarity": 0.304,
+          "closureSilhouetteSimilarity": 0.279,
+          "imageTreatmentSimilarity": 0.25,
+          "spacingCadenceSimilarity": 0.125,
+          "typographyBehaviorSimilarity": 0.267,
+          "colorRoleSimilarity": 0.111,
+          "effectLanguageSimilarity": 0.059,
+          "navigationFooterPatternSimilarity": 0.5,
+          "overallScaffoldRisk": 0.334
+        },
+        "status": "PASS"
+      },
+      {
+        "pair": [
+          "nexora-advisory",
+          "voltstride"
+        ],
+        "structureDefiningAxisSimilarity": 0.25,
+        "visualLanguageAxisSimilarity": 0.25,
+        "scaffoldRisk": 0.201,
+        "failedAxes": [],
+        "hardFailAxes": [],
+        "softRiskAxes": [],
+        "requiredStructuralRepairs": [],
+        "axisScores": {
+          "heroGrammarSimilarity": 0.154,
+          "sectionOrderSimilarity": 0.077,
+          "gridSystemSimilarity": 0.148,
+          "layoutGestureSimilarity": 0.091,
+          "sectionSilhouetteSimilarity": 0.0,
+          "compositionTensionSimilarity": 0.048,
+          "focalPathSimilarity": 0.143,
+          "negativeSpaceShapeSimilarity": 0.118,
+          "depthLayeringSimilarity": 0.111,
+          "moduleScaleVariationSimilarity": 0.038,
+          "breakoutBehaviorSimilarity": 0.05,
+          "layoutRhythmSimilarity": 0.045,
+          "cardCadenceSimilarity": 0.143,
+          "componentPatternSimilarity": 0.25,
+          "ctaPlacementSimilarity": 0.071,
+          "closureSilhouetteSimilarity": 0.078,
+          "imageTreatmentSimilarity": 0.136,
+          "spacingCadenceSimilarity": 0.267,
+          "typographyBehaviorSimilarity": 0.25,
+          "colorRoleSimilarity": 0.208,
+          "effectLanguageSimilarity": 0.176,
+          "navigationFooterPatternSimilarity": 0.2,
+          "overallScaffoldRisk": 0.201
+        },
+        "status": "PASS"
+      }
+    ],
+    "overallRisk": "low",
+    "requiredRepairs": [],
+    "failedAxes": [],
+    "hardFailAxes": [],
+    "softRiskAxes": [],
+    "structureDefiningAxisSimilarity": 0.391,
+    "visualLanguageAxisSimilarity": 0.267,
+    "status": "PASS"
+  },
+  "buildSessionLifecycle": {
+    "status": "PASS",
+    "sessionId": "20260601-reference-led-website-pack",
+    "fingerprintLockStatus": "PASS",
+    "layoutAuditVsReference": "PASS",
+    "pairwiseAiLayoutAudit": "PASS",
+    "issues": []
+  },
+  "layoutOriginality": {
+    "buildSessionId": "20260601-reference-led-website-pack",
+    "layoutAuditVsReference": "PASS",
+    "pairwiseAiLayoutAudit": "PASS",
+    "fingerprintLockStatus": "PASS",
+    "ideaRecoveryCorpusUsed": false,
+    "corpusInspirationIds": [],
+    "layoutRepairCycles": 0,
+    "axisFailuresRepaired": [],
+    "safeToProceedToNextTemplate": true
+  },
+  "repairCycles": 0,
+  "repairPlan": [],
+  "remainingIssues": [],
+  "visualVerificationStatus": "screenshot_render_verified",
+  "finalStatus": "READY",
+  "limitations": [],
+  "completionStatement": "Post-build gate satisfied."
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Brain Design Runtime Permission Mode",
+  "type": "object",
+  "required": ["mode", "allowedCommands", "forbiddenActions"],
+  "properties": {
+    "mode": {"enum": ["diagnostic_only", "plan_only", "safe_patch", "archive_only", "full_build", "export_allowed", "delete_allowed"]},
+    "allowedCommands": {"type": "array", "items": {"type": "string"}},
+    "forbiddenActions": {"type": "array", "items": {"type": "string"}}
+  }
+}

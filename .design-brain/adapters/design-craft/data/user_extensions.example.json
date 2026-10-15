@@ -1,0 +1,9 @@
+{
+  "version": "0.2.7",
+  "allow_override_safety": false,
+  "custom_product_families": [],
+  "custom_style_guards": [],
+  "custom_structure_patterns": [],
+  "custom_aliases": {},
+  "notes": "Copy to data/user_extensions.local.json for local private extensions. Do not commit local file."
+}

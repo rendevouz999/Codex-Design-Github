@@ -1,0 +1,104 @@
+{
+  "patternId": "checkpoint-004-portfolio-gallery-architecture-project-masonry-index",
+  "sectionType": "portfolio-gallery",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\arsate-architecture-interior-website-2025-09-30-18-06-22-utc - Arsate - Architecture & Interior Website - 5160867b.png"
+  ],
+  "productFamilies": [
+    "architecture",
+    "interior",
+    "portfolio",
+    "studio"
+  ],
+  "commercialPurpose": "Showcase architecture projects through mixed-size project cards and studio proof without a repetitive gallery grid.",
+  "purposeLayer": "Portfolio section builds credibility by mixing case-study scale, category labels, and visual rhythm.",
+  "anatomyLayer": "Section eyebrow, heading, large horizontal project card, smaller stacked project cards, project metadata, stats ribbon, and dark footer adjacency.",
+  "hierarchyLayer": "Featured project first, supporting projects second, stats third.",
+  "gridRhythmLayer": "Masonry portfolio index with one featured interior strip and several smaller project cards in staggered columns.",
+  "densityLimitLayer": "Use section density limit: {\"visibleItems\": \"3-8\", \"featuredItem\": \"0-1\", \"filters\": \"optional\"}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, or section order.",
+  "usageRuleLayer": "Use for architecture/interior portfolios, luxury real estate, hospitality, and visual studios.",
+  "layoutGesture": "architecture portfolio masonry with featured project strip",
+  "sectionSilhouette": "editorial gallery made of one wide feature and clustered smaller interior cards",
+  "compositionTension": "portfolio variety avoids equal-card monotony while staying calm and premium",
+  "focalPath": "featured project image to small project clusters to proof metrics",
+  "negativeSpaceShape": "cream gutters create gallery breathing space between uneven image cards",
+  "depthLayering": "image cards, metadata chips, stats overlays, and dark footer contrast layer",
+  "moduleScaleVariation": "one wide feature card versus multiple small project cards",
+  "breakoutBehavior": "feature image spans across the grid and shifts the section silhouette",
+  "contentLimits": {
+    "visibleItems": "3-8",
+    "featuredItem": "0-1",
+    "filters": "optional"
+  },
+  "antiCopyBoundary": "Do not copy exact project photos, metadata, category names, or card arrangement.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "hero",
+      "process"
+    ],
+    "after": [
+      "case-study",
+      "contact-booking",
+      "footer"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 004 contact sheet",
+    "reviewNotes": "Checkpoint 004 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "portfolio-gallery:5d9604bb4bb1096c",
+    "hash": "5d9604bb4bb1096caaa2d71fc6201c6e82268923",
+    "axes": {
+      "layoutGesture": "architecture portfolio masonry with featured project strip",
+      "sectionSilhouette": "editorial gallery made of one wide feature and clustered smaller interior cards",
+      "anatomyLayer": "section eyebrow, heading, large horizontal project card, smaller stacked project cards, project metadata, stats ribbon, and dark footer adjacency.",
+      "hierarchyLayer": "featured project first, supporting projects second, stats third.",
+      "gridRhythmLayer": "masonry portfolio index with one featured interior strip and several smaller project cards in staggered columns.",
+      "focalPath": "featured project image to small project clusters to proof metrics",
+      "compositionTension": "portfolio variety avoids equal-card monotony while staying calm and premium",
+      "negativeSpaceShape": "cream gutters create gallery breathing space between uneven image cards",
+      "moduleScaleVariation": "one wide feature card versus multiple small project cards",
+      "breakoutBehavior": "feature image spans across the grid and shifts the section silhouette",
+      "contentLimits": "{\"featureditem\":\"0-1\",\"filters\":\"optional\",\"visibleitems\":\"3-8\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.0,
+  "matchGroupId": "portfolio-gallery:5d9604bb4bb1096c",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:16:27Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 0,
+    "bestMatch": null,
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

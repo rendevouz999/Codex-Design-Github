@@ -1,0 +1,328 @@
+{
+  "nodes": [
+    {
+      "id": "UserRequest",
+      "type": "seed",
+      "label": "RoamPass travel ticket Figma website template from TASE-style reference DNA"
+    },
+    {
+      "id": "BrainDesignRoute",
+      "type": "route",
+      "label": "website-template"
+    },
+    {
+      "id": "RouteSource",
+      "type": "route_source",
+      "label": "explicit_cli"
+    },
+    {
+      "id": "ProductFamily",
+      "type": "product_family",
+      "label": "travel-ticket-booking-website"
+    },
+    {
+      "id": "Medium",
+      "type": "medium",
+      "label": "website"
+    },
+    {
+      "id": "TemplatePlan",
+      "type": "plan",
+      "label": "12 units"
+    },
+    {
+      "id": "BuyerPersona",
+      "type": "buyer",
+      "label": "template marketplace buyers and travel booking startups"
+    },
+    {
+      "id": "ReferenceDNA",
+      "type": "reference",
+      "label": "supplied"
+    },
+    {
+      "id": "StyleDNA",
+      "type": "style",
+      "label": "bright editorial travel, route-led booking, soft green and sky, practical ticket modules"
+    },
+    {
+      "id": "DesignCognitionReceipt",
+      "type": "cognition",
+      "label": "PASS"
+    },
+    {
+      "id": "ColorRoleRemapping",
+      "type": "cognition",
+      "label": "referenceDominantColorIdentity: white travel page with strong green CTA and soft mint cards; referenceColorRoles: white background, black display text, green CTA, pale mint proof cards, and dest; remappedPaletteDirection"
+    },
+    {
+      "id": "ReferenceBoundary",
+      "type": "cognition",
+      "label": "allowedToLearn: travel booking clarity, spacious trust pacing, rounded source panels, green acti; forbiddenToCopy: exact layout, exact color palette, exact section order, same hero grammar, same ; exactLayoutCopied: no; "
+    },
+    {
+      "id": "VisualMood",
+      "type": "visual_mood",
+      "label": "bright editorial travel, route-led booking, soft green and sky, practical ticket modules"
+    },
+    {
+      "id": "StructuralReconfiguration",
+      "type": "structure",
+      "label": "12 units"
+    },
+    {
+      "id": "SectionDepthRisk",
+      "type": "risk",
+      "label": "low"
+    },
+    {
+      "id": "CopyRisk",
+      "type": "risk",
+      "label": "low"
+    },
+    {
+      "id": "LayoutOriginalityGate",
+      "type": "layout_originality",
+      "label": "PASS"
+    },
+    {
+      "id": "ReferenceLayoutRisk",
+      "type": "layout_originality",
+      "label": "precomputed"
+    },
+    {
+      "id": "AiPairwiseLayoutRisk",
+      "type": "layout_originality",
+      "label": "precomputed"
+    },
+    {
+      "id": "MinimalistCollapseRisk",
+      "type": "risk",
+      "label": "checked"
+    },
+    {
+      "id": "ScaffoldSimilarityRisk",
+      "type": "risk",
+      "label": "checked"
+    },
+    {
+      "id": "MarketplaceValueRisk",
+      "type": "risk",
+      "label": "active"
+    },
+    {
+      "id": "FigmaSourceHygieneRisk",
+      "type": "risk",
+      "label": "checked"
+    },
+    {
+      "id": "AgentVerdict",
+      "type": "verdict",
+      "label": "REVISE"
+    },
+    {
+      "id": "RequiredRepair1",
+      "type": "repair",
+      "label": "Add website anatomy: hero, proof, service, process, testimonial, cta, footer."
+    },
+    {
+      "id": "RequiredRepair2",
+      "type": "repair",
+      "label": "Add cover, preview, responsive spread, section breakdown, and included-file notes."
+    },
+    {
+      "id": "RequiredRepair3",
+      "type": "repair",
+      "label": "Show buyer value through preview, source hygiene, and category-specific completeness."
+    },
+    {
+      "id": "RequiredRepair4",
+      "type": "repair",
+      "label": "Add license/originality/preview-only disclosure notes."
+    },
+    {
+      "id": "RequiredRepair5",
+      "type": "repair",
+      "label": "Add source hygiene, components, states, naming, and editable placeholders."
+    },
+    {
+      "id": "RequiredRepair6",
+      "type": "repair",
+      "label": "Add a stronger visual-language fingerprint."
+    },
+    {
+      "id": "RecommendedImprovement1",
+      "type": "improvement",
+      "label": "Define visual mood, typography, color-role, imagery, and effect/depth direction before build."
+    },
+    {
+      "id": "RecommendedImprovement2",
+      "type": "improvement",
+      "label": "Add editable source-template hygiene: components, states, naming, placeholders, and documentation."
+    }
+  ],
+  "edges": [
+    {
+      "from": "UserRequest",
+      "to": "BrainDesignRoute",
+      "relationship": "requires"
+    },
+    {
+      "from": "BrainDesignRoute",
+      "to": "RouteSource",
+      "relationship": "supports"
+    },
+    {
+      "from": "BrainDesignRoute",
+      "to": "ProductFamily",
+      "relationship": "requires"
+    },
+    {
+      "from": "BrainDesignRoute",
+      "to": "Medium",
+      "relationship": "requires"
+    },
+    {
+      "from": "UserRequest",
+      "to": "ProductFamily",
+      "relationship": "requires"
+    },
+    {
+      "from": "UserRequest",
+      "to": "Medium",
+      "relationship": "requires"
+    },
+    {
+      "from": "UserRequest",
+      "to": "TemplatePlan",
+      "relationship": "transforms"
+    },
+    {
+      "from": "ReferenceDNA",
+      "to": "StyleDNA",
+      "relationship": "supports"
+    },
+    {
+      "from": "StyleDNA",
+      "to": "DesignCognitionReceipt",
+      "relationship": "requires"
+    },
+    {
+      "from": "DesignCognitionReceipt",
+      "to": "ColorRoleRemapping",
+      "relationship": "requires"
+    },
+    {
+      "from": "DesignCognitionReceipt",
+      "to": "ReferenceBoundary",
+      "relationship": "requires"
+    },
+    {
+      "from": "StyleDNA",
+      "to": "VisualMood",
+      "relationship": "transforms"
+    },
+    {
+      "from": "ProductFamily",
+      "to": "StructuralReconfiguration",
+      "relationship": "requires"
+    },
+    {
+      "from": "StructuralReconfiguration",
+      "to": "SectionDepthRisk",
+      "relationship": "risks"
+    },
+    {
+      "from": "ReferenceDNA",
+      "to": "CopyRisk",
+      "relationship": "risks"
+    },
+    {
+      "from": "ReferenceDNA",
+      "to": "LayoutOriginalityGate",
+      "relationship": "audits"
+    },
+    {
+      "from": "LayoutOriginalityGate",
+      "to": "ReferenceLayoutRisk",
+      "relationship": "checks"
+    },
+    {
+      "from": "LayoutOriginalityGate",
+      "to": "AiPairwiseLayoutRisk",
+      "relationship": "checks"
+    },
+    {
+      "from": "LayoutOriginalityGate",
+      "to": "AgentVerdict",
+      "relationship": "blocks_or_repairs"
+    },
+    {
+      "from": "StructuralReconfiguration",
+      "to": "ScaffoldSimilarityRisk",
+      "relationship": "resembles"
+    },
+    {
+      "from": "SectionDepthRisk",
+      "to": "AgentVerdict",
+      "relationship": "blocks"
+    },
+    {
+      "from": "CopyRisk",
+      "to": "AgentVerdict",
+      "relationship": "blocks"
+    },
+    {
+      "from": "MarketplaceValueRisk",
+      "to": "AgentVerdict",
+      "relationship": "risks"
+    },
+    {
+      "from": "RequiredRepair1",
+      "to": "AgentVerdict",
+      "relationship": "repairs"
+    },
+    {
+      "from": "RequiredRepair2",
+      "to": "AgentVerdict",
+      "relationship": "repairs"
+    },
+    {
+      "from": "RequiredRepair3",
+      "to": "AgentVerdict",
+      "relationship": "repairs"
+    },
+    {
+      "from": "RequiredRepair4",
+      "to": "AgentVerdict",
+      "relationship": "repairs"
+    },
+    {
+      "from": "RequiredRepair5",
+      "to": "AgentVerdict",
+      "relationship": "repairs"
+    },
+    {
+      "from": "RequiredRepair6",
+      "to": "AgentVerdict",
+      "relationship": "repairs"
+    },
+    {
+      "from": "RecommendedImprovement1",
+      "to": "AgentVerdict",
+      "relationship": "supports"
+    },
+    {
+      "from": "RecommendedImprovement2",
+      "to": "AgentVerdict",
+      "relationship": "supports"
+    }
+  ],
+  "priorFingerprintComparisons": [
+    {
+      "priorIndex": 1,
+      "tokenOverlap": 0.0628,
+      "risk": "low"
+    }
+  ]
+}

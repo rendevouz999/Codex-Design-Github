@@ -1,0 +1,75 @@
+{
+  "templateId": "asterbay-retreat-hospitality",
+  "productFamily": "Luxury hospitality website template",
+  "designSystemScope": "Separate Figma source board with hospitality color roles, editorial typography, booking and gallery components, states, pattern modules, and source hygiene notes.",
+  "colorTokens": {
+    "background": "#F7F3EA",
+    "surface": "#E9F0EA",
+    "surfaceElevated": "#FFFDF8",
+    "textPrimary": "#172528",
+    "textSecondary": "#334C4D",
+    "textMuted": "#6E7B78",
+    "accent": "#B4935F",
+    "action": "#E96F55",
+    "border": "#D7DDD5"
+  },
+  "typographyTokens": {
+    "display": "Instrument Serif 76/100",
+    "h1": "Instrument Serif 64/104",
+    "h2": "Instrument Serif 44/116",
+    "h3": "Instrument Serif 28/132",
+    "body": "Manrope 18/150",
+    "bodySmall": "Manrope 14/145",
+    "label": "Manrope 12/132 uppercase",
+    "button": "Manrope 14/132 semibold",
+    "nav": "Manrope 13/132"
+  },
+  "spacingTokens": {
+    "scale": "8, 12, 16, 24, 32, 48, 72, 104",
+    "sectionY": "104",
+    "componentPadding": "24",
+    "cardGap": "24",
+    "gridGap": "28",
+    "container": "1280"
+  },
+  "components": [
+    "navigation header",
+    "reservation button",
+    "CTA panel",
+    "booking tray field",
+    "menu navigation cell",
+    "stay card",
+    "amenity card",
+    "gallery placeholder",
+    "location map cue",
+    "review card",
+    "FAQ row",
+    "footer link card",
+    "image placeholder"
+  ],
+  "states": [
+    "default",
+    "hover",
+    "focus",
+    "active",
+    "disabled",
+    "selected",
+    "error"
+  ],
+  "sourceHygiene": {
+    "autoLayout": true,
+    "editableText": true,
+    "editablePlaceholders": true,
+    "clearLayerNames": true,
+    "reusableComponents": true,
+    "responsiveConstraints": true,
+    "flattenedImportantContent": false
+  },
+  "artifactEvidence": {
+    "designSystemPageId": "10:2",
+    "screenshotPath": ".design-brain/screenshots/20260531-asterbay-design-system-final.png",
+    "componentInventory": "Booking tray field, reserve button, stay card, amenity tile, itinerary step, gallery tile, review card, FAQ row, newsletter input, pattern modules.",
+    "tokenSourcePath": "Figma local variables AsterBay/Colors plus TemplatePack/Spacing and TemplatePack/Radius"
+  },
+  "status": "PASS"
+}

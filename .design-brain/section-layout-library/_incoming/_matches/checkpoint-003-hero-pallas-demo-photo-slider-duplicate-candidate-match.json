@@ -1,0 +1,61 @@
+{
+  "receiptType": "section-layout-match",
+  "candidatePatternId": "checkpoint-003-hero-pallas-demo-photo-slider-duplicate-candidate",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\24_Demo_Wedding.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\25_Demo_Living.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\26_Demo_Food.jpg"
+  ],
+  "matchStatus": "DUPLICATE",
+  "matchScore": 1.0,
+  "matchGroupId": "hero:checkpoint-001-hero-editorial-photo-slider-masthead",
+  "duplicateOf": "checkpoint-001-hero-editorial-photo-slider-masthead",
+  "variantOf": null,
+  "dedupeDecision": "BLOCK_NEW_PATTERN: exact structural duplicate; write match receipt only.",
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:55:20Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 2,
+    "bestMatch": {
+      "score": 1.0,
+      "axisScores": {
+        "layoutGesture": 1.0,
+        "sectionSilhouette": 1.0,
+        "anatomyLayer": 1.0,
+        "hierarchyLayer": 1.0,
+        "gridRhythmLayer": 1.0,
+        "focalPath": 1.0,
+        "compositionTension": 1.0,
+        "negativeSpaceShape": 1.0,
+        "moduleScaleVariation": 1.0,
+        "breakoutBehavior": 1.0,
+        "contentLimits": 1.0
+      },
+      "patternId": "checkpoint-001-hero-editorial-photo-slider-masthead",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-001-hero-editorial-photo-slider-masthead.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "recordedAt": "2026-06-01T18:55:20Z"
+}

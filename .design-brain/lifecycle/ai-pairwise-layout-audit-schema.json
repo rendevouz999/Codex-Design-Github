@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "design-brain.lifecycle.ai-pairwise-layout-audit.v1",
+  "title": "AI Pairwise Layout Audit Receipt",
+  "type": "object",
+  "required": [
+    "templateId",
+    "comparedAgainstTemplateId",
+    "comparisonType",
+    "comparedAxes",
+    "failedAxes",
+    "hardFailAxes",
+    "softRiskAxes",
+    "structureDefiningAxisSimilarity",
+    "visualLanguageAxisSimilarity",
+    "divergenceEvidence",
+    "sharedScaffoldRisk",
+    "requiredRepairs",
+    "status"
+  ],
+  "properties": {
+    "templateId": { "type": "string" },
+    "comparedAgainstTemplateId": { "type": "string" },
+    "comparisonType": { "const": "ai_vs_ai" },
+    "comparedAxes": { "type": "object" },
+    "failedAxes": { "type": "array" },
+    "hardFailAxes": { "type": "array" },
+    "softRiskAxes": { "type": "array" },
+    "structureDefiningAxisSimilarity": { "type": "number" },
+    "visualLanguageAxisSimilarity": { "type": "number" },
+    "divergenceEvidence": { "type": "array" },
+    "sharedScaffoldRisk": { "type": "number" },
+    "requiredRepairs": { "type": "array" },
+    "status": { "enum": ["PASS", "REVISE_REQUIRED", "BLOCKED"] }
+  }
+}

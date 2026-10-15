@@ -1,0 +1,111 @@
+{
+  "task": "AsterBay Retreat luxury hospitality Figma website template from two local website references",
+  "productFamily": "event_venue_travel_booking",
+  "mode": "website",
+  "referenceSource": "Template Website: Mercure Hotel Resort plus Oceavara Luxury Yacht Boat Service",
+  "batchItem": "template_2_of_2",
+  "routeSource": "brain_design_router",
+  "styleDNA": {
+    "typographyBehavior": "editorial serif display for luxury moments with crisp sans labels for booking, amenities, and policy details",
+    "layoutRhythm": "immersive arrival, booking bar, editorial destination story, amenity atlas, stay collection, itinerary, gallery, reviews, policy FAQ, and reservation close",
+    "spacingDensity": "large hospitality breathing room with dense booking, amenity, and package modules where buyer decisions happen",
+    "colorBehavior": "pearl canvas, deep tide ink, sea-glass teal, coral booking accent, and brushed brass highlight",
+    "imageDirection": "replaceable hero, room, coastline, itinerary, gallery, and guest/profile placeholders",
+    "shapeLanguage": "editorial crop windows, tide-line dividers, booking trays, amenity tiles, and large typographic overlays",
+    "effectLanguage": "soft editorial shadows, waterline gradient overlays, subtle glass booking tray, and restrained premium depth",
+    "premiumSignal": "hospitality-specific booking flow, amenities, collection cards, reviews, policy, location, and source-ready design system"
+  },
+  "designIntentLock": {
+    "productType": "editable luxury hospitality and resort booking website template",
+    "outputMedium": "Figma website source template",
+    "targetBuyer": "hotel, resort, yacht charter, boutique stay, and travel marketplace template buyers",
+    "useCase": "launching a coastal retreat, resort, yacht charter, private villa, or premium travel booking website",
+    "marketplaceValue": "complete editable hospitality homepage with booking utility, experience storytelling, package modules, gallery, FAQ, and design system",
+    "primaryGoal": "sell a premium hospitality website template that balances luxury first impression with real booking usability"
+  },
+  "visualGrammar": {
+    "gridBehavior": "12-column editorial grid with full-bleed hero, offset booking tray, staggered amenity cards, gallery columns, and package comparison modules",
+    "spacingCadence": "cinematic hero, light editorial story, compact booking/amenity modules, immersive gallery rhythm, and calm FAQ closure",
+    "typeHierarchy": "oversized serif destination language, medium editorial section titles, small uppercase booking labels, and precise utility copy",
+    "surfaceDepth": "glass booking tray, layered photo placeholders, soft cards, tide-line dividers, and calm raised FAQ rows",
+    "colorRoles": "pearl background, tide ink text, sea-glass surface, coral action, brass highlight, mist border, and muted slate copy",
+    "imageTreatment": "image placeholders use cinematic crop guides, soft overlays, caption rails, and replacement clues",
+    "effectLogic": "waterline gradients and soft shadows support luxury atmosphere and booking clarity without copying yacht hero or hotel room layout",
+    "componentRhythm": "booking controls, amenity tiles, stay cards, itinerary rows, gallery tiles, review cards, FAQ accordions, newsletter, footer"
+  },
+  "referenceBoundary": {
+    "allowedToLearn": "hotel booking completeness, amenity proof, FAQ depth, luxury hero scale, collection rhythm, and experiential stats",
+    "forbiddenToCopy": "exact layout, Mercure exact hotel-room composition, Oceavara exact yacht full-bleed hero, giant Yacht/Luxury text staging, exact color palette, section order, hero grammar, component scaffold, and image placement",
+    "exactLayoutCopied": "no",
+    "exactPaletteCopied": "no",
+    "exactSectionOrderCopied": "no",
+    "heroGrammarCopied": "no",
+    "componentScaffoldCopied": "no"
+  },
+  "colorRoleRemapping": {
+    "referenceDominantColorIdentity": "Mercure warm neutral hotel editorial plus Oceavara dark aquatic blue luxury",
+    "referenceColorRoles": "light hotel canvas, gold accent, dark water hero, bright blue action, and white serif display",
+    "remappedPaletteDirection": "pearl, deep tide ink, sea-glass teal, coral booking accent, brushed brass, and mist borders",
+    "newAccentIdentity": "coral reservation CTA supported by brass detail markers",
+    "preservedEmotionalRole": "calm luxury, trust, and destination desire are preserved without copying hotel-gold or yacht-blue dominance",
+    "avoidedExactHues": "Mercure beige/gold dominance and Oceavara neon-blue button identity avoided",
+    "contrastHierarchyBehavior": "light editorial surfaces carry readability while deep tide modules create premium contrast and destination mood"
+  },
+  "visualMoodReinterpretation": {
+    "referenceMood": "quiet hotel elegance plus immersive marine luxury",
+    "reinterpretedMood": "coastal editorial retreat with usable reservation flow and tactile premium details",
+    "changedComposition": "arrival story and booking tray replace direct hotel lobby and yacht spectacle compositions",
+    "changedHierarchy": "stay choices, amenities, itinerary, gallery, reviews, policy, and reservation drive the template flow",
+    "changedAssetTreatment": "all photos become source-safe role placeholders for hero, suite, coastline, dining, gallery, and guest proof",
+    "changedDepthEffect": "soft tide overlays, glass booking tray, and editorial elevation replace exact dark-blue aquatic glow or hotel card treatment"
+  },
+  "structuralReconfiguration": {
+    "referenceStructurePattern": "luxury hero, experience sections, amenity cards, testimonials, FAQ, and footer",
+    "newStructurePattern": "arrival hero with booking tray, trust strip, destination editorial, stay collection, amenity atlas, itinerary timeline, seasonal offers, gallery, guest stories, policy FAQ, reservation CTA, footer, inner page map, and design system",
+    "heroGrammarChange": "split arrival promise plus booking utility and secondary destination crop instead of single giant yacht or hotel-lobby hero",
+    "sectionOrderChange": "booking appears early, then destination and stays, then amenity/detail proof, then gallery/social trust and policy closure",
+    "gridSystemChange": "staggered editorial grid and booking modules replace repeated centered cards or pure full-bleed image bands",
+    "ctaFlowChange": "reserve CTA appears in booking tray, package cards, seasonal offer, and closing with different context",
+    "componentLayoutChange": "booking controls, stay cards, amenity atlas, itinerary rows, and gallery tiles replace finance dashboard and generic feature grids"
+  },
+  "patternDivergence": {
+    "divergenceFromReference": "new booking-led editorial structure, new color role map, new crop rhythm, and new coral/brass action identity",
+    "divergenceFromPreviousTemplate": "moves away from dark SaaS console, dashboard proof, risk narrative, pricing grid, and data glow",
+    "heroDivergence": "hospitality arrival scene with booking tray rather than AI product console",
+    "sectionRhythmDivergence": "uses editorial image rhythm, booking utility, amenities, itinerary, gallery, and policy instead of SaaS workflow/proof/pricing density",
+    "visualLanguageDivergence": "pearl/tide/coral/brass editorial mood replaces graphite/mineral/cyan technical console language",
+    "componentCadenceDivergence": "booking, stay, amenity, itinerary, and gallery modules replace dashboard, metric, workflow, and pricing components"
+  },
+  "sectionLogic": {
+    "sectionList": [
+      "nav and arrival hero",
+      "booking tray",
+      "trust and destination proof",
+      "editorial destination story",
+      "stay collection",
+      "amenity atlas",
+      "experience itinerary",
+      "seasonal offer",
+      "gallery and map/location cue",
+      "guest stories",
+      "policy FAQ",
+      "reservation CTA and footer",
+      "inner page map",
+      "design system"
+    ],
+    "roleOfEachSection": "create desire, enable booking, prove amenities, show stay choices, reduce uncertainty, answer policy questions, and make template reuse obvious",
+    "buyerJourneyFlow": "feel the destination, check availability, compare stay options, inspect amenities, imagine itinerary, trust reviews, resolve policies, reserve, and edit the source",
+    "fillerSectionsRemoved": "yes; every section supports hospitality desire, booking confidence, or source-template usability",
+    "productFamilyDepthStandard": "12 homepage blocks plus inner page map and separate design system for Event/Venue/Travel/Hospitality website"
+  },
+  "marketplaceReadiness": {
+    "sectionDepth": "12 meaningful homepage blocks plus inner page map and source design system",
+    "premiumSignal": "editorial typography, booking utility, image placeholder clarity, amenity depth, policy FAQ, and separate hospitality design system",
+    "editability": "auto-layout sections, replaceable image placeholders, editable booking controls, reusable hospitality components, and clear layer naming are required",
+    "sourceReadiness": "design system, component states, placeholder guide, auto-layout receipt, and source hygiene notes planned",
+    "previewValue": "cover can show immersive hero, booking tray, stay cards, gallery, FAQ, and design system tokens",
+    "commercialUsefulness": "buyers can adapt it for resorts, boutique hotels, yacht charters, villas, retreats, and travel booking websites",
+    "nonGenericProof": "not a generic hero, feature, CTA scaffold; includes booking, amenities, stay collection, itinerary, gallery, reviews, policy, and source system"
+  },
+  "status": "PASS"
+}

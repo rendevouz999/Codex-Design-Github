@@ -1,0 +1,11 @@
+# Core native export and template validation. Install in a dedicated environment.
+python-pptx>=1.0.2
+XlsxWriter>=3.0.0
+PyYAML>=6.0
+Pillow>=9.0.0
+numpy>=1.24  # design_brain_pptx_visual_balance.py (rendered-extent balance gate)
+lxml>=4.9.0
+# Optional Boolean geometry/text shaping: skia-pathops>=0.9.2, uharfbuzz>=0.50.0
+# Optional source/media providers retain their import-time diagnostic; install only
+# the selected provider's declared library. They are not prerequisites for a template.
+Flask>=3.0.0  # local confirmation and SVG review surfaces

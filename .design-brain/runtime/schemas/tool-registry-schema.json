@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Brain Design Runtime Tool Registry",
+  "type": "object",
+  "required": ["tools"],
+  "properties": {
+    "tools": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "purpose", "input", "output", "blockingAuthority", "permissionLevel", "scriptBackend", "failureBehavior"],
+        "properties": {
+          "name": {"type": "string"},
+          "purpose": {"type": "string"},
+          "input": {"type": "string"},
+          "output": {"type": "string"},
+          "blockingAuthority": {"type": "string"},
+          "permissionLevel": {"type": "string"},
+          "scriptBackend": {"type": "string"},
+          "failureBehavior": {"type": "string"}
+        }
+      }
+    }
+  }
+}

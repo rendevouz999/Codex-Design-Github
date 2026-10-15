@@ -1,0 +1,112 @@
+{
+  "templateId": "northline-advisory",
+  "productFamily": "business consultant website",
+  "designSystemScope": "Separate Figma design-system board for a consultant service homepage template with advisory cards, proof ledgers, inquiry modules, testimonials, responsive notes, and editable placeholder guidance.",
+  "colorTokens": {
+    "background": "#EAF5F8",
+    "surface": "#FFFFFF",
+    "surfaceElevated": "#F5F8FA",
+    "textPrimary": "#10242C",
+    "textSecondary": "#607985",
+    "textMuted": "#8AA0A9",
+    "accent": "#14A4AC",
+    "action": "#11A6AD",
+    "border": "#C8DAE0"
+  },
+  "typographyTokens": {
+    "display": "Inter Bold 34px",
+    "h1": "Inter Bold 28px",
+    "h2": "Inter Semi Bold 22px",
+    "h3": "Inter Semi Bold 18px",
+    "body": "Inter Regular 15px",
+    "bodySmall": "Inter Regular 12px",
+    "label": "Inter Semi Bold 11px",
+    "button": "Inter Semi Bold 13px",
+    "nav": "Inter Medium 13px"
+  },
+  "spacingTokens": {
+    "scale": "8px base scale with 12, 16, 24, 32, 48, 64 steps",
+    "sectionY": "80-96px desktop section rhythm",
+    "componentPadding": "16-32px depending on module density",
+    "cardGap": "16-24px",
+    "gridGap": "24px",
+    "container": "1280px content width inside 1440px desktop frame"
+  },
+  "components": [
+    "header navigation",
+    "primary button and secondary button",
+    "advisory service card",
+    "diagnostic proof card",
+    "case study card",
+    "process card",
+    "testimonial card",
+    "cta inquiry form",
+    "footer link column",
+    "image placeholder and profile photo placeholder modules"
+  ],
+  "states": {
+    "default": "teal primary action on light surface",
+    "hover": "dark ink hover state for high-confidence advisory actions",
+    "focus": "amber focus state for keyboard-visible controls",
+    "active": "teal active state for selected modules",
+    "disabled": "muted neutral disabled state"
+  },
+  "componentAnatomy": {
+    "button": "label, fill, radius, hover/focus/active/disabled state",
+    "card": "media slot, title, metadata, proof copy, CTA or status label",
+    "navigation": "brand mark, link group, diagnostic call CTA",
+    "header": "editable nav source row with brand and CTA",
+    "footer": "brand, service links, company links, source notes",
+    "cta": "inquiry form with editable labels and fields",
+    "placeholder": "role-specific image and profile replacement clues"
+  },
+  "patternModules": [
+    "strategy console hero",
+    "credential proof rail",
+    "advisory lane grid",
+    "diagnostic matrix",
+    "case study runway",
+    "operating model process spine",
+    "partner testimonial bench",
+    "faq and inquiry ledger"
+  ],
+  "usageRules": [
+    "Keep advisory proof close to service explanation, not only near the footer.",
+    "Use teal for action and evidence, amber only for focus or ordered steps.",
+    "Replace placeholders with consultant, workshop, boardroom, chart, or case-study images."
+  ],
+  "surfaceEffectTokens": {
+    "cardShadow": "soft cool shadow for advisory cards",
+    "heroDepth": "subtle elevated console shadow",
+    "borderStroke": "cool mist border on white surfaces"
+  },
+  "placeholderRules": [
+    "Use image placeholder: [purpose] for case, boardroom, workshop, and chart visuals.",
+    "Use profile photo placeholder: [role] for consultant and advisor portraits.",
+    "Do not bake final generated imagery into the editable source template."
+  ],
+  "sourceHygiene": {
+    "autoLayout": true,
+    "editableText": true,
+    "editablePlaceholders": true,
+    "clearLayerNames": true,
+    "reusableComponents": true,
+    "responsiveConstraints": true
+  },
+  "artifactEvidence": {
+    "designSystemPageId": "2:200",
+    "componentInventory": [
+      "navigation",
+      "header",
+      "footer",
+      "button",
+      "card",
+      "cta",
+      "placeholder",
+      "testimonial",
+      "form"
+    ],
+    "tokenSourcePath": ".design-brain/builds/20260601-reference-led-website-template-pack/design-system-receipts/northline-advisory.json",
+    "screenshotPath": ".design-brain/builds/20260601-reference-led-website-template-pack/screenshots/northline-design-system.png"
+  }
+}

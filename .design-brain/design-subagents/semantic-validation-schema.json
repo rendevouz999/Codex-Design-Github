@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "design-brain.design-subagents.semantic-validation.v1",
+  "title": "Brain Design Subagent Semantic Validation Result",
+  "type": "object",
+  "required": [
+    "schema",
+    "version",
+    "status",
+    "finalGate",
+    "evidenceDir",
+    "activeAgents",
+    "agentResults",
+    "blockingReasons",
+    "requiredRepairs",
+    "generatedAt"
+  ],
+  "properties": {
+    "schema": {
+      "const": "design-brain.design-subagents.semantic-validation.v1"
+    },
+    "version": {
+      "const": "1.0.0"
+    },
+    "status": {
+      "enum": ["PASS", "REVISE_REQUIRED", "BLOCK"]
+    },
+    "finalGate": {
+      "type": "boolean"
+    },
+    "evidenceDir": {
+      "type": "string"
+    },
+    "activeAgents": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "agentResults": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "agentId",
+          "name",
+          "critical",
+          "status",
+          "missingOutputs",
+          "evidence",
+          "semanticWarnings",
+          "semanticBlockers"
+        ],
+        "properties": {
+          "agentId": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "critical": {
+            "type": "boolean"
+          },
+          "status": {
+            "enum": ["PASS", "REVISE_REQUIRED", "BLOCK"]
+          },
+          "missingOutputs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "semanticWarnings": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "semanticBlockers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "blockingReasons": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "requiredRepairs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "generatedAt": {
+      "type": "string"
+    }
+  }
+}
+

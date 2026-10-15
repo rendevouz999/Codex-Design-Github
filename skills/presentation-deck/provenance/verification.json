@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "date": "2026-10-12",
+  "scope": "Verified internal template/native/web operations; not a claim of marketplace quality for every generated artifact.",
+  "nativeRegression": {
+    "checks": 29,
+    "status": "PASS",
+    "evidence": "output/presentation-adoption-smoke-r2/smoke-result.json"
+  },
+  "structuredTemplate": {
+    "checks": 18,
+    "slides": 20,
+    "namedNativeLayouts": 20,
+    "status": "PASS",
+    "evidence": "output/presentation-template-smoke-r5/result.json"
+  },
+  "styleFidelity": {
+    "checks": 3,
+    "status": "PASS",
+    "evidence": "output/presentation-adoption-work/style-fidelity-r1.json"
+  },
+  "visualReview": {
+    "renderer": "Microsoft PowerPoint on Windows",
+    "inspected": [
+      "native before/after chart/table",
+      "20-layout contact sheet after placeholder repair",
+      "long replacement title"
+    ],
+    "repair": "Black picture carriers replaced by transparent native placeholders over neutral text-clue layout shapes; corrected native paint order.",
+    "evidence": "output/presentation-adoption-render/"
+  },
+  "webRegression": {
+    "checks": 26,
+    "status": "PASS"
+  },
+  "webBrowserReview": {
+    "checks": 16,
+    "slidesAndPrintPages": 14,
+    "status": "PASS",
+    "isolated": true,
+    "evidence": "output/presentation-adoption-work/isolated-web-render.json"
+  },
+  "pptxToWebIntake": {
+    "slides": 2,
+    "status": "PASS",
+    "isolated": true,
+    "evidence": "output/presentation-adoption-work/isolated-source-extract.json"
+  },
+  "router": {
+    "checks": 162,
+    "status": "PASS"
+  },
+  "hostSimulation": {
+    "checks": 158,
+    "status": "PASS",
+    "globalTimeoutSeconds": 90,
+    "caseTimeoutSeconds": 20
+  },
+  "processCleanup": {
+    "repeat": 2,
+    "status": "PASS"
+  },
+  "localReviewSurfaces": {
+    "status": "PASS",
+    "checks": [
+      "confirmation HTML",
+      "SVG editor HTML",
+      "untrusted Host rejected on both"
+    ]
+  },
+  "isolation": {
+    "status": "PASS",
+    "donorPathAbsent": true,
+    "installedCapabilityByteMatch": true,
+    "evidence": "output/presentation-adoption-work/isolation-verification.json"
+  },
+  "retirement": {
+    "legacyFiles": 88,
+    "activeDonorPathAbsent": true,
+    "oldWebSkillAbsent": true,
+    "method": "recoverable quarantine outside active package; permanent deletion rejected by automatic approval policy"
+  },
+  "limitations": [
+    "Source-preserving edits are tested for selected native objects, not arbitrary lossless PPTX roundtrips.",
+    "PowerPoint rendering verified; Keynote, Google Slides, LibreOffice rendering, online image providers, narration/video generation and end-to-end local UI interactions are not verified.",
+    "Fixtures prove engineering behavior, not marketplace design readiness.",
+    "Python libraries, Node libraries and a browser/PowerPoint renderer are ordinary declared dependencies; a donor checkout is not required."
+  ]
+}

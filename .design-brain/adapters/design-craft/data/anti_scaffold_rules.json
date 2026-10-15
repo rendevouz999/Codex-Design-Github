@@ -1,0 +1,19 @@
+{
+  "behavior": {
+    "block_on_fail": true,
+    "auto_repair": true,
+    "persist_on_fail": false
+  },
+  "forbidden_defaults": [
+    "No default Hero + Features + CTA for full template.",
+    "No default Minimalism + Flat Design.",
+    "No same hero grammar across batch outputs.",
+    "No same section order across multiple generated templates.",
+    "No recolor-only reinterpretation.",
+    "No generic clean SaaS card layout for every niche.",
+    "No dashboard treated as landing page.",
+    "No product website under required section depth.",
+    "No vague image direction such as use nice image.",
+    "No style decision without product/domain context."
+  ]
+}

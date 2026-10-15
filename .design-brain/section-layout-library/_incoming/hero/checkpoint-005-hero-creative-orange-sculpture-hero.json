@@ -1,0 +1,123 @@
+{
+  "patternId": "checkpoint-005-hero-creative-orange-sculpture-hero",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\chaos-creative-studio-website-2025-01-15-17-54-01-utc - Chaos - Creative Studio Website - 21a94ff9.png"
+  ],
+  "productFamilies": [
+    "creative-agency",
+    "studio",
+    "portfolio",
+    "branding"
+  ],
+  "commercialPurpose": "Open a creative studio template with one bold sculptural motif and high-contrast editorial energy.",
+  "purposeLayer": "Hero uses a large abstract orange object to signal creative originality before service explanation.",
+  "anatomyLayer": "Dark brown/black nav, huge creative headline, orange CTA, massive sculptural ring/object, small stat card, floating chart/proof card, and service cards below.",
+  "hierarchyLayer": "Orange sculptural object first, headline second, stat/proof card third, CTA fourth.",
+  "gridRhythmLayer": "Dark creative hero with giant orange abstract sculpture and supporting proof cards.",
+  "densityLimitLayer": "Use section density limit: {\"primaryMessage\": 1, \"cta\": \"1-2\", \"proofCue\": \"0-1 controlled cue\", \"mediaSystem\": 1}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, product photos, or page order.",
+  "usageRuleLayer": "Use for creative studios, brand agencies, portfolios, event creatives, and art-directed campaigns.",
+  "layoutGesture": "creative studio hero with orange sculptural object and proof cards",
+  "sectionSilhouette": "dark warm canvas dominated by one orange organic object, editorial type, and small proof modules",
+  "compositionTension": "expressive art direction creates brand memory while cards keep agency offer legible",
+  "focalPath": "orange object to headline to CTA to proof cards",
+  "negativeSpaceShape": "dark warm void around the object and headline creates dramatic focus",
+  "depthLayering": "dark base, orange object layer, card overlays, glowing CTA accents",
+  "moduleScaleVariation": "huge object and headline against compact cards/stats",
+  "breakoutBehavior": "sculptural object breaks out as recurring section motif",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1-2",
+    "proofCue": "0-1 controlled cue",
+    "mediaSystem": 1
+  },
+  "antiCopyBoundary": "Do not copy Chaos brand, exact orange object, warm dark palette, stat cards, or service labels.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "services",
+      "portfolio-gallery",
+      "testimonials"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 005 contact sheet",
+    "reviewNotes": "Checkpoint 005 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "hero:022b4a9483bac5f3",
+    "hash": "022b4a9483bac5f383cf4363a9639551e0e83199",
+    "axes": {
+      "layoutGesture": "creative studio hero with orange sculptural object and proof cards",
+      "sectionSilhouette": "dark warm canvas dominated by one orange organic object, editorial type, and small proof modules",
+      "anatomyLayer": "dark brown/black nav, huge creative headline, orange cta, massive sculptural ring/object, small stat card, floating chart/proof card, and service cards below.",
+      "hierarchyLayer": "orange sculptural object first, headline second, stat/proof card third, cta fourth.",
+      "gridRhythmLayer": "dark creative hero with giant orange abstract sculpture and supporting proof cards.",
+      "focalPath": "orange object to headline to cta to proof cards",
+      "compositionTension": "expressive art direction creates brand memory while cards keep agency offer legible",
+      "negativeSpaceShape": "dark warm void around the object and headline creates dramatic focus",
+      "moduleScaleVariation": "huge object and headline against compact cards/stats",
+      "breakoutBehavior": "sculptural object breaks out as recurring section motif",
+      "contentLimits": "{\"cta\":\"1-2\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"0-1 controlled cue\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.3177,
+  "matchGroupId": "hero:022b4a9483bac5f3",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:25:28Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 24,
+    "bestMatch": {
+      "score": 0.3177,
+      "axisScores": {
+        "layoutGesture": 0.2667,
+        "sectionSilhouette": 0.16,
+        "anatomyLayer": 0.2353,
+        "hierarchyLayer": 0.4667,
+        "gridRhythmLayer": 0.2632,
+        "focalPath": 0.3077,
+        "compositionTension": 0.1429,
+        "negativeSpaceShape": 0.1667,
+        "moduleScaleVariation": 0.2,
+        "breakoutBehavior": 0.2857,
+        "contentLimits": 1.0
+      },
+      "patternId": "checkpoint-004-hero-creative-agency-neon-art-object-story-hero",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-004-hero-creative-agency-neon-art-object-story-hero.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

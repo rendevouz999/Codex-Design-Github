@@ -1,0 +1,121 @@
+{
+  "patternId": "checkpoint-005-blog-resources-property-blog-and-listing-resource-grid",
+  "sectionType": "blog-resources",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\ceroke-business-property-website-2024-06-19-23-10-58-utc - Ceroke - Business Property Website - 3a2b5056.png"
+  ],
+  "productFamilies": [
+    "property",
+    "real-estate",
+    "business",
+    "listing"
+  ],
+  "commercialPurpose": "Support property discovery with resource articles, listing cards, and trust-led content density.",
+  "purposeLayer": "Resource grid mixes educational posts with property proof so real estate pages feel useful beyond a sales brochure.",
+  "anatomyLayer": "Dark resource heading, article cards with property thumbnails, listing/location card, newsletter strip, footer columns, and supporting CTA row.",
+  "hierarchyLayer": "Featured property/resource card first, article grid second, newsletter/footer third.",
+  "gridRhythmLayer": "Dark property resource section with article cards, property thumbnails, and newsletter/footer closure.",
+  "densityLimitLayer": "Use section density limit: {\"visibleItems\": \"3-6\", \"featuredItem\": \"0-1\", \"channelGroups\": \"2-4\"}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, product photos, or page order.",
+  "usageRuleLayer": "Use for real estate, architecture, local business, and investment templates that need educational content modules.",
+  "layoutGesture": "property resource grid with listing cards and newsletter closure",
+  "sectionSilhouette": "dark lower page area made of property article cards, listing thumbnails, and signup/footer bands",
+  "compositionTension": "content credibility extends the property sales flow",
+  "focalPath": "featured resource to article cards to newsletter signup to footer links",
+  "negativeSpaceShape": "charcoal gaps separate dense listing cards and content blocks",
+  "depthLayering": "dark base, image cards, article text blocks, signup strip, footer columns",
+  "moduleScaleVariation": "medium article cards with one larger featured resource/listing module",
+  "breakoutBehavior": "newsletter strip spans across the lower resource grid",
+  "contentLimits": {
+    "visibleItems": "3-6",
+    "featuredItem": "0-1",
+    "channelGroups": "2-4"
+  },
+  "antiCopyBoundary": "Do not copy exact property blog titles, thumbnails, newsletter style, or footer columns.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "portfolio-gallery",
+      "case-study"
+    ],
+    "after": [
+      "footer"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 005 contact sheet",
+    "reviewNotes": "Checkpoint 005 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "blog-resources:5dd19495a8371c52",
+    "hash": "5dd19495a8371c525317f3c3b057b970f0aecbd9",
+    "axes": {
+      "layoutGesture": "property resource grid with listing cards and newsletter closure",
+      "sectionSilhouette": "dark lower page area made of property article cards, listing thumbnails, and signup/footer bands",
+      "anatomyLayer": "dark resource heading, article cards with property thumbnails, listing/location card, newsletter strip, footer columns, and supporting cta row.",
+      "hierarchyLayer": "featured property/resource card first, article grid second, newsletter/footer third.",
+      "gridRhythmLayer": "dark property resource section with article cards, property thumbnails, and newsletter/footer closure.",
+      "focalPath": "featured resource to article cards to newsletter signup to footer links",
+      "compositionTension": "content credibility extends the property sales flow",
+      "negativeSpaceShape": "charcoal gaps separate dense listing cards and content blocks",
+      "moduleScaleVariation": "medium article cards with one larger featured resource/listing module",
+      "breakoutBehavior": "newsletter strip spans across the lower resource grid",
+      "contentLimits": "{\"channelgroups\":\"2-4\",\"featureditem\":\"0-1\",\"visibleitems\":\"3-6\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.2176,
+  "matchGroupId": "blog-resources:5dd19495a8371c52",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:25:28Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 4,
+    "bestMatch": {
+      "score": 0.2176,
+      "axisScores": {
+        "layoutGesture": 0.1765,
+        "sectionSilhouette": 0.1923,
+        "anatomyLayer": 0.1944,
+        "hierarchyLayer": 0.2632,
+        "gridRhythmLayer": 0.1538,
+        "focalPath": 0.125,
+        "compositionTension": 0.0,
+        "negativeSpaceShape": 0.0526,
+        "moduleScaleVariation": 0.2353,
+        "breakoutBehavior": 0.0,
+        "contentLimits": 1.0
+      },
+      "patternId": "checkpoint-004-blog-resources-news-portal-lead-story-channel-grid",
+      "sectionType": "blog-resources",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\blog-resources\\checkpoint-004-blog-resources-news-portal-lead-story-channel-grid.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

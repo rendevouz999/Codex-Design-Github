@@ -1,0 +1,25 @@
+{
+  "command": "check",
+  "status": "PASS",
+  "templateId": "kineticcast-sports-streaming",
+  "candidateBrandName": "KineticCast",
+  "templateType": "Figma website template",
+  "productFamily": "sports streaming website",
+  "niche": "live sports streaming",
+  "referenceMode": "single",
+  "referenceGroupKey": "sportz-sports-streaming-website-template-png",
+  "referenceIds": [
+    "sportz-sports-streaming-website-template-png"
+  ],
+  "referenceBrandNames": [
+    "Sportz"
+  ],
+  "blockingReasons": [],
+  "warnings": [
+    "UNKNOWN_REFERENCE_ID sportz-sports-streaming-website-template-png"
+  ],
+  "nextAction": "Proceed with reference cognition and record usage after completion.",
+  "dryRun": false,
+  "checkedAt": "2026-06-01T04:08:02.673153+00:00",
+  "receiptPath": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\builds\\2026-06-01-sports-travel-figma\\kineticcast-reference-usage.json"
+}

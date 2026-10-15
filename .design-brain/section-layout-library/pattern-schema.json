@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "design-brain.section-layout.pattern.v2",
+  "title": "Brain Design Section Layout Pattern",
+  "type": "object",
+  "required": [
+    "patternId",
+    "sectionType",
+    "sourceRefs",
+    "productFamilies",
+    "commercialPurpose",
+    "purposeLayer",
+    "anatomyLayer",
+    "hierarchyLayer",
+    "gridRhythmLayer",
+    "densityLimitLayer",
+    "originalityLayer",
+    "usageRuleLayer",
+    "layoutGesture",
+    "sectionSilhouette",
+    "compositionTension",
+    "focalPath",
+    "negativeSpaceShape",
+    "depthLayering",
+    "moduleScaleVariation",
+    "breakoutBehavior",
+    "contentLimits",
+    "antiCopyBoundary",
+    "compatibleBeforeAfter",
+    "structuralSignature",
+    "matchStatus",
+    "matchScore",
+    "matchGroupId",
+    "duplicateOf",
+    "variantOf",
+    "matchingEvidence",
+    "dedupeDecision",
+    "confidence",
+    "qualityStatus"
+  ],
+  "properties": {
+    "patternId": { "type": "string", "minLength": 3 },
+    "sectionType": { "type": "string", "minLength": 2 },
+    "sourceRefs": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1
+    },
+    "productFamilies": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1
+    },
+    "commercialPurpose": { "type": "string", "minLength": 8 },
+    "purposeLayer": { "type": "string", "minLength": 8 },
+    "anatomyLayer": { "type": "string", "minLength": 8 },
+    "hierarchyLayer": { "type": "string", "minLength": 8 },
+    "gridRhythmLayer": { "type": "string", "minLength": 8 },
+    "densityLimitLayer": { "type": "string", "minLength": 8 },
+    "originalityLayer": { "type": "string", "minLength": 8 },
+    "usageRuleLayer": { "type": "string", "minLength": 8 },
+    "layoutGesture": { "type": "string", "minLength": 3 },
+    "sectionSilhouette": { "type": "string", "minLength": 3 },
+    "compositionTension": { "type": "string", "minLength": 3 },
+    "focalPath": { "type": "string", "minLength": 3 },
+    "negativeSpaceShape": { "type": "string", "minLength": 3 },
+    "depthLayering": { "type": "string", "minLength": 3 },
+    "moduleScaleVariation": { "type": "string", "minLength": 3 },
+    "breakoutBehavior": { "type": "string", "minLength": 3 },
+    "contentLimits": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "antiCopyBoundary": { "type": "string", "minLength": 8 },
+    "compatibleBeforeAfter": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "structuralSignature": {
+      "type": "object",
+      "required": ["signatureId", "hash", "axes"],
+      "additionalProperties": true
+    },
+    "matchStatus": {
+      "enum": ["DUPLICATE", "NEAR_DUPLICATE", "VARIANT", "NEW_PATTERN"]
+    },
+    "matchScore": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "matchGroupId": { "type": "string", "minLength": 3 },
+    "duplicateOf": {
+      "type": ["string", "null"]
+    },
+    "variantOf": {
+      "type": ["string", "null"]
+    },
+    "matchingEvidence": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "dedupeDecision": { "type": "string", "minLength": 8 },
+    "confidence": {
+      "enum": ["high", "medium", "low"]
+    },
+    "qualityStatus": {
+      "enum": ["PASS", "REVIEW_REQUIRED", "BLOCKED"]
+    },
+    "hyperAccuracyReceipt": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

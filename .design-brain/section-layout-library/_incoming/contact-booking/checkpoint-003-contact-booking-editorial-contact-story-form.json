@@ -1,0 +1,103 @@
+{
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 003",
+    "reviewNotes": "Checkpoint 003 is visually inspected learning evidence; keep incoming until hyper-accuracy review and matching rationale pass.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, color identity, imagery, icon systems, decorative geometry, or section order."
+  },
+  "patternId": "checkpoint-003-contact-booking-editorial-contact-story-form",
+  "sectionType": "contact-booking",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\21_Contact.jpg"
+  ],
+  "productFamilies": [
+    "editorial-blog",
+    "creator",
+    "personal-brand",
+    "website"
+  ],
+  "commercialPurpose": "Create a contact page that feels editorial and relational before asking for form submission.",
+  "purposeLayer": "Contact page warms up the inquiry with image/story blocks, advertise/contact copy, then a centered form.",
+  "anatomyLayer": "Two introductory image blocks, text invitation, secondary advertise block, centered form heading, name/email/message fields, and full-width submit button.",
+  "hierarchyLayer": "Visual greeting first, contact invitation second, advertise/service note third, form action last.",
+  "gridRhythmLayer": "Alternating two-column editorial rows above a centered form block with wide white margins.",
+  "densityLimitLayer": "Use 2 image/text intro modules, 3-5 form fields, 1 submit action, and optional advertise/service inquiry block.",
+  "originalityLayer": "Learn relational contact pacing; do not copy exact images, email text, gold submit bar, or sparse Pallas spacing.",
+  "usageRuleLayer": "Use for creators, boutique studios, service providers, restaurants, consultants, and editorial brands needing softer inquiry flow.",
+  "layoutGesture": "editorial contact story modules leading into centered form",
+  "sectionSilhouette": "two airy image-copy rows over a wide centered form",
+  "compositionTension": "warm visual storytelling delays the form until intent is clearer",
+  "focalPath": "image pair to say-hello copy to advertise block to form",
+  "negativeSpaceShape": "stacked white galleries and wide form runway",
+  "depthLayering": "flat editorial image blocks with form surface at the end",
+  "moduleScaleVariation": "medium paired images followed by wide form fields",
+  "breakoutBehavior": "none; form remains contained",
+  "contentLimits": {
+    "formFields": "3-5",
+    "contactMethods": "1-2",
+    "introModules": "2",
+    "primaryCta": 1
+  },
+  "antiCopyBoundary": "Do not copy exact contact imagery, email addresses, gold button, or Pallas signature branding.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation",
+      "trust-band"
+    ],
+    "after": [
+      "footer"
+    ],
+    "notAScaffold": true
+  },
+  "structuralSignature": {
+    "signatureId": "contact-booking:8e7a3ac46cfce9ca",
+    "hash": "8e7a3ac46cfce9ca0ed8af1894c349cd89a99d16",
+    "axes": {
+      "layoutGesture": "editorial contact story modules leading into centered form",
+      "sectionSilhouette": "two airy image-copy rows over a wide centered form",
+      "anatomyLayer": "two introductory image blocks, text invitation, secondary advertise block, centered form heading, name/email/message fields, and full-width submit button.",
+      "hierarchyLayer": "visual greeting first, contact invitation second, advertise/service note third, form action last.",
+      "gridRhythmLayer": "alternating two-column editorial rows above a centered form block with wide white margins.",
+      "focalPath": "image pair to say-hello copy to advertise block to form",
+      "compositionTension": "warm visual storytelling delays the form until intent is clearer",
+      "negativeSpaceShape": "stacked white galleries and wide form runway",
+      "moduleScaleVariation": "medium paired images followed by wide form fields",
+      "breakoutBehavior": "none; form remains contained",
+      "contentLimits": "{\"contactmethods\":\"1-2\",\"formfields\":\"3-5\",\"intromodules\":\"2\",\"primarycta\":1}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.0,
+  "matchGroupId": "contact-booking:8e7a3ac46cfce9ca",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:55:20Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 0,
+    "bestMatch": null,
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

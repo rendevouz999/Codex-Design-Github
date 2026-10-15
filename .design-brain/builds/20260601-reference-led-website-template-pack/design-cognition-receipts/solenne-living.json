@@ -1,0 +1,114 @@
+{
+  "task": "Reference-led Figma website template from Ration home decor ecommerce PNG",
+  "productFamily": "home decor ecommerce website",
+  "mode": "website",
+  "referenceSource": "ration-home-decor-ecommerce-png",
+  "batchItem": "2",
+  "routeSource": "brain_design_router",
+  "brandReferenceUsage": {
+    "candidateBrandName": "Solenne Living",
+    "referenceUsageMode": "single",
+    "referenceGroupKey": "ration-home-decor-ecommerce-png",
+    "referenceIds": ["ration-home-decor-ecommerce-png"],
+    "gateStatus": "PASS",
+    "whyAllowedByMemory": "reference usage gate passed; Ration brand is not reused"
+  },
+  "styleDNA": {
+    "typographyBehavior": "expressive decor headline with italic warmth and practical shopping labels",
+    "layoutRhythm": "editorial room story, collection discovery, product staging, shop grid, social proof, and journal flow",
+    "spacingDensity": "warm spacious room-led sections balanced by scannable product and category modules",
+    "colorBehavior": "lifestyle warmth, soft surfaces, nature accent, tactile product highlights, and restrained CTA contrast",
+    "imageDirection": "room scene, product shelf, material detail, artisan, and gallery placeholders",
+    "shapeLanguage": "rounded editorial cards, product shelves, soft panels, and catalog tiles",
+    "effectLanguage": "warm shadows, material-stage depth, soft scrims, and subtle product-card elevation",
+    "premiumSignal": "decor-commerce modules for room recipes, material proof, product grid, style quiz, gallery, and journal"
+  },
+  "referenceStandard": {
+    "observedSectionCountRange": "the reference is a full commerce homepage with 10-12 meaningful sections",
+    "sectionRoleEvidence": "navigation, lifestyle hero, logos, value cards, feature story, product/process blocks, large product stage, blog, and footer",
+    "layoutShapeInventory": "room hero, card trio, split editorial feature, numbered feature grid, giant product showcase, journal cards, footer columns",
+    "colorRoleInventory": "warm light base, yellow product/accent, black text, white cards, soft shadow, muted gray copy",
+    "effectGradientInventory": "soft product shadows, warm spotlight/scrim, elevated cards, image crop depth, and subtle CTA fill",
+    "marketplaceCompletenessClues": "decor ecommerce needs categories, product cards, collection story, material proof, style quiz, gallery/social proof, journal, and footer",
+    "remixPlan": "learn warm commerce storytelling and product-led depth while changing palette, hero grammar, category flow, and product-stage composition",
+    "minimalistFallbackRejected": true
+  },
+  "designIntentLock": {
+    "productType": "editable home decor ecommerce website template",
+    "outputMedium": "Figma source template",
+    "targetBuyer": "marketplace buyers for interior, furniture, and decor shops",
+    "useCase": "premium decor ecommerce homepage with editorial buying journey",
+    "marketplaceValue": "complete shop template with categories, products, room recipes, style quiz, material proof, gallery, and journal",
+    "primaryGoal": "sell a warm, premium decor-commerce source template without copying Ration's yellow hero grammar"
+  },
+  "visualGrammar": {
+    "gridBehavior": "editorial shelf grid with asymmetric room stage and modular catalog rails",
+    "spacingCadence": "room-like calm openings, denser product shelves, and airy editorial pauses",
+    "typeHierarchy": "large lifestyle headline, italic accent words, medium collection titles, compact product metadata",
+    "surfaceDepth": "raised product shelves, warm material cards, soft gallery tiles, and a folded newsletter footer",
+    "colorRoles": "porcelain background, sage accent, clay action, ink text, ivory surface, moss proof, warm border",
+    "imageTreatment": "placeholder slots framed like room scenes, product shelves, artisan details, and customer spaces",
+    "effectLogic": "soft shadow and material warmth create product tactility without copying yellow spotlight behavior",
+    "componentRhythm": "collection tabs, product cards, recipe cards, material badges, quiz steps, gallery tiles, journal cards"
+  },
+  "referenceBoundary": {
+    "allowedToLearn": "decor commerce warmth, product-stage importance, editorial headline rhythm, and category-rich homepage depth",
+    "forbiddenToCopy": "exact layout, exact yellow-black color palette, exact section order, hero grammar, furniture placement, component grouping, product card cadence, and blog/footer composition",
+    "exactLayoutCopied": "no",
+    "exactPaletteCopied": "no",
+    "exactSectionOrderCopied": "no",
+    "heroGrammarCopied": "no",
+    "componentScaffoldCopied": "no"
+  },
+  "colorRoleRemapping": {
+    "referenceDominantColorIdentity": "cream and yellow decor identity",
+    "referenceColorRoles": "cream base, yellow action/product highlight, black text, white card surfaces",
+    "remappedPaletteDirection": "porcelain, sage, clay, soft ivory, moss, and deep ink",
+    "newAccentIdentity": "clay CTA with sage collection accents",
+    "preservedEmotionalRole": "warmth, optimism, and decor tactility remain without copying yellow dominance",
+    "avoidedExactHues": "reference yellow hero/accent dominance avoided",
+    "contrastHierarchyBehavior": "ink text anchors legibility, clay handles purchase actions, sage guides category and material trust"
+  },
+  "visualMoodReinterpretation": {
+    "referenceMood": "warm, stylish, friendly, decor-commerce editorial",
+    "reinterpretedMood": "quiet atelier home shop with tactile shelves and curated room recipes",
+    "changedComposition": "room-atlas hero and collection shelf replace the reference's large furniture hero",
+    "changedHierarchy": "category discovery and material confidence lead before product grid",
+    "changedAssetTreatment": "placeholder zones describe room scenes, material details, and product photos",
+    "changedDepthEffect": "folded shelf shadows and warm paper surfaces replace yellow product spotlight"
+  },
+  "structuralReconfiguration": {
+    "referenceStructurePattern": "hero, logos, card trio, feature split, numbered features, large sofa, blog, footer",
+    "newStructurePattern": "room-atlas hero, category ribbon, room recipes, featured shelf, style quiz, product grid, material proof, customer gallery, journal, newsletter colophon, footer",
+    "heroGrammarChange": "curated room atlas with mini catalog rail instead of centered furniture hero",
+    "sectionOrderChange": "category ribbon and room recipes happen before product stage and quiz",
+    "gridSystemChange": "shelf/editorial grid replaces centered stacked ecommerce panels",
+    "ctaFlowChange": "shop actions appear as collection browsing, style quiz, product cards, and newsletter offer",
+    "componentLayoutChange": "recipe cards, shelf modules, quiz panels, and gallery tiles replace repeated feature blocks"
+  },
+  "patternDivergence": {
+    "divergenceFromReference": "new palette, room-atlas opening, shelf flow, quiz module, and newsletter closure",
+    "divergenceFromPreviousTemplate": "avoids consulting proof ledgers, process spine, dark inquiry tray, and executive evidence console",
+    "heroDivergence": "room atlas plus product sample rail instead of Qicons-style evidence console or Ration furniture hero",
+    "sectionRhythmDivergence": "commerce shelves, room recipes, style quiz, material proof, gallery, and editorial journal",
+    "visualLanguageDivergence": "sage/clay tactile commerce rather than teal/amber executive business",
+    "componentCadenceDivergence": "product shelves and room recipe modules replace consulting diagnostics and ledgers"
+  },
+  "sectionLogic": {
+    "sectionList": ["header", "room atlas hero", "category ribbon", "room recipes", "featured collection shelf", "style quiz", "product discovery grid", "material and maker proof", "customer gallery", "journal preview", "newsletter colophon", "footer"],
+    "roleOfEachSection": "orientation, desire, discovery, room fit, product focus, personalization, shopping, trust, social proof, inspiration, retention, and navigation closure",
+    "buyerJourneyFlow": "fall in love with mood, browse categories, find room fit, inspect products, trust materials, see social proof, and subscribe or shop",
+    "fillerSectionsRemoved": "no filler; each section supports decor shopping or buyer template reuse",
+    "productFamilyDepthStandard": "12-section home decor ecommerce homepage with product, category, proof, gallery, journal, and retention modules"
+  },
+  "marketplaceReadiness": {
+    "sectionDepth": "12 meaningful sections",
+    "premiumSignal": "editorial commerce, material proof, product shelves, room recipes, and source-ready placeholders",
+    "editability": "auto-layout catalog modules, editable product cards, placeholder slots, state specimens, and design-system board planned",
+    "sourceReadiness": "Figma source uses separate design system, named layers, product modules, placeholder guide, and responsive notes",
+    "previewValue": "hero, shelf, grid, gallery, and design-system specimens can show marketplace breadth",
+    "commercialUsefulness": "buyers can adapt collections, product cards, materials, gallery, journal, quiz, and newsletter",
+    "nonGenericProof": "not a generic ecommerce grid; it includes room recipes, material proof, style quiz, and customer gallery"
+  },
+  "status": "PASS"
+}

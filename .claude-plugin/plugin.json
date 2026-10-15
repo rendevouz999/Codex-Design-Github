@@ -1,0 +1,10 @@
+{
+  "name": "codex-design",
+  "displayName": "Codex Design Brain",
+  "version": "2.8.0",
+  "description": "Codex Design Brain with native PowerPoint and browser-deck design, reference-led UI/template workflows, and portable Supabase shared memory with local offline recovery.",
+  "author": {
+    "name": "Yusuf Muhamad Iqbal"
+  },
+  "hooks": "./hooks/hooks.json"
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Brain Design Compatibility Contract",
+  "type": "object",
+  "required": ["decisionOwner", "supportLayer", "forbiddenOverrides"],
+  "properties": {
+    "decisionOwner": {"const": "Brain Design"},
+    "supportLayer": {"const": "Design Craft"},
+    "forbiddenOverrides": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "status": "PASS",
+  "templateId": "qryon-labs-quantum-saas-website",
+  "templateName": "QRYON Labs Quantum Website Template",
+  "mode": "figma website template source",
+  "productFamily": "SaaS product marketing website",
+  "designSystemScope": "Per-template editable design system board for QRYON Labs, covering token roles, typography hierarchy, spacing, component anatomy, component states, section modules, placeholder behavior, responsive notes, package map, and source-hygiene guidance.",
+  "colorTokens": {
+    "background": "#F5F0E4 ivory canvas",
+    "surface": "#FFF8EA warm source surface",
+    "surfaceElevated": "#FBF1DE raised card surface",
+    "textPrimary": "#201B19 graphite primary text",
+    "textSecondary": "#5F524B warm secondary copy",
+    "textMuted": "#8B7A6F muted support text",
+    "accent": "#19C6B7 quantum cyan accent",
+    "action": "#8C2F39 oxide burgundy action",
+    "border": "#D9CDBB soft editorial divider",
+    "darkBand": "#261517 deep quantum band",
+    "goldSignal": "#D8A84F research highlight"
+  },
+  "typographyTokens": {
+    "display": "Playfair Display editorial hero display",
+    "h1": "Playfair Display 76-92px source H1",
+    "h2": "Playfair Display 46-58px section title",
+    "h3": "Playfair Display 28-34px card title",
+    "body": "Inter 18px product copy",
+    "bodySmall": "Inter 14-15px dense proof text",
+    "label": "Inter uppercase 12px label and eyebrow",
+    "button": "Inter Semi Bold 14-15px CTA labels",
+    "nav": "Inter 14px navigation links"
+  },
+  "spacingTokens": {
+    "scale": "8px base with 12, 16, 24, 32, 48, 72, 96 steps",
+    "sectionY": "96-140px vertical sections, tighter inside dark product bands",
+    "componentPadding": "20-36px cards and 14-18px buttons",
+    "cardGap": "18-28px repeated module gap",
+    "gridGap": "24-36px homepage grids",
+    "container": "1180px content width inside 1440px source frame"
+  },
+  "components": [
+    "navigation header with product CTA",
+    "hero media placeholder and proof chips",
+    "button primary, secondary, dark, text link",
+    "feature card and capability card",
+    "pricing card and demo form CTA",
+    "workflow timeline module",
+    "integration row for quantum/cloud/research tools",
+    "proof metric card and testimonial card",
+    "FAQ accordion card",
+    "footer navigation and final CTA",
+    "image placeholder blocks and profile photo placeholder rules"
+  ],
+  "states": [
+    "default",
+    "hover",
+    "focus",
+    "active",
+    "disabled",
+    "selected",
+    "expanded"
+  ],
+  "componentAnatomy": {
+    "navigation header": "Logo, nav links, small status pill, primary CTA, responsive collapse guidance.",
+    "button": "Primary oxide action, secondary outline, dark-band inverse, hover/active/focus/disabled states.",
+    "card": "Surface, eyebrow, title, body, icon chip, optional metric, link action, border/elevation rules.",
+    "cta": "Final conversion block with demo form entry point, proof strip, and footer closure.",
+    "placeholder": "Editable text clue layers using image placeholder: [purpose] and profile photo placeholder: [role].",
+    "pricing": "Three package tiers with buyer-fit labels, proof bullets, CTA, and enterprise option.",
+    "integration": "Partner/tool row for cloud, research, security, and workflow signals.",
+    "workflow": "Four-step deployment sequence with dark-band contrast and connective line.",
+    "proof": "Metrics, reliability card, testimonial/research quote, security badges, and validation labels.",
+    "form": "Demo/contact CTA pattern with field guidance for future Contact / Demo page extension."
+  },
+  "patternModules": [
+    "editorial quantum hero with central media placeholder",
+    "early signal proof strip",
+    "service architecture stack",
+    "dark product preview showcase",
+    "use-case pathway grid",
+    "deployment workflow",
+    "security and reliability proof",
+    "testimonial and research case proof",
+    "pricing and demo options",
+    "resources and insights",
+    "FAQ objection handling",
+    "footer closure"
+  ],
+  "usageRules": [
+    "Keep the ivory editorial base, oxide action, and cyan signal roles distinct.",
+    "Do not convert the template into a generic SaaS hero/cards/pricing layout; preserve the research/product rhythm.",
+    "Use placeholders as source-editable text clues unless final imagery is explicitly requested.",
+    "Dark bands should hold product preview, security, or conversion tension rather than decorative filler.",
+    "Extend future pages from the included source map and section modules."
+  ],
+  "surfaceEffectTokens": {
+    "editorialCanvas": "Warm ivory page base with subtle divider lines.",
+    "quantumBand": "Deep burgundy/graphite bands for product preview and final CTA.",
+    "signalGlow": "Small cyan/gold highlights used for data status, not large decorative blobs.",
+    "raisedSurface": "Warm elevated cards with thin border and soft shadow.",
+    "researchGrid": "Fine-line structural grid and circular orbit motif used sparingly."
+  },
+  "placeholderRules": [
+    "Use image placeholder: [purpose] for all website source image slots.",
+    "Use profile photo placeholder: [role] for testimonial or human image slots.",
+    "Do not embed generated imagery in editable source unless explicitly requested.",
+    "Make placeholder purpose specific, such as quantum control dashboard screenshot or research lab operator portrait."
+  ],
+  "sourceHygiene": {
+    "autoLayout": true,
+    "editableText": true,
+    "editablePlaceholders": true,
+    "clearLayerNames": true,
+    "reusableComponents": true,
+    "responsiveConstraints": true,
+    "flattenedImportantContent": false,
+    "autoLayoutReceipt": "Homepage sections, nav, cards, CTAs, repeated rows, pricing, FAQ, footer, and design-system panels were built with Figma auto-layout. Manual positioning is limited to intentional decorative orbit/line/background accents."
+  },
+  "artifactEvidence": {
+    "figmaFileKey": "l9mO0YeU3ilWPCzR2RJPuu",
+    "figmaUrl": "https://www.figma.com/design/l9mO0YeU3ilWPCzR2RJPuu",
+    "homepageNodeId": "3:2",
+    "designSystemPageId": "3:513",
+    "figmaNodeSummaryPath": ".design-brain/builds/qryon-quantum-website-template/figma-summary.json",
+    "screenshotPath": ".design-brain/screenshots/qryon/qryon-design-system-after.png",
+    "componentInventory": [
+      "navigation header",
+      "buttons",
+      "cards",
+      "pricing",
+      "integration",
+      "workflow",
+      "proof",
+      "form CTA",
+      "footer",
+      "placeholder modules"
+    ]
+  }
+}

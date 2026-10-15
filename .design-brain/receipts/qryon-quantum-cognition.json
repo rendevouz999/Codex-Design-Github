@@ -1,0 +1,128 @@
+{
+  "task": "Create a premium reference-led Figma website template inspired by Tria quantum computing website preview",
+  "productFamily": "saas_product_marketing_website",
+  "mode": "website",
+  "referenceSource": "Template Website/tria-quantum-computing-website-2025-10-03-22-29-53-utc - Tria - Quantum Computing Website - 9ab318bb.jpg",
+  "batchItem": "",
+  "routeSource": "brain_design_router",
+  "brandReferenceUsage": {
+    "candidateBrandName": "QRYON Labs",
+    "referenceUsageMode": "single",
+    "referenceGroupKey": "tria-quantum-computing-website-9ab318bb",
+    "referenceIds": ["tria-quantum-computing-website-9ab318bb"],
+    "gateStatus": "PASS_WITH_WARNING_UNKNOWN_REFERENCE_ID",
+    "whyAllowedByMemory": "candidate brand passed naming check and reference usage gate reported no blocking reasons"
+  },
+  "styleDNA": {
+    "typographyBehavior": "large editorial serif display headings with compact technical sans labels and body copy",
+    "layoutRhythm": "calm ivory sections alternate with dense proof modules, dark technical bands, and asymmetric media cards",
+    "spacingDensity": "spacious first impression with controlled density where proof, workflow, and pricing decisions happen",
+    "colorBehavior": "reference uses deep burgundy and ivory for premium contrast; new palette remaps that function into ivory, graphite, oxide red, and electric cyan signal accents",
+    "imageDirection": "futuristic lab, console, research, product dashboard, and team slots become role-specific source placeholders",
+    "shapeLanguage": "rounded editorial panels, capsule CTAs, thin dividers, orbital technical marks, and card stacks",
+    "effectLanguage": "soft floating panels, hairline depth, restrained signal glow, and image placeholder overlays",
+    "premiumSignal": "full SaaS/product website depth, buyer-usable design system, source placeholders, and original deep-tech editorial pacing"
+  },
+  "referenceStandard": {
+    "observedSectionCountRange": "Tria preview is a long 1920x7000 product website with roughly 8-10 meaningful blocks; local SaaS/AI corpus suggests 10-14 homepage blocks plus page map and design system",
+    "sectionRoleEvidence": "visible hero, editorial card row, dark product band, feature split, media gallery, FAQ, CTA strip, proof collage, metrics, contact/footer; local Geri, Jack, and Yoru references reinforce AI/SaaS proof, FAQ, footer, and media-led product credibility",
+    "layoutShapeInventory": "asymmetric hero collage, floating cards, dark contrast band, editorial split, gallery pair, FAQ matrix, proof collage, metric rail, heavy footer",
+    "colorRoleInventory": "ivory background, dark text, burgundy action/surface, black CTA, muted dividers, image overlay, technical accent",
+    "effectGradientInventory": "soft card shadows, image overlays, deep colored panels, signal highlights, floating cards, and restrained glow in nearby AI/SaaS references",
+    "marketplaceCompletenessClues": "long homepage, editable image-heavy areas, product proof, FAQ, contact form, footer navigation, design-system need, responsive behavior notes",
+    "remixPlan": "reuse the editorial-deep-tech decision logic, but change hero grammar, order, palette roles, media treatment, component cadence, and CTA staging",
+    "minimalistFallbackRejected": true
+  },
+  "designIntentLock": {
+    "productType": "editable quantum computing SaaS/product marketing website template",
+    "outputMedium": "Figma website source template",
+    "targetBuyer": "Figma marketplace buyers serving quantum startups, AI labs, enterprise innovation teams, and research platforms",
+    "useCase": "premium website starter for deep-tech product marketing, demo conversion, technical proof, and research credibility",
+    "marketplaceValue": "complete source template with homepage, page map, component specimens, placeholders, states, and buyer-editing guidance",
+    "primaryGoal": "deliver a sellable Figma website template that feels as premium as the reference while remaining original and editable"
+  },
+  "visualGrammar": {
+    "gridBehavior": "12-column desktop canvas with asymmetric editorial stacks, bento proof modules, dark lab bands, and clear content containers",
+    "spacingCadence": "hero uses large breathing room; technical proof and pricing become denser; CTA/footer close with heavy dark grounding",
+    "typeHierarchy": "Playfair Display for display/H1/H2, Inter for labels/body/nav/buttons, with high contrast between large editorial statements and compact technical metadata",
+    "surfaceDepth": "flat ivory background, raised source cards, inset graphite console panels, signal-glow accents, and dark CTA/footer surfaces",
+    "colorRoles": "background, surface, graphite surface, elevated surface, primary text, muted text, oxide action, cyan signal, border, success/warning/error",
+    "imageTreatment": "role-specific placeholders inside polished media frames with crop guides and signal overlays",
+    "effectLogic": "floating panel shadows for editable cards, signal glow only around quantum/console focus, hairline borders for technical trust",
+    "componentRhythm": "nav, badges, metric chips, hero console, feature cards, workflow steps, pricing cards, resource cards, FAQ rows, contact form, footer columns"
+  },
+  "referenceBoundary": {
+    "allowedToLearn": "premium deep-tech mood, editorial serif scale, calm-to-dense rhythm, image proof, dark rhythm bands, FAQ/CTA/footer completeness, and technical proof cues",
+    "forbiddenToCopy": "Do not copy exact layout, color palette, section order, hero grammar, component scaffold, Tria brand name, burgundy role map, central figure hero, speech-bubble headline treatment, floating card placement, image sequence, or footer composition",
+    "exactLayoutCopied": "no",
+    "exactPaletteCopied": "no",
+    "exactSectionOrderCopied": "no",
+    "heroGrammarCopied": "no",
+    "componentScaffoldCopied": "no"
+  },
+  "colorRoleRemapping": {
+    "referenceDominantColorIdentity": "ivory with deep burgundy editorial technology accents",
+    "referenceColorRoles": "ivory background, burgundy hero/product surfaces and CTAs, black secondary CTA, muted grey text, image-overlay proof",
+    "remappedPaletteDirection": "ivory background, dark graphite technical surfaces, oxide red action, electric cyan signal, pale mist surfaces, and restrained deep ink text",
+    "newAccentIdentity": "oxide red for action and cyan for quantum signal/proof",
+    "preservedEmotionalRole": "premium contrast, futuristic energy, and high-confidence technical focus are preserved without copying hue identity",
+    "avoidedExactHues": "reference burgundy dominance and identical CTA/background role map avoided",
+    "contrastHierarchyBehavior": "ivory pages support editorial readability; graphite bands create technical depth; oxide CTA anchors action; cyan marks active signal data"
+  },
+  "visualMoodReinterpretation": {
+    "referenceMood": "premium, editorial, futuristic, cinematic, research-led, and high contrast",
+    "reinterpretedMood": "editorial quantum lab with precision instrumentation, calm enterprise trust, and controlled signal energy",
+    "changedComposition": "left-right lab console masthead replaces central figure collage; bento proof and workflow bands replace copied card cadence",
+    "changedHierarchy": "product promise, operational proof, workflow, security, and demo conversion lead the buyer journey",
+    "changedAssetTreatment": "all source media slots use role-specific placeholders instead of generated or copied futuristic figures",
+    "changedDepthEffect": "graphite console depth and cyan signal glow replace burgundy block dominance and reference card placement"
+  },
+  "structuralReconfiguration": {
+    "referenceStructurePattern": "editorial hero collage, card row, product band, feature splits, FAQ, CTA strip, proof collage, footer",
+    "newStructurePattern": "header, lab-console hero, signal proof, quantum stack service/capability modules, dark product preview showcase, use-case pathways, deployment workflow process, reliability/security, testimonial and research proof, pricing/demo, resources, FAQ, final CTA/footer, design system with package and preview notes",
+    "heroGrammarChange": "dashboard/lab console and proof rail replace central cutout figure and speech-bubble headline",
+    "sectionOrderChange": "proof and architecture appear earlier; pricing/resources/FAQ are added as full SaaS buyer-evaluation steps",
+    "gridSystemChange": "12-column editorial bento with dark technical bands replaces the reference's central collage cadence",
+    "ctaFlowChange": "demo CTAs appear in hero, pricing, FAQ close, and final dark footer with different context",
+    "componentLayoutChange": "architecture cards, console placeholder, workflow steps, security panels, pricing/demo cards, resource cards, and form modules replace repeated image/cards"
+  },
+  "patternDivergence": {
+    "divergenceFromReference": "new brand, hero grammar, section order, palette role map, source-placeholder strategy, proof/pricing/resource depth, and component cadence",
+    "divergenceFromPreviousTemplate": "single-template task; no prior output in this build session",
+    "heroDivergence": "asymmetric product console masthead with signal orbit and metrics instead of figure-led fashion-science collage",
+    "sectionRhythmDivergence": "alternates proof strip, architecture bento, dark showcase, workflow, reliability, pricing, resources, FAQ, and footer",
+    "visualLanguageDivergence": "oxide/cyan/graphite color roles and signal-grid motifs diverge from burgundy editorial Tria identity",
+    "componentCadenceDivergence": "deep-tech SaaS modules and design-system specimens replace reference's image-card sequence"
+  },
+  "sectionLogic": {
+    "sectionList": [
+      "header and quantum lab hero",
+      "signal proof strip",
+      "quantum stack service architecture",
+      "dark product preview showcase",
+      "use-case pathways",
+      "deployment workflow process",
+      "reliability and security proof",
+      "testimonial and research case proof",
+      "pricing and demo options",
+      "resources and insights",
+      "FAQ and objection handling",
+      "final CTA and footer",
+      "design system board with section breakdown, included-file notes, responsive behavior notes, and future cover/preview direction"
+    ],
+    "roleOfEachSection": "orientation, trust, service/capability clarity, product proof, buyer self-selection, process confidence, enterprise assurance, testimonial evidence, conversion, education, objection handling, closure, and source reuse",
+    "buyerJourneyFlow": "understand category value, trust the platform, inspect how it works, choose a use case, believe deployment is safe, request demo, and adapt the source template",
+    "fillerSectionsRemoved": "no filler; every section answers a SaaS/deep-tech buyer question",
+    "productFamilyDepthStandard": "SaaS/product marketing website standard: 10-14 homepage blocks plus page map/design system"
+  },
+  "marketplaceReadiness": {
+    "sectionDepth": "12 meaningful homepage sections plus design-system board with package overview and future cover/preview direction",
+    "premiumSignal": "editorial serif typography, technical panels, source-ready placeholders, pricing/demo, security, FAQ, resources, and heavy footer",
+    "editability": "auto-layout frames, named layers, editable text, reusable component specimens, source placeholder labels, and documented states",
+    "sourceReadiness": "Figma auto-layout, component-like modules, design-system board, responsive notes, placeholder guide, and source hygiene notes planned",
+    "previewValue": "main page and design-system board can support future marketplace cover and overview previews",
+    "commercialUsefulness": "deep-tech buyer can adapt product proof, use cases, pricing, resources, FAQ, and demo/contact flow immediately",
+    "nonGenericProof": "not a hero/features/CTA scaffold; includes architecture, console, workflow, security, research proof, pricing, resources, FAQ, and source system"
+  },
+  "status": "PASS"
+}

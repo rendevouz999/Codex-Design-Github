@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "design-brain.lifecycle.brand-reference-usage.v1",
+  "title": "Brain Design Brand Reference Usage Registry",
+  "type": "object",
+  "required": ["version", "references", "referenceGroups", "generatedBrands", "blockedNames"],
+  "additionalProperties": true,
+  "properties": {
+    "version": { "type": "string" },
+    "description": { "type": "string" },
+    "updatedAt": { "type": "string" },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["referenceId", "referenceBrandName"],
+        "additionalProperties": true,
+        "properties": {
+          "referenceId": { "type": "string", "minLength": 1 },
+          "referenceBrandName": { "type": "string", "minLength": 1 },
+          "productFamily": { "type": "string" },
+          "niche": { "type": "string" },
+          "sourcePath": { "type": "string" },
+          "sourceType": {
+            "type": "string",
+            "enum": ["screenshot", "figma", "marketplace-preview", "local-corpus", "manual"]
+          },
+          "singleUseStatus": {
+            "type": "string",
+            "enum": ["available", "used"]
+          },
+          "usageStatus": {
+            "type": "object"
+          },
+          "usedSingleByTemplateId": { "type": "string" },
+          "usedSingleByBrandName": { "type": "string" },
+          "usedSingleAt": { "type": "string" },
+          "styleDnaSummary": { "type": "object" },
+          "doNotCopyBoundary": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "notes": { "type": "string" }
+        }
+      }
+    },
+    "referenceGroups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["groupKey", "groupSize", "referenceIds", "mode", "usageStatus"],
+        "additionalProperties": true,
+        "properties": {
+          "groupKey": { "type": "string", "minLength": 1 },
+          "groupSize": { "type": "integer", "enum": [1, 2, 3] },
+          "referenceIds": {
+            "type": "array",
+            "items": { "type": "string" },
+            "minItems": 1,
+            "maxItems": 3
+          },
+          "referenceBrandNames": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "mode": { "type": "string", "enum": ["single", "pair", "triple"] },
+          "usageStatus": {
+            "oneOf": [
+              { "type": "string", "enum": ["available", "used"] },
+              { "type": "object" }
+            ]
+          },
+          "usedByTemplateId": { "type": "string" },
+          "usedByBrandName": { "type": "string" },
+          "usedAt": { "type": "string" },
+          "combinedStyleDnaLogic": { "type": "string" },
+          "transformationPlan": { "type": "string" },
+          "doNotCopyBoundary": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "notes": { "type": "string" }
+        }
+      }
+    },
+    "generatedBrands": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["templateId", "brandName", "referenceMode", "referenceGroupKey", "referenceIds", "createdAt"],
+        "additionalProperties": true,
+        "properties": {
+          "templateId": { "type": "string", "minLength": 1 },
+          "brandName": { "type": "string", "minLength": 1 },
+          "templateType": { "type": "string" },
+          "productFamily": { "type": "string" },
+          "niche": { "type": "string" },
+          "targetBuyer": { "type": "string" },
+          "referenceMode": { "type": "string", "enum": ["single", "pair", "triple"] },
+          "referenceGroupKey": { "type": "string", "minLength": 1 },
+          "referenceIds": {
+            "type": "array",
+            "items": { "type": "string" },
+            "minItems": 1,
+            "maxItems": 3
+          },
+          "referenceBrandNames": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "nameTokens": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "createdAt": { "type": "string", "minLength": 1 },
+          "buildSession": { "type": "string" },
+          "receiptPath": { "type": "string" },
+          "fingerprintPath": { "type": "string" },
+          "notes": { "type": "string" }
+        }
+      }
+    },
+    "blockedNames": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "source", "createdAt"],
+        "additionalProperties": true,
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "normalized": { "type": "string" },
+          "reason": { "type": "string" },
+          "source": {
+            "type": "string",
+            "enum": ["output-brand", "reference-brand", "manual", "similarity"]
+          },
+          "createdAt": { "type": "string" }
+        }
+      }
+    }
+  }
+}

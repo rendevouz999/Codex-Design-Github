@@ -1,0 +1,123 @@
+{
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 003",
+    "reviewNotes": "Checkpoint 003 is visually inspected learning evidence; keep incoming until hyper-accuracy review and matching rationale pass.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, color identity, imagery, icon systems, decorative geometry, or section order."
+  },
+  "patternId": "checkpoint-003-hero-restaurant-product-cutout-dark-stage",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\a-gourment-pizza-revolution-landing-page-2024-03-21-18-50-34-utc - Pizzeria - A Gourment Pizza Revolution Landing Page - 9f0d8f30.png"
+  ],
+  "productFamilies": [
+    "restaurant",
+    "food",
+    "hospitality",
+    "website"
+  ],
+  "commercialPurpose": "Open a restaurant/food page with appetite appeal by making the product itself dominate the hero composition.",
+  "purposeLayer": "Hero uses oversized food imagery as the emotional proof before the user reads menu or story content.",
+  "anatomyLayer": "Dark textured background, simple nav, small category line, large headline, short description, CTA, and oversized circular product photo breaking the edge.",
+  "hierarchyLayer": "Food image and headline share first focus, CTA second, texture/nav third.",
+  "gridRhythmLayer": "Split hero with left copy and right oversized product cutout over dark textured surface.",
+  "densityLimitLayer": "Use one food hero image, one headline, one CTA, one support paragraph, and simple nav.",
+  "originalityLayer": "Learn appetite-first product cutout staging; do not copy exact pizza image, orange hue, or texture.",
+  "usageRuleLayer": "Use for restaurant, cafe, bakery, food delivery, product food, and hospitality landing pages.",
+  "layoutGesture": "dark food hero with oversized product cutout",
+  "sectionSilhouette": "left offer copy beside edge-breaking circular food image",
+  "compositionTension": "textured dark restraint contrasts with vivid appetizing product scale",
+  "focalPath": "product image to headline to CTA",
+  "negativeSpaceShape": "dark open field around a large warm product form",
+  "depthLayering": "background texture, product photo layer, foreground copy/button",
+  "moduleScaleVariation": "huge product image with compact text block",
+  "breakoutBehavior": "product image breaks hero edge",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1",
+    "proofCue": "0-1",
+    "mediaSystem": 1
+  },
+  "antiCopyBoundary": "Do not copy exact pizza photo, orange CTA, Pizzeria brand, texture, or nav labels.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "services",
+      "commerce-grid",
+      "stats-proof"
+    ],
+    "notAScaffold": true
+  },
+  "structuralSignature": {
+    "signatureId": "hero:ab306910baf57489",
+    "hash": "ab306910baf57489cd140ffcce173e50015a4c54",
+    "axes": {
+      "layoutGesture": "dark food hero with oversized product cutout",
+      "sectionSilhouette": "left offer copy beside edge-breaking circular food image",
+      "anatomyLayer": "dark textured background, simple nav, small category line, large headline, short description, cta, and oversized circular product photo breaking the edge.",
+      "hierarchyLayer": "food image and headline share first focus, cta second, texture/nav third.",
+      "gridRhythmLayer": "split hero with left copy and right oversized product cutout over dark textured surface.",
+      "focalPath": "product image to headline to cta",
+      "compositionTension": "textured dark restraint contrasts with vivid appetizing product scale",
+      "negativeSpaceShape": "dark open field around a large warm product form",
+      "moduleScaleVariation": "huge product image with compact text block",
+      "breakoutBehavior": "product image breaks hero edge",
+      "contentLimits": "{\"cta\":\"1\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"0-1\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.204,
+  "matchGroupId": "hero:ab306910baf57489",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:55:20Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 3,
+    "bestMatch": {
+      "score": 0.204,
+      "axisScores": {
+        "layoutGesture": 0.1538,
+        "sectionSilhouette": 0.0,
+        "anatomyLayer": 0.1935,
+        "hierarchyLayer": 0.2632,
+        "gridRhythmLayer": 0.1111,
+        "focalPath": 0.2,
+        "compositionTension": 0.1111,
+        "negativeSpaceShape": 0.3846,
+        "moduleScaleVariation": 0.0769,
+        "breakoutBehavior": 0.0,
+        "contentLimits": 0.75
+      },
+      "patternId": "checkpoint-002-hero-startup-dark-centered-dual-cta-masthead",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-002-hero-startup-dark-centered-dual-cta-masthead.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

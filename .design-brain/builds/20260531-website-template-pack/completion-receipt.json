@@ -1,0 +1,56 @@
+{
+  "buildId": "20260531-website-template-pack",
+  "figmaFileKey": "CgdE9bpMfAILXpcFcrJMPC",
+  "figmaUrl": "https://www.figma.com/design/CgdE9bpMfAILXpcFcrJMPC",
+  "finalStatus": "READY",
+  "templates": [
+    {
+      "templateId": "vantaledger-ai-finance-saas",
+      "templateName": "VantaLedger AI Finance SaaS",
+      "sourceNodeId": "5:2",
+      "designSystemNodeId": "9:2",
+      "referencesCombined": [
+        "Fintech Digital Bank Payment Website",
+        "NEURONIX AI Technology for Business Website"
+      ],
+      "meaningfulHomepageBlocks": 12,
+      "visualInspectionScreenshot": ".design-brain/screenshots/20260531-vantaledger-website-final.png",
+      "repairCycles": 2,
+      "status": "READY"
+    },
+    {
+      "templateId": "asterbay-retreat-hospitality",
+      "templateName": "AsterBay Retreat",
+      "sourceNodeId": "7:2",
+      "designSystemNodeId": "10:2",
+      "referencesCombined": [
+        "Mercure Hotel & Resort Website",
+        "Oceavara Luxury Yacht Boat Service Website"
+      ],
+      "meaningfulHomepageBlocks": 12,
+      "visualInspectionScreenshot": ".design-brain/screenshots/20260531-asterbay-website-final.png",
+      "repairCycles": 2,
+      "status": "READY"
+    }
+  ],
+  "includedPages": [
+    "00 Cover + Pack Overview",
+    "01 VantaLedger - Website Source",
+    "01 VantaLedger - Design System",
+    "02 AsterBay Retreat - Website Source",
+    "02 AsterBay Retreat - Design System",
+    "03 Completion Receipts"
+  ],
+  "qualityGateSummary": {
+    "referenceLedStructure": "PASS",
+    "separateFingerprints": "PASS",
+    "batchSimilarity": "PASS",
+    "designSystemSourceHygiene": "PASS",
+    "editableImagePlaceholders": "PASS",
+    "autoLayoutReceipt": "PASS",
+    "visualInspection": "PASS",
+    "marketplaceCompleteness": "PASS"
+  },
+  "remainingIssues": [],
+  "completionStatement": "Two editable Figma website templates are ready with separate source pages, design-system boards, cover overview, placeholders, and audit evidence."
+}

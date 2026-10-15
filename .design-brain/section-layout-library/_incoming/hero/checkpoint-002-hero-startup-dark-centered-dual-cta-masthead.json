@@ -1,0 +1,133 @@
+{
+  "patternId": "checkpoint-002-hero-startup-dark-centered-dual-cta-masthead",
+  "sectionType": "hero",
+  "commercialPurpose": "Open a startup or lead-generation page with immediate value proposition, two action paths, and dark high-contrast credibility mood.",
+  "purposeLayer": "Hero frames the offer as simple and ready-to-start, pushing trial/demo action before detailed explanation.",
+  "anatomyLayer": "Dark photographic or product-context background, centered eyebrow, bold headline, two CTAs, and small scroll cue.",
+  "hierarchyLayer": "Headline first, CTA pair second, background product atmosphere third, scroll cue last.",
+  "gridRhythmLayer": "Single centered text stack floats over a full-width dark media stage with generous vertical height.",
+  "densityLimitLayer": "Use 1 primary message, 1 eyebrow, 2 CTAs maximum, 1 controlled media/background system, and optional scroll cue.",
+  "originalityLayer": "Learn centered dual-action startup masthead logic; transform color, media source, CTA wording, and proof cue for new products.",
+  "usageRuleLayer": "Use for lead-gen, startup, SaaS, app, and productized service landing pages where action clarity matters before feature density.",
+  "layoutGesture": "dark centered offer masthead with dual CTA path",
+  "sectionSilhouette": "full-width dark hero slab with centered text stack",
+  "compositionTension": "bright CTA pair held against a quiet dark product-photo background",
+  "focalPath": "eyebrow to headline to dual CTAs to scroll cue",
+  "negativeSpaceShape": "large dark field around a compact centered message island",
+  "depthLayering": "background image plane under translucent dark overlay and foreground controls",
+  "moduleScaleVariation": "oversized hero field with small CTA controls",
+  "breakoutBehavior": "full-bleed dark media band",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1-2",
+    "proofCue": "0-1",
+    "mediaSystem": 1,
+    "scrollCue": "0-1"
+  },
+  "antiCopyBoundary": "Do not copy exact dark office/product background, copy line, coral CTA pair, or circular scroll icon.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "features",
+      "services",
+      "stats-proof"
+    ],
+    "notAScaffold": true
+  },
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\118_Lead-Generation-02-Landing-Page.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\11_Video_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\12_Gallery_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\13_Audio_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\14_Quote_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\15_Link_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\16_Full_Width_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\17_Features.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\18_Category_1.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\19_Category_2.jpg"
+  ],
+  "productFamilies": [
+    "startup",
+    "editorial-blog",
+    "lead-generation",
+    "website"
+  ],
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 002",
+    "reviewNotes": "Checkpoint 002 is visually inspected learning evidence; keep incoming until exact hyper-accuracy review and dedupe rationale pass.",
+    "nonCopyBoundary": "Do not copy the exact Pallas editorial visuals, startup hero background, coral/teal color identity, photo assets, sidebar widget order, or footer treatment."
+  },
+  "structuralSignature": {
+    "signatureId": "hero:db385ba7696d0261",
+    "hash": "db385ba7696d0261604a11040c4b437dac94f5d9",
+    "axes": {
+      "layoutGesture": "dark centered offer masthead with dual cta path",
+      "sectionSilhouette": "full-width dark hero slab with centered text stack",
+      "anatomyLayer": "dark photographic or product-context background, centered eyebrow, bold headline, two ctas, and small scroll cue.",
+      "hierarchyLayer": "headline first, cta pair second, background product atmosphere third, scroll cue last.",
+      "gridRhythmLayer": "single centered text stack floats over a full-width dark media stage with generous vertical height.",
+      "focalPath": "eyebrow to headline to dual ctas to scroll cue",
+      "compositionTension": "bright cta pair held against a quiet dark product-photo background",
+      "negativeSpaceShape": "large dark field around a compact centered message island",
+      "moduleScaleVariation": "oversized hero field with small cta controls",
+      "breakoutBehavior": "full-bleed dark media band",
+      "contentLimits": "{\"cta\":\"1-2\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"0-1\",\"scrollcue\":\"0-1\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.1827,
+  "matchGroupId": "hero:db385ba7696d0261",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:47:11Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 1,
+    "bestMatch": {
+      "score": 0.1827,
+      "axisScores": {
+        "layoutGesture": 0.0909,
+        "sectionSilhouette": 0.0,
+        "anatomyLayer": 0.1429,
+        "hierarchyLayer": 0.3529,
+        "gridRhythmLayer": 0.1538,
+        "focalPath": 0.1538,
+        "compositionTension": 0.0526,
+        "negativeSpaceShape": 0.0,
+        "moduleScaleVariation": 0.4,
+        "breakoutBehavior": 0.0625,
+        "contentLimits": 0.6
+      },
+      "patternId": "checkpoint-001-hero-editorial-photo-slider-masthead",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-001-hero-editorial-photo-slider-masthead.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

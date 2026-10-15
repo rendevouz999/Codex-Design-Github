@@ -1,0 +1,123 @@
+{
+  "patternId": "checkpoint-004-hero-architecture-editorial-masonry-studio-hero",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\arsate-architecture-interior-website-2025-09-30-18-06-22-utc - Arsate - Architecture & Interior Website - 5160867b.png"
+  ],
+  "productFamilies": [
+    "architecture",
+    "interior",
+    "portfolio",
+    "studio"
+  ],
+  "commercialPurpose": "Open an architecture/interior studio with editorial calm, premium object spacing, and project credibility.",
+  "purposeLayer": "Hero introduces studio taste through mixed-scale interior imagery and restrained headline copy.",
+  "anatomyLayer": "Cream nav, large architectural headline, rounded pill cues, overlapping interior image cards, small studio metrics, and muted CTA.",
+  "hierarchyLayer": "Headline first, image collage second, CTA/pill cues third, metrics fourth.",
+  "gridRhythmLayer": "Soft editorial grid with left headline and right masonry image collage on a warm neutral canvas.",
+  "densityLimitLayer": "Use section density limit: {\"primaryMessage\": 1, \"cta\": \"1-2\", \"proofCue\": \"0-1 controlled cue\", \"mediaSystem\": 1}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, or section order.",
+  "usageRuleLayer": "Use for architecture, interior, real estate, creative studio, and premium service portfolios needing editorial spacing.",
+  "layoutGesture": "architecture editorial hero with asymmetrical image masonry",
+  "sectionSilhouette": "cream page with headline column and offset interior image cards forming a loose masonry block",
+  "compositionTension": "quiet luxury type contrasts with image collage movement",
+  "focalPath": "headline to primary interior image to CTA pill to metric cards",
+  "negativeSpaceShape": "warm empty margins around staggered image modules",
+  "depthLayering": "neutral base, rounded image cards, subtle overlay chips, metric micro-cards",
+  "moduleScaleVariation": "large headline and medium image cards balanced by tiny pill badges",
+  "breakoutBehavior": "image cards step outside a strict rectangular grid",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1-2",
+    "proofCue": "0-1 controlled cue",
+    "mediaSystem": 1
+  },
+  "antiCopyBoundary": "Do not copy Arsate branding, exact interior photos, beige palette values, or masonry positions.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "portfolio-gallery",
+      "process",
+      "stats-proof"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 004 contact sheet",
+    "reviewNotes": "Checkpoint 004 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "hero:0f7f00b26675f0ee",
+    "hash": "0f7f00b26675f0ee50a11801681de0c1a2667806",
+    "axes": {
+      "layoutGesture": "architecture editorial hero with asymmetrical image masonry",
+      "sectionSilhouette": "cream page with headline column and offset interior image cards forming a loose masonry block",
+      "anatomyLayer": "cream nav, large architectural headline, rounded pill cues, overlapping interior image cards, small studio metrics, and muted cta.",
+      "hierarchyLayer": "headline first, image collage second, cta/pill cues third, metrics fourth.",
+      "gridRhythmLayer": "soft editorial grid with left headline and right masonry image collage on a warm neutral canvas.",
+      "focalPath": "headline to primary interior image to cta pill to metric cards",
+      "compositionTension": "quiet luxury type contrasts with image collage movement",
+      "negativeSpaceShape": "warm empty margins around staggered image modules",
+      "moduleScaleVariation": "large headline and medium image cards balanced by tiny pill badges",
+      "breakoutBehavior": "image cards step outside a strict rectangular grid",
+      "contentLimits": "{\"cta\":\"1-2\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"0-1 controlled cue\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.2179,
+  "matchGroupId": "hero:0f7f00b26675f0ee",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:16:27Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 10,
+    "bestMatch": {
+      "score": 0.2179,
+      "axisScores": {
+        "layoutGesture": 0.1538,
+        "sectionSilhouette": 0.037,
+        "anatomyLayer": 0.1515,
+        "hierarchyLayer": 0.5,
+        "gridRhythmLayer": 0.1071,
+        "focalPath": 0.2308,
+        "compositionTension": 0.0,
+        "negativeSpaceShape": 0.0588,
+        "moduleScaleVariation": 0.1053,
+        "breakoutBehavior": 0.0526,
+        "contentLimits": 1.0
+      },
+      "patternId": "checkpoint-004-hero-luxury-car-side-profile-spec-strip",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-004-hero-luxury-car-side-profile-spec-strip.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

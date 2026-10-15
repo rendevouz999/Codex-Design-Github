@@ -1,0 +1,115 @@
+{
+  "task": "Create original Figma website template from Sportz sports streaming reference",
+  "productFamily": "sports streaming website template",
+  "mode": "website-template",
+  "status": "PASS",
+  "styleDNA": {
+    "typographyBehavior": "Large high-contrast dark hero type, compact metadata labels, uppercase status chips, and dense sports UI hierarchy.",
+    "layoutRhythm": "Cinematic opening, signal strip, event-row density, replay editorial pause, analytics proof, pricing conversion, and command closure.",
+    "spacingDensity": "Dense broadcast spacing with tight console gutters, 72-96px section cadence, and compact row systems.",
+    "colorBehavior": "Dark surfaces carry immersion while red action and warm proof accents create urgency.",
+    "imageDirection": "Streaming, replay, chart, and fan-room zones are represented as editable source placeholders.",
+    "shapeLanguage": "Rounded console panels, inset event rows, pill status chips, and compact sports cards.",
+    "effectLanguage": "Panel shadows, low-contrast borders, red focus outlines, and subtle proof highlights.",
+    "premiumSignal": "Feels like a paid sports-streaming product template because it includes live, schedule, replay, proof, fan, pricing, FAQ, CTA, and DS coverage."
+  },
+  "referenceStandard": {
+    "observedSectionCountRange": "Sports streaming references require a full homepage journey; 9-12 sections are commercially appropriate.",
+    "sectionRoleEvidence": "The reference suggests live content discovery, event scheduling, category browsing, proof, articles, pricing, and support.",
+    "layoutShapeInventory": "Dark hero, stream modules, row ledgers, card grids, content bands, FAQ stack, and footer closure.",
+    "colorRoleInventory": "Reference uses dark immersion plus red action; the rebuild remaps this into graphite, oxblood, red action, amber proof, and muted stone copy.",
+    "effectGradientInventory": "Depth comes from dark surfaces, borders, and action accents rather than copied gradient or imagery.",
+    "marketplaceCompletenessClues": "A sellable streaming template needs schedule, replay, plan, support, source placeholders, and a design-system board.",
+    "remixPlan": "Keep the commercial logic of a sports streaming homepage but rebuild hero grammar, cards, proof modules, pricing, and section rhythm as KineticCast.",
+    "minimalistFallbackRejected": true
+  },
+  "designIntentLock": {
+    "productType": "Figma website source template",
+    "outputMedium": "Editable Figma design file",
+    "targetBuyer": "Marketplace buyer building sports streaming, club media, or event broadcast websites.",
+    "useCase": "Complete homepage source with sections, placeholder media, and a separate design-system board.",
+    "marketplaceValue": "Gives buyers a rich streaming product flow instead of a thin landing page.",
+    "primaryGoal": "Make sports viewers understand live access, schedules, replays, social viewing, and pricing quickly."
+  },
+  "visualGrammar": {
+    "gridBehavior": "12-column dark container with asymmetric hero, row ledgers, grids, and proof bands.",
+    "spacingCadence": "Dense but controlled vertical rhythm that supports scan-heavy sports content.",
+    "typeHierarchy": "Hero-scale display, compact labels, mid-scale card titles, and legible dark-mode body copy.",
+    "surfaceDepth": "Nested console panels, raised cards, inset rows, and red outline focus states.",
+    "colorRoles": "Graphite base, oxblood panels, red action, amber proof, muted copy, and dark borders.",
+    "imageTreatment": "Media appears as stream, replay, chart, and fan placeholders with line hints.",
+    "effectLogic": "Effects reinforce live broadcast urgency and hierarchy, not decoration.",
+    "componentRhythm": "Event rows and dense cards alternate with editorial and proof pauses."
+  },
+  "referenceBoundary": {
+    "allowedToLearn": "Product category, sports streaming density, live-event section logic, dark urgency, and paid-template completeness.",
+    "forbiddenToCopy": "Do not copy exact layout, color palette, section order, hero grammar, component scaffold, imagery, logo, or reference card cadence.",
+    "exactLayoutCopied": "no",
+    "exactPaletteCopied": "no",
+    "exactSectionOrderCopied": "no",
+    "heroGrammarCopied": "no",
+    "componentScaffoldCopied": "no"
+  },
+  "colorRoleRemapping": {
+    "referenceDominantColorIdentity": "dark sports streaming energy with red action cues",
+    "referenceColorRoles": "dark immersion, red action, white copy, and sports media contrast",
+    "remappedPaletteDirection": "graphite broadcast base with oxblood panels, amber proof cue, and action red reserved for live conversion",
+    "newAccentIdentity": "warm amber proof and muted stone support copy separate this from the reference's direct red-only emphasis",
+    "preservedEmotionalRole": "Urgency, live access, and high-stakes sports energy are preserved.",
+    "avoidedExactHues": "The palette avoids direct color sampling from the reference and builds a new role map.",
+    "contrastHierarchyBehavior": "Red is limited to key actions while surfaces and text control the rest of the hierarchy."
+  },
+  "visualMoodReinterpretation": {
+    "referenceMood": "Dark streaming product with energetic sports urgency.",
+    "reinterpretedMood": "Broadcast command center for live matches and replay control.",
+    "changedComposition": "The design uses a command console and event ledger rather than the reference's exact preview composition.",
+    "changedHierarchy": "Schedule, replay, fan room, and pricing get stronger buyer-journey roles.",
+    "changedAssetTreatment": "All media becomes editable placeholder zones with purpose labels.",
+    "changedDepthEffect": "Depth is created through console surfaces and borders rather than copying reference decoration."
+  },
+  "structuralReconfiguration": {
+    "referenceStructurePattern": "Sports streaming homepage with live content, category modules, support blocks, and conversion.",
+    "newStructurePattern": "Command-center homepage with 12 sections: hero, signal, live room, discovery, schedule, replay, analytics, fan, pricing, FAQ, CTA, footer.",
+    "heroGrammarChange": "Hero becomes a left manifesto plus right live stream console and metrics instead of a copied reference hero.",
+    "sectionOrderChange": "Schedule, replay, analytics, fan rooms, and pricing are sequenced as a sports decision journey.",
+    "gridSystemChange": "Uses console rows, ledgers, and dense proof bands instead of a universal card grid.",
+    "ctaFlowChange": "CTAs escalate from watch-now to pass pricing to final broadcast command.",
+    "componentLayoutChange": "Components are rebuilt as stream consoles, event rows, replay cards, analytics panels, fan cards, and pass cards."
+  },
+  "patternDivergence": {
+    "divergenceFromReference": "Original naming, section sequence, card anatomy, proof strategy, and placeholder treatment.",
+    "heroDivergence": "Command-center console grammar replaces any direct reference hero arrangement.",
+    "sectionRhythmDivergence": "Dense sports rows and proof bands create a distinct rhythm from the reference image.",
+    "visualLanguageDivergence": "Graphite, oxblood, red, and amber role system creates a new sports identity.",
+    "componentCadenceDivergence": "Event rows, replay studio, analytics proof, and fan rooms change the repeated-module cadence."
+  },
+  "sectionLogic": {
+    "sectionList": [
+      "hero broadcast command center",
+      "broadcast signal rail",
+      "live arena room",
+      "sports discovery grid",
+      "schedule hub",
+      "replay and highlights studio",
+      "club analytics proof band",
+      "fan watch party system",
+      "streaming pass pricing",
+      "FAQ rights and support",
+      "final broadcast command CTA",
+      "footer"
+    ],
+    "roleOfEachSection": "Hero establishes live access; signal rail builds proof; arena and discovery sell content breadth; schedule and replay handle decision detail; analytics and fan rooms add trust; pricing, FAQ, CTA, and footer close conversion.",
+    "buyerJourneyFlow": "Immediate excitement, content confidence, schedule proof, replay value, social proof, price decision, objection handling, and final action.",
+    "fillerSectionsRemoved": "No generic feature strip or filler CTA; every section maps to sports-streaming buyer utility.",
+    "productFamilyDepthStandard": "Full sports streaming marketplace templates need live events, schedules, replays, proof, pricing, and support, so 12 sections are justified."
+  },
+  "marketplaceReadiness": {
+    "sectionDepth": "12 meaningful homepage sections with product-specific modules.",
+    "premiumSignal": "Dark command-center presentation, dense sports modules, and design-system documentation.",
+    "editability": "Named Figma sections, editable text, source placeholders, and auto-layout modules.",
+    "sourceReadiness": "Separate design-system board, placeholder policy, token receipt, and visual screenshots are present.",
+    "previewValue": "Pack overview and homepage screenshot communicate the product clearly to buyers.",
+    "commercialUsefulness": "Useful for streaming apps, club media, sports networks, and event broadcast services.",
+    "nonGenericProof": "Contains schedule ledger, replay studio, fan room, analytics proof, and sports-specific pass pricing."
+  }
+}

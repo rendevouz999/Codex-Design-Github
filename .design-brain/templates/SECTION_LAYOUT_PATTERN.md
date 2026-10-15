@@ -1,0 +1,36 @@
+# Section Layout Pattern
+
+- Pattern ID:
+- Section type:
+- Source refs:
+- Product families:
+- Commercial purpose:
+- Purpose layer:
+- Anatomy layer:
+- Hierarchy layer:
+- Grid/rhythm layer:
+- Density limit layer:
+- Originality layer:
+- Usage rule layer:
+- Layout gesture:
+- Section silhouette:
+- Composition tension:
+- Focal path:
+- Negative-space shape:
+- Depth layering:
+- Module scale variation:
+- Breakout behavior:
+- Content limits:
+- Anti-copy boundary:
+- Compatible before/after:
+- Structural signature:
+- Match status: DUPLICATE / NEAR_DUPLICATE / VARIANT / NEW_PATTERN
+- Match score:
+- Match group ID:
+- Duplicate of:
+- Variant of:
+- Matching evidence:
+- Dedupe decision:
+- Confidence: high / medium / low
+- Quality status: PASS / REVIEW_REQUIRED / BLOCKED
+- Hyper-accuracy receipt:

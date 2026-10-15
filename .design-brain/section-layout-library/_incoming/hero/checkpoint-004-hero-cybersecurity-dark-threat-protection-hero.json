@@ -1,0 +1,123 @@
+{
+  "patternId": "checkpoint-004-hero-cybersecurity-dark-threat-protection-hero",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\aman-tecgnology-cyber-security-website-2025-08-20-03-47-38-utc - Aman - Tecgnology Cyber Security Website - b5df6328.png"
+  ],
+  "productFamilies": [
+    "cybersecurity",
+    "security",
+    "saas",
+    "technology"
+  ],
+  "commercialPurpose": "Open a cybersecurity template with immediate risk/protection contrast and a dark trust posture.",
+  "purposeLayer": "Hero sells protection by staging a luminous threat/protection visual before detailed security modules.",
+  "anatomyLayer": "Dark nav, large left value promise, CTA pair, green light hand/media symbol, small trust chips, and compact proof icons.",
+  "hierarchyLayer": "Threat/protection image and headline share first focus, CTA second, proof chips third.",
+  "gridRhythmLayer": "Asymmetric dark split with text block on one side and luminous protection object crossing the opposite side.",
+  "densityLimitLayer": "Use section density limit: {\"primaryMessage\": 1, \"cta\": \"1-2\", \"proofCue\": \"0-1 controlled cue\", \"mediaSystem\": 1}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, or section order.",
+  "usageRuleLayer": "Use for cyber, privacy, fraud, compliance, and infrastructure security offers that need immediate trust and urgency.",
+  "layoutGesture": "dark cyber protection split hero with luminous threat cue",
+  "sectionSilhouette": "black-green hero split between headline stack and glowing hand/protection media",
+  "compositionTension": "high contrast between defensive calm copy and active neon security visual",
+  "focalPath": "glowing hand media to headline to CTA pair to trust chips",
+  "negativeSpaceShape": "deep black negative field interrupted by green light cone and compact proof marks",
+  "depthLayering": "dark base, neon protection beam, foreground type, small chip layer",
+  "moduleScaleVariation": "oversized symbolic media against compact CTAs and micro proof",
+  "breakoutBehavior": "light beam/media crosses beyond the implied column boundary",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1-2",
+    "proofCue": "0-1 controlled cue",
+    "mediaSystem": 1
+  },
+  "antiCopyBoundary": "Do not copy the Aman dark green palette, hand artwork, security screenshots, or exact headline wording.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "trust-band",
+      "features",
+      "services"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 004 contact sheet",
+    "reviewNotes": "Checkpoint 004 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "hero:ea06dab6698445ae",
+    "hash": "ea06dab6698445ae9c647cc594ea5cf56a121d2d",
+    "axes": {
+      "layoutGesture": "dark cyber protection split hero with luminous threat cue",
+      "sectionSilhouette": "black-green hero split between headline stack and glowing hand/protection media",
+      "anatomyLayer": "dark nav, large left value promise, cta pair, green light hand/media symbol, small trust chips, and compact proof icons.",
+      "hierarchyLayer": "threat/protection image and headline share first focus, cta second, proof chips third.",
+      "gridRhythmLayer": "asymmetric dark split with text block on one side and luminous protection object crossing the opposite side.",
+      "focalPath": "glowing hand media to headline to cta pair to trust chips",
+      "compositionTension": "high contrast between defensive calm copy and active neon security visual",
+      "negativeSpaceShape": "deep black negative field interrupted by green light cone and compact proof marks",
+      "moduleScaleVariation": "oversized symbolic media against compact ctas and micro proof",
+      "breakoutBehavior": "light beam/media crosses beyond the implied column boundary",
+      "contentLimits": "{\"cta\":\"1-2\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"0-1 controlled cue\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.2913,
+  "matchGroupId": "hero:ea06dab6698445ae",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:16:27Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 7,
+    "bestMatch": {
+      "score": 0.2913,
+      "axisScores": {
+        "layoutGesture": 0.2308,
+        "sectionSilhouette": 0.4375,
+        "anatomyLayer": 0.1765,
+        "hierarchyLayer": 0.4211,
+        "gridRhythmLayer": 0.4167,
+        "focalPath": 0.4167,
+        "compositionTension": 0.1875,
+        "negativeSpaceShape": 0.1053,
+        "moduleScaleVariation": 0.1333,
+        "breakoutBehavior": 0.1333,
+        "contentLimits": 0.5455
+      },
+      "patternId": "checkpoint-003-hero-ai-neon-3d-platform-split-hero",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-003-hero-ai-neon-3d-platform-split-hero.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

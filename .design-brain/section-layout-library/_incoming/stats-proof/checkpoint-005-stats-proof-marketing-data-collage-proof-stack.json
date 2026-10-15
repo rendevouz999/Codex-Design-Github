@@ -1,0 +1,104 @@
+{
+  "patternId": "checkpoint-005-stats-proof-marketing-data-collage-proof-stack",
+  "sectionType": "stats-proof",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\bouin-digital-marketing-website-2025-10-21-17-05-39-utc - Bouin - Digital Marketing Website - a315b3cd.jpg"
+  ],
+  "productFamilies": [
+    "digital-marketing",
+    "agency",
+    "analytics",
+    "business"
+  ],
+  "commercialPurpose": "Prove agency outcomes through image collage, metric cards, and testimonial-like proof modules.",
+  "purposeLayer": "Stats proof section connects campaign visuals to business outcomes without turning into an empty numbers row.",
+  "anatomyLayer": "Image collage, headline, three service cards, metric clusters, client thumbnail strip, short quote/proof cards, and CTA button.",
+  "hierarchyLayer": "Visual campaign proof first, growth headline second, cards/metrics third.",
+  "gridRhythmLayer": "Light vertical proof stack alternating image collage, service cards, metric strips, and client story cards.",
+  "densityLimitLayer": "Use section density limit: {\"metrics\": \"3-5\", \"supportingProof\": \"1-2\", \"avoid\": \"unexplained number soup\"}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, product photos, or page order.",
+  "usageRuleLayer": "Use when marketing or analytics templates need credible performance evidence with visual context.",
+  "layoutGesture": "marketing proof stack with collage and metric cards",
+  "sectionSilhouette": "white long-scroll section with campaign images, cards, percentages, and testimonial thumbnails",
+  "compositionTension": "busy proof remains organized by alternating image-led and metric-led rows",
+  "focalPath": "collage to service cards to metrics to client story CTA",
+  "negativeSpaceShape": "white gutters divide dense proof groups into digestible bands",
+  "depthLayering": "image collage layer, card layer, metric layer, client story layer",
+  "moduleScaleVariation": "large campaign images contrasted with small stat chips and medium cards",
+  "breakoutBehavior": "collage images overlap grid lanes to avoid a plain metrics row",
+  "contentLimits": {
+    "metrics": "3-5",
+    "supportingProof": "1-2",
+    "avoid": "unexplained number soup"
+  },
+  "antiCopyBoundary": "Do not copy exact campaign images, numbers, orange cards, or client portraits.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "hero",
+      "features"
+    ],
+    "after": [
+      "testimonials",
+      "cta",
+      "footer"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 005 contact sheet",
+    "reviewNotes": "Checkpoint 005 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "stats-proof:6b5ea04fa40e7794",
+    "hash": "6b5ea04fa40e7794c1fc015b1f72c59d5ee309b0",
+    "axes": {
+      "layoutGesture": "marketing proof stack with collage and metric cards",
+      "sectionSilhouette": "white long-scroll section with campaign images, cards, percentages, and testimonial thumbnails",
+      "anatomyLayer": "image collage, headline, three service cards, metric clusters, client thumbnail strip, short quote/proof cards, and cta button.",
+      "hierarchyLayer": "visual campaign proof first, growth headline second, cards/metrics third.",
+      "gridRhythmLayer": "light vertical proof stack alternating image collage, service cards, metric strips, and client story cards.",
+      "focalPath": "collage to service cards to metrics to client story cta",
+      "compositionTension": "busy proof remains organized by alternating image-led and metric-led rows",
+      "negativeSpaceShape": "white gutters divide dense proof groups into digestible bands",
+      "moduleScaleVariation": "large campaign images contrasted with small stat chips and medium cards",
+      "breakoutBehavior": "collage images overlap grid lanes to avoid a plain metrics row",
+      "contentLimits": "{\"avoid\":\"unexplained number soup\",\"metrics\":\"3-5\",\"supportingproof\":\"1-2\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.0,
+  "matchGroupId": "stats-proof:6b5ea04fa40e7794",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:25:28Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 0,
+    "bestMatch": null,
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

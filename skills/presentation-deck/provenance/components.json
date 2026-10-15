@@ -1,0 +1,16 @@
+{
+  "owner": "codex-design.presentation-deck",
+  "decisions": [
+    {"source": "Codex Design native and web presentation modules", "decision": "merge", "destination": "design/, runtime/, resources/", "reason": "One shared design owner with format-specific execution; old skill and knowledge files retired."},
+    {"source": "PPT Master 6.7.0 at ca04346de145ed6462ddf34682848e71df5e20a2", "license": "MIT", "decision": "selective-adoption", "destination": "runtime/native/, design/native/, workflows/, resources/", "reason": "Reuse actual template authoring, SVG/native conversion, source-preserving edits, table/chart, asset and local-review implementations. Adapt paths, configuration, integrity, style fidelity and host lifecycle."},
+    {"source": "PPT Master icons and chart/table/layout/style resources", "decision": "adopt", "destination": "resources/", "reason": "Keep the indexed icon collection and notices intact; select neutral reusable layout/style families and visual primitives. No branded finished decks or stock sound collection."},
+    {"source": "awesome-claude-skills/theme-factory", "license": "Apache-2.0", "decision": "adopt", "destination": "resources/themes/", "reason": "Ten optional theme references, preserving license and original source hashes."},
+    {"source": "awesome-claude-skills/document-skills/pptx", "decision": "omit", "reason": "Local source license restricts copying and derivatives; adopted MIT implementation supplies the required native functions."},
+    {"source": "awesome-claude-skills/image-enhancer and canvas-design", "decision": "reuse-existing-functionality", "destination": "runtime/native/analyze_images.py, image_treat.py, design/WORKFLOW.md", "reason": "Asset preparation and cover/preview judgment are already covered; no independent presentation engine or duplicate design owner added."},
+    {"source": "brand-guidelines and Dashboard style skills", "decision": "retain-conditional", "reason": "Shared or brand-specific support, not a presentation default. Other media retain their own shared support."},
+    {"source": "Google Slides automation and remote image services", "decision": "optional-outside-core", "reason": "Connected services require their own available tools/credentials. Local templates have no remote service prerequisite."},
+    {"source": "Donor updater, Git pin validation, external engine config and standalone donor skill", "decision": "retire", "reason": "Internal package identity, provenance and integrity replace donor distribution identity and checkout requirements."}
+  ],
+  "compatibility": "Root scripts/design_brain_pptx*.py, presentation_route.py and web-deck commands delegate to this capability for existing host callers. They contain no second implementation. Historical reports and schema identifiers remain as provenance/format compatibility.",
+  "generalOwners": "Brain routing, cognition, simulation, generic craft and completion infrastructure remain shared plugin services. Presentation-specific workflow and runtime have one owner."
+}

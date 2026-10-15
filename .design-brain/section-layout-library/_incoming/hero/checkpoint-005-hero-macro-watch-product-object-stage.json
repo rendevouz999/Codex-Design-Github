@@ -1,0 +1,123 @@
+{
+  "patternId": "checkpoint-005-hero-macro-watch-product-object-stage",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\cat - 05 - 43b9a11e.png"
+  ],
+  "productFamilies": [
+    "wearable",
+    "product",
+    "commerce",
+    "luxury"
+  ],
+  "commercialPurpose": "Create an object-first product stage where a single product close-up carries the whole first impression.",
+  "purposeLayer": "Hero pattern is useful when the product form factor and craftsmanship must be inspected before copy density appears.",
+  "anatomyLayer": "Isolated oversized watch/product close-up on a black/white field, no visible supporting page modules, strong product angle, and clear hardware detail focus.",
+  "hierarchyLayer": "Product object is first and nearly total focus; any copy or CTA should remain secondary and minimal.",
+  "gridRhythmLayer": "Single-object macro product stage with almost no surrounding interface density.",
+  "densityLimitLayer": "Use section density limit: {\"primaryMessage\": 1, \"cta\": \"1-2\", \"proofCue\": \"0-1 controlled cue\", \"mediaSystem\": 1}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, product photos, or page order.",
+  "usageRuleLayer": "Use for wearables, watches, tech hardware, jewelry, luxury goods, and product launches requiring inspection-level imagery.",
+  "layoutGesture": "macro product close-up hero with isolated object stage",
+  "sectionSilhouette": "large product photo fills most of the canvas with stark background contrast",
+  "compositionTension": "object inspection replaces layout density as persuasion",
+  "focalPath": "product face/detail to product silhouette to optional CTA",
+  "negativeSpaceShape": "empty background around the object creates showroom focus",
+  "depthLayering": "photo object layer over simple black/white base, minimal or no cards",
+  "moduleScaleVariation": "one huge product object contrasted with tiny or absent controls",
+  "breakoutBehavior": "product image may crop or break the viewport edge intentionally",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1-2",
+    "proofCue": "0-1 controlled cue",
+    "mediaSystem": 1
+  },
+  "antiCopyBoundary": "Do not copy the exact watch product, crop, angle, reflections, or hardware details.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "commerce-grid",
+      "features",
+      "stats-proof"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 005 contact sheet",
+    "reviewNotes": "Checkpoint 005 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "hero:895da2355004d994",
+    "hash": "895da2355004d994a3e9f3a65f42b60d6e9c106b",
+    "axes": {
+      "layoutGesture": "macro product close-up hero with isolated object stage",
+      "sectionSilhouette": "large product photo fills most of the canvas with stark background contrast",
+      "anatomyLayer": "isolated oversized watch/product close-up on a black/white field, no visible supporting page modules, strong product angle, and clear hardware detail focus.",
+      "hierarchyLayer": "product object is first and nearly total focus; any copy or cta should remain secondary and minimal.",
+      "gridRhythmLayer": "single-object macro product stage with almost no surrounding interface density.",
+      "focalPath": "product face/detail to product silhouette to optional cta",
+      "compositionTension": "object inspection replaces layout density as persuasion",
+      "negativeSpaceShape": "empty background around the object creates showroom focus",
+      "moduleScaleVariation": "one huge product object contrasted with tiny or absent controls",
+      "breakoutBehavior": "product image may crop or break the viewport edge intentionally",
+      "contentLimits": "{\"cta\":\"1-2\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"0-1 controlled cue\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.2098,
+  "matchGroupId": "hero:895da2355004d994",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:25:28Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 21,
+    "bestMatch": {
+      "score": 0.2098,
+      "axisScores": {
+        "layoutGesture": 0.2,
+        "sectionSilhouette": 0.08,
+        "anatomyLayer": 0.0513,
+        "hierarchyLayer": 0.2273,
+        "gridRhythmLayer": 0.0909,
+        "focalPath": 0.1667,
+        "compositionTension": 0.0667,
+        "negativeSpaceShape": 0.125,
+        "moduleScaleVariation": 0.25,
+        "breakoutBehavior": 0.05,
+        "contentLimits": 1.0
+      },
+      "patternId": "checkpoint-004-hero-ai-black-grid-abstract-object-hero",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-004-hero-ai-black-grid-abstract-object-hero.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

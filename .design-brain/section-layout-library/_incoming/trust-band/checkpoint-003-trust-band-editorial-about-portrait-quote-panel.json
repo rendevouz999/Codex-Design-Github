@@ -1,0 +1,124 @@
+{
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 003",
+    "reviewNotes": "Checkpoint 003 is visually inspected learning evidence; keep incoming until hyper-accuracy review and matching rationale pass.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, color identity, imagery, icon systems, decorative geometry, or section order."
+  },
+  "patternId": "checkpoint-003-trust-band-editorial-about-portrait-quote-panel",
+  "sectionType": "trust-band",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\20_About.jpg"
+  ],
+  "productFamilies": [
+    "editorial-blog",
+    "creator",
+    "personal-brand",
+    "website"
+  ],
+  "commercialPurpose": "Give editorial or personal-brand templates an about/proof section where the person is the trust asset.",
+  "purposeLayer": "About section turns author identity into credibility through portrait scale, biography, pull quote, and signature cue.",
+  "anatomyLayer": "Large portrait image, text column, biography paragraphs, centered quote accent, role label, and signature mark.",
+  "hierarchyLayer": "Portrait and white space first, biography second, quote third, signature/role cue last.",
+  "gridRhythmLayer": "Two-column editorial split with oversized image on one side and airy text/quote stack on the other.",
+  "densityLimitLayer": "Use one primary portrait, 2-4 paragraphs, 1 pull quote, and 1 signature/role cue.",
+  "originalityLayer": "Learn the portrait-plus-quote proof behavior, not the exact Pallas image, script signature, or gold quote styling.",
+  "usageRuleLayer": "Use for author, founder, consultant, stylist, chef, educator, and creator credibility sections.",
+  "layoutGesture": "editorial about portrait paired with quote and signature proof",
+  "sectionSilhouette": "oversized portrait block beside airy biography column",
+  "compositionTension": "human image weight balanced by delicate quote and text rhythm",
+  "focalPath": "portrait to biography to pull quote to signature",
+  "negativeSpaceShape": "large white editorial field with split-column breathing room",
+  "depthLayering": "flat image plane plus text/quote hierarchy",
+  "moduleScaleVariation": "large portrait against small quote and signature details",
+  "breakoutBehavior": "none; contained editorial split",
+  "contentLimits": {
+    "proofItems": "1-3",
+    "primaryProofClaim": 1,
+    "portrait": 1,
+    "paragraphs": "2-4",
+    "quote": "0-1"
+  },
+  "antiCopyBoundary": "Do not copy the exact portrait crop, quote text, signature graphic, logo, or gold accent.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "footer",
+      "contact-booking",
+      "blog-resources"
+    ],
+    "notAScaffold": true
+  },
+  "structuralSignature": {
+    "signatureId": "trust-band:4644bf63f35a90d7",
+    "hash": "4644bf63f35a90d783886fc5970449d3fe5e0617",
+    "axes": {
+      "layoutGesture": "editorial about portrait paired with quote and signature proof",
+      "sectionSilhouette": "oversized portrait block beside airy biography column",
+      "anatomyLayer": "large portrait image, text column, biography paragraphs, centered quote accent, role label, and signature mark.",
+      "hierarchyLayer": "portrait and white space first, biography second, quote third, signature/role cue last.",
+      "gridRhythmLayer": "two-column editorial split with oversized image on one side and airy text/quote stack on the other.",
+      "focalPath": "portrait to biography to pull quote to signature",
+      "compositionTension": "human image weight balanced by delicate quote and text rhythm",
+      "negativeSpaceShape": "large white editorial field with split-column breathing room",
+      "moduleScaleVariation": "large portrait against small quote and signature details",
+      "breakoutBehavior": "none; contained editorial split",
+      "contentLimits": "{\"paragraphs\":\"2-4\",\"portrait\":1,\"primaryproofclaim\":1,\"proofitems\":\"1-3\",\"quote\":\"0-1\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.1327,
+  "matchGroupId": "trust-band:4644bf63f35a90d7",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:55:20Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 1,
+    "bestMatch": {
+      "score": 0.1327,
+      "axisScores": {
+        "layoutGesture": 0.0625,
+        "sectionSilhouette": 0.0833,
+        "anatomyLayer": 0.1481,
+        "hierarchyLayer": 0.25,
+        "gridRhythmLayer": 0.0385,
+        "focalPath": 0.2727,
+        "compositionTension": 0.0667,
+        "negativeSpaceShape": 0.0,
+        "moduleScaleVariation": 0.1538,
+        "breakoutBehavior": 0.0,
+        "contentLimits": 0.3846
+      },
+      "patternId": "checkpoint-001-trust-band-author-identity-sidebar-proof",
+      "sectionType": "trust-band",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\trust-band\\checkpoint-001-trust-band-author-identity-sidebar-proof.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

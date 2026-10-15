@@ -1,0 +1,123 @@
+{
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 003",
+    "reviewNotes": "Checkpoint 003 is visually inspected learning evidence; keep incoming until hyper-accuracy review and matching rationale pass.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, color identity, imagery, icon systems, decorative geometry, or section order."
+  },
+  "patternId": "checkpoint-003-hero-ai-neon-3d-platform-split-hero",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\acme-artificial-intelligance-system-website-2025-10-30-22-18-47-utc - Acme - Artificial Intelligance System Website - 94062a92.png"
+  ],
+  "productFamilies": [
+    "ai",
+    "saas",
+    "technology",
+    "website"
+  ],
+  "commercialPurpose": "Open an AI/technology template with immersive 3D system proof and a high-energy neon value promise.",
+  "purposeLayer": "Hero makes the platform feel advanced before feature explanation by pairing abstract 3D infrastructure with glowing conversion copy.",
+  "anatomyLayer": "Dark nav, left 3D stack/network render, right badge, glowing headline, short paragraph, primary/secondary CTA, and trust logo row.",
+  "hierarchyLayer": "3D visual and headline share first focus, CTA pair second, logo trust row third.",
+  "gridRhythmLayer": "Asymmetric split hero on black canvas with 3D visual occupying one side and luminous text stack on the other.",
+  "densityLimitLayer": "Use one primary message, 1-2 CTA, 1 proof/trust row, and one controlled 3D/visual system.",
+  "originalityLayer": "Learn neon 3D proof staging; do not copy exact purple blocks, logo row, copy, or glow intensity.",
+  "usageRuleLayer": "Use for AI, SaaS, cybersecurity, cloud, blockchain, data, and futuristic tech templates.",
+  "layoutGesture": "neon split hero with 3D infrastructure proof",
+  "sectionSilhouette": "black canvas split between isometric 3D system and glowing headline stack",
+  "compositionTension": "visual spectacle balances conversion copy and trust logos",
+  "focalPath": "3D system to headline to CTA pair to trust logos",
+  "negativeSpaceShape": "black void around luminous 3D and text islands",
+  "depthLayering": "deep black base, neon glow outlines, 3D render layer, foreground CTA",
+  "moduleScaleVariation": "oversized 3D render with compact badge/buttons/logos",
+  "breakoutBehavior": "glow and visual object push beyond text column",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1-2",
+    "proofCue": "logo row",
+    "mediaSystem": 1
+  },
+  "antiCopyBoundary": "Do not copy exact Acme brand, purple 3D render, glow borders, logo row, or headline wording.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "trust-band",
+      "features",
+      "pricing-packages"
+    ],
+    "notAScaffold": true
+  },
+  "structuralSignature": {
+    "signatureId": "hero:b6d203d0c5a669e6",
+    "hash": "b6d203d0c5a669e6cd5da1737378b30c01eea1fc",
+    "axes": {
+      "layoutGesture": "neon split hero with 3d infrastructure proof",
+      "sectionSilhouette": "black canvas split between isometric 3d system and glowing headline stack",
+      "anatomyLayer": "dark nav, left 3d stack/network render, right badge, glowing headline, short paragraph, primary/secondary cta, and trust logo row.",
+      "hierarchyLayer": "3d visual and headline share first focus, cta pair second, logo trust row third.",
+      "gridRhythmLayer": "asymmetric split hero on black canvas with 3d visual occupying one side and luminous text stack on the other.",
+      "focalPath": "3d system to headline to cta pair to trust logos",
+      "compositionTension": "visual spectacle balances conversion copy and trust logos",
+      "negativeSpaceShape": "black void around luminous 3d and text islands",
+      "moduleScaleVariation": "oversized 3d render with compact badge/buttons/logos",
+      "breakoutBehavior": "glow and visual object push beyond text column",
+      "contentLimits": "{\"cta\":\"1-2\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"logo row\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.1816,
+  "matchGroupId": "hero:b6d203d0c5a669e6",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:55:20Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 4,
+    "bestMatch": {
+      "score": 0.1816,
+      "axisScores": {
+        "layoutGesture": 0.1667,
+        "sectionSilhouette": 0.0,
+        "anatomyLayer": 0.1714,
+        "hierarchyLayer": 0.4444,
+        "gridRhythmLayer": 0.1429,
+        "focalPath": 0.3,
+        "compositionTension": 0.0,
+        "negativeSpaceShape": 0.0625,
+        "moduleScaleVariation": 0.1538,
+        "breakoutBehavior": 0.0,
+        "contentLimits": 0.5556
+      },
+      "patternId": "checkpoint-003-hero-restaurant-product-cutout-dark-stage",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-003-hero-restaurant-product-cutout-dark-stage.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

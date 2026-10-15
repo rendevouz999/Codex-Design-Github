@@ -1,0 +1,235 @@
+[
+  {
+    "agentId": "marketplace_buyer",
+    "agentName": "Marketplace Buyer Agent",
+    "role": "Judges whether the template looks worth buying and reusable for the target buyer.",
+    "focus": "buyer value, commercial promise, product category fit, reusable template value, preview believability",
+    "score": 32,
+    "verdict": "BLOCKED",
+    "signals": [
+      "Mode: website",
+      "Mode axes: section depth, conversion flow, proof/trust, visual richness, marketplace preview value",
+      "Structure units: 1",
+      "Required anatomy hits: 4/7"
+    ],
+    "blockers": [
+      "Marketplace preview value is too thin."
+    ],
+    "requiredRepairs": [
+      "Show buyer value through preview, source hygiene, and category-specific completeness."
+    ],
+    "recommendedImprovements": []
+  },
+  {
+    "agentId": "envato_reviewer",
+    "agentName": "Envato Reviewer Agent",
+    "role": "Checks item information, presentation, technical source quality, legal/originality readiness, and commercial polish.",
+    "focus": "metadata, cover preview, technical organization, documentation, license disclosure, review risk",
+    "score": 32,
+    "verdict": "BLOCKED",
+    "signals": [
+      "Mode: website",
+      "Mode axes: section depth, conversion flow, proof/trust, visual richness, marketplace preview value",
+      "Structure units: 1",
+      "Required anatomy hits: 4/7"
+    ],
+    "blockers": [
+      "Marketplace preview value is too thin."
+    ],
+    "requiredRepairs": [
+      "Add license/originality/preview-only disclosure notes.",
+      "Show buyer value through preview, source hygiene, and category-specific completeness.",
+      "Add source hygiene, components, states, naming, and editable placeholders."
+    ],
+    "recommendedImprovements": []
+  },
+  {
+    "agentId": "senior_ui_designer",
+    "agentName": "Senior UI Designer Agent",
+    "role": "Audits hierarchy, layout rhythm, grid, spacing, typography, component quality, and responsive logic.",
+    "focus": "visual hierarchy, grid, spacing rhythm, type scale, component states, responsive behavior",
+    "score": 32,
+    "verdict": "REVISE",
+    "signals": [
+      "Mode: website",
+      "Mode axes: section depth, conversion flow, proof/trust, visual richness, marketplace preview value",
+      "Structure units: 1",
+      "Required anatomy hits: 4/7"
+    ],
+    "blockers": [],
+    "requiredRepairs": [
+      "Add source hygiene, components, states, naming, and editable placeholders.",
+      "Add a stronger visual-language fingerprint."
+    ],
+    "recommendedImprovements": []
+  },
+  {
+    "agentId": "creative_director",
+    "agentName": "Creative Director Agent",
+    "role": "Protects art direction, premium signal, visual signature, and memorable concept strength.",
+    "focus": "concept, visual motif, surface depth, effect discipline, premium signal, category differentiation",
+    "score": 32,
+    "verdict": "REVISE",
+    "signals": [
+      "Mode: website",
+      "Mode axes: section depth, conversion flow, proof/trust, visual richness, marketplace preview value",
+      "Structure units: 1",
+      "Required anatomy hits: 4/7"
+    ],
+    "blockers": [],
+    "requiredRepairs": [
+      "Add a stronger visual-language fingerprint."
+    ],
+    "recommendedImprovements": []
+  },
+  {
+    "agentId": "anti_minimalist_auditor",
+    "agentName": "Anti-Minimalist Auditor",
+    "role": "Blocks thin section stacks and clean-but-empty output when the product needs marketplace depth.",
+    "focus": "section count, product family standard, density, proof depth, visual richness, no minimalist excuse",
+    "score": 32,
+    "verdict": "BLOCKED",
+    "signals": [
+      "Mode: website",
+      "Mode axes: section depth, conversion flow, proof/trust, visual richness, marketplace preview value",
+      "Structure units: 1",
+      "Required anatomy hits: 4/7"
+    ],
+    "blockers": [
+      "Marketplace preview value is too thin.",
+      "Structure risks thin/generic scaffold output."
+    ],
+    "requiredRepairs": [
+      "Increase product-specific depth and break default section rhythm."
+    ],
+    "recommendedImprovements": [
+      "Add a stronger visual-language fingerprint."
+    ]
+  },
+  {
+    "agentId": "anti_scaffold_auditor",
+    "agentName": "Anti-Scaffold Auditor",
+    "role": "Compares structure and rhythm against generic and prior accepted scaffolds.",
+    "focus": "hero grammar, section order, module cadence, recycled naming, fingerprint overlap, batch uniqueness",
+    "score": 32,
+    "verdict": "BLOCKED",
+    "signals": [
+      "Mode: website",
+      "Mode axes: section depth, conversion flow, proof/trust, visual richness, marketplace preview value",
+      "Structure units: 1",
+      "Required anatomy hits: 4/7"
+    ],
+    "blockers": [
+      "Structure risks thin/generic scaffold output."
+    ],
+    "requiredRepairs": [
+      "Increase product-specific depth and break default section rhythm."
+    ],
+    "recommendedImprovements": []
+  },
+  {
+    "agentId": "reference_dna_guardian",
+    "agentName": "Reference DNA Guardian",
+    "role": "Ensures reference insights are transformed, not copied.",
+    "focus": "do-not-copy boundary, color-role reinterpretation, effect transformation, new structure, new visual motif",
+    "score": 32,
+    "verdict": "REVISE",
+    "signals": [
+      "Mode: website",
+      "Mode axes: section depth, conversion flow, proof/trust, visual richness, marketplace preview value",
+      "Structure units: 1",
+      "Required anatomy hits: 4/7"
+    ],
+    "blockers": [],
+    "requiredRepairs": [
+      "Add license/originality/preview-only disclosure notes.",
+      "Add a stronger visual-language fingerprint."
+    ],
+    "recommendedImprovements": []
+  },
+  {
+    "agentId": "visual_language_director",
+    "agentName": "Visual Language Director",
+    "role": "Forces intentional effect language, image direction, surface hierarchy, and preview-level visual richness.",
+    "focus": "gradient/effect system, media treatment, depth hierarchy, art direction, signature details, flatness risk",
+    "score": 32,
+    "verdict": "BLOCKED",
+    "signals": [
+      "Mode: website",
+      "Mode axes: section depth, conversion flow, proof/trust, visual richness, marketplace preview value",
+      "Structure units: 1",
+      "Required anatomy hits: 4/7"
+    ],
+    "blockers": [
+      "Marketplace preview value is too thin."
+    ],
+    "requiredRepairs": [
+      "Show buyer value through preview, source hygiene, and category-specific completeness.",
+      "Add a stronger visual-language fingerprint."
+    ],
+    "recommendedImprovements": []
+  },
+  {
+    "agentId": "source_template_engineer",
+    "agentName": "Source Template Engineer",
+    "role": "Checks source editability, components, variants, layer naming, placeholders, documentation, and auto-layout.",
+    "focus": "auto-layout, components, variants, states, placeholder policy, documentation, source hygiene",
+    "score": 32,
+    "verdict": "REVISE",
+    "signals": [
+      "Mode: website",
+      "Mode axes: section depth, conversion flow, proof/trust, visual richness, marketplace preview value",
+      "Structure units: 1",
+      "Required anatomy hits: 4/7"
+    ],
+    "blockers": [],
+    "requiredRepairs": [
+      "Add source hygiene, components, states, naming, and editable placeholders."
+    ],
+    "recommendedImprovements": []
+  },
+  {
+    "agentId": "originality_legal_auditor",
+    "agentName": "Originality & Legal Risk Auditor",
+    "role": "Flags direct cloning, trademark/copyright issues, license gaps, and preview asset disclosures.",
+    "focus": "copy risk, trademark risk, license, preview-only assets, attribution, commercial use",
+    "score": 32,
+    "verdict": "BLOCKED",
+    "signals": [
+      "Mode: website",
+      "Mode axes: section depth, conversion flow, proof/trust, visual richness, marketplace preview value",
+      "Structure units: 1",
+      "Required anatomy hits: 4/7"
+    ],
+    "blockers": [
+      "Marketplace preview value is too thin."
+    ],
+    "requiredRepairs": [
+      "Add license/originality/preview-only disclosure notes.",
+      "Show buyer value through preview, source hygiene, and category-specific completeness."
+    ],
+    "recommendedImprovements": []
+  },
+  {
+    "agentId": "thumbnail_preview_sales_agent",
+    "agentName": "Thumbnail / Preview Sales Agent",
+    "role": "Checks whether the cover, thumbnail, preview spread, and detail crops can sell the product quickly.",
+    "focus": "cover promise, thumbnail readability, section breakdown, responsive spread, detail crops, buyer proof",
+    "score": 32,
+    "verdict": "BLOCKED",
+    "signals": [
+      "Mode: website",
+      "Mode axes: section depth, conversion flow, proof/trust, visual richness, marketplace preview value",
+      "Structure units: 1",
+      "Required anatomy hits: 4/7"
+    ],
+    "blockers": [
+      "Marketplace preview value is too thin.",
+      "Structure risks thin/generic scaffold output."
+    ],
+    "requiredRepairs": [
+      "Increase product-specific depth and break default section rhythm."
+    ],
+    "recommendedImprovements": []
+  }
+]

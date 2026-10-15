@@ -1,0 +1,25 @@
+{
+  "command": "check",
+  "status": "PASS",
+  "templateId": "",
+  "candidateBrandName": "Northline Advisory",
+  "templateType": "Figma website template",
+  "productFamily": "business consultant",
+  "niche": "consulting advisory",
+  "referenceMode": "single",
+  "referenceGroupKey": "qicons-business-consultant-png",
+  "referenceIds": [
+    "qicons-business-consultant-png"
+  ],
+  "referenceBrandNames": [
+    "Qicons"
+  ],
+  "blockingReasons": [],
+  "warnings": [
+    "UNKNOWN_REFERENCE_ID qicons-business-consultant-png"
+  ],
+  "nextAction": "Proceed with reference cognition and record usage after completion.",
+  "dryRun": false,
+  "checkedAt": "2026-06-01T08:48:41.335588+00:00",
+  "receiptPath": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\receipts\\reference-usage\\qicons-business-consultant-png-check-20260601T084841Z.json"
+}

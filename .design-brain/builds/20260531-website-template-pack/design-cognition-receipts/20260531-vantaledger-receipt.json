@@ -1,0 +1,111 @@
+{
+  "task": "VantaLedger AI finance SaaS Figma website template from two local website references",
+  "productFamily": "saas_product_marketing_website",
+  "mode": "website",
+  "referenceSource": "Template Website: Fintech Digital Bank Payment plus NEURONIX AI Technology for Business",
+  "batchItem": "template_1_of_2",
+  "routeSource": "brain_design_router",
+  "styleDNA": {
+    "typographyBehavior": "large confident SaaS display headings with compact financial labels, metric captions, and dense dashboard microcopy",
+    "layoutRhythm": "dark hero console, proof metrics, workflow explanation, dashboard modules, risk/security proof, pricing, customer proof, FAQ, and conversion closure",
+    "spacingDensity": "premium dark spacing with dense proof islands and calmer product explanation bands",
+    "colorBehavior": "dark graphite base with mineral green action, cyan data signal, muted ivory text, and selective red risk highlights",
+    "imageDirection": "editable dashboard, card, chart, security workflow, and customer proof placeholders instead of generated imagery",
+    "shapeLanguage": "console panels, ticker strips, rounded payment chips, segmented proof rows, and precise hairline borders",
+    "effectLanguage": "data glow, console elevation, thin glass borders, and restrained signal gradients for dashboard hierarchy",
+    "premiumSignal": "finance-specific proof, AI workflow depth, pricing, compliance trust, and source-ready components"
+  },
+  "designIntentLock": {
+    "productType": "editable SaaS and fintech product marketing website template",
+    "outputMedium": "Figma website source template",
+    "targetBuyer": "fintech founders, AI SaaS marketers, and marketplace template buyers",
+    "useCase": "launching AI treasury, payment intelligence, risk automation, or finance operations websites",
+    "marketplaceValue": "complete editable homepage with SaaS product story, dashboard placeholders, pricing, trust modules, and design system",
+    "primaryGoal": "sell a premium AI finance website template that feels credible, dense, and adaptable"
+  },
+  "visualGrammar": {
+    "gridBehavior": "12-column desktop grid with left-biased product promise, right console stack, and alternating full-width data bands",
+    "spacingCadence": "hero density, calm proof strip, dashboard spread, compact workflow rows, strong pricing rhythm, and quiet FAQ close",
+    "typeHierarchy": "wide display hero, numeric proof scale, section h2 rhythm, small labels for compliance and fintech details",
+    "surfaceDepth": "floating console, raised card tiers, inset chart wells, and soft data glow behind key proof modules",
+    "colorRoles": "graphite background, console surface, elevated card, ivory text, muted text, mineral action, cyan signal, risk red, and hairline divider",
+    "imageTreatment": "role-specific placeholders for dashboard screenshots, cards, charts, compliance diagrams, and profile proof",
+    "effectLogic": "green/cyan signal light supports financial data and CTA focus without copying either reference glow",
+    "componentRhythm": "nav, badges, buttons, metric cards, dashboard cards, workflow rows, pricing cards, testimonials, FAQ, forms, and footer"
+  },
+  "referenceBoundary": {
+    "allowedToLearn": "financial proof rhythm, card/payment trust, AI capability density, immersive technical confidence, and customer proof placement",
+    "forbiddenToCopy": "exact layout, exact green banking card composition, exact red robot hero, oversized AI word motif, exact color palette, section order, hero grammar, component scaffold, image placement, and CTA staging",
+    "exactLayoutCopied": "no",
+    "exactPaletteCopied": "no",
+    "exactSectionOrderCopied": "no",
+    "heroGrammarCopied": "no",
+    "componentScaffoldCopied": "no"
+  },
+  "colorRoleRemapping": {
+    "referenceDominantColorIdentity": "neon green digital banking and red AI robotics",
+    "referenceColorRoles": "dark base, bright action accent, glowing proof cards, immersive hero object, and high contrast white headings",
+    "remappedPaletteDirection": "graphite, mineral green, cyan data signal, muted ivory, and narrow risk red",
+    "newAccentIdentity": "mineral green CTA with cyan verification signal",
+    "preservedEmotionalRole": "technical trust and financial momentum are preserved without copying the green banking or red robotics identity",
+    "avoidedExactHues": "reference lime wash, red robot dominance, and single-color dark gradient fields avoided",
+    "contrastHierarchyBehavior": "dark base supports clear white headings, green action, cyan data proof, and red risk warning only where meaningful"
+  },
+  "visualMoodReinterpretation": {
+    "referenceMood": "high contrast fintech trust plus intense AI enterprise momentum",
+    "reinterpretedMood": "calm but powerful AI treasury operating room with premium financial credibility",
+    "changedComposition": "console-first dashboard architecture replaces both the banking-card collage and robot-centered hero",
+    "changedHierarchy": "risk control, payment intelligence, product workflow, and compliance proof drive hierarchy",
+    "changedAssetTreatment": "dashboard and chart placeholders replace final cards, robots, people, and financial screenshots",
+    "changedDepthEffect": "semantic signal glows and console depth replace reference-specific neon wash and red atmosphere"
+  },
+  "structuralReconfiguration": {
+    "referenceStructurePattern": "dark hero with floating proof objects, feature sections, pricing, testimonials, and footer",
+    "newStructurePattern": "AI treasury hero, trust strip, risk problem band, operating workflow, dashboard proof, payment rails, compliance/security, use cases, pricing, customer proof, FAQ, demo CTA, footer, and inner page map",
+    "heroGrammarChange": "left promise plus right layered operating console instead of centered robot or card collage",
+    "sectionOrderChange": "risk and workflow appear before feature cards, while pricing waits until proof and use cases have built confidence",
+    "gridSystemChange": "console grid and ticker rows replace simple card stacks and repeated rounded feature blocks",
+    "ctaFlowChange": "demo CTA repeats as analysis, security, and pricing actions instead of one generic learn-more rhythm",
+    "componentLayoutChange": "dashboard wells, compliance chips, scenario cards, and payment rail rows replace copied feature card grids"
+  },
+  "patternDivergence": {
+    "divergenceFromReference": "new dashboard-led hero, new palette roles, new risk-to-control story, and new section sequence",
+    "divergenceFromPreviousTemplate": "first batch item establishes a technical dark console pattern that must not be reused by template 2",
+    "heroDivergence": "operational command center rather than banking card hero or robot showcase",
+    "sectionRhythmDivergence": "alternates dense data proof with calm explanation and compliance trust",
+    "visualLanguageDivergence": "mineral/cyan finance signal differs from both reference palettes and avoids hospitality editorial treatment",
+    "componentCadenceDivergence": "uses dashboard, chart, workflow, pricing, and FAQ components rather than image gallery or booking modules"
+  },
+  "sectionLogic": {
+    "sectionList": [
+      "nav and AI treasury hero",
+      "banking proof strip",
+      "risk and payment pain band",
+      "operating workflow",
+      "dashboard intelligence preview",
+      "payment rail modules",
+      "compliance and security proof",
+      "use-case scenario matrix",
+      "pricing and plan comparison",
+      "customer results",
+      "FAQ and objection handling",
+      "demo CTA and footer",
+      "inner page map",
+      "design system"
+    ],
+    "roleOfEachSection": "build trust, frame risk, show workflow, prove product depth, answer buying objections, and make source adaptation clear",
+    "buyerJourneyFlow": "understand product promise, inspect proof, see workflow, trust security, compare plans, read results, request demo, and reuse components",
+    "fillerSectionsRemoved": "yes; every block supports SaaS buyer confidence or template source value",
+    "productFamilyDepthStandard": "12 homepage blocks plus inner page map and separate design system for a SaaS/product marketing website"
+  },
+  "marketplaceReadiness": {
+    "sectionDepth": "12 meaningful homepage blocks plus inner page map and source design system",
+    "premiumSignal": "dashboard-led hero, finance proof, compliance depth, pricing logic, and non-generic AI product storytelling",
+    "editability": "auto-layout sections, editable text, replaceable dashboard placeholders, reusable components, and named layers are required",
+    "sourceReadiness": "design system, component states, placeholder guide, auto-layout receipt, and source hygiene notes planned",
+    "previewValue": "cover can show console hero, pricing, dashboard components, proof strip, and source tokens",
+    "commercialUsefulness": "buyers can adapt it for AI finance, treasury, compliance, payment automation, and fintech SaaS launches",
+    "nonGenericProof": "not a generic hero, feature, pricing, footer scaffold; includes finance risk, AI workflow, compliance, product UI, use cases, and source system"
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,9 @@
+- Expand the structure with mode-specific sections, states, proof, preview, and source-template notes.
+- Add website anatomy: hero, proof, service, process, testimonial, cta, footer.
+- Add cover, preview, responsive spread, section breakdown, and included-file notes.
+- Show buyer value through preview, source hygiene, and category-specific completeness.
+- Add license/originality/preview-only disclosure notes.
+- Add source hygiene, components, states, naming, and editable placeholders.
+- Add a stronger visual-language fingerprint.
+- Increase product-specific depth and break default section rhythm.
+- Design Cognition Receipt is required before simulation/build for reference-led/template task.

@@ -1,0 +1,153 @@
+{
+  "version": "0.2.7",
+  "effects": {
+    "website": {
+      "key_effects": "Section depth, CTA emphasis, surface hierarchy, proof block emphasis, image treatment, and restrained web interaction when appropriate.",
+      "forbidden_terms": []
+    },
+    "landing": {
+      "key_effects": "Conversion rhythm, CTA emphasis, proof block emphasis, focused image treatment, and light web interaction only when it supports conversion.",
+      "forbidden_terms": ["Parallax Storytelling as default", "scroll-heavy storytelling"]
+    },
+    "presentation": {
+      "key_effects": "Slide transitions note only, master layout consistency, shape/image framing, and data visualization clarity.",
+      "forbidden_terms": ["parallax", "scroll", "scroll-driven", "scroll-triggered", "sticky", "hover", "position fixed", "position sticky"]
+    },
+    "web_deck": {
+      "key_effects": "Stage-scaled slide composition, entrance and reveal choreography, slide transition motion, runtime navigation and deep-link affordance, reduced-motion fallback, and letterbox-safe projection contrast.",
+      "forbidden_terms": ["export to PPTX", "Keynote export", "Google Slides export", "slide master", "print-only deck", "parallax", "scroll-driven", "scroll-triggered", "long-scroll sections", "website sections"]
+    },
+    "email": {
+      "key_effects": "Email-safe visual hierarchy, mobile stack behavior, alt text, button contrast, no animation dependency, and email client compatibility.",
+      "forbidden_terms": ["sticky", "scroll", "parallax", "hover", "website sections"]
+    },
+    "menu_design": {
+      "key_effects": "Print contrast, price alignment, category spacing, food item hierarchy, and paper/digital export notes.",
+      "forbidden_terms": ["hover", "scroll", "website sections", "dashboard modules"]
+    },
+    "social_post": {
+      "key_effects": "Hook hierarchy, crop-safe composition, thumbnail readability, carousel rhythm, and export size.",
+      "forbidden_terms": ["scroll-snap", "hover", "hover color shift", "large sections", "website sections"]
+    },
+    "static_canvas": {
+      "key_effects": "Print/export clarity, safe margins, visual focal point, CTA/readability, and output size discipline.",
+      "forbidden_terms": ["hover", "keyboard focus", "web sections", "scroll"]
+    },
+    "brand_kit": {
+      "key_effects": "Logo clearspace, color usage, type pairing, visual motif, and brand application examples.",
+      "forbidden_terms": ["website sections", "hover", "scroll", "landing conversion checklist"]
+    },
+    "ui_kit": {
+      "key_effects": "Component states, variant behavior, token mapping, interaction states, and accessibility states.",
+      "forbidden_terms": ["hero", "features", "CTA", "marketing website section flow"]
+    },
+    "component_library": {
+      "key_effects": "Component inventory, variants, state coverage, token mapping, responsive component behavior, and accessibility states.",
+      "forbidden_terms": ["hero", "features", "CTA", "marketing website section flow"]
+    },
+    "design_system": {
+      "key_effects": "Token mapping, component anatomy, variant governance, state coverage, and accessibility rules.",
+      "forbidden_terms": ["hero", "features", "CTA", "marketing website section flow"]
+    },
+    "dashboard": {
+      "key_effects": "Data emphasis, status color, table hierarchy, filter affordance, and empty/loading/error states.",
+      "forbidden_terms": ["testimonial", "landing hero", "CTA conversion flow", "marketing feature sections"]
+    },
+    "mobile_app": {
+      "key_effects": "Screen hierarchy, app navigation, task flow clarity, touch affordance, and state coverage.",
+      "forbidden_terms": ["website sections", "desktop web breakpoints"]
+    },
+    "brochure_design": {
+      "key_effects": "Cover hierarchy, fold/page flow, image/text balance, contact block emphasis, safe margins, and print/PDF export clarity.",
+      "forbidden_terms": ["website sections", "hover", "scroll", "sticky", "CTA Placement", "Conversion Strategy"]
+    },
+    "print_collateral": {
+      "key_effects": "Headline hierarchy, focal visual, supporting copy rhythm, safe margins, print contrast, and export specs.",
+      "forbidden_terms": ["website sections", "hover", "scroll", "sticky", "CTA Placement"]
+    },
+    "poster_design": {
+      "key_effects": "Poster focal hierarchy, strong contrast, supporting information grouping, safe margins, and print/export notes.",
+      "forbidden_terms": ["website sections", "hover", "scroll", "sticky", "Conversion Strategy"]
+    },
+    "banner_design": {
+      "key_effects": "Aspect-ratio discipline, crop-safe headline, visual focus, concise supporting cue, and export-size coverage.",
+      "forbidden_terms": ["website sections", "hover", "scroll", "sticky"]
+    },
+    "thumbnail_design": {
+      "key_effects": "Hook readability, focal subject contrast, crop-safe composition, small-size legibility, and export size.",
+      "forbidden_terms": ["website sections", "hover", "scroll", "sticky"]
+    },
+    "invoice_template": {
+      "key_effects": "Document hierarchy, invoice metadata clarity, item table readability, totals emphasis, and PDF/print reliability.",
+      "forbidden_terms": ["website sections", "hover", "scroll", "CTA Placement"]
+    },
+    "resume_template": {
+      "key_effects": "Career information hierarchy, section rhythm, spacing density, ATS readability, and PDF/print clarity.",
+      "forbidden_terms": ["website sections", "hover", "scroll", "CTA Placement"]
+    },
+    "ticket_receipt_design": {
+      "key_effects": "Order metadata clarity, item-list scanning, quantity/price alignment, total emphasis, and receipt-width print readability.",
+      "forbidden_terms": ["website sections", "hover", "scroll", "CTA Placement"]
+    },
+    "letterhead_design": {
+      "key_effects": "Logo placement, contact hierarchy, footer/legal clarity, safe margin discipline, brand consistency, and print/PDF reliability.",
+      "forbidden_terms": ["website sections", "hover", "scroll", "CTA Placement", "Conversion Strategy", "Contact Sales", "Login"]
+    },
+    "price_list_design": {
+      "key_effects": "Category grouping, price alignment, currency clarity, readable list rhythm, optional badge emphasis, and print/digital export clarity.",
+      "forbidden_terms": ["website sections", "hover", "scroll", "CTA Placement", "Conversion Strategy", "Contact Sales", "Login"]
+    },
+    "table_tent_design": {
+      "key_effects": "Front/back panel hierarchy, fold-safe composition, QR clarity, table-distance readability, safe margins, and print/dieline notes.",
+      "forbidden_terms": ["website sections", "hover", "scroll", "CTA Placement", "Conversion Strategy"]
+    },
+    "catalog_design": {
+      "key_effects": "Catalog cover hierarchy, category navigation, product grid rhythm, product detail snippets, spread pacing, SKU/price clarity, and print/PDF export.",
+      "forbidden_terms": ["website sections", "hover", "scroll", "CTA Placement", "Conversion Strategy", "cart", "checkout"]
+    },
+    "lookbook_design": {
+      "key_effects": "Editorial opener, collection story rhythm, image spread composition, style-note clarity, product reference hierarchy, and print/PDF export.",
+      "forbidden_terms": ["website sections", "hover", "scroll", "CTA Placement", "Conversion Strategy", "cart", "checkout"]
+    },
+    "cover_design": {
+      "key_effects": "Title hierarchy, focal visual contrast, safe area/crop safety, subtitle/metadata clarity, and export-ready readability.",
+      "forbidden_terms": ["website sections", "hover", "scroll", "CTA Placement", "Conversion Strategy", "Contact Sales", "Login", "cart", "checkout"]
+    },
+    "voucher_coupon_design": {
+      "key_effects": "Offer/value emphasis, code/QR clarity, expiry/terms hierarchy, brand/logo area, redemption instruction, and print/digital export.",
+      "forbidden_terms": ["website sections", "hover", "scroll", "CTA Placement", "Conversion Strategy", "Contact Sales", "Login", "cart", "checkout"]
+    },
+    "sticker_design": {
+      "key_effects": "Sticker shape, focal mark/graphic, compact text hierarchy, die-cut safe margin, material/finish notes, and print/export clarity.",
+      "forbidden_terms": ["website sections", "hover", "scroll", "CTA Placement", "Conversion Strategy", "cart", "checkout"]
+    },
+    "postcard_design": {
+      "key_effects": "Front/back layout, image/message hierarchy, address/contact area, safe margin, and print/export clarity.",
+      "forbidden_terms": ["website sections", "hover", "scroll", "CTA Placement", "Conversion Strategy"]
+    },
+    "certificate_design": {
+      "key_effects": "Recipient/name field, title hierarchy, issuer/signature/seal clarity, date/serial field, border/ornament, and PDF/print export.",
+      "forbidden_terms": ["website sections", "hover", "scroll", "CTA Placement", "Conversion Strategy"]
+    },
+    "booklet_design": {
+      "key_effects": "Cover, table of contents/intro, spread rhythm, section pages, image/text balance, contact/back page, and print/PDF export.",
+      "forbidden_terms": ["website sections", "hover", "scroll", "CTA Placement", "Conversion Strategy"]
+    },
+    "packaging_label_design": {
+      "key_effects": "Product identity, variant/flavor/size, info area, barcode/QR/regulatory zone, material/finish note, and print/dieline/export clarity.",
+      "forbidden_terms": ["website sections", "hover", "scroll", "CTA Placement", "Conversion Strategy", "cart", "checkout"]
+    },
+    "label_design": {
+      "key_effects": "Label shape/size, brand/product hierarchy, supporting information, material/finish note, and print/export clarity.",
+      "forbidden_terms": ["website sections", "hover", "scroll", "CTA Placement", "Conversion Strategy", "cart", "checkout"]
+    },
+    "price_tag_design": {
+      "key_effects": "Price hierarchy, product/variant info, SKU/barcode, material/finish, string/hole/die-cut note, and print/export clarity.",
+      "forbidden_terms": ["website sections", "hover", "scroll", "CTA Placement", "Conversion Strategy", "cart", "checkout"]
+    },
+    "hang_tag_design": {
+      "key_effects": "Brand/logo area, product/size/material info, price/SKU/barcode, hole/string placement, front/back layout, and print/export clarity.",
+      "forbidden_terms": ["website sections", "hover", "scroll", "CTA Placement", "Conversion Strategy", "cart", "checkout"]
+    }
+  }
+}

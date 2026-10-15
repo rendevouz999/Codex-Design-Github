@@ -1,0 +1,124 @@
+{
+  "buildId": "post-build-20260601044248",
+  "templateCount": 2,
+  "templates": [
+    "kineticcast-sports-streaming",
+    "roampass-ticket-travel"
+  ],
+  "designCognitionRequired": true,
+  "completionReceiptRequired": true,
+  "completionReceiptPresent": true,
+  "designSystemResults": {
+    "kineticcast-sports-streaming": {
+      "status": "PASS",
+      "templateId": "kineticcast-sports-streaming",
+      "errors": [],
+      "warnings": [],
+      "artifactEvidenceStatus": "PASS"
+    },
+    "roampass-ticket-travel": {
+      "status": "PASS",
+      "templateId": "roampass-ticket-travel",
+      "errors": [],
+      "warnings": [],
+      "artifactEvidenceStatus": "PASS"
+    }
+  },
+  "designCognitionResults": {
+    "Create original Figma website template from Sportz sports streaming reference": {
+      "status": "PASS",
+      "missingFields": [],
+      "riskCategories": [],
+      "requiredRepairs": []
+    },
+    "Create original Figma website template from TASE travel ticket reference": {
+      "status": "PASS",
+      "missingFields": [],
+      "riskCategories": [],
+      "requiredRepairs": []
+    }
+  },
+  "auditPasses": {
+    "pass1OriginalityBatchSimilarity": "PASS",
+    "pass2DesignSystemSourceHygiene": "PASS",
+    "pass3VisualLayoutQA": "PASS"
+  },
+  "batchSimilarity": {
+    "batchId": "2026-06-01-sports-travel-figma",
+    "pairs": [
+      {
+        "pair": [
+          "kineticcast-sports-streaming",
+          "roampass-ticket-travel"
+        ],
+        "structureDefiningAxisSimilarity": 0.356,
+        "visualLanguageAxisSimilarity": 0.222,
+        "scaffoldRisk": 0.286,
+        "failedAxes": [],
+        "hardFailAxes": [],
+        "softRiskAxes": [],
+        "requiredStructuralRepairs": [],
+        "axisScores": {
+          "heroGrammarSimilarity": 0.129,
+          "sectionOrderSimilarity": 0.083,
+          "gridSystemSimilarity": 0.161,
+          "layoutGestureSimilarity": 0.094,
+          "sectionSilhouetteSimilarity": 0.0,
+          "compositionTensionSimilarity": 0.133,
+          "focalPathSimilarity": 0.12,
+          "negativeSpaceShapeSimilarity": 0.136,
+          "depthLayeringSimilarity": 0.069,
+          "moduleScaleVariationSimilarity": 0.067,
+          "breakoutBehaviorSimilarity": 0.222,
+          "layoutRhythmSimilarity": 0.217,
+          "cardCadenceSimilarity": 0.115,
+          "componentPatternSimilarity": 0.167,
+          "ctaPlacementSimilarity": 0.333,
+          "closureSilhouetteSimilarity": 0.356,
+          "imageTreatmentSimilarity": 0.16,
+          "spacingCadenceSimilarity": 0.16,
+          "typographyBehaviorSimilarity": 0.12,
+          "colorRoleSimilarity": 0.125,
+          "effectLanguageSimilarity": 0.143,
+          "navigationFooterPatternSimilarity": 0.367,
+          "overallScaffoldRisk": 0.286
+        },
+        "status": "PASS"
+      }
+    ],
+    "overallRisk": "low",
+    "requiredRepairs": [],
+    "failedAxes": [],
+    "hardFailAxes": [],
+    "softRiskAxes": [],
+    "structureDefiningAxisSimilarity": 0.356,
+    "visualLanguageAxisSimilarity": 0.222,
+    "status": "PASS"
+  },
+  "buildSessionLifecycle": {
+    "status": "not_provided",
+    "sessionId": "",
+    "fingerprintLockStatus": "N/A",
+    "layoutAuditVsReference": "N/A",
+    "pairwiseAiLayoutAudit": "N/A",
+    "issues": []
+  },
+  "layoutOriginality": {
+    "buildSessionId": "",
+    "layoutAuditVsReference": "N/A",
+    "pairwiseAiLayoutAudit": "N/A",
+    "fingerprintLockStatus": "N/A",
+    "ideaRecoveryCorpusUsed": false,
+    "corpusInspirationIds": [],
+    "layoutRepairCycles": 0,
+    "axisFailuresRepaired": [],
+    "safeToProceedToNextTemplate": null
+  },
+  "repairCycles": 0,
+  "repairPlan": [],
+  "remainingIssues": [],
+  "visualVerificationStatus": "screenshot_render_verified",
+  "finalStatus": "READY",
+  "limitations": [],
+  "completionStatement": "Post-build gate satisfied."
+}

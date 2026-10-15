@@ -1,0 +1,195 @@
+{
+  "packs": {
+    "Core Quality Pack": {
+      "skills": [
+        "premium",
+        "refined",
+        "clean",
+        "spacious",
+        "professional"
+      ],
+      "purpose": "Baseline quality, restraint, typography, whitespace, clarity, and commercial polish."
+    },
+    "Template Layout Pack": {
+      "skills": [
+        "bento",
+        "perspective",
+        "storytelling",
+        "dashboard"
+      ],
+      "purpose": "Layout archetypes for grids, preview depth, narrative flow, and data-heavy structures."
+    },
+    "Marketplace Preview Pack": {
+      "skills": [
+        "premium",
+        "perspective",
+        "bento",
+        "storytelling"
+      ],
+      "purpose": "Cover, preview, section breakdown, overview, and mockup presentation direction."
+    },
+    "Presentation Deck Pack": {
+      "skills": [
+        "storytelling",
+        "premium",
+        "professional",
+        "spacious",
+        "refined"
+      ],
+      "purpose": "PowerPoint, Google Slides, Keynote, pitch deck, proposal deck, and presentation template systems."
+    },
+    "Web Deck Pack": {
+      "skills": [
+        "storytelling",
+        "premium",
+        "professional",
+        "spacious",
+        "clean"
+      ],
+      "purpose": "Web deck, HTML presentation, animated deck, browser presentation, and single-file deck products with a fixed 1920x1080 stage, slide-role matrix, motion signature, runtime navigation, reveal order, and print/PDF fallback."
+    },
+    "Landing Page Pack": {
+      "skills": [
+        "premium",
+        "clean",
+        "spacious",
+        "storytelling",
+        "bento"
+      ],
+      "purpose": "Conversion-focused website and SaaS landing page templates."
+    },
+    "Website Template Pack": {
+      "skills": [
+        "professional",
+        "premium",
+        "clean",
+        "spacious",
+        "storytelling",
+        "bento"
+      ],
+      "purpose": "Full website, homepage, business site, agency site, SaaS website, and service website template products with standard section depth and page-map thinking."
+    },
+    "SaaS Product Website Pack": {
+      "skills": [
+        "professional",
+        "premium",
+        "clean",
+        "dashboard",
+        "bento",
+        "storytelling"
+      ],
+      "purpose": "SaaS, AI platform, startup, app, software, and product-marketing website templates with feature depth, product UI evidence, pricing, integrations, case proof, and demo/contact flows."
+    },
+    "Commerce Website Pack": {
+      "skills": [
+        "premium",
+        "clean",
+        "bento",
+        "professional",
+        "storytelling"
+      ],
+      "purpose": "Ecommerce, storefront, marketplace, directory, listing, real estate, booking, and catalog templates with product/listing discovery, detail pages, filters, cart/checkout or inquiry flows, account states, and support pages."
+    },
+    "Editorial Content Website Pack": {
+      "skills": [
+        "refined",
+        "elegant",
+        "spacious",
+        "storytelling",
+        "clean"
+      ],
+      "purpose": "Blog, magazine, news, editorial, CMS, publication, and newsletter websites with article, archive, author, search, subscription, and topic-discovery systems."
+    },
+    "Knowledge Education Website Pack": {
+      "skills": [
+        "professional",
+        "clean",
+        "spacious",
+        "bento",
+        "storytelling"
+      ],
+      "purpose": "Education, course, LMS, documentation, help center, developer docs, knowledge base, and academy templates with catalog/docs structure, detail pages, search, article/lesson screens, and support flows."
+    },
+    "Portfolio Studio Website Pack": {
+      "skills": [
+        "refined",
+        "premium",
+        "spacious",
+        "storytelling",
+        "bento"
+      ],
+      "purpose": "Agency, studio, creative portfolio, personal portfolio, resume, and case-study websites where work proof, case detail, services, about/team, and contact structure carry the product value."
+    },
+    "Dashboard Product Pack": {
+      "skills": [
+        "dashboard",
+        "clean",
+        "professional",
+        "bento"
+      ],
+      "purpose": "Analytics, admin, SaaS platform, internal tool, and productivity dashboard templates."
+    },
+    "UI Kit System Pack": {
+      "skills": [
+        "professional",
+        "clean",
+        "premium",
+        "dashboard",
+        "bento"
+      ],
+      "purpose": "UI kits, design systems, component libraries, states, variants, token boards, and usage documentation."
+    },
+    "Brand Kit Pack": {
+      "skills": [
+        "refined",
+        "elegant",
+        "premium",
+        "spacious",
+        "storytelling"
+      ],
+      "purpose": "Brand guideline, identity, social kit, stationery, collateral, and visual identity templates."
+    },
+    "Elegant Event Pack": {
+      "skills": [
+        "elegant",
+        "refined",
+        "spacious",
+        "premium",
+        "storytelling"
+      ],
+      "purpose": "Wedding, event, beauty, boutique, luxury service, and editorial niche templates."
+    },
+    "Service Business Pack": {
+      "skills": [
+        "professional",
+        "clean",
+        "spacious",
+        "bento",
+        "storytelling"
+      ],
+      "purpose": "Local service, booking, professional service, repair, hiring, and business templates."
+    },
+    "Editorial Publishing Pack": {
+      "skills": [
+        "refined",
+        "elegant",
+        "spacious",
+        "storytelling"
+      ],
+      "purpose": "Editorial, publication, portfolio, magazine, writing, and content-led templates."
+    }
+  },
+  "conflict_rules": [
+    "Do not combine too many dominant moods.",
+    "Dashboard should not dominate wedding/event landing pages.",
+    "Perspective is mainly for preview/presentation unless the UI itself needs depth.",
+    "Storytelling should guide structure, not make every UI playful.",
+    "Presentation Deck Pack should use slide-role matrix, not landing-page section order.",
+    "Web Deck Pack should use the slide-role matrix plus a motion signature, and must not inherit landing-page section order.",
+    "Web Deck Pack must not be combined with Presentation Deck Pack export-only rules, because a browser-rendered deck is judged on stage and runtime fidelity, not on static export behavior.",
+    "UI Kit System Pack should prioritize state coverage and usage rules over dramatic visuals.",
+    "Brand Kit Pack should define identity application rules, not only attractive mockups.",
+    "Clean/Spacious can be combined with nearly everything.",
+    "Premium/Professional should guide quality and restraint."
+  ]
+}

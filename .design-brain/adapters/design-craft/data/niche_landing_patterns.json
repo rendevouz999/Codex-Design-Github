@@ -1,0 +1,85 @@
+{
+  "version": "0.2.7",
+  "patterns": {
+    "finance_consulting": [
+      "Trust-led hero with clear advisory promise",
+      "Financial pain/problem framing",
+      "Service outcomes",
+      "Consultation process",
+      "Credibility/metrics/compliance trust",
+      "Case outcome or client proof",
+      "FAQ/risk clarity",
+      "CTA consultation booking"
+    ],
+    "restaurant_hospitality": [
+      "Atmosphere/food hero",
+      "Signature offer/menu highlight",
+      "Dining experience/value",
+      "Gallery/ambience proof",
+      "Reservation or promo flow",
+      "Reviews/location/hours",
+      "CTA reservation/order"
+    ],
+    "equipment_rental_service": [
+      "Search/booking hero",
+      "Rental categories",
+      "How rental works",
+      "Availability/delivery/support",
+      "Pricing/duration clarity",
+      "Trust/safety/service area",
+      "CTA booking/request quote"
+    ],
+    "furniture_rental_service": [
+      "Booking/search hero",
+      "Furniture rental categories",
+      "Rental packages/sets",
+      "Delivery/setup support",
+      "Pricing/duration clarity",
+      "Trust/service area",
+      "CTA booking/request quote"
+    ],
+    "beauty_wellness": [
+      "Benefit/experience hero",
+      "Treatment promise",
+      "Service packages",
+      "Specialist/trust",
+      "Before-after/result logic or testimonial",
+      "Booking/pricing clarity",
+      "CTA appointment"
+    ],
+    "car_rental_transport": [
+      "Booking/search hero",
+      "Vehicle categories",
+      "Rental process",
+      "Pricing/packages",
+      "Coverage/service area",
+      "Trust/support",
+      "CTA booking"
+    ],
+    "fashion_apparel_ecommerce": [
+      "Campaign hero",
+      "Featured collection",
+      "Product/category story",
+      "Lookbook/social proof",
+      "Promo/fit/shipping confidence",
+      "CTA shop collection"
+    ],
+    "real_estate_property": [
+      "Property search/value hero",
+      "Featured properties",
+      "Location/neighborhood proof",
+      "Agent credibility",
+      "Schedule visit/contact flow",
+      "CTA inquiry"
+    ],
+    "education_course": [
+      "Learning outcome hero",
+      "Course benefits",
+      "Curriculum/modules",
+      "Instructor credibility",
+      "Student outcome/proof",
+      "Enrollment/pricing",
+      "CTA enroll"
+    ]
+  }
+}

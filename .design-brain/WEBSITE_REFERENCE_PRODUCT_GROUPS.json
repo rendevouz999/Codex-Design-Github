@@ -1,0 +1,3088 @@
+{
+  "generated": "2026-06-01T03:31:59.938022+07:00",
+  "source": "Template Website",
+  "checkedSources": [
+    "Template Website",
+    "references/Template Website",
+    "references/template-website",
+    ".design-brain/reference-corpus/template-website",
+    ".design-brain/evidence/fig-extracts"
+  ],
+  "rawFiles": 534,
+  "selectorCandidates": 527,
+  "preferredGroupSize": 10,
+  "minimumDesiredGroupSize": 4,
+  "products": [
+    {
+      "productType": {
+        "id": "saas_product_website",
+        "name": "SaaS / Product Marketing Website",
+        "category": "full-site",
+        "standardRange": "10-14 homepage blocks plus product, pricing, resource, demo/contact, and trust pages."
+      },
+      "counts": {
+        "broadMatches": 118,
+        "dedupedMatches": 114,
+        "groupEligible": 37,
+        "supplementalForSmallPools": 0,
+        "groupReady": 37,
+        "referenceGroups": 4
+      },
+      "rotation": {
+        "preferredGroupSize": 10,
+        "minimumDesiredGroupSize": 4,
+        "resetAfterGroup": 4
+      },
+      "groups": [
+        {
+          "groupIndex": 1,
+          "groupSize": 10,
+          "groupFingerprint": "deepintel-ai-deep-search-technology-website+ganger-ai-cybersecurity-website+geri-ai-platform-website+gradient-ai-nft-digital-agency-website-template+helix-cyber-defense-ai-tech-website+jack-futuristic-ai-startup-website+pearl-futuristic-ai-automotive-website+riza-ai-and-robotics-integration-website+tech-ai-cyberpunk-technology-website+yoru-ai-saas-technology-website",
+          "references": [
+            {
+              "path": "Template Website/G - Geri - Ai Platform Website - 1e0a3deb.jpg",
+              "referenceId": "geri-ai-platform-website",
+              "score": 88,
+              "reasons": [
+                "product trigger: platform website",
+                "product trigger: ai platform",
+                "product trigger: ai",
+                "query terms: ai, platform"
+              ],
+              "diversityTags": [
+                "ai-platform"
+              ]
+            },
+            {
+              "path": "Template Website/yoru-ai-saas-technology-website-2025-05-13-17-48-33-utc - Yoru - AI & SaaS Technology Website - 846f80fa.png",
+              "referenceId": "yoru-ai-saas-technology-website",
+              "score": 87,
+              "reasons": [
+                "product trigger: saas",
+                "product trigger: ai saas",
+                "product trigger: ai",
+                "query terms: ai, saas"
+              ],
+              "diversityTags": [
+                "saas",
+                "technology"
+              ]
+            },
+            {
+              "path": "Template Website/jack-futuristic-ai-startup-website-2025-04-25-18-51-04-utc - Jack - Futuristic AI Startup Website - ade7c36e.png",
+              "referenceId": "jack-futuristic-ai-startup-website",
+              "score": 87,
+              "reasons": [
+                "product trigger: startup website",
+                "product trigger: ai",
+                "product trigger: startup",
+                "query terms: ai, startup"
+              ],
+              "diversityTags": [
+                "startup"
+              ]
+            },
+            {
+              "path": "Template Website/helix-cyber-defense-ai-tech-website-2025-04-15-23-33-59-utc - Helix - Cyber Defense & AI Tech Website - 642b93cf.png",
+              "referenceId": "helix-cyber-defense-ai-tech-website",
+              "score": 48,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai, tech"
+              ],
+              "diversityTags": [
+                "cyber-security",
+                "technology"
+              ]
+            },
+            {
+              "path": "Template Website/riza-ai-and-robotics-integration-website-2024-10-18-16-09-17-utc - Riza - AI and Robotics Integration Website - ffb7d153.png",
+              "referenceId": "riza-ai-and-robotics-integration-website",
+              "score": 48,
+              "reasons": [
+                "product trigger: ai",
+                "signal: integration",
+                "query terms: ai, integration"
+              ],
+              "diversityTags": [
+                "robotics-integration"
+              ]
+            },
+            {
+              "path": "Template Website/tech-ai-cyberpunk-technology-website-2024-09-17-23-25-18-utc - Tech.AI - Cyberpunk Technology Website - de93bac3.png",
+              "referenceId": "tech-ai-cyberpunk-technology-website",
+              "score": 48,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai, tech"
+              ],
+              "diversityTags": [
+                "technology"
+              ]
+            },
+            {
+              "path": "Template Website/gradient-ai-nft-digital-agency-website-template-2024-08-14-02-35-09-utc - Gradient.Ai - NFT Digital Agency Website Template - e1caf20e.png",
+              "referenceId": "gradient-ai-nft-digital-agency-website-template",
+              "score": 40,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai, digital"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/pearl-futuristic-ai-automotive-website-2025-06-19-21-49-14-utc - Pearl - Futuristic AI Automotive Website - 02eb2f6e.png",
+              "referenceId": "pearl-futuristic-ai-automotive-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai"
+              ],
+              "diversityTags": [
+                "product-device"
+              ]
+            },
+            {
+              "path": "Template Website/deepintel-ai-deep-search-technology-website-2024-07-02-20-40-06-utc - DeepIntel - AI Deep Search Technology Website Image - a22dd7e2.png",
+              "referenceId": "deepintel-ai-deep-search-technology-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai"
+              ],
+              "diversityTags": [
+                "data-intelligence",
+                "technology"
+              ]
+            },
+            {
+              "path": "Template Website/ganger-ai-cybersecurity-website-2025-05-20-16-59-24-utc - Ganger - AI & Cybersecurity Website - dcd616b9.png",
+              "referenceId": "ganger-ai-cybersecurity-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            }
+          ]
+        },
+        {
+          "groupIndex": 2,
+          "groupSize": 9,
+          "groupFingerprint": "athlan-ai-agency-technology-website+bonzai-ai-machine-learning-website+holx-ai-business-management-website+lala-modern-minimalist-saas-website+nect-ai-data-intelligence-website+net-ai-nfts-website+nier-futuristic-saas-website+plase-ai-startup-technology-website+synapsemeet-ai-meeting-platform-website",
+          "references": [
+            {
+              "path": "Template Website/synapsemeet-ai-meeting-platform-website-2025-10-30-22-18-47-utc - SynapseMeet - AI Meeting Platform Website - f14bb097.png",
+              "referenceId": "synapsemeet-ai-meeting-platform-website",
+              "score": 68,
+              "reasons": [
+                "product trigger: platform website",
+                "product trigger: ai",
+                "query terms: ai, platform"
+              ],
+              "diversityTags": [
+                "ai-platform"
+              ]
+            },
+            {
+              "path": "Template Website/plase-ai-startup-technology-website-template-2024-09-20-22-00-06-utc - Plase - AI Startup & Technology Website - 35990f27.png",
+              "referenceId": "plase-ai-startup-technology-website",
+              "score": 67,
+              "reasons": [
+                "product trigger: ai",
+                "product trigger: startup",
+                "query terms: ai, startup"
+              ],
+              "diversityTags": [
+                "startup",
+                "technology"
+              ]
+            },
+            {
+              "path": "Template Website/lala-modern-minimalist-saas-website-2025-01-27-16-30-54-utc - Lala - Modern Minimalist SaaS Website - eb99cc43.png",
+              "referenceId": "lala-modern-minimalist-saas-website",
+              "score": 56,
+              "reasons": [
+                "product trigger: saas",
+                "product trigger: saas website",
+                "query terms: saas"
+              ],
+              "diversityTags": [
+                "saas"
+              ]
+            },
+            {
+              "path": "Template Website/nect-ai-data-intelligence-website-2025-04-17-01-36-23-utc - Nect – AI & Data Intelligence Website - a89d58d3.png",
+              "referenceId": "nect-ai-data-intelligence-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai"
+              ],
+              "diversityTags": [
+                "data-intelligence"
+              ]
+            },
+            {
+              "path": "Template Website/net-ai-nfts-website-2025-03-25-16-50-02-utc - Net.AI - NFTs Website - baf76558.png",
+              "referenceId": "net-ai-nfts-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/bonzai-ai-machine-learning-website-2025-04-08-01-04-29-utc - Bonzai - AI & Machine Learning Website - 9087f5b3.png",
+              "referenceId": "bonzai-ai-machine-learning-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai"
+              ],
+              "diversityTags": [
+                "machine-learning"
+              ]
+            },
+            {
+              "path": "Template Website/holx-ai-business-management-website-2024-11-07-22-19-41-utc - Holx - AI Business Management Website - 24dfb41c.png",
+              "referenceId": "holx-ai-business-management-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai"
+              ],
+              "diversityTags": [
+                "business-management"
+              ]
+            },
+            {
+              "path": "Template Website/athlan-ai-agency-technology-website-2025-09-30-18-07-26-utc - Athlan - AI Agency & Technology Website - b3d7bf66.png",
+              "referenceId": "athlan-ai-agency-technology-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai"
+              ],
+              "diversityTags": [
+                "technology",
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/nier-futuristic-saas-website-2025-07-11-22-53-22-utc - Nier - Futuristic SaaS Website - 5ea22d77.png",
+              "referenceId": "nier-futuristic-saas-website",
+              "score": 56,
+              "reasons": [
+                "product trigger: saas",
+                "product trigger: saas website",
+                "query terms: saas"
+              ],
+              "diversityTags": [
+                "saas"
+              ]
+            }
+          ]
+        },
+        {
+          "groupIndex": 3,
+          "groupSize": 9,
+          "groupFingerprint": "drope-it-software-solution-website+hopas-social-media-management-ai-website+intech-innovation-ai-tech-website+neural-ai-machine-learning-website+shin-futuristic-startup-website+synthai-tech-startup-innovation-website+unity-ai-revolution-website+weta-metaverse-platform-website+woof-ai-machine-learning-website",
+          "references": [
+            {
+              "path": "Template Website/shin-futuristic-startup-website-2025-04-07-16-44-53-utc - Shin - Futuristic Startup Website - 33bc0674.png",
+              "referenceId": "shin-futuristic-startup-website",
+              "score": 56,
+              "reasons": [
+                "product trigger: startup website",
+                "product trigger: startup",
+                "query terms: startup"
+              ],
+              "diversityTags": [
+                "startup"
+              ]
+            },
+            {
+              "path": "Template Website/weta-metaverse-platform-website-2025-09-09-17-22-19-utc - Weta - Metaverse Platform Website - 5cf41b77.jpg",
+              "referenceId": "weta-metaverse-platform-website",
+              "score": 37,
+              "reasons": [
+                "product trigger: platform website",
+                "query terms: platform"
+              ],
+              "diversityTags": [
+                "ai-platform"
+              ]
+            },
+            {
+              "path": "Template Website/unity-ai-revolution-website-2025-02-04-15-33-31-utc - Unity - AI Revolution Website - b9b68c29.png",
+              "referenceId": "unity-ai-revolution-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/neural-ai-machine-learning-website-2025-02-10-18-34-46-utc - Neural - AI & Machine Learning Website - ef10eace.png",
+              "referenceId": "neural-ai-machine-learning-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai"
+              ],
+              "diversityTags": [
+                "machine-learning"
+              ]
+            },
+            {
+              "path": "Template Website/hopas-social-media-management-ai-website-2025-01-20-16-33-54-utc - Hopas - Social Media Management AI Website - 31c88613.jpg",
+              "referenceId": "hopas-social-media-management-ai-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai"
+              ],
+              "diversityTags": [
+                "business-management"
+              ]
+            },
+            {
+              "path": "Template Website/drope-it-software-solution-website-2024-08-20-20-16-13-utc - Drope - IT Software & Solution Website - dda23aed.png",
+              "referenceId": "drope-it-software-solution-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: software",
+                "query terms: software"
+              ],
+              "diversityTags": [
+                "technology"
+              ]
+            },
+            {
+              "path": "Template Website/intech-innovation-ai-tech-website-2025-10-28-21-01-17-utc - INTech - Innovation AI Tech Website - 593407b0.jpg",
+              "referenceId": "intech-innovation-ai-tech-website",
+              "score": 48,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai, tech"
+              ],
+              "diversityTags": [
+                "startup",
+                "technology"
+              ]
+            },
+            {
+              "path": "Template Website/synthai-tech-startup-innovation-website-2025-06-16-16-48-14-utc - SynthAI - Tech Startup & Innovation Website - d67bae44.png",
+              "referenceId": "synthai-tech-startup-innovation-website",
+              "score": 48,
+              "reasons": [
+                "product trigger: startup",
+                "query terms: startup, tech"
+              ],
+              "diversityTags": [
+                "startup",
+                "technology"
+              ]
+            },
+            {
+              "path": "Template Website/woof-ai-machine-learning-website-2024-10-25-17-30-35-utc - Woof - AI & Machine Learning Website - ae4f1386.png",
+              "referenceId": "woof-ai-machine-learning-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai"
+              ],
+              "diversityTags": [
+                "machine-learning"
+              ]
+            }
+          ]
+        },
+        {
+          "groupIndex": 4,
+          "groupSize": 9,
+          "groupFingerprint": "future-digita-art-ai-technology-website+gen-ai-ai-generate-website+horizon-technology-ai-business-website+luma-futuristic-technology-ai-website+moren-ai-business-technology-website+neuronix-ai-technology-for-business-website+pero-ai-startups-technology-website+pinka-ai-innovative-technology-website+reo-ai-assistant-website",
+          "references": [
+            {
+              "path": "Template Website/pero-ai-startups-technology-website-2024-10-04-20-47-56-utc - Pero - AI Startups & Technology Website - 07d73929.png",
+              "referenceId": "pero-ai-startups-technology-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai"
+              ],
+              "diversityTags": [
+                "startup",
+                "technology"
+              ]
+            },
+            {
+              "path": "Template Website/gen-ai-ai-generate-website-2024-11-22-20-38-56-utc - Gen.AI - AI Generate Website - cd39d5de.png",
+              "referenceId": "gen-ai-ai-generate-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai"
+              ],
+              "diversityTags": [
+                "ai-platform"
+              ]
+            },
+            {
+              "path": "Template Website/horizon-technology-ai-business-website-2025-04-22-03-22-57-utc - Horizon - Technology AI & Business Website - 7e6b10fb.png",
+              "referenceId": "horizon-technology-ai-business-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai"
+              ],
+              "diversityTags": [
+                "business-management",
+                "technology"
+              ]
+            },
+            {
+              "path": "Template Website/future-digita-art-ai-technology-website-2024-11-11-18-46-29-utc - Future - Digita Art AI Technology Website - 3504624c.png",
+              "referenceId": "future-digita-art-ai-technology-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai"
+              ],
+              "diversityTags": [
+                "technology"
+              ]
+            },
+            {
+              "path": "Template Website/reo-ai-assistant-website-2024-07-05-18-34-38-utc - Reo - AI Assistant Website - f24fc9ce.png",
+              "referenceId": "reo-ai-assistant-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai"
+              ],
+              "diversityTags": [
+                "ai-platform"
+              ]
+            },
+            {
+              "path": "Template Website/Moren - AI Business Technology Website.jpg",
+              "referenceId": "moren-ai-business-technology-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai"
+              ],
+              "diversityTags": [
+                "business-management",
+                "technology"
+              ]
+            },
+            {
+              "path": "Template Website/neuronix-ai-technology-for-business-website-2025-10-14-22-58-22-utc - NEURONIX - AI Technology for Business Website - f57f240b.png",
+              "referenceId": "neuronix-ai-technology-for-business-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai"
+              ],
+              "diversityTags": [
+                "business-management",
+                "technology"
+              ]
+            },
+            {
+              "path": "Template Website/luma-futuristic-technology-ai-website-2025-02-04-18-26-42-utc - Luma - Futuristic Technology AI Website - 0d811f70.png",
+              "referenceId": "luma-futuristic-technology-ai-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai"
+              ],
+              "diversityTags": [
+                "technology"
+              ]
+            },
+            {
+              "path": "Template Website/pinka-ai-innovative-technology-website-2025-02-04-18-23-42-utc - Pinka - AI Innovative Technology Website - aa2f0243.png",
+              "referenceId": "pinka-ai-innovative-technology-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: ai",
+                "query terms: ai"
+              ],
+              "diversityTags": [
+                "technology"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productType": {
+        "id": "landing_page_campaign",
+        "name": "Landing Page / Campaign Page",
+        "category": "conversion-page",
+        "standardRange": "8-12 sections for standard products, 10-14 for trust-heavy offers; 6-8 only for explicitly narrow campaign, squeeze, waitlist, or micro landing scope."
+      },
+      "counts": {
+        "broadMatches": 49,
+        "dedupedMatches": 49,
+        "groupEligible": 37,
+        "supplementalForSmallPools": 0,
+        "groupReady": 37,
+        "referenceGroups": 4
+      },
+      "rotation": {
+        "preferredGroupSize": 10,
+        "minimumDesiredGroupSize": 4,
+        "resetAfterGroup": 4
+      },
+      "groups": [
+        {
+          "groupIndex": 1,
+          "groupSize": 10,
+          "groupFingerprint": "118-lead-generation-landing-page+benjoe-business-information-tech+colase-company-agency-landing-page+eke-product-campaign-website+giok-digital-agency-landing-page+holistic-medical-healthcare-landing-page+lifeline-health-care-landing-page+polka-online-banking-landing-page+polok-medical-health-care-landing-page+visionary-business-financial-advisor-landing-page-im",
+          "references": [
+            {
+              "path": "Template Website/118_Lead-Generation-02-Landing-Page.jpg",
+              "referenceId": "118-lead-generation-landing-page",
+              "score": 62,
+              "reasons": [
+                "product trigger: landing page",
+                "product trigger: lead generation",
+                "page/flow: landing page",
+                "query terms: generation, landing, lead"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/a-business-financial-advisor-landing-page-2024-06-07-17-08-56-utc - Visionary - A Business Financial Advisor Landing Page Im - 5b5dd026.png",
+              "referenceId": "visionary-business-financial-advisor-landing-page-im",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "business-management"
+              ]
+            },
+            {
+              "path": "Template Website/holistic-medical-healthcare-landing-page-2024-03-21-19-04-52-utc - Holistic - Medical Healthcare Landing Page - 3bd8e038.png",
+              "referenceId": "holistic-medical-healthcare-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "healthcare"
+              ]
+            },
+            {
+              "path": "Template Website/colase-company-agency-landing-page-2024-06-11-17-45-58-utc - Colase - Company Agency Landing Page - f16d5081.png",
+              "referenceId": "colase-company-agency-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/eke-product-campaign-website-2025-11-11-19-59-26-utc - Eke - Product Campaign Website - d967c68f.jpg",
+              "referenceId": "eke-product-campaign-website",
+              "score": 28,
+              "reasons": [
+                "product trigger: campaign",
+                "query terms: campaign"
+              ],
+              "diversityTags": [
+                "product-device"
+              ]
+            },
+            {
+              "path": "Template Website/polka-online-banking-website-hero-2024-06-05-17-56-10-utc - Polka - Online Banking Landing Page - 0dd820e5.png",
+              "referenceId": "polka-online-banking-landing-page",
+              "score": 46,
+              "reasons": [
+                "product trigger: landing page",
+                "signal: hero",
+                "page/flow: landing page",
+                "query terms: hero, landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/benjoe-business-information-landing-page-2024-03-13-23-16-35-utc - BENJOE - Business Information Tech - 83f5292d.png",
+              "referenceId": "benjoe-business-information-tech",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "business-management",
+                "technology"
+              ]
+            },
+            {
+              "path": "Template Website/lifeline-health-care-landing-page-2024-03-26-19-33-39-utc - LifeLine - Health Care Landing Page - b4468772.png",
+              "referenceId": "lifeline-health-care-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "healthcare"
+              ]
+            },
+            {
+              "path": "Template Website/polok-medical-health-care-landing-page-2024-06-10-22-12-00-utc - Polok - Medical Health Care Landing Page - 3c6ba41e.png",
+              "referenceId": "polok-medical-health-care-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "healthcare"
+              ]
+            },
+            {
+              "path": "Template Website/giok-digital-agency-landing-page-2024-06-13-22-29-15-utc - Giok - Digital Agency Landing Page - 799d3b03.png",
+              "referenceId": "giok-digital-agency-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            }
+          ]
+        },
+        {
+          "groupIndex": 2,
+          "groupSize": 9,
+          "groupFingerprint": "alower-multipurpose-landing-page+beritain-blog-post-landing-page+concrete-industrial-architecture-landing-page+gym-and-fitness-landing-page+hotelio-home-stay-landing-page+keyra-digital-marketing-agency-landing-page+lefly-digital-agency-landing-page+marketing-email-landing-page+pizzeria-gourment-pizza-revolution-landing-page",
+          "references": [
+            {
+              "path": "Template Website/keyra-digital-marketing-agency-landing-page-2024-06-07-17-01-52-utc - Keyra - Digital Marketing Agency Landing Page - 0ac53663.png",
+              "referenceId": "keyra-digital-marketing-agency-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/a-gourment-pizza-revolution-landing-page-2024-03-21-18-50-34-utc - Pizzeria - A Gourment Pizza Revolution Landing Page - 9f0d8f30.png",
+              "referenceId": "pizzeria-gourment-pizza-revolution-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/lefly-digital-agency-landing-page-2024-04-01-19-08-51-utc - Lefly - Digital Agency Landing Page - a9ade0f4.png",
+              "referenceId": "lefly-digital-agency-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/alower-multipurpose-landing-page-2024-06-07-16-37-20-utc - Alower - Multipurpose Landing Page Image - 635a5e5d.png",
+              "referenceId": "alower-multipurpose-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/beritain-blog-post-landing-page-2024-03-25-18-24-24-utc - Beritain - Blog Post Landing Page - 1e9bf1b3.png",
+              "referenceId": "beritain-blog-post-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/concrete-industrial-architecture-landing-page-2024-06-08-02-49-20-utc - Concrete - Industrial Architecture Landing Page Image - 4b31b304.png",
+              "referenceId": "concrete-industrial-architecture-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/G - Marketing Email_Landing page - 33fb28a0.png",
+              "referenceId": "marketing-email-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/Gym and FItness Landing Page.jpg",
+              "referenceId": "gym-and-fitness-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/hotelio-home-stay-landing-page-2024-03-15-18-58-46-utc - Hotelio - Home Stay Landing Page - 5ebc1201.png",
+              "referenceId": "hotelio-home-stay-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            }
+          ]
+        },
+        {
+          "groupIndex": 3,
+          "groupSize": 9,
+          "groupFingerprint": "jober-job-finder-landing-page+juite-furniture-landing-page+laufey-agriculture-organic-farm-landing-page+minolta-ecommerce-landing-page+monious-industrial-factory-landing-page+newsgo-blog-news-articles-landing-page+nicole-fashion-landing-page+nyawah-farmer-landing-page+open-new-shop-landing-page-illustration",
+          "references": [
+            {
+              "path": "Template Website/jober-job-finder-landing-page-2024-06-18-16-33-17-utc - Jober - Job Finder Landing Page - f9c3a5a7.png",
+              "referenceId": "jober-job-finder-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/juite-furniture-landing-page-2024-04-04-01-24-17-utc - Juite - Furniture Landing page - 9263bc90.png",
+              "referenceId": "juite-furniture-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/laufey-agriculture-organic-farm-landing-page-2024-04-26-22-00-15-utc - Laufey - Agriculture & Organic Farm Landing Page - 73e18d91.png",
+              "referenceId": "laufey-agriculture-organic-farm-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/Minolta - eCommerce Landing Page.png",
+              "referenceId": "minolta-ecommerce-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/monious-industrial-factory-landing-page-2024-03-21-20-09-34-utc - Monious - Industrial Factory Landing Page - d25690a2.png",
+              "referenceId": "monious-industrial-factory-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/newsgo-blog-news-articles-landing-page-2024-05-02-17-27-28-utc - NewsGo - Blog News & Articles Landing Page - 95ea700a.png",
+              "referenceId": "newsgo-blog-news-articles-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/nicole-fashion-landing-page-2024-05-20-16-28-39-utc - Nicole - Fashion Landing Page - 0994b0f3.png",
+              "referenceId": "nicole-fashion-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/nyawah-farmer-landing-page-2024-05-20-16-21-37-utc - Nyawah - Farmer Landing Page - 5ec5c9a8.png",
+              "referenceId": "nyawah-farmer-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/Open-New-Shop-Landing-Page-Illustration.jpg",
+              "referenceId": "open-new-shop-landing-page-illustration",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            }
+          ]
+        },
+        {
+          "groupIndex": 4,
+          "groupSize": 9,
+          "groupFingerprint": "freefall-skydiving-extreme-air-sports-landing-page+pirlo-personal-portfolio-landing-page+preview-landing-page+rumahan-real-estate-landing-page+sekarat-sneakers-landing-page+shoyo-real-estate-landing-page+space-multipurpose-landing-page+suntop-pet-shop-landing-page+zestfast-fast-food-restaurant-landing-page",
+          "references": [
+            {
+              "path": "Template Website/pirlo-personal-portfolio-landing-page-2024-05-16-19-40-48-utc - Pirlo - Personal Portfolio Landing Page Image - 9bfa3636.png",
+              "referenceId": "pirlo-personal-portfolio-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/Preview Landing Page.png",
+              "referenceId": "preview-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/rumahan-real-estate-landing-page-2024-03-25-17-00-07-utc - Rumahan - Real Estate Landing Page - 5457fe15.png",
+              "referenceId": "rumahan-real-estate-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/sekarat-sneakers-landing-page-2024-03-19-17-20-29-utc - Sekarat - Sneakers Landing Page - 0e7cc8c6.png",
+              "referenceId": "sekarat-sneakers-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/shoyo-real-estate-landing-page-2024-05-16-20-08-57-utc - Shoyo - Real Estate Landing Page - ccd0d7bd.png",
+              "referenceId": "shoyo-real-estate-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/skydiving-extreme-air-sports-landing-page-2024-06-10-21-55-45-utc - Freefall - Skydiving & Extreme Air Sports Landing Page I - 0ce3520b.png",
+              "referenceId": "freefall-skydiving-extreme-air-sports-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/space-multipurpose-landing-page-2024-05-09-18-52-27-utc - Space - Multipurpose Landing Page - 2eaab6d9.png",
+              "referenceId": "space-multipurpose-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/suntop-pet-shop-landing-page-2024-04-04-21-56-41-utc - SunTop - Pet Shop Landing Page - a75e13b6.png",
+              "referenceId": "suntop-pet-shop-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/zestfast-fast-food-restaurant-landing-page-2024-06-14-19-58-08-utc - ZestFast - Fast Food Restaurant Landing Page - b5de8b9d.png",
+              "referenceId": "zestfast-fast-food-restaurant-landing-page",
+              "score": 34,
+              "reasons": [
+                "product trigger: landing page",
+                "page/flow: landing page",
+                "query terms: landing"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productType": {
+        "id": "personal_portfolio_case_study",
+        "name": "Personal Portfolio / Resume / Case-Study Site",
+        "category": "portfolio-site",
+        "standardRange": "7-10 homepage blocks plus work/case detail, about, resume, and contact."
+      },
+      "counts": {
+        "broadMatches": 127,
+        "dedupedMatches": 78,
+        "groupEligible": 35,
+        "supplementalForSmallPools": 0,
+        "groupReady": 35,
+        "referenceGroups": 4
+      },
+      "rotation": {
+        "preferredGroupSize": 10,
+        "minimumDesiredGroupSize": 4,
+        "resetAfterGroup": 4
+      },
+      "groups": [
+        {
+          "groupIndex": 1,
+          "groupSize": 9,
+          "groupFingerprint": "1+2+3+4+caos-portofolio-designer-website+pirlo-personal-portfolio-landing-page+portfolio-1-10-0828c63e-png+portfolio-1-11-bc43b6d5-png+proto-creative-personal-portfolio-website",
+          "references": [
+            {
+              "path": "Template Website/proto-creative-personal-portfolio-website-2024-06-27-22-05-29-utc - Proto - Creative Personal Portfolio Website - 3b331b24.png",
+              "referenceId": "proto-creative-personal-portfolio-website",
+              "score": 60,
+              "reasons": [
+                "product trigger: portfolio",
+                "product trigger: personal portfolio",
+                "query terms: personal, portfolio"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/pirlo-personal-portfolio-landing-page-2024-05-16-19-40-48-utc - Pirlo - Personal Portfolio Landing Page Image - 9bfa3636.png",
+              "referenceId": "pirlo-personal-portfolio-landing-page",
+              "score": 60,
+              "reasons": [
+                "product trigger: portfolio",
+                "product trigger: personal portfolio",
+                "query terms: personal, portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/caos-portofolio-designer-website-2025-10-03-22-22-17-utc - Caos - Portofolio Designer Website - 4982b039.jpg",
+              "referenceId": "caos-portofolio-designer-website",
+              "score": 40,
+              "reasons": [
+                "product trigger: portofolio",
+                "query terms: designer, portofolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-1 - 1 - d1e8dafe.png",
+              "referenceId": "1",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-1 - 10 - 0828c63e.png",
+              "referenceId": "portfolio-1-10-0828c63e-png",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-1 - 11 - bc43b6d5.png",
+              "referenceId": "portfolio-1-11-bc43b6d5-png",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-1 - 2 - eba1d9d4.png",
+              "referenceId": "2",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-1 - 3 - 4a98dc78.png",
+              "referenceId": "3",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-1 - 4 - 17fd3486.png",
+              "referenceId": "4",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            }
+          ]
+        },
+        {
+          "groupIndex": 2,
+          "groupSize": 9,
+          "groupFingerprint": "5+6+7+8+9+portfolio-2-10-5b865b95-png+portfolio-2-11-0f9cd730-png+portfolio-2-12-57f065a0-png+portfolio-3-10-d8134c68-png",
+          "references": [
+            {
+              "path": "Template Website/portfolio-1 - 5 - 99cdfdd1.png",
+              "referenceId": "5",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-1 - 6 - 16ddcfd5.png",
+              "referenceId": "6",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-1 - 7 - 8075f407.png",
+              "referenceId": "7",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-1 - 8 - f3bce904.png",
+              "referenceId": "8",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-1 - 9 - 45c51661.png",
+              "referenceId": "9",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-2 - 10 - 5b865b95.png",
+              "referenceId": "portfolio-2-10-5b865b95-png",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-2 - 11 - 0f9cd730.png",
+              "referenceId": "portfolio-2-11-0f9cd730-png",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-2 - 12 - 57f065a0.png",
+              "referenceId": "portfolio-2-12-57f065a0-png",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-3 - 10 - d8134c68.png",
+              "referenceId": "portfolio-3-10-d8134c68-png",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            }
+          ]
+        },
+        {
+          "groupIndex": 3,
+          "groupSize": 9,
+          "groupFingerprint": "portfolio-3-11-acf31c0d-png+portfolio-3-12-76ed81ad-png+portfolio-4-10-ddd6b6d2-png+portfolio-4-11-af277782-png+portfolio-4-12-7cdf78a8-png+portfolio-4-13-5d3842f4-png+portfolio-4-14-42a00f36-png+portfolio-4-15-abdd5cfb-png+portfolio-4-16-3fea6ac1-png",
+          "references": [
+            {
+              "path": "Template Website/portfolio-3 - 11 - acf31c0d.png",
+              "referenceId": "portfolio-3-11-acf31c0d-png",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-3 - 12 - 76ed81ad.png",
+              "referenceId": "portfolio-3-12-76ed81ad-png",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-4 - 10 - ddd6b6d2.png",
+              "referenceId": "portfolio-4-10-ddd6b6d2-png",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-4 - 11 - af277782.png",
+              "referenceId": "portfolio-4-11-af277782-png",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-4 - 12 - 7cdf78a8.png",
+              "referenceId": "portfolio-4-12-7cdf78a8-png",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-4 - 13 - 5d3842f4.png",
+              "referenceId": "portfolio-4-13-5d3842f4-png",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-4 - 14 - 42a00f36.png",
+              "referenceId": "portfolio-4-14-42a00f36-png",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-4 - 15 - abdd5cfb.png",
+              "referenceId": "portfolio-4-15-abdd5cfb-png",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-4 - 16 - 3fea6ac1.png",
+              "referenceId": "portfolio-4-16-3fea6ac1-png",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            }
+          ]
+        },
+        {
+          "groupIndex": 4,
+          "groupSize": 8,
+          "groupFingerprint": "portfolio+portfolio-4-17-f0dadff2-png+portfolio-5-10-fcf2fb83-png+portfolio-6-10-604db5ab-png+portfolio-6-11-703ea007-png+portfolio-6-12-ae69ecab-png+portfolio-img-1+portfolio-img-2",
+          "references": [
+            {
+              "path": "Template Website/portfolio-4 - 17 - f0dadff2.png",
+              "referenceId": "portfolio-4-17-f0dadff2-png",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-5 - 10 - fcf2fb83.png",
+              "referenceId": "portfolio-5-10-fcf2fb83-png",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-6 - 10 - 604db5ab.png",
+              "referenceId": "portfolio-6-10-604db5ab-png",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-6 - 11 - 703ea007.png",
+              "referenceId": "portfolio-6-11-703ea007-png",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/portfolio-6 - 12 - ae69ecab.png",
+              "referenceId": "portfolio-6-12-ae69ecab-png",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/Portfolio-img-1.png",
+              "referenceId": "portfolio-img-1",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/Portfolio-img-2.png",
+              "referenceId": "portfolio-img-2",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/Portfolio.jpg",
+              "referenceId": "portfolio",
+              "score": 34,
+              "reasons": [
+                "product trigger: portfolio",
+                "query terms: portfolio"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productType": {
+        "id": "agency_studio_website",
+        "name": "Agency / Studio Website",
+        "category": "full-site",
+        "standardRange": "9-12 homepage blocks plus work index, case detail, services, about/team, and contact."
+      },
+      "counts": {
+        "broadMatches": 190,
+        "dedupedMatches": 142,
+        "groupEligible": 22,
+        "supplementalForSmallPools": 0,
+        "groupReady": 22,
+        "referenceGroups": 3
+      },
+      "rotation": {
+        "preferredGroupSize": 10,
+        "minimumDesiredGroupSize": 4,
+        "resetAfterGroup": 3
+      },
+      "groups": [
+        {
+          "groupIndex": 1,
+          "groupSize": 8,
+          "groupFingerprint": "blink-creative-agency-website+chaos-creative-studio-website+chroma-creative-studio-website+gradient-ai-nft-digital-agency-website-template+keyra-digital-marketing-agency-landing-page+lynx-design-studio-website+raul-business-agency-website+silvra-luxury-creative-studio-website",
+          "references": [
+            {
+              "path": "Template Website/lynx-design-studio-website-2025-04-22-01-26-40-utc - Lynx - Design Studio Website - ad87175a.png",
+              "referenceId": "lynx-design-studio-website",
+              "score": 97,
+              "reasons": [
+                "product trigger: studio website",
+                "product trigger: design studio",
+                "product trigger: studio",
+                "product trigger: design studio website",
+                "query terms: studio"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/raul-business-agency-website-2024-10-25-16-40-14-utc - Raul - Business Agency Website - de72eea9.png",
+              "referenceId": "raul-business-agency-website",
+              "score": 37,
+              "reasons": [
+                "product trigger: agency website",
+                "query terms: agency"
+              ],
+              "diversityTags": [
+                "business-management",
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/blink-creative-agency-website-2025-05-29-02-34-05-utc - Blink - Creative Agency Website - 41fa53a8.png",
+              "referenceId": "blink-creative-agency-website",
+              "score": 82,
+              "reasons": [
+                "product trigger: agency website",
+                "product trigger: creative agency",
+                "product trigger: creative agency website",
+                "query terms: agency, creative"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/gradient-ai-nft-digital-agency-website-template-2024-08-14-02-35-09-utc - Gradient.Ai - NFT Digital Agency Website Template - e1caf20e.png",
+              "referenceId": "gradient-ai-nft-digital-agency-website-template",
+              "score": 82,
+              "reasons": [
+                "product trigger: agency website",
+                "product trigger: digital agency",
+                "product trigger: agency website template",
+                "query terms: agency, digital"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/chaos-creative-studio-website-2025-01-15-17-54-01-utc - Chaos - Creative Studio Website - 21a94ff9.png",
+              "referenceId": "chaos-creative-studio-website",
+              "score": 80,
+              "reasons": [
+                "product trigger: studio website",
+                "product trigger: studio",
+                "product trigger: creative studio",
+                "query terms: creative, studio"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/chroma-creative-studio-website-2025-07-14-22-05-15-utc - Chroma - Creative Studio Website - cdb2e7d8.png",
+              "referenceId": "chroma-creative-studio-website",
+              "score": 80,
+              "reasons": [
+                "product trigger: studio website",
+                "product trigger: studio",
+                "product trigger: creative studio",
+                "query terms: creative, studio"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/silvra-creative-studio-website-2025-12-05-23-48-40-utc - Silvra - Luxury Creative Studio Website - 7cff76a4.png",
+              "referenceId": "silvra-luxury-creative-studio-website",
+              "score": 80,
+              "reasons": [
+                "product trigger: studio website",
+                "product trigger: studio",
+                "product trigger: creative studio",
+                "query terms: creative, studio"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/keyra-digital-marketing-agency-landing-page-2024-06-07-17-01-52-utc - Keyra - Digital Marketing Agency Landing Page - 0ac53663.png",
+              "referenceId": "keyra-digital-marketing-agency-landing-page",
+              "score": 69,
+              "reasons": [
+                "product trigger: marketing agency",
+                "product trigger: agency landing",
+                "query terms: agency, digital, landing, marketing"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            }
+          ]
+        },
+        {
+          "groupIndex": 2,
+          "groupSize": 7,
+          "groupFingerprint": "colase-company-agency-landing-page+elite-professional-agency-website+flow-digital-marketing-agency-website+flux-futuristic-digital-agency-website+giok-digital-agency-landing-page+kela-digital-agency-website+lefly-digital-agency-landing-page",
+          "references": [
+            {
+              "path": "Template Website/flow-digital-marketing-agency-website-2025-02-05-23-25-45-utc - Flow - Digital Marketing Agency Website - 46281853.png",
+              "referenceId": "flow-digital-marketing-agency-website",
+              "score": 65,
+              "reasons": [
+                "product trigger: agency website",
+                "product trigger: marketing agency",
+                "query terms: agency, digital, marketing"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/giok-digital-agency-landing-page-2024-06-13-22-29-15-utc - Giok - Digital Agency Landing Page - 799d3b03.png",
+              "referenceId": "giok-digital-agency-landing-page",
+              "score": 65,
+              "reasons": [
+                "product trigger: digital agency",
+                "product trigger: agency landing",
+                "query terms: agency, digital, landing"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/lefly-digital-agency-landing-page-2024-04-01-19-08-51-utc - Lefly - Digital Agency Landing Page - a9ade0f4.png",
+              "referenceId": "lefly-digital-agency-landing-page",
+              "score": 65,
+              "reasons": [
+                "product trigger: digital agency",
+                "product trigger: agency landing",
+                "query terms: agency, digital, landing"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/flux-futuristic-digital-agency-website-2025-03-04-23-27-29-utc - Flux - Futuristic Digital Agency Website - 7b6c5bf7.png",
+              "referenceId": "flux-futuristic-digital-agency-website",
+              "score": 61,
+              "reasons": [
+                "product trigger: agency website",
+                "product trigger: digital agency",
+                "query terms: agency, digital"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/kela-digital-agency-website-2025-07-30-15-21-03-utc - Kela - Digital Agency Website - 825ea24b.jpg",
+              "referenceId": "kela-digital-agency-website",
+              "score": 61,
+              "reasons": [
+                "product trigger: agency website",
+                "product trigger: digital agency",
+                "query terms: agency, digital"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/colase-company-agency-landing-page-2024-06-11-17-45-58-utc - Colase - Company Agency Landing Page - f16d5081.png",
+              "referenceId": "colase-company-agency-landing-page",
+              "score": 41,
+              "reasons": [
+                "product trigger: agency landing",
+                "query terms: agency, landing"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/elite-professional-agency-website-2025-03-27-02-21-20-utc - Elite - Professional Agency Website - d5136510.png",
+              "referenceId": "elite-professional-agency-website",
+              "score": 41,
+              "reasons": [
+                "product trigger: agency website",
+                "query terms: agency, professional"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            }
+          ]
+        },
+        {
+          "groupIndex": 3,
+          "groupSize": 7,
+          "groupFingerprint": "board-job-career-agency-website+ciko-corporate-agency-website+grid-digital-future-agency-website+kavling-property-agency-website+kora-minimalist-agency-website+proto-creative-personal-portfolio-website+ture-healthy-agency-website",
+          "references": [
+            {
+              "path": "Template Website/grid-digital-future-agency-website-2025-03-27-02-10-07-utc - Grid - Digital Future Agency Website - 98e90aa8.png",
+              "referenceId": "grid-digital-future-agency-website",
+              "score": 41,
+              "reasons": [
+                "product trigger: agency website",
+                "query terms: agency, digital"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/board-job-career-agency-website-2025-04-08-01-06-29-utc - Board - Job Career & Agency Website - a8e43662.png",
+              "referenceId": "board-job-career-agency-website",
+              "score": 37,
+              "reasons": [
+                "product trigger: agency website",
+                "query terms: agency"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/ciko-corporate-agency-website-2025-06-18-21-58-14-utc - Ciko - Corporate Agency Website - cf803058.png",
+              "referenceId": "ciko-corporate-agency-website",
+              "score": 37,
+              "reasons": [
+                "product trigger: agency website",
+                "query terms: agency"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/kavling-property-agency-website-2024-10-14-18-38-39-utc - Kavling - Property Agency Website - 90a233bb.png",
+              "referenceId": "kavling-property-agency-website",
+              "score": 37,
+              "reasons": [
+                "product trigger: agency website",
+                "query terms: agency"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/kora-minimalist-agency-website-2025-04-25-18-50-04-utc - Kora - Minimalist Agency Website - 9d31eb8e.png",
+              "referenceId": "kora-minimalist-agency-website",
+              "score": 37,
+              "reasons": [
+                "product trigger: agency website",
+                "query terms: agency"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/ture-healthy-agency-website-2025-07-24-01-07-42-utc - Ture - Healthy Agency Website - 1c73cbbf.jpg",
+              "referenceId": "ture-healthy-agency-website",
+              "score": 37,
+              "reasons": [
+                "product trigger: agency website",
+                "query terms: agency"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/proto-creative-personal-portfolio-website-2024-06-27-22-05-29-utc - Proto - Creative Personal Portfolio Website - 3b331b24.png",
+              "referenceId": "proto-creative-personal-portfolio-website",
+              "score": 25,
+              "reasons": [
+                "query terms: creative, personal, portfolio"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productType": {
+        "id": "corporate_business_website",
+        "name": "Corporate / Business Website",
+        "category": "full-site",
+        "standardRange": "9-13 homepage blocks plus about, service, team, case/news, careers/contact pages."
+      },
+      "counts": {
+        "broadMatches": 66,
+        "dedupedMatches": 64,
+        "groupEligible": 17,
+        "supplementalForSmallPools": 0,
+        "groupReady": 17,
+        "referenceGroups": 2
+      },
+      "rotation": {
+        "preferredGroupSize": 10,
+        "minimumDesiredGroupSize": 4,
+        "resetAfterGroup": 2
+      },
+      "groups": [
+        {
+          "groupIndex": 1,
+          "groupSize": 9,
+          "groupFingerprint": "fiscus-financial-business-website+hexa-digital-creative-company-website+hyoga-modern-tech-company-website+lean-business-consulting-website+mang-management-finance-website+megicas-business-consultant-website+qicons-bussiness-consultant-website+tero-business-and-finance-website+visionary-business-financial-advisor-landing-page-im",
+          "references": [
+            {
+              "path": "Template Website/fiscus-financial-business-website-template-2024-08-23-17-15-21-utc - Fiscus - Financial Business Website Image - bebe5a1c.png",
+              "referenceId": "fiscus-financial-business-website",
+              "score": 60,
+              "reasons": [
+                "product trigger: business website",
+                "product trigger: financial",
+                "query terms: business, financial"
+              ],
+              "diversityTags": [
+                "business-management"
+              ]
+            },
+            {
+              "path": "Template Website/hexa-digital-creative-company-website-2025-11-11-21-17-55-utc - Hexa - Digital Creative Company Website - 7975049f.jpg",
+              "referenceId": "hexa-digital-creative-company-website",
+              "score": 37,
+              "reasons": [
+                "product trigger: company website",
+                "signal: company",
+                "query terms: company"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/Hyoga - Modern Tech Company Website.jpg",
+              "referenceId": "hyoga-modern-tech-company-website",
+              "score": 37,
+              "reasons": [
+                "product trigger: company website",
+                "signal: company",
+                "query terms: company"
+              ],
+              "diversityTags": [
+                "technology"
+              ]
+            },
+            {
+              "path": "Template Website/qicons-bussiness-consultant-website-2025-08-20-17-51-41-utc - Qicons - Bussiness Consultant Website - fde25fb6.png",
+              "referenceId": "qicons-bussiness-consultant-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: consultant",
+                "query terms: consultant"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/lean-business-consulting-website-2025-05-16-14-44-09-utc - Lean - Business & Consulting Website - 87057a9b.png",
+              "referenceId": "lean-business-consulting-website",
+              "score": 60,
+              "reasons": [
+                "product trigger: consulting website",
+                "product trigger: consulting",
+                "query terms: business, consulting"
+              ],
+              "diversityTags": [
+                "business-management"
+              ]
+            },
+            {
+              "path": "Template Website/mang-management-finance-website-2024-11-22-20-45-59-utc - Mang - Management Finance Website - 936ba67e.png",
+              "referenceId": "mang-management-finance-website",
+              "score": 60,
+              "reasons": [
+                "product trigger: finance website",
+                "product trigger: finance",
+                "query terms: finance, management"
+              ],
+              "diversityTags": [
+                "business-management",
+                "finance-blockchain"
+              ]
+            },
+            {
+              "path": "Template Website/megicas-business-consultant-website-2025-10-17-21-36-07-utc - Megicas - Business Consultant Website - 2f4aaf39.png",
+              "referenceId": "megicas-business-consultant-website",
+              "score": 60,
+              "reasons": [
+                "product trigger: consultant",
+                "product trigger: business consultant",
+                "query terms: business, consultant"
+              ],
+              "diversityTags": [
+                "business-management"
+              ]
+            },
+            {
+              "path": "Template Website/tero-business-and-finance-website-2024-10-01-02-52-12-utc - Tero - Business and Finance Website - a3c98c6d.png",
+              "referenceId": "tero-business-and-finance-website",
+              "score": 60,
+              "reasons": [
+                "product trigger: finance website",
+                "product trigger: finance",
+                "query terms: business, finance"
+              ],
+              "diversityTags": [
+                "business-management",
+                "finance-blockchain"
+              ]
+            },
+            {
+              "path": "Template Website/a-business-financial-advisor-landing-page-2024-06-07-17-08-56-utc - Visionary - A Business Financial Advisor Landing Page Im - 5b5dd026.png",
+              "referenceId": "visionary-business-financial-advisor-landing-page-im",
+              "score": 40,
+              "reasons": [
+                "product trigger: financial",
+                "query terms: business, financial"
+              ],
+              "diversityTags": [
+                "business-management"
+              ]
+            }
+          ]
+        },
+        {
+          "groupIndex": 2,
+          "groupSize": 8,
+          "groupFingerprint": "finance-smart-digital-banking-website+fiore-business-financial-website+geo-business-corporate-website+hexcore-futuristic-business-website+horizon-technology-ai-business-website+neuronix-ai-technology-for-business-website+oleo-financial-technology-crypto-website+strive-dynamic-corporate-website",
+          "references": [
+            {
+              "path": "Template Website/fiore-business-financial-website-2024-11-07-18-06-57-utc - Fiore - Business Financial Website - 02416dce.png",
+              "referenceId": "fiore-business-financial-website",
+              "score": 40,
+              "reasons": [
+                "product trigger: financial",
+                "query terms: business, financial"
+              ],
+              "diversityTags": [
+                "business-management"
+              ]
+            },
+            {
+              "path": "Template Website/finance-smart-digital-banking-website-2024-10-31-18-57-53-utc - Finance - Smart Digital Banking Website - 2c35598b.png",
+              "referenceId": "finance-smart-digital-banking-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: finance",
+                "query terms: finance"
+              ],
+              "diversityTags": [
+                "agency-creative",
+                "finance-blockchain"
+              ]
+            },
+            {
+              "path": "Template Website/oleo-financial-technology-crypto-website-2024-10-01-02-55-13-utc - Oleo - Financial Technology & Crypto Website - e8d9503a.png",
+              "referenceId": "oleo-financial-technology-crypto-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: financial",
+                "query terms: financial"
+              ],
+              "diversityTags": [
+                "technology",
+                "finance-blockchain"
+              ]
+            },
+            {
+              "path": "Template Website/strive-dynamic-corporate-website-2025-01-15-17-57-03-utc - Strive - Dynamic Corporate Website - bc0a577b.png",
+              "referenceId": "strive-dynamic-corporate-website",
+              "score": 29,
+              "reasons": [
+                "product trigger: corporate website",
+                "query terms: corporate"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/geo-business-corporate-website-2024-07-02-20-45-07-utc - Geo - Business Corporate Website - c1c9cd2a.png",
+              "referenceId": "geo-business-corporate-website",
+              "score": 33,
+              "reasons": [
+                "product trigger: corporate website",
+                "query terms: business, corporate"
+              ],
+              "diversityTags": [
+                "business-management"
+              ]
+            },
+            {
+              "path": "Template Website/hexcore-futuristic-business-website-2025-02-14-17-41-26-utc - HexCore - Futuristic Business Website - f14a4880.png",
+              "referenceId": "hexcore-futuristic-business-website",
+              "score": 29,
+              "reasons": [
+                "product trigger: business website",
+                "query terms: business"
+              ],
+              "diversityTags": [
+                "business-management"
+              ]
+            },
+            {
+              "path": "Template Website/horizon-technology-ai-business-website-2025-04-22-03-22-57-utc - Horizon - Technology AI & Business Website - 7e6b10fb.png",
+              "referenceId": "horizon-technology-ai-business-website",
+              "score": 29,
+              "reasons": [
+                "product trigger: business website",
+                "query terms: business"
+              ],
+              "diversityTags": [
+                "business-management",
+                "technology"
+              ]
+            },
+            {
+              "path": "Template Website/neuronix-ai-technology-for-business-website-2025-10-14-22-58-22-utc - NEURONIX - AI Technology for Business Website - f57f240b.png",
+              "referenceId": "neuronix-ai-technology-for-business-website",
+              "score": 29,
+              "reasons": [
+                "product trigger: business website",
+                "query terms: business"
+              ],
+              "diversityTags": [
+                "business-management",
+                "technology"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productType": {
+        "id": "ecommerce_storefront",
+        "name": "Ecommerce / Storefront Template",
+        "category": "commerce-site",
+        "standardRange": "10-14 homepage modules plus PLP, PDP, cart, checkout, account/order, search/filter, and support states."
+      },
+      "counts": {
+        "broadMatches": 69,
+        "dedupedMatches": 69,
+        "groupEligible": 14,
+        "supplementalForSmallPools": 0,
+        "groupReady": 14,
+        "referenceGroups": 2
+      },
+      "rotation": {
+        "preferredGroupSize": 10,
+        "minimumDesiredGroupSize": 4,
+        "resetAfterGroup": 2
+      },
+      "groups": [
+        {
+          "groupIndex": 1,
+          "groupSize": 7,
+          "groupFingerprint": "ego-luxury-lifestyle-fashion-website+juite-furniture-landing-page+luxelane-fashion-website+ragnaku-product-ecommerce-website+ration-home-decor-ecommerce-website+sneaky-shoes-sneakers-product-ecommerce-website+velvet-luxury-furniture-showcase-website",
+          "references": [
+            {
+              "path": "Template Website/velvet-luxury-furniture-showcase-website-2025-01-11-00-24-57-utc - Velvet - Luxury Furniture Showcase Website - 1b82a47b.png",
+              "referenceId": "velvet-luxury-furniture-showcase-website",
+              "score": 60,
+              "reasons": [
+                "product trigger: furniture",
+                "product trigger: luxury furniture",
+                "query terms: furniture, luxury"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/ragnaku-product-ecommerce-website-2024-06-19-23-14-59-utc - Ragnaku - Product Ecommerce Website - fc1ead6a.png",
+              "referenceId": "ragnaku-product-ecommerce-website",
+              "score": 44,
+              "reasons": [
+                "product trigger: ecommerce",
+                "signal: product",
+                "query terms: ecommerce"
+              ],
+              "diversityTags": [
+                "product-device"
+              ]
+            },
+            {
+              "path": "Template Website/shoes-sneakers-product-ecommerce-website-2025-05-08-00-27-42-utc - Sneaky - Shoes & Sneakers Product eCommerce Website - fd8923ee.png",
+              "referenceId": "sneaky-shoes-sneakers-product-ecommerce-website",
+              "score": 44,
+              "reasons": [
+                "product trigger: ecommerce",
+                "signal: product",
+                "query terms: ecommerce"
+              ],
+              "diversityTags": [
+                "product-device"
+              ]
+            },
+            {
+              "path": "Template Website/ration-home-decor-ecommerce-website-2024-10-04-20-28-50-utc - Ration - Home Decor eCommerce Website Image - efac0fef.png",
+              "referenceId": "ration-home-decor-ecommerce-website",
+              "score": 41,
+              "reasons": [
+                "product trigger: ecommerce",
+                "page/flow: home",
+                "query terms: ecommerce"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/ego-luxury-lifestyle-fashion-website-2025-06-24-16-33-34-utc - Ego - Luxury Lifestyle & Fashion Website - f083b40d.png",
+              "referenceId": "ego-luxury-lifestyle-fashion-website",
+              "score": 40,
+              "reasons": [
+                "product trigger: fashion",
+                "query terms: fashion, luxury"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/juite-furniture-landing-page-2024-04-04-01-24-17-utc - Juite - Furniture Landing page - 9263bc90.png",
+              "referenceId": "juite-furniture-landing-page",
+              "score": 36,
+              "reasons": [
+                "product trigger: furniture",
+                "query terms: furniture"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/luxelane-fashion-style-website-2024-12-09-20-32-10-utc - LuxeLane - Fashion Website - e01e8919.jpg",
+              "referenceId": "luxelane-fashion-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: fashion",
+                "query terms: fashion"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            }
+          ]
+        },
+        {
+          "groupIndex": 2,
+          "groupSize": 7,
+          "groupFingerprint": "minolta-ecommerce-landing-page+modern-product-page-exploration+nicole-fashion-landing-page+paul-minimalist-furniture-website+qonder-eyewear-glasses-ecommerce-website+tib-furniture-brand-website+vana-fashion-modern-streetwear-website",
+          "references": [
+            {
+              "path": "Template Website/Minolta - eCommerce Landing Page.png",
+              "referenceId": "minolta-ecommerce-landing-page",
+              "score": 36,
+              "reasons": [
+                "product trigger: ecommerce",
+                "query terms: ecommerce"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/Modern Product Page Exploration.jpg",
+              "referenceId": "modern-product-page-exploration",
+              "score": 25,
+              "reasons": [
+                "product trigger: product page",
+                "signal: product"
+              ],
+              "diversityTags": [
+                "product-device"
+              ]
+            },
+            {
+              "path": "Template Website/nicole-fashion-landing-page-2024-05-20-16-28-39-utc - Nicole - Fashion Landing Page - 0994b0f3.png",
+              "referenceId": "nicole-fashion-landing-page",
+              "score": 36,
+              "reasons": [
+                "product trigger: fashion",
+                "query terms: fashion"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/paul-minimalist-furniture-website-template-2024-06-27-16-57-17-utc - Paul - Minimalist Furniture Website - 715e5da1.png",
+              "referenceId": "paul-minimalist-furniture-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: furniture",
+                "query terms: furniture"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/qonder-eyewear-glasses-ecommerce-website-2025-12-06-00-49-31-utc - Qonder Eyewear - Glasses Ecommerce Website - f0755ab3.png",
+              "referenceId": "qonder-eyewear-glasses-ecommerce-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: ecommerce",
+                "query terms: ecommerce"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/tib-furniture-brand-website-2025-07-14-22-27-20-utc - TIB - Furniture Brand Website - 7822fbde.jpg",
+              "referenceId": "tib-furniture-brand-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: furniture",
+                "query terms: furniture"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/vana-fashion-modern-streetwear-website-2025-06-24-18-15-04-utc - Vana - Fashion Modern Streetwear Website - 7ce9182e.jpg",
+              "referenceId": "vana-fashion-modern-streetwear-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: fashion",
+                "query terms: fashion"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productType": {
+        "id": "marketplace_listing_directory",
+        "name": "Marketplace / Listing / Directory Website",
+        "category": "commerce-discovery-site",
+        "standardRange": "10-14 homepage/modules plus listing index, detail, filters, map/compare, account/saved, and inquiry/booking flow."
+      },
+      "counts": {
+        "broadMatches": 57,
+        "dedupedMatches": 57,
+        "groupEligible": 7,
+        "supplementalForSmallPools": 0,
+        "groupReady": 7,
+        "referenceGroups": 1
+      },
+      "rotation": {
+        "preferredGroupSize": 10,
+        "minimumDesiredGroupSize": 4,
+        "resetAfterGroup": 1
+      },
+      "groups": [
+        {
+          "groupIndex": 1,
+          "groupSize": 7,
+          "groupFingerprint": "ceroke-business-property-website+darren-real-estate-website+iso-luxury-real-estate-website+kavling-property-agency-website+propertia-id-property-website+rumahan-real-estate-landing-page+shoyo-real-estate-landing-page",
+          "references": [
+            {
+              "path": "Template Website/kavling-property-agency-website-2024-10-14-18-38-39-utc - Kavling - Property Agency Website - 90a233bb.png",
+              "referenceId": "kavling-property-agency-website",
+              "score": 40,
+              "reasons": [
+                "product trigger: property",
+                "query terms: agency, property"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/darren-real-estate-website-2025-01-03-18-05-36-utc - Darren - Real Estate Website - 0c5c3b30.png",
+              "referenceId": "darren-real-estate-website",
+              "score": 33,
+              "reasons": [
+                "product trigger: real estate",
+                "query terms: estate, real"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/ceroke-business-property-website-2024-06-19-23-10-58-utc - Ceroke - Business Property Website - 3a2b5056.png",
+              "referenceId": "ceroke-business-property-website",
+              "score": 28,
+              "reasons": [
+                "product trigger: property",
+                "query terms: property"
+              ],
+              "diversityTags": [
+                "business-management"
+              ]
+            },
+            {
+              "path": "Template Website/iso-luxury-real-estate-website-2025-06-30-17-32-04-utc - Iso - Luxury Real Estate Website - 1160cb49.png",
+              "referenceId": "iso-luxury-real-estate-website",
+              "score": 33,
+              "reasons": [
+                "product trigger: real estate",
+                "query terms: estate, real"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/rumahan-real-estate-landing-page-2024-03-25-17-00-07-utc - Rumahan - Real Estate Landing Page - 5457fe15.png",
+              "referenceId": "rumahan-real-estate-landing-page",
+              "score": 33,
+              "reasons": [
+                "product trigger: real estate",
+                "query terms: estate, real"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/shoyo-real-estate-landing-page-2024-05-16-20-08-57-utc - Shoyo - Real Estate Landing Page - ccd0d7bd.png",
+              "referenceId": "shoyo-real-estate-landing-page",
+              "score": 33,
+              "reasons": [
+                "product trigger: real estate",
+                "query terms: estate, real"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/propertia-id-property-website-2024-12-23-16-22-30-utc - Propertia.id - Property Website - 4a85fbe2.jpg",
+              "referenceId": "propertia-id-property-website",
+              "score": 28,
+              "reasons": [
+                "product trigger: property",
+                "query terms: property"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productType": {
+        "id": "multipurpose_website_template",
+        "name": "Multipurpose / Full Website Template",
+        "category": "full-site",
+        "standardRange": "10-14 homepage blocks plus inner page map and design-system notes."
+      },
+      "counts": {
+        "broadMatches": 47,
+        "dedupedMatches": 45,
+        "groupEligible": 6,
+        "supplementalForSmallPools": 0,
+        "groupReady": 6,
+        "referenceGroups": 1
+      },
+      "rotation": {
+        "preferredGroupSize": 10,
+        "minimumDesiredGroupSize": 4,
+        "resetAfterGroup": 1
+      },
+      "groups": [
+        {
+          "groupIndex": 1,
+          "groupSize": 6,
+          "groupFingerprint": "alower-multipurpose-landing-page+fiscus-financial-business-website+gradient-ai-nft-digital-agency-website-template+plase-ai-startup-technology-website+space-multipurpose-landing-page+vulture-creative-multipurpose-website",
+          "references": [
+            {
+              "path": "Template Website/vulture-creative-multipurpose-website-2024-09-24-03-11-06-utc - Vulture - Creative Multipurpose Website - 50023666.png",
+              "referenceId": "vulture-creative-multipurpose-website",
+              "score": 28,
+              "reasons": [
+                "product trigger: multipurpose",
+                "query terms: multipurpose"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/alower-multipurpose-landing-page-2024-06-07-16-37-20-utc - Alower - Multipurpose Landing Page Image - 635a5e5d.png",
+              "referenceId": "alower-multipurpose-landing-page",
+              "score": 28,
+              "reasons": [
+                "product trigger: multipurpose",
+                "query terms: multipurpose"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/fiscus-financial-business-website-template-2024-08-23-17-15-21-utc - Fiscus - Financial Business Website Image - bebe5a1c.png",
+              "referenceId": "fiscus-financial-business-website",
+              "score": 25,
+              "reasons": [
+                "product trigger: website template"
+              ],
+              "diversityTags": [
+                "business-management"
+              ]
+            },
+            {
+              "path": "Template Website/plase-ai-startup-technology-website-template-2024-09-20-22-00-06-utc - Plase - AI Startup & Technology Website - 35990f27.png",
+              "referenceId": "plase-ai-startup-technology-website",
+              "score": 25,
+              "reasons": [
+                "product trigger: website template"
+              ],
+              "diversityTags": [
+                "startup",
+                "technology"
+              ]
+            },
+            {
+              "path": "Template Website/space-multipurpose-landing-page-2024-05-09-18-52-27-utc - Space - Multipurpose Landing Page - 2eaab6d9.png",
+              "referenceId": "space-multipurpose-landing-page",
+              "score": 28,
+              "reasons": [
+                "product trigger: multipurpose",
+                "query terms: multipurpose"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/gradient-ai-nft-digital-agency-website-template-2024-08-14-02-35-09-utc - Gradient.Ai - NFT Digital Agency Website Template - e1caf20e.png",
+              "referenceId": "gradient-ai-nft-digital-agency-website-template",
+              "score": 25,
+              "reasons": [
+                "product trigger: website template"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productType": {
+        "id": "event_venue_travel_booking",
+        "name": "Event / Venue / Travel / Hospitality Website",
+        "category": "booking-site",
+        "standardRange": "10-14 homepage blocks plus listing/room/ticket detail, schedule/amenities, booking/reservation, gallery, policy, and contact."
+      },
+      "counts": {
+        "broadMatches": 79,
+        "dedupedMatches": 77,
+        "groupEligible": 5,
+        "supplementalForSmallPools": 0,
+        "groupReady": 5,
+        "referenceGroups": 1
+      },
+      "rotation": {
+        "preferredGroupSize": 10,
+        "minimumDesiredGroupSize": 4,
+        "resetAfterGroup": 1
+      },
+      "groups": [
+        {
+          "groupIndex": 1,
+          "groupSize": 5,
+          "groupFingerprint": "arden-adventure-travel-website+demo-wedding+mercure-hotel-resort-website+tase-ticket-travel-website+zestfast-fast-food-restaurant-landing-page",
+          "references": [
+            {
+              "path": "Template Website/tase-ticket-travel-website-2025-01-28-16-50-26-utc - TASE - Ticket Travel Website - 3c232456.png",
+              "referenceId": "tase-ticket-travel-website",
+              "score": 67,
+              "reasons": [
+                "product trigger: travel",
+                "product trigger: ticket",
+                "signal: ticket",
+                "query terms: ticket, travel"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/mercure-hotel-resort-website-2025-10-07-03-10-26-utc - Mercure - Hotel & Resort Website - a4df31f2.png",
+              "referenceId": "mercure-hotel-resort-website",
+              "score": 59,
+              "reasons": [
+                "product trigger: hotel",
+                "product trigger: resort",
+                "query terms: hotel, resort"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/arden-adventure-travel-website-2025-07-28-22-20-22-utc - Arden - Adventure & Travel Website - b48628ef.png",
+              "referenceId": "arden-adventure-travel-website",
+              "score": 36,
+              "reasons": [
+                "product trigger: travel",
+                "query terms: travel"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/zestfast-fast-food-restaurant-landing-page-2024-06-14-19-58-08-utc - ZestFast - Fast Food Restaurant Landing Page - b5de8b9d.png",
+              "referenceId": "zestfast-fast-food-restaurant-landing-page",
+              "score": 36,
+              "reasons": [
+                "product trigger: restaurant",
+                "query terms: restaurant"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/24_Demo_Wedding.jpg",
+              "referenceId": "demo-wedding",
+              "score": 26,
+              "reasons": [
+                "product trigger: wedding",
+                "query terms: wedding"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productType": {
+        "id": "professional_service_booking",
+        "name": "Professional Service / Local Booking Website",
+        "category": "full-site",
+        "standardRange": "10-14 homepage blocks plus service detail, booking/contact, locations, testimonials, and FAQ."
+      },
+      "counts": {
+        "broadMatches": 76,
+        "dedupedMatches": 76,
+        "groupEligible": 3,
+        "supplementalForSmallPools": 1,
+        "groupReady": 4,
+        "referenceGroups": 1
+      },
+      "rotation": {
+        "preferredGroupSize": 10,
+        "minimumDesiredGroupSize": 4,
+        "resetAfterGroup": 1
+      },
+      "groups": [
+        {
+          "groupIndex": 1,
+          "groupSize": 4,
+          "groupFingerprint": "blink-creative-agency-website+greek-electrical-service-website+oceavara-luxury-yacht-boat-service-website+pipero-plumber-service-website",
+          "references": [
+            {
+              "path": "Template Website/greek-electrical-service-website-2025-10-10-22-04-28-utc - Greek - Electrical Service Website - ef1a5497.png",
+              "referenceId": "greek-electrical-service-website",
+              "score": 37,
+              "reasons": [
+                "product trigger: service website",
+                "signal: service",
+                "query terms: service"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/blink-creative-agency-website-2025-05-29-02-34-05-utc - Blink - Creative Agency Website - 41fa53a8.png",
+              "referenceId": "blink-creative-agency-website",
+              "score": 21,
+              "reasons": [
+                "query terms: agency, creative"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/oceavara-luxury-yacht-boat-service-website-2025-12-06-00-46-30-utc - Oceavara - Luxury Yacht Boat Service Website - 7651ce0f.png",
+              "referenceId": "oceavara-luxury-yacht-boat-service-website",
+              "score": 37,
+              "reasons": [
+                "product trigger: service website",
+                "signal: service",
+                "query terms: service"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/pipero-plumber-service-website-2025-12-06-00-47-31-utc - Pipero - Plumber Service Website - 38bb26fc.png",
+              "referenceId": "pipero-plumber-service-website",
+              "score": 37,
+              "reasons": [
+                "product trigger: service website",
+                "signal: service",
+                "query terms: service"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productType": {
+        "id": "community_nonprofit_membership",
+        "name": "Community / Nonprofit / Membership Website",
+        "category": "mission-site",
+        "standardRange": "9-13 homepage blocks plus program/cause detail, donation/join, events, stories, volunteer, and contact."
+      },
+      "counts": {
+        "broadMatches": 47,
+        "dedupedMatches": 47,
+        "groupEligible": 1,
+        "supplementalForSmallPools": 3,
+        "groupReady": 4,
+        "referenceGroups": 1
+      },
+      "rotation": {
+        "preferredGroupSize": 10,
+        "minimumDesiredGroupSize": 4,
+        "resetAfterGroup": 1
+      },
+      "groups": [
+        {
+          "groupIndex": 1,
+          "groupSize": 4,
+          "groupFingerprint": "athlan-ai-agency-technology-website+blink-creative-agency-website+board-job-career-agency-website+casep-car-community-website",
+          "references": [
+            {
+              "path": "Template Website/casep-car-community-website-2025-11-11-21-00-45-utc - Casep - Car Community Website - bc2b6102.jpg",
+              "referenceId": "casep-car-community-website",
+              "score": 29,
+              "reasons": [
+                "product trigger: community website",
+                "query terms: community"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/athlan-ai-agency-technology-website-2025-09-30-18-07-26-utc - Athlan - AI Agency & Technology Website - b3d7bf66.png",
+              "referenceId": "athlan-ai-agency-technology-website",
+              "score": 17,
+              "reasons": [
+                "query terms: agency"
+              ],
+              "diversityTags": [
+                "technology",
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/blink-creative-agency-website-2025-05-29-02-34-05-utc - Blink - Creative Agency Website - 41fa53a8.png",
+              "referenceId": "blink-creative-agency-website",
+              "score": 17,
+              "reasons": [
+                "query terms: agency"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            },
+            {
+              "path": "Template Website/board-job-career-agency-website-2025-04-08-01-06-29-utc - Board - Job Career & Agency Website - a8e43662.png",
+              "referenceId": "board-job-career-agency-website",
+              "score": 17,
+              "reasons": [
+                "query terms: agency"
+              ],
+              "diversityTags": [
+                "agency-creative"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productType": {
+        "id": "education_course_lms",
+        "name": "Education / Course / LMS Website",
+        "category": "learning-site",
+        "standardRange": "10-14 homepage modules plus course catalog, course detail, lesson preview, instructor, pricing/enroll, and student dashboard/progress where relevant."
+      },
+      "counts": {
+        "broadMatches": 37,
+        "dedupedMatches": 35,
+        "groupEligible": 3,
+        "supplementalForSmallPools": 1,
+        "groupReady": 4,
+        "referenceGroups": 1
+      },
+      "rotation": {
+        "preferredGroupSize": 10,
+        "minimumDesiredGroupSize": 4,
+        "resetAfterGroup": 1
+      },
+      "groups": [
+        {
+          "groupIndex": 1,
+          "groupSize": 4,
+          "groupFingerprint": "educou-ecourse-education-website+eduverse-academy-education-course-website+flexs-ott-platform-video-streaming+leath-lms-online-education-course-website",
+          "references": [
+            {
+              "path": "Template Website/eduverse-academy-education-course-website-2025-12-06-00-42-29-utc - Eduverse Academy - Education Course Website - 141b3f2c.png",
+              "referenceId": "eduverse-academy-education-course-website",
+              "score": 110,
+              "reasons": [
+                "product trigger: course website",
+                "product trigger: academy",
+                "product trigger: education",
+                "product trigger: course",
+                "signal: course",
+                "query terms: academy, course, education"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/flexs-ott-platform-video-streaming-website-2024-09-20-22-00-06-utc - Flexs - OTT Platform & Video Streaming - 86437d8c.png",
+              "referenceId": "flexs-ott-platform-video-streaming",
+              "score": 17,
+              "reasons": [
+                "query terms: platform"
+              ],
+              "diversityTags": [
+                "ai-platform"
+              ]
+            },
+            {
+              "path": "Template Website/leath-lms-online-education-course-website-2024-06-20-18-06-51-utc - Leath - LMS Online Education Course Website - b6265bcc.png",
+              "referenceId": "leath-lms-online-education-course-website",
+              "score": 110,
+              "reasons": [
+                "product trigger: course website",
+                "product trigger: lms",
+                "product trigger: education",
+                "product trigger: course",
+                "signal: course",
+                "query terms: course, education, online"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/educou-ecourse-education-website-2025-10-28-21-14-41-utc - Educou - Ecourse & Education Website - f60caccf.jpg",
+              "referenceId": "educou-ecourse-education-website",
+              "score": 48,
+              "reasons": [
+                "product trigger: education website",
+                "product trigger: education",
+                "query terms: education"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productType": {
+        "id": "editorial_blog_cms",
+        "name": "Editorial / Blog / News / CMS Website",
+        "category": "content-site",
+        "standardRange": "8-12 homepage modules plus category, article, author, archive/search, newsletter, and about/contact."
+      },
+      "counts": {
+        "broadMatches": 30,
+        "dedupedMatches": 30,
+        "groupEligible": 3,
+        "supplementalForSmallPools": 1,
+        "groupReady": 4,
+        "referenceGroups": 1
+      },
+      "rotation": {
+        "preferredGroupSize": 10,
+        "minimumDesiredGroupSize": 4,
+        "resetAfterGroup": 1
+      },
+      "groups": [
+        {
+          "groupIndex": 1,
+          "groupSize": 4,
+          "groupFingerprint": "beritain-blog-post-landing-page+deepintel-ai-deep-search-technology-website+hopas-social-media-management-ai-website+newsgo-blog-news-articles-landing-page",
+          "references": [
+            {
+              "path": "Template Website/newsgo-blog-news-articles-landing-page-2024-05-02-17-27-28-utc - NewsGo - Blog News & Articles Landing Page - 95ea700a.png",
+              "referenceId": "newsgo-blog-news-articles-landing-page",
+              "score": 59,
+              "reasons": [
+                "product trigger: blog",
+                "product trigger: news",
+                "query terms: blog, news"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/hopas-social-media-management-ai-website-2025-01-20-16-33-54-utc - Hopas - Social Media Management AI Website - 31c88613.jpg",
+              "referenceId": "hopas-social-media-management-ai-website",
+              "score": 28,
+              "reasons": [
+                "product trigger: media",
+                "query terms: media"
+              ],
+              "diversityTags": [
+                "business-management"
+              ]
+            },
+            {
+              "path": "Template Website/deepintel-ai-deep-search-technology-website-2024-07-02-20-40-06-utc - DeepIntel - AI Deep Search Technology Website Image - a22dd7e2.png",
+              "referenceId": "deepintel-ai-deep-search-technology-website",
+              "score": 17,
+              "reasons": [
+                "signal: search",
+                "query terms: search"
+              ],
+              "diversityTags": [
+                "data-intelligence",
+                "technology"
+              ]
+            },
+            {
+              "path": "Template Website/beritain-blog-post-landing-page-2024-03-25-18-24-24-utc - Beritain - Blog Post Landing Page - 1e9bf1b3.png",
+              "referenceId": "beritain-blog-post-landing-page",
+              "score": 36,
+              "reasons": [
+                "product trigger: blog",
+                "query terms: blog"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productType": {
+        "id": "dashboard_admin_web_app",
+        "name": "Dashboard / Admin / Web App Template",
+        "category": "app-ui",
+        "standardRange": "8-12 screens minimum for small products; larger admin kits need many more app screens, states, tables, forms, and auth."
+      },
+      "counts": {
+        "broadMatches": 15,
+        "dedupedMatches": 13,
+        "groupEligible": 3,
+        "supplementalForSmallPools": 1,
+        "groupReady": 4,
+        "referenceGroups": 1
+      },
+      "rotation": {
+        "preferredGroupSize": 10,
+        "minimumDesiredGroupSize": 4,
+        "resetAfterGroup": 1
+      },
+      "groups": [
+        {
+          "groupIndex": 1,
+          "groupSize": 4,
+          "groupFingerprint": "deepintel-ai-deep-search-technology-website+game-store-dashboard-ui-kit+sales-analytics-dashboard+sales-report-dashboard",
+          "references": [
+            {
+              "path": "Template Website/sales-analytics-dashboard-2024-06-20-18-59-09-utc - Sales Analytics Dashboard - 2a218518.png",
+              "referenceId": "sales-analytics-dashboard",
+              "score": 65,
+              "reasons": [
+                "product trigger: dashboard",
+                "product trigger: analytics",
+                "signal: dashboard",
+                "query terms: analytics, dashboard"
+              ],
+              "diversityTags": [
+                "data-intelligence"
+              ]
+            },
+            {
+              "path": "Template Website/Game Store Dashboard UI Kit.png",
+              "referenceId": "game-store-dashboard-ui-kit",
+              "score": 46,
+              "reasons": [
+                "product trigger: dashboard",
+                "signal: dashboard",
+                "query terms: dashboard, ui"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/sales-report-dashboard-2024-07-31-21-40-49-utc - Sales Report Dashboard - 6e070c08.png",
+              "referenceId": "sales-report-dashboard",
+              "score": 42,
+              "reasons": [
+                "product trigger: dashboard",
+                "signal: dashboard",
+                "query terms: dashboard"
+              ],
+              "diversityTags": [
+                "general"
+              ]
+            },
+            {
+              "path": "Template Website/deepintel-ai-deep-search-technology-website-2024-07-02-20-40-06-utc - DeepIntel - AI Deep Search Technology Website Image - a22dd7e2.png",
+              "referenceId": "deepintel-ai-deep-search-technology-website",
+              "score": 17,
+              "reasons": [
+                "signal: search",
+                "query terms: search"
+              ],
+              "diversityTags": [
+                "data-intelligence",
+                "technology"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productType": {
+        "id": "utility_pages_kit",
+        "name": "Utility Pages / Coming Soon / Error Kit",
+        "category": "small-kit",
+        "standardRange": "3-6 pages/states. This is not a full website template unless explicitly scoped as a utility kit."
+      },
+      "counts": {
+        "broadMatches": 45,
+        "dedupedMatches": 45,
+        "groupEligible": 0,
+        "supplementalForSmallPools": 0,
+        "groupReady": 0,
+        "referenceGroups": 0
+      },
+      "rotation": {
+        "preferredGroupSize": 10,
+        "minimumDesiredGroupSize": 4,
+        "resetAfterGroup": 0
+      },
+      "groups": []
+    },
+    {
+      "productType": {
+        "id": "documentation_help_center",
+        "name": "Documentation / Help Center / Developer Docs",
+        "category": "knowledge-site",
+        "standardRange": "7-11 core screens/pages plus docs home, category, article, search, changelog, API/reference, and support/contact."
+      },
+      "counts": {
+        "broadMatches": 9,
+        "dedupedMatches": 9,
+        "groupEligible": 0,
+        "supplementalForSmallPools": 1,
+        "groupReady": 0,
+        "referenceGroups": 0
+      },
+      "rotation": {
+        "preferredGroupSize": 10,
+        "minimumDesiredGroupSize": 4,
+        "resetAfterGroup": 0
+      },
+      "groups": []
+    }
+  ]
+}

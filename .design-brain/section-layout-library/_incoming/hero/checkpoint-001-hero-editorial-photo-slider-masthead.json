@@ -1,0 +1,111 @@
+{
+  "patternId": "checkpoint-001-hero-editorial-photo-slider-masthead",
+  "sectionType": "hero",
+  "commercialPurpose": "Open an editorial website with mood, story promise, and browsing invitation through a controlled photographic masthead.",
+  "purposeLayer": "Hero sells the publication mood and invites reading without dense conversion pressure.",
+  "anatomyLayer": "Wide photo stage, centered title overlay, metadata or category cue, one small CTA, optional slider arrows.",
+  "hierarchyLayer": "Mood image first, headline second, small CTA third, slider controls last.",
+  "gridRhythmLayer": "Centered overlay on a wide cinematic image block with generous white header space above.",
+  "densityLimitLayer": "Use one headline, one metadata line, one CTA, one controlled media system, and optional previous/next arrows.",
+  "originalityLayer": "Learn the cinematic editorial masthead role only; transform image ratio, overlay style, CTA treatment, and brand mood for new products.",
+  "usageRuleLayer": "Use for editorial, travel, lifestyle, boutique hospitality, and creator templates needing mood before content grids.",
+  "layoutGesture": "editorial photo slider masthead",
+  "sectionSilhouette": "wide image stage beneath airy brand header",
+  "compositionTension": "soft centered copy floating over a large photographic field",
+  "focalPath": "image atmosphere to headline to small CTA to slider arrows",
+  "negativeSpaceShape": "horizontal breathing band above and below the media stage",
+  "depthLayering": "photo plane with text overlay and light control elements",
+  "moduleScaleVariation": "oversized image with small text and controls",
+  "breakoutBehavior": "media spans wider than text rhythm but remains framed by page margins",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1",
+    "proofCue": "0-1 editorial metadata",
+    "mediaSystem": 1
+  },
+  "antiCopyBoundary": "Do not copy the exact woman/photo mood, gold button, centered copy placement, or slider arrow styling.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "blog-resources",
+      "trust-band"
+    ],
+    "notAScaffold": true
+  },
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\01_Home_1.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\02_Home_2.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\03_Home_3.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\04_Home_4.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\05_Home_5.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\06_Home_6.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\07_Home_7.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\08_Home_8.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\09_Image_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\10_Slider_Post.jpg"
+  ],
+  "productFamilies": [
+    "editorial-blog",
+    "lifestyle",
+    "website"
+  ],
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 001",
+    "reviewNotes": "Checkpoint learning is visually inspected but not yet promoted to stable PASS; keep as incoming review vocabulary.",
+    "nonCopyBoundary": "Do not copy the Pallas-style script logo, muted gold CTA treatment, right-sidebar widget order, image set, or exact editorial spacing."
+  },
+  "structuralSignature": {
+    "signatureId": "hero:d778d1ded5f6ff62",
+    "hash": "d778d1ded5f6ff622d397f55edd28edd16bd0a8b",
+    "axes": {
+      "layoutGesture": "editorial photo slider masthead",
+      "sectionSilhouette": "wide image stage beneath airy brand header",
+      "anatomyLayer": "wide photo stage, centered title overlay, metadata or category cue, one small cta, optional slider arrows.",
+      "hierarchyLayer": "mood image first, headline second, small cta third, slider controls last.",
+      "gridRhythmLayer": "centered overlay on a wide cinematic image block with generous white header space above.",
+      "focalPath": "image atmosphere to headline to small cta to slider arrows",
+      "compositionTension": "soft centered copy floating over a large photographic field",
+      "negativeSpaceShape": "horizontal breathing band above and below the media stage",
+      "moduleScaleVariation": "oversized image with small text and controls",
+      "breakoutBehavior": "media spans wider than text rhythm but remains framed by page margins",
+      "contentLimits": "{\"cta\":\"1\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"0-1 editorial metadata\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.0,
+  "matchGroupId": "hero:d778d1ded5f6ff62",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:44:59Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 0,
+    "bestMatch": null,
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

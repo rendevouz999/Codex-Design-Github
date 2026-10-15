@@ -1,0 +1,133 @@
+{
+  "status": "PASS",
+  "templateId": "roampass-ticket-travel",
+  "templateName": "RoamPass",
+  "productFamily": "travel ticket booking website template",
+  "designSystemScope": "Separate physical Figma design-system board for RoamPass only, documenting light route-booking tokens, travel modules, placeholder-safe media zones, component states, and editable source hygiene.",
+  "figma": {
+    "fileKey": "NKUSNIlbSnELDZmKkEIMrG",
+    "fileUrl": "https://www.figma.com/design/NKUSNIlbSnELDZmKkEIMrG",
+    "homepageFrameId": "13:2",
+    "designSystemFrameId": "14:2",
+    "homepagePage": "02 RoamPass - Homepage",
+    "designSystemPage": "02 RoamPass - Design System"
+  },
+  "colorTokens": {
+    "background": "#F5F3EA",
+    "surface": "#FFFFFF",
+    "surfaceElevated": "#F9FBF4",
+    "textPrimary": "#10201A",
+    "textSecondary": "#53675D",
+    "textMuted": "#829187",
+    "accent": "#6BB8E8",
+    "action": "#168B46",
+    "border": "#C6DEC9"
+  },
+  "typographyTokens": {
+    "display": "Inter 68/0, Extra Bold, optimistic travel hero",
+    "h1": "Inter 54/0, Extra Bold, route-planner headline",
+    "h2": "Inter 40/0, Bold, marketplace section title",
+    "h3": "Inter 23/0, Semi Bold, ticket card title",
+    "body": "Inter 17/0, Regular, calm booking copy",
+    "bodySmall": "Inter 14/0, Regular, route metadata and support copy",
+    "label": "Inter 12/0, Semi Bold uppercase, badge and ticket labels",
+    "button": "Inter 15/0, Semi Bold, confident booking CTA",
+    "nav": "Inter 14/0, Medium, travel navigation"
+  },
+  "spacingTokens": {
+    "scale": "4, 8, 12, 16, 20, 24, 32, 48, 64, 88, 120",
+    "sectionY": "104 airy travel rhythm with denser fare section at 80",
+    "componentPadding": "16 form fields, 24 ticket cards, 32 planner boards",
+    "cardGap": "20 compact route cards, 28 standard cards, 36 major proof modules",
+    "gridGap": "24 route grids, 32 pricing/support grids",
+    "container": "1200 content width inside 1440 homepage frame"
+  },
+  "components": [
+    "header navigation with saved route chip and booking button",
+    "button primary, secondary, outline, selected fare, disabled state",
+    "card route ticket, booking step, destination proof, fare comparison, support assurance, testimonial, travel package",
+    "cta final ticket-pass band",
+    "footer column system",
+    "image placeholder: destination panorama",
+    "image placeholder: route map",
+    "image placeholder: boarding pass app",
+    "profile photo placeholder: traveler testimonial"
+  ],
+  "states": [
+    "default",
+    "hover",
+    "focus",
+    "active",
+    "disabled"
+  ],
+  "componentAnatomy": {
+    "navigation header": "logo mark, route links, saved route chip, booking button, responsive spacing",
+    "button": "label, optional icon zone, green action fill, outline variant, disabled contrast state",
+    "card": "ticket surface, route metadata, price or support proof, placeholder/media area, CTA footer",
+    "cta": "ticket-pass headline, supporting copy, primary booking action, reassurance bullet",
+    "footer": "brand block, travel links, support links, legal and currency row",
+    "placeholder": "visible text clue naming destination, route, map, boarding pass, support, or profile role"
+  },
+  "patternModules": [
+    "route planner hero with booking-form board",
+    "trust and partner strip",
+    "popular route ticket catalog",
+    "booking timeline",
+    "destination story panorama",
+    "smart fare comparison band",
+    "insurance and support cards",
+    "traveler proof wall",
+    "travel package pricing",
+    "FAQ checklist and final CTA closure"
+  ],
+  "usageRules": [
+    "Use forest green for booking confidence, selected fares, and primary conversion only.",
+    "Use sky accent as route/navigation cue, not as the main CTA color.",
+    "Keep media zones as editable text placeholders with route-specific purpose labels.",
+    "Do not reuse KineticCast's dark broadcast console rhythm or red signal CTA behavior.",
+    "Major sections, route cards, forms, pricing, testimonials, and design-system modules use real auto-layout."
+  ],
+  "surfaceEffectTokens": {
+    "cardShadow": "soft warm shadow under ticket and planner surfaces",
+    "selectedFare": "green border, pale green fill, and price emphasis",
+    "routeAccent": "thin sky divider or route-line cue",
+    "fareBandContrast": "deep green surface for dense price comparison pause"
+  },
+  "placeholderRules": {
+    "media": "Use `image placeholder: [purpose]` inside destination, route map, station, boarding-pass, and app-preview areas.",
+    "people": "Use `profile photo placeholder: [role]` for traveler testimonials.",
+    "charts": "Use editable comparison rows instead of bitmap charts.",
+    "restriction": "No final generated photos are embedded unless explicitly requested."
+  },
+  "sourceHygiene": {
+    "autoLayout": true,
+    "editableText": true,
+    "editablePlaceholders": true,
+    "clearLayerNames": true,
+    "reusableComponents": true,
+    "responsiveConstraints": true,
+    "flattenedImportantContent": false,
+    "notes": "Homepage and design-system frames use named section layers and modular auto-layout; decorative surfaces are separated from editable route content."
+  },
+  "artifactEvidence": {
+    "designSystemPageId": "14:2",
+    "screenshotPath": ".design-brain/screenshots/roampass-design-system.png",
+    "renderPath": ".design-brain/screenshots/roampass-homepage.png",
+    "componentInventory": [
+      "header navigation",
+      "route planner board",
+      "route ticket card",
+      "booking step card",
+      "destination proof panel",
+      "fare comparison card",
+      "support assurance card",
+      "testimonial card",
+      "travel package card",
+      "FAQ row",
+      "CTA strip",
+      "footer columns",
+      "placeholder modules"
+    ],
+    "tokenSourcePath": ".design-brain/builds/2026-06-01-sports-travel-figma/roampass-design-system-receipt.json"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "patternId": "checkpoint-005-hero-drink-product-playful-card-stage-hero",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\bouty-drink-product-website-2024-09-05-16-38-36-utc - Bouty - Drink Product Website Image - 720edafd.png"
+  ],
+  "productFamilies": [
+    "beverage",
+    "commerce",
+    "food",
+    "product"
+  ],
+  "commercialPurpose": "Open a beverage product template with playful fruit media, purchase cues, and soft commerce trust.",
+  "purposeLayer": "Hero turns the drink into a sensory product moment through juicy media and compact offer cards.",
+  "anatomyLayer": "White nav, large product headline, fruit/drink hero card, orange CTA, small navigation dots/icons, quote snippets, and feature cards.",
+  "hierarchyLayer": "Drink image first, headline second, CTA/card controls third.",
+  "gridRhythmLayer": "Bright commerce hero with a rounded product media card and small flavor/action modules around it.",
+  "densityLimitLayer": "Use section density limit: {\"primaryMessage\": 1, \"cta\": \"1-2\", \"proofCue\": \"0-1 controlled cue\", \"mediaSystem\": 1}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, product photos, or page order.",
+  "usageRuleLayer": "Use for beverage, snack, cosmetics, food product, DTC, and soft commerce landing pages.",
+  "layoutGesture": "playful beverage hero with rounded product card stage",
+  "sectionSilhouette": "white/orange canvas anchored by large drink image card and supporting flavor/action tiles",
+  "compositionTension": "fresh product imagery creates appetite while small cards provide buying structure",
+  "focalPath": "drink media card to headline to CTA to flavor cards",
+  "negativeSpaceShape": "white space wraps around orange product panels and fruit imagery",
+  "depthLayering": "white base, soft orange cards, fruit/photo layer, compact CTA controls",
+  "moduleScaleVariation": "large drink panel against small flavor cards and icon controls",
+  "breakoutBehavior": "fruit/drink imagery breaks out inside the rounded hero stage",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1-2",
+    "proofCue": "0-1 controlled cue",
+    "mediaSystem": 1
+  },
+  "antiCopyBoundary": "Do not copy Bouty brand, orange fruit imagery, exact drink photos, flavor names, or price display.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "commerce-grid",
+      "features",
+      "cta"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 005 contact sheet",
+    "reviewNotes": "Checkpoint 005 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "hero:0184dff1b48927fa",
+    "hash": "0184dff1b48927fa2d49fd7d7a3f5ecb9927e138",
+    "axes": {
+      "layoutGesture": "playful beverage hero with rounded product card stage",
+      "sectionSilhouette": "white/orange canvas anchored by large drink image card and supporting flavor/action tiles",
+      "anatomyLayer": "white nav, large product headline, fruit/drink hero card, orange cta, small navigation dots/icons, quote snippets, and feature cards.",
+      "hierarchyLayer": "drink image first, headline second, cta/card controls third.",
+      "gridRhythmLayer": "bright commerce hero with a rounded product media card and small flavor/action modules around it.",
+      "focalPath": "drink media card to headline to cta to flavor cards",
+      "compositionTension": "fresh product imagery creates appetite while small cards provide buying structure",
+      "negativeSpaceShape": "white space wraps around orange product panels and fruit imagery",
+      "moduleScaleVariation": "large drink panel against small flavor cards and icon controls",
+      "breakoutBehavior": "fruit/drink imagery breaks out inside the rounded hero stage",
+      "contentLimits": "{\"cta\":\"1-2\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"0-1 controlled cue\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.2589,
+  "matchGroupId": "hero:0184dff1b48927fa",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:25:28Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 17,
+    "bestMatch": {
+      "score": 0.2589,
+      "axisScores": {
+        "layoutGesture": 0.2308,
+        "sectionSilhouette": 0.1739,
+        "anatomyLayer": 0.1429,
+        "hierarchyLayer": 0.4615,
+        "gridRhythmLayer": 0.1481,
+        "focalPath": 0.25,
+        "compositionTension": 0.1765,
+        "negativeSpaceShape": 0.1053,
+        "moduleScaleVariation": 0.1111,
+        "breakoutBehavior": 0.0476,
+        "contentLimits": 1.0
+      },
+      "patternId": "checkpoint-004-hero-luxury-car-side-profile-spec-strip",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-004-hero-luxury-car-side-profile-spec-strip.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

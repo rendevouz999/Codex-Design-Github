@@ -1,0 +1,111 @@
+{
+  "patternId": "checkpoint-001-navigation-editorial-centered-brand-utility-rail",
+  "sectionType": "navigation",
+  "commercialPurpose": "Give editorial and lifestyle sites a calm brand-first entry with utility access that supports browsing without product-app pressure.",
+  "purposeLayer": "Navigation establishes a personal editorial brand mood before the user enters posts, categories, or social/search controls.",
+  "anatomyLayer": "Centered signature/logo mark, quiet horizontal menu, small top or edge social icons, search control, and minimal utility actions.",
+  "hierarchyLayer": "Brand mark first, primary menu second, search/social utilities third.",
+  "gridRhythmLayer": "Thin full-width utility rail above or beside a centered brand block; navigation spacing is wide and low-density.",
+  "densityLimitLayer": "Use 4-7 nav links, 0-1 search control, and 2-5 small social or utility icons; avoid heavy button clusters.",
+  "originalityLayer": "Learn brand-first editorial navigation logic only; do not copy script logo shape, exact menu labels, or icon placement.",
+  "usageRuleLayer": "Use for editorial, creator, boutique magazine, and lifestyle templates; avoid as primary nav for SaaS dashboards or high-conversion apps.",
+  "layoutGesture": "centered brand signature with thin utility rail",
+  "sectionSilhouette": "air-heavy header with logo peak and low-profile navigation line",
+  "compositionTension": "emotional brand center balanced by tiny functional controls at the edges",
+  "focalPath": "logo signature to menu row to search/social utilities",
+  "negativeSpaceShape": "wide white cap around a narrow navigation spine",
+  "depthLayering": "flat editorial surface with subtle divider hierarchy",
+  "moduleScaleVariation": "large brand mark against tiny navigation utilities",
+  "breakoutBehavior": "none; navigation stays quiet and contained",
+  "contentLimits": {
+    "navLinks": "4-7",
+    "searchControls": "0-1",
+    "socialUtilities": "2-5",
+    "primaryCta": "0"
+  },
+  "antiCopyBoundary": "Do not copy the exact script logo, top social icon rhythm, menu text, or minimal gold accent placement.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "page start"
+    ],
+    "after": [
+      "hero",
+      "blog-resources"
+    ],
+    "notAScaffold": true
+  },
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\01_Home_1.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\02_Home_2.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\03_Home_3.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\04_Home_4.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\05_Home_5.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\06_Home_6.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\07_Home_7.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\08_Home_8.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\09_Image_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\10_Slider_Post.jpg"
+  ],
+  "productFamilies": [
+    "editorial-blog",
+    "lifestyle",
+    "website"
+  ],
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 001",
+    "reviewNotes": "Checkpoint learning is visually inspected but not yet promoted to stable PASS; keep as incoming review vocabulary.",
+    "nonCopyBoundary": "Do not copy the Pallas-style script logo, muted gold CTA treatment, right-sidebar widget order, image set, or exact editorial spacing."
+  },
+  "structuralSignature": {
+    "signatureId": "navigation:09de8797039f028f",
+    "hash": "09de8797039f028fb0e52f30387d2ac530f1bb54",
+    "axes": {
+      "layoutGesture": "centered brand signature with thin utility rail",
+      "sectionSilhouette": "air-heavy header with logo peak and low-profile navigation line",
+      "anatomyLayer": "centered signature/logo mark, quiet horizontal menu, small top or edge social icons, search control, and minimal utility actions.",
+      "hierarchyLayer": "brand mark first, primary menu second, search/social utilities third.",
+      "gridRhythmLayer": "thin full-width utility rail above or beside a centered brand block; navigation spacing is wide and low-density.",
+      "focalPath": "logo signature to menu row to search/social utilities",
+      "compositionTension": "emotional brand center balanced by tiny functional controls at the edges",
+      "negativeSpaceShape": "wide white cap around a narrow navigation spine",
+      "moduleScaleVariation": "large brand mark against tiny navigation utilities",
+      "breakoutBehavior": "none; navigation stays quiet and contained",
+      "contentLimits": "{\"navlinks\":\"4-7\",\"primarycta\":\"0\",\"searchcontrols\":\"0-1\",\"socialutilities\":\"2-5\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.0,
+  "matchGroupId": "navigation:09de8797039f028f",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:44:59Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 0,
+    "bestMatch": null,
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

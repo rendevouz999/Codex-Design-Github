@@ -1,0 +1,33 @@
+{
+  "command": "record",
+  "status": "PASS",
+  "templateId": "qryon-labs-quantum-saas-website",
+  "brandName": "QRYON Labs",
+  "templateType": "Figma Website Template",
+  "productFamily": "SaaS product marketing website",
+  "niche": "quantum computing platform",
+  "targetBuyer": "B2B deep-tech SaaS teams and research platform marketers",
+  "referenceMode": "single",
+  "referenceGroupKey": "local-tria-quantum-computing-9ab318bb",
+  "referenceIds": [
+    "local-tria-quantum-computing-9ab318bb"
+  ],
+  "referenceBrandNames": [
+    "Tria"
+  ],
+  "registryUpdated": true,
+  "generatedBrandRecorded": true,
+  "referenceGroupRecorded": true,
+  "singleReferenceMarkedUsed": true,
+  "blockedNamesUpdated": true,
+  "completionReceiptPath": ".design-brain\\builds\\qryon-quantum-website-template\\completion-receipt.json",
+  "fingerprintLockPath": ".design-brain\\builds\\qryon-quantum-website-template\\fingerprints\\qryon-labs-quantum-saas-website-fingerprint.json",
+  "blockingReasons": [],
+  "warnings": [
+    "UNKNOWN_REFERENCE_ID local-tria-quantum-computing-9ab318bb"
+  ],
+  "nextAction": "Reference usage recorded. This output brand and reference group are now blocked from direct reuse.",
+  "dryRun": false,
+  "recordedAt": "2026-05-31T19:29:37.083948+00:00",
+  "receiptPath": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\receipts\\reference-usage\\qryon-labs-quantum-saas-website-record.json"
+}

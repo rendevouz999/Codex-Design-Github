@@ -1,0 +1,25 @@
+{
+  "command": "check",
+  "status": "PASS",
+  "templateId": "",
+  "candidateBrandName": "VoltStride",
+  "templateType": "Figma website template",
+  "productFamily": "sneaker ecommerce",
+  "niche": "performance sneakers store",
+  "referenceMode": "single",
+  "referenceGroupKey": "sneaky-shoes-sneakers-ecommerce-png",
+  "referenceIds": [
+    "sneaky-shoes-sneakers-ecommerce-png"
+  ],
+  "referenceBrandNames": [
+    "Sneaky"
+  ],
+  "blockingReasons": [],
+  "warnings": [
+    "UNKNOWN_REFERENCE_ID sneaky-shoes-sneakers-ecommerce-png"
+  ],
+  "nextAction": "Proceed with reference cognition and record usage after completion.",
+  "dryRun": false,
+  "checkedAt": "2026-06-01T10:16:51.685299+00:00",
+  "receiptPath": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\receipts\\reference-usage\\sneaky-shoes-sneakers-ecommerce-png-check-20260601T101651Z.json"
+}

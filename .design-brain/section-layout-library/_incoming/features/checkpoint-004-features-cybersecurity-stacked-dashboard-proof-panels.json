@@ -1,0 +1,123 @@
+{
+  "patternId": "checkpoint-004-features-cybersecurity-stacked-dashboard-proof-panels",
+  "sectionType": "features",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\aman-tecgnology-cyber-security-website-2025-08-20-03-47-38-utc - Aman - Tecgnology Cyber Security Website - b5df6328.png"
+  ],
+  "productFamilies": [
+    "cybersecurity",
+    "security",
+    "dashboard",
+    "technology"
+  ],
+  "commercialPurpose": "Explain a security platform through alternating proof screenshots, threat cards, and monitoring modules.",
+  "purposeLayer": "Features convert the abstract protection claim into concrete monitoring, detection, and response capabilities.",
+  "anatomyLayer": "Alternating dark image strips, compact copy blocks, feature chips, status cards, graph widgets, and grouped capability rows.",
+  "hierarchyLayer": "Large security screenshot first, capability headline second, grouped feature cards third.",
+  "gridRhythmLayer": "Vertical stack of alternating media bands and modular proof panels on a dark canvas.",
+  "densityLimitLayer": "Use section density limit: {\"primaryModules\": \"3-6\", \"extendedModules\": \"7-8 only when grouped\", \"proofCue\": \"optional\"}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, or section order.",
+  "usageRuleLayer": "Use when a technical product needs proof-heavy explanation without falling into a flat six-card grid.",
+  "layoutGesture": "security proof stack with alternating dashboard and capability cards",
+  "sectionSilhouette": "long dark page section made from wide screenshots, narrow copy columns, and grouped green cards",
+  "compositionTension": "dense product proof stays readable through repeated media-to-card alternation",
+  "focalPath": "wide dashboard image to section headline to grouped card rows",
+  "negativeSpaceShape": "black corridors between screenshot bands create breathing lanes",
+  "depthLayering": "screenshot depth, card surfaces, neon status highlights, and footer-like dark blocks",
+  "moduleScaleVariation": "wide screenshots contrast with small status chips and medium cards",
+  "breakoutBehavior": "screenshots sit as wide evidence bands spanning across module rhythm",
+  "contentLimits": {
+    "primaryModules": "3-6",
+    "extendedModules": "7-8 only when grouped",
+    "proofCue": "optional"
+  },
+  "antiCopyBoundary": "Do not copy the exact dashboard screenshots, neon green widgets, section text, or card order.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "hero",
+      "trust-band"
+    ],
+    "after": [
+      "services",
+      "stats-proof",
+      "cta"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 004 contact sheet",
+    "reviewNotes": "Checkpoint 004 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "features:1a0098632ac1d2a2",
+    "hash": "1a0098632ac1d2a2673a69d7bad6b87425e2eda0",
+    "axes": {
+      "layoutGesture": "security proof stack with alternating dashboard and capability cards",
+      "sectionSilhouette": "long dark page section made from wide screenshots, narrow copy columns, and grouped green cards",
+      "anatomyLayer": "alternating dark image strips, compact copy blocks, feature chips, status cards, graph widgets, and grouped capability rows.",
+      "hierarchyLayer": "large security screenshot first, capability headline second, grouped feature cards third.",
+      "gridRhythmLayer": "vertical stack of alternating media bands and modular proof panels on a dark canvas.",
+      "focalPath": "wide dashboard image to section headline to grouped card rows",
+      "compositionTension": "dense product proof stays readable through repeated media-to-card alternation",
+      "negativeSpaceShape": "black corridors between screenshot bands create breathing lanes",
+      "moduleScaleVariation": "wide screenshots contrast with small status chips and medium cards",
+      "breakoutBehavior": "screenshots sit as wide evidence bands spanning across module rhythm",
+      "contentLimits": "{\"extendedmodules\":\"7-8 only when grouped\",\"primarymodules\":\"3-6\",\"proofcue\":\"optional\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.0781,
+  "matchGroupId": "features:1a0098632ac1d2a2",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:16:27Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 2,
+    "bestMatch": {
+      "score": 0.0781,
+      "axisScores": {
+        "layoutGesture": 0.0625,
+        "sectionSilhouette": 0.0435,
+        "anatomyLayer": 0.0882,
+        "hierarchyLayer": 0.2105,
+        "gridRhythmLayer": 0.12,
+        "focalPath": 0.0588,
+        "compositionTension": 0.05,
+        "negativeSpaceShape": 0.0,
+        "moduleScaleVariation": 0.0588,
+        "breakoutBehavior": 0.0,
+        "contentLimits": 0.1667
+      },
+      "patternId": "checkpoint-003-features-ai-horizontal-active-card-carousel",
+      "sectionType": "features",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\features\\checkpoint-003-features-ai-horizontal-active-card-carousel.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

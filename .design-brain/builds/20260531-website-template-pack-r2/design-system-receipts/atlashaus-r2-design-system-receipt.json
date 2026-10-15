@@ -1,0 +1,68 @@
+{
+  "templateId": "atlashaus-r2-architecture-dossier",
+  "productFamily": "Architecture / interior studio website template",
+  "designSystemScope": "Separate Figma design-system board for architecture tokens, editorial typography, blueprint components, states, placeholders, and scaffold disposal receipt.",
+  "colorTokens": {
+    "background": "#EFE6D1",
+    "surface": "#FCF6E6",
+    "surfaceElevated": "#FFFBEF",
+    "textPrimary": "#171611",
+    "textSecondary": "#6B6357",
+    "textMuted": "#6B6357",
+    "accent": "#B0734F",
+    "action": "#172EB3",
+    "border": "#BAB094"
+  },
+  "typographyTokens": {
+    "display": "Instrument Serif 84/94",
+    "h1": "Instrument Serif 64/100",
+    "h2": "Instrument Serif 50/108",
+    "h3": "Instrument Serif 30/120",
+    "body": "Manrope 18/150",
+    "bodySmall": "Manrope 14/150",
+    "label": "Manrope 12/150 semibold",
+    "button": "Manrope 13/150 semibold",
+    "nav": "Manrope 13/150"
+  },
+  "spacingTokens": {
+    "scale": "8, 12, 16, 18, 24, 30, 34, 48, 60, 70",
+    "sectionY": "70",
+    "componentPadding": "22",
+    "cardGap": "18",
+    "gridGap": "26",
+    "container": "1280"
+  },
+  "components": [
+    "navigation header",
+    "button",
+    "card",
+    "CTA form drawer",
+    "footer",
+    "placeholder",
+    "project index rail",
+    "material plan cell",
+    "case annotation",
+    "courtyard void",
+    "portfolio ledger row",
+    "process spine row",
+    "brief form field",
+    "blueprint image slot"
+  ],
+  "states": ["default", "hover", "focus", "active", "disabled"],
+  "sourceHygiene": {
+    "autoLayout": true,
+    "editableText": true,
+    "editablePlaceholders": true,
+    "clearLayerNames": true,
+    "reusableComponents": true,
+    "responsiveConstraints": true,
+    "flattenedImportantContent": false
+  },
+  "artifactEvidence": {
+    "designSystemPageId": "25:3",
+    "screenshotPath": ".design-brain/screenshots/20260531-atlashaus-r2-design-system-final.png",
+    "componentInventory": "Project index rail, material plan cell, case annotation, courtyard void, portfolio ledger row, process spine row, brief form field, blueprint image slot.",
+    "tokenSourcePath": "R2 AtlasHaus Figma design-system board"
+  },
+  "status": "PASS"
+}

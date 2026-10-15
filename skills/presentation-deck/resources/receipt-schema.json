@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Brain Design PPTX operation receipt",
+  "type": "object",
+  "required": [
+    "schema",
+    "action",
+    "timestamp",
+    "engine",
+    "argv",
+    "exitCode",
+    "timedOut",
+    "status",
+    "inputs",
+    "output",
+    "stdout",
+    "stderr",
+    "designReadiness"
+  ],
+  "properties": {
+    "schema": {
+      "const": "design-brain.presentation-operation.v2"
+    },
+    "action": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "engine": {
+      "type": "object",
+      "required": [
+        "root",
+        "owner",
+        "version",
+        "integritySha256",
+        "python"
+      ]
+    },
+    "argv": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "exitCode": {
+      "type": "integer"
+    },
+    "timedOut": {
+      "type": "boolean"
+    },
+    "status": {
+      "enum": [
+        "PASS",
+        "FAIL",
+        "UNKNOWN"
+      ]
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "sha256",
+          "bytes"
+        ]
+      }
+    },
+    "output": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "stdout": {
+      "type": "string"
+    },
+    "stderr": {
+      "type": "string"
+    },
+    "designReadiness": {
+      "const": "NOT_EVALUATED"
+    }
+  }
+}

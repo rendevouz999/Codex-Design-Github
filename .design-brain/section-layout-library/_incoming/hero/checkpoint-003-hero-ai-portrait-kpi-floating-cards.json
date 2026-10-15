@@ -1,0 +1,123 @@
+{
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 003",
+    "reviewNotes": "Checkpoint 003 is visually inspected learning evidence; keep incoming until hyper-accuracy review and matching rationale pass.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, color identity, imagery, icon systems, decorative geometry, or section order."
+  },
+  "patternId": "checkpoint-003-hero-ai-portrait-kpi-floating-cards",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\aiso-business-analysis-website-2025-09-02-23-02-21-utc - Aiso - Business Analysis Website - 8d296535.jpg"
+  ],
+  "productFamilies": [
+    "ai",
+    "business",
+    "saas",
+    "website"
+  ],
+  "commercialPurpose": "Open an AI business website by combining a human authority portrait with floating KPI/proof cards.",
+  "purposeLayer": "Hero balances trust in a human advisor figure with automation metrics and quick-start conversion.",
+  "anatomyLayer": "Dark atmospheric portrait, search/nav, star rating badge, headline, CTA, trusted user card, productivity KPI card, and task/booking floating card.",
+  "hierarchyLayer": "Portrait and headline share first focus, CTA and KPI cards second, trust/user proof third.",
+  "gridRhythmLayer": "Asymmetric dark hero with large portrait on one side and floating cards around the text path.",
+  "densityLimitLayer": "Use one primary message, one CTA, 2-4 floating proof cards, 1 rating/trust cue, and one portrait/media system.",
+  "originalityLayer": "Learn human-plus-KPI AI hero composition; do not copy exact portrait, blue glows, KPI values, or card copy.",
+  "usageRuleLayer": "Use for AI business tools, consultants, automation platforms, enterprise SaaS, and advisor-led tech services.",
+  "layoutGesture": "AI portrait hero with floating KPI proof cards",
+  "sectionSilhouette": "dark portrait-dominant hero surrounded by small proof cards",
+  "compositionTension": "human trust anchor competes with automation metric overlays",
+  "focalPath": "rating badge to headline to CTA to floating proof cards to portrait",
+  "negativeSpaceShape": "dark atmospheric gaps between face, cards, and headline",
+  "depthLayering": "portrait background depth, floating glass cards, blue glow controls",
+  "moduleScaleVariation": "large portrait with small KPI and trust chips",
+  "breakoutBehavior": "floating cards break the text/media boundary",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1",
+    "proofCue": "2-4 floating cards",
+    "mediaSystem": 1
+  },
+  "antiCopyBoundary": "Do not copy exact model portrait, Aiso brand, KPI values, blue card styling, or trust avatars.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "features",
+      "stats-proof",
+      "pricing-packages"
+    ],
+    "notAScaffold": true
+  },
+  "structuralSignature": {
+    "signatureId": "hero:76d9954485801ab2",
+    "hash": "76d9954485801ab274713f04690e34314f0e8ee1",
+    "axes": {
+      "layoutGesture": "ai portrait hero with floating kpi proof cards",
+      "sectionSilhouette": "dark portrait-dominant hero surrounded by small proof cards",
+      "anatomyLayer": "dark atmospheric portrait, search/nav, star rating badge, headline, cta, trusted user card, productivity kpi card, and task/booking floating card.",
+      "hierarchyLayer": "portrait and headline share first focus, cta and kpi cards second, trust/user proof third.",
+      "gridRhythmLayer": "asymmetric dark hero with large portrait on one side and floating cards around the text path.",
+      "focalPath": "rating badge to headline to cta to floating proof cards to portrait",
+      "compositionTension": "human trust anchor competes with automation metric overlays",
+      "negativeSpaceShape": "dark atmospheric gaps between face, cards, and headline",
+      "moduleScaleVariation": "large portrait with small kpi and trust chips",
+      "breakoutBehavior": "floating cards break the text/media boundary",
+      "contentLimits": "{\"cta\":\"1\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"2-4 floating cards\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.2088,
+  "matchGroupId": "hero:76d9954485801ab2",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:55:20Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 5,
+    "bestMatch": {
+      "score": 0.2088,
+      "axisScores": {
+        "layoutGesture": 0.25,
+        "sectionSilhouette": 0.0,
+        "anatomyLayer": 0.1818,
+        "hierarchyLayer": 0.4737,
+        "gridRhythmLayer": 0.36,
+        "focalPath": 0.2143,
+        "compositionTension": 0.0667,
+        "negativeSpaceShape": 0.0667,
+        "moduleScaleVariation": 0.0667,
+        "breakoutBehavior": 0.0714,
+        "contentLimits": 0.5455
+      },
+      "patternId": "checkpoint-003-hero-ai-neon-3d-platform-split-hero",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-003-hero-ai-neon-3d-platform-split-hero.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

@@ -1,0 +1,123 @@
+{
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 003",
+    "reviewNotes": "Checkpoint 003 is visually inspected learning evidence; keep incoming until hyper-accuracy review and matching rationale pass.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, color identity, imagery, icon systems, decorative geometry, or section order."
+  },
+  "patternId": "checkpoint-003-services-finance-dark-card-grid-with-accent-rails",
+  "sectionType": "services",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\a-business-financial-advisor-landing-page-2024-06-07-17-08-56-utc - Visionary - A Business Financial Advisor Landing Page Im - 5b5dd026.png"
+  ],
+  "productFamilies": [
+    "finance",
+    "consulting",
+    "business",
+    "website"
+  ],
+  "commercialPurpose": "Present financial advisory offers as premium dark service cards with enough clarity for comparison.",
+  "purposeLayer": "Services section translates advisory scope into grouped cards and short benefit explanations.",
+  "anatomyLayer": "Section heading, intro copy, 3 or 6 dark cards, accent rails/icons, titles, short blurbs, and learn-more cues.",
+  "hierarchyLayer": "Section promise first, card group second, card title/icon third, supporting copy fourth.",
+  "gridRhythmLayer": "Three-column dark cards with generous gutters and blue accent rails, sometimes repeated in two rows.",
+  "densityLimitLayer": "Use 3-6 primary service modules; 7-8 only when visually grouped into rows or categories.",
+  "originalityLayer": "Learn dark professional service-card grammar; transform accent rails, icon system, and card density.",
+  "usageRuleLayer": "Use for professional services, finance, consulting, legal, insurance, and B2B advisory templates.",
+  "layoutGesture": "dark professional service grid with blue accent rails",
+  "sectionSilhouette": "large heading over grouped rounded cards on dark surface",
+  "compositionTension": "quiet card repetition gains energy through thin electric accent bars",
+  "focalPath": "heading to first card row to secondary row details",
+  "negativeSpaceShape": "dark gutters between modular rounded service cards",
+  "depthLayering": "flat dark cards with icon/accent foreground layers",
+  "moduleScaleVariation": "equal service cards with small icon/CTA cues",
+  "breakoutBehavior": "contained card grid",
+  "contentLimits": {
+    "primaryModules": "3-6",
+    "maxWhenGrouped": 8,
+    "ctaPerCard": "0-1"
+  },
+  "antiCopyBoundary": "Do not copy exact service names, card shapes, blue rails, icon set, or Visionary content.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "hero",
+      "stats-proof"
+    ],
+    "after": [
+      "testimonials",
+      "cta",
+      "footer"
+    ],
+    "notAScaffold": true
+  },
+  "structuralSignature": {
+    "signatureId": "services:47b97cd6b2df380e",
+    "hash": "47b97cd6b2df380eca56f685519b923893774b52",
+    "axes": {
+      "layoutGesture": "dark professional service grid with blue accent rails",
+      "sectionSilhouette": "large heading over grouped rounded cards on dark surface",
+      "anatomyLayer": "section heading, intro copy, 3 or 6 dark cards, accent rails/icons, titles, short blurbs, and learn-more cues.",
+      "hierarchyLayer": "section promise first, card group second, card title/icon third, supporting copy fourth.",
+      "gridRhythmLayer": "three-column dark cards with generous gutters and blue accent rails, sometimes repeated in two rows.",
+      "focalPath": "heading to first card row to secondary row details",
+      "compositionTension": "quiet card repetition gains energy through thin electric accent bars",
+      "negativeSpaceShape": "dark gutters between modular rounded service cards",
+      "moduleScaleVariation": "equal service cards with small icon/cta cues",
+      "breakoutBehavior": "contained card grid",
+      "contentLimits": "{\"ctapercard\":\"0-1\",\"maxwhengrouped\":8,\"primarymodules\":\"3-6\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.0815,
+  "matchGroupId": "services:47b97cd6b2df380e",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:55:20Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 1,
+    "bestMatch": {
+      "score": 0.0815,
+      "axisScores": {
+        "layoutGesture": 0.0714,
+        "sectionSilhouette": 0.0,
+        "anatomyLayer": 0.0323,
+        "hierarchyLayer": 0.1304,
+        "gridRhythmLayer": 0.1111,
+        "focalPath": 0.0833,
+        "compositionTension": 0.0,
+        "negativeSpaceShape": 0.0,
+        "moduleScaleVariation": 0.1538,
+        "breakoutBehavior": 0.0833,
+        "contentLimits": 0.2308
+      },
+      "patternId": "checkpoint-002-services-split-image-benefit-panel",
+      "sectionType": "services",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\services\\checkpoint-002-services-split-image-benefit-panel.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

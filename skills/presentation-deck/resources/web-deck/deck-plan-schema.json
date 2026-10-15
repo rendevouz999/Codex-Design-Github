@@ -1,0 +1,242 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "design-brain.web-deck.deck-plan.v1",
+  "title": "Brain Design Web Deck Plan",
+  "type": "object",
+  "required": [
+    "schema",
+    "deckId",
+    "title",
+    "generatedBy",
+    "densityMode",
+    "stage",
+    "stylePack",
+    "directionPack",
+    "tokens",
+    "motionSignature",
+    "chrome",
+    "delivery",
+    "slides"
+  ],
+  "properties": {
+    "schema": { "const": "design-brain.web-deck.deck-plan.v1" },
+    "deckId": { "$ref": "#/$defs/slug" },
+    "title": { "type": "string", "minLength": 2 },
+    "subtitle": { "type": "string" },
+    "generatedBy": { "const": "brain-design" },
+    "densityMode": { "enum": ["speaker_led", "reading_first"] },
+    "stage": { "$ref": "#/$defs/stage" },
+    "stylePack": { "type": "string", "minLength": 2 },
+    "directionPack": { "type": "string", "minLength": 2 },
+    "tokens": { "$ref": "#/$defs/tokens" },
+    "motionSignature": { "$ref": "#/$defs/motionSignature" },
+    "chrome": { "$ref": "#/$defs/chrome" },
+    "delivery": { "$ref": "#/$defs/delivery" },
+    "slides": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/slide" },
+      "minItems": 1
+    }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "minLength": 2
+    },
+    "px": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "stage": {
+      "type": "object",
+      "required": ["width", "height", "fit", "overflow"],
+      "properties": {
+        "width": { "const": 1920 },
+        "height": { "const": 1080 },
+        "fit": { "const": "uniform-scale" },
+        "overflow": { "const": "letterbox" }
+      },
+      "additionalProperties": true
+    },
+    "tokens": {
+      "type": "object",
+      "required": ["color", "type", "space", "motion"],
+      "properties": {
+        "color": {
+          "type": "object",
+          "required": [
+            "bg",
+            "surface",
+            "text",
+            "muted",
+            "border",
+            "accent",
+            "accentContrast"
+          ],
+          "properties": {
+            "bg": { "type": "string", "minLength": 3 },
+            "surface": { "type": "string", "minLength": 3 },
+            "text": { "type": "string", "minLength": 3 },
+            "muted": { "type": "string", "minLength": 3 },
+            "border": { "type": "string", "minLength": 3 },
+            "accent": { "type": "string", "minLength": 3 },
+            "accentContrast": { "type": "string", "minLength": 3 }
+          },
+          "additionalProperties": true
+        },
+        "type": {
+          "type": "object",
+          "required": [
+            "displayFamily",
+            "bodyFamily",
+            "displaySize",
+            "leadSize",
+            "bodySize",
+            "captionSize"
+          ],
+          "properties": {
+            "displayFamily": { "type": "string", "minLength": 2 },
+            "bodyFamily": { "type": "string", "minLength": 2 },
+            "displaySize": { "$ref": "#/$defs/px" },
+            "leadSize": { "$ref": "#/$defs/px" },
+            "bodySize": { "$ref": "#/$defs/px" },
+            "captionSize": { "$ref": "#/$defs/px" }
+          },
+          "additionalProperties": true
+        },
+        "space": {
+          "type": "object",
+          "required": ["stagePadX", "stagePadY", "blockGap", "itemGap"],
+          "properties": {
+            "stagePadX": { "$ref": "#/$defs/px" },
+            "stagePadY": { "$ref": "#/$defs/px" },
+            "blockGap": { "$ref": "#/$defs/px" },
+            "itemGap": { "$ref": "#/$defs/px" }
+          },
+          "additionalProperties": true
+        },
+        "motion": {
+          "type": "object",
+          "required": [
+            "entranceMs",
+            "transitionMs",
+            "staggerMs",
+            "easing",
+            "transition"
+          ],
+          "properties": {
+            "entranceMs": { "type": "number", "minimum": 0 },
+            "transitionMs": { "type": "number", "minimum": 0 },
+            "staggerMs": { "type": "number", "minimum": 0 },
+            "easing": { "type": "string", "minLength": 3 },
+            "transition": {
+              "enum": ["fade", "rise", "slide", "scale", "mask"]
+            }
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    },
+    "motionSignature": {
+      "type": "object",
+      "required": ["id", "entrance", "accent", "forbidden"],
+      "properties": {
+        "id": { "$ref": "#/$defs/slug" },
+        "entrance": { "$ref": "#/$defs/stringList" },
+        "accent": { "$ref": "#/$defs/stringList" },
+        "forbidden": { "$ref": "#/$defs/stringList" }
+      },
+      "additionalProperties": true
+    },
+    "chrome": {
+      "type": "object",
+      "required": ["progress", "pageNumber", "deepLink", "notesPane"],
+      "properties": {
+        "progress": { "type": "boolean" },
+        "pageNumber": { "type": "boolean" },
+        "deepLink": { "type": "boolean" },
+        "notesPane": { "type": "boolean" }
+      },
+      "additionalProperties": true
+    },
+    "delivery": {
+      "type": "object",
+      "required": ["singleFile", "assetsDir", "fontSource", "pdfExport"],
+      "properties": {
+        "singleFile": { "type": "boolean" },
+        "assetsDir": { "type": ["string", "null"] },
+        "fontSource": { "enum": ["google", "self-host", "system-stack"] },
+        "pdfExport": { "type": "boolean" }
+      },
+      "additionalProperties": true
+    },
+    "slide": {
+      "type": "object",
+      "required": [
+        "index",
+        "id",
+        "archetype",
+        "role",
+        "headline",
+        "support",
+        "media",
+        "revealOrder",
+        "notes",
+        "density"
+      ],
+      "properties": {
+        "index": { "type": "integer", "minimum": 0 },
+        "id": { "$ref": "#/$defs/slug" },
+        "archetype": { "$ref": "#/$defs/archetype" },
+        "role": { "type": "string", "minLength": 2 },
+        "headline": { "type": "string", "minLength": 1 },
+        "support": { "$ref": "#/$defs/stringList" },
+        "media": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/mediaItem" }
+        },
+        "revealOrder": { "$ref": "#/$defs/stringList" },
+        "notes": { "type": "string" },
+        "density": { "enum": ["light", "medium", "dense"] }
+      },
+      "additionalProperties": true
+    },
+    "mediaItem": {
+      "type": "object",
+      "required": ["purpose", "aspect", "placeholder"],
+      "properties": {
+        "purpose": { "type": "string", "minLength": 2 },
+        "aspect": { "type": "string", "minLength": 2 },
+        "placeholder": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": true
+    },
+    "stringList": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "archetype": {
+      "enum": [
+        "cover",
+        "agenda",
+        "section-divider",
+        "problem",
+        "solution",
+        "feature",
+        "data",
+        "dashboard",
+        "timeline",
+        "roadmap",
+        "case-study",
+        "testimonial",
+        "team",
+        "pricing",
+        "portfolio",
+        "closing"
+      ]
+    }
+  }
+}

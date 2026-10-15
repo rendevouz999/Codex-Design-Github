@@ -1,0 +1,114 @@
+{
+  "patternId": "checkpoint-002-cta-coral-registration-band",
+  "sectionType": "cta",
+  "commercialPurpose": "Create a high-pressure registration moment with a full-width color band and one centered action.",
+  "purposeLayer": "CTA interrupts the page flow after benefit proof and asks for a trial/register decision.",
+  "anatomyLayer": "Full-width saturated color band, centered headline, short support line, one white button, and small reassurance text.",
+  "hierarchyLayer": "Headline first, support line second, button third, reassurance microcopy fourth.",
+  "gridRhythmLayer": "Centered stacked content inside a strong horizontal band spanning the viewport.",
+  "densityLimitLayer": "Use one primary message, one CTA, one support line, and 0-1 reassurance cue.",
+  "originalityLayer": "Learn color-band conversion pressure; transform hue, shape, button treatment, and reassurance cue.",
+  "usageRuleLayer": "Use only after enough benefit evidence exists; avoid repeating as a generic footer slab.",
+  "layoutGesture": "full-width saturated registration band",
+  "sectionSilhouette": "bold horizontal CTA stripe with compact centered stack",
+  "compositionTension": "intense color pressure against minimal centered content",
+  "focalPath": "headline to button to reassurance microcopy",
+  "negativeSpaceShape": "large colored field surrounding small action core",
+  "depthLayering": "flat color plane with button contrast",
+  "moduleScaleVariation": "large band with tiny reassurance copy",
+  "breakoutBehavior": "full-bleed band between calmer sections",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1",
+    "supportingProof": "0-1",
+    "microcopy": "0-1"
+  },
+  "antiCopyBoundary": "Do not copy exact coral hue, register wording, button shape, or free-trial microcopy.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "features",
+      "services",
+      "stats-proof"
+    ],
+    "after": [
+      "testimonials",
+      "footer"
+    ],
+    "notAScaffold": true
+  },
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\118_Lead-Generation-02-Landing-Page.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\11_Video_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\12_Gallery_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\13_Audio_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\14_Quote_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\15_Link_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\16_Full_Width_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\17_Features.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\18_Category_1.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\19_Category_2.jpg"
+  ],
+  "productFamilies": [
+    "startup",
+    "editorial-blog",
+    "lead-generation",
+    "website"
+  ],
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 002",
+    "reviewNotes": "Checkpoint 002 is visually inspected learning evidence; keep incoming until exact hyper-accuracy review and dedupe rationale pass.",
+    "nonCopyBoundary": "Do not copy the exact Pallas editorial visuals, startup hero background, coral/teal color identity, photo assets, sidebar widget order, or footer treatment."
+  },
+  "structuralSignature": {
+    "signatureId": "cta:534304d8861f8a7f",
+    "hash": "534304d8861f8a7f8e5beacb574125a0bb92d31e",
+    "axes": {
+      "layoutGesture": "full-width saturated registration band",
+      "sectionSilhouette": "bold horizontal cta stripe with compact centered stack",
+      "anatomyLayer": "full-width saturated color band, centered headline, short support line, one white button, and small reassurance text.",
+      "hierarchyLayer": "headline first, support line second, button third, reassurance microcopy fourth.",
+      "gridRhythmLayer": "centered stacked content inside a strong horizontal band spanning the viewport.",
+      "focalPath": "headline to button to reassurance microcopy",
+      "compositionTension": "intense color pressure against minimal centered content",
+      "negativeSpaceShape": "large colored field surrounding small action core",
+      "moduleScaleVariation": "large band with tiny reassurance copy",
+      "breakoutBehavior": "full-bleed band between calmer sections",
+      "contentLimits": "{\"cta\":\"1\",\"microcopy\":\"0-1\",\"primarymessage\":1,\"supportingproof\":\"0-1\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.0,
+  "matchGroupId": "cta:534304d8861f8a7f",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:47:11Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 0,
+    "bestMatch": null,
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

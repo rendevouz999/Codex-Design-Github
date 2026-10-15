@@ -1,0 +1,25 @@
+{
+  "command": "check",
+  "status": "PASS",
+  "templateId": "roampass-ticket-travel",
+  "candidateBrandName": "RoamPass",
+  "templateType": "Figma website template",
+  "productFamily": "travel ticket booking website",
+  "niche": "ticket travel booking",
+  "referenceMode": "single",
+  "referenceGroupKey": "tase-ticket-travel-website-template-png",
+  "referenceIds": [
+    "tase-ticket-travel-website-template-png"
+  ],
+  "referenceBrandNames": [
+    "TASE"
+  ],
+  "blockingReasons": [],
+  "warnings": [
+    "UNKNOWN_REFERENCE_ID tase-ticket-travel-website-template-png"
+  ],
+  "nextAction": "Proceed with reference cognition and record usage after completion.",
+  "dryRun": false,
+  "checkedAt": "2026-06-01T04:24:17.463827+00:00",
+  "receiptPath": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\builds\\2026-06-01-sports-travel-figma\\roampass-reference-usage.json"
+}

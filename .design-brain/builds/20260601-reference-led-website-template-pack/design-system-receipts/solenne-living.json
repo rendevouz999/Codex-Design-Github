@@ -1,0 +1,120 @@
+{
+  "templateId": "solenne-living",
+  "productFamily": "home decor ecommerce website",
+  "designSystemScope": "Separate Figma design-system board for a home decor ecommerce homepage template with room commerce, category discovery, product grids, trust proof, cart-ready product cards, editorial modules, and placeholder guidance.",
+  "colorTokens": {
+    "background": "#F6F0E6",
+    "surface": "#FFFFFF",
+    "surfaceElevated": "#F8FAFA",
+    "textPrimary": "#20251C",
+    "textSecondary": "#747B6D",
+    "textMuted": "#A6A99C",
+    "accent": "#748C67",
+    "action": "#CF684C",
+    "border": "#DFD2C0"
+  },
+  "typographyTokens": {
+    "display": "Inter Bold 34px",
+    "h1": "Inter Bold 28px",
+    "h2": "Inter Semi Bold 22px",
+    "h3": "Inter Semi Bold 18px",
+    "body": "Inter Regular 15px",
+    "bodySmall": "Inter Regular 12px",
+    "label": "Inter Semi Bold 11px",
+    "button": "Inter Semi Bold 13px",
+    "nav": "Inter Medium 13px"
+  },
+  "spacingTokens": {
+    "scale": "8px base scale with soft 12, 16, 24, 32, 48, 64 steps",
+    "sectionY": "80-104px editorial commerce section rhythm",
+    "componentPadding": "16-32px for cards and room modules",
+    "cardGap": "18-24px",
+    "gridGap": "24px",
+    "container": "1280px content width inside 1440px desktop frame"
+  },
+  "components": [
+    "header navigation",
+    "primary button and secondary button",
+    "room recipe card",
+    "product card with price and cart cue",
+    "category ribbon",
+    "style quiz card",
+    "trust material proof card",
+    "journal card",
+    "newsletter cta form",
+    "footer support links",
+    "image placeholder modules"
+  ],
+  "states": {
+    "default": "clay action on warm surfaces",
+    "hover": "deep moss hover state for shopping confidence",
+    "focus": "dark green keyboard focus ring",
+    "active": "sage active state for selected room or category",
+    "disabled": "muted warm disabled state"
+  },
+  "componentAnatomy": {
+    "button": "label, fill, radius, commerce state",
+    "card": "product image placeholder, title, material or room tag, price, cart cue",
+    "navigation": "brand, room links, collection links, shop CTA",
+    "header": "editable ecommerce nav with curated shop action",
+    "footer": "brand, shop links, support links, source notes",
+    "cta": "newsletter and style-quiz conversion blocks",
+    "placeholder": "room, product, material, customer, and editorial image clues",
+    "cart": "cart cue appears inside product card and product discovery grid",
+    "category": "category ribbon and room browsing modules",
+    "trust": "material proof, maker story, warranty and customer gallery modules"
+  },
+  "patternModules": [
+    "room atlas hero",
+    "category proof ribbon",
+    "room recipe process grid",
+    "featured collection shelf",
+    "style quiz service block",
+    "product discovery grid",
+    "material and maker proof",
+    "customer gallery",
+    "editorial journal preview",
+    "newsletter colophon"
+  ],
+  "usageRules": [
+    "Use warm surfaces and sage accents to make ecommerce feel tactile instead of generic.",
+    "Keep product, category, cart, and trust cues visible across the shopping flow.",
+    "Use editorial modules to explain materials and rooms before the product grid."
+  ],
+  "surfaceEffectTokens": {
+    "cardShadow": "warm soft shadow for product shelves",
+    "heroDepth": "rounded lifestyle board with warm shadow",
+    "borderStroke": "warm linen border for cards"
+  },
+  "placeholderRules": [
+    "Use image placeholder: [purpose] for room scenes, product photos, material details, customer rooms, and editorial images.",
+    "Keep source imagery editable and replaceable by buyers.",
+    "Do not use final generated room photography unless explicitly requested."
+  ],
+  "sourceHygiene": {
+    "autoLayout": true,
+    "editableText": true,
+    "editablePlaceholders": true,
+    "clearLayerNames": true,
+    "reusableComponents": true,
+    "responsiveConstraints": true
+  },
+  "artifactEvidence": {
+    "designSystemPageId": "2:438",
+    "componentInventory": [
+      "navigation",
+      "header",
+      "footer",
+      "button",
+      "card",
+      "cta",
+      "placeholder",
+      "product",
+      "category",
+      "cart",
+      "trust"
+    ],
+    "tokenSourcePath": ".design-brain/builds/20260601-reference-led-website-template-pack/design-system-receipts/solenne-living.json",
+    "screenshotPath": ".design-brain/builds/20260601-reference-led-website-template-pack/screenshots/solenne-design-system.png"
+  }
+}

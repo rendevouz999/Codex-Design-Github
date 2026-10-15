@@ -1,0 +1,121 @@
+{
+  "templateId": "kinetiq-sole",
+  "productFamily": "sneaker ecommerce website",
+  "designSystemScope": "Separate Figma design-system board for a sneaker ecommerce homepage template with velocity hero, product launch wall, fit finder, product/category cards, cart cues, trust proof, drop calendar, deal modules, and placeholder guidance.",
+  "colorTokens": {
+    "background": "#F3F9EA",
+    "surface": "#FFFFFF",
+    "surfaceElevated": "#F8FAFA",
+    "textPrimary": "#171A20",
+    "textSecondary": "#626D61",
+    "textMuted": "#9BA59A",
+    "accent": "#3567F6",
+    "action": "#D3FF2E",
+    "border": "#D8E0CD"
+  },
+  "typographyTokens": {
+    "display": "Inter Bold 34px",
+    "h1": "Inter Bold 28px",
+    "h2": "Inter Semi Bold 22px",
+    "h3": "Inter Semi Bold 18px",
+    "body": "Inter Regular 15px",
+    "bodySmall": "Inter Regular 12px",
+    "label": "Inter Semi Bold 11px",
+    "button": "Inter Semi Bold 13px",
+    "nav": "Inter Medium 13px"
+  },
+  "spacingTokens": {
+    "scale": "8px base scale with tight commerce rhythm",
+    "sectionY": "72-96px launch-commerce section rhythm",
+    "componentPadding": "14-32px for product and promo surfaces",
+    "cardGap": "16-24px",
+    "gridGap": "24px",
+    "container": "1280px content width inside 1440px desktop frame"
+  },
+  "components": [
+    "header navigation",
+    "primary button and secondary button",
+    "fit finder chip",
+    "product card with price and cart action",
+    "category lane card",
+    "comparison row",
+    "drop calendar card",
+    "trust testimonial card",
+    "weekly deal cta card",
+    "footer commerce links",
+    "image placeholder modules"
+  ],
+  "states": {
+    "default": "volt action state for high urgency",
+    "hover": "dark graphite hover state",
+    "focus": "volt keyboard focus ring",
+    "active": "blue active state for selected fit or product mode",
+    "disabled": "muted neutral disabled state"
+  },
+  "componentAnatomy": {
+    "button": "label, fill, radius, hover/focus/active/disabled state",
+    "card": "image placeholder, product title, price, cart action, commerce label",
+    "navigation": "brand, launch links, fit finder, shop CTA",
+    "header": "editable sneaker commerce nav with drop CTA",
+    "footer": "brand, explore links, shop links, source notes",
+    "cta": "loyalty command bar and weekly deal modules",
+    "placeholder": "sneaker, athlete, category, deal, and CTA product image clues",
+    "product": "launch wall and discovery grid product cards",
+    "category": "road, court, and street lane cards",
+    "cart": "add-to-cart and cart cue inside product modules",
+    "trust": "performance comparison, customer quote, return and exchange cues"
+  },
+  "patternModules": [
+    "velocity hero",
+    "fit finder rail",
+    "product launch wall",
+    "category lanes",
+    "product discovery grid",
+    "performance comparison",
+    "drop calendar",
+    "community testimonial proof",
+    "weekly deal cards",
+    "loyalty CTA command bar"
+  ],
+  "usageRules": [
+    "Use volt for urgency and conversion, blue for selected or exploratory states.",
+    "Keep product, category, cart, and trust cues visible before the final CTA.",
+    "Use dark surfaces for performance proof and launch urgency instead of a soft decor rhythm."
+  ],
+  "surfaceEffectTokens": {
+    "cardShadow": "dark performance card shadow with compact depth",
+    "heroDepth": "dark console with neon gradient product placeholder",
+    "borderStroke": "pale green commerce border for product cards"
+  },
+  "placeholderRules": [
+    "Use image placeholder: [purpose] for sneaker products, athlete photos, category cards, deal modules, and final CTA images.",
+    "Keep all commerce imagery replaceable in source.",
+    "Do not use final generated shoe photography unless explicitly requested."
+  ],
+  "sourceHygiene": {
+    "autoLayout": true,
+    "editableText": true,
+    "editablePlaceholders": true,
+    "clearLayerNames": true,
+    "reusableComponents": true,
+    "responsiveConstraints": true
+  },
+  "artifactEvidence": {
+    "designSystemPageId": "2:736",
+    "componentInventory": [
+      "navigation",
+      "header",
+      "footer",
+      "button",
+      "card",
+      "cta",
+      "placeholder",
+      "product",
+      "category",
+      "cart",
+      "trust"
+    ],
+    "tokenSourcePath": ".design-brain/builds/20260601-reference-led-website-template-pack/design-system-receipts/kinetiq-sole.json",
+    "screenshotPath": ".design-brain/builds/20260601-reference-led-website-template-pack/screenshots/kinetiq-design-system.png"
+  }
+}

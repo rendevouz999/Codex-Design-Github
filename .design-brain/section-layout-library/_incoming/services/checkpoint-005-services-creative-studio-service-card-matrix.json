@@ -1,0 +1,122 @@
+{
+  "patternId": "checkpoint-005-services-creative-studio-service-card-matrix",
+  "sectionType": "services",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\chaos-creative-studio-website-2025-01-15-17-54-01-utc - Chaos - Creative Studio Website - 21a94ff9.png"
+  ],
+  "productFamilies": [
+    "creative-agency",
+    "studio",
+    "portfolio",
+    "branding"
+  ],
+  "commercialPurpose": "Explain creative studio capabilities through a compact card matrix that retains the art-direction motif.",
+  "purposeLayer": "Service cards organize capabilities without flattening the visual language into generic SaaS cards.",
+  "anatomyLayer": "Section heading, 3-6 warm dark service cards, icon badges, orange CTA buttons, stats strip, and abstract motif image nearby.",
+  "hierarchyLayer": "Service heading first, card matrix second, stat/motif support third.",
+  "gridRhythmLayer": "Dark warm service section with compact card matrix and orange abstract support motif.",
+  "densityLimitLayer": "Use section density limit: {\"primaryModules\": \"3-6\", \"grouping\": \"required when more than 4\", \"visualProof\": \"0-1\"}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, product photos, or page order.",
+  "usageRuleLayer": "Use when creative/studio templates need service clarity but must avoid sterile white card grids.",
+  "layoutGesture": "creative service card matrix with sculptural accent motif",
+  "sectionSilhouette": "brown-black section with two-row service cards, small icons, and orange CTA chips",
+  "compositionTension": "structured service clarity is energized by recurring abstract motif",
+  "focalPath": "heading to service card matrix to CTA chips to stats",
+  "negativeSpaceShape": "dark warm gutters between cards maintain premium density",
+  "depthLayering": "dark base, card surfaces, icon chips, orange action buttons, abstract motif layer",
+  "moduleScaleVariation": "equal medium service cards balanced by one larger motif/stat block",
+  "breakoutBehavior": "motif card can interrupt the equal service grid",
+  "contentLimits": {
+    "primaryModules": "3-6",
+    "grouping": "required when more than 4",
+    "visualProof": "0-1"
+  },
+  "antiCopyBoundary": "Do not copy exact icons, orange card fills, service names, or motif placement.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "hero"
+    ],
+    "after": [
+      "portfolio-gallery",
+      "testimonials",
+      "contact-booking"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 005 contact sheet",
+    "reviewNotes": "Checkpoint 005 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "services:6897e19cde377995",
+    "hash": "6897e19cde3779957d89b873bb0ecb89069a5f6a",
+    "axes": {
+      "layoutGesture": "creative service card matrix with sculptural accent motif",
+      "sectionSilhouette": "brown-black section with two-row service cards, small icons, and orange cta chips",
+      "anatomyLayer": "section heading, 3-6 warm dark service cards, icon badges, orange cta buttons, stats strip, and abstract motif image nearby.",
+      "hierarchyLayer": "service heading first, card matrix second, stat/motif support third.",
+      "gridRhythmLayer": "dark warm service section with compact card matrix and orange abstract support motif.",
+      "focalPath": "heading to service card matrix to cta chips to stats",
+      "compositionTension": "structured service clarity is energized by recurring abstract motif",
+      "negativeSpaceShape": "dark warm gutters between cards maintain premium density",
+      "moduleScaleVariation": "equal medium service cards balanced by one larger motif/stat block",
+      "breakoutBehavior": "motif card can interrupt the equal service grid",
+      "contentLimits": "{\"grouping\":\"required when more than 4\",\"primarymodules\":\"3-6\",\"visualproof\":\"0-1\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.2039,
+  "matchGroupId": "services:6897e19cde377995",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:25:28Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 3,
+    "bestMatch": {
+      "score": 0.2039,
+      "axisScores": {
+        "layoutGesture": 0.1333,
+        "sectionSilhouette": 0.25,
+        "anatomyLayer": 0.1515,
+        "hierarchyLayer": 0.1667,
+        "gridRhythmLayer": 0.1818,
+        "focalPath": 0.1429,
+        "compositionTension": 0.05,
+        "negativeSpaceShape": 0.0,
+        "moduleScaleVariation": 0.0,
+        "breakoutBehavior": 0.1667,
+        "contentLimits": 1.0
+      },
+      "patternId": "checkpoint-004-services-robotics-split-proof-feature-rails",
+      "sectionType": "services",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\services\\checkpoint-004-services-robotics-split-proof-feature-rails.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

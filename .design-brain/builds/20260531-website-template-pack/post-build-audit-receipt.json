@@ -1,0 +1,123 @@
+{
+  "buildId": "post-build-20260531110408",
+  "templateCount": 2,
+  "templates": [
+    "asterbay-retreat-hospitality",
+    "vantaledger-ai-finance-saas"
+  ],
+  "designCognitionRequired": true,
+  "completionReceiptRequired": true,
+  "completionReceiptPresent": true,
+  "designSystemResults": {
+    "asterbay-retreat-hospitality": {
+      "status": "PASS",
+      "templateId": "asterbay-retreat-hospitality",
+      "errors": [],
+      "warnings": [],
+      "artifactEvidenceStatus": "PASS"
+    },
+    "vantaledger-ai-finance-saas": {
+      "status": "PASS",
+      "templateId": "vantaledger-ai-finance-saas",
+      "errors": [],
+      "warnings": [],
+      "artifactEvidenceStatus": "PASS"
+    }
+  },
+  "designCognitionResults": {
+    "AsterBay Retreat luxury hospitality Figma website template from two local website references": {
+      "status": "PASS",
+      "missingFields": [],
+      "riskCategories": [],
+      "requiredRepairs": []
+    },
+    "VantaLedger AI finance SaaS Figma website template from two local website references": {
+      "status": "PASS",
+      "missingFields": [],
+      "riskCategories": [],
+      "requiredRepairs": []
+    }
+  },
+  "auditPasses": {
+    "pass1OriginalityBatchSimilarity": "PASS",
+    "pass2DesignSystemSourceHygiene": "PASS",
+    "pass3VisualLayoutQA": "PASS"
+  },
+  "batchSimilarity": {
+    "batchId": "20260531-website-template-pack",
+    "pairs": [
+      {
+        "pair": [
+          "asterbay-retreat-hospitality",
+          "vantaledger-ai-finance-saas"
+        ],
+        "structureDefiningAxisSimilarity": 0.273,
+        "visualLanguageAxisSimilarity": 0.171,
+        "scaffoldRisk": 0.217,
+        "failedAxes": [],
+        "hardFailAxes": [],
+        "softRiskAxes": [],
+        "requiredStructuralRepairs": [],
+        "axisScores": {
+          "heroGrammarSimilarity": 0.146,
+          "sectionOrderSimilarity": 0.0,
+          "gridSystemSimilarity": 0.206,
+          "layoutGestureSimilarity": 0.029,
+          "sectionSilhouetteSimilarity": 0.0,
+          "compositionTensionSimilarity": 0.051,
+          "focalPathSimilarity": 0.083,
+          "negativeSpaceShapeSimilarity": 0.032,
+          "depthLayeringSimilarity": 0.083,
+          "moduleScaleVariationSimilarity": 0.147,
+          "breakoutBehaviorSimilarity": 0.111,
+          "layoutRhythmSimilarity": 0.029,
+          "cardCadenceSimilarity": 0.176,
+          "componentPatternSimilarity": 0.273,
+          "ctaPlacementSimilarity": 0.188,
+          "imageTreatmentSimilarity": 0.161,
+          "spacingCadenceSimilarity": 0.121,
+          "typographyBehaviorSimilarity": 0.161,
+          "colorRoleSimilarity": 0.171,
+          "effectLanguageSimilarity": 0.091,
+          "navigationFooterPatternSimilarity": 0.175,
+          "overallScaffoldRisk": 0.217
+        },
+        "status": "PASS"
+      }
+    ],
+    "overallRisk": "low",
+    "requiredRepairs": [],
+    "failedAxes": [],
+    "hardFailAxes": [],
+    "softRiskAxes": [],
+    "structureDefiningAxisSimilarity": 0.273,
+    "visualLanguageAxisSimilarity": 0.171,
+    "status": "PASS"
+  },
+  "buildSessionLifecycle": {
+    "status": "not_provided",
+    "sessionId": "",
+    "fingerprintLockStatus": "N/A",
+    "layoutAuditVsReference": "N/A",
+    "pairwiseAiLayoutAudit": "N/A",
+    "issues": []
+  },
+  "layoutOriginality": {
+    "buildSessionId": "",
+    "layoutAuditVsReference": "N/A",
+    "pairwiseAiLayoutAudit": "N/A",
+    "fingerprintLockStatus": "N/A",
+    "ideaRecoveryCorpusUsed": false,
+    "corpusInspirationIds": [],
+    "layoutRepairCycles": 0,
+    "axisFailuresRepaired": [],
+    "safeToProceedToNextTemplate": null
+  },
+  "repairCycles": 0,
+  "repairPlan": [],
+  "remainingIssues": [],
+  "visualVerificationStatus": "screenshot_render_verified",
+  "finalStatus": "READY",
+  "limitations": [],
+  "completionStatement": "Post-build gate satisfied."
+}

@@ -1,0 +1,36 @@
+# Layout Fingerprint
+
+- Template ID:
+- Source type: reference / ai_output / corpus_inspiration
+- Product family:
+- Mode:
+- Hero grammar:
+- Section order:
+- Grid system:
+- Layout gesture:
+- Section silhouettes:
+- Section pattern mix:
+- Section pattern IDs:
+- Section density limits:
+- Catalog divergence notes:
+- Composition tension:
+- Focal path:
+- Negative-space shape:
+- Depth layering:
+- Module scale variation:
+- Breakout behavior:
+- Layout rhythm:
+- Card cadence:
+- Component patterns:
+- CTA placement:
+- Closure silhouette:
+- Image treatment:
+- Spacing cadence:
+- Typography behavior:
+- Color roles:
+- Effect language:
+- Navigation pattern:
+- Footer pattern:
+- Design system ID:
+- Visual grammar summary:
+- Marketplace readiness summary:

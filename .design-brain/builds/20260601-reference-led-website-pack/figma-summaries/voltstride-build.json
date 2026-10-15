@@ -1,0 +1,15 @@
+{
+  "templateIds": ["voltstride"],
+  "builtTemplateIds": ["voltstride"],
+  "sourceFrameIds": ["13:10"],
+  "designSystemFrameIds": ["13:362"],
+  "coverFrameIds": ["13:415"],
+  "pageId": "13:2",
+  "figmaFileKey": "MaIqGHCZICiDGhu9kH6o9C",
+  "screenshots": [
+    ".design-brain/screenshots/figma-builds/voltstride-main.png",
+    ".design-brain/screenshots/figma-builds/voltstride-design-system.png",
+    ".design-brain/screenshots/figma-builds/voltstride-cover.png"
+  ],
+  "status": "built_repaired_and_inspected"
+}

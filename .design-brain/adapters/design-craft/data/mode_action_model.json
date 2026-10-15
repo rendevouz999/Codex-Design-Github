@@ -1,0 +1,233 @@
+{
+  "version": "0.2.7",
+  "actions": {
+    "website": {
+      "primary_action_label": "Primary CTA",
+      "action_goal": "Guide visitor through product/service decision path",
+      "allowed_terms": ["CTA", "conversion", "proof", "decision path"],
+      "forbidden_terms": []
+    },
+    "landing": {
+      "primary_action_label": "Landing CTA",
+      "action_goal": "Drive one focused campaign action",
+      "allowed_terms": ["CTA", "conversion", "objection handling", "campaign action"],
+      "forbidden_terms": ["generic parallax story", "final climax CTA", "End of each chapter"]
+    },
+    "dashboard": {
+      "primary_action_label": "Primary user task",
+      "action_goal": "Improve task efficiency, data clarity, filtering, and state handling",
+      "allowed_terms": ["task efficiency", "data hierarchy", "filters", "states", "workflow"],
+      "forbidden_terms": ["Conversion Strategy", "CTA Placement", "Contact Sales", "marketing CTA", "conversion funnel"]
+    },
+    "presentation": {
+      "primary_action_label": "Slide narrative outcome",
+      "action_goal": "Guide audience through a clear argument or proposal",
+      "allowed_terms": ["slide flow", "deck narrative", "closing slide", "data readability"],
+      "forbidden_terms": ["hover", "scroll", "sticky", "conversion CTA", "Contact Sales", "Parallax Storytelling"]
+    },
+    "web_deck": {
+      "primary_action_label": "Stage narrative outcome",
+      "action_goal": "Carry one argument across a fixed browser stage with runtime navigation and motion the audience can follow",
+      "allowed_terms": ["slide flow", "stage scale", "reveal choreography", "runtime navigation", "deep link", "reduced motion"],
+      "forbidden_terms": ["website sections", "CTA Placement", "Conversion Strategy", "Contact Sales", "scroll-driven", "scroll-triggered", "long-scroll sections", "slide master", "export to PPTX", "full website"]
+    },
+    "email": {
+      "primary_action_label": "Email CTA block",
+      "action_goal": "Guide reader to one email-safe action while preserving deliverability",
+      "allowed_terms": ["email CTA", "mobile stack", "unsubscribe", "alt text", "email client"],
+      "forbidden_terms": ["website sections", "sticky", "scroll-triggered", "Contact Sales + Login", "full website"]
+    },
+    "email_newsletter": {
+      "primary_action_label": "Email CTA block",
+      "action_goal": "Guide reader to one email-safe action while preserving deliverability",
+      "allowed_terms": ["email CTA", "mobile stack", "unsubscribe", "alt text", "email client"],
+      "forbidden_terms": ["website sections", "sticky", "scroll-triggered", "Contact Sales + Login", "full website"]
+    },
+    "menu_design": {
+      "primary_action_label": "Menu reading path",
+      "action_goal": "Help customers scan categories, items, and prices clearly",
+      "allowed_terms": ["category hierarchy", "price alignment", "menu readability", "print/digital"],
+      "forbidden_terms": ["Contact Sales", "Login", "logo carousel", "tab switching", "conversion funnel", "hover states", "CTA Placement"]
+    },
+    "social_post": {
+      "primary_action_label": "Social hook / engagement cue",
+      "action_goal": "Make the message readable, crop-safe, and share/save friendly",
+      "allowed_terms": ["hook", "crop safety", "aspect ratio", "carousel rhythm", "export"],
+      "forbidden_terms": ["Bottom section", "scroll-snap", "hover color shift", "website sections", "86% higher engagement with video"]
+    },
+    "brand_kit": {
+      "primary_action_label": "Brand application rule",
+      "action_goal": "Define consistent identity usage across logo, type, color, and applications",
+      "allowed_terms": ["logo usage", "clearspace", "color roles", "typography pairing", "applications"],
+      "forbidden_terms": ["CTA Placement", "conversion", "website sections", "hover states"]
+    },
+    "static_canvas": {
+      "primary_action_label": "Visual hierarchy / print action",
+      "action_goal": "Build a clear static composition with safe margins and export clarity",
+      "allowed_terms": ["safe margin", "focal point", "export", "print clarity", "readability"],
+      "forbidden_terms": ["hover", "scroll", "responsive web breakpoints", "Contact Sales"]
+    },
+    "ui_kit": {
+      "primary_action_label": "Component usage rule",
+      "action_goal": "Define reusable components, variants, states, and tokens",
+      "allowed_terms": ["tokens", "states", "variants", "components", "accessibility states"],
+      "forbidden_terms": ["conversion funnel", "CTA Placement", "website sections", "full website"]
+    },
+    "component_library": {
+      "primary_action_label": "Component usage rule",
+      "action_goal": "Define reusable components, variants, states, and token mapping",
+      "allowed_terms": ["tokens", "states", "variants", "components"],
+      "forbidden_terms": ["conversion funnel", "CTA Placement", "website sections", "full website"]
+    },
+    "design_system": {
+      "primary_action_label": "System usage rule",
+      "action_goal": "Define tokens, components, states, naming, and accessibility behavior",
+      "allowed_terms": ["tokens", "states", "variants", "naming", "accessibility"],
+      "forbidden_terms": ["conversion funnel", "CTA Placement", "website sections", "full website"]
+    },
+    "mobile_app": {
+      "primary_action_label": "Primary user flow",
+      "action_goal": "Guide users through screen flow, navigation, task completion, and states",
+      "allowed_terms": ["screen flow", "navigation", "states", "task completion"],
+      "forbidden_terms": ["website sections", "conversion funnel", "desktop breakpoints", "full website"]
+    },
+    "brochure_design": {
+      "primary_action_label": "Brochure reading path",
+      "action_goal": "Guide reader through brand/service information with clear print/PDF hierarchy",
+      "allowed_terms": ["cover", "service overview", "benefits", "contact block", "print/PDF"],
+      "forbidden_terms": ["CTA Placement", "Conversion Strategy", "website sections", "hover states", "full website"]
+    },
+    "print_collateral": {
+      "primary_action_label": "Print hierarchy",
+      "action_goal": "Create a clear static promotional layout with safe margins and export clarity",
+      "allowed_terms": ["headline", "supporting copy", "safe margin", "print export", "readability"],
+      "forbidden_terms": ["website sections", "hover", "scroll", "CTA Placement", "full website"]
+    },
+    "poster_design": {
+      "primary_action_label": "Poster focal hierarchy",
+      "action_goal": "Create strong visual attention, readable message, and print/export clarity",
+      "allowed_terms": ["headline", "focal visual", "supporting info", "print", "export"],
+      "forbidden_terms": ["website sections", "hover", "scroll", "Conversion Strategy", "full website"]
+    },
+    "banner_design": {
+      "primary_action_label": "Banner message hierarchy",
+      "action_goal": "Create crop-safe headline, visual focus, and export-ready banner variants",
+      "allowed_terms": ["aspect ratio", "headline", "visual focus", "crop safety", "export"],
+      "forbidden_terms": ["website sections", "hover", "scroll", "full website"]
+    },
+    "thumbnail_design": {
+      "primary_action_label": "Thumbnail hook",
+      "action_goal": "Make hook readable at small size with strong focal contrast",
+      "allowed_terms": ["hook", "contrast", "small-size readability", "crop safety", "export"],
+      "forbidden_terms": ["website sections", "hover", "scroll", "full website"]
+    },
+    "invoice_template": {
+      "primary_action_label": "Billing clarity",
+      "action_goal": "Make invoice metadata, item table, totals, and payment instructions clear",
+      "allowed_terms": ["invoice metadata", "item table", "totals", "payment", "PDF/print"],
+      "forbidden_terms": ["website sections", "CTA Placement", "hover", "scroll", "full website"]
+    },
+    "resume_template": {
+      "primary_action_label": "Career information hierarchy",
+      "action_goal": "Make profile, experience, skills, and education readable and ATS/print friendly",
+      "allowed_terms": ["profile", "experience", "skills", "education", "ATS", "PDF"],
+      "forbidden_terms": ["website sections", "CTA Placement", "hover", "scroll", "full website"]
+    },
+    "ticket_receipt_design": {
+      "primary_action_label": "Order readability",
+      "action_goal": "Make order items, quantities, notes, totals, and receipt metadata easy to scan",
+      "allowed_terms": ["order metadata", "item list", "quantity", "total", "receipt width", "print"],
+      "forbidden_terms": ["website sections", "CTA Placement", "hover", "scroll", "full website"]
+    },
+    "letterhead_design": {
+      "primary_action_label": "Business document identity",
+      "action_goal": "Create a consistent, printable brand document header/footer system",
+      "allowed_terms": ["logo placement", "contact info", "safe margin", "print/PDF", "brand consistency"],
+      "forbidden_terms": ["website sections", "CTA Placement", "Conversion Strategy", "hover", "scroll", "Contact Sales", "Login", "full website"]
+    },
+    "price_list_design": {
+      "primary_action_label": "Price scanning path",
+      "action_goal": "Help users compare items/services and prices quickly",
+      "allowed_terms": ["category", "price alignment", "currency", "readability", "print/digital"],
+      "forbidden_terms": ["website sections", "CTA Placement", "Conversion Strategy", "Contact Sales", "Login", "hover", "scroll", "full website"]
+    },
+    "table_tent_design": {
+      "primary_action_label": "Tabletop reading path",
+      "action_goal": "Make menu/promo readable from a table distance with clear fold/print logic",
+      "allowed_terms": ["front/back", "panel", "QR", "fold", "safe margin", "print", "readability"],
+      "forbidden_terms": ["website sections", "CTA Placement", "Conversion Strategy", "hover", "scroll", "full website"]
+    },
+    "catalog_design": {
+      "primary_action_label": "Catalog browsing path",
+      "action_goal": "Help viewers browse product categories, details, and visual hierarchy in a print/PDF catalog",
+      "allowed_terms": ["cover", "category", "product grid", "spread", "print/PDF", "SKU", "price"],
+      "forbidden_terms": ["website sections", "ecommerce checkout", "cart", "checkout", "CTA Placement", "Conversion Strategy", "hover", "scroll", "full website"]
+    },
+    "lookbook_design": {
+      "primary_action_label": "Lookbook narrative path",
+      "action_goal": "Create an editorial browsing flow for collection mood, styling, and product story",
+      "allowed_terms": ["editorial opener", "collection story", "image spread", "style notes", "print/PDF", "visual rhythm"],
+      "forbidden_terms": ["website sections", "cart", "checkout", "CTA Placement", "Conversion Strategy", "hover", "scroll", "full website"]
+    },
+    "cover_design": {
+      "primary_action_label": "Cover visual hierarchy",
+      "action_goal": "Create a strong focal cover composition with readable title and crop-safe export",
+      "allowed_terms": ["title hierarchy", "focal visual", "safe area", "crop safety", "export", "readability"],
+      "forbidden_terms": ["website sections", "CTA Placement", "Conversion Strategy", "Contact Sales", "Login", "hover", "scroll", "cart", "checkout", "full website"]
+    },
+    "voucher_coupon_design": {
+      "primary_action_label": "Redemption clarity",
+      "action_goal": "Make offer, code, terms, and redemption action clear in print/digital format",
+      "allowed_terms": ["offer", "code", "QR", "expiry", "terms", "redemption", "print/digital"],
+      "forbidden_terms": ["website sections", "CTA Placement", "Conversion Strategy", "Contact Sales", "Login", "hover", "scroll", "cart", "checkout", "full website"]
+    },
+    "sticker_design": {
+      "primary_action_label": "Sticker recognition",
+      "action_goal": "Make mark/message readable and print-ready in a compact sticker format",
+      "allowed_terms": ["shape", "die-cut", "safe margin", "print", "material", "finish"],
+      "forbidden_terms": ["website sections", "CTA Placement", "Conversion Strategy", "hover", "scroll", "cart", "checkout", "full website"]
+    },
+    "postcard_design": {
+      "primary_action_label": "Postcard message path",
+      "action_goal": "Create a readable front/back static card with clear visual and message hierarchy",
+      "allowed_terms": ["front/back", "message", "image", "address", "safe margin", "print/export"],
+      "forbidden_terms": ["website sections", "CTA Placement", "Conversion Strategy", "hover", "scroll", "full website"]
+    },
+    "certificate_design": {
+      "primary_action_label": "Certificate hierarchy",
+      "action_goal": "Make recipient, title, issuer, date, and signature/seal hierarchy clear and printable",
+      "allowed_terms": ["recipient", "issuer", "signature", "seal", "date", "border", "PDF/print"],
+      "forbidden_terms": ["website sections", "CTA Placement", "Conversion Strategy", "hover", "scroll", "full website"]
+    },
+    "booklet_design": {
+      "primary_action_label": "Booklet reading path",
+      "action_goal": "Guide readers through a multi-page print/PDF structure with clear page rhythm",
+      "allowed_terms": ["cover", "spread", "page flow", "section", "print/PDF", "back cover"],
+      "forbidden_terms": ["website sections", "CTA Placement", "Conversion Strategy", "hover", "scroll", "full website"]
+    },
+    "packaging_label_design": {
+      "primary_action_label": "Packaging label hierarchy",
+      "action_goal": "Make product identity, variant, info, and print/dieline requirements clear",
+      "allowed_terms": ["product name", "variant", "barcode", "dieline", "print", "material", "finish"],
+      "forbidden_terms": ["website sections", "CTA Placement", "Conversion Strategy", "cart", "checkout", "hover", "scroll", "full website"]
+    },
+    "label_design": {
+      "primary_action_label": "Label information hierarchy",
+      "action_goal": "Make brand/product hierarchy, supporting info, material, and print/export requirements clear",
+      "allowed_terms": ["label shape", "brand/product hierarchy", "supporting info", "material", "finish", "print/export"],
+      "forbidden_terms": ["website sections", "CTA Placement", "Conversion Strategy", "cart", "checkout", "hover", "scroll", "full website"]
+    },
+    "price_tag_design": {
+      "primary_action_label": "Retail price clarity",
+      "action_goal": "Make price, product info, and barcode/SKU readable in a compact tag format",
+      "allowed_terms": ["price", "SKU", "barcode", "tag", "die-cut", "print/export"],
+      "forbidden_terms": ["website sections", "ecommerce checkout", "cart", "CTA Placement", "Conversion Strategy", "hover", "scroll", "full website"]
+    },
+    "hang_tag_design": {
+      "primary_action_label": "Hang tag information hierarchy",
+      "action_goal": "Make brand, product details, price/SKU, and print finishing clear",
+      "allowed_terms": ["brand", "size", "material", "SKU", "barcode", "hole", "front/back", "print/export"],
+      "forbidden_terms": ["website sections", "cart", "checkout", "CTA Placement", "Conversion Strategy", "hover", "scroll", "full website"]
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "task": "Nexora Advisory Figma website template from business consultant PNG reference",
+  "productFamily": "business_consultant",
+  "mode": "website",
+  "referenceSource": "qicons-business-consultant-png",
+  "batchItem": "1 of 3",
+  "routeSource": "brain_design_router",
+  "brandReferenceUsage": {
+    "candidateBrandName": "Nexora Advisory",
+    "referenceUsageMode": "single",
+    "referenceGroupKey": "qicons-business-consultant-png",
+    "referenceIds": ["qicons-business-consultant-png"],
+    "gateStatus": "PASS",
+    "whyAllowedByMemory": "candidate brand is distinct from Qicons and passed reference usage check with only unknown local reference warning"
+  },
+  "styleDNA": {
+    "typographyBehavior": "large confident sans display with compact consulting copy and small proof labels",
+    "layoutRhythm": "airy editorial corporate sections interrupted by proof cards, advisory modules, and a strong dark footer",
+    "spacingDensity": "generous hero and statement areas with denser metrics, service, case, and intake modules",
+    "colorBehavior": "light fog background, white elevated surfaces, deep ink type, and a cyan-blue signal accent",
+    "imageDirection": "consultant, workshop, client meeting, and case-study slots represented as role-specific placeholders",
+    "shapeLanguage": "rounded professional cards, pill actions, thin dividers, and dashboard-like proof surfaces",
+    "effectLanguage": "soft card depth, subtle cyan signal glow, hairline borders, and restrained footer contrast",
+    "premiumSignal": "consulting-specific proof, case evidence, process clarity, and source-ready advisory modules"
+  },
+  "referenceStandard": {
+    "observedSectionCountRange": "reference supports 9-12 meaningful sections including hero, proof, service, case, CTA, logos, and footer",
+    "sectionRoleEvidence": "large corporate hero, image proof, metrics, service cards, transformation statements, CTA clusters, logos, and deep footer are visible",
+    "layoutShapeInventory": "wide headline, image cards, floating metric tiles, statement blocks, card carousel, logo strip, black footer",
+    "colorRoleInventory": "pale blue-gray base, white cards, black text, bright cyan CTA, muted gray copy, dark footer",
+    "effectGradientInventory": "soft card shadows, image masks, cyan action emphasis, and quiet surface depth",
+    "marketplaceCompletenessClues": "needs editable advisory sections, design system, placeholder guidance, cover/overview, organized layers, and source hygiene",
+    "remixPlan": "keep consulting confidence and light editorial rhythm while changing hero grammar, order, media treatment, and component cadence",
+    "minimalistFallbackRejected": true
+  },
+  "designIntentLock": {
+    "productType": "editable business consultant website template",
+    "outputMedium": "Figma website source template",
+    "targetBuyer": "consultants, advisory firms, and marketplace template buyers",
+    "useCase": "premium consulting firm homepage starter",
+    "marketplaceValue": "complete editable consultant template with proof, services, case studies, intake, FAQ, cover preview, and design system",
+    "primaryGoal": "sell a credible consulting website template that feels strategic, structured, and easy to customize"
+  },
+  "visualGrammar": {
+    "gridBehavior": "12-column editorial grid with a command-panel hero, proof ribbon, and alternating full-width bands",
+    "spacingCadence": "large hero breathing room, compact metric rows, medium service modules, and dense intake/footer closure",
+    "typeHierarchy": "oversized display, section headlines, proof labels, advisory body copy, and small system tags",
+    "surfaceDepth": "raised white cards, soft blue-tinted proof panels, dark closeout surface, and subtle glow accents",
+    "colorRoles": "fog background, paper surface, ink text, steel muted text, cyan action, blue proof signal, dark footer, divider",
+    "imageTreatment": "role-specific rounded placeholders with captions, not copied consultant photo strips",
+    "effectLogic": "cyan signal glow marks action and proof; shadows stay soft for editable source quality",
+    "componentRhythm": "metric pills, service cards, process rows, case cards, quote ledger, intake form, FAQ rows, footer columns"
+  },
+  "referenceBoundary": {
+    "allowedToLearn": "consulting confidence, proof density, calm corporate pacing, and cyan action clarity",
+    "forbiddenToCopy": "exact layout, exact color palette or color-role mapping, exact section order, hero grammar, component scaffold, three-image strip, card grouping, and footer composition",
+    "exactLayoutCopied": "no",
+    "exactPaletteCopied": "no",
+    "exactSectionOrderCopied": "no",
+    "heroGrammarCopied": "no",
+    "componentScaffoldCopied": "no"
+  },
+  "colorRoleRemapping": {
+    "referenceDominantColorIdentity": "pale corporate blue with bright cyan buttons",
+    "referenceColorRoles": "light base, black type, cyan CTA, white cards, dark footer",
+    "remappedPaletteDirection": "mist blue, ink navy, electric cyan, soft steel, and advisory graphite closeout",
+    "newAccentIdentity": "cyan signal used for decision points, not every highlight",
+    "preservedEmotionalRole": "clarity, precision, and optimistic corporate momentum",
+    "avoidedExactHues": "exact reference cyan and pale blue mapping avoided",
+    "contrastHierarchyBehavior": "deep ink text on light surfaces with cyan for CTA/proof and black footer closure"
+  },
+  "visualMoodReinterpretation": {
+    "referenceMood": "confident, modern, light, and professional consulting",
+    "reinterpretedMood": "advisory command-room calm with editorial proof and precise decision surfaces",
+    "changedComposition": "asymmetric command hero and proof ribbon replace the reference image strip composition",
+    "changedHierarchy": "advisory system, services, cases, and intake flow drive the page instead of generic transformation statements",
+    "changedAssetTreatment": "consultant imagery becomes labeled replacement zones with different ratios and captions",
+    "changedDepthEffect": "soft signal panels and ledger surfaces replace the original simple card/image rhythm"
+  },
+  "structuralReconfiguration": {
+    "referenceStructurePattern": "headline, image row, proof/statements, service cards, CTA, logos, footer",
+    "newStructurePattern": "command hero, proof ribbon, service matrix, transformation lab, case rail, process spine, quote ledger, insight cards, intake form, FAQ, editorial footer",
+    "heroGrammarChange": "command-panel opening with diagnostic card and CTA bar instead of centered headline plus image strip",
+    "sectionOrderChange": "proof appears as a narrow confidence ribbon before service matrix and case evidence",
+    "gridSystemChange": "mixed matrix, ledger, and spine modules replace repeated centered cards",
+    "ctaFlowChange": "CTA appears as audit request, case consultation, and intake actions with different context",
+    "componentLayoutChange": "diagnostic cards, case rail, process spine, and intake form replace generic cards"
+  },
+  "patternDivergence": {
+    "divergenceFromReference": "new hero grammar, proof ribbon, process spine, intake closeout, and source-system coverage",
+    "divergenceFromPreviousTemplate": "first batch template; baseline fingerprint",
+    "heroDivergence": "advisory command console with diagnostic panel",
+    "sectionRhythmDivergence": "alternates proof, matrix, lab, cases, process, insight, intake, and FAQ",
+    "visualLanguageDivergence": "signal-light consulting system rather than direct cyan image-strip page",
+    "componentCadenceDivergence": "service matrix and process spine avoid repeated three-card cadence"
+  },
+  "sectionLogic": {
+    "sectionList": [
+      "navigation",
+      "advisory command hero",
+      "proof ribbon",
+      "service matrix",
+      "transformation lab",
+      "case-study rail",
+      "operating model spine",
+      "client quote ledger",
+      "insight/resource cards",
+      "consultation intake",
+      "FAQ",
+      "editorial footer"
+    ],
+    "roleOfEachSection": "orientation, first impression, trust, service selection, transformation proof, case evidence, process clarity, social proof, expertise, conversion, objection handling, and closure",
+    "buyerJourneyFlow": "understand credibility, inspect services, trust the process, see proof, request consultation, and adapt source",
+    "fillerSectionsRemoved": "no filler; every section supports consultant buyer confidence or conversion",
+    "productFamilyDepthStandard": "11-section business consultant website template plus design system and preview surfaces"
+  },
+  "marketplaceReadiness": {
+    "sectionDepth": "11 meaningful consulting sections plus per-template design system and cover/overview preview",
+    "premiumSignal": "large type, proof ledgers, source-ready advisory modules, stateful buttons, and refined corporate surfaces",
+    "editability": "auto-layout, named sections, local styles, placeholders, cards, forms, and component specimens are planned",
+    "sourceReadiness": "design system board documents color, type, spacing, buttons, cards, forms, media placeholders, and responsive behavior",
+    "previewValue": "cover and overview will show the actual template, section depth, and editable source promise",
+    "commercialUsefulness": "consulting buyers can replace services, cases, proof, team, insights, and consultation fields quickly",
+    "nonGenericProof": "not Hero > Features > CTA; includes advisory matrix, transformation lab, case rail, process spine, intake, and FAQ"
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,123 @@
+{
+  "patternId": "checkpoint-004-services-robotics-split-proof-feature-rails",
+  "sectionType": "services",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\athlan-ai-agency-technology-website-2025-09-30-18-07-26-utc - Athlan - AI Agency & Technology Website - b3d7bf66.png"
+  ],
+  "productFamilies": [
+    "ai",
+    "robotics",
+    "automation",
+    "technology"
+  ],
+  "commercialPurpose": "Explain AI/robotics benefits through repeated split proof sections and compact capability rails.",
+  "purposeLayer": "Services section translates a futuristic hero into understandable benefits, use cases, and solution blocks.",
+  "anatomyLayer": "Alternating robot/media panels, text blocks, icon cards, small CTA buttons, metric strips, and FAQ-like detail rows.",
+  "hierarchyLayer": "Media proof first, solution headline second, capability cards third, CTA fourth.",
+  "gridRhythmLayer": "Long light page rhythm alternating image-led splits with compact service/card rows.",
+  "densityLimitLayer": "Use section density limit: {\"primaryModules\": \"3-6\", \"grouping\": \"required when more than 4\", \"visualProof\": \"0-1\"}.",
+  "originalityLayer": "Extract section grammar only; do not copy exact artwork, imagery, spacing, copy, color identity, brand marks, or section order.",
+  "usageRuleLayer": "Use when an AI/automation template needs several explanation bands without repeating the same card grid.",
+  "layoutGesture": "robotics benefit rails with alternating media and service cards",
+  "sectionSilhouette": "white multi-section services flow with robot images, text panels, and small orange/yellow feature cards",
+  "compositionTension": "technical credibility is paced through alternating wide media and compact benefit modules",
+  "focalPath": "robot media to solution headline to feature cards to CTA",
+  "negativeSpaceShape": "white channels separate each proof band and keep the long-scroll page breathable",
+  "depthLayering": "flat white base, robot image blocks, soft gray cards, accent icon chips",
+  "moduleScaleVariation": "large robot panels contrast with small feature icons and metric rows",
+  "breakoutBehavior": "robot images can sit outside the strict text-card flow as proof anchors",
+  "contentLimits": {
+    "primaryModules": "3-6",
+    "grouping": "required when more than 4",
+    "visualProof": "0-1"
+  },
+  "antiCopyBoundary": "Do not copy Athlan robot poses, exact orange accent cards, service names, or repeated section order.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "hero",
+      "trust-band"
+    ],
+    "after": [
+      "pricing-packages",
+      "faq-objection",
+      "cta"
+    ],
+    "notAScaffold": true
+  },
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 004 contact sheet",
+    "reviewNotes": "Checkpoint 004 visual inspection produced this incoming candidate; keep as candidate until hyper-accuracy review proves section anatomy and non-copy boundary.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, imagery, colors, decorative motif, card styling, or section order."
+  },
+  "structuralSignature": {
+    "signatureId": "services:215e676abe25d5ca",
+    "hash": "215e676abe25d5ca154fcaa4ece3d68abb22c05f",
+    "axes": {
+      "layoutGesture": "robotics benefit rails with alternating media and service cards",
+      "sectionSilhouette": "white multi-section services flow with robot images, text panels, and small orange/yellow feature cards",
+      "anatomyLayer": "alternating robot/media panels, text blocks, icon cards, small cta buttons, metric strips, and faq-like detail rows.",
+      "hierarchyLayer": "media proof first, solution headline second, capability cards third, cta fourth.",
+      "gridRhythmLayer": "long light page rhythm alternating image-led splits with compact service/card rows.",
+      "focalPath": "robot media to solution headline to feature cards to cta",
+      "compositionTension": "technical credibility is paced through alternating wide media and compact benefit modules",
+      "negativeSpaceShape": "white channels separate each proof band and keep the long-scroll page breathable",
+      "moduleScaleVariation": "large robot panels contrast with small feature icons and metric rows",
+      "breakoutBehavior": "robot images can sit outside the strict text-card flow as proof anchors",
+      "contentLimits": "{\"grouping\":\"required when more than 4\",\"primarymodules\":\"3-6\",\"visualproof\":\"0-1\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.1225,
+  "matchGroupId": "services:215e676abe25d5ca",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T19:16:27Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 2,
+    "bestMatch": {
+      "score": 0.1225,
+      "axisScores": {
+        "layoutGesture": 0.1429,
+        "sectionSilhouette": 0.0909,
+        "anatomyLayer": 0.1071,
+        "hierarchyLayer": 0.1905,
+        "gridRhythmLayer": 0.125,
+        "focalPath": 0.1667,
+        "compositionTension": 0.0526,
+        "negativeSpaceShape": 0.0,
+        "moduleScaleVariation": 0.2,
+        "breakoutBehavior": 0.0952,
+        "contentLimits": 0.1765
+      },
+      "patternId": "checkpoint-002-services-split-image-benefit-panel",
+      "sectionType": "services",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\services\\checkpoint-002-services-split-image-benefit-panel.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

@@ -1,0 +1,76 @@
+{
+  "templateId": "atlashaus-r3-architecture-dossier",
+  "templateName": "AtlasHaus R3 Architecture Design System",
+  "productFamily": "Architecture / interior studio website template",
+  "mode": "marketplace editable Figma website source",
+  "designSystemScope": "per-template",
+  "colorTokens": {
+    "Paper": "#F8F6EF",
+    "Sand Plaster": "#D5B48A",
+    "Limestone": "#DCCBB5",
+    "Blueprint": "#173E5D",
+    "Night Ink": "#07172B",
+    "Clay Edge": "#A75D3A",
+    "Mist Glass": "#B6C6C8"
+  },
+  "typographyTokens": {
+    "display": "Editorial serif authority for studio and project headings",
+    "body": "Sans metadata and annotation copy for ledger rows, brief fields, and process notes"
+  },
+  "spacingTokens": {
+    "sectionPadding": "72px vertical / 80px horizontal source rhythm",
+    "moduleGap": "24-30px architecture bands",
+    "cardGap": "10-18px annotation and component internals"
+  },
+  "layoutGrid": {
+    "sourceWidth": 1440,
+    "contentWidth": 1280,
+    "behavior": "auto-layout sections with blueprint grids, paper sheets, and editable nested modules"
+  },
+  "radiusElevation": {
+    "radius": "paper and material modules use 12-30px controlled radius",
+    "effects": "paper shadow, blueprint glow, material crop depth, ledger line, dark publication wall"
+  },
+  "components": [
+    "project card",
+    "material swatch",
+    "spec row",
+    "process step",
+    "publication card",
+    "inquiry form",
+    "project index rail",
+    "portfolio ledger row",
+    "brief form field"
+  ],
+  "states": [
+    "default",
+    "featured",
+    "selected",
+    "substitute-note",
+    "active",
+    "completed",
+    "brief-ready"
+  ],
+  "sourceHygiene": {
+    "autoLayout": "major sections, ledgers, rows, forms, CTAs, and design-system panels use auto-layout",
+    "images": "source imagery uses architecture-specific text clue placeholders, not generated final imagery",
+    "scaffoldPolicy": "commerce side rail/product/cart logic is explicitly disposed before AtlasHaus"
+  },
+  "artifactEvidence": {
+    "designSystemPageId": "40:536",
+    "screenshotPath": ".design-brain/screenshots/20260531-atlashaus-r3-design-system.png",
+    "componentInventory": [
+      "Binder Cover / source rules index",
+      "Material Palette Wall / not swatch cards",
+      "Blueprint Layout Grammar / source structure",
+      "Component Ledger / states as rows",
+      "Effect + Source Hygiene / R3 receipt"
+    ]
+  },
+  "missingItems": [],
+  "status": "PASS",
+  "evidence": [
+    "Expanded design system was rebuilt as a distinct architecture binder/spec-sheet rather than a sibling token board.",
+    "Source screenshot inspected after R3 revision."
+  ]
+}

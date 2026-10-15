@@ -1,0 +1,34 @@
+{
+  "finalStatus": "READY",
+  "completedAt": "2026-06-01T16:25:00+07:00",
+  "figmaFileKey": "g9wgvuj75v4ooL37ZZnz8N",
+  "figmaUrl": "https://www.figma.com/design/g9wgvuj75v4ooL37ZZnz8N",
+  "expectedTemplateCount": 3,
+  "templates": [
+    {
+      "templateId": "northline-advisory",
+      "name": "Northline Advisory",
+      "sourceFrameId": "2:24",
+      "designSystemFrameId": "2:200",
+      "status": "READY"
+    },
+    {
+      "templateId": "solenne-living",
+      "name": "Solenne Living",
+      "sourceFrameId": "2:267",
+      "designSystemFrameId": "2:438",
+      "status": "READY"
+    },
+    {
+      "templateId": "kinetiq-sole",
+      "name": "Kinetiq Sole",
+      "sourceFrameId": "2:505",
+      "designSystemFrameId": "2:736",
+      "status": "READY"
+    }
+  ],
+  "autoLayoutReceipt": "Major page stacks, sections, nav, rows, cards, forms, product modules, and design-system boards use Figma auto-layout. Collapsed section heights were repaired and re-screenshotted.",
+  "placeholderReceipt": "All image and profile zones use image placeholder: [purpose] or profile photo placeholder: [role].",
+  "designSystemReceipt": "Each template has its own physically separate design-system board with tokens, states, components, placeholder rules, and source hygiene notes.",
+  "visualVerification": "Final Figma screenshots were downloaded and inspected after repair."
+}

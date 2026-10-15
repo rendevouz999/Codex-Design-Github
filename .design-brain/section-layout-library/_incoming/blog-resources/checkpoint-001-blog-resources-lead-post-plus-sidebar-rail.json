@@ -1,0 +1,112 @@
+{
+  "patternId": "checkpoint-001-blog-resources-lead-post-plus-sidebar-rail",
+  "sectionType": "blog-resources",
+  "commercialPurpose": "Let editorial/CMS buyers show a premium long-form feed while keeping monetization, author trust, and discovery tools visible.",
+  "purposeLayer": "The section turns a homepage into an editorial browsing system with persistent utility and proof context.",
+  "anatomyLayer": "Large lead article, excerpt body, metadata, read-more/share row, right sidebar with author bio, newsletter, Instagram grid, tags, categories, ads, latest posts.",
+  "hierarchyLayer": "Lead article first, sidebar trust/discovery second, repeated feed modules third.",
+  "gridRhythmLayer": "Two-column content/sidebar frame with a wider editorial column and narrow stacked utility rail.",
+  "densityLimitLayer": "Use one lead post, 3-8 sidebar widgets grouped by role, and repeated article modules with clear rhythm.",
+  "originalityLayer": "Learn content plus persistent utility rail; adapt widgets to product-specific proof rather than copying blog widget order.",
+  "usageRuleLayer": "Use for blogs, magazines, resource hubs, thought-leadership sites, case-study centers, and education content hubs.",
+  "layoutGesture": "lead editorial post with persistent discovery sidebar",
+  "sectionSilhouette": "wide content column paired with narrow stacked widget rail",
+  "compositionTension": "long reading flow balanced by compact commercial and trust widgets",
+  "focalPath": "lead image to article title to excerpt to sidebar author/newsletter widgets",
+  "negativeSpaceShape": "vertical reading lane separated from tight sidebar stacks",
+  "depthLayering": "flat content plane with boxed sidebar modules and image/ad cards",
+  "moduleScaleVariation": "large post media contrasted with small stacked widgets",
+  "breakoutBehavior": "sidebar persists while content modules change media format",
+  "contentLimits": {
+    "featuredItems": "1",
+    "visibleItems": "3-8",
+    "sidebarWidgets": "3-8",
+    "ads": "0-2"
+  },
+  "antiCopyBoundary": "Do not copy the exact right-sidebar widget sequence, image thumbnails, author portrait, ad creative, or gold accents.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "hero",
+      "navigation"
+    ],
+    "after": [
+      "footer",
+      "cta"
+    ],
+    "notAScaffold": true
+  },
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\01_Home_1.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\02_Home_2.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\03_Home_3.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\04_Home_4.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\05_Home_5.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\06_Home_6.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\07_Home_7.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\08_Home_8.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\09_Image_Post.jpg",
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\10_Slider_Post.jpg"
+  ],
+  "productFamilies": [
+    "editorial-blog",
+    "lifestyle",
+    "website"
+  ],
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 001",
+    "reviewNotes": "Checkpoint learning is visually inspected but not yet promoted to stable PASS; keep as incoming review vocabulary.",
+    "nonCopyBoundary": "Do not copy the Pallas-style script logo, muted gold CTA treatment, right-sidebar widget order, image set, or exact editorial spacing."
+  },
+  "structuralSignature": {
+    "signatureId": "blog-resources:fe633cf26881408f",
+    "hash": "fe633cf26881408f59cc10401753e2495edb0af4",
+    "axes": {
+      "layoutGesture": "lead editorial post with persistent discovery sidebar",
+      "sectionSilhouette": "wide content column paired with narrow stacked widget rail",
+      "anatomyLayer": "large lead article, excerpt body, metadata, read-more/share row, right sidebar with author bio, newsletter, instagram grid, tags, categories, ads, latest posts.",
+      "hierarchyLayer": "lead article first, sidebar trust/discovery second, repeated feed modules third.",
+      "gridRhythmLayer": "two-column content/sidebar frame with a wider editorial column and narrow stacked utility rail.",
+      "focalPath": "lead image to article title to excerpt to sidebar author/newsletter widgets",
+      "compositionTension": "long reading flow balanced by compact commercial and trust widgets",
+      "negativeSpaceShape": "vertical reading lane separated from tight sidebar stacks",
+      "moduleScaleVariation": "large post media contrasted with small stacked widgets",
+      "breakoutBehavior": "sidebar persists while content modules change media format",
+      "contentLimits": "{\"ads\":\"0-2\",\"featureditems\":\"1\",\"sidebarwidgets\":\"3-8\",\"visibleitems\":\"3-8\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.0,
+  "matchGroupId": "blog-resources:fe633cf26881408f",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:44:59Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 0,
+    "bestMatch": null,
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

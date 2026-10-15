@@ -1,0 +1,123 @@
+{
+  "confidence": "medium",
+  "qualityStatus": "REVIEW_REQUIRED",
+  "hyperAccuracyReceipt": {
+    "status": "REVIEW_REQUIRED",
+    "reviewedAt": "2026-06-02",
+    "evidenceType": "visual inspection checkpoint 003",
+    "reviewNotes": "Checkpoint 003 is visually inspected learning evidence; keep incoming until hyper-accuracy review and matching rationale pass.",
+    "nonCopyBoundary": "Do not copy exact source visuals, brand names, color identity, imagery, icon systems, decorative geometry, or section order."
+  },
+  "patternId": "checkpoint-003-hero-finance-dark-orbit-image-stage",
+  "sectionType": "hero",
+  "sourceRefs": [
+    "C:\\Users\\Admin\\Desktop\\Codex-Design\\Template Website\\a-business-financial-advisor-landing-page-2024-06-07-17-08-56-utc - Visionary - A Business Financial Advisor Landing Page Im - 5b5dd026.png"
+  ],
+  "productFamilies": [
+    "finance",
+    "consulting",
+    "business",
+    "website"
+  ],
+  "commercialPurpose": "Open a finance/advisor website with authority, premium darkness, and a central operational proof image.",
+  "purposeLayer": "Hero sells expert guidance with a dark premium stage, centered promise, CTA, and finance activity image proof.",
+  "anatomyLayer": "Dark nav, badge/eyebrow, split-color headline, short support copy, primary CTA, large rounded finance photo, decorative blue orbit arcs, brand/service chips.",
+  "hierarchyLayer": "Headline first, CTA second, finance proof image third, chips/orbit motif fourth.",
+  "gridRhythmLayer": "Centered top promise over large image stage, followed by horizontal service chips inside dark canvas.",
+  "densityLimitLayer": "Use one primary message, 1 CTA, 1 proof image, 3-5 trust/service chips, and 1 decorative system.",
+  "originalityLayer": "Learn premium finance authority staging; do not copy exact Visionary text, blue arcs, photo, or logo chips.",
+  "usageRuleLayer": "Use for finance, consulting, advisory, B2B services, and premium professional landing pages.",
+  "layoutGesture": "dark financial authority hero with central proof image and orbit accents",
+  "sectionSilhouette": "dark full-page hero with centered headline above rounded image slab",
+  "compositionTension": "corporate authority balanced by energetic electric-blue decorative arcs",
+  "focalPath": "badge to headline to CTA to finance image to service chips",
+  "negativeSpaceShape": "dark negative space wrapping a bright central image rectangle",
+  "depthLayering": "dark canvas, glowing accents, foreground image slab, floating chip modules",
+  "moduleScaleVariation": "large hero image with small chips and CTA",
+  "breakoutBehavior": "decorative orbit arcs break beyond page edges",
+  "contentLimits": {
+    "primaryMessage": 1,
+    "cta": "1",
+    "proofCue": "3-5 chips",
+    "mediaSystem": 1
+  },
+  "antiCopyBoundary": "Do not copy exact blue orbit arcs, finance photo, brand name, chip labels, or dark gradient values.",
+  "compatibleBeforeAfter": {
+    "before": [
+      "navigation"
+    ],
+    "after": [
+      "services",
+      "features",
+      "trust-band"
+    ],
+    "notAScaffold": true
+  },
+  "structuralSignature": {
+    "signatureId": "hero:7d7c296361eea4b3",
+    "hash": "7d7c296361eea4b3aae725c226f9a52023e7ad7c",
+    "axes": {
+      "layoutGesture": "dark financial authority hero with central proof image and orbit accents",
+      "sectionSilhouette": "dark full-page hero with centered headline above rounded image slab",
+      "anatomyLayer": "dark nav, badge/eyebrow, split-color headline, short support copy, primary cta, large rounded finance photo, decorative blue orbit arcs, brand/service chips.",
+      "hierarchyLayer": "headline first, cta second, finance proof image third, chips/orbit motif fourth.",
+      "gridRhythmLayer": "centered top promise over large image stage, followed by horizontal service chips inside dark canvas.",
+      "focalPath": "badge to headline to cta to finance image to service chips",
+      "compositionTension": "corporate authority balanced by energetic electric-blue decorative arcs",
+      "negativeSpaceShape": "dark negative space wrapping a bright central image rectangle",
+      "moduleScaleVariation": "large hero image with small chips and cta",
+      "breakoutBehavior": "decorative orbit arcs break beyond page edges",
+      "contentLimits": "{\"cta\":\"1\",\"mediasystem\":1,\"primarymessage\":1,\"proofcue\":\"3-5 chips\"}"
+    }
+  },
+  "matchStatus": "NEW_PATTERN",
+  "matchScore": 0.1943,
+  "matchGroupId": "hero:7d7c296361eea4b3",
+  "duplicateOf": null,
+  "variantOf": null,
+  "matchingEvidence": {
+    "mode": "exploratory",
+    "matchedAt": "2026-06-01T18:55:20Z",
+    "matchingAxes": [
+      "layoutGesture",
+      "sectionSilhouette",
+      "anatomyLayer",
+      "hierarchyLayer",
+      "gridRhythmLayer",
+      "focalPath",
+      "compositionTension",
+      "negativeSpaceShape",
+      "moduleScaleVariation",
+      "breakoutBehavior",
+      "contentLimits"
+    ],
+    "thresholds": {
+      "DUPLICATE": 0.9,
+      "NEAR_DUPLICATE": 0.78,
+      "VARIANT": 0.55
+    },
+    "sameSectionCompared": 2,
+    "bestMatch": {
+      "score": 0.1943,
+      "axisScores": {
+        "layoutGesture": 0.1176,
+        "sectionSilhouette": 0.4286,
+        "anatomyLayer": 0.0833,
+        "hierarchyLayer": 0.2632,
+        "gridRhythmLayer": 0.1481,
+        "focalPath": 0.1538,
+        "compositionTension": 0.0,
+        "negativeSpaceShape": 0.125,
+        "moduleScaleVariation": 0.3636,
+        "breakoutBehavior": 0.0,
+        "contentLimits": 0.4545
+      },
+      "patternId": "checkpoint-002-hero-startup-dark-centered-dual-cta-masthead",
+      "sectionType": "hero",
+      "source": "incoming",
+      "path": "C:\\Users\\Admin\\Desktop\\Codex-Design\\.design-brain\\section-layout-library\\_incoming\\hero\\checkpoint-002-hero-startup-dark-centered-dual-cta-masthead.json"
+    },
+    "relatedSectionWarnings": []
+  },
+  "dedupeDecision": "ALLOW_INCOMING: new structural vocabulary candidate; hyper-accuracy review still required."
+}

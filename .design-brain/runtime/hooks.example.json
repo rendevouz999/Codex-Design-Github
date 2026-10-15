@@ -1,0 +1,16 @@
+{
+  "before_final": [
+    "verify_build_session",
+    "verify_completion_receipt",
+    "verify_open_tickets_zero",
+    "verify_post_build_pass",
+    "verify_web_deck_audit_pass",
+    "verify_web_deck_render_review_pass"
+  ],
+  "before_export": [
+    "run_package_integrity",
+    "verify_no_forbidden_sources",
+    "verify_zip_hygiene",
+    "verify_web_deck_self_contained"
+  ]
+}
