@@ -1,6 +1,6 @@
 # Presentation Design Template Guide — Owner Standard (Codex-Design)
 
-Versi / Version: 1.0 — 2026-10-14. Pemilik / Owner: Yusuf Muhamad Iqbal (Joe). Status: **mode kalibrasi** (PPTX saja) sampai owner mengatakan persis `kita mulai jalur produksi`.
+Versi / Version: 1.1 — 2026-10-21 (metadata listing addendum; standar desain 2026-10-14 tetap). Pemilik / Owner: Yusuf Muhamad Iqbal (Joe). Status: **mode kalibrasi** (dua PPTX + CSV/JSON metadata; tanpa paket produksi) sampai owner mengatakan persis `kita mulai jalur produksi`.
 
 ID — Dokumen ini adalah panduan tunggal untuk AI (Main + satu Engineer) yang membuat *presentation design template* PPTX dengan plugin `<CODEX_DESIGN_WORKSPACE>` mengikuti cara kerja owner. Ia mengkhususkan, bukan menggantikan, `AGENTS.md` dan skill `skills/presentation-deck`. Jika guide ini dan file plugin bertentangan pada gate, file plugin menang; pada selera desain dan konstruksi file, standar owner di guide ini menang.
 EN — This is the single guide for an AI (Main plus one Engineer) building PPTX presentation design templates with the `<CODEX_DESIGN_WORKSPACE>` plugin the owner's way. It specialises `AGENTS.md` and the `skills/presentation-deck` skill; it does not replace them. On gates the plugin files win; on design taste and file construction the owner standard in this guide wins.
@@ -39,8 +39,8 @@ Setiap prompt ke Engineer wajib memuat / Every Engineer prompt must state:
 
 ## 2. Mode kalibrasi dan deliverable / Calibration mode and deliverables
 
-ID — Sampai owner mengatakan persis `kita mulai jalur produksi`: hasil kerja adalah **PPTX saja**, dua file: (a) `<Nama>_<N>_Slides_v<k>.pptx` berisi foto sumber yang sudah disetujui Main, (b) `<Nama>_<N>_Slides_v<k>_placeholders.pptx` salinan tanpa foto sehingga placeholder menampilkan pola (meniru `Presentation.pptx` dan `PPTX/Presentation.pptx` milik owner). Tidak ada zip, START_HERE, Editing Guide, Design System kit, preview kit. Bukti internal plugin (receipt, manifest, render, pengukuran) tetap wajib dibuat karena gate memerlukannya; ia tinggal di folder proyek, bukan dikemas.
-EN — Until the owner says exactly `kita mulai jalur produksi`: deliver the PPTX only, as two files: (a) the deck with Main-approved sourced photos, (b) a photo-less copy whose placeholders show the pattern. No package. Internal plugin evidence is still produced because the gates need it; it stays in the project folder.
+ID — Sampai owner mengatakan persis `kita mulai jalur produksi`: hasil utama tetap **dua PPTX**: (a) `<Nama>_<N>_Slides_v<k>.pptx` berisi foto sumber yang sudah disetujui Main, (b) `<Nama>_<N>_Slides_v<k>_placeholders.pptx` salinan tanpa foto sehingga placeholder menampilkan pola. **Pengecualian deliverable wajib:** setelah kedua PPTX final lolos gate, buat **dua file metadata listing terpisah** di `<P>/exports/`: `product-metadata.csv` untuk review manual dan `product-metadata.json` untuk otomatisasi, mengikuti bagian 6.16. Jadi total deliverable mode kalibrasi adalah dua PPTX + dua metadata, tanpa zip, START_HERE, Editing Guide, Design System kit, atau preview kit. Bukti internal plugin (receipt, manifest, render, pengukuran) tetap wajib dibuat; tetap di folder proyek dan tidak dikemas.
+EN — Until the owner says exactly `kita mulai jalur produksi`, keep the two PPTX deliverables (photo-filled and patterned placeholders). After both final decks pass their gates, additionally deliver two separate listing metadata files in `<P>/exports/`: `product-metadata.csv` (manual review) and `product-metadata.json` (automation), per section 6.16. Calibration therefore delivers two PPTX plus two metadata files, but no production package or preview kit. Internal gate evidence stays in the project folder.
 
 ID — Koreksi owner: selesaikan dengan solusi nyata terbaik. Jangan mundur ke baseline aman, jangan menyederhanakan atau meminimaliskan desain sebagai jalan keluar. Catat setiap koreksi lewat `scripts/design_brain_reflect.py`.
 EN — Owner corrections get the best real solution; never a safe baseline, never deliberate minimalism. Record each correction with `scripts/design_brain_reflect.py`.
@@ -133,7 +133,19 @@ Flat: nol gradien, nol bayangan, nol glow. Jangan memakai pasangan lime `#B9F15A
 5. Bukti angka hampir di setiap slide: label 6 pt kapital → angka 24–45 pt → keterangan 9 pt; baris stat di atas hairline.
 6. Ritme gelap: cover dan closing gelap (`p:bg` level slide), plus 1–2 band/panel gelap di tengah.
 7. Komponen: kartu membulat, pill (ink / signal / outline / tint), tile KPI, progress bar, node ikon lingkaran 48 unit, panah alur, tabel dengan header band ink 40 unit.
-8. Copy pendek dan spesifik: intro satu kalimat, tag 1–2 kata, bullet 3–6 kata, angka konkret; tahun fiktif ke depan untuk contoh.
+8. Copy pendek dan spesifik: intro satu kalimat, tag 1–2 kata, bullet 3–6 kata, angka konkret; tahun contoh 2046+ sesuai bagian 4.4.1.
+
+### 4.4.1 Tanggal dan tahun konten / Example content dates
+
+Aturan owner, dikonfirmasi 2026-10-17. Untuk konten contoh/fiktif yang dibuat AI dalam template presentasi, **tahun paling awal adalah 2046**. Gunakan 2046, 2047, 2048, dan seterusnya sesuai kebutuhan narasi; jangan mengambil tahun kalender saat ini sebagai default konten contoh.
+
+- Berlaku pada tahun/tanggal contoh di cover, header/footer, timeline, roadmap, milestone, jadwal, periode laporan, label chart, tabel dan catatan presentasi. Contoh: `Q1 2046`, `15 March 2046`, `2046–2048`. Tidak setiap slide harus memuat tanggal.
+- Tetapkan satu acuan waktu deck dan pertahankan kronologi yang masuk akal. Tanggal mulai tidak boleh sesudah selesai; periode, kuartal, label dan ringkasan harus selaras. Jika hari dalam minggu ditampilkan, cocokkan dengan tanggal sebenarnya; format tanggal dan zona waktu harus konsisten bila dicantumkan.
+- Tahun minimum ini berlaku untuk data contoh buatan. Tanggal faktual/historis dari sumber, dokumen pengguna, atau instruksi tanggal eksplisit tidak boleh diubah diam-diam agar memenuhi 2046. Pertahankan fakta; jika pengguna meminta pengubahan menjadi skenario contoh, tandai sebagai ilustrasi dan selaraskan seluruh dependensinya.
+- Jangan menerapkan tahun 2046 pada timestamp sistem, log, audit, provenance, tanggal file atau catatan pengerjaan: semuanya tetap memakai waktu kejadian yang sebenarnya.
+- Sebelum penyerahan, periksa konten tanggal yang dihasilkan, termasuk notes dan teks tersembunyi yang ikut dikirim. Pastikan setiap tahun contoh >= 2046 dan tidak ada periode yang saling bertentangan. Aturan ini tidak mengubah peta line spacing bagian 4.2.
+
+EN — AI-authored fictional/example dates in presentation content start in **2046 or later**. Keep one coherent timeline across the deck. Preserve factual/source dates and explicit user dates; do not falsify evidence or system timestamps. Clearly distinguish illustrative data from facts. Keep the confirmed typography role spacing unchanged.
 
 ### 4.5 Foto / Photos
 
@@ -469,7 +481,26 @@ python scripts/design_brain_build_record.py --template-name "<Nama>" --template-
 python scripts/design_brain_reflect.py --task "…" --feedback "…" --went-wrong "…" --lesson "…" --rule "…"   # setiap koreksi owner
 ```
 
-Laporan akhir ke owner (singkat, Indonesia): path dua PPTX + SHA-256; Templates built; Design systems built; Audit Pass 1 (originalitas), 2 (design system/source hygiene), 3 (visual/layout QA); Batch similarity (N/A untuk satu template); Repair cycles; Remaining issues; Visual verification (render native, pengukuran); Final status READY / READY_WITH_LIMITATIONS / REVISE_REQUIRED / BLOCKED. Tidak ada paket, tidak ada guide, tidak ada preview kit.
+Laporan akhir ke owner (singkat, Indonesia): path dua PPTX + SHA-256; path `product-metadata.csv` dan `product-metadata.json` + hasil pemeriksaan kesamaan keduanya (6.16); Templates built; Design systems built; Audit Pass 1 (originalitas), 2 (design system/source hygiene), 3 (visual/layout QA); Batch similarity (N/A untuk satu template); Repair cycles; Remaining issues; Visual verification (render native, pengukuran); Final status READY / READY_WITH_LIMITATIONS / REVISE_REQUIRED / BLOCKED. Tidak ada paket, tidak ada guide, tidak ada preview kit.
+
+### 6.16 Metadata listing produk / Product listing metadata — WAJIB DI KEDUA MODE
+
+ID — Setelah **dua PPTX final** lolos gate, Main membuat **tepat dua file metadata terpisah dari PPTX** pada `<P>/exports/`: `product-metadata.csv` (review manusia) dan `product-metadata.json` (otomatisasi). Berlaku **baik mode kalibrasi maupun produksi**, tanpa perlu frasa aktivasi produksi. Ini metadata **listing marketplace**, bukan metadata teknis internal PowerPoint; tidak disisipkan ke PPTX.
+EN — After both final PPTX pass their gates, Main must produce exactly two separate marketplace-listing metadata files in `<P>/exports/`, for manual review (CSV) and automation (JSON). This obligation applies in calibration and production alike; it does not activate packaging or modify internal PPTX document properties.
+
+Kontrak data / Data contract (satu produk = satu record):
+1. `title` — judul produk yang natural, deskriptif, unik secara wajar, dan SEO-friendly; dasarkan pada niche, tampilan, isi, dan kegunaan deck final, bukan hanya nama file. Hindari keyword stuffing, klaim palsu, atau nama brand buatan yang tidak terdapat pada desain.
+2. `description` — deskripsi listing orisinal, informatif, dan ringkas; jelaskan manfaat, gaya visual, jumlah slide, format/editabilitas dan fitur **hanya bila dibuktikan pada PPTX final**. Jangan menjanjikan format lain, lisensi aset, atau fitur yang belum ada.
+3. `category` — **satu kategori marketplace yang valid** sesuai marketplace tujuan pada intake #2; jangan mengarang taksonomi resmi atau memakai kategori generik bila kategori aktual belum diketahui.
+4. `tags` — **tepat 15 keyword/tag** yang relevan dengan subjek, gaya visual, niche, kegunaan, dan tipe aset; unik (case-insensitive), tidak repetitif, tidak berisi klaim/brand tidak relevan, disusun menurut prioritas penelusuran.
+
+Format wajib / Required serialization:
+- **CSV:** UTF-8; header **`title,description,category,tags`**, diikuti **tepat satu record produk**. Kolom `tags` berisi **15 tag dipisahkan koma dalam satu sel CSV** dengan quoting/escaping CSV standar; setiap tag tidak boleh mengandung koma internal agar parsing tidak ambigu. Tanda koma, kutipan, dan newline pada description juga harus di-escape sesuai CSV.
+- **JSON:** UTF-8, **satu objek valid** dengan kunci tepat `title`, `description`, `category`, `tags`; `tags` adalah **array berisi tepat 15 string**. Nilai ketiga field lain adalah string (bukan `null`).
+- **Satu sumber data:** susun record listing satu kali dari PPTX final, lalu serialisasi ke kedua format. Setelah parsing CSV, pisahkan kolom `tags` pada koma; bandingkan ke array JSON secara berurutan beserta `title`, `description`, `category`. Harus **identik**; jangan sekadar membandingkan tampilan teks/byte.
+- **Review/revisi:** revisi pada CSV harus diikuti regenerasi JSON (atau sebaliknya) dari record yang telah disetujui. Jangan kirim versi yang tidak sinkron. Pastikan encoding/parsing valid, 4 field lengkap, 15 tag unik, dan tidak ada placeholder/dummy claim.
+- **Source dan blocker:** Main membaca/menilai **PPTX hasil final** (bukan metadata `core.xml`, draft, atau referensi). Bila kategori marketplace belum dapat dipastikan, selesaikan intake/klasifikasi yang kurang dahulu; jangan membuat file seolah final dengan kategori tebakan. Jika validasi gagal, status deliverable **REVISE_REQUIRED**, bukan READY.
+- **Handoff:** kedua file harus benar-benar ada dan terbaca di `exports/`, disebutkan bersama path dua PPTX pada laporan 6.15. Tidak ada upload/publish otomatis; tidak ada ZIP/paket produksi dalam kalibrasi.
 
 ---
 
@@ -483,7 +514,7 @@ EN — Active only after the owner says exactly `kita mulai jalur produksi`. Ste
 3. Versi jual tanpa foto (6.14) → `PPTX/Presentation.pptx`; salinan sama untuk `GSL/` (impor Google Slides oleh pembeli).
 4. Keynote: impor PPTX versi jual di Keynote (owner memakai Keynote 15.3.1) → `KEYNOTE/Presentation.key`.
 5. Preview marketplace: Photoshop, `Preview 1.jpg` 4500 × 3000 @300 dpi (mosaik 9 slide + badge format), `Preview 2.jpg` 1370 × 913 (mosaik 16 slide); satu komposisi dipakai untuk tiga varian.
-6. Teks listing: `deskripsi dan tag.txt` (deskripsi + 15 tag), `Read Me.txt` (fitur + font + link Google Fonts), `Help File Presentation.pdf` (panduan generik; perbarui daftar font agar sesuai deck).
+6. Metadata listing **wajib** dibuat melalui bagian 6.16 sebagai dua file terpisah `product-metadata.csv` + `product-metadata.json` (title, description, category, tepat 15 tags), juga dalam mode kalibrasi. Saat jalur produksi aktif, `deskripsi dan tag.txt` dapat dibuat sebagai turunan legacy dari metadata yang sama (bukan sumber kebenaran berbeda), disertai `Read Me.txt` (fitur + font + link Google Fonts) dan `Help File Presentation.pdf` (panduan generik; perbarui font agar sesuai deck).
 7. Struktur paket: `PPTX/`, `KEYNOTE/`, `GSL/`, `JPG/`, `Referensi/` (internal, tidak dijual).
 8. Alat konversi buatan owner: **placeholder — sebagian langkah konversi dikerjakan alat owner, bukan AI** (jawaban owner 2026-10-14).
 
@@ -502,9 +533,11 @@ EN — Active only after the owner says exactly `kita mulai jalur produksi`. Ste
 - [ ] Manifest inspeksi visual: semua frame, review engineer + main, `main_approval` accept.
 - [ ] Originalitas: extract/compare/verify + putusan Main; 0 identik.
 - [ ] Design-system receipt PASS; post-build receipt; gate penutup semua READY; post-build audit strict PASS.
-- [ ] Dua PPTX di `exports/` (dengan foto; tanpa foto) + SHA-256; tidak ada paket.
+- [ ] Dua PPTX final di `exports/` (dengan foto; tanpa foto) + SHA-256; tidak ada paket.
+- [ ] Dua metadata listing di `exports/`: `product-metadata.csv` (header + satu record) dan `product-metadata.json` (objek valid), masing-masing punya `title`, `description`, `category`, dan **tepat 15 tags**; dibuat sesudah finalisasi kedua PPTX (6.16).
+- [ ] CSV/JSON berhasil dibaca ulang, 4 field dan urutan 15 tags **identik**, tanpa duplikat/klaim tidak terbukti; kategori sesuai marketplace. Jika gagal, status **REVISE_REQUIRED**.
 - [ ] Memori bersama diperbarui (task, pilot, full, layout_case); build record; reflection untuk setiap koreksi.
-- [ ] Laporan akhir sesuai 6.15.
+- [ ] Laporan akhir sesuai 6.15 mencantumkan kedua PPTX dan kedua metadata berikut status validasinya.
 
 ---
 

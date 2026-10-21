@@ -7,6 +7,9 @@ Opening its PNGs and supplying honest observations remain host-agent duties.
 from __future__ import annotations
 
 import argparse
+import copy
+import posixpath
+from urllib.parse import unquote
 import hashlib
 import json
 import math
@@ -114,10 +117,140 @@ def coverage(artifact, inventory):
     return result
 
 
+
+def frame_dependency_digest(artifact, frame_id, cache=None):
+    """Package-specific dependency set, with per-operation cache and conservative fallbacks."""
+    if Path(artifact).suffix.lower() != ".pptx":
+        return None
+    match = re.fullmatch(r"slide-(\d+)", frame_id)
+    need(match is not None, "PPTX frame identity must be presentation ordinal")
+    number = int(match.group(1))
+    archive = Path(artifact).resolve()
+    with ZipFile(archive) as package:
+        names = package.namelist()
+        need(len(names) == len(set(names)), "Duplicate PPTX part prevents reuse")
+        if "ppt/presentation.xml" not in names or "ppt/_rels/presentation.xml.rels" not in names:
+            return None
+        presentation = ElementTree.fromstring(package.read("ppt/presentation.xml"))
+        ns = "{http://schemas.openxmlformats.org/presentationml/2006/main}"
+        rn = "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id"
+        ids = presentation.find(ns+"sldIdLst")
+        if ids is None: return None
+        slides = list(ids)
+        if not 1<=number<=len(slides): return None
+        relationship_root = ElementTree.fromstring(package.read("ppt/_rels/presentation.xml.rels"))
+        mapping={r.get("Id"):r for r in relationship_root if r.get("TargetMode")!="External"}
+        slide_targets=[]
+        for slide in slides:
+            relation=mapping.get(slide.get(rn))
+            if relation is None or not relation.get("Target"): return None
+            target=posixpath.normpath(posixpath.join("ppt",unquote(relation.get("Target", "")).split("#",1)[0]))
+            if not re.fullmatch(r"ppt/slides/slide\d+\.xml",target) or target not in names: return None
+            slide_targets.append(target)
+        chosen=slide_targets[number-1]
+        notes_owner={}
+        for owner in slide_targets:
+            rels=posixpath.join("ppt/slides/_rels",posixpath.basename(owner)+".rels")
+            if rels not in names: continue
+            root=ElementTree.fromstring(package.read(rels))
+            for relation in root:
+                if relation.get("TargetMode")=="External": return None
+                if relation.get("Type","").endswith("/notesSlide"):
+                    dest=posixpath.normpath(posixpath.join("ppt/slides",unquote(relation.get("Target","")).split("#",1)[0]))
+                    if dest in notes_owner and notes_owner[dest]!=owner: return None
+                    notes_owner[dest]=owner
+        excluded=set()
+        for owner in slide_targets:
+            if owner!=chosen:
+                excluded.add(owner)
+                excluded.add("ppt/slides/_rels/"+posixpath.basename(owner)+".rels")
+        for note,owner in notes_owner.items():
+            if owner!=chosen:
+                excluded.add(note)
+                excluded.add(posixpath.join(posixpath.dirname(note),"_rels",posixpath.basename(note)+".rels"))
+        # Explicitly validate reverse relationships. A notes->owning-slide backlink is
+        # not a cross-slide dependency; every other cross-slide link disables reuse.
+        for name in names:
+            if not name.endswith(".rels"): continue
+            relations=ElementTree.fromstring(package.read(name))
+            parent=posixpath.dirname(posixpath.dirname(name))
+            parent_part=posixpath.join(parent,posixpath.basename(name)[:-5])
+            for relation in relations:
+                if relation.get("TargetMode")=="External":return None
+                dest=posixpath.normpath(posixpath.join(parent,unquote(relation.get("Target","")).split("#",1)[0]))
+                if dest.startswith("ppt/slides/") and dest.endswith(".xml"):
+                    if name=="ppt/_rels/presentation.xml.rels": continue
+                    if parent_part in notes_owner and dest==notes_owner[parent_part]:continue
+                    if dest in slide_targets: return None
+        parts=(cache.setdefault((str(archive),"parts"),{}) if cache is not None else {})
+        hashes=[]
+        for name in sorted(names):
+            if name in excluded:continue
+            if name not in parts:
+                part=hashlib.sha256()
+                with package.open(name) as stream:
+                    for chunk in iter(lambda:stream.read(1024*1024),b""):
+                        part.update(chunk)
+                parts[name]=part.hexdigest()
+            hashes.append([name,parts[name]])
+        return digest(hashes)
+
+
+
+def reusable_frame(previous, target, frame_id):
+    old = next(f for f in previous['frames'] if f['id'] == frame_id)
+    new = next(f for f in target['frames'] if f['id'] == frame_id)
+    old_context, new_context = previous.get('review_context'), target.get('review_context')
+    need(old_context and new_context, 'Explicit review-context evidence required for reuse')
+    current(old_context); current(new_context)
+    need(old_context['sha256'] == new_context['sha256'], 'Review context changed')
+    need(old.get('dependency_sha256') and old['dependency_sha256'] == new.get('dependency_sha256'), 'Frame dependencies changed or unknown')
+    need(old['source']['sha256'] == new['source']['sha256'], 'Rendered frame changed')
+    need(old['render_binding']['method'] == new['render_binding']['method'], 'Renderer provenance changed')
+    need([{k: v for k, v in view.items() if k != 'file'} | {'file_sha256': view['file']['sha256']} for view in old['views']] ==
+         [{k: v for k, v in view.items() if k != 'file'} | {'file_sha256': view['file']['sha256']} for view in new['views']], 'View geometry or pixels changed')
+    return old, new
+
+
+def reuse_reviews(previous, manifest):
+    """Carry truthful unchanged observations, never final deck approval."""
+    origin_ref = file_ref(previous)
+    old = load(previous)
+    checked = verify_manifest(previous, expected_artifact=old['artifact'])
+    need(checked['status'] == 'PASS', 'Previous inspection is not current and accepted')
+    new = load(manifest); validate_evidence(new, require_coverage=True)
+    new['__loaded_file_sha256'] = file_ref(manifest)['sha256']
+    carried, skipped = [], []
+    for frame in new['frames']:
+        identifier = frame['id']
+        try:
+            reusable_frame(old, new, identifier)
+            old_checks = [c for c in old['checks'] if c['frame_id'] == identifier]
+            new_checks = [c for c in new['checks'] if c['frame_id'] == identifier]
+            need(old_checks == new_checks, 'Inspection questions changed')
+            rows = [r for r in old['reviews'] if r['frame_id'] == identifier]
+            need(rows and not any(r.get('reused_from') for r in rows), 'Use the immutable original inspection for repeated reuse')
+            need(not any(r['frame_id'] == identifier for r in new['reviews']), 'Target already has observations; do not overwrite')
+            for row in rows:
+                carried_row = copy.deepcopy(row)
+                carried_row['artifact_sha256'] = new['artifact']['sha256']
+                carried_row['reused_from'] = {'manifest': origin_ref, 'review_sha256': digest(row), 'artifact_sha256': old['artifact']['sha256']}
+                new['reviews'].append(carried_row)
+            carried.append(identifier)
+        except (ValueError, StopIteration):
+            skipped.append(identifier)
+    new['main_approval'] = None
+    save_manifest(manifest, new)
+    return {'status': 'EVIDENCE_PREPARED', 'reused_frames': carried, 'review_required_frames': skipped,
+            'review_status': 'UNVERIFIED', 'next_action': 'Review changed frames and approve current whole-deck consistency; reused observations retain original timestamps.'}
+
+
 def save_manifest(path, payload):
     path = Path(path).resolve()
     protected = [Path(payload['artifact']['path']).resolve()] + [Path(f['source']['path']).resolve() for f in payload['frames']]
     protected += [Path(v['file']['path']).resolve() for f in payload['frames'] for v in f['views']]
+    if payload.get('review_context'):
+        protected.append(Path(payload['review_context']['path']).resolve())
     if payload['coverage'].get('render_inventory'):
         protected.append(Path(payload['coverage']['render_inventory']['path']).resolve())
     need(path not in protected, 'Manifest must not overwrite artifact/source')
@@ -160,7 +293,7 @@ def add_view(frame, image, output_dir, name, kind, source_box, max_edge, parent=
     return view
 
 
-def prepare(image, artifact, frame_id, output_dir, manifest, max_edge=1600, inventory=None, render_method=None):
+def prepare(image, artifact, frame_id, output_dir, manifest, max_edge=1600, inventory=None, render_method=None, review_context=None):
     need(isinstance(frame_id, str) and ID.fullmatch(frame_id), 'Invalid frame ID')
     artifact_ref = file_ref(artifact)
     existing_hash = file_ref(manifest)['sha256'] if Path(manifest).exists() else None
@@ -169,6 +302,10 @@ def prepare(image, artifact, frame_id, output_dir, manifest, max_edge=1600, inve
         'frames': [], 'checks': [], 'reviews': [], 'main_approval': None,
         'status': 'EVIDENCE_PREPARED', 'review_status': 'UNVERIFIED'}
     m['__loaded_file_sha256'] = existing_hash
+    if review_context:
+        context_ref = file_ref(review_context)
+        need(not m.get('review_context') or m['review_context'] == context_ref, 'Review context changed during preparation')
+        m['review_context'] = context_ref
     need(m.get('schema_version') == 1 and m.get('artifact') == artifact_ref, 'Existing inspection belongs to another/stale artifact')
     need(frame_id in m['coverage']['expected_frame_ids'], 'Frame is outside declared artifact coverage')
     need(not any(f['id'] == frame_id for f in m['frames']), 'Frame already exists')
@@ -180,6 +317,7 @@ def prepare(image, artifact, frame_id, output_dir, manifest, max_edge=1600, inve
         row = next(r for r in inv['frames'] if r['id'] == frame_id)
         need(row['image'] == source, 'Source is not the current frame image in render inventory')
         frame['render_binding']['method'] = render_method or inv.get('method', '')
+    frame['dependency_sha256'] = frame_dependency_digest(artifact, frame_id)
     protected = [image, artifact, manifest]
     if m['coverage'].get('render_inventory'):
         protected.append(m['coverage']['render_inventory']['path'])
@@ -211,13 +349,16 @@ def crop(manifest, frame_id, view_id, requested, name, max_edge=1600):
             'next_action': 'Open this detail and then the original overview. Enlargement adds no source detail; unresolved questions must remain unresolved.', 'limitation': LIMITATION}
 
 
-def validate_evidence(m, require_coverage=False):
+def validate_evidence(m, require_coverage=False, cache=None):
     need(isinstance(m, dict) and m.get('schema_version') == 1, 'Unsupported inspection schema')
     current(m['artifact'])
+    if m.get('review_context'):
+        current(m['review_context'])
+    cache = {} if cache is None else cache
     expected = m['coverage']['expected_frame_ids']
     need(isinstance(expected, list) and expected and len(set(expected)) == len(expected), 'Missing/duplicate frame coverage inventory')
     actual = pptx_frames(m['artifact']['path'])
-    need(actual is None or set(actual) == set(expected), 'Coverage does not match actual PPTX slide count')
+    need(actual is None or actual == expected, 'Coverage/slide order does not match actual PPTX slide count/order')
     inventory = m['coverage'].get('render_inventory')
     need(actual is not None or inventory, 'Non-PPTX source lacks render inventory')
     rows = None
@@ -230,6 +371,8 @@ def validate_evidence(m, require_coverage=False):
     if require_coverage:
         need(set(ids) == set(expected), 'Not every artifact frame has been prepared/reviewed')
     for frame in frames:
+        if frame.get('dependency_sha256'):
+            need(frame['dependency_sha256'] == frame_dependency_digest(m['artifact']['path'], frame['id'], cache=cache), 'Stale package dependency binding')
         path = current(frame['source']); image = original(path)
         need(list(image.size) == frame['oriented_size_px'] and frame['display_orientation'] == 'exif_transposed', 'Source orientation/size changed')
         need(frame['render_binding']['artifact_sha256'] == m['artifact']['sha256'], 'Frame is bound to another artifact')
@@ -259,10 +402,45 @@ def validate_evidence(m, require_coverage=False):
                 need(rendered.convert('RGBA').tobytes() == expected_pixels.tobytes(), 'View pixels do not match original-source crop/resize')
 
 
-def verify_manifest(path, stage='final', expected_artifact=None):
+def _inspection_refs(manifest):
+    """Exact source/view/deck refs for one-operation origin-verification caching."""
+    refs = [manifest['artifact']]
+    if manifest.get('review_context'):
+        refs.append(manifest['review_context'])
+    inventory = manifest.get('coverage', {}).get('render_inventory')
+    if inventory:
+        refs.append(inventory)
+    for frame in manifest['frames']:
+        refs.append(frame['source'])
+        refs.extend(view['file'] for view in frame['views'])
+    approval = manifest.get('main_approval')
+    if isinstance(approval, dict):
+        overview = approval.get('deck_overview')
+        if isinstance(overview, dict) and overview.get('view'):
+            refs.append(overview['view'])
+    return refs
+
+
+def verify_manifest(path, stage='final', expected_artifact=None, _origin_cache=None):
     result = {'status': 'FAIL', 'evidence_status': 'INVALID', 'review_status': 'UNVERIFIED', 'issues': [], 'limitation': LIMITATION}
     try:
         need(stage in ['engineer', 'final'], 'Unsupported review stage')
+        # Request-local only: never reuse a verification across separate calls.
+        cache = {} if _origin_cache is None else _origin_cache
+        manifest_ref = file_ref(path)
+        expected_ref = (expected_artifact if isinstance(expected_artifact, dict)
+                        else file_ref(expected_artifact) if expected_artifact is not None else None)
+        cache_key = (manifest_ref['path'], manifest_ref['sha256'], stage,
+                     expected_ref['path'] if expected_ref else None,
+                     expected_ref['sha256'] if expected_ref else None)
+        cached = cache.get(cache_key)
+        if cached:
+            try:
+                for ref in cached['refs']:
+                    current(ref)
+                return copy.deepcopy(cached['result'])
+            except (ValueError, OSError, TypeError, KeyError):
+                cache.pop(cache_key, None)
         m = load(path); validate_evidence(m, require_coverage=True)
         if stage == 'final':
             need(expected_artifact is not None, 'Final verification requires the expected artifact target')
@@ -287,6 +465,20 @@ def verify_manifest(path, stage='final', expected_artifact=None):
                     need(len(rows) == 1, f"One current {role} observation required for {check['id']}")
                     r = rows[0]
                     need(r['artifact_sha256'] == m['artifact']['sha256'] and r['source_sha256'] == frame['source']['sha256'] and r['check_sha256'] == digest(check), 'Stale review/source/question binding')
+                    if r.get('reused_from'):
+                        origin = r['reused_from']
+                        origin_path = current(origin['manifest'])
+                        origin_key = ('origin-manifest', origin['manifest']['path'], origin['manifest']['sha256'])
+                        if origin_key not in cache:
+                            cache[origin_key] = load(origin_path)
+                        prior = cache[origin_key]
+                        need(not any(entry.get('reused_from') for entry in prior['reviews']), 'Reuse source must contain original observations')
+                        need(verify_manifest(origin['manifest']['path'], expected_artifact=prior['artifact'], _origin_cache=cache)['status'] == 'PASS', 'Original inspection acceptance invalid')
+                        reusable_frame(prior, m, frame['id'])
+                        originals = [entry for entry in prior['reviews'] if digest(entry) == origin['review_sha256']]
+                        need(len(originals) == 1 and not originals[0].get('reused_from'), 'Invalid original review provenance')
+                        expected_row = dict(originals[0], artifact_sha256=m['artifact']['sha256'], reused_from=origin)
+                        need(expected_row == r and origin['artifact_sha256'] == prior['artifact']['sha256'], 'Reused observation was altered')
                     need(r['verdict'] in ['pass', 'fail', 'unresolved'], 'Unknown review verdict')
                     need(isinstance(r['observation'], str) and len(r['observation'].strip()) >= 20, 'Empty/placeholder review observation')
                     viewed = r['actual_views']; need(isinstance(viewed, list) and viewed, 'Actual-view attestations missing')
@@ -309,10 +501,26 @@ def verify_manifest(path, stage='final', expected_artifact=None):
             need(isinstance(approval, dict) and approval.get('verdict') == 'accept', 'Explicit Main approval required')
             need(approval.get('artifact_sha256') == m['artifact']['sha256'] and approval.get('check_set_sha256') == digest(checks), 'Stale Main approval')
             need(len(str(approval.get('reason', '')).strip()) >= 20, 'Main approval reason missing')
+            overview=approval.get('deck_overview')
+            need(isinstance(overview,dict), 'New full-deck Main overview observation required; approval alone is insufficient')
+            need(overview.get('artifact_sha256')==m['artifact']['sha256'], 'Main deck overview belongs to another artifact')
+            need(overview.get('slide_order')==m['coverage']['expected_frame_ids'], 'Main deck overview must follow the exact current ordered slide inventory')
+            need(isinstance(overview.get('view'),dict) and set(overview['view'])=={'path','sha256'}, 'Main deck overview must identify one current contact-sheet/whole-deck view')
+            current(overview['view'])
+            need(overview.get('actually_viewed') is True and overview.get('tool') in ['view_image','browser','host_image_tool'], 'Actual Main whole-deck viewing attestation required')
+            need(len(str(overview.get('evidence_note','')).strip()) >= 20 and len(str(overview.get('continuity_assessment','')).strip()) >= 30, 'Main overview requires concrete whole-deck continuity observations')
+            viewed_at=datetime.fromisoformat(str(overview.get('viewed_at','')).replace('Z','+00:00'))
+            need(viewed_at.tzinfo is not None, 'Main overview viewing timestamp must be timezone aware')
+            need(viewed_at >= max(datetime.fromisoformat(e['viewed_at'].replace('Z','+00:00')) for r in m['reviews'] for e in r['actual_views']), 'Main overview must follow current detail observations')
+            need(viewed_at <= datetime.now(timezone.utc).astimezone(viewed_at.tzinfo), 'Main overview timestamp cannot be in the future')
             result['review_status'] = 'MAIN_ACCEPTED'
         else:
             result['review_status'] = 'ENGINEER_REVIEWED'
+        current(m['artifact'])
+        if m.get('review_context'): current(m['review_context'])
         result['status'] = 'PASS'
+        if not any(review.get('reused_from') for review in m['reviews']):
+            cache[cache_key] = {'result': copy.deepcopy(result), 'refs': _inspection_refs(m)}
     except (ValueError, KeyError, TypeError, AttributeError, IndexError, OSError, StopIteration, OverflowError, ZeroDivisionError, BadZipFile, ElementTree.ParseError, Image.DecompressionBombError, Image.DecompressionBombWarning) as exc:
         result['issues'].append(str(exc))
     return result
@@ -323,16 +531,19 @@ def main():
     a = sub.add_parser('prepare')
     for flag in ['image', 'artifact', 'frame-id', 'output-dir', 'manifest']:
         a.add_argument('--' + flag, required=True)
-    a.add_argument('--inventory'); a.add_argument('--render-method', help='Actual render/capture method; otherwise use inventory method or remain unverified'); a.add_argument('--max-edge', type=int, default=1600)
+    a.add_argument('--review-context', help='Immutable brief/style/policy/renderer context for conservative evidence reuse'); a.add_argument('--inventory'); a.add_argument('--render-method', help='Actual render/capture method; otherwise use inventory method or remain unverified'); a.add_argument('--max-edge', type=int, default=1600)
     a = sub.add_parser('crop')
     for flag in ['manifest', 'frame-id', 'view-id', 'name']:
         a.add_argument('--' + flag, required=True)
     a.add_argument('--box', type=int, nargs=4, required=True); a.add_argument('--max-edge', type=int, default=1600)
     a = sub.add_parser('verify'); a.add_argument('--manifest', required=True); a.add_argument('--artifact', help='Expected current artifact; required for final verification'); a.add_argument('--stage', choices=['engineer', 'final'], default='final'); a.add_argument('--json', action='store_true')
+    a = sub.add_parser('reuse'); a.add_argument('--previous', required=True); a.add_argument('--manifest', required=True)
     args = vars(p.parse_args()); command = args.pop('command')
     try:
         if command == 'verify':
             args.pop('json'); result = verify_manifest(args['manifest'], args['stage'], args['artifact'])
+        elif command == 'reuse':
+            result = reuse_reviews(**args)
         elif command == 'prepare':
             result = prepare(**args)
         else:

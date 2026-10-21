@@ -188,9 +188,9 @@ class Adapter:
                 if all_revisions:
                     offset = 0
                     while True:
-                        page = local.browse(self.root, command="history", record_id=record_id, limit=100, offset=offset)
+                        page = local.browse(self.root, command="history", record_id=record_id, limit=100, offset=offset, full=True)
                         for item in page["records"]:
-                            value = local.read(self.root, record_id, revision=item["revision"])["record"]
+                            value = item
                             rows.append(dict(value, origin="local-legacy", sync_state="LOCAL_ONLY"))
                         if page["next_offset"] is None: break
                         offset = page["next_offset"]
@@ -201,16 +201,59 @@ class Adapter:
             else:
                 offset = 0
                 while True:
-                    page = local.browse(self.root, limit=100, offset=offset)
+                    page = local.browse(self.root, limit=100, offset=offset, full=True)
                     for row in page["records"]:
-                        value = local.read(self.root, row["id"])["record"]
+                        value = row
                         rows.append(dict(value, origin="local-legacy", sync_state="LOCAL_ONLY"))
                     if page["next_offset"] is None:
                         break
                     offset = page["next_offset"]
         return rows
 
-    def read(self, record_id, revision=None):
+    def read_pointer(self, pointer):
+        local.need(isinstance(pointer, dict) and isinstance(pointer.get("id"), str) and pointer.get("origin") in {"supabase", "supabase-cache", "local-legacy", "local-outbox"}, "invalid origin-qualified memory pointer")
+        return self.read(pointer["id"], pointer.get("revision"), pointer.get("origin"), pointer.get("operation_id"))
+
+    def read_origin(self, record_id, revision, origin, operation_id):
+        """Exact origin-qualified reads; no remote-revision/legacy-revision conflation."""
+        local.need(origin in {"supabase", "supabase-cache", "local-legacy", "local-outbox"}, "invalid memory origin")
+        local.need(revision is None or (type(revision) is int and revision > 0), "invalid memory revision")
+        local.need(operation_id is None or (isinstance(operation_id, str) and 0 < len(operation_id) <= 128), "invalid operation identity")
+        rows, remote_error, local_error = [], None, None
+        try:
+            if origin == "supabase":
+                result = self.rpc("get", {"p_id": record_id, "p_revision": revision})
+                if result.get("status") == "READ":
+                    row = self.decoded(result["record"], "supabase")
+                    local.need(row["id"] == record_id and (revision is None or row["revision"] == revision), "read identity mismatch")
+                    rows.append(row)
+                else:
+                    local.need(result.get("status") == "NOT_FOUND", "invalid read response")
+            elif origin == "local-legacy":
+                result = local.read(self.root, record_id, revision=revision)
+                if result.get("record"):
+                    rows.append(dict(result["record"], origin="local-legacy", sync_state="LOCAL_ONLY"))
+            else:
+                # Existing read-only local mechanism; never initialize, sync, pull or mutate.
+                rows = [row for row in self.local_records(record_id, all_revisions=revision is not None)
+                        if row["origin"] == origin and (revision is None or row.get("revision") == revision)]
+            if operation_id is not None:
+                rows = [row for row in rows if row.get("operation_id") == operation_id]
+        except RemoteError as error:
+            remote_error = error.code
+        except (ValueError, KeyError, TypeError, sqlite3.Error, OSError):
+            if origin == "supabase":
+                remote_error = "INVALID_REMOTE_RESPONSE"
+            else:
+                local_error = "ORIGIN_DATA_UNVERIFIED"
+        return {"status": "FOUND" if rows else "UNAVAILABLE" if remote_error or local_error else "NOT_FOUND",
+                "records": rows, "remote_error": remote_error, "local_error": local_error,
+                "requested_origin": origin, "coverage": "Exact origin only; compare other applicable origins separately. No creative approval is inferred."}
+
+    def read(self, record_id, revision=None, origin=None, operation_id=None):
+        if origin is not None:
+            return self.read_origin(record_id, revision, origin, operation_id)
+        local.need(operation_id is None, "operation-qualified read requires an explicit origin")
         rows, remote_error, local_error = [], None, None
         try:
             result = self.rpc("get", {"p_id": record_id, "p_revision": revision})
@@ -227,7 +270,7 @@ class Adapter:
         try:
             fallback = self.local_records(record_id, all_revisions=revision is not None)
             if revision is not None:
-                fallback = [row for row in fallback if row["origin"] == "supabase-cache" and row["revision"] == revision]
+                fallback = [row for row in fallback if row["origin"] in {"supabase-cache", "local-legacy"} and row["revision"] == revision]
         except (ValueError, KeyError, TypeError, sqlite3.Error, OSError):
             fallback, local_error = [], "LOCAL_DATA_UNVERIFIED"
         # Cached copies are only current alternatives when cloud is unavailable.
@@ -235,8 +278,9 @@ class Adapter:
         return {"status": "FOUND" if rows else "UNAVAILABLE" if remote_error or local_error else "NOT_FOUND", "records": rows, "remote_error": remote_error, "local_error": local_error,
                 "coverage": "Compare origins and pending revisions; local-only data is not silently promoted or discarded."}
 
-    def search(self, query=None, kind=None, limit=20, offset=0, history_id=None):
+    def search(self, query=None, kind=None, limit=20, offset=0, history_id=None, projection="summary"):
         local.need(1 <= limit <= 100 and offset >= 0, "limit must be 1..100 and offset non-negative")
+        local.need(projection in ("full", "summary"), "projection must be full or summary")
         remote, remote_error, local_error = None, None, None
         try:
             remote = self.rpc("query", {"p_query": query, "p_kind": kind, "p_limit": limit,
@@ -256,10 +300,31 @@ class Adapter:
         fallback = [row for row in fallback if (not kind or row["kind"] == kind)
                     and (not tokens or any(token in (row["title"] + " " + row["content"] + " " + " ".join(row["tags"])).casefold() for token in tokens))
                     and (remote_error or row["origin"] != "supabase-cache")]
-        return {"status": "RESULTS", "remote": remote, "remote_error": remote_error, "local_error": local_error,
+        result = {"status": "RESULTS", "remote": remote, "remote_error": remote_error, "local_error": local_error,
                 "local": {"records": fallback[offset:offset+limit], "total": len(fallback),
                           "next_offset": offset+limit if offset+limit < len(fallback) else None},
                 "coverage": "Page both sources. Search rank and available cache do not prove complete historical coverage."}
+        if projection == "summary":
+            for page in (result["remote"], result["local"]):
+                if page is not None:
+                    page["records"] = [self.summary_record(row) for row in page["records"]]
+            result["projection"] = "summary"
+            result["read_required"] = "Read full applicable records, especially active policies, owner corrections and negative constraints; excerpts are not decisions. Page BOTH origins to completion for required coverage."
+        return result
+
+    @staticmethod
+    def summary_record(row):
+        # Keep identity, origin/revision, sync/conflict and evidence state intact.
+        result = {key: value for key, value in row.items() if key not in {"content", "provenance", "evidence"}}
+        result.update(excerpt=row["content"][:240], content_chars=len(row["content"]),
+                      content_truncated=len(row["content"]) > 240, evidence_count=len(row.get("evidence", [])),
+                      evidence_hashes=[item["sha256"] for item in row.get("evidence", [])],
+                      full_read={"id": row["id"], "revision": row.get("revision"), "origin": row["origin"],
+                                 "operation_id": row.get("operation_id")})
+        errors = row.get("evidence_errors", [])
+        result.update(evidence_errors=[error[:240] for error in errors[:3]], evidence_error_count=len(errors),
+                      evidence_errors_truncated=len(errors) > 3 or any(len(error) > 240 for error in errors))
+        return result
 
     @staticmethod
     def check_page(page, limit, offset):
@@ -417,11 +482,15 @@ def main(argv=None):
     sub = parser.add_subparsers(dest="command", required=True)
     sub.add_parser("status")
     read = sub.add_parser("read"); read.add_argument("id"); read.add_argument("--revision", type=int)
+    read.add_argument("--origin", choices=("supabase", "supabase-cache", "local-legacy", "local-outbox"))
+    read.add_argument("--operation-id")
     for name in ("search", "list", "history"):
         command = sub.add_parser(name)
         if name == "search": command.add_argument("query")
         if name == "history": command.add_argument("id")
+        command.add_argument("--full", action="store_true", help="Return complete records; default is summary-first discovery.")
         command.add_argument("--kind"); command.add_argument("--limit", type=int, default=20); command.add_argument("--offset", type=int, default=0)
+        command.add_argument("--projection", choices=("full", "summary"), default="summary", help="Summary keeps both source pages and conflict/negative evidence metadata; read full applicable records")
     put = sub.add_parser("put"); put.add_argument("--file", type=Path, required=True)
     put.add_argument("--expected-revision", type=int, required=True); put.add_argument("--operation-id", required=True)
     sync = sub.add_parser("sync"); sync.add_argument("operation_id")
@@ -432,9 +501,9 @@ def main(argv=None):
         if args.command == "put":
             local.need(args.file.stat().st_size <= 64000, "record input exceeds 64 KB")
             result = adapter.put(json.loads(args.file.read_text(encoding="utf-8-sig")), args.expected_revision, args.operation_id)
-        elif args.command == "read": result = adapter.read(args.id, args.revision)
+        elif args.command == "read": result = adapter.read(args.id, args.revision, args.origin, args.operation_id)
         elif args.command in ("search", "list", "history"):
-            result = adapter.search(getattr(args, "query", None), args.kind, args.limit, args.offset, getattr(args, "id", None))
+            result = adapter.search(getattr(args, "query", None), args.kind, args.limit, args.offset, getattr(args, "id", None), "full" if args.full else args.projection)
         elif args.command == "sync": result = adapter.sync(args.operation_id)
         else: result = getattr(adapter, args.command)()
         print(json.dumps(result, ensure_ascii=False, indent=2))

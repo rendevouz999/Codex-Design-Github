@@ -1,0 +1,24 @@
+{
+  "baseline": "a7c3cb6594ce7ecbd71ca9ebf5ceb4852c5aef36",
+  "scope": "Only files actually edited in this task; unrelated stale entries not silently rebased",
+  "changes": [
+    {
+      "path": "skills/presentation-deck/SKILL.md",
+      "previousManifestSha256": "ffcea8101c875ebd62ebd02d3752289efa436b94b72f8cfcada8737d5d5889c5",
+      "baselineSha256": "ffcea8101c875ebd62ebd02d3752289efa436b94b72f8cfcada8737d5d5889c5",
+      "resultSha256": "14ffe5c4e32104d869f9031ad3f48d433fa9566c0b2155fbfcb231ef38430868"
+    },
+    {
+      "path": "skills/presentation-deck/workflows/generate-pptx.md",
+      "previousManifestSha256": "edfc6dc223ee97af12cb7c0d68962d21ffff8beec16a1d92ce8f79161cb7f029",
+      "baselineSha256": "d15a9655a08c11b8922daa947d613d2219eef271c057734c955898930c4ce62f",
+      "resultSha256": "a0e06d064bcb97aadf8762193dc5563d43160ec1ec75b27639366526c8cd71fd"
+    },
+    {
+      "path": "skills/presentation-deck/workflows/profiles/quick-generate.md",
+      "previousManifestSha256": "a2da5d71f9668e338bfe7755db8d33d2d25dbeeced50d5b7d9efb2f71a35f88e",
+      "baselineSha256": "eca5ade49d48147514b4ad2235787dd74d7578d661bcbf17474edeb2f9fdb020",
+      "resultSha256": "0b8c5ea849b890356f741319bcc8f44f7673b1aee3ed9cd89507c56271f8fb2c"
+    }
+  ]
+}

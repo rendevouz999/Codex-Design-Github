@@ -51,11 +51,13 @@ def start_session(tmp: Path, permission: str = "full_build") -> Path:
         "scripts/design_brain_runtime.py",
         "start",
         "--task",
-        "reference-led restaurant website template",
+        "reference-led 5-slide native PPTX presentation template",
         "--permission-mode",
         permission,
         "--expected-templates",
         "1",
+        "--expected-slides",
+        "5",
         "--output-dir",
         str(tmp / "session"),
         "--json",
@@ -119,16 +121,17 @@ def main() -> int:
         smoke.ok(code == 0, "O2. Design Craft override attempt is blocked")
 
         clean_session = start_session(tmp / "complete")
-        for _ in range(16):
+        code, routed = run(["scripts/design_brain_runtime.py", "run-next", "--session", str(clean_session), "--json"])
+        smoke.ok(code == 0 and routed["status"] == "PASS" and routed["executionSource"] == "native_router", "P1. Native routing actually executes selection")
+        for _ in range(2):
             code, payload = run(["scripts/design_brain_runtime.py", "run-next", "--session", str(clean_session), "--json"])
-            if isinstance(payload, dict) and payload.get("status") == "BLOCKED":
-                smoke.ok("visual" in str(payload).lower(), "P1. Unexecuted visual gate blocks dummy-stage progression")
-                break
-            smoke.ok(code == 0 and payload["status"] == "PASS", "stage registration")
-        else:
-            raise AssertionError("Visual gate was bypassed by dummy-stage progression")
+            smoke.ok(code == 0 and payload["status"] == "REQUESTED" and payload["executionState"] == "requested", "P2. Routing a gate cannot invent execution PASS")
+        persisted = json.loads((clean_session / "session-state.json").read_text(encoding="utf-8"))
+        smoke.ok(persisted["completedStages"] == ["route"], "P3. Repeated requests cannot advance unexecuted gates")
+        code, payload = run(["scripts/design_brain_runtime.py", "run", "--session", str(clean_session), "--command", "/design-post-build", "--json"])
+        smoke.ok(code != 0 and payload["status"] == "BLOCKED" and "visual" in str(payload).lower(), "P4. Actual current visual evidence remains mandatory")
         code, final = run(["scripts/design_brain_runtime.py", "finalize", "--session", str(clean_session), "--json"])
-        smoke.ok(code != 0 and final["finalAllowed"] is False, "P2. Dummy receipts never establish current visual inspection")
+        smoke.ok(code != 0 and final["finalAllowed"] is False, "P5. Requested stages never establish final readiness")
 
     print(f"PASS: Brain Design runtime smoke ({smoke.checks} checks)")
     return 0

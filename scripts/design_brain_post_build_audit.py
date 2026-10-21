@@ -4,8 +4,11 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
+import os
 import sys
+import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -23,6 +26,7 @@ from design_brain_design_cognition_check import validate_cognition
 from design_brain_design_system_check import is_web_deck_text, validate_design_system
 from design_brain_sequential_provenance_check import validate_sequential_provenance
 from design_brain_visual_inspect import file_ref, verify_manifest
+from design_brain_repair_ticket import create_ticket, load_tickets, ticket_file, save_tickets, repair_accounting
 
 
 CRITICAL_VISUAL_TERMS = {
@@ -58,6 +62,9 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--visual-artifact", default="", help="Expected current artifact path for the visual inspection; required to establish target identity.")
     parser.add_argument("--output-dir", default="")
     parser.add_argument("--max-repair-cycles", type=int, default=3)
+    parser.add_argument("--repair-session", default="", help="Existing runtime ticket directory; default build-dir. Audit calls never count as repairs.")
+    parser.add_argument("--completion-phase", choices=("prepare", "audit", "finalize"), default="audit")
+    parser.add_argument("--audit-receipt", default="", help="Actual current audit receipt for final completion")
     parser.add_argument("--strict", action="store_true")
     parser.add_argument("--require-completion-receipt", action="store_true")
     parser.add_argument("--no-require-completion-receipt", action="store_true")
@@ -71,6 +78,23 @@ def parse_args() -> argparse.Namespace:
 
 def load_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def atomic_json(path: Path, payload: dict[str, Any]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", newline="\n",
+                prefix=".completion-", suffix=".tmp", dir=path.parent, delete=False) as stream:
+            temporary = Path(stream.name)
+            json.dump(payload, stream, indent=2)
+            stream.write("\n")
+            stream.flush()
+            os.fsync(stream.fileno())
+        os.replace(temporary, path)
+    finally:
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
 
 
 def discover_json(build_dir: Path, patterns: list[str]) -> list[Path]:
@@ -154,16 +178,181 @@ def visual_audit(build_dir: Path, screenshot_dir: str = "", inspection: str = ""
     }
 
 
+def collect_audited_inputs(build_dir: Path, args: argparse.Namespace,
+                           fingerprints: list[Path], designs: list[Path],
+                           cognition: list[Path], session_result: dict,
+                           visual: dict) -> tuple[list[dict[str, str]], list[str]]:
+    """Capture exact decision inputs without retroactively refreshing stale hashes."""
+    names = set([*fingerprints, *designs, *cognition])
+    immutable_preparation = build_dir / 'completion-preparation.json'
+    if immutable_preparation.is_file():
+        names.add(immutable_preparation)
+    errors = []
+    for key in ("visual_artifact", "template_plan", "figma_summary", "visual_inspection"):
+        value = str(getattr(args, key, "") or "").strip()
+        if value: names.add(Path(value).expanduser().resolve())
+    for reference in visual.get("visualInspectionManifests", []):
+        if isinstance(reference, dict) and reference.get("path"):
+            names.add(Path(reference["path"]).resolve())
+    session_arg = str(getattr(args, "session", "") or "").strip()
+    if session_arg:
+        session_path = Path(session_arg).expanduser().resolve()
+        names.add(session_path / "build-session-ledger.json" if session_path.is_dir() else session_path)
+    ledger = session_result.get("ledger")
+    def scan(value, field="", depth=0):
+        if depth>12: return
+        if isinstance(value, dict):
+            for key, item in value.items(): scan(item, str(key), depth+1)
+        elif isinstance(value, list):
+            for item in value[:1000]: scan(item, field, depth+1)
+        elif isinstance(value, str) and value.strip() and (field.lower().endswith("path") or field.lower().endswith("paths")):
+            if "://" in value: return
+            # Some design-grammar fields (for example focalPath) describe a
+            # visual trajectory, not a filesystem path. Require file-like syntax.
+            if not ("/" in value or "\\" in value or Path(value).suffix):
+                return
+            raw = Path(value)
+            names.add(raw.resolve() if raw.is_absolute() else (build_dir/raw).resolve())
+    if isinstance(ledger, dict): scan(ledger)
+    examined=set()
+    while len(examined)<2048:
+        next_paths=[Path(item) for item in names if Path(item) not in examined]
+        if not next_paths:break
+        for item in next_paths:
+            examined.add(item)
+            if item.is_file() and item.suffix.lower()==".json" and item.stat().st_size<=4*1024*1024:
+                try:
+                    value=load_json(item)
+                    scan(value)
+                except (OSError,ValueError,TypeError,KeyError) as error:
+                    errors.append("Audit input JSON unavailable: "+str(item)+": "+str(error))
+    if len(examined)>=2048: errors.append("Audited dependency closure exceeds 2048 paths")
+    refs=[]
+    for item in sorted(names, key=lambda name: str(name).lower()):
+        item=Path(item).resolve()
+        # Legacy compatibility receipt intentionally transitions from preparation
+        # to final. Its immutable preparation counterpart is the audit input.
+        if item == (build_dir / 'completion-receipt.json').resolve():
+            continue
+        if not item.is_file():
+            errors.append("Audit input missing: "+str(item))
+            continue
+        try:
+            refs.append(file_ref(item))
+        except (OSError, ValueError) as error:
+            errors.append("Audit input unreadable: "+str(item)+": "+str(error))
+    return refs, errors
+
+
+def audit_inputs_current(audit: dict[str, Any]) -> bool:
+    refs = audit.get("auditInputRefs")
+    if not isinstance(refs, list) or not refs or audit.get("auditInputMissing"):
+        return False
+    normalized=json.dumps(refs,sort_keys=True,separators=(",",":")).encode()
+    if hashlib.sha256(normalized).hexdigest()!=audit.get("auditInputRevision"):
+        return False
+    try:
+        return all(isinstance(ref,dict) and set(ref)=={"path","sha256"} and
+                   Path(ref["path"]).is_absolute() and file_ref(Path(ref["path"]))==ref
+                   for ref in refs)
+    except (OSError, ValueError, KeyError, TypeError):
+        return False
+
+
+def completion_prepared(build_dir: Path) -> bool:
+    """A legacy declaration alone is not the immutable prepare-stage contract."""
+    try:
+        immutable = load_json(build_dir / "completion-preparation.json")
+        current = load_json(build_dir / "completion-receipt.json")
+        return bool(immutable.get("phase") == current.get("phase") == "preparation"
+            and immutable.get("finalAllowed") is False
+            and current.get("finalAllowed") is False
+            and immutable.get("artifact") == current.get("artifact")
+            and immutable.get("schemaVersion") == current.get("schemaVersion") == 1)
+    except (OSError, ValueError, TypeError, AttributeError):
+        return False
+
+
 def completion_receipt_exists(build_dir: Path) -> bool:
-    candidates = discover_json(build_dir, ["completion-receipt.json", "completion_receipt.json", "final-completion-receipt.json"])
+    candidates = discover_json(build_dir, ["completion-preparation.json", "completion-receipt.json", "completion_receipt.json", "final-completion-receipt.json"])
     for path in candidates:
         try:
             payload = load_json(path)
         except Exception:
             continue
-        if payload.get("finalStatus") in {"READY", "READY_WITH_LIMITATIONS", "REVISE_REQUIRED", "BLOCKED"}:
+        if isinstance(payload, dict) and payload.get("finalStatus") in {"PENDING_AUDIT", "READY", "READY_WITH_LIMITATIONS", "REVISE_REQUIRED", "BLOCKED"}:
             return True
     return False
+
+
+def prepare_completion(build_dir: Path, artifact: Path) -> dict[str, Any]:
+    """Preparation exists before auditing; it is explicitly not completion."""
+    payload = {"schemaVersion": 1, "phase": "preparation", "finalStatus": "PENDING_AUDIT", "finalAllowed": False, "artifact": file_ref(artifact), "preparedAt": datetime.now(timezone.utc).isoformat()}
+    # Never mutate the audited preparation in place during finalization.
+    atomic_json(build_dir / "completion-preparation.json", payload)
+    # Keep the existing preparation-presence path for older callers.
+    atomic_json(build_dir / "completion-receipt.json", payload)
+    return payload
+
+
+def finalize_completion(build_dir: Path, audit_path: Path, artifact: Path) -> dict[str, Any]:
+    """Bind final completion to the latest audited bytes; no audit→final→audit cycle."""
+    from design_brain_visual_gate import validate_post_build_receipt
+    try:
+        audit = load_json(audit_path)
+    except (OSError, ValueError) as error:
+        raise ValueError(f"completion audit unavailable: {error}") from error
+    if not isinstance(audit, dict):
+        raise ValueError("completion audit must be a JSON object")
+    if audit.get("buildDir") and Path(audit["buildDir"]).resolve() != build_dir.resolve():
+        raise ValueError("completion build directory differs from audited project directory")
+    if audit.get("auditPhase") != "evidence" or audit.get("finalStatus") not in {"READY", "READY_WITH_LIMITATIONS"} or audit.get("remainingIssues"):
+        raise ValueError("completion requires successful current audit evidence with no remaining issues")
+    if not audit_inputs_current(audit):
+        raise ValueError("audited inputs or dependencies changed/missing; rerun affected audit")
+    preparation_path = build_dir / "completion-preparation.json"
+    try:
+        preparation = load_json(preparation_path)
+        preparation_ref = file_ref(preparation_path)
+    except (OSError, ValueError) as error:
+        raise ValueError("immutable completion preparation missing; rerun prepare and audit") from error
+    if (preparation.get("phase") != "preparation" or preparation.get("finalAllowed") is not False
+            or preparation.get("artifact") != file_ref(artifact)
+            or preparation_ref not in audit["auditInputRefs"]):
+        raise ValueError("preparation is stale or absent from audited inputs; rerun audit")
+    if audit.get("artifact") != file_ref(artifact):
+        raise ValueError("completion artifact changed or does not match the audited revision")
+    passes = audit.get("auditPasses", {})
+    required_passes = {"pass0SerialProvenance", "pass1OriginalityBatchSimilarity", "pass2DesignSystemSourceHygiene", "pass3VisualLayoutQA"}
+    if not isinstance(passes, dict) or not required_passes.issubset(passes) or any(status != "PASS" for status in passes.values()):
+        raise ValueError("final completion requires all actual audit passes PASS")
+    visual = validate_post_build_receipt(audit_path, artifact)
+    if visual["status"] != "PASS":
+        raise ValueError("final completion visual evidence is not current: " + "; ".join(visual["issues"]))
+    payload = {"schemaVersion": 1, "phase": "final", "finalStatus": audit["finalStatus"], "finalAllowed": audit["finalStatus"] == "READY", "artifact": file_ref(artifact), "audit": file_ref(audit_path), "preparation": preparation_ref, "auditInputRefs": audit["auditInputRefs"], "auditInputRevision": audit["auditInputRevision"], "limitations": audit.get("limitations", []), "completedAt": datetime.now(timezone.utc).isoformat()}
+    atomic_json(build_dir / "completion-receipt.json", payload)
+    return payload
+
+
+def validate_final_completion(path: Path, audit_path: Path, artifact: Path) -> bool:
+    """Check the final contract without rewriting a completion receipt."""
+    try:
+        payload = load_json(path)
+        audit = load_json(audit_path)
+        prep_path = path.parent / "completion-preparation.json"
+        prep = load_json(prep_path)
+        prep_ref = file_ref(prep_path)
+        return bool(prep.get("phase") == "preparation" and prep.get("finalAllowed") is False
+            and prep.get("artifact") == file_ref(artifact)
+            and prep_ref in audit.get("auditInputRefs", [])
+            and payload.get("preparation") == prep_ref
+            and payload.get("phase") == "final" and payload.get("finalStatus") == "READY" and payload.get("finalAllowed") is True
+            and payload.get("artifact") == file_ref(artifact) and payload.get("audit") == file_ref(audit_path)
+            and audit_inputs_current(audit) and payload.get("auditInputRevision") == audit.get("auditInputRevision")
+            and payload.get("auditInputRefs") == audit.get("auditInputRefs")
+            and audit.get("finalStatus") == "READY" and not audit.get("remainingIssues"))
+    except (OSError, ValueError, TypeError, AttributeError):
+        return False
 
 
 def completion_receipt_required(args: argparse.Namespace) -> bool:
@@ -325,6 +514,8 @@ def write_receipt(output_dir: Path, receipt: dict[str, Any]) -> None:
 
 
 def run_post_build_audit(args: argparse.Namespace) -> dict[str, Any]:
+    if args.max_repair_cycles < 1:
+        raise ValueError("max repair cycles must be positive")
     build_dir = Path(args.build_dir).expanduser().resolve()
     output_dir = Path(args.output_dir).expanduser().resolve() if args.output_dir else build_dir
     fingerprint_paths = discover_fingerprints(build_dir)
@@ -395,8 +586,10 @@ def run_post_build_audit(args: argparse.Namespace) -> dict[str, Any]:
             batch_result = audit_fingerprints(fingerprints, batch_id=build_dir.name or "batch")
 
     visual = visual_audit(build_dir, args.screenshot_dir, getattr(args, "visual_inspection", ""), getattr(args, "visual_artifact", ""))
+    audited_refs, dependency_errors = collect_audited_inputs(build_dir, args, fingerprint_paths, design_paths, cognition_paths, session_result, visual)
+    audited_revision = hashlib.sha256(json.dumps(audited_refs, sort_keys=True, separators=(",",":")).encode()).hexdigest()
     has_completion_receipt = completion_receipt_exists(build_dir)
-    completion_missing = completion_receipt_required(args) and not has_completion_receipt
+    completion_missing = completion_receipt_required(args) and not completion_prepared(build_dir)
 
     pass1_status = "FAIL" if batch_result["status"] == "FAIL" or cognition_errors else "PASS"
     pass2_status = "FAIL" if design_errors else "LIMITED" if design_artifact_limitations else "PASS"
@@ -412,9 +605,11 @@ def run_post_build_audit(args: argparse.Namespace) -> dict[str, Any]:
     for error in visual.get("issues", []):
         repair_plan.append({"auditPass": "pass3", "issue": str(error), "repair": "Fix layout/visual defect and rerun visual QA."})
     if completion_missing:
-        repair_plan.append({"auditPass": "completion", "issue": "final completion receipt missing", "repair": "Generate completion receipt before final response."})
+        repair_plan.append({"auditPass": "completion", "issue": "completion preparation receipt missing", "repair": "Prepare a PENDING_AUDIT completion receipt, rerun audit, then finalize against its evidence."})
     for error in session_result.get("issues", []):
         repair_plan.append({"auditPass": "lifecycle", "issue": str(error), "repair": "Complete build-session lifecycle, rerun layout audit, and lock template fingerprint before final delivery."})
+    for error in dependency_errors:
+        repair_plan.append({"auditPass": "dependency", "issue": str(error), "repair": "Recollect actual input and rerun audit; never refresh hash to pass old audit."})
     for error in provenance_result.get("issues", []):
         repair_plan.append({"auditPass": "serial-provenance", "issue": str(error), "repair": "Rebuild through one completed template cycle at a time; lock and scaffold-dispose each template before starting the next."})
 
@@ -423,14 +618,21 @@ def run_post_build_audit(args: argparse.Namespace) -> dict[str, Any]:
         or design_errors
         or batch_result["status"] == "FAIL"
         or visual["status"] == "FAIL"
-        or completion_missing
+        # Source-only LIMITED diagnostics retain missing-input issues without
+        # claiming readiness. A current visual PASS or strict audit fails closed.
+        or (completion_missing and (args.strict or visual["status"] == "PASS"))
         or session_result.get("status") == "BLOCKED"
         or provenance_result.get("status") == "BLOCKED"
+        or (dependency_errors and (args.strict or visual["status"] == "PASS"))
     )
     limitations: list[str] = []
     if visual["status"] == "LIMITED":
         limitations.append("No current visual inspection with explicit Main/Engineer observations was verified; source/legacy screenshot metadata cannot establish visual PASS.")
     limitations.extend(design_artifact_limitations)
+    if completion_missing:
+        limitations.append("Immutable preparation is absent; audit is diagnostic evidence only, never final eligibility.")
+    if dependency_errors:
+        limitations.append(f"{len(dependency_errors)} declared audit input(s) missing or unverifiable; resolve before finalization.")
     if (args.diagnostic_only or args.no_require_completion_receipt) and not has_completion_receipt:
         limitations.append("Completion receipt was not required for this diagnostic run; final status cannot be READY.")
     if critical_failure:
@@ -442,13 +644,42 @@ def run_post_build_audit(args: argparse.Namespace) -> dict[str, Any]:
     else:
         final_status = "READY"
 
+    repair_session = Path(getattr(args, "repair_session", "") or build_dir).resolve()
+    # Audited refs are immutable for the receipt. Appending the artifact after
+    # computing auditInputRevision would invalidate the audit immediately.
+    artifact = getattr(args, "visual_artifact", "")
+    input_revision = audited_revision
+    # Reports of the same issue/revision reuse a ticket. An audit is not a patch.
+    for item in repair_plan:
+        create_ticket(session_id=repair_session.name, source_gate="post_build_" + item["auditPass"], template_id=item["auditPass"], issue=item["issue"], required_repair=item["repair"], input_revision=input_revision, session=repair_session)
+    statuses = {"pass1": pass1_status, "pass2": pass2_status, "pass3": pass3_status, "completion": "FAIL" if completion_missing else "PASS", "lifecycle": session_result.get("status", "PASS") if session_result else "PASS", "serial-provenance": provenance_result.get("status")}
+    records = load_tickets(ticket_file(repair_session))
+    for ticket in records:
+        audit_pass = ticket.get("sourceGate", "").removeprefix("post_build_")
+        if ticket.get("sourceGate", "").startswith("post_build_") and statuses.get(audit_pass) == "PASS":
+            ticket.update(status="closed", closedAt=datetime.now(timezone.utc).isoformat(), rerunGateRequired=False, qualityStatus="source_gate_checked", checkedInputRevision=input_revision)
+    if records:
+        save_tickets(ticket_file(repair_session), records)
+    accounting = repair_accounting(repair_session, args.max_repair_cycles)
+    if accounting["budgetExhausted"]:
+        limitations.append("Repair budget exhausted for unresolved issue(s); reassess the strategy or report the blocked/partial result. No automatic PASS or additional patch is authorized by this audit.")
+
     receipt = {
+        "buildDir": str(build_dir.resolve()),
         "buildId": f"post-build-{datetime.now(timezone.utc).strftime('%Y%m%d%H%M%S')}",
         "templateCount": args.expected_templates,
         "templates": template_ids,
         "designCognitionRequired": cognition_required,
         "completionReceiptRequired": completion_receipt_required(args),
         "completionReceiptPresent": has_completion_receipt,
+        "auditPhase": "evidence",
+        "auditedAt": datetime.now(timezone.utc).isoformat(),
+        "completionPhase": "pending_final",
+        "finalAllowed": False,
+        "artifact": file_ref(Path(artifact)) if artifact and Path(artifact).is_file() else None,
+        "auditInputRevision": audited_revision,
+        "auditInputRefs": audited_refs,
+        "auditInputMissing": dependency_errors,
         "designSystemResults": design_results,
         "designCognitionResults": cognition_results,
         "auditPasses": {
@@ -474,11 +705,12 @@ def run_post_build_audit(args: argparse.Namespace) -> dict[str, Any]:
             "fingerprintLockStatus": "PASS" if session_result and session_result.get("status") == "PASS" else "N/A" if not session_result else "FAIL",
             "ideaRecoveryCorpusUsed": False,
             "corpusInspirationIds": [],
-            "layoutRepairCycles": 0,
+            "layoutRepairCycles": accounting["layoutRepairCycles"],
             "axisFailuresRepaired": [],
             "safeToProceedToNextTemplate": bool(session_result and session_result.get("status") == "PASS") if session_result else None,
         },
-        "repairCycles": 0,
+        "repairCycles": accounting["repairCycles"],
+        "repairAccounting": accounting,
         "repairPlan": repair_plan,
         "remainingIssues": [item["issue"] for item in repair_plan],
         "visualVerificationStatus": visual["visualVerificationStatus"],
@@ -486,7 +718,7 @@ def run_post_build_audit(args: argparse.Namespace) -> dict[str, Any]:
         "visualInspectionValidation": visual["visualInspectionValidation"],
         "finalStatus": final_status,
         "limitations": limitations,
-        "completionStatement": "Post-build gate satisfied." if final_status in {"READY", "READY_WITH_LIMITATIONS"} else "Post-build gate failed; repair required before final delivery.",
+        "completionStatement": ("All required audit evidence current; finalization still requires binding." if final_status == "READY" and not repair_plan else "Audit is limited or blocked; outstanding evidence and final binding must be resolved before delivery."),
     }
     write_receipt(output_dir, receipt)
     return receipt
@@ -495,6 +727,17 @@ def run_post_build_audit(args: argparse.Namespace) -> dict[str, Any]:
 def main() -> int:
     args = parse_args()
     try:
+        if args.completion_phase in {"prepare", "finalize"}:
+            if not args.visual_artifact:
+                raise ValueError("completion preparation/finalization requires --visual-artifact")
+            build_dir = Path(args.build_dir).resolve()
+            artifact = Path(args.visual_artifact).resolve()
+            if args.completion_phase == "prepare":
+                receipt = prepare_completion(build_dir, artifact)
+            else:
+                receipt = finalize_completion(build_dir, Path(args.audit_receipt).resolve() if args.audit_receipt else build_dir / "post-build-audit-receipt.json", artifact)
+            print(json.dumps(receipt, indent=2))
+            return 0
         receipt = run_post_build_audit(args)
     except Exception as exc:
         receipt = {
@@ -503,7 +746,7 @@ def main() -> int:
             "templates": [],
             "designSystemResults": {},
             "auditPasses": {},
-            "repairCycles": 0,
+            "repairCycles": None,
             "repairPlan": [{"auditPass": "runtime", "issue": str(exc), "repair": "Fix post-build audit input and rerun."}],
             "remainingIssues": [str(exc)],
             "visualVerificationStatus": "not_verified",

@@ -9,13 +9,14 @@ import tempfile
 import time
 from pathlib import Path
 from typing import Any
+from PIL import Image
 
 sys.dont_write_bytecode = True
 
 from design_brain_batch_similarity_audit import audit_fingerprints
 from design_brain_design_cognition_smoke_test import base_receipt
 from design_brain_design_system_check import validate_design_system
-from design_brain_post_build_audit import run_post_build_audit
+from design_brain_post_build_audit import run_post_build_audit, prepare_completion
 from design_brain_process_utils import python_command, resolve_python_invocation, run_command as run_process_command
 from test_design_brain_visual_inspect import Fixture
 
@@ -399,12 +400,21 @@ def test_repair_loop_and_completion_receipt(tmp: Path) -> None:
     print("[7/9] PASS", flush=True)
 
     print("[8/9] Completion receipt required in strict mode ...", flush=True)
+    # Existing website fixture references these concrete local dependencies.
+    # This builds test-only files; no native rendering or visual PASS is claimed.
+    for name in ("component-inventory.json", "design-tokens.json", "figma-node-summary.json"):
+        write_json(tmp / name, {"testOnly": True, "purpose": "source input closure"})
+    (tmp / "screenshots").mkdir(parents=True, exist_ok=True)
+    Image.new("RGB", (4, 4), "white").save(tmp / "screenshots" / "template-1.png")
+    artifact = tmp / "synthetic-browser-deck.html"
+    artifact.write_text("<!doctype html><title>synthetic source audit only</title>", encoding="utf-8")
+    prepare_completion(tmp, artifact)
     strict_missing = run_post_build_audit(Args(tmp, strict=True))
     assert_true(strict_missing["finalStatus"] == "READY_WITH_LIMITATIONS", "completion receipt already present should pass strict mode with visual limitation")
     (tmp / "completion-receipt.json").unlink()
     strict_missing = run_post_build_audit(Args(tmp, strict=True))
     assert_true(strict_missing["finalStatus"] == "BLOCKED", "missing completion receipt must fail in strict mode")
-    write_completion_receipt(tmp)
+    prepare_completion(tmp, artifact)
     strict_ok = run_post_build_audit(Args(tmp, strict=True))
     assert_true(strict_ok["finalStatus"] == "READY_WITH_LIMITATIONS", "valid completion receipt should pass strict mode")
     print("[8/9] PASS", flush=True)

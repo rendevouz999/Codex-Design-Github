@@ -6,7 +6,7 @@
 // place once per install, so every runtime path stays unchanged. In the source tree the folder
 // exists and it is a no-op.
 
-import { existsSync, mkdtempSync, renameSync, rmSync } from "node:fs";
+import { existsSync, mkdtempSync, readFileSync, realpathSync, renameSync, rmSync } from "node:fs";
 import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
@@ -16,6 +16,14 @@ const PLUGIN_ROOT = String(
   .replace(/\\/g, "/")
   .replace(/\/+$/, "");
 const RESOURCES = `${PLUGIN_ROOT}/skills/presentation-deck/resources`;
+
+function pluginIdentity() {
+  let version = "unknown";
+  let root = PLUGIN_ROOT;
+  try { version = JSON.parse(readFileSync(`${PLUGIN_ROOT}/package.json`, "utf8")).version || version; } catch {}
+  try { root = realpathSync(PLUGIN_ROOT).replace(/\\/g, "/"); } catch {}
+  return { version, root };
+}
 
 function restoreIcons() {
   const icons = `${RESOURCES}/icons`;
@@ -37,11 +45,13 @@ function restoreIcons() {
 }
 
 try {
+  const identity = pluginIdentity();
   process.stdout.write(
     [
-      "Codex Design Brain v2.8.0 available. Only during this plugin's use: Main (Claude Fable 5.1 on Claude Code; GPT-6 Astra on Codex) + ONE General Design Production Engineer: on Claude Code the plugin agent codex-design:general-design-production-engineer (claude-opus-5-5, effort xhigh), on Codex gpt-6.1-sol at reasoning_effort=xhigh; Main has auto-full trust for creative direction and PASS/REVISE. Unrelated work does not inherit these rules.",
+      `Codex Design Brain v${identity.version} available. Active root: ${identity.root}. Only during this plugin's use: Main (Claude Fable 5.1 on Claude Code; GPT-6 Astra on Codex) + ONE General Design Production Engineer: on Claude Code the plugin agent codex-design:general-design-production-engineer (claude-opus-5-5, effort xhigh), on Codex gpt-6.1-sol at reasoning_effort=xhigh; Main has auto-full trust for creative direction and PASS/REVISE. Unrelated work does not inherit these rules.`,
       "Visual inspection: load .design-brain/VISUAL_INSPECTION_PROTOCOL.md. Main + Engineer inspect original-source overview/detail/context evidence; empty or stale visual receipts never PASS.",
     "Protected plugin changes require owner verification; reuse verification already satisfied for the authorized scope.",
+      "Continuity: before resuming an existing task, use scripts/design_brain_runtime.py resume --session <explicit-current-session> --json. Never select another project from a global current-context pointer. Reconcile changed sources; continue unfinished slides. See .design-brain/runtime/CONTEXT_COMPACTION.md for checkpoint capture.",
       "Shared memory: load .design-brain/LOCAL_MEMORY_POLICY.md. Use the bundled Supabase/local adapter. Engineer reads/searches; Main updates/readbacks positive and negative decisions, reconciles queued operations and refreshes offline cache. No Agent Core memory dependency.",
       "Owner calibration mode (2026-10-14): for PPTX design builds deliver the complete PPTX only, no delivery package (zip/START_HERE/guides/preview kit) until the owner says exactly 'kita mulai jalur produksi'; solve every correction properly, never with a safe or minimalist fallback.",
       "New native PPTX only: 10 x 5.625 inches landscape; read skills/presentation-deck/workflows/PPTX_SIZE_POLICY.md. PPTX sourced images also require skills/presentation-deck/workflows/PPTX_IMAGE_SELECTION_POLICY.md: Main reviews, takes over search after two rejected rounds, and assigns exact slides/crops. Ask missing size for other platforms. Authorized host subagents use .design-brain/runtime/HOST_DESIGN_PRODUCTION_SPECIALIST.md.",

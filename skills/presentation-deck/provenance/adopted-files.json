@@ -1942,8 +1942,9 @@
       "source": "downloads/ppt-master/skills/ppt-master/references/executor-base.md",
       "sourceSha256": "6a87f6dddd317478a1baedc08e59bd96cc943f148de4f09fb5a4516d3be0cf5b",
       "reason": "Template and native authoring design knowledge",
-      "adoptedSha256": "6502eb33ce5e0be9ee79d383515cfe2761e7a9d5c3ac3700251b4dcb66c06928",
-      "modified": true
+      "adoptedSha256": "c17598992d601660adc66b470829de1a509b84ba669c1306e4ca0b077d62c78f",
+      "modified": true,
+      "ownerModification": "Merged efficiency reconciliation 2026-10-21; upstream sourceSha256 retained."
     },
     {
       "path": "design/native/executor-chart.md",
@@ -101150,8 +101151,9 @@
       "source": "downloads/ppt-master/skills/ppt-master/workflows/generate-pptx.md",
       "sourceSha256": "eba2959bcb23c9e698b54617c198f4f9c8ce52e54d27023ed19d205a365d0986",
       "reason": "Selected native operation procedure",
-      "adoptedSha256": "8ae44fb7f09ebd4cd43f802fa8b02dc2bf0dd2d488b1692b66457cbcfe23c2c2",
-      "modified": true
+      "adoptedSha256": "126edc032de57bdf4751dbaed9bce312063cc967b4509592aac642cbff93944d",
+      "modified": true,
+      "ownerModification": "Merged efficiency reconciliation 2026-10-21; upstream sourceSha256 retained."
     },
     {
       "path": "workflows/create-template/create-brand.md",
@@ -101214,8 +101216,9 @@
       "source": "downloads/ppt-master/skills/ppt-master/workflows/profiles/quick-generate.md",
       "sourceSha256": "0953958921062f862c772acaf43288ed1e34a34370514efb4d367d965da48f9c",
       "reason": "Selected native operation procedure",
-      "adoptedSha256": "4b66dc28e0bdc976e2d171d4d681ae7a44d57d9d1c0ff7d400fc28d08b114bcd",
-      "modified": true
+      "adoptedSha256": "f310ab69c5852c1a4df4dd397600fa7ad98ddff6d1e6f03bb642e183c4021f4c",
+      "modified": true,
+      "ownerModification": "Merged efficiency reconciliation 2026-10-21; upstream sourceSha256 retained."
     },
     {
       "path": "workflows/stages/apply-template-workspace.md",
