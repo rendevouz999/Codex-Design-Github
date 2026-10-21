@@ -27,12 +27,12 @@ class VisualRouteTests(unittest.TestCase):
     def test_runtime_bootstrap_preserves_spaced_arguments_and_output(self):
         session = self.root / "session with spaces"
         completed = subprocess.run(
-            [sys.executable, "-B", runtime.__file__, "start", "--task", "visual task with spaces",
+            [sys.executable, "-B", runtime.__file__, "start", "--task", "presentation visual task with spaces",
              "--permission-mode", "full_build", "--expected-templates", "1", "--output-dir", str(session), "--json"],
             capture_output=True, text=True, timeout=30)
         self.assertEqual(0, completed.returncode, completed.stderr)
         payload = json.loads(completed.stdout)
-        self.assertEqual("visual task with spaces", payload["state"]["task"])
+        self.assertEqual("presentation visual task with spaces", payload["state"]["task"])
         self.assertEqual(session.resolve(), Path(payload["session"]).resolve())
         self.assertTrue((session / "session-state.json").is_file())
 
@@ -58,7 +58,8 @@ class VisualRouteTests(unittest.TestCase):
         state = {"completedStages": runtime.REQUIRED_STAGES[:], "permissionMode": "full_build", "openRepairTickets": []}
         result = runtime.final_readiness(state)
         self.assertFalse(result["finalAllowed"])
-        self.assertIn("visual receipt", result["reason"])
+        self.assertIn("unverified stages", result["reason"])
+        self.assertIn("post_build_audit", result["reason"])
 
     def test_route_post_build_without_actual_evidence_never_marks_stage(self):
         state = {"sessionId": "regression", "permissionMode": "full_build", "completedStages": [], "finalReadiness": {"finalAllowed": False}}
@@ -67,7 +68,9 @@ class VisualRouteTests(unittest.TestCase):
             result = runtime.command_run(args)
         self.assertEqual("BLOCKED", result["status"])
         self.assertNotIn("post_build_audit", state["completedStages"])
-        save.assert_not_called()
+        self.assertEqual(state["toolResults"]["post_build_audit"]["executionState"], "not_verified")
+        self.assertEqual(state["toolResults"]["post_build_audit"]["status"], "BLOCKED")
+        save.assert_called_once()
 
     def test_lifecycle_registration_rejects_legacy_receipt_without_mutation(self):
         artifact = self.root / "artifact.svg"

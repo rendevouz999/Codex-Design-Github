@@ -1,3 +1,5 @@
+> Active scope: presentation templates and decks only. Apply `.design-brain/PRESENTATION_SCOPE.md` first. Non-presentation examples below are historical/support context, not independent product routes; website section counts and source defaults must not be applied to slides. Shared support remains subordinate to the selected presentation workflow.
+
 # Post-Build Completion Gate
 
 For actual Codex-Design work, load `.design-brain/LOCAL_MEMORY_POLICY.md`. Use the bundled shared memory capability: Supabase first, the local outbox/cache as fallback, and existing plugin-local records alongside both. Include pending/local-only history after recovery. Main and the single Engineer read/search before planning; Main writes and revises with readback. Preserve positive and negative evidence. A service outage does not block local access; conflicts and unknown writes require reconciliation, never blind replay. This owner-approved rule is plugin-scoped.
@@ -12,6 +14,7 @@ For template builds, the completion receipt is required by default. Diagnostic-o
 
 A design output is not complete until:
 
+0. Prepare a non-final completion record bound to the current artifact (`--completion-phase prepare`). It means PENDING_AUDIT, never READY.
 1. Template build is complete.
 2. Design system is built.
 3. Triple audit pass 1 is complete.
@@ -19,7 +22,7 @@ A design output is not complete until:
 5. Triple audit pass 3 is complete.
 6. Critical issues are repaired.
 7. Audit is rerun after repair.
-8. Completion receipt is generated.
+8. Finalize the completion record only after current audit and visual evidence pass (`--completion-phase finalize`). The final record binds exact artifact and audit hashes; any subsequent change requires renewed evidence/finalization.
 
 Codex must not say final, done, ready, shipped, or complete before this gate is satisfied.
 
@@ -197,3 +200,15 @@ Final status cannot be READY if reference layout audit failed, AI pairwise layou
 Final delivery must also pass the Build Session Lifecycle `verify-final` check when the build used a lifecycle session.
 
 For reference-led work, direct post-build readiness is not enough unless the Brand & Reference Usage Memory Layer has both phases recorded. The `check` phase protects the next build from starting with a reused name/reference; the `record` phase protects all future builds from reusing the completed output's brand or reference group.
+
+## Executable completion and repair accounting
+
+Use the existing `scripts/design_brain_post_build_audit.py` lifecycle:
+
+1. `--build-dir <build> --visual-artifact <deck> --completion-phase prepare` records PENDING_AUDIT.
+2. Run the normal audit with the actual source/design/visual receipts and appropriate mode. Its result is audit evidence, not final delivery permission.
+3. `--build-dir <build> --visual-artifact <deck> --completion-phase finalize --audit-receipt <audit-json>` creates final artifact/audit-bound completion only when the specialized checks pass.
+
+The runtime accepts explicit externally executed gate receipts with current input/evidence bindings; that is an accountable external attestation, not a claim that route selection executed a tool or that the runtime independently judged creative quality. A bare route/run request never invents successful execution.
+
+Repair budget is per stable issue/revision attempt, not per repeated audit call. Use the existing ticket ledger and record a repair attempt once; repeated reports of unchanged issues reuse their ticket. Closing a ticket administratively does not waive its source-gate rerun. An exhausted budget requires a different corrective strategy or a truthful unfinished status; never convert it into PASS. Corrupt tickets require recovery and must not become an empty issue list.

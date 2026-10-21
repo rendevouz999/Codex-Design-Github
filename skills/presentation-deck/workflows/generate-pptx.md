@@ -19,6 +19,8 @@ For native PPTX creation or substantial deck redesign with a slide roster, follo
 - Main may author directly or assign bounded page authoring to the single authorized host General Design Production Engineer (GPT-6.1 Sol (Codex) / Claude Opus 5.5 (Claude Code), Extra High `xhigh`). Main retains creative control, integration and final review; the checker cadence is Step 6's. The host role prompt is `.design-brain/runtime/HOST_DESIGN_PRODUCTION_SPECIALIST.md` under the plugin root.
 - Gate checklists are internal: on success continue with at most one compact status line; on failure report only the blocking items and required recovery.
 
+**Continuity**: before handoff or compaction, capture bounded slide/source/decision progress with the existing runtime checkpoint command. On resume, call `scripts/design_brain_runtime.py resume --session <explicit-current-session> --json` from the plugin root and reconcile current hashes before continuing unfinished units. Follow `.design-brain/runtime/CONTEXT_COMPACTION.md`; no global session guessing and no automatic rebuild of accepted unchanged work.
+
 **SVG page-design boundary**: `svg_output/` is the complete page-design source — every visible element of the exported slide is in the page SVG or referenced by it; templates, `design_spec.md`, and `spec_lock.md` never supply content at export ([`shared-standards-core.md`](../design/native/shared-standards-core.md) §4.0). Export compiles only the selected route's explicit structure contract (`flat` Slide-local; `structured` Master/Layout/Slide parts) and never infers structure. `svg_final/` is an optional preview release export never reads. Notes, animations, narration, and Edit Native PPTX stay outside this closure.
 
 ## Cross-Cutting Authorities
@@ -59,7 +61,7 @@ The dispatcher writes standard Markdown plus a conversion profile beside each so
 🚧 **GATE**: Step 1 complete; source content is ready (Markdown, direct text, or requirements described in conversation).
 
 ```bash
-python3 ${CAPABILITY_ROOT}/runtime/presentation.py init <absolute_project_path_YYYYMMDD>
+python3 ${CAPABILITY_ROOT}/runtime/presentation.py --session <project-session> init <absolute_project_path_YYYYMMDD>
 python3 ${CAPABILITY_ROOT}/runtime/native/project_manager.py import-sources <project_path> <source_files_or_dirs...>   # skip when content is only in conversation; another project's files are copied unless --move
 ```
 
@@ -244,7 +246,7 @@ Read the core as one batch with the exact detail files named by the retained `sp
 |---|---|
 | Fresh, resumed, restarted, compacted, or externally changed context | `design_spec.md`, then `spec_lock.md`, once, plus triggered references and the latest completed SVG when mid-deck ([`failure-recovery.md`](governance/failure-recovery.md)) |
 | Bounded same-context repair that preserves roster/order/identity/communication | Only the affected fragment readback plus `project_manager.py validate` |
-| **Five-page lock re-read** — after P05, P10, P15, … when another page follows | `spec_lock.md` in full once before the next page: a pure re-anchor of palette, typography, icon style, and `page_rhythm` under long context, with no checker run, no output, no pause, and no repair loop; an external change found here follows the recovery branch |
+| **Five-page lock re-read** — after P05, P10, P15, … when another page follows | The retained lock summary plus its current content hash; reread changed or missing sections before the next page: a pure re-anchor of palette, typography, icon style, and `page_rhythm` under long context, with no checker run, no output, no pause, and no repair loop; an external change found here follows the recovery branch |
 | §X records a literal script | The frozen `notes/total.md` once before P01; design each visible state around its segment |
 | Missing `spec_lock.md` or `design_spec.md` | Stop and report the missing gate artifact; recover through [`failure-recovery.md`](governance/failure-recovery.md) §3; a missing field in an existing lock → its §2 |
 
@@ -380,3 +382,9 @@ A delivered project that comes back with a change stays in this route; planning 
 - [x] `svg_final/` preview built
 - [x] Native PPTX published and postflight report written
 - [ ] **Next**: report the exported PPTX path; when the effective Narration Audio outcome in `design_spec.md §I` is enabled, run [`generate-audio`](optional-media.md); otherwise run a supporting post-export stage only on its explicit trigger
+
+## Session-selected execution
+
+Follow `.design-brain/runtime/TOKEN_EFFICIENT_CONTINUITY.md` from the plugin root. New canonical production starts the existing runtime with `start --task <exact-task> --workflow-profile efficient-v1 --output-dir <project-session> --json`. Main and the same Engineer each run the returned `contextCommand` and read full applicable sources. Use `workflowCommands[role].nativePrefix` for every operation exposed by `presentation.py`; append the original operation and arguments without changing feature requirements. This prefix includes `--session <project-session>`, so efficient-v1 actually selects bounded output and same-invocation evidence. `--full` explicitly restores the full-compatible console receipt; old/unbound callers remain legacy and existing `--summary` still works. Advanced native tools/flags without a wrapper operation retain their original command and evidence contract; do not drop features to force a wrapper route. Full-JSON machine consumers and the unchanged SDK internal log consumer must not receive summary as their legacy receipt.
+
+Keep the controller session distinct from a new native workspace (for example `<project-session>/native/deck_YYYYMMDD`); `init` must receive a nonexistent target. Init/import captures use the existing controller session, avoiding output collision. A successful operation is not creative or final approval. Receipts identify selected profile/reason, actual argv/cwd, invocation, exit/termination and exact raw-byte pointers. Timeout, output-limit or incomplete capture requires reconciliation before retry.

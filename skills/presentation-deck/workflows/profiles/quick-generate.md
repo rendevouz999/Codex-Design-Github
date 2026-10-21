@@ -78,7 +78,7 @@ A book-length converted source is located by its heading index and searched phra
 | **Free design** — no exact root | Use the explicit requested size or standing PPTX default from `../PPTX_SIZE_POLICY.md`. A bare template name, brand mention, style phrase, or vague request to pick a template is brief input, not a workspace reference. |
 
 ```bash
-python3 ${CAPABILITY_ROOT}/runtime/presentation.py init <absolute_project_path_YYYYMMDD> --mode quick
+python3 ${CAPABILITY_ROOT}/runtime/presentation.py --session <project-session> init <absolute_project_path_YYYYMMDD> --mode quick
 python3 ${CAPABILITY_ROOT}/runtime/native/project_manager.py import-sources \
   <project_path> <source_files_or_dirs...> [<converted_outputs...>] \
   [projects/<research_slug>.md projects/<research_slug>.facts.json]
@@ -185,7 +185,7 @@ Read the execution core together, never file by file: [`shared-standards-core.md
 
 **Per-page anchors**: apply the core-message, typography-role, color, body-frame, density, and composition anchors from §2 while authoring. When `notes/total.md` was frozen, keep each page's segment in view so its visible state and direct-root groups support the spoken words without copying the script into body text.
 
-**Canvas**: [PPTX_SIZE_POLICY.md](../PPTX_SIZE_POLICY.md) owns new PPTX size: explicit current user size, otherwise `ppt169onscreen`, 10 × 5.625 inches landscape and `viewBox="0 0 960 540"`. Initialize through `runtime/presentation.py init <absolute_project_YYYYMMDD> --mode quick` to persist the contract. This overrides older template-canvas fallback wording in §2; adapt a different template before authoring unless the user explicitly adopts its size. Every page matches the contract; the first SVG cannot silently replace it. Filenames use one zero-padded width for the roster (`01_cover.svg` … `12_end.svg`, or three digits). Never leave pages from another run in `svg_output/` — the exporter publishes everything it finds.
+**Canvas**: [PPTX_SIZE_POLICY.md](../PPTX_SIZE_POLICY.md) owns new PPTX size: explicit current user size, otherwise `ppt169onscreen`, 10 × 5.625 inches landscape and `viewBox="0 0 960 540"`. Initialize through `runtime/presentation.py --session <project-session> init <absolute_project_YYYYMMDD> --mode quick` to persist the contract. This overrides older template-canvas fallback wording in §2; adapt a different template before authoring unless the user explicitly adopts its size. Every page matches the contract; the first SVG cannot silently replace it. Filenames use one zero-padded width for the roster (`01_cover.svg` … `12_end.svg`, or three digits). Never leave pages from another run in `svg_output/` — the exporter publishes everything it finds.
 
 **PPTX structure**: speed never flattens template structure.
 
@@ -202,7 +202,7 @@ A Style never strips structure; only an explicit instruction to use the workspac
 
 **Cadence**: when the planned roster has seven or more pages, run the §4 final-check command with `--stage early` in place of `--stage final` (same flags otherwise) after P05 and before P06, repair under the consolidated-pass discipline of [`executor-base.md`](../../design/native/executor-base.md) §3, and continue; six or fewer pages skip the early gate. After every page exists, run the one final checker in §4. Every checker invocation follows a gate point (early or final, all covered pages written) or one consolidated repair pass; validating an authoring pattern early is not a reason. Use other stages only when their capability is needed.
 
-**Hard rule — page authoring stays with the main agent** ([`executor-base.md`](../../design/native/executor-base.md) §3). This is not a resume protocol: if the context is lost before delivery, start a clean Quick run.
+**Authoring and recovery**: Main may assign bounded authoring to the single authorized Engineer under [`executor-base.md`](../../design/native/executor-base.md) §3. On context loss, reconcile the explicit project/session checkpoint and current slide sources; recover valid work and continue unfinished units. Do not restart the complete Quick run merely because context was compacted. Missing or stale evidence requires targeted recovery, never inferred PASS.
 
 ---
 
@@ -254,3 +254,11 @@ python3 ${CAPABILITY_ROOT}/runtime/native/svg_to_pptx.py <project_path> --quick-
 - [x] One native PPTX exists under `exports/` or the explicit output path; no Strategist, confirmation, root Design Spec, or lock artifact was created
 - [ ] **Next**: report the base PPTX and any narrated PPTX, MP4, or capture-ready handoff, plus the resolved mode, visual style, and image sources actually used; for every no-AI replan, report the affected job, attempted path, concrete error, replacement carrier, and that retaining AI imagery requires repairing generation capability and a new Quick run
 ```
+
+## Session-selected execution
+
+Follow `.design-brain/runtime/TOKEN_EFFICIENT_CONTINUITY.md` from the plugin root. New canonical production starts the existing runtime with `start --task <exact-task> --workflow-profile efficient-v1 --output-dir <project-session> --json`. Main and the same Engineer each run the returned `contextCommand` and read full applicable sources. Use `workflowCommands[role].nativePrefix` for every operation exposed by `presentation.py`; append the original operation and arguments without changing feature requirements. This prefix includes `--session <project-session>`, so efficient-v1 actually selects bounded output and same-invocation evidence. `--full` explicitly restores the full-compatible console receipt; old/unbound callers remain legacy and existing `--summary` still works. Advanced native tools/flags without a wrapper operation retain their original command and evidence contract; do not drop features to force a wrapper route. Full-JSON machine consumers and the unchanged SDK internal log consumer must not receive summary as their legacy receipt.
+
+Keep the controller session distinct from a new native workspace (for example `<project-session>/native/deck_YYYYMMDD`); `init` must receive a nonexistent target. Init/import captures use the existing controller session, avoiding output collision. A successful operation is not creative or final approval. Receipts identify selected profile/reason, actual argv/cwd, invocation, exit/termination and exact raw-byte pointers. Timeout, output-limit or incomplete capture requires reconciliation before retry.
+
+Session loading manifests/checkpoints and existing QA/provenance are continuity evidence, not a substitute strategy/spec or permission to restart unknown writes. On context loss read current checkpoint/constraints/unknown operations, use a new role epoch, reconcile identities and continue the bounded task through the same Engineer. This session contract supersedes older Quick wording that loses the roster on resume.

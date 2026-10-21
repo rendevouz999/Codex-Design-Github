@@ -232,7 +232,7 @@ def read(root, record_id, revision=None, verify=False):
     return {"status": status, "record": record, "next_action": "Repair stale/missing evidence and obtain Main review." if status == "UNVERIFIED" else "Use the recorded status as context; evidence currency does not grant creative PASS."}
 
 
-def browse(root, command="list", query=None, kinds=None, record_id=None, limit=20, offset=0):
+def browse(root, command="list", query=None, kinds=None, record_id=None, limit=20, offset=0, full=False):
     need(type(limit) is int and 1 <= limit <= 100 and type(offset) is int and offset >= 0, "limit must be 1..100; offset must be non-negative")
     if command == "search":
         bounded_text(query, "query", 256)
@@ -266,7 +266,7 @@ def browse(root, command="list", query=None, kinds=None, record_id=None, limit=2
             for item in matches():
                 if offset <= total - 1 < offset + limit:
                     selected.append(item)
-        output = [decode_row(row, root) for _, row in selected]
+        output = [decode_row(row, root, full=full) for _, row in selected]
     return {"status": "FOUND" if output else "NOT_FOUND", "records": output, "total": total,
             "offset": offset, "limit": limit, "next_offset": offset + limit if offset + limit < total else None,
             "coverage": "Relevance search is not complete layout history. List every applicable kind=layout_case page before originality review.",

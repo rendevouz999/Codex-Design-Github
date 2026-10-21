@@ -80,8 +80,28 @@ class Fixture:
                                          'source_sha256': f['source']['sha256'], 'check_id': c['id'], 'check_sha256': vi.digest(c),
                                          'view_ids': list(set(sequence)), 'actual_views': actual, 'verdict': 'pass',
                                          'observation': 'Synthetic fixture observation: colored source pixels and crop boundaries agree.'})
+        # Build an actual synthetic whole-frame contact sheet for this structural
+        # test. It exercises the FINAL Main-overview binding, not product QA.
+        frames = []
+        for frame in m['frames']:
+            with Image.open(frame['source']['path']) as image:
+                frames.append(image.convert('RGB').copy())
+        contact = Image.new('RGB', (max(f.width for f in frames), sum(f.height for f in frames)), 'white')
+        y = 0
+        for frame in frames:
+            contact.paste(frame, (0, y)); y += frame.height
+        overview_path = self.root / 'test-only-final-deck-overview.png'
+        contact.save(overview_path)
+        with Image.open(overview_path) as observed:
+            assert observed.size == contact.size and observed.getpixel((0, 0)) == contact.getpixel((0, 0))
         m['main_approval'] = {'verdict': 'accept', 'artifact_sha256': m['artifact']['sha256'],
-                              'check_set_sha256': vi.digest(m['checks']), 'reason': 'Synthetic regression acceptance only; no product-quality claim.'}
+                              'check_set_sha256': vi.digest(m['checks']), 'reason': 'Synthetic regression acceptance only; no product-quality claim.',
+                              'deck_overview': {'artifact_sha256': m['artifact']['sha256'],
+                                  'slide_order': [frame['id'] for frame in m['frames']],
+                                  'view': vi.file_ref(overview_path), 'actually_viewed': True,
+                                  'tool': 'host_image_tool', 'viewed_at': (timestamp + timedelta(minutes=2)).isoformat(),
+                                  'evidence_note': 'TEST ONLY contact sheet pixels opened and compared, not real Main product review.',
+                                  'continuity_assessment': 'TEST ONLY: prepared frames are represented in their declared sequence, without a creative judgement.'}}
         self.write(m)
 
     def verify(self, **kwargs):
@@ -127,6 +147,15 @@ class InspectionTests(unittest.TestCase):
         self.complete(); r = self.f.verify()
         self.assertEqual((r['status'], r['evidence_status'], r['review_status']), ('PASS', 'VERIFIED', 'MAIN_ACCEPTED'))
         self.assertIn('do not cryptographically prove', r['limitation'])
+
+    def test_current_main_approval_without_fresh_deck_overview_is_rejected(self):
+        self.complete()
+        accepted = self.f.read()
+        accepted['main_approval'].pop('deck_overview')
+        self.f.write(accepted)
+        result = self.f.verify()
+        self.assertEqual(result['status'], 'FAIL')
+        self.assertTrue(any('Main overview' in message for message in result['issues']))
 
     def test_original_pixels_nested_mapping_independent_scales(self):
         other = Fixture(size=(3, 7))
